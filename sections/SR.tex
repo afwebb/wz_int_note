@@ -1,0 +1,31 @@
+
+The regions used in the fit are summarized in table \ref{tab:regions}.
+
+\begin{table}[h]
+\centering
+\caption{A list of the regions used in the fit and the selection used for each.}
+\begin{tabular}{l|l}
+\hline\hline
+Region & Selection  	      \\
+\hline
+\hline
+1j, <85\%	& $N_{jets}$ = 1, jet MV2c10 < 85\%		      \\
+1j, 85\%-77\%	& $N_{jets}$ = 1, 85\% < jet MV2c10 < 77\% 		      \\
+1j, 77\%-70\%	& $N_{jets}$ = 1, 77\% < jet MV2c10 < 70\% 		      \\
+1j, 70\%-60\%	& $N_{jets}$ = 1, 70\% < jet MV2c10 < 60\% 		      \\
+1j, >60\%	& $N_{jets}$ = 1, jet MV2c10 > 85\%, tZ BDT score > 0.03 \\
+tZ CR	& $N_{jets}$ = 1, jet MV2c10 > 85\% WP, tZ BDT score < 0.03 \\
+2j, <85\%	& $N_{jets}$ = 2, jet MV2c10 score < 85\% WP		      \\
+2j, 85\%-77\%	& $N_{jets}$ = 2, 85\% WP < jet MV2c10 score < 77\% WP		      \\
+2j, 77\%-70\%	& $N_{jets}$ = 2, 77\% WP < jet MV2c10 score < 70\% WP		      \\
+\hline\hline
+\end{tabular}
+\label{tab:regions}
+\end{table}
+
+The working points discussed in section \ref{subsec:bjets} are used to separate events into fit regions based on the highest working point reached by a jet in each event. Because the background composition differs significantly based on the number of b-jets, events are further subdivided into 1 jet and 2 jet regions in order to minimize the impact of background uncertainties. 
+
+The two jet regions which fall within the tightest MV2c10 working points, between 70\%-60\% and 60\%, are left out of the fit. These regions are found to be dominated by leptonically decaying $t\bar{t}$ with an additional fake lepton. Because these regions add little statistical significance to the measurement while introducing large systematic uncertainties because of the prescence of a fake lepton, these regions are not included.
+
+An additional tZ control region is created based on the BDT described in section \ref{sec:tZ_bdt}. The region with 1-jet passing the 60\% working point is split in two - a signal enriched region of events with a BDT score greater than 0.03, and a tZ control region including events with less than 0.03. This cutoff is arrived at by performing an Asimov fit with a variety of cutoffs, and selecting the value that produces the highest significance for the measurement of $WZ$ + b. 
+

@@ -1,0 +1,28 @@
+\BOOKMARK [1][-]{section.1}{Changes and outstanding items}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Changelog}{section.1}% 2
+\BOOKMARK [3][-]{subsubsection.1.1.1}{Changes relative to v2}{subsection.1.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.1.2}{Changes relative to v1}{subsection.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.2}{Outstanding Items}{section.1}% 5
+\BOOKMARK [1][-]{section.2}{Introduction}{}% 6
+\BOOKMARK [1][-]{section.3}{Data and Monte Carlo Samples}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Data Samples}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Monte Carlo Samples}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Object Reconstruction}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{Trigger}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.2}{Light leptons}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.3}{Jets}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.4}{B-tagged Jets}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.5}{Missing transverse energy}{section.4}% 15
+\BOOKMARK [1][-]{section.5}{Event Selection}{}% 16
+\BOOKMARK [2][-]{subsection.5.1}{Signal Region Validation}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.2}{Non-Prompt Lepton Estimation}{section.5}% 18
+\BOOKMARK [3][-]{subsubsection.5.2.1}{tbart Validation}{subsection.5.2}% 19
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Z+jets Validation}{subsection.5.2}% 20
+\BOOKMARK [1][-]{section.6}{tZ Interference Studies and Separation Multivariate Analysis}{}% 21
+\BOOKMARK [2][-]{subsection.6.1}{Interference Studies}{section.6}% 22
+\BOOKMARK [2][-]{subsection.6.2}{Top Mass Reconstruction}{section.6}% 23
+\BOOKMARK [2][-]{subsection.6.3}{tZ BDT}{section.6}% 24
+\BOOKMARK [1][-]{section.7}{Signal Region Definitions}{}% 25
+\BOOKMARK [1][-]{section.8}{Systematic Uncertainties}{}% 26
+\BOOKMARK [1][-]{section.9}{Results}{}% 27
+\BOOKMARK [1][-]{section.10}{Conclusion}{}% 28

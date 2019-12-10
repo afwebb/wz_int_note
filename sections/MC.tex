@@ -1,0 +1,61 @@
+
+Both data and Monte Carlo samples used in this analysis were prepared in the \verb|xAOD| format, which was used to produce a \verb|DxAOD| sample in the \verb|HIGG8D1| derivation framework. The \verb|HIGG8D1| framework is designed for the $t\bar{t}H$ multi-lepton| analysis, which targets events with multiple leptons as well as tau hadrons. This framework skims the dataset to remove unneeded variables as well as entire events. Events are removed from the derivations that do not meet the following selection:
+
+\begin{itemize}
+    \item at least two light leptons within a range $|\eta|$<2.6, with leading lepton $p_{T}$ > 15 GeV and subleading lepton $p_{T}$ > 5 GeV
+    \item at least one light lepton with $p_{T}$ > 15 GeV within a range $|\eta|$<2.6, and at least two hadronic taus with $p_{T}$ > 15 GeV.
+\end{itemize}
+
+Samples were then generated from these \verb|HIGG8D1| derivations using a modified version of AnalysisTop version 21.2.36.
+
+\subsection{Data Samples}
+
+The study uses a sample of proton-proton collision data collected by the ATLAS detector from 2015 through 2018 at an energy of $\sqrt{s} = 13$ TeV, which represents an integrated luminosity of 140 $fb^{-1}$. The data set was collected with a bunch crossing rate of 25 ns. All data used in this analysis was verified by data quality checks, having been included in the following Good Run Lists: 
+\begin{itemize}
+    \item data15\_13TeV.periodAllYear\_DetStatus-v79-repro20-02\_DQDefects-00-02-02\\\_PHYS\_StandardGRL\_All\_Good\_25ns.xml
+    \item data16\_13TeV.periodAllYear\_DetStatus-v88-pro20-21\_DQDefects-00-02-04\\\_PHYS\_StandardGRL\_All\_Good\_25ns.xml 
+    \item data17\_13TeV.periodAllYear\_DetStatus-v97-pro21-13\_Unknown\_PHYS\_StandardGRL\\\_All\_Good\_25ns\_Triggerno17e33prim.xml 
+    \item data18\_13TeV.periodAllYear\_DetStatus-v102-pro22-04\_Unknown\_PHYS\_StandardGRL\\\_All\_Good\_25ns\_Triggerno17e33prim.xml
+\end{itemize}
+
+\subsection{Monte Carlo Samples}
+
+Several different generators were used to produce Monte Carlo simulations of the signal and background processes. For all samples, the response of the ATLAS detector is simulated using Geant4. The WZ signal samples are simulated using Sherpa 2.2.2 \cite{sherpa}. Specific information about the Monte Carlo samples being used can be found in table \ref{tbl:evgen}.
+
+
+\begin{table}[H]
+\begin{center}
+\caption{\label{tbl:evgen} The configurations used for event generation of signal and background processes, including the event generator, matrix element (ME) order, parton shower algorithm, and parton distribution functin (PDF). }
+ \resizebox{\textwidth}{!}{
+\begin{tabular}{llllll}
+\hline\hline
+Process & Event generator & ME order & Parton Shower & PDF   \\
+\hline
+$VV$, & \textsc{Sherpa} 2.2.2
+& MEPS NLO & \textsc{Sherpa} & CT10 \\
+$t Z$ & \textsc{MG5\_aMC} & LO & \textsc{Pythia} 6  & CTEQ6L1  \\
+$\ttbar W$ & \textsc{MG5\_aMC} & NLO & \textsc{Pythia} 8 & NNPDF 3.0 NLO \\
+& (\textsc{Sherpa} 2.1.1) & (LO multileg) & (\textsc{Sherpa}) & (NNPDF 3.0 NLO)  \\
+$\ttbar (Z/\gamma^* \to ll)$ & \textsc{MG5\_aMC} & NLO & \textsc{Pythia} 8 & NNPDF 3.0 NLO  \\
+$t\bar{t}H$ & \textsc{MG5\_aMC} & NLO & \textsc{Pythia} 8\ & NNPDF 3.0 NLO \cite{Ball:2014uwa} \\
+     & (\textsc{MG5\_aMC}) & (NLO) & (\textsc{Herwig++}) & (CT10 \cite{ct10})  \\
+$tHqb$ & \textsc{MG5\_aMC} & LO & \textsc{Pythia} 8 & CT10  \\
+$tHW$ & \textsc{MG5\_aMC} & NLO & \textsc{Herwig++}  & CT10  \\
+& (\textsc{Sherpa} 2.1.1) & (LO multileg) & (\textsc{Sherpa}) & (NNPDF 3.0 NLO)  \\
+$t W Z$ & \textsc{MG5\_aMC} & NLO & \textsc{Pythia} 8 & NNPDF 2.3 LO   \\
+$t\bar t t$, $t\bar t t\bar t$ & \textsc{MG5\_aMC} & LO & \textsc{Pythia} 8 & NNPDF 2.3 LO  \\
+$t\bar t W^+ W^-$ & \textsc{MG5\_aMC} & LO & \textsc{Pythia} 8 & NNPDF 2.3 LO\\
+$\ttbar$ & \textsc{Powheg-BOX v2} \cite{powhegtt} & NLO & \textsc{Pythia} 8 & NNPDF 3.0 NLO  \\
+$\ttbar\gamma$ & \textsc{MG5\_aMC} & LO & \textsc{Pythia} 8 & NNPDF 2.3 LO \\
+$s$-, $t$-channel, & \textsc{Powheg-BOX v1} \cite{powhegstp}& NLO & \textsc{Pythia} 6 & CT10 \\
+ $Wt$ single top & & & &  \\
+$qqVV$, $VVV$ & &   \\
+$Z \to l^+l^-$ & \textsc{Sherpa} 2.2.1 & MEPS NLO  & \textsc{Sherpa} & NNPDF 3.0 NLO \\
+\hline\hline
+\end{tabular}
+}
+\end{center}
+\end{table}
+
+\input{sampleList.tex}
+

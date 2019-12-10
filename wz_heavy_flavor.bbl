@@ -1,0 +1,592 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{none/global/}
+    \entry{WZ_36}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=a4f573dac388f6a04cb89dde8c311bd3}{%
+           family={Aaboud},
+           familyi={A\bibinitperiod},
+           given={Morad},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{50a697332ec8ff7cfd64a3c7cb8c47eb}
+      \strng{fullhash}{50a697332ec8ff7cfd64a3c7cb8c47eb}
+      \strng{authornamehash}{50a697332ec8ff7cfd64a3c7cb8c47eb}
+      \strng{authorfullhash}{50a697332ec8ff7cfd64a3c7cb8c47eb}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Lett.}
+      \field{title}{{Observation of electroweak $W^{\pm}Z$ boson pair production in association with two jets in $pp$ collisions at $\sqrt{s} =$ 13 TeV with the ATLAS detector}}
+      \field{volume}{B793}
+      \field{year}{2019}
+      \field{pages}{469\bibrangedash 492}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1016/j.physletb.2019.05.012
+      \endverb
+      \verb{eprint}
+      \verb 1812.09740
+      \endverb
+    \endentry
+    \entry{sherpa}{article}{}
+      \name{author}{7}{}{%
+        {{hash=0fae53ee2502128c6831e8c273a9e252}{%
+           family={Gleisberg},
+           familyi={G\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9d49c1affbe1e005144ec62e10fb799b}{%
+           family={Hoeche},
+           familyi={H\bibinitperiod},
+           given={Stefan.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=25553add78a99a9267790b2a52842ba4}{%
+           family={Krauss},
+           familyi={K\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=633eb44dc4dba2632ffcf865ce4f1c59}{%
+           family={Schonherr},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1f857c30d4d40400ae9ad53048224c89}{%
+           family={Schumann},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=022ac9dd759c3ebbe89dd4e2ba4da48a}{%
+           family={Siegert},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=fe7f94c38159942f970401dbb22dad80}{%
+           family={Winter},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ae2f61d167929afdd82590a335a0b43}
+      \strng{fullhash}{4630ba201ea1f13b519c12d61514b9e0}
+      \strng{authornamehash}{1ae2f61d167929afdd82590a335a0b43}
+      \strng{authorfullhash}{4630ba201ea1f13b519c12d61514b9e0}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP}
+      \field{title}{{Event generation with SHERPA 1.1}}
+      \field{volume}{02}
+      \field{year}{2009}
+      \field{pages}{007}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1126-6708/2009/02/007
+      \endverb
+      \verb{eprint}
+      \verb 0811.4622
+      \endverb
+    \endentry
+    \entry{ATLAS-CONF-2016-024}{booklet}{}
+      \name{author}{1}{}{%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{{ATLAS-CONF-2016-024}}
+      \field{title}{{Electron efficiency measurements with the ATLAS detector using the 2015 LHC proton--proton collision data}}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://cds.cern.ch/record/2157687
+      \endverb
+    \endentry
+    \entry{PERF-2014-05}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Eur. Phys. J. C}
+      \field{title}{{Measurement of the muon reconstruction performance of the ATLAS detector using 2011 and 2012 LHC proton--proton collision data}}
+      \field{volume}{74}
+      \field{year}{2014}
+      \field{pages}{3130}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-014-3130-x
+      \endverb
+      \verb{eprint}
+      \verb 1407.3935
+      \endverb
+    \endentry
+    \entry{ttH_paper}{report}{}
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{number}{ATLAS-CONF-2017-077}
+      \field{title}{{Evidence for the associated production of the Higgs boson and a top quark pair with the ATLAS detector}}
+      \field{type}{techreport}
+      \field{year}{2017}
+      \verb{url}
+      \verb https://cds.cern.ch/record/2291405
+      \endverb
+    \endentry
+    \entry{ATL-PHYS-PUB-2015-015}{booklet}{}
+      \name{author}{1}{}{%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{{ATL-PHYS-PUB-2015-015}}
+      \field{title}{{Jet Calibration and Systematic Uncertainties for Jets Reconstructed in the ATLAS Detector at $\sqrt{s} = 13\;\mbox{TeV}$}}
+      \field{year}{2015}
+      \verb{url}
+      \verb https://cds.cern.ch/record/2037613
+      \endverb
+    \endentry
+    \entry{ATLAS-CONF-2015-029}{booklet}{}
+      \name{author}{1}{}{%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{{ATLAS-CONF-2015-029}}
+      \field{title}{{Selection of jets produced in $13\;\mbox{TeV}$ proton--proton collisions with the ATLAS detector}}
+      \field{year}{2015}
+      \verb{url}
+      \verb https://cds.cern.ch/record/2037702
+      \endverb
+    \endentry
+    \entry{PERF-2014-03}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Eur. Phys. J. C}
+      \field{title}{{Performance of pile-up mitigation techniques for jets in $pp$ collisions at $\sqrt{s} = 8\;\mbox{TeV}$ using the ATLAS detector}}
+      \field{volume}{76}
+      \field{year}{2016}
+      \field{pages}{581}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-016-4395-z
+      \endverb
+      \verb{eprint}
+      \verb 1510.03823
+      \endverb
+    \endentry
+    \entry{ATL-PHYS-PUB-2015-027}{booklet}{}
+      \name{author}{1}{}{%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{{ATL-PHYS-PUB-2015-027}}
+      \field{title}{{Performance of missing transverse momentum reconstruction with the ATLAS detector in the first proton--proton collisions at $\sqrt{s} = 13\;\mbox{TeV}$}}
+      \field{year}{2015}
+      \verb{url}
+      \verb https://cds.cern.ch/record/2037904
+      \endverb
+    \endentry
+    \entry{TMVA_guide}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6562855056735f86103f0b6cee3e2923}{%
+           family={A.\bibnamedelimi Hoecker},
+           familyi={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={P.\bibnamedelimi Speckmayer},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{6562855056735f86103f0b6cee3e2923}
+      \strng{fullhash}{6562855056735f86103f0b6cee3e2923}
+      \strng{authornamehash}{6562855056735f86103f0b6cee3e2923}
+      \strng{authorfullhash}{6562855056735f86103f0b6cee3e2923}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv:physics/0703039}
+      \field{title}{{TMVA 4 Toolkit for Multivariate Data Analysis with ROOT}}
+      \field{year}{2013}
+    \endentry
+    \entry{ttZ_paper}{article}{}
+      \name{author}{32}{}{%
+        {{hash=dcddcff0bb61bec7e3893e68b068aabd}{%
+           family={Cardillo},
+           familyi={C\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=64dfe9b70a2d83124bdc792788995a53}{%
+           family={Mccarthy},
+           familyi={M\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f4cafe0dd8061b5d7c80bb9e29253fe5}{%
+           family={Babal},
+           familyi={B\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b4443aaee6b638204e994fdba5f15842}{%
+           family={Bartos},
+           familyi={B\bibinitperiod},
+           given={Pavol},
+           giveni={P\bibinitperiod}}}%
+        {{hash=910b1b68a506107ed278ab7b005e07cb}{%
+           family={Ta},
+           familyi={T\bibinitperiod},
+           given={Duc\bibnamedelima Bao},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=9930f6a04e276114915bb7635ba6b219}{%
+           family={Biebel},
+           familyi={B\bibinitperiod},
+           given={Otmar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=812beaf92d41bba7d1cfd3c82fbde52a}{%
+           family={Bierwagen},
+           familyi={B\bibinitperiod},
+           given={Katharina},
+           giveni={K\bibinitperiod}}}%
+        {{hash=948412f5ff39ee64db9af1ff103365a5}{%
+           family={Dubovsky},
+           familyi={D\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2bdd25f1a0d719e185641cd1b8f52764}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Meirin\bibnamedelima Oan},
+           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=e143cad6d887b5dff549c405ae7cc464}{%
+           family={Fabbri},
+           familyi={F\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=392ad853caeb612604a9c838a88741b3}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Florian\bibnamedelima Christoph},
+           giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=ca4c01c720baaeeda0a158729f8e25fb}{%
+           family={Howarth},
+           familyi={H\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5d44748d0eef8c0508d0e715ed0a73d6}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={Philip\bibnamedelima David},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=dc8750eba7d1aab885d83ba070b8852a}{%
+           family={Macdonald},
+           familyi={M\bibinitperiod},
+           given={Calum\bibnamedelima Michael},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7f146077d126d3e49c80101b87504a3c}{%
+           family={Ravina},
+           familyi={R\bibinitperiod},
+           given={Baptiste},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3e8837007aca76e0ee978b9f1445c6a5}{%
+           family={Owen},
+           familyi={O\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a90126b22fff102bae14c0f0e112c6d1}{%
+           family={Mince},
+           familyi={M\bibinitperiod},
+           given={Laurynas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1d6b437fe1b710f491b82a9829f6cad8}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=eba206b017140f57eb5c5bf4c2c3b937}{%
+           family={Shaw},
+           familyi={S\bibinitperiod},
+           given={Kate},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4cb61c298ed8bf0bc4d404cfa96ce75c}{%
+           family={Stevenson},
+           familyi={S\bibinitperiod},
+           given={Thomas\bibnamedelima James},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9b100f6863af1e27b35e98ce63202211}{%
+           family={Menke},
+           familyi={M\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=35ee4d174683176dbab98a14ca07a207}{%
+           family={Wagner-kuhr},
+           familyi={W\bibinithyphendelim k\bibinitperiod},
+           given={Jeannine},
+           giveni={J\bibinitperiod}}}%
+        {{hash=654a8066dcdec0c4b86fc000a46c5e19}{%
+           family={Nellist},
+           familyi={N\bibinitperiod},
+           given={Clara},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6c0a66bd051a8a801f06fd456dcf2c1b}{%
+           family={Protopopescu},
+           familyi={P\bibinitperiod},
+           given={Serban},
+           giveni={S\bibinitperiod}}}%
+        {{hash=af5f570c3651a5f4b94859a3c8abee79}{%
+           family={Racko},
+           familyi={R\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0b98dcf729d56c6b98c5420e00499bb7}{%
+           family={Schulte},
+           familyi={S\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9f9c1e16c145a1e1b5c59d831738b39a}{%
+           family={Shaikh},
+           familyi={S\bibinitperiod},
+           given={Nabila\bibnamedelima Wahab},
+           giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=fa772160928387efe1e6e37901076a30}{%
+           family={Sjoelin},
+           familyi={S\bibinitperiod},
+           given={Joergen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2dcf67114ea2e1927d5665855198f48f}{%
+           family={Lopez\bibnamedelima Solis},
+           familyi={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Alvaro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f9a407337a7fb8c5dbe88b0ba80ace2d}{%
+           family={Tokar},
+           familyi={T\bibinitperiod},
+           given={Stano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=457bdfc2256a70fe499f5a06a1ff760f}{%
+           family={Vivarelli},
+           familyi={V\bibinitperiod},
+           given={Iacopo},
+           giveni={I\bibinitperiod}}}%
+        {{hash=7a705c74ba59d0e0d28f39e949a8a184}{%
+           family={Moreno\bibnamedelima Llacer},
+           familyi={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \strng{namehash}{8205afbb616a72a1f9d85ee74fc2004d}
+      \strng{fullhash}{245b7b2fc3c1d24443a723fdedc9e163}
+      \strng{authornamehash}{8205afbb616a72a1f9d85ee74fc2004d}
+      \strng{authorfullhash}{245b7b2fc3c1d24443a723fdedc9e163}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{number}{ATL-COM-PHYS-2019-334}
+      \field{title}{{Measurement of the fiducial and differential cross-section of a top quark pair in association with a Z boson at 13 TeV with the ATLAS detector}}
+      \field{year}{2019}
+      \verb{url}
+      \verb https://cds.cern.ch/record/2672207
+      \endverb
+    \endentry
+    \entry{lumi}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Eur. Phys. J. C}
+      \field{title}{{Luminosity determination in $pp$ collisions at $\sqrt{s} = 7\;\mbox{TeV}$ using the ATLAS detector at the LHC}}
+      \field{volume}{71}
+      \field{year}{2011}
+      \field{pages}{1630}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-011-1630-5
+      \endverb
+      \verb{eprint}
+      \verb 1101.2185
+      \endverb
+    \endentry
+    \entry{jes}{article}{}
+      \name{author}{4}{}{%
+        {{hash=9ecfda666f0459b6c19c8c962038a023}{%
+           family={Aad},
+           familyi={A\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2ed13db12d6c87c33097ca8881ad9282}{%
+           family={Abajyan},
+           familyi={A\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7a99d977d7f839f1386ca659f8f9505a}{%
+           family={Abbott},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=c4b12c788d52a4ea109e98f5758529ae}{%
+           family={{etal}},
+           familyi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae55f906ac43ce98f52f0b2b76f11197}
+      \strng{fullhash}{be5730149185af71f437280391cfd313}
+      \strng{authornamehash}{ae55f906ac43ce98f52f0b2b76f11197}
+      \strng{authorfullhash}{be5730149185af71f437280391cfd313}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The measurement of the jet energy resolution is presented using data recorded with the ATLAS detector in proton-proton collisions at {\$}{\backslash}sqrt{\{}s{\}}=7{\backslash}mbox{\{} TeV{\}}{\$} . The sample corresponds to an integrated luminosity of 35 pb−1. Jets are reconstructed from energy deposits measured by the calorimeters and calibrated using different jet calibration schemes. The jet energy resolution is measured with two different in situ methods which are found to be in agreement within uncertainties. The total uncertainties on these measurements range from 20 {\%} to 10 {\%} for jets within |y|<2.8 and with transverse momenta increasing from 30 GeV to 500 GeV. Overall, the Monte Carlo simulation of the jet energy resolution agrees with the data within 10 {\%}.}
+      \field{issn}{1434-6052}
+      \field{journaltitle}{The European Physical Journal C}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Jet energy resolution in proton-proton collisions at $\sqrt{s}$ = 7 TeV recorded in 2010 with the ATLAS detector}
+      \field{volume}{73}
+      \field{year}{2013}
+      \field{pages}{2306}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-013-2306-0
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1140/epjc/s10052-013-2306-0
+      \endverb
+    \endentry
+    \entry{btag_cal}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a3364242a05dc5a80a93fa55804031af}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={ATLAS},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3364242a05dc5a80a93fa55804031af}
+      \strng{fullhash}{a3364242a05dc5a80a93fa55804031af}
+      \strng{authornamehash}{a3364242a05dc5a80a93fa55804031af}
+      \strng{authorfullhash}{a3364242a05dc5a80a93fa55804031af}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The identification of jets containing b hadrons is important for the physics programme of the ATLAS experiment at the Large Hadron Collider. Several algorithms to identify jets containing b hadrons are described, ranging from those based on the reconstruction of an inclusive secondary vertex or the presence of tracks with large impact parameters to combined tagging algorithms making use of multi-variate discriminants. An independent b -tagging algorithm based on the reconstruction of muons inside jets as well as the b -tagging algorithm used in the online trigger are also presented. The b -jet tagging efficiency, the c -jet tagging efficiency and the mistag rate for light flavour jets in data have been measured with a number of complementary methods. The calibration results are presented as scale factors defined as the ratio of the efficiency (or mistag rate) in data to that in simulation. In the case of b jets, where more than one calibration method exists, the results from the various analyses have been combined taking into account the statistical correlation as well as the correlation of the sources of systematic uncertainty.}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{number}{04}
+      \field{title}{Performance of b -jet identification in the ATLAS experiment}
+      \field{volume}{11}
+      \field{year}{2016}
+      \field{pages}{P04008}
+      \range{pages}{-1}
+      \verb{url}
+      \verb http://stacks.iop.org/1748-0221/11/i=04/a=P04008
+      \endverb
+    \endentry
+  \endsortlist
+  \missing{ct10}
+  \missing{Ball:2014uwa}
+  \missing{powhegstp}
+  \missing{powhegtt}
+\endrefsection
+\endinput
+

@@ -1,0 +1,176 @@
+
+The systematic uncertainties that are considered are summarized in table \ref{tab:systematics}. These are implemented in the fit either as a normalization factors or as a shape variation or both in the signal and background estimations. The numerical impact of each of these uncertainties is outlined in section \ref{sec:results}.
+
+\begin{table}[h]
+\centering
+\caption{Sources of systematic uncertainty considered in the analysis.}
+\begin{tabular}{lr}
+\hline\hline
+Systematic uncertainty & Components  	      \\
+\hline
+\hline
+Luminosity	& 1		      \\
+Pileup reweighting 	& 1		      \\
+\textbf {Physics Objects}     	&		      \\
+\ \ Electron                               	& 6		      \\
+\ \ Muon	& 15		      \\
+\ \ Jet energy scale and resolution  	& 28                  \\
+\ \ Jet vertex fraction  	& 1		      \\
+\ \ Jet flavor tagging   	& 131		      \\
+\ \ $E^{miss}_T$  	& 3		      \\
+\hline
+Total (Experimental)        & 186		     \\
+\hline
+\hline
+\textbf {Background Modeling}          	&		      \\
+\ \ Cross section                 	& 24		      \\
+\ \ Renormalization and factorization scales 	& 10		      \\
+\ \ Parton shower and hadronization model       	& 2		      \\
+\ \ Shower tune				& 4		      \\
+\hline
+Total (Signal and background modeling)       & 40		     \\
+\hline\hline
+Total (Overall)                             & 226	      \\
+\hline\hline
+\end{tabular}
+\label{tab:SystSummary}
+\end{table}
+
+The uncertainty in the combined integrated luminosity is derived from a calibration of the luminosity scale performed in August 2015 and May 2016 \cite{lumi}.
+
+The experimental uncertainties are related to the reconstruction and identification of light leptons and b-tagging of jets, and to the reconstruction of $E^{miss}_T$. The sources which contribute to the uncertainty in the jet energy scale \cite{jes} are decomposed into uncorrelated components and treated as independent sources in the analysis. 
+
+The uncertainties in the b-tagging efficiencies measured in dedicated calibration analyses \cite{btag_cal} are also decomposed into uncorrelated components. The large number of components for b-tagging is due to the calibration of the distribution of the BDT discriminant.  
+
+The systematic uncertainties associated with the signal and background processes are accounted for by varying the cross-section of each process within its uncertainty.
+
+The full list of systematic uncertainties considered in the analysis is summarized in tables
+\ref{Tab:LeptonExperimentalSyst}, \ref{Tab:JetsExperimentalSyst} and \ref{Tab:BTagExperimentalSyst}.
+
+\hspace{-1in}\begin{table}[H]
+  \begin{center}
+    {\small
+    \begin{tabular}{|llcl|}
+      \hline
+      \multicolumn{4}{|c|}{\bf Experimental Systematics on Leptons and $E_T^{miss}$} \\
+     % \hline
+      Type     & Description  & Systematics Name & Application \\
+     \hline
+     \hline
+     \multicolumn{4}{|c|}{\bf{Trigger}}\\
+     \hline
+    Scale Factors    & Trigger Efficiency        & lepSFTrigTight$\_$MU(EL)$\_$SF$\_$Trigger$\_$STAT(SYST)    & Event Weight      \\
+      \hline
+      \multicolumn{4}{|c|}{\bf{Muons}} \\
+      \hline
+      Efficiencies   & Reconstruction and        & lepSFObjTight$\_$MU$\_$SF$\_$ID$\_$STAT(SYST)              & Event Weight       \\
+     & Identification    &       &        \\
+      & Isolation                 &       lepSFObjTight$\_$MU$\_$SF$\_$Isol$\_$STAT(SYST)            & Event Weight       \\
+         & Track To Vertex   	 & lepSFObjTight$\_$MU$\_$SF$\_$TTVA$\_$STAT(SYST )           & Event Weight       \\
+    & Association  		 &   							      &           \\
+     \pt Scale   & \pt Scale & MUONS$\_$SCALE    & \pt Correction     \\
+     &   &   &           \\
+      Resolution     & Inner Detector            & MUONS$\_$ID        					      & \pt Correction     \\
+         & Energy Resolution      	 &     &         \\
+    & Muon Spectrometer    	 & MUONS$\_$MS      & \pt Correction     \\
+     & Energy Resolution         &       &        \\
+     &   &   &         \\
+     \hline
+     \multicolumn{4}{|c|}{\bf{Electrons}}\\
+     \hline
+     Efficiencies    & Reconstruction       	 & lepSFObjTight$\_$EL$\_$SF$\_$ID  			      & Event Weight   	    \\
+     & Identification   & lepSFObjTight$\_$EL$\_$SF$\_$Reco       		      & Event Weight            \\
+        & Isolation                 & lepSFObjTight$\_$EL$\_$SF$\_$Isol      		      & Event Weight        \\
+       &   &   &          \\
+     Scale Factor    & Energy  Scale             & EG$\_$SCALE$\_$ALL  					      & Energy Correction    \\
+         	     &   &   &          \\
+     Resolution      & Energy Resolution  	 & EG$\_$RESOLUTION$\_$ALL      			      & Energy Correction     \\
+         	     &   &   &             \\
+     \hline
+     \multicolumn{4}{|c|}{\bf{$E_T^{miss}$}}\\
+     \hline
+     Soft Tracks Terms         &             Resolution                   &      MET$\_$SoftTrk$\_$ResoPerp       &   \pt Correction  \\
+                               &             Resolution                   &      MET$\_$SoftTrk$\_$ResoPara        &    \pt Correction    \\
+                               &             Scale                        &      MET$\_$SoftTrk$\_$ScaleUp         &   \pt Correction     \\
+                               &             Scale                        &      MET$\_$SoftTrk$\_$ScaleDown         &   \pt Correction     \\
+
+     \hline
+     
+    \end{tabular}
+   }
+   \caption{\label{Tab:LeptonExperimentalSyst} Summary of experimental systematics considered for leptons and $E_T^{miss}$. Includes type, description, name of systematic as used in the fit, and mode of application. The mode of application indicates the systematic evaluation, e.g. as an  overall event re-weighting (Event Weight) or rescaling (\pt Correction).}
+  \end{center}
+\end{table}
+
+
+\begin{table}[H]
+  \begin{center}
+    {\small
+    \begin{tabular}{|llcc|}
+      \hline
+      \multicolumn{4}{|c|}{\bf Experimental Systematics on Jets} \\
+      \hline
+      Type     & Origin   & Systematics Name  & Application \\
+      \hline
+      Jet Vertex Tagger         &     & JVT      &        Event Weight          \\
+     	&   &   &     \\
+      Energy Scale              & Calibration Method              & JET$\_$21NP$\_$           &      \pt Correction         \\
+       &   & JET$\_$EffectiveNP$\_$1-19     &    \pt Correction  \\
+       &   &   &       \\
+        & $\eta$ inter-calibration        & JET$\_$EtaIntercalibration$\_$Modelling    & \pt Correction          \\
+     &                                 & JET$\_$EtaIntercalibration$\_$NonClosure   & \pt Correction      \\
+     &                                 & JET$\_$EtaIntercalibration$\_$TotalStat    & \pt Correction      \\
+    &   &   &        \\
+     & High \pt jets                   & JET$\_$SingleParticle$\_$HighPt         &     \pt Correction             \\
+     	&   &   &           \\
+        & Pile-Up                         & JET$\_$Pileup$\_$OffsetNPV            &     \pt Correction             \\
+        &       & JET$\_$Pileup$\_$OffsetMu             &     \pt Correction               \\
+        &        & JET$\_$Pileup$\_$PtTerm       &     \pt Correction         \\
+        &                                         & JET$\_$Pileup$\_$RhoTopology      &     \pt Correction             \\
+    	&   &   &            \\
+          & Non Closure                     & JET$\_$PunchThrough$\_$MC15    & \pt Correction    \\
+    	&   &   &       \\
+         & Flavour                         & JET$\_$Flavor$\_$Response          &   \pt Correction            \\
+     &         & JET$\_$BJES$\_$Response          &   \pt Correction           \\
+           &                                 & JET$\_$Flavor$\_$Composition        &    \pt Correction             \\
+         	&   &   &          \\
+      Resolution         	&                                 & JET$\_$JER$\_$SINGLE$\_$NP          &  Event Weight       \\
+        			&   &   &          \\
+        			
+    \hline
+
+     \end{tabular}
+    }
+    \caption{\label{Tab:JetsExperimentalSyst} Jet systematics take into account effects of jets calibration method, $\eta$ inter-calibration, high \pt jets, pile-up, and flavor response. They are all diagonalised into effective parameters.}
+ \end{center}
+\end{table}
+
+\begin{table}[H]
+  \begin{center}
+    {\small
+    \begin{tabular}{|llc|}
+      \hline
+     \multicolumn{3}{|c|}{\bf Experimental Systematics on b-tagging} \\
+      \hline
+      Type     & Origin   & Systematic Name \\
+     \hline
+     &   &                \\
+      Scale Factors & MV2c10 b-tagger efficiency & MC2c10$\_$Continuous$\_$EventWeight$\_$B0-29 \\
+      &    on b originated jets in bins of $\eta$  &   \\
+      &   &                \\
+      &    MC2c10 b-tagger efficiency & MC2c10$\_$Continuous$\_$EventWeight$\_$C0-19  \\
+      &    on c originated jets in bins of $\eta$    &     \\
+      &   &   \\
+      &    MC2c10 b-tagger efficiency & MC2c10$\_$Continuous$\_$EventWeight$\_$Light0-79           \\
+      &    on light flavoured originated jets         &   \\
+     &     in bins of $\eta$ and \pt      &    \\
+         &   &             \\
+     &    MC2c10 b-tagger                        & MC2c10$\_$Continuous$\_$EventWeight$\_$extrapolation  \\
+     &    extrapolation efficiency    &         MC2c10$\_$Continuous$\_$EventWeight$\_$extrapolation$\_$from$\_$charm             \\
+     \hline
+    \end{tabular}
+    }
+    \caption{\label{Tab:BTagExperimentalSyst} Summary of experimental systematics to be included for $b$-tagging of jets in the analysis, using the continuous MC2c10 tagging algorithm. All of the b-tagging related systematics are applied as event weights. From left: type, description, and the name of systematic used in the fit.}
+  \end{center}
+\end{table}
+

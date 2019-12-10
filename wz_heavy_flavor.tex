@@ -1,0 +1,250 @@
+%-------------------------------------------------------------------------------
+% This file provides a skeleton ATLAS note.
+% \pdfinclusioncopyfonts=1
+% This command may be needed in order to get \ell in PDF plots to appear. Found in
+% https://tex.stackexchange.com/questions/322010/pdflatex-glyph-undefined-symbols-disappear-from-included-pdf
+%-------------------------------------------------------------------------------
+% Specify where ATLAS LaTeX style files can be found.
+\newcommand*{\ATLASLATEXPATH}{latex/}
+% Use this variant if the files are in a central location, e.g. $HOME/texmf.
+% \newcommand*{\ATLASLATEXPATH}{}
+%-------------------------------------------------------------------------------
+%\documentclass[USenglish,texlive=2016,cernpreprint,NOTE,paper=A4]{\ATLASLATEXPATH atlasdoc}
+\documentclass[NOTE, atlasdraft=true, texlive=2016, UKenglish]{\ATLASLATEXPATH atlasdoc}
+\usepackage{float}
+\usepackage{euler}\usepackage{pgf}
+%\usepackage[backend=biber]{biblatex}
+%\usepackage{natbib}
+\usepackage{geometry}
+\usepackage{pdflscape}
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+% The language of the document must be set: usually UKenglish or USenglish.
+% british and american also work!
+% Commonly used options:
+%  atlasdraft=true|false This document is an ATLAS draft.
+%  texlive=YYYY          Specify TeX Live version (2016 is default).
+%  coverpage             Create ATLAS draft cover page for collaboration circulation.
+%                        See atlas-draft-cover.tex for a list of variables that should be defined.
+%  cernpreprint          Create front page for a CERN preprint.
+%                        See atlas-preprint-cover.tex for a list of variables that should be defined.
+%  NOTE                  The document is an ATLAS note (draft).
+%  PAPER                 The document is an ATLAS paper (draft).
+%  CONF                  The document is a CONF note (draft).
+%  PUB                   The document is a PUB note (draft).
+%  BOOK                  The document is of book form, like an LOI or TDR (draft)
+%  txfonts=true|false    Use txfonts rather than the default newtx
+%  paper=a4|letter       Set paper size to A4 (default) or letter.
+
+%-------------------------------------------------------------------------------
+% Extra packages:
+%\usepackage{\ATLASLATEXPATH atlaspackage}
+\usepackage[subfigure]{\ATLASLATEXPATH atlaspackage}
+%\usepackage[biblatex=false]{\ATLASLATEXPATH atlaspackage}
+% Commonly used options:
+%  biblatex=true|false   Use biblatex (default) or bibtex for the bibliography.
+%  backend=bibtex        Use the bibtex backend rather than biber.
+%  subfigure|subfig|subcaption  to use one of these packages for figures in figures.
+%  minimal               Minimal set of packages.
+%  default               Standard set of packages.
+%  full                  Full set of packages.
+%-------------------------------------------------------------------------------
+% Style file with biblatex options for ATLAS documents.
+%\usepackage[biblatex=true]{\ATLASLATEXPATH atlasbiblatex}
+
+% Package for creating list of authors and contributors to the analysis.
+\usepackage{\ATLASLATEXPATH atlascontribute}
+
+% Useful macros
+\usepackage{\ATLASLATEXPATH atlasphysics}
+% See doc/atlas_physics.pdf for a list of the defined symbols.
+% Default options are:
+%   true:  journal, misc, particle, unit, xref
+%   false: BSM, heppparticle, hepprocess, hion, jetetmiss, math, process, other, texmf
+% See the package for details on the options.
+
+% Files with references for use with biblatex.
+% Note that biber gives an error if it finds empty bib files.
+\addbibresource{wz_heavy_flavor.bib}
+\addbibresource{bib/ATLAS.bib}
+\addbibresource{bib/CMS.bib}
+\addbibresource{bib/ConfNotes.bib}
+\addbibresource{bib/PubNotes.bib}
+
+% Paths for figures - do not forget the / at the end of the directory name.
+\graphicspath{{logos/}{figures/}}
+
+% Add you own definitions here (file wz_heavy_flavor-defs.sty).
+\usepackage{wz_heavy_flavor-defs}
+
+%-------------------------------------------------------------------------------
+% Generic document information
+%-------------------------------------------------------------------------------
+
+% Title, abstract and document 
+\input{wz_heavy_flavor-metadata}
+% Author and title for the PDF file
+\hypersetup{pdftitle={ATLAS document},pdfauthor={The ATLAS Collaboration}}
+
+%-------------------------------------------------------------------------------
+% Content
+%-------------------------------------------------------------------------------
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+% List of contributors - print here or after the Bibliography.
+%\PrintAtlasContribute{0.30}
+\clearpage
+
+%------------------------------------------------------------------------------
+\section{Changes and outstanding items}
+\label{sec:changes}
+%------------------------------------------------------------------------------
+
+\subsection{Changelog}
+
+This is version 3
+
+\subsubsection{Changes relative to v2}
+
+\begin{itemize}
+    \item Included a section on tZ interference effects, \ref{subsec:interference}. 
+    \item 
+\end{itemize}
+
+\subsubsection{Changes relative to v1}
+
+\begin{itemize}
+    \item Added GRL list
+    \item Fixed latex issue in line 92, typo in line 172
+    \item Added tables \ref{tbl:selection} and \ref{tbl:tightleps}, summarizing the event and object selection
+    \item Added table \ref{tab:dsids}, which includes the DSID of samples used
+    \item Included reference to WZ inclusive paper in introduction
+\end{itemize}
+
+\subsection{Outstanding Items}
+
+\begin{itemize}
+    \item Include new Madgraph WZjj VBS samples - currently using Sherpa, which is missing b-jet diagrams
+    \item Move to updated 2018 data and MC recommendations
+    \item Understand data/MC discrepancies, likely from fake contribution. Possibly move to data driven fakes
+    \item Investigate VVV samples, ensure no overlap with WZjj samples
+    \item Include selection to reject events with a fourth soft lepton to reduce ZZ->llll contribution
+    \item Add details on top mass reconstruction, specifically to justify choices made
+\end{itemize}
+
+
+
+\clearpage
+
+%-------------------------------------------------------------------------------
+\section{Introduction}
+\label{sec:intro}
+\input{sections/intro}
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+\section{Data and Monte Carlo Samples}
+\label{sec:data}
+\input{sections/MC}
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+\section{Object Reconstruction}
+\label{sec:obj}
+\input{sections/reco}
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+\section{Event Selection}
+\label{sec:evt_selection}
+\input{sections/evtSel}
+%-------------------------------------------------------------------------------
+
+%------------------------------------------------------------------------------- 
+\section{tZ Interference Studies and Separation Multivariate Analysis}
+\label{sec:tZ_bdt}
+\input{sections/tZ}
+%------------------------------------------------------------------------------- 
+
+%-------------------------------------------------------------------------------
+\section{Signal Region Definitions}
+\label{sec:signal_region}
+\input{sections/SR}
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+\section{Systematic Uncertainties}
+\label{sec:sys}
+\input{sections/sys}
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+\section{Results}
+\label{sec:results}
+\input{sections/results}
+%-------------------------------------------------------------------------------    
+
+%------------------------------------------------------------------------------
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+A measurement of $WZ$ + heavy flavor is performed using 140 $fb^{-1}$ of $\sqrt{s} = 13$ TeV proton-proton collision data collected by the ATLAS detector at the LHC. \textbf{This section will be include final results once unblinded.}%A best fit value of X is observed.   
+
+%-------------------------------------------------------------------------------
+% If you use biblatex and either biber or bibtex to process the bibliography
+% just say \printbibliography here
+\printbibliography
+% If you want to use the traditional BibTeX you need to use the syntax below.
+%\bibliographystyle{bib/bst/atlasBibStyleWithTitle}
+%\bibliography{wz_heavy_flavor,bib,ATLAS,bib/CMS,bib/ConfNotes,bib/PubNotes}
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+% Print the list of contributors to the analysis
+% The argument gives the fraction of the text width used for the names
+%-------------------------------------------------------------------------------
+%\clearpage
+%\PrintAtlasContribute{0.30}
+
+\iffalse
+%-------------------------------------------------------------------------------
+\clearpage
+\appendix
+\part*{Appendices}
+\addcontentsline{toc}{part}{Appendices}
+%-------------------------------------------------------------------------------
+
+\section{Top Mass Reconstruction}
+\label{sec:topMass}
+
+The top quark is reconstructed from the jet, lepton not included in the Z-candidate, and reconstructed neutrino. Since the selection requires exactly one jet in the event, there is only possible b-jet candidate. 
+
+The neutrino from the W decay is expected to be the only source of $E_T^{miss}$. Therefore, the $E_T$ and $\phi$ of the neutrino are taken from the $E_T^{miss}$ measurement. This leaves the z-component of the neutrino momentum, $p_{\nu z}$ as the only unknown. 
+
+This unknown is solved for by taking the combined invariant mass of the lepton and neutrino to give the invariant mass of the $W$ boson:
+
+\begin{center}
+   $(p_l + p_{\nu})^2 = m_W^2$ \\ 
+\end{center} 
+
+Written in terms of four-vectors, this equation gives:
+
+The reconstructed top mass distribution for tZ and $WZ$ + b can be seen in figure \ref{fig:topMass}:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{tZ_bdt/topMass.eps}
+    \caption{Reconstructed top mass distributions for tZ and $WZ$ + b, measured in MeV.}
+    \label{fig:topMass}
+\end{figure}
+
+%--------------------------------------
+
+\fi
+
+
+\end{document}
