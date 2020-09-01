@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  26 AUG 2020 11:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  1 SEP 2020 11:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2908,37 +2908,40 @@ Overfull \hbox (0.36421pt too wide) in paragraph at lines 18--19
 wn_PHYS_StandardGRL 
  []
 
+
+LaTeX Warning: Reference `tbl:dsids' on page 5 undefined on input line 23.
+
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 56.
-[5] (./sampleList.tex
+(Font)              scaled to size 10.95pt on input line 55.
+[5]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1.
+               Default added (so using `tbp') on input line 59.
 
-)) (./sections/reco.tex
+) (./sections/reco.tex
 
 LaTeX Warning: Reference `sec:signal_region' on page 6 undefined on input line 
 2.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 32.
+(Font)              scaled to size 7.3pt on input line 38.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 32.
+(Font)              scaled to size 5.5pt on input line 38.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 32.
+(Font)              scaled to size 8.99994pt on input line 38.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 6.56995pt on input line 32.
+(Font)              scaled to size 6.56995pt on input line 38.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 4.94997pt on input line 32.
+(Font)              scaled to size 4.94997pt on input line 38.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 32.
+(Font)              scaled to size 10.0pt on input line 38.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 7.3pt on input line 32.
+(Font)              scaled to size 7.3pt on input line 38.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 5.5pt on input line 32.
+(Font)              scaled to size 5.5pt on input line 38.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 32.
+(Font)              size <5> substituted on input line 38.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2948,47 +2951,55 @@ as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.40 
+l.46 
      ] [7pdfTeX warning (ext4): destination with the same identifier (name{tabl
 e.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.79 
-     ] [8pdfTeX warning (ext4): destination with the same identifier (name{tabl
-e.3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.84 
-     pdfTeX warning (ext4): destination with the same identifier (name{table.4}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.84 
-     ] <figures/DL1_output.pdf, id=114, 569.12625pt x 552.0625pt>
+l.85 
+     ] <figures/DL1_output.pdf, id=109, 569.12625pt x 552.0625pt>
 File: figures/DL1_output.pdf Graphic file (type pdf)
 
 <use figures/DL1_output.pdf>
-Package pdftex.def Info: figures/DL1_output.pdf used on input line 87.
+Package pdftex.def Info: figures/DL1_output.pdf used on input line 93.
 (pdftex.def)             Requested size: 225.8542pt x 219.08578pt.
- [9pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
- has been already used, duplicate ignored
+ [8pdfTeX warning (ext4): destination with the same identifier (name{table.3}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.109 
+l.97 
+     ] [9pdfTeX warning (ext4): destination with the same identifier (name{tabl
+e.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.115 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.115 
       pdfTeX warning (ext4): destination with the same identifier (name{table.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.109 
+l.115 
        <./figures/DL1_output.pdf>]) (./sections/evtSel.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 32.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.0pt on input line 32.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <6.1> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 32.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 6.1pt on input line 32.
 [10] (./all_b_yields.tex) [11pdfTeX warning (ext4): destination with the same i
 dentifier (name{table.6}) has been already used, duplicate ignored
 
@@ -3937,17 +3948,6 @@ ns/plots_2j_60_70/Plots/lep_Pt_0.png> <./figures/regions/plots_2j_60_70/Plots/l
 ep_Pt_1.png> <./figures/regions/plots_2j_60_70/Plots/lep_Pt_2.png> <./figures/r
 egions/plots_2j_60_70/Plots/MET.png> <./figures/regions/plots_2j_60_70/Plots/Ml
 l01.png>]
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 222.
-
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 222.
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <6.1> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 222.
-
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 6.1pt on input line 222.
-
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 222.
@@ -3966,215 +3966,92 @@ l.227
 plots_2j_60/Plots/lep_Pt_0.png> <./figures/regions/plots_2j_60/Plots/lep_Pt_1.p
 ng> <./figures/regions/plots_2j_60/Plots/lep_Pt_2.png> <./figures/regions/plots
 _2j_60/Plots/MET.png> <./figures/regions/plots_2j_60/Plots/Mll01.png>]
-Package epstopdf Info: Source file: <figures/ttbar/m3l.eps>
-(epstopdf)                    date: 2019-12-06 20:58:08
-(epstopdf)                    size: 2070202 bytes
-(epstopdf)             Output file: <figures/ttbar/m3l-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-20 12:27:52
-(epstopdf)                    size: 107521 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/ttbar/m3l-eps-conv
-erted-to.pdf figures/ttbar/m3l.eps>
-(epstopdf)             \includegraphics on input line 242.
-Package epstopdf Info: Output file is already uptodate.
+<figures/ttbar/m3l.png, id=639, 598.235pt x 674.52pt>
+File: figures/ttbar/m3l.png Graphic file (type png)
 
-<figures/ttbar/m3l-eps-converted-to.pdf, id=639, 569.12625pt x 641.39626pt>
-File: figures/ttbar/m3l-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/ttbar/m3l.png>
+Package pdftex.def Info: figures/ttbar/m3l.png used on input line 242.
+(pdftex.def)             Requested size: 200.76pt x 226.35928pt.
 
-<use figures/ttbar/m3l-eps-converted-to.pdf>
-Package pdftex.def Info: figures/ttbar/m3l-eps-converted-to.pdf used on input l
-ine 242.
-(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
-Package epstopdf Info: Source file: <figures/ttbar/HT.eps>
-(epstopdf)                    date: 2019-12-06 20:57:44
-(epstopdf)                    size: 2065854 bytes
-(epstopdf)             Output file: <figures/ttbar/HT-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-20 12:27:55
-(epstopdf)                    size: 105855 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/ttbar/HT-eps-conve
-rted-to.pdf figures/ttbar/HT.eps>
-(epstopdf)             \includegraphics on input line 243.
-Package epstopdf Info: Output file is already uptodate.
+<figures/ttbar/HT.png, id=640, 598.235pt x 674.52pt>
+File: figures/ttbar/HT.png Graphic file (type png)
 
-<figures/ttbar/HT-eps-converted-to.pdf, id=640, 569.12625pt x 641.39626pt>
-File: figures/ttbar/HT-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/ttbar/HT.png>
+Package pdftex.def Info: figures/ttbar/HT.png used on input line 243.
+(pdftex.def)             Requested size: 200.76pt x 226.35928pt.
 
-<use figures/ttbar/HT-eps-converted-to.pdf>
-Package pdftex.def Info: figures/ttbar/HT-eps-converted-to.pdf used on input li
-ne 243.
-(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
-Package epstopdf Info: Source file: <figures/ttbar/lead_jetPt.eps>
-(epstopdf)                    date: 2019-12-06 20:57:44
-(epstopdf)                    size: 2065700 bytes
-(epstopdf)             Output file: <figures/ttbar/lead_jetPt-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2020-08-20 12:27:58
-(epstopdf)                    size: 106155 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/ttbar/lead_jetPt-e
-ps-converted-to.pdf figures/ttbar/lead_jetPt.eps>
-(epstopdf)             \includegraphics on input line 244.
-Package epstopdf Info: Output file is already uptodate.
+<figures/ttbar/lead_jetPt.png, id=641, 598.235pt x 674.52pt>
+File: figures/ttbar/lead_jetPt.png Graphic file (type png)
 
-<figures/ttbar/lead_jetPt-eps-converted-to.pdf, id=641, 569.12625pt x 641.39626
-pt>
-File: figures/ttbar/lead_jetPt-eps-converted-to.pdf Graphic file (type pdf)
- <use figures/ttbar/lead_jetPt-eps-converted-to.pdf>
-Package pdftex.def Info: figures/ttbar/lead_jetPt-eps-converted-to.pdf used on 
-input line 244.
-(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
-Package epstopdf Info: Source file: <figures/ttbar/MET.eps>
-(epstopdf)                    date: 2019-12-06 20:58:08
-(epstopdf)                    size: 2071041 bytes
-(epstopdf)             Output file: <figures/ttbar/MET-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-20 12:28:00
-(epstopdf)                    size: 107729 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/ttbar/MET-eps-conv
-erted-to.pdf figures/ttbar/MET.eps>
-(epstopdf)             \includegraphics on input line 245.
-Package epstopdf Info: Output file is already uptodate.
+<use figures/ttbar/lead_jetPt.png>
+Package pdftex.def Info: figures/ttbar/lead_jetPt.png used on input line 244.
+(pdftex.def)             Requested size: 200.76pt x 226.35928pt.
 
-<figures/ttbar/MET-eps-converted-to.pdf, id=642, 569.12625pt x 641.39626pt>
-File: figures/ttbar/MET-eps-converted-to.pdf Graphic file (type pdf)
+<figures/ttbar/MET.png, id=642, 598.235pt x 674.52pt>
+File: figures/ttbar/MET.png Graphic file (type png)
 
-<use figures/ttbar/MET-eps-converted-to.pdf>
-Package pdftex.def Info: figures/ttbar/MET-eps-converted-to.pdf used on input l
-ine 245.
-(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
-Package epstopdf Info: Source file: <figures/ttbar/lep_Pt_0.eps>
-(epstopdf)                    date: 2019-12-06 20:57:54
-(epstopdf)                    size: 2067672 bytes
-(epstopdf)             Output file: <figures/ttbar/lep_Pt_0-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2020-08-20 12:28:03
-(epstopdf)                    size: 106727 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/ttbar/lep_Pt_0-eps
--converted-to.pdf figures/ttbar/lep_Pt_0.eps>
-(epstopdf)             \includegraphics on input line 249.
-Package epstopdf Info: Output file is already uptodate.
+<use figures/ttbar/MET.png>
+Package pdftex.def Info: figures/ttbar/MET.png used on input line 245.
+(pdftex.def)             Requested size: 200.76pt x 226.35928pt.
 
-<figures/ttbar/lep_Pt_0-eps-converted-to.pdf, id=643, 569.12625pt x 641.39626pt
->
-File: figures/ttbar/lep_Pt_0-eps-converted-to.pdf Graphic file (type pdf)
- <use figures/ttbar/lep_Pt_0-eps-converted-to.pdf>
-Package pdftex.def Info: figures/ttbar/lep_Pt_0-eps-converted-to.pdf used on in
-put line 249.
-(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
-Package epstopdf Info: Source file: <figures/ttbar/lep_Pt_1.eps>
-(epstopdf)                    date: 2019-12-06 20:57:56
-(epstopdf)                    size: 2065546 bytes
-(epstopdf)             Output file: <figures/ttbar/lep_Pt_1-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2020-08-20 12:28:06
-(epstopdf)                    size: 105881 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/ttbar/lep_Pt_1-eps
--converted-to.pdf figures/ttbar/lep_Pt_1.eps>
-(epstopdf)             \includegraphics on input line 250.
-Package epstopdf Info: Output file is already uptodate.
+<figures/ttbar/lep_Pt_0.png, id=643, 598.235pt x 674.52pt>
+File: figures/ttbar/lep_Pt_0.png Graphic file (type png)
 
-<figures/ttbar/lep_Pt_1-eps-converted-to.pdf, id=644, 569.12625pt x 641.39626pt
->
-File: figures/ttbar/lep_Pt_1-eps-converted-to.pdf Graphic file (type pdf)
- <use figures/ttbar/lep_Pt_1-eps-converted-to.pdf>
-Package pdftex.def Info: figures/ttbar/lep_Pt_1-eps-converted-to.pdf used on in
-put line 250.
-(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
-Package epstopdf Info: Source file: <figures/ttbar/lep_Pt_2.eps>
-(epstopdf)                    date: 2019-12-06 20:57:58
-(epstopdf)                    size: 2067844 bytes
-(epstopdf)             Output file: <figures/ttbar/lep_Pt_2-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2020-08-20 12:28:09
-(epstopdf)                    size: 106287 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/ttbar/lep_Pt_2-eps
--converted-to.pdf figures/ttbar/lep_Pt_2.eps>
-(epstopdf)             \includegraphics on input line 251.
-Package epstopdf Info: Output file is already uptodate.
+<use figures/ttbar/lep_Pt_0.png>
+Package pdftex.def Info: figures/ttbar/lep_Pt_0.png used on input line 249.
+(pdftex.def)             Requested size: 200.76pt x 226.35928pt.
 
-<figures/ttbar/lep_Pt_2-eps-converted-to.pdf, id=645, 569.12625pt x 641.39626pt
->
-File: figures/ttbar/lep_Pt_2-eps-converted-to.pdf Graphic file (type pdf)
- <use figures/ttbar/lep_Pt_2-eps-converted-to.pdf>
-Package pdftex.def Info: figures/ttbar/lep_Pt_2-eps-converted-to.pdf used on in
-put line 251.
-(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
-Package epstopdf Info: Source file: <figures/ttbar/Mll01.eps>
-(epstopdf)                    date: 2019-12-06 20:58:10
-(epstopdf)                    size: 2069282 bytes
-(epstopdf)             Output file: <figures/ttbar/Mll01-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-20 12:28:12
-(epstopdf)                    size: 107366 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/ttbar/Mll01-eps-co
-nverted-to.pdf figures/ttbar/Mll01.eps>
-(epstopdf)             \includegraphics on input line 252.
-Package epstopdf Info: Output file is already uptodate.
+<figures/ttbar/lep_Pt_1.png, id=644, 598.235pt x 674.52pt>
+File: figures/ttbar/lep_Pt_1.png Graphic file (type png)
 
-<figures/ttbar/Mll01-eps-converted-to.pdf, id=646, 569.12625pt x 641.39626pt>
-File: figures/ttbar/Mll01-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/ttbar/lep_Pt_1.png>
+Package pdftex.def Info: figures/ttbar/lep_Pt_1.png used on input line 250.
+(pdftex.def)             Requested size: 200.76pt x 226.35928pt.
 
-<use figures/ttbar/Mll01-eps-converted-to.pdf>
-Package pdftex.def Info: figures/ttbar/Mll01-eps-converted-to.pdf used on input
- line 252.
-(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+<figures/ttbar/lep_Pt_2.png, id=645, 598.235pt x 674.52pt>
+File: figures/ttbar/lep_Pt_2.png Graphic file (type png)
+
+<use figures/ttbar/lep_Pt_2.png>
+Package pdftex.def Info: figures/ttbar/lep_Pt_2.png used on input line 251.
+(pdftex.def)             Requested size: 200.76pt x 226.35928pt.
+
+<figures/ttbar/Mll01.png, id=646, 598.235pt x 674.52pt>
+File: figures/ttbar/Mll01.png Graphic file (type png)
+
+<use figures/ttbar/Mll01.png>
+Package pdftex.def Info: figures/ttbar/Mll01.png used on input line 252.
+(pdftex.def)             Requested size: 200.76pt x 226.35928pt.
  [28]
-Package epstopdf Info: Source file: <figures/ttbar/nJets_OR_T.eps>
-(epstopdf)                    date: 2019-12-06 20:58:14
-(epstopdf)                    size: 2051723 bytes
-(epstopdf)             Output file: <figures/ttbar/nJets_OR_T-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2020-08-20 12:28:14
-(epstopdf)                    size: 99075 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/ttbar/nJets_OR_T-e
-ps-converted-to.pdf figures/ttbar/nJets_OR_T.eps>
-(epstopdf)             \includegraphics on input line 256.
-Package epstopdf Info: Output file is already uptodate.
+<figures/ttbar/nJets_OR.png, id=651, 598.235pt x 674.52pt>
+File: figures/ttbar/nJets_OR.png Graphic file (type png)
 
-<figures/ttbar/nJets_OR_T-eps-converted-to.pdf, id=651, 569.12625pt x 641.39626
-pt>
-File: figures/ttbar/nJets_OR_T-eps-converted-to.pdf Graphic file (type pdf)
- <use figures/ttbar/nJets_OR_T-eps-converted-to.pdf>
-Package pdftex.def Info: figures/ttbar/nJets_OR_T-eps-converted-to.pdf used on 
-input line 256.
-(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+<use figures/ttbar/nJets_OR.png>
+Package pdftex.def Info: figures/ttbar/nJets_OR.png used on input line 256.
+(pdftex.def)             Requested size: 200.76pt x 226.35928pt.
 
+<figures/ttbar/nJets_OR_DL1r_70.png, id=652, 598.235pt x 674.52pt>
+File: figures/ttbar/nJets_OR_DL1r_70.png Graphic file (type png)
 
-LaTeX Warning: File `ttbar/nJets_OR_T_DL1r_70.eps' not found on input line 257.
-
-
-Package epstopdf Info: Source file: <ttbar/nJets_OR_T_DL1r_70.eps>
-(epstopdf)             Output file: <ttbar/nJets_OR_T_DL1r_70-eps-converted-to.
-pdf>
-(epstopdf)             Command: <repstopdf --outfile=ttbar/nJets_OR_T_DL1r_70-e
-ps-converted-to.pdf ttbar/nJets_OR_T_DL1r_70.eps>
-(epstopdf)             \includegraphics on input line 257.
-Package epstopdf Info: Output file is already uptodate.
-
-! Package pdftex.def Error: File `ttbar/nJets_OR_T_DL1r_70-eps-converted-to.pdf
-' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.257 ...textwidth]{ttbar/nJets_OR_T_DL1r_70.eps}}
-                                                  \\
-? 
-[29pdfTeX warning (ext4): destination with the same identifier (name{figure.17}
-) has been already used, duplicate ignored
+<use figures/ttbar/nJets_OR_DL1r_70.png>
+Package pdftex.def Info: figures/ttbar/nJets_OR_DL1r_70.png used on input line 
+257.
+(pdftex.def)             Requested size: 200.76pt x 226.35928pt.
+ [29pdfTeX warning (ext4): destination with the same identifier (name{figure.17
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.260 \end{figure}
-                   <./figures/ttbar/m3l-eps-converted-to.pdf> <./figures/ttbar/
-HT-eps-converted-to.pdf> <./figures/ttbar/lead_jetPt-eps-converted-to.pdf> <./f
-igures/ttbar/MET-eps-converted-to.pdf>] [30pdfTeX warning (ext4): destination w
-ith the same identifier (name{figure.18}) has been already used, duplicate igno
-red
+                   <./figures/ttbar/m3l.png> <./figures/ttbar/HT.png> <./figure
+s/ttbar/lead_jetPt.png> <./figures/ttbar/MET.png>] [30pdfTeX warning (ext4): de
+stination with the same identifier (name{figure.18}) has been already used, dup
+licate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.261 
-       <./figures/ttbar/lep_Pt_0-eps-converted-to.pdf> <./figures/ttbar/lep_Pt_
-1-eps-converted-to.pdf> <./figures/ttbar/lep_Pt_2-eps-converted-to.pdf> <./figu
-res/ttbar/Mll01-eps-converted-to.pdf>]
+       <./figures/ttbar/lep_Pt_0.png> <./figures/ttbar/lep_Pt_1.png> <./figures
+/ttbar/lep_Pt_2.png> <./figures/ttbar/Mll01.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 262.
@@ -4183,219 +4060,98 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 262.
 
-Package epstopdf Info: Source file: <figures/zjets/m3l.eps>
-(epstopdf)                    date: 2019-12-06 20:58:34
-(epstopdf)                    size: 2066440 bytes
-(epstopdf)             Output file: <figures/zjets/m3l-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-20 12:28:20
-(epstopdf)                    size: 104837 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/zjets/m3l-eps-conv
-erted-to.pdf figures/zjets/m3l.eps>
-(epstopdf)             \includegraphics on input line 269.
-Package epstopdf Info: Output file is already uptodate.
-<figures/zjets/m3l-eps-converted-to.pdf, id=855, 569.12625pt x 641.39626pt>
-File: figures/zjets/m3l-eps-converted-to.pdf Graphic file (type pdf)
+<figures/zjets/m3l.png, id=671, 598.235pt x 674.52pt>
+File: figures/zjets/m3l.png Graphic file (type png)
 
-<use figures/zjets/m3l-eps-converted-to.pdf>
-Package pdftex.def Info: figures/zjets/m3l-eps-converted-to.pdf used on input l
-ine 269.
-(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
-Package epstopdf Info: Source file: <figures/zjets/HT.eps>
-(epstopdf)                    date: 2019-12-06 20:58:22
-(epstopdf)                    size: 2067312 bytes
-(epstopdf)             Output file: <figures/zjets/HT-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-20 12:28:23
-(epstopdf)                    size: 105292 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/zjets/HT-eps-conve
-rted-to.pdf figures/zjets/HT.eps>
-(epstopdf)             \includegraphics on input line 270.
-Package epstopdf Info: Output file is already uptodate.
+<use figures/zjets/m3l.png>
+Package pdftex.def Info: figures/zjets/m3l.png used on input line 269.
+(pdftex.def)             Requested size: 200.76pt x 226.35928pt.
 
-<figures/zjets/HT-eps-converted-to.pdf, id=856, 569.12625pt x 641.39626pt>
-File: figures/zjets/HT-eps-converted-to.pdf Graphic file (type pdf)
+<figures/zjets/HT.png, id=672, 598.235pt x 674.52pt>
+File: figures/zjets/HT.png Graphic file (type png)
 
-<use figures/zjets/HT-eps-converted-to.pdf>
-Package pdftex.def Info: figures/zjets/HT-eps-converted-to.pdf used on input li
-ne 270.
-(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
-Package epstopdf Info: Source file: <figures/zjets/lead_jetPt.eps>
-(epstopdf)                    date: 2019-12-06 20:58:24
-(epstopdf)                    size: 2069471 bytes
-(epstopdf)             Output file: <figures/zjets/lead_jetPt-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2020-08-20 12:28:26
-(epstopdf)                    size: 106023 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/zjets/lead_jetPt-e
-ps-converted-to.pdf figures/zjets/lead_jetPt.eps>
-(epstopdf)             \includegraphics on input line 271.
-Package epstopdf Info: Output file is already uptodate.
+<use figures/zjets/HT.png>
+Package pdftex.def Info: figures/zjets/HT.png used on input line 270.
+(pdftex.def)             Requested size: 200.76pt x 226.35928pt.
 
-<figures/zjets/lead_jetPt-eps-converted-to.pdf, id=857, 569.12625pt x 641.39626
-pt>
-File: figures/zjets/lead_jetPt-eps-converted-to.pdf Graphic file (type pdf)
- <use figures/zjets/lead_jetPt-eps-converted-to.pdf>
-Package pdftex.def Info: figures/zjets/lead_jetPt-eps-converted-to.pdf used on 
-input line 271.
-(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
-Package epstopdf Info: Source file: <figures/zjets/MET.eps>
-(epstopdf)                    date: 2019-12-06 20:58:34
-(epstopdf)                    size: 2053153 bytes
-(epstopdf)             Output file: <figures/zjets/MET-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-20 12:28:28
-(epstopdf)                    size: 100241 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/zjets/MET-eps-conv
-erted-to.pdf figures/zjets/MET.eps>
-(epstopdf)             \includegraphics on input line 272.
-Package epstopdf Info: Output file is already uptodate.
+<figures/zjets/lead_jetPt.png, id=673, 598.235pt x 674.52pt>
+File: figures/zjets/lead_jetPt.png Graphic file (type png)
 
-<figures/zjets/MET-eps-converted-to.pdf, id=858, 569.12625pt x 641.39626pt>
-File: figures/zjets/MET-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/zjets/lead_jetPt.png>
+Package pdftex.def Info: figures/zjets/lead_jetPt.png used on input line 271.
+(pdftex.def)             Requested size: 200.76pt x 226.35928pt.
 
-<use figures/zjets/MET-eps-converted-to.pdf>
-Package pdftex.def Info: figures/zjets/MET-eps-converted-to.pdf used on input l
-ine 272.
-(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
-Package epstopdf Info: Source file: <figures/zjets/lep_Pt_0.eps>
-(epstopdf)                    date: 2019-12-06 20:58:28
-(epstopdf)                    size: 2072926 bytes
-(epstopdf)             Output file: <figures/zjets/lep_Pt_0-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2020-08-20 12:28:30
-(epstopdf)                    size: 106996 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/zjets/lep_Pt_0-eps
--converted-to.pdf figures/zjets/lep_Pt_0.eps>
-(epstopdf)             \includegraphics on input line 276.
-Package epstopdf Info: Output file is already uptodate.
+<figures/zjets/MET.png, id=674, 598.235pt x 674.52pt>
+File: figures/zjets/MET.png Graphic file (type png)
 
-<figures/zjets/lep_Pt_0-eps-converted-to.pdf, id=859, 569.12625pt x 641.39626pt
->
-File: figures/zjets/lep_Pt_0-eps-converted-to.pdf Graphic file (type pdf)
- <use figures/zjets/lep_Pt_0-eps-converted-to.pdf>
-Package pdftex.def Info: figures/zjets/lep_Pt_0-eps-converted-to.pdf used on in
-put line 276.
-(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
-Package epstopdf Info: Source file: <figures/zjets/lep_Pt_1.eps>
-(epstopdf)                    date: 2019-12-06 20:58:28
-(epstopdf)                    size: 2065190 bytes
-(epstopdf)             Output file: <figures/zjets/lep_Pt_1-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2020-08-20 12:28:33
-(epstopdf)                    size: 104201 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/zjets/lep_Pt_1-eps
--converted-to.pdf figures/zjets/lep_Pt_1.eps>
-(epstopdf)             \includegraphics on input line 277.
-Package epstopdf Info: Output file is already uptodate.
+<use figures/zjets/MET.png>
+Package pdftex.def Info: figures/zjets/MET.png used on input line 272.
+(pdftex.def)             Requested size: 200.76pt x 226.35928pt.
 
-<figures/zjets/lep_Pt_1-eps-converted-to.pdf, id=860, 569.12625pt x 641.39626pt
->
-File: figures/zjets/lep_Pt_1-eps-converted-to.pdf Graphic file (type pdf)
- <use figures/zjets/lep_Pt_1-eps-converted-to.pdf>
-Package pdftex.def Info: figures/zjets/lep_Pt_1-eps-converted-to.pdf used on in
-put line 277.
-(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
-Package epstopdf Info: Source file: <figures/zjets/lep_Pt_2.eps>
-(epstopdf)                    date: 2019-12-06 20:58:30
-(epstopdf)                    size: 2070017 bytes
-(epstopdf)             Output file: <figures/zjets/lep_Pt_2-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2020-08-20 12:28:35
-(epstopdf)                    size: 105835 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/zjets/lep_Pt_2-eps
--converted-to.pdf figures/zjets/lep_Pt_2.eps>
-(epstopdf)             \includegraphics on input line 278.
-Package epstopdf Info: Output file is already uptodate.
+<figures/zjets/lep_Pt_0.png, id=675, 598.235pt x 674.52pt>
+File: figures/zjets/lep_Pt_0.png Graphic file (type png)
 
-<figures/zjets/lep_Pt_2-eps-converted-to.pdf, id=861, 569.12625pt x 641.39626pt
->
-File: figures/zjets/lep_Pt_2-eps-converted-to.pdf Graphic file (type pdf)
- <use figures/zjets/lep_Pt_2-eps-converted-to.pdf>
-Package pdftex.def Info: figures/zjets/lep_Pt_2-eps-converted-to.pdf used on in
-put line 278.
-(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
-Package epstopdf Info: Source file: <figures/zjets/Mll01.eps>
-(epstopdf)                    date: 2019-12-06 20:58:36
-(epstopdf)                    size: 2069489 bytes
-(epstopdf)             Output file: <figures/zjets/Mll01-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-20 12:28:38
-(epstopdf)                    size: 106020 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/zjets/Mll01-eps-co
-nverted-to.pdf figures/zjets/Mll01.eps>
-(epstopdf)             \includegraphics on input line 279.
-Package epstopdf Info: Output file is already uptodate.
+<use figures/zjets/lep_Pt_0.png>
+Package pdftex.def Info: figures/zjets/lep_Pt_0.png used on input line 276.
+(pdftex.def)             Requested size: 200.76pt x 226.35928pt.
 
-<figures/zjets/Mll01-eps-converted-to.pdf, id=862, 569.12625pt x 641.39626pt>
-File: figures/zjets/Mll01-eps-converted-to.pdf Graphic file (type pdf)
+<figures/zjets/lep_Pt_1.png, id=676, 598.235pt x 674.52pt>
+File: figures/zjets/lep_Pt_1.png Graphic file (type png)
 
-<use figures/zjets/Mll01-eps-converted-to.pdf>
-Package pdftex.def Info: figures/zjets/Mll01-eps-converted-to.pdf used on input
- line 279.
-(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+<use figures/zjets/lep_Pt_1.png>
+Package pdftex.def Info: figures/zjets/lep_Pt_1.png used on input line 277.
+(pdftex.def)             Requested size: 200.76pt x 226.35928pt.
+
+<figures/zjets/lep_Pt_2.png, id=677, 598.235pt x 674.52pt>
+File: figures/zjets/lep_Pt_2.png Graphic file (type png)
+
+<use figures/zjets/lep_Pt_2.png>
+Package pdftex.def Info: figures/zjets/lep_Pt_2.png used on input line 278.
+(pdftex.def)             Requested size: 200.76pt x 226.35928pt.
+
+<figures/zjets/Mll01.png, id=678, 598.235pt x 674.52pt>
+File: figures/zjets/Mll01.png Graphic file (type png)
+
+<use figures/zjets/Mll01.png>
+Package pdftex.def Info: figures/zjets/Mll01.png used on input line 279.
+(pdftex.def)             Requested size: 200.76pt x 226.35928pt.
  [31pdfTeX warning (ext4): destination with the same identifier (name{figure.19
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.281 \end{figure}
-                   <./figures/ttbar/nJets_OR_T-eps-converted-to.pdf>]
+                   <./figures/ttbar/nJets_OR.png> <./figures/ttbar/nJets_OR_DL1
+r_70.png>] <figures/zjets/nJets_OR.png, id=688, 598.235pt x 674.52pt>
+File: figures/zjets/nJets_OR.png Graphic file (type png)
 
-LaTeX Warning: File `zjets/nJets_OR.eps' not found on input line 283.
+<use figures/zjets/nJets_OR.png>
+Package pdftex.def Info: figures/zjets/nJets_OR.png used on input line 283.
+(pdftex.def)             Requested size: 200.76pt x 226.35928pt.
 
-Package epstopdf Info: Source file: <zjets/nJets_OR.eps>
-(epstopdf)             Output file: <zjets/nJets_OR-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=zjets/nJets_OR-eps-convert
-ed-to.pdf zjets/nJets_OR.eps>
-(epstopdf)             \includegraphics on input line 283.
-Package epstopdf Info: Output file is already uptodate.
+<figures/zjets/nJets_OR_DL1r_70.png, id=689, 598.235pt x 674.52pt>
+File: figures/zjets/nJets_OR_DL1r_70.png Graphic file (type png)
 
-! Package pdftex.def Error: File `zjets/nJets_OR-eps-converted-to.pdf' not foun
-d.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.283 ...idth=0.48\textwidth]{zjets/nJets_OR.eps}}
-                                                  %
-? 
-
-LaTeX Warning: File `zjets/nJets_OR_DL1r_70.eps' not found on input line 284.
-
-Package epstopdf Info: Source file: <zjets/nJets_OR_DL1r_70.eps>
-(epstopdf)             Output file: <zjets/nJets_OR_DL1r_70-eps-converted-to.pd
-f>
-(epstopdf)             Command: <repstopdf --outfile=zjets/nJets_OR_DL1r_70-eps
--converted-to.pdf zjets/nJets_OR_DL1r_70.eps>
-(epstopdf)             \includegraphics on input line 284.
-Package epstopdf Info: Output file is already uptodate.
-
-! Package pdftex.def Error: File `zjets/nJets_OR_DL1r_70-eps-converted-to.pdf' 
-not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.284 ...8\textwidth]{zjets/nJets_OR_DL1r_70.eps}}
-                                                  \\
-? 
-[32pdfTeX warning (ext4): destination with the same identifier (name{figure.20}
-) has been already used, duplicate ignored
+<use figures/zjets/nJets_OR_DL1r_70.png>
+Package pdftex.def Info: figures/zjets/nJets_OR_DL1r_70.png used on input line 
+284.
+(pdftex.def)             Requested size: 200.76pt x 226.35928pt.
+ [32pdfTeX warning (ext4): destination with the same identifier (name{figure.20
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.287 \end{figure}
-                   <./figures/zjets/m3l-eps-converted-to.pdf> <./figures/zjets/
-HT-eps-converted-to.pdf> <./figures/zjets/lead_jetPt-eps-converted-to.pdf> <./f
-igures/zjets/MET-eps-converted-to.pdf>] [33pdfTeX warning (ext4): destination w
-ith the same identifier (name{figure.21}) has been already used, duplicate igno
-red
+                   <./figures/zjets/m3l.png> <./figures/zjets/HT.png> <./figure
+s/zjets/lead_jetPt.png> <./figures/zjets/MET.png>] [33pdfTeX warning (ext4): de
+stination with the same identifier (name{figure.21}) has been already used, dup
+licate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.288 
-       <./figures/zjets/lep_Pt_0-eps-converted-to.pdf> <./figures/zjets/lep_Pt_
-1-eps-converted-to.pdf> <./figures/zjets/lep_Pt_2-eps-converted-to.pdf> <./figu
-res/zjets/Mll01-eps-converted-to.pdf>]) (./sections/tZ.tex
+       <./figures/zjets/lep_Pt_0.png> <./figures/zjets/lep_Pt_1.png> <./figures
+/zjets/lep_Pt_2.png> <./figures/zjets/Mll01.png>]) (./sections/tZ.tex
 
 LaTeX Warning: Citation 'Madgraph' on page 34 undefined on input line 13.
 
@@ -4405,7 +4161,7 @@ LaTeX Warning: Citation 'Madgraph' on page 34 undefined on input line 13.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.14 
-     ]
+      <./figures/zjets/nJets_OR.png> <./figures/zjets/nJets_OR_DL1r_70.png>]
 Package epstopdf Info: Source file: <figures/tZInterference/lepPairMass23.eps>
 (epstopdf)                    date: 2019-12-11 14:30:23
 (epstopdf)                    size: 17053 bytes
@@ -4418,8 +4174,8 @@ PairMass23-eps-converted-to.pdf figures/tZInterference/lepPairMass23.eps>
 (epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/tZInterference/lepPairMass23-eps-converted-to.pdf, id=1105, 569.12625p
-t x 385.44pt>
+<figures/tZInterference/lepPairMass23-eps-converted-to.pdf, id=718, 569.12625pt
+ x 385.44pt>
 File: figures/tZInterference/lepPairMass23-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use figures/tZInterference/lepPairMass23-eps-converted-to.pdf>
@@ -4438,8 +4194,8 @@ d-to.pdf>
 (epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/tZInterference/lep1pt-eps-converted-to.pdf, id=1106, 569.12625pt x 385
-.44pt>
+<figures/tZInterference/lep1pt-eps-converted-to.pdf, id=719, 569.12625pt x 385.
+44pt>
 File: figures/tZInterference/lep1pt-eps-converted-to.pdf Graphic file (type pdf
 )
  <use figures/tZInterference/lep1pt-eps-converted-to.pdf>
@@ -4458,8 +4214,8 @@ l23-eps-converted-to.pdf figures/tZInterference/drll23.eps>
 (epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/tZInterference/drll23-eps-converted-to.pdf, id=1107, 569.12625pt x 385
-.44pt>
+<figures/tZInterference/drll23-eps-converted-to.pdf, id=720, 569.12625pt x 385.
+44pt>
 File: figures/tZInterference/drll23-eps-converted-to.pdf Graphic file (type pdf
 )
  <use figures/tZInterference/drll23-eps-converted-to.pdf>
@@ -4478,8 +4234,8 @@ t-eps-converted-to.pdf figures/tZInterference/btpt.eps>
 (epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/tZInterference/btpt-eps-converted-to.pdf, id=1108, 569.12625pt x 385.4
-4pt>
+<figures/tZInterference/btpt-eps-converted-to.pdf, id=721, 569.12625pt x 385.44
+pt>
 File: figures/tZInterference/btpt-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/tZInterference/btpt-eps-converted-to.pdf>
 Package pdftex.def Info: figures/tZInterference/btpt-eps-converted-to.pdf used 
@@ -4509,10 +4265,9 @@ f>
 (epstopdf)             \includegraphics on input line 66.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/tZ_bdt/topMass-eps-converted-to.pdf, id=1152, 462.72874pt x 347.2975pt
->
+<figures/tZ_bdt/topMass-eps-converted-to.pdf, id=765, 462.72874pt x 347.2975pt>
 File: figures/tZ_bdt/topMass-eps-converted-to.pdf Graphic file (type pdf)
- <use figures/tZ_bdt/topMass-eps-converted-to.pdf>
+<use figures/tZ_bdt/topMass-eps-converted-to.pdf>
 Package pdftex.def Info: figures/tZ_bdt/topMass-eps-converted-to.pdf used on in
 put line 66.
 (pdftex.def)             Requested size: 292.77632pt x 219.74185pt.
@@ -4534,8 +4289,8 @@ d_c1-eps-converted-to.pdf figures/tZ_bdt/variables_id_c1.eps>
 (epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/tZ_bdt/variables_id_c1-eps-converted-to.pdf, id=1161, 800.9925pt x 414
-.54875pt>
+<figures/tZ_bdt/variables_id_c1-eps-converted-to.pdf, id=775, 800.9925pt x 414.
+54875pt>
 File: figures/tZ_bdt/variables_id_c1-eps-converted-to.pdf Graphic file (type pd
 f)
  <use figures/tZ_bdt/variables_id_c1-eps-converted-to.pdf>
@@ -4554,8 +4309,8 @@ d_c2-eps-converted-to.pdf figures/tZ_bdt/variables_id_c2.eps>
 (epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/tZ_bdt/variables_id_c2-eps-converted-to.pdf, id=1162, 800.9925pt x 414
-.54875pt>
+<figures/tZ_bdt/variables_id_c2-eps-converted-to.pdf, id=776, 800.9925pt x 414.
+54875pt>
 File: figures/tZ_bdt/variables_id_c2-eps-converted-to.pdf Graphic file (type pd
 f)
  <use figures/tZ_bdt/variables_id_c2-eps-converted-to.pdf>
@@ -4584,8 +4339,8 @@ DT-eps-converted-to.pdf figures/tZ_bdt/overtrain_BDT.eps>
 (epstopdf)             \includegraphics on input line 102.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/tZ_bdt/overtrain_BDT-eps-converted-to.pdf, id=1172, 600.2425pt x 445.6
-65pt>
+<figures/tZ_bdt/overtrain_BDT-eps-converted-to.pdf, id=786, 600.2425pt x 445.66
+5pt>
 File: figures/tZ_bdt/overtrain_BDT-eps-converted-to.pdf Graphic file (type pdf)
 
  <use figures/tZ_bdt/overtrain_BDT-eps-converted-to.pdf>
@@ -4604,7 +4359,7 @@ f>
 (epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/tZ_bdt/rejBvsS-eps-converted-to.pdf, id=1173, 650.43pt x 477.785pt>
+<figures/tZ_bdt/rejBvsS-eps-converted-to.pdf, id=787, 650.43pt x 477.785pt>
 File: figures/tZ_bdt/rejBvsS-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/tZ_bdt/rejBvsS-eps-converted-to.pdf>
@@ -4724,8 +4479,8 @@ it-eps-converted-to.pdf figures/all_b/not_85_postFit.eps>
 (epstopdf)             \includegraphics on input line 11.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/all_b/not_85_postFit-eps-converted-to.pdf, id=1223, 569.12625pt x 641.
-39626pt>
+<figures/all_b/not_85_postFit-eps-converted-to.pdf, id=836, 569.12625pt x 641.3
+9626pt>
 File: figures/all_b/not_85_postFit-eps-converted-to.pdf Graphic file (type pdf)
 
  <use figures/all_b/not_85_postFit-eps-converted-to.pdf>
@@ -4744,8 +4499,8 @@ postFit-eps-converted-to.pdf figures/all_b/WP_1b_77_85_postFit.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/all_b/WP_1b_77_85_postFit-eps-converted-to.pdf, id=1224, 569.12625pt x
- 641.39626pt>
+<figures/all_b/WP_1b_77_85_postFit-eps-converted-to.pdf, id=837, 569.12625pt x 
+641.39626pt>
 File: figures/all_b/WP_1b_77_85_postFit-eps-converted-to.pdf Graphic file (type
  pdf)
  <use figures/all_b/WP_1b_77_85_postFit-eps-converted-to.pdf>
@@ -4764,8 +4519,8 @@ postFit-eps-converted-to.pdf figures/all_b/WP_1b_70_77_postFit.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/all_b/WP_1b_70_77_postFit-eps-converted-to.pdf, id=1225, 569.12625pt x
- 641.39626pt>
+<figures/all_b/WP_1b_70_77_postFit-eps-converted-to.pdf, id=838, 569.12625pt x 
+641.39626pt>
 File: figures/all_b/WP_1b_70_77_postFit-eps-converted-to.pdf Graphic file (type
  pdf)
  <use figures/all_b/WP_1b_70_77_postFit-eps-converted-to.pdf>
@@ -4789,8 +4544,8 @@ postFit-eps-converted-to.pdf figures/all_b/WP_1b_60_70_postFit.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/all_b/WP_1b_60_70_postFit-eps-converted-to.pdf, id=1226, 569.12625pt x
- 641.39626pt>
+<figures/all_b/WP_1b_60_70_postFit-eps-converted-to.pdf, id=839, 569.12625pt x 
+641.39626pt>
 File: figures/all_b/WP_1b_60_70_postFit-eps-converted-to.pdf Graphic file (type
  pdf)
  <use figures/all_b/WP_1b_60_70_postFit-eps-converted-to.pdf>
@@ -4809,8 +4564,8 @@ tFit-eps-converted-to.pdf figures/all_b/WP_1b_60_postFit.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/all_b/WP_1b_60_postFit-eps-converted-to.pdf, id=1227, 569.12625pt x 64
-1.39626pt>
+<figures/all_b/WP_1b_60_postFit-eps-converted-to.pdf, id=840, 569.12625pt x 641
+.39626pt>
 File: figures/all_b/WP_1b_60_postFit-eps-converted-to.pdf Graphic file (type pd
 f)
  <use figures/all_b/WP_1b_60_postFit-eps-converted-to.pdf>
@@ -4829,8 +4584,8 @@ t-eps-converted-to.pdf figures/all_b/tZ_CR_postFit.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/all_b/tZ_CR_postFit-eps-converted-to.pdf, id=1228, 569.12625pt x 641.3
-9626pt>
+<figures/all_b/tZ_CR_postFit-eps-converted-to.pdf, id=841, 569.12625pt x 641.39
+626pt>
 File: figures/all_b/tZ_CR_postFit-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/all_b/tZ_CR_postFit-eps-converted-to.pdf>
 Package pdftex.def Info: figures/all_b/tZ_CR_postFit-eps-converted-to.pdf used 
@@ -4853,8 +4608,8 @@ postFit-eps-converted-to.pdf figures/all_b/WP_2b_77_85_postFit.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/all_b/WP_2b_77_85_postFit-eps-converted-to.pdf, id=1229, 569.12625pt x
- 641.39626pt>
+<figures/all_b/WP_2b_77_85_postFit-eps-converted-to.pdf, id=842, 569.12625pt x 
+641.39626pt>
 File: figures/all_b/WP_2b_77_85_postFit-eps-converted-to.pdf Graphic file (type
  pdf)
  <use figures/all_b/WP_2b_77_85_postFit-eps-converted-to.pdf>
@@ -4873,8 +4628,8 @@ postFit-eps-converted-to.pdf figures/all_b/WP_2b_70_77_postFit.eps>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/all_b/WP_2b_70_77_postFit-eps-converted-to.pdf, id=1230, 569.12625pt x
- 641.39626pt>
+<figures/all_b/WP_2b_70_77_postFit-eps-converted-to.pdf, id=843, 569.12625pt x 
+641.39626pt>
 File: figures/all_b/WP_2b_70_77_postFit-eps-converted-to.pdf Graphic file (type
  pdf)
  <use figures/all_b/WP_2b_70_77_postFit-eps-converted-to.pdf>
@@ -4898,8 +4653,8 @@ Fit-eps-converted-to.pdf figures/all_b/Summary_postFit.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/all_b/Summary_postFit-eps-converted-to.pdf, id=1231, 569.12625pt x 426
-.59375pt>
+<figures/all_b/Summary_postFit-eps-converted-to.pdf, id=844, 569.12625pt x 426.
+59375pt>
 File: figures/all_b/Summary_postFit-eps-converted-to.pdf Graphic file (type pdf
 )
  <use figures/all_b/Summary_postFit-eps-converted-to.pdf>
@@ -4953,7 +4708,7 @@ converted-to.pdf figures/all_b/Ranking.eps>
 (epstopdf)             \includegraphics on input line 66.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/all_b/Ranking-eps-converted-to.pdf, id=1421, 398.48875pt x 739.76375pt
+<figures/all_b/Ranking-eps-converted-to.pdf, id=1034, 398.48875pt x 739.76375pt
 >
 File: figures/all_b/Ranking-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/all_b/Ranking-eps-converted-to.pdf>
@@ -4990,7 +4745,7 @@ tFit-eps-converted-to.pdf figures/all_b/PieChart_postFit.eps>
 (epstopdf)             \includegraphics on input line 75.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/all_b/PieChart_postFit-eps-converted-to.pdf, id=1444, 569.12625pt x 50
+<figures/all_b/PieChart_postFit-eps-converted-to.pdf, id=1057, 569.12625pt x 50
 2.87875pt>
 File: figures/all_b/PieChart_postFit-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -5014,7 +4769,7 @@ ps-converted-to.pdf figures/all_b/CorrMatrix.eps>
 (epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/all_b/CorrMatrix-eps-converted-to.pdf, id=1445, 569.12625pt x 560.0925
+<figures/all_b/CorrMatrix-eps-converted-to.pdf, id=1058, 569.12625pt x 560.0925
 pt>
 File: figures/all_b/CorrMatrix-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/all_b/CorrMatrix-eps-converted-to.pdf>
@@ -5073,13 +4828,13 @@ Package logreq Info: Writing requests to 'wz_heavy_flavor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40024 strings out of 493013
- 797104 string characters out of 6123688
+ 40029 strings out of 493013
+ 796264 string characters out of 6123688
  1255523 words of memory out of 5000000
- 42595 multiletter control sequences out of 15000+600000
+ 42605 multiletter control sequences out of 15000+600000
  161673 words of font info for 220 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,24n,74p,10411b,1979s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,24n,80p,10411b,1979s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/enc/dvips/newt
 x/ntx-ec-tlf.enc}{/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts
 /enc/dvips/newtx/ntx-ec-tlf-sc.enc}{/cvmfs/sft.cern.ch/lcg/external/texlive/201
@@ -5105,10 +4860,10 @@ n.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb
 fonts/t1xtt.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/
 type1/public/newtx/txbsys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/tex
 mf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (51 pages, 6258111 bytes).
+Output written on wz_heavy_flavor.pdf (51 pages, 4993019 bytes).
 PDF statistics:
- 1634 PDF objects out of 1728 (max. 8388607)
- 1161 compressed objects within 12 object streams
+ 1247 PDF objects out of 1440 (max. 8388607)
+ 892 compressed objects within 9 object streams
  246 named destinations out of 1000 (max. 500000)
- 628 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 643 words of extra memory for PDF output out of 10000 (max. 10000000)
 
