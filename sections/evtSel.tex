@@ -44,173 +44,154 @@ The event yields for both data and Monte Carlo are summarized in table \ref{tab:
 
 Here Other $VV$ represents diboson processes other than WZ, and consists predominantly of $ZZ\rightarrow llll$ events where one of the leptons is not reconstructed.
 
-Simulations are further validated by comparing the kinematic distributions of the Monte Carlo with data, which are shown in figure \ref{sr_kinematics}.
+Simulations are further validated by comparing the kinematic distributions of the Monte Carlo with data in the preselection region, and each of the fit regions, which are shown in figures \ref{kin:inclusive}-\ref{kin:tZ_CR_2j}.
 
 %textbf{There is some discrepancies between data and MC, particularly in the low MET and low lepton $p_T$ regions, which are being investigated. This is suspected to be the result of underestimating the fake contribution, possibly because of several missing Z+jets simulation files.}
 
-\begin{figure}[H]
-    \subfigure[]{\includegraphics[width=0.48\textwidth]{kinematics/m3l.eps}}%
-    \subfigure[]{\includegraphics[width=0.48\textwidth]{kinematics/HT.eps}}\\
-    \subfigure[]{\includegraphics[width=0.48\textwidth]{kinematics/lead_jetPt.eps}}%
-    \subfigure[]{\includegraphics[width=0.48\textwidth]{kinematics/MET.eps}}\\
-    \caption{Comparisons between the data and MC distributions in the signal region for (a) the invariant mass of the three leptons, (b) the $H_T$ of each event, (c) the $p_T$ of the leading jet, (d) the missing transverse energy.}    
-\end{figure}
-\begin{figure}[H]
-    \subfigure[]{\includegraphics[width=0.48\textwidth]{kinematics/lep_Pt_0.eps}}%                                                             
-    \subfigure[]{\includegraphics[width=0.48\textwidth]{kinematics/lep_Pt_1.eps}}\\
-    \subfigure[]{\includegraphics[width=0.48\textwidth]{kinematics/lep_Pt_2.eps}}%      
-    \subfigure[]{\includegraphics[width=0.48\textwidth]{kinematics/Mll01.eps}}\\
-    \caption{Comparisons between the data and MC distributions in the signal region for (a) the transverse momentum of the opposite sign lepton, (b) the transverse momentum of the same-sign lepton closest to the opposite sign lepton, (c) the $p_T$ of the lepton furthest from the opposite sign lepton, (d) the invariant mass of lepton 0 and lepton 1.}
-\end{figure}
-\begin{figure}[H]
-    \subfigure[]{\includegraphics[width=0.48\textwidth]{kinematics/Mll02.eps}}%                                                      
-    \subfigure[]{\includegraphics[width=0.48\textwidth]{kinematics/Mll12.eps}}\\
-    \caption{Comparisons between the data and MC distributions in the signal region for (a) the invariant mass of leptons 0 and 2, (b) the invariant mass of the pair of leptons 1 and 2}
-    \label{sr_kinematics}
-\end{figure}
-
-\begin{figure}%[h]
-    \caption{WZ Fit Region - Inclusive}
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_inclusive/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_inclusive/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_inclusive/Plots/lep_Pt_1.png}}\\      
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_inclusive/Plots/lep_Pt_2.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_inclusive/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_inclusive/Plots/Mll01.png}}\\
+\begin{figure}%[H]
+    \centering
+    \textbf{WZ Fit Region - Inclusive}\\
+    \caption{Comparisons between the data and MC distributions in the preselection region for the $p_T$ of (a) the leading jet, (b) lepton 0, (c) lepton 1, (d) lepton 2, (e) the missing transverse energy, and (f) the invariant mass of lepton 0 and 1.}
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_inclusive/Plots/lead_jetPt.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_inclusive/Plots/lep_Pt_0.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_inclusive/Plots/lep_Pt_1.png}}%      
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_inclusive/Plots/lep_Pt_2.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_inclusive/Plots/MET.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_inclusive/Plots/Mll01.png}}\\
     \label{kin:inclusive}
 \end{figure}
 
 \begin{figure}%[H]
-    \caption{WZ Fit Region - 1j $<$ 85\% WP}
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85/Plots/lep_Pt_1.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85/Plots/lep_Pt_2.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85/Plots/Mll01.png}}\\
+    \textbf{WZ Fit Region - 1j $<$ 85\% WP}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_not_85/Plots/lead_jetPt.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_not_85/Plots/lep_Pt_0.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_not_85/Plots/lep_Pt_1.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_not_85/Plots/lep_Pt_2.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_not_85/Plots/MET.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_not_85/Plots/Mll01.png}}\\
     \label{kin:WP_1j_not85}
 \end{figure}
 
 \begin{figure}%[H]
-    \caption{WZ Fit Region - 1j 77-85\% WP}
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_77_85/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_77_85/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_77_85/Plots/lep_Pt_1.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_77_85/Plots/lep_Pt_2.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_77_85/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_77_85/Plots/Mll01.png}}\\
+    \textbf{WZ Fit Region - 1j 77-85\% WP}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_77_85/Plots/lead_jetPt.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_77_85/Plots/lep_Pt_0.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_77_85/Plots/lep_Pt_1.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_77_85/Plots/lep_Pt_2.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_77_85/Plots/MET.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_77_85/Plots/Mll01.png}}\\
     \label{kin:WP_1j_77_85}
 \end{figure}
 
 \begin{figure}%[H]
-    \caption{WZ Fit Region - 1j 70-77\% WP}
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_70_77/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_70_77/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_70_77/Plots/lep_Pt_1.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_70_77/Plots/lep_Pt_2.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_70_77/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_70_77/Plots/Mll01.png}}\\
+    \textbf{WZ Fit Region - 1j 70-77\% WP}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_70_77/Plots/lead_jetPt.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_70_77/Plots/lep_Pt_0.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_70_77/Plots/lep_Pt_1.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_70_77/Plots/lep_Pt_2.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_70_77/Plots/MET.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_70_77/Plots/Mll01.png}}\\
     \label{kin:WP_1j_70_77}   
 \end{figure}
 
 \begin{figure}%[H]
-    \caption{WZ Fit Region - 1j 60-70\% WP}
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60_70/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60_70/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60_70/Plots/lep_Pt_1.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60_70/Plots/lep_Pt_2.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60_70/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60_70/Plots/Mll01.png}}\\
+    \textbf{WZ Fit Region - 1j 60-70\% WP}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_60_70/Plots/lead_jetPt.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_60_70/Plots/lep_Pt_0.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_60_70/Plots/lep_Pt_1.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_60_70/Plots/lep_Pt_2.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_60_70/Plots/MET.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_60_70/Plots/Mll01.png}}\\
     \label{kin:WP_1j_60_70}
 \end{figure}
 
 \begin{figure}%[H]
-    \caption{WZ Fit Region - 1j 60\% WP}
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60/Plots/lep_Pt_1.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60/Plots/lep_Pt_2.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60/Plots/Mll01.png}}\\
+    \textbf{WZ Fit Region - 1j 60\% WP}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_60/Plots/lead_jetPt.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_60/Plots/lep_Pt_0.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_60/Plots/lep_Pt_1.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_60/Plots/lep_Pt_2.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_60/Plots/MET.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_1j_60/Plots/Mll01.png}}\\
     \label{kin:WP_1j_60}    
 \end{figure}
 
 \begin{figure}%[H]
-    \caption{WZ Fit Region - tZ-CR}
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR/Plots/lep_Pt_1.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR/Plots/lep_Pt_2.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR/Plots/Mll01.png}}\\
+    \textbf{WZ Fit Region - tZ-CR}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_tZ_CR/Plots/lead_jetPt.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_tZ_CR/Plots/lep_Pt_0.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_tZ_CR/Plots/lep_Pt_1.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_tZ_CR/Plots/lep_Pt_2.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_tZ_CR/Plots/MET.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_tZ_CR/Plots/Mll01.png}}\\
     \label{kin:tZ_CR_1j}
 \end{figure}
 
 \begin{figure}%[H]
-    \caption{WZ Fit Region - 2j $<$ 85\% WP}
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85_2j/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85_2j/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85_2j/Plots/lep_Pt_1.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85_2j/Plots/lep_Pt_2.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85_2j/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85_2j/Plots/Mll01.png}}\\
+    \textbf{WZ Fit Region - 2j $<$ 85\% WP}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_not_85_2j/Plots/lead_jetPt.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_not_85_2j/Plots/lep_Pt_0.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_not_85_2j/Plots/lep_Pt_1.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_not_85_2j/Plots/lep_Pt_2.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_not_85_2j/Plots/MET.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_not_85_2j/Plots/Mll01.png}}\\
     \label{kin:WP_2j_not85}
 \end{figure}
 
 \begin{figure}%[H]
-    \caption{WZ Fit Region - 2j 77-85\% WP}
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_77_85/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_77_85/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_77_85/Plots/lep_Pt_1.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_77_85/Plots/lep_Pt_2.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_77_85/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_77_85/Plots/Mll01.png}}\\
+    \textbf{WZ Fit Region - 2j 77-85\% WP}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_77_85/Plots/lead_jetPt.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_77_85/Plots/lep_Pt_0.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_77_85/Plots/lep_Pt_1.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_77_85/Plots/lep_Pt_2.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_77_85/Plots/MET.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_77_85/Plots/Mll01.png}}\\
     \label{kin:WP_2j_77_85}
 \end{figure}
 
 \begin{figure}%[H]
-    \caption{WZ Fit Region - 2j 70-77\% WP}
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_70_77/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_70_77/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_70_77/Plots/lep_Pt_1.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_70_77/Plots/lep_Pt_2.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_70_77/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_70_77/Plots/Mll01.png}}\\
+    \textbf{WZ Fit Region - 2j 70-77\% WP}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_70_77/Plots/lead_jetPt.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_70_77/Plots/lep_Pt_0.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_70_77/Plots/lep_Pt_1.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_70_77/Plots/lep_Pt_2.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_70_77/Plots/MET.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_70_77/Plots/Mll01.png}}\\
     \label{kin:WP_2j_70_77}
 \end{figure}
 
 \begin{figure}%[H]
-    \caption{WZ Fit Region - 2j 60-70\% WP}
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60_70/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60_70/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60_70/Plots/lep_Pt_1.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60_70/Plots/lep_Pt_2.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60_70/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60_70/Plots/Mll01.png}}\\
+    \textbf{WZ Fit Region - 2j 60-70\% WP}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_60_70/Plots/lead_jetPt.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_60_70/Plots/lep_Pt_0.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_60_70/Plots/lep_Pt_1.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_60_70/Plots/lep_Pt_2.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_60_70/Plots/MET.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_60_70/Plots/Mll01.png}}\\
     \label{kin:WP_2j_60_70}
 \end{figure}
 
 \begin{figure}%[H]
-    \caption{WZ Fit Region - 2j 60\% WP}
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60/Plots/lep_Pt_1.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60/Plots/lep_Pt_2.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60/Plots/Mll01.png}}\\
+    \textbf{WZ Fit Region - 2j 60\% WP}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_60/Plots/lead_jetPt.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_60/Plots/lep_Pt_0.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_60/Plots/lep_Pt_1.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_60/Plots/lep_Pt_2.png}}\\
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_60/Plots/MET.png}}%
+    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_2j_60/Plots/Mll01.png}}\\
     \label{kin:WP_2j_60}
 \end{figure}
 
-%\begin{figure}[H]
-%    \caption{WZ Fit Region - tZ-CR-2j}
-%    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR_2j/Plots/lead_jetPt.png}}%
-%    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR_2j/Plots/lep_Pt_0.png}}%
-%    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR_2j/Plots/lep_Pt_1.png}}\\
-%    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR_2j/Plots/lep_Pt_2.png}}%
-%    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR_2j/Plots/MET.png}}%
-%    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR_2j/Plots/Mll01.png}}\\
-%    \label{kin:tZ_CR_2j}
-%\end{figure}
+\begin{figure}[H]
+    \textbf{WZ Fit Region - tZ-CR-2j}\\
+%    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_tZ_CR_2j/Plots/lead_jetPt.png}}%
+%    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_tZ_CR_2j/Plots/lep_Pt_0.png}}%
+%    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_tZ_CR_2j/Plots/lep_Pt_1.png}}\\
+%    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_tZ_CR_2j/Plots/lep_Pt_2.png}}%
+%    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_tZ_CR_2j/Plots/MET.png}}%
+%    \subfigure[]{\includegraphics[width=.48\linewidth]{regions/plots_tZ_CR_2j/Plots/Mll01.png}}\\
+    \label{kin:tZ_CR_2j}
+\end{figure}
 
 %---------------------------
 \subsection{Non-Prompt Lepton Estimation}
