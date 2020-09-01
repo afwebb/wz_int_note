@@ -1,36 +1,45 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=latex 2017.4.9)  10 DEC 2019 11:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  26 AUG 2020 11:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**wz_heavy_flavor
+**wz_heavy_flavor.tex
 (./wz_heavy_flavor.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (./latex/atlasdoc.cls
 Document Class: latex/atlasdoc 2018/01/10 v.05-03-00 ATLAS document class
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/base/ifthen.sty
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/base/ifthen.
+sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/oberdiek/kvo
+ptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/graphics/keyval.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/graphics/key
+val.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/oberdiek/l
+txcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/oberdiek/k
+vsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/oberdiek/i
+nfwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/oberdiek/e
+texcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/oberdiek/i
+fluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -43,23 +52,31 @@ atlasdoc: ATLAS Note
 atlasdoc: use KOMA-script scrartcl class
 atlasdoc: paper size set to default A4
 \ADOC@skipbeforetitle=\dimen102
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/koma-script/scrartcl.cls
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/koma-script/
+scrartcl.cls
 Document Class: scrartcl 2017/01/03 v3.22 KOMA-Script document class (article)
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/koma-script/scrkbase.sty
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/koma-script/
+scrkbase.sty
 Package: scrkbase 2017/01/03 v3.22 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/koma-script/scrbase.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/koma-script/
+scrbase.sty
 Package: scrbase 2017/01/03 v3.22 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/koma-script/scrlfile.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/koma-script/
+scrlfile.sty
 Package: scrlfile 2017/01/03 v3.22 KOMA-Script package (loading files)
 
 Package scrlfile, 2017/01/03 v3.22 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
-))) (/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/koma-script/tocbasic.sty
+)))
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/koma-script/
+tocbasic.sty
 Package: tocbasic 2017/01/03 v3.22 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip41
 \scr@dte@tocline@numbox=\box26
@@ -82,11 +99,13 @@ Package scrartcl Info: You've used standard option `11pt'.
 Class scrartcl Info: File `scrsize11pt.clo' used to setup font sizes on input l
 ine 2053.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/koma-script/
+scrsize11pt.clo
 File: scrsize11pt.clo 2017/01/03 v3.22 KOMA-Script font size class option (11pt
 )
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/koma-script/typearea.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/koma-script/
+typearea.sty
 Package: typearea 2017/01/03 v3.22 KOMA-Script package (type area)
 
 Package typearea, 2017/01/03 v3.22 KOMA-Script package (type area)
@@ -189,11 +208,15 @@ Package typearea Info: These are the values describing the layout:
 Package scrkbase Info: You've told me to redefine the font selection of the
 (scrkbase)             element `pagehead' that is an alias of element
 (scrkbase)             `pageheadfoot' on input line 348.
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/xpatch/xpatch.sty
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/l3kernel/expl3.sty
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/xpatch/xpatc
+h.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/l3kernel/exp
+l3.sty
 Package: expl3 2017/04/01 L3 programming layer (loader) 
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/l3kernel/exp
+l3-code.tex
 Package: expl3 2017/04/01 L3 programming layer (code)
 \c_max_int=\count88
 \l_tmpa_int=\count89
@@ -289,22 +312,27 @@ Package: expl3 2017/04/01 L3 programming layer (code)
 \l__coffin_scaled_total_height_dim=\dimen133
 \l__coffin_scaled_width_dim=\dimen134
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/l3kernel/l3dvips.def
-File: l3dvips.def 2017/03/18 v L3 Experimental driver: dvips
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/l3kernel/l3p
+dfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count123
+\l__driver_tmp_box=\box43
 ))
 Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/l3packages/x
+parse/xparse.sty
 Package: xparse 2017/04/01 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count123
-\g__xparse_grabber_int=\count124
-\l__xparse_m_args_int=\count125
-\l__xparse_mandatory_args_int=\count126
-\l__xparse_v_nesting_int=\count127
+\l__xparse_current_arg_int=\count124
+\g__xparse_grabber_int=\count125
+\l__xparse_m_args_int=\count126
+\l__xparse_mandatory_args_int=\count127
+\l__xparse_v_nesting_int=\count128
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/etoolbox/eto
+olbox.sty
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count128
+\etb@tempcnta=\count129
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -489,34 +517,44 @@ Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
 )
 atlasdoc xpatch: OK! Title size changed!
 atlasdoc xpatch: OK! Date font adjusted!
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/graphics/graphicx.sty
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/graphics/gra
+phicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/graphics/graphics.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/graphics/gra
+phics.sty
 Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/graphics/trig.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/graphics/tri
+g.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/graphics-cfg
+/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvips.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/graphics-def/dvips.def
-File: dvips.def 2016/07/10 v3.1a Driver-dependent file (DPC,SPQR)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/graphics-def
+/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+\Gread@gobject=\count130
 ))
 \Gin@req@height=\dimen135
 \Gin@req@width=\dimen136
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/xcolor/xcolo
+r.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/graphics-cfg
+/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -525,28 +563,35 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/babel/babel.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/babel/babe
+l.sty
 Package: babel 2016/04/23 3.9r The Babel package
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/babel-english/english.ldf
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/babel-engl
+ish/english.ldf
 Language: english 2017/01/24 v3.3q English support from the babel system
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/babel/babel.def
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/babel/babe
+l.def
 File: babel.def 2016/04/23 3.9r Babel common definitions
-\babel@savecnt=\count129
+\babel@savecnt=\count131
 \U@D=\dimen137
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/hyperref/hyp
+erref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/oberdiek/h
+obsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/oberdiek/h
+obsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -564,7 +609,7 @@ Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
@@ -579,22 +624,27 @@ Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-) (/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/ifxetex/if
+xetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/oberdiek/aux
+hook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen138
-\Hy@linkcounter=\count130
-\Hy@pagecounter=\count131
+\Hy@linkcounter=\count132
+\Hy@pagecounter=\count133
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/hyperref/pd1
+enc.def
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count132
+\Hy@SavedSpaceFactor=\count134
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/latexconfig/
+hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4498.
@@ -604,15 +654,15 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count133
+\c@Hy@tempcnt=\count135
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/url/url.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen139
-\Fld@menulength=\count134
+\Fld@menulength=\count136
 \Field@Width=\dimen140
 \Fld@charsize=\dimen141
 Package hyperref Info: Hyper figures OFF on input line 6358.
@@ -624,40 +674,38 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count135
-\c@Item=\count136
-\c@Hfootnote=\count137
+\Hy@abspage=\count137
+\c@Item=\count138
+\c@Hfootnote=\count139
 )
 
-Package hyperref Message: Driver (default): hdvips.
+Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/hyperref/hdvips.def
-File: hdvips.def 2017/03/14 v6.85a Hyperref driver for dvips
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/hyperref/pdfmark.def
-File: pdfmark.def 2017/03/14 v6.85a Hyperref definitions for pdfmark specials
-\pdf@docset=\toks15
-\pdf@box=\box43
-\pdf@toks=\toks16
-\pdf@defaulttoks=\toks17
-\HyField@AnnotCount=\count138
-\Fld@listcount=\count139
-\c@bookmark@seq@number=\count140
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/hyperref/hpd
+ftex.def
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count140
+\c@bookmark@seq@number=\count141
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/oberdiek/rer
+unfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip61
-))
+)
 atlasdoc: using newtx fonts package
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/newtx/newtxtext.sty
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/newtxt
+ext.sty
 Package: newtxtext 2017/03/11 v1.521
 
 `newtxtext' v1.521, 2017/03/11 Text macros taking advantage of TeX-Gyre Termes 
 fonts (msharpe)
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/fontaxes/fon
+taxes.sty
 Package: fontaxes 2014/03/23 v1.0d Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
 LaTeX Info: Redefining \itshape on input line 31.
@@ -666,25 +714,31 @@ LaTeX Info: Redefining \scshape on input line 37.
 )
 \ntx@fs=\dimen142
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/xkeyval/xkey
+val.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks18
-\XKV@tempa@toks=\toks19
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/xkeyval/xk
+eyval.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/xkeyval/xk
+vutils.tex
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
 )
-\XKV@depth=\count141
+\XKV@depth=\count142
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/base/fontenc.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/base/fontenc
+.sty
 Package: fontenc 2017/02/22 v2.0g Standard LaTeX package
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/base/t1enc.def
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/base/t1enc.d
+ef
 File: t1enc.def 2017/02/22 v2.0g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/base/textcomp.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/base/textcom
+p.sty
 Package: textcomp 2017/02/22 v2.0g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -700,7 +754,8 @@ Package textcomp Info: Sub-encoding information:
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 Package textcomp Info: Changing ? sub-encoding to TS1/0 on input line 80.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/base/ts1enc.def
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/base/ts1enc.
+def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 334.
@@ -767,37 +822,43 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 ))
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/newtx/newtxmath.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/newtxm
+ath.sty
 Package: newtxmath 2017/02/12 v1.518
-
-`newtxmath' v1.518, 2017/02/12 Math macros based on txfonts (msharpe)
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+ `newtxmath' v1.518, 2017/02/12 Math macros based on txfonts (msharpe)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/amsmath/amsm
+ath.sty
 Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip62
 
 For additional information on amsmath, use the `?' option.
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/amsmath/amstext.sty
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/amsmath/amst
+ext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/amsmath/amsg
+en.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
+\@emptytoks=\toks17
 \ex@=\dimen143
 ))
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/amsmath/amsb
+sy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen144
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/amsmath/amso
+pn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count142
+\inf@bad=\count143
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count143
-\leftroot@=\count144
+\uproot@=\count144
+\leftroot@=\count145
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count145
-\DOTSCASE@=\count146
+\classnum@=\count146
+\DOTSCASE@=\count147
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -806,31 +867,32 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen145
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count147
-\c@MaxMatrixCols=\count148
+\macc@depth=\count148
+\c@MaxMatrixCols=\count149
 \dotsspace@=\muskip17
-\c@parentequation=\count149
-\dspbrk@lvl=\count150
-\tag@help=\toks21
-\row@=\count151
-\column@=\count152
-\maxfields@=\count153
-\andhelp@=\toks22
+\c@parentequation=\count150
+\dspbrk@lvl=\count151
+\tag@help=\toks18
+\row@=\count152
+\column@=\count153
+\maxfields@=\count154
+\andhelp@=\toks19
 \eqnshift@=\dimen146
 \alignsep@=\dimen147
 \tagshift@=\dimen148
 \tagwidth@=\dimen149
 \totwidth@=\dimen150
 \lineht@=\dimen151
-\@envbody=\toks23
+\@envbody=\toks20
 \multlinegap=\skip63
 \multlinetaggap=\skip64
-\mathdisplay@stack=\toks24
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/kastrup/binhex.tex)
-\tx@Isdigit=\count154
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/kastrup/bi
+nhex.tex)
+\tx@Isdigit=\count155
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 153.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/ntxtlf/m/n on input line 153.
@@ -934,41 +996,45 @@ LaTeX Font Info:    Redeclaring math delimiter \lVert on input line 535.
 LaTeX Font Info:    Redeclaring math delimiter \rVert on input line 536.
 LaTeX Info: Redefining \not on input line 2099.
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/lineno/lineno.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/lineno/linen
+o.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count155
-\output=\toks25
-\linenoprevgraf=\count156
+\linenopenalty=\count156
+\output=\toks22
+\linenoprevgraf=\count157
 \linenumbersep=\dimen152
 \linenumberwidth=\dimen153
-\c@linenumber=\count157
-\c@pagewiselinenumber=\count158
-\c@LN@truepage=\count159
-\c@internallinenumber=\count160
-\c@internallinenumbers=\count161
+\c@linenumber=\count158
+\c@pagewiselinenumber=\count159
+\c@LN@truepage=\count160
+\c@internallinenumber=\count161
+\c@internallinenumbers=\count162
 \quotelinenumbersep=\dimen154
 \bframerule=\dimen155
 \bframesep=\dimen156
 \bframebox=\box46
 LaTeX Info: Redefining \\ on input line 3056.
 )
-\timehh=\count162
-\timemm=\count163
+\timehh=\count163
+\timemm=\count164
 \titlepageparbox=\skip65
 
 atlasdoc: defining ATLAS document title page
 \abstractparbox=\skip66
 \abstractheight=\skip67
 \copyrightoffset=\skip68
-) (/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/float/float.sty
+)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/float/float.
+sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count164
-\float@exts=\toks26
+\c@float@type=\count165
+\float@exts=\toks23
 \float@box=\box47
-\@float@everytoks=\toks27
+\@float@everytoks=\toks24
 \@floatcapt=\box48
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/euler/euler.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/euler/euler.
+sty
 Package: euler 1995/03/05 v2.5
 
 Package: `euler' v2.5 <1995/03/05> (FJ and FMi)
@@ -1072,41 +1138,49 @@ LaTeX Font Info:    Redeclaring math accent \breve on input line 250.
 LaTeX Font Info:    Redeclaring math accent \bar on input line 251.
 LaTeX Font Info:    Redeclaring math accent \dot on input line 252.
 LaTeX Font Info:    Redeclaring math accent \hat on input line 254.
-) (/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common
-.tex
-\pgfutil@everybye=\toks28
+)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/pgf/basiclay
+er/pgf.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/pgf/utilitie
+s/pgfrcs.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/utilit
+ies/pgfutil-common.tex
+\pgfutil@everybye=\toks25
 \pgfutil@tempdima=\dimen157
 \pgfutil@tempdimb=\dimen158
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common
--lists.tex))
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.
-def
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/utilit
+ies/pgfutil-common-lists.tex))
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/utilit
+ies/pgfutil-latex.def
 \pgfutil@abb=\box49
- (/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/ms/everyshi.sty
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/ms/everyshi.
+sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.te
-x
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/utilit
+ies/pgfrcs.code.tex
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
- (/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/
-afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.
-tex
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/pgf/basiclay
+er/pgfcore.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/pgf/systemla
+yer/pgfsys.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/system
+layer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.t
-ex
-\pgfkeys@pathtoks=\toks29
-\pgfkeys@temptoks=\toks30
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/utilit
+ies/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltere
-d.code.tex
-\pgfkeys@tmptoks=\toks31
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/utilit
+ies/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks28
 ))
 \pgf@x=\dimen159
 \pgf@y=\dimen160
@@ -1118,80 +1192,81 @@ d.code.tex
 \pgf@yc=\dimen166
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count165
-\c@pgf@countb=\count166
-\c@pgf@countc=\count167
-\c@pgf@countd=\count168
-\t@pgf@toka=\toks32
-\t@pgf@tokb=\toks33
-\t@pgf@tokc=\toks34
+\c@pgf@counta=\count166
+\c@pgf@countb=\count167
+\c@pgf@countc=\count168
+\c@pgf@countd=\count169
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/system
+layer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Driver file for pgf: pgfsys-dvips.def
+Driver file for pgf: pgfsys-pdftex.def
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvips
-.def
-File: pgfsys-dvips.def 2014/07/09  (rcs-revision 1.25)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/system
+layer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-commo
-n-postscript.def
-File: pgfsys-common-postscript.def 2008/10/01  (rcs-revision 1.22)
-\pgf@objectcount=\count169
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/system
+layer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpa
-th.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/system
+layer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count170
 \pgfsyssoftpath@bigbuffer@items=\count171
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotoc
-ol.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/system
+layer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.
-tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/basicl
+ayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.te
-x
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.te
-x)
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.
-tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/math/p
+gfmath.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/math/p
+gfmathcalc.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/math/p
+gfmathutil.code.tex)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/math/p
+gfmathparser.code.tex
 \pgfmath@dimen=\dimen167
 \pgfmath@count=\count172
 \pgfmath@box=\box50
-\pgfmath@toks=\toks35
-\pgfmath@stack@operand=\toks36
-\pgfmath@stack@operation=\toks37
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.co
-de.tex
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.ba
-sic.code.tex)
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.tr
-igonometric.code.tex)
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.ra
-ndom.code.tex)
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.co
-mparison.code.tex)
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.ba
-se.code.tex)
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.ro
-und.code.tex)
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.mi
-sc.code.tex)
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.in
-tegerarithmetics.code.tex)))
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.t
-ex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/math/p
+gfmathfunctions.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/math/p
+gfmathfunctions.basic.code.tex)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/math/p
+gfmathfunctions.trigonometric.code.tex)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/math/p
+gfmathfunctions.random.code.tex)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/math/p
+gfmathfunctions.comparison.code.tex)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/math/p
+gfmathfunctions.base.code.tex)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/math/p
+gfmathfunctions.round.code.tex)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/math/p
+gfmathfunctions.misc.code.tex)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/math/p
+gfmathfunctions.integerarithmetics.code.tex)))
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/math/p
+gfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count173
 ))
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints
-.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/basicl
+ayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen168
 \pgf@picmaxx=\dimen169
@@ -1208,102 +1283,103 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen180
 \pgf@zy=\dimen181
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathco
-nstruct.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/basicl
+ayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen182
 \pgf@path@lasty=\dimen183
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathus
-age.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/basicl
+ayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen184
 \pgf@shorten@start@additional=\dimen185
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes
-.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/basicl
+ayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box51
 \pgf@hbox=\box52
 \pgf@layerbox@main=\box53
 \pgf@picture@serial@count=\count174
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphi
-cstate.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/basicl
+ayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen186
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransf
-ormations.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/basicl
+ayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen187
 \pgf@pt@y=\dimen188
 \pgf@pt@temp=\dimen189
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.
-code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/basicl
+ayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobject
-s.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/basicl
+ayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathpr
-ocessing.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/basicl
+ayer/pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows
-.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/basicl
+ayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen190
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.
-code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/basicl
+ayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen191
 \pgf@sys@shading@range@num=\count175
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.
-code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/basicl
+ayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreextern
-al.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/basicl
+ayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box54
 ))
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers
-.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/basicl
+ayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransp
-arency.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/basicl
+ayer/pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatter
-ns.code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/basicl
+ayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.
-code.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/module
+s/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box55
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.co
-de.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/module
+s/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-vers
-ion-0-65.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/pgf/compatib
+ility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen192
 \pgf@nodesepend=\dimen193
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-vers
-ion-1-18.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/pgf/compatib
+ility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 ))
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/geometry/geometry.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/geometry/geo
+metry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count176
 \Gm@cntv=\count177
@@ -1316,36 +1392,41 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutheight=\dimen199
 \Gm@layouthoffset=\dimen256
 \Gm@layoutvoffset=\dimen257
-\Gm@dimlist=\toks38
+\Gm@dimlist=\toks35
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/oberdiek/pdf
+lscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/graphics/lscape.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/graphics/lsc
+ape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-Package pdflscape Info: Auto-detected driver: dvips (dvips) on input line 125.
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 LaTeX Info: Redefining \bf on input line 20.
-
-(./latex/atlaspackage.sty
+ (./latex/atlaspackage.sty
 Package: latex/atlaspackage 2018/01/10 v.05-03-00 ATLAS LaTeX packages
 
 atlaspackage: APKG@texlive is [2016]
 atlaspackage: Using default settings
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks39
-\inpenc@posthook=\toks40
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/base/utf8.def
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/base/inputen
+c.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks36
+\inpenc@posthook=\toks37
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/base/utf8.de
+f
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/base/t1enc.dfu
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/base/t1enc.d
+fu
 File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -1586,7 +1667,8 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/base/ot1enc.dfu
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/base/ot1enc.
+dfu
 File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -1627,7 +1709,8 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/base/omsenc.dfu
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/base/omsenc.
+dfu
 File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -1645,7 +1728,8 @@ Now handling font encoding PD1 ...
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/base/ts1enc.dfu
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/base/ts1enc.
+dfu
 File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -1732,10 +1816,12 @@ Now handling font encoding LMX ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/placeins/placeins.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/placeins/pla
+ceins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/csquotes/csq
+uotes.sty
 Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
 \csq@reset=\count179
 \csq@gtype=\count180
@@ -1743,20 +1829,23 @@ Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
 \csq@qlevel=\count182
 \csq@maxlvl=\count183
 \csq@tshold=\count184
-\csq@ltx@everypar=\toks41
+\csq@ltx@everypar=\toks38
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/csquotes/csquotes.def
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/csquotes/csq
+uotes.def
 File: csquotes.def 2017/03/11 v5.2b csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/csquotes/csquotes.cfg
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/csquotes/csq
+uotes.cfg
 File: csquotes.cfg 
 )
 Package csquotes Info: Enabling multilingual quotes.
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/booktabs/booktabs.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/booktabs/boo
+ktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \heavyrulewidth=\dimen258
 \lightrulewidth=\dimen259
@@ -1776,7 +1865,8 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@lastruleclass=\count188
 \@thisrulewidth=\dimen270
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/subfigure/subfigure.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/subfigure/su
+bfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip69
 \subfigcapskip=\skip70
@@ -1792,11 +1882,14 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/subfigure/su
+bfigure.cfg)
 \subfig@top=\skip73
 \subfig@bottom=\skip74
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/tocloft/tocloft.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/tocloft/tocl
+oft.sty
 Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 44.
 \cftparskip=\skip75
@@ -1838,19 +1931,22 @@ Package tocloft Info: The document has section divisions on input line 44.
 \cftsubtabnumwidth=\skip111
 )
 atlaspackage: Loading siunitx definitions for TeX Live > 2011
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/siunitx/siunitx.sty
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/siunitx/siun
+itx.sty
 Package: siunitx 2017/03/23 v2.7f A comprehensive (SI) units package
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/tools/array.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/tools/array.
+sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen273
 \extrarowheight=\dimen274
-\NC@list=\toks42
+\NC@list=\toks39
 \extratabsurround=\skip112
 \backup@length=\skip113
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.s
-ty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/l3packages/l
+3keys2e/l3keys2e.sty
 Package: l3keys2e 2017/04/01 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box56
@@ -2010,27 +2106,32 @@ Package: l3keys2e 2017/04/01 LaTeX2e option processing using LaTeX3 keys
 .................................................
 \g__file_internal_ior=\read2
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/beamer/translator/translator.s
-ty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/beamer/trans
+lator/translator.sty
 Package: translator 2010/06/12 ver 1.10
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/beamer/translator/translator-l
-anguage-mappings.tex)))
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/beamer/trans
+lator/translator-language-mappings.tex)))
 Package hyperref Info: Option `colorlinks' set `true' on input line 296.
 Package hyperref Info: Option `breaklinks' set `true' on input line 296.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/biblatex/biblatex.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/biblatex/bib
+latex.sty
 Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/logreq/logreq.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/logreq/logre
+q.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count276
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/logreq/logreq.def
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/logreq/logre
+q.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/xstring/xstring.sty
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/xstring/xstring.tex
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/xstring/xs
+tring.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/xstring/xs
+tring.tex
 \@xs@message=\write4
 \integerpart=\count277
 \decimalpart=\count278
@@ -2091,7 +2192,8 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/biblatex/blx-dm.def)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/biblatex/blx
+-dm.def)
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
@@ -2171,13 +2273,15 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/biblatex/blx-compat.def
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/biblatex/blx
+-compat.def
 File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/biblatex/biblatex.def
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/biblatex/bib
+latex.def
 File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 \c@textcitecount=\count386
 \c@textcitetotal=\count387
@@ -2190,17 +2294,20 @@ File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/biblatex/bbx
+/numeric-comp.bbx
 File: numeric-comp.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/biblatex/bbx
+/numeric.bbx
 File: numeric.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/biblatex/bbx
+/standard.bbx
 File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
 \c@bbx:relatedcount=\count393
 \c@bbx:relatedtotal=\count394
@@ -2208,7 +2315,8 @@ File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/biblatex/cbx
+/numeric-comp.cbx
 File: numeric-comp.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
 \c@cbx@tempcnta=\count395
 \c@cbx@tempcntb=\count396
@@ -2226,7 +2334,9 @@ Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
-(/afs/cern.ch/sw/XML/TL2016/texmf-local/tex/latex/cern/biblatex.cfg
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/biblatex/bib
+latex.cfg
 File: biblatex.cfg 
 )
 
@@ -2237,18 +2347,19 @@ nstead.
 Package: latex/atlascontribute 2018/01/10 v.05-03-00 ATLAS analysis contributio
 ns
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/preprint/authblk.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/preprint/aut
+hblk.sty
 Package: authblk 2001/02/27 1.3 (PWD)
 \affilsep=\skip132
 \@affilsep=\skip133
 \c@Maxaffil=\count397
 \c@authors=\count398
 \c@affil=\count399
-))
-(./latex/atlasphysics.sty
+)) (./latex/atlasphysics.sty
 Package: latex/atlasphysics 2018/01/10 v.05-03-00 ATLAS physics macros
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/tools/xspace.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/tools/xspace
+.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 atlasphysics: APHY@texlive is [2016]
@@ -2265,7 +2376,8 @@ atlasphysics: AUNIT@texlive is [2016]
 LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 91
 .
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/t1ntxt
+lf.fd
 File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
@@ -2275,27 +2387,38 @@ Package csquotes Info: ... found 'babel' package.
 Package biblatex Info: Trying to load language 'UKenglish'...
 Package biblatex Info: ... file 'UKenglish.lbx' found.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/biblatex/lbx/UKenglish.lbx
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/biblatex/lbx
+/UKenglish.lbx
 File: UKenglish.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 Package biblatex Info: Trying to load language 'british'...
 Package biblatex Info: ... file 'british.lbx' found.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/biblatex/lbx/british.lbx
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/biblatex/lbx
+/british.lbx
 File: british.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/biblatex/lbx
+/english.lbx
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
-)))
-(./wz_heavy_flavor.aux)
+))) (./wz_heavy_flavor.aux)
+Runaway argument?
+{\contentsline {subfigure}{\numberline {(d)}{\i 
+! File ended while scanning use of \@writefile.
+<inserted text> 
+                \par 
+l.91 \begin{document}
+                     
+? 
 \openout1 = `wz_heavy_flavor.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 91.
 LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 91
 .
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/newtx/omlntxmi.fd
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/omlntx
+mi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
 LaTeX Font Info:    ... okay on input line 91.
@@ -2311,7 +2434,8 @@ LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 91.
 LaTeX Font Info:    Try loading font information for U+ntxexa on input line 91.
 
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/newtx/untxexa.fd
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/untxex
+a.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
 LaTeX Font Info:    ... okay on input line 91.
@@ -2320,7 +2444,8 @@ LaTeX Font Info:    ... okay on input line 91.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 91.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/base/ts1cmr.fd
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.
+fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 91.
@@ -2328,7 +2453,8 @@ LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 91.
 LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 91
 .
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/newtx/lmsntxsy.fd
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/lmsntx
+sy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
 LaTeX Font Info:    ... okay on input line 91.
@@ -2336,20 +2462,59 @@ LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 91.
 LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 9
 1.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/newtx/lmxntxexx.fd
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/lmxntx
+exx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
 LaTeX Font Info:    ... okay on input line 91.
-\AtBeginShipoutBox=\box63
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/context/base/mkii/
+supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count400
+\scratchdimen=\dimen288
+\scratchbox=\box63
+\nofMPsegments=\count401
+\nofMParguments=\count402
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count403
+\MPscratchDim=\dimen289
+\MPnumerator=\count404
+\makeMPintoPDFobject=\count405
+\everyMPtoPDFconversion=\toks41
+)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/oberdiek/eps
+topdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/oberdiek/grf
+ext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/latexconfig/
+epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box64
 Package hyperref Info: Link coloring ON on input line 91.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/hyperref/nameref.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/hyperref/nam
+eref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/oberdiek/g
+ettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count400
+\c@section@level=\count406
 )
 LaTeX Info: Redefining \ref on input line 91.
 LaTeX Info: Redefining \pageref on input line 91.
@@ -2358,16 +2523,18 @@ LaTeX Info: Redefining \nameref on input line 91.
 \@outlinefile=\write6
 \openout6 = `wz_heavy_flavor.out'.
 
-\c@mv@tabular=\count401
-\c@mv@boldtabular=\count402
+\c@mv@tabular=\count407
+\c@mv@boldtabular=\count408
 
 atlasdoc: this is an ATLAS draft document
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.s
-ty
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/koma-script/
+scrlayer-scrpage.sty
 Package: scrlayer-scrpage 2017/01/03 v3.22 KOMA-Script package (end user interf
 ace for scrlayer)
- (/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/koma-script/scrlayer.sty
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/koma-script/
+scrlayer.sty
 Package: scrlayer 2017/01/03 v3.22 KOMA-Script package (defining layers and pag
 e styles)
 Package scrlayer Info: Using already defined \footheight
@@ -2446,12 +2613,11 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  T1/qhv/m/n --> T1/qhv/bx/n on input line 91.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  T1/ntxtlf/m/it --> T1/ntxtlf/bx/it on input line 91.
-
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 *geometry* driver: auto-detecting
-*geometry* detected driver: dvips
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: dvips
+* driver: pdftex
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -2483,12 +2649,13 @@ ABD: EveryShipout initializing macros
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/beamer/translator/dicts/transl
-ator-basic-dictionary/translator-basic-dictionary-English.dict
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/beamer/trans
+lator/dicts/translator-basic-dictionary/translator-basic-dictionary-English.dic
+t
 Dictionary: translator-basic-dictionary, Language: English 
 )
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.
-cfg
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/siunitx/siun
+itx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/03/23 v2.7f siunitx: Abbreviated units
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -2530,51 +2697,60 @@ Package biblatex Warning: The following entry could not be found
 )
 Package biblatex Info: Reference section=0 on input line 91.
 Package biblatex Info: Reference segment=0 on input line 91.
-\c__siunitx_mathsf_int=\count403
+\c__siunitx_mathsf_int=\count409
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 91.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 6.1pt on input line 91.
 LaTeX Font Info:    Try loading font information for U+eur on input line 91.
- (/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/amsfonts/ueur.fd
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/amsfonts/ueu
+r.fd
 File: ueur.fd 2013/01/14 v3.01 Euler Roman
 )
 LaTeX Font Info:    Try loading font information for U+ntxmia on input line 91.
 
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/newtx/untxmia.fd
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/untxmi
+a.fd
 File: untxmia.fd 2016/01/31 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Try loading font information for U+ntxsym on input line 91.
 
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/newtx/untxsym.fd
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/untxsy
+m.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 91.
 
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/newtx/untxsyc.fd
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/untxsy
+c.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Try loading font information for U+euf on input line 91.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/amsfonts/ueuf.fd
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/amsfonts/ueu
+f.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
 LaTeX Font Info:    Try loading font information for U+eus on input line 91.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/amsfonts/ueus.fd
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/amsfonts/ueu
+s.fd
 File: ueus.fd 2013/01/14 v3.01 Euler Script
 )
 LaTeX Font Info:    Try loading font information for U+euex on input line 91.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/amsfonts/ueuex.fd
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/amsfonts/ueu
+ex.fd
 File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
 )
 LaTeX Font Info:    Try loading font information for T1+qhv on input line 91.
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/tex-gyre/t1q
+hv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
@@ -2583,11 +2759,12 @@ LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 (Font)              scaled to size 7.19995pt on input line 91.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 (Font)              scaled to size 5.48996pt on input line 91.
-\c__siunitx_mathtt_int=\count404
+\c__siunitx_mathtt_int=\count410
 LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 91.
 
 
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/newtx/t1ntxtt.fd
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/t1ntxt
+t.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
@@ -2596,9 +2773,12 @@ LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 8.0pt on input line 91.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 6.1pt on input line 91.
-File: logos/AT_atlaslogo_2015.eps Graphic file (type eps)
+ <logos/AT_atlaslogo_2015.pdf, id=7, 259.97125pt x 259.97125pt>
+File: logos/AT_atlaslogo_2015.pdf Graphic file (type pdf)
 
-<logos/AT_atlaslogo_2015.eps>
+<use logos/AT_atlaslogo_2015.pdf>
+Package pdftex.def Info: logos/AT_atlaslogo_2015.pdf used on input line 93.
+(pdftex.def)             Requested size: 71.12935pt x 71.13188pt.
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/qhv/b/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
@@ -2609,8 +2789,14 @@ LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 (Font)              scaled to size 17.99988pt on input line 93.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 14.4pt on input line 93.
-File: logos/AT_cernlogo.eps Graphic file (type eps)
- <logos/AT_cernlogo.eps>
+
+<logos/AT_cernlogo.pdf, id=8, 85.31876pt x 83.31125pt>
+File: logos/AT_cernlogo.pdf Graphic file (type pdf)
+
+<use logos/AT_cernlogo.pdf>
+Package pdftex.def Info: logos/AT_cernlogo.pdf used on input line 93.
+(pdftex.def)             Requested size: 72.85063pt x 71.13188pt.
+
 Overfull \hbox (40.03896pt too wide) in paragraph at lines 93--93
 [][] 
  []
@@ -2649,7 +2835,9 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 93.
 LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 9
 3.
-(/afs/cern.ch/sw/XML/TL2016/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/ts1ntx
+tlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
@@ -2661,7 +2849,8 @@ Overfull \hbox (40.03896pt too wide) in paragraph at lines 93--93
 
 [1
 
-]
+{/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-var/fonts/map/pdftex/updmap
+/pdftex.map} <./logos/AT_atlaslogo_2015.pdf> <./logos/AT_cernlogo.pdf>]
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 (Font)              scaled to size 12.9599pt on input line 95.
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <14.4> not available
@@ -2672,16 +2861,8 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.4pt on input line 95.
- (./wz_heavy_flavor.toc
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 4.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 4.
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <6.1> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 4.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 6.1pt on input line 4.
-)
+
+(./wz_heavy_flavor.toc)
 \tf@toc=\write7
 \openout7 = `wz_heavy_flavor.toc'.
 
@@ -2695,10 +2876,31 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 106.
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 113.
- [3
 
-] (./sections/intro.tex) (./sections/MC.tex
-[4
+
+LaTeX Warning: Reference `subsec:interference' on page 3 undefined on input lin
+e 113.
+
+[3
+
+] (./sections/intro.tex
+
+LaTeX Warning: Reference `sec:tZ_bdt' on page 4 undefined on input line 8.
+
+
+LaTeX Warning: Reference `sec:signal_region' on page 4 undefined on input line 
+8.
+
+
+LaTeX Warning: Reference `sec:sys' on page 4 undefined on input line 8.
+
+
+LaTeX Warning: Reference `sec:results' on page 4 undefined on input line 8.
+
+
+LaTeX Warning: Reference `sec:conclusion' on page 4 undefined on input line 8.
+
+) (./sections/MC.tex [4
 
 ]
 Overfull \hbox (0.36421pt too wide) in paragraph at lines 18--19
@@ -2714,6 +2916,10 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1.
 
 )) (./sections/reco.tex
+
+LaTeX Warning: Reference `sec:signal_region' on page 6 undefined on input line 
+2.
+
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.3pt on input line 32.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
@@ -2731,130 +2937,1734 @@ LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 5.5pt on input line 32.
 
-
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
 (Font)              size <5> substituted on input line 32.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6] [7] [8]
-File: figures/MV2c10_output.eps Graphic file (type eps)
- <figures/MV2c10_output.eps> [9]) (./sections/evtSel.tex
+[6pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
+as been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.40 
+     ] [7pdfTeX warning (ext4): destination with the same identifier (name{tabl
+e.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.79 
+     ] [8pdfTeX warning (ext4): destination with the same identifier (name{tabl
+e.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.84 
+     pdfTeX warning (ext4): destination with the same identifier (name{table.4}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.84 
+     ] <figures/DL1_output.pdf, id=114, 569.12625pt x 552.0625pt>
+File: figures/DL1_output.pdf Graphic file (type pdf)
+
+<use figures/DL1_output.pdf>
+Package pdftex.def Info: figures/DL1_output.pdf used on input line 87.
+(pdftex.def)             Requested size: 225.8542pt x 219.08578pt.
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.109 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.5
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.109 
+       <./figures/DL1_output.pdf>]) (./sections/evtSel.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10] (./all_b_yields.tex) [11]
-File: figures/kinematics/m3l.eps Graphic file (type eps)
- <figures/kinematics/m3l.eps>
+[10] (./all_b_yields.tex) [11pdfTeX warning (ext4): destination with the same i
+dentifier (name{table.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.44 
+     ]
+Package epstopdf Info: Source file: <figures/kinematics/m3l.eps>
+(epstopdf)                    date: 2019-12-06 20:57:36
+(epstopdf)                    size: 2065771 bytes
+(epstopdf)             Output file: <figures/kinematics/m3l-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2020-08-20 12:27:25
+(epstopdf)                    size: 106270 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/kinematics/m3l-eps
+-converted-to.pdf figures/kinematics/m3l.eps>
+(epstopdf)             \includegraphics on input line 52.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/kinematics/m3l-eps-converted-to.pdf, id=155, 569.12625pt x 641.39626pt
+>
+File: figures/kinematics/m3l-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/kinematics/m3l-eps-converted-to.pdf>
+Package pdftex.def Info: figures/kinematics/m3l-eps-converted-to.pdf used on in
+put line 52.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 9.0pt on input line 52.
-File: figures/kinematics/HT.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <figures/kinematics/HT.eps>
+(epstopdf)                    date: 2019-12-06 20:57:36
+(epstopdf)                    size: 2064917 bytes
+(epstopdf)             Output file: <figures/kinematics/HT-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2020-08-20 12:27:28
+(epstopdf)                    size: 106244 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/kinematics/HT-eps-
+converted-to.pdf figures/kinematics/HT.eps>
+(epstopdf)             \includegraphics on input line 53.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/kinematics/HT.eps>
-File: figures/kinematics/lead_jetPt.eps Graphic file (type eps)
- <figures/kinematics/lead_jetPt.eps>
-File: figures/kinematics/MET.eps Graphic file (type eps)
+<figures/kinematics/HT-eps-converted-to.pdf, id=156, 569.12625pt x 641.39626pt>
+File: figures/kinematics/HT-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/kinematics/HT-eps-converted-to.pdf>
+Package pdftex.def Info: figures/kinematics/HT-eps-converted-to.pdf used on inp
+ut line 53.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/kinematics/lead_jetPt.eps>
+(epstopdf)                    date: 2019-12-06 20:57:36
+(epstopdf)                    size: 2063301 bytes
+(epstopdf)             Output file: <figures/kinematics/lead_jetPt-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:27:31
+(epstopdf)                    size: 106215 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/kinematics/lead_je
+tPt-eps-converted-to.pdf figures/kinematics/lead_jetPt.eps>
+(epstopdf)             \includegraphics on input line 54.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/kinematics/MET.eps>
-File: figures/kinematics/lep_Pt_0.eps Graphic file (type eps)
- <figures/kinematics/lep_Pt_0.eps>
-File: figures/kinematics/lep_Pt_1.eps Graphic file (type eps)
+<figures/kinematics/lead_jetPt-eps-converted-to.pdf, id=157, 569.12625pt x 641.
+39626pt>
+File: figures/kinematics/lead_jetPt-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use figures/kinematics/lead_jetPt-eps-converted-to.pdf>
+Package pdftex.def Info: figures/kinematics/lead_jetPt-eps-converted-to.pdf use
+d on input line 54.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/kinematics/MET.eps>
+(epstopdf)                    date: 2019-12-06 20:57:36
+(epstopdf)                    size: 2065065 bytes
+(epstopdf)             Output file: <figures/kinematics/MET-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2020-08-20 12:27:34
+(epstopdf)                    size: 106313 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/kinematics/MET-eps
+-converted-to.pdf figures/kinematics/MET.eps>
+(epstopdf)             \includegraphics on input line 55.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/kinematics/lep_Pt_1.eps>
-File: figures/kinematics/lep_Pt_2.eps Graphic file (type eps)
- <figures/kinematics/lep_Pt_2.eps>
-File: figures/kinematics/Mll01.eps Graphic file (type eps)
+<figures/kinematics/MET-eps-converted-to.pdf, id=158, 569.12625pt x 641.39626pt
+>
+File: figures/kinematics/MET-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/kinematics/MET-eps-converted-to.pdf>
+Package pdftex.def Info: figures/kinematics/MET-eps-converted-to.pdf used on in
+put line 55.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/kinematics/lep_Pt_0.eps>
+(epstopdf)                    date: 2019-12-06 20:57:36
+(epstopdf)                    size: 2066744 bytes
+(epstopdf)             Output file: <figures/kinematics/lep_Pt_0-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2020-08-20 12:27:36
+(epstopdf)                    size: 106809 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/kinematics/lep_Pt_
+0-eps-converted-to.pdf figures/kinematics/lep_Pt_0.eps>
+(epstopdf)             \includegraphics on input line 59.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/kinematics/Mll01.eps> [12]
-File: figures/kinematics/Mll02.eps Graphic file (type eps)
- <figures/kinematics/Mll02.eps>
-File: figures/kinematics/Mll12.eps Graphic file (type eps)
+<figures/kinematics/lep_Pt_0-eps-converted-to.pdf, id=159, 569.12625pt x 641.39
+626pt>
+File: figures/kinematics/lep_Pt_0-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/kinematics/lep_Pt_0-eps-converted-to.pdf>
+Package pdftex.def Info: figures/kinematics/lep_Pt_0-eps-converted-to.pdf used 
+on input line 59.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/kinematics/lep_Pt_1.eps>
+(epstopdf)                    date: 2019-12-06 20:57:36
+(epstopdf)                    size: 2064154 bytes
+(epstopdf)             Output file: <figures/kinematics/lep_Pt_1-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2020-08-20 12:27:39
+(epstopdf)                    size: 106285 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/kinematics/lep_Pt_
+1-eps-converted-to.pdf figures/kinematics/lep_Pt_1.eps>
+(epstopdf)             \includegraphics on input line 60.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/kinematics/Mll12.eps> [13] [14]
+<figures/kinematics/lep_Pt_1-eps-converted-to.pdf, id=160, 569.12625pt x 641.39
+626pt>
+File: figures/kinematics/lep_Pt_1-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/kinematics/lep_Pt_1-eps-converted-to.pdf>
+Package pdftex.def Info: figures/kinematics/lep_Pt_1-eps-converted-to.pdf used 
+on input line 60.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/kinematics/lep_Pt_2.eps>
+(epstopdf)                    date: 2019-12-06 20:57:36
+(epstopdf)                    size: 2064542 bytes
+(epstopdf)             Output file: <figures/kinematics/lep_Pt_2-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2020-08-20 12:27:42
+(epstopdf)                    size: 106154 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/kinematics/lep_Pt_
+2-eps-converted-to.pdf figures/kinematics/lep_Pt_2.eps>
+(epstopdf)             \includegraphics on input line 61.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/kinematics/lep_Pt_2-eps-converted-to.pdf, id=161, 569.12625pt x 641.39
+626pt>
+File: figures/kinematics/lep_Pt_2-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/kinematics/lep_Pt_2-eps-converted-to.pdf>
+Package pdftex.def Info: figures/kinematics/lep_Pt_2-eps-converted-to.pdf used 
+on input line 61.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/kinematics/Mll01.eps>
+(epstopdf)                    date: 2019-12-06 20:57:38
+(epstopdf)                    size: 2063807 bytes
+(epstopdf)             Output file: <figures/kinematics/Mll01-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2020-08-20 12:27:45
+(epstopdf)                    size: 106435 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/kinematics/Mll01-e
+ps-converted-to.pdf figures/kinematics/Mll01.eps>
+(epstopdf)             \includegraphics on input line 62.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/kinematics/Mll01-eps-converted-to.pdf, id=162, 569.12625pt x 641.39626
+pt>
+File: figures/kinematics/Mll01-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/kinematics/Mll01-eps-converted-to.pdf>
+Package pdftex.def Info: figures/kinematics/Mll01-eps-converted-to.pdf used on 
+input line 62.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+ [12pdfTeX warning (ext4): destination with the same identifier (name{table.7})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.64 \end{figure}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{table.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.64 \end{figure}
+                 ]
+Package epstopdf Info: Source file: <figures/kinematics/Mll02.eps>
+(epstopdf)                    date: 2019-12-06 20:57:38
+(epstopdf)                    size: 2062772 bytes
+(epstopdf)             Output file: <figures/kinematics/Mll02-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2020-08-20 12:27:47
+(epstopdf)                    size: 105972 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/kinematics/Mll02-e
+ps-converted-to.pdf figures/kinematics/Mll02.eps>
+(epstopdf)             \includegraphics on input line 66.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/kinematics/Mll02-eps-converted-to.pdf, id=170, 569.12625pt x 641.39626
+pt>
+File: figures/kinematics/Mll02-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/kinematics/Mll02-eps-converted-to.pdf>
+Package pdftex.def Info: figures/kinematics/Mll02-eps-converted-to.pdf used on 
+input line 66.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/kinematics/Mll12.eps>
+(epstopdf)                    date: 2019-12-06 20:57:38
+(epstopdf)                    size: 2064272 bytes
+(epstopdf)             Output file: <figures/kinematics/Mll12-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2020-08-20 12:27:49
+(epstopdf)                    size: 106580 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/kinematics/Mll12-e
+ps-converted-to.pdf figures/kinematics/Mll12.eps>
+(epstopdf)             \includegraphics on input line 67.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/kinematics/Mll12-eps-converted-to.pdf, id=171, 569.12625pt x 641.39626
+pt>
+File: figures/kinematics/Mll12-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/kinematics/Mll12-eps-converted-to.pdf>
+Package pdftex.def Info: figures/kinematics/Mll12-eps-converted-to.pdf used on 
+input line 67.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.2}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.70 \end{figure}
+                  <./figures/kinematics/m3l-eps-converted-to.pdf> <./figures/ki
+nematics/HT-eps-converted-to.pdf> <./figures/kinematics/lead_jetPt-eps-converte
+d-to.pdf> <./figures/kinematics/MET-eps-converted-to.pdf>] [14pdfTeX warning (e
+xt4): destination with the same identifier (name{figure.3}) has been already us
+ed, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.71 
+      <./figures/kinematics/lep_Pt_0-eps-converted-to.pdf> <./figures/kinematic
+s/lep_Pt_1-eps-converted-to.pdf> <./figures/kinematics/lep_Pt_2-eps-converted-t
+o.pdf> <./figures/kinematics/Mll01-eps-converted-to.pdf>]
+<figures/regions/plots_inclusive/Plots/lead_jetPt.png, id=376, 598.235pt x 674.
+52pt>
+File: figures/regions/plots_inclusive/Plots/lead_jetPt.png Graphic file (type p
+ng)
+ <use figures/regions/plots_inclusive/Plots/lead_jetPt.png>
+Package pdftex.def Info: figures/regions/plots_inclusive/Plots/lead_jetPt.png u
+sed on input line 74.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_inclusive/Plots/lep_Pt_0.png, id=377, 598.235pt x 674.52
+pt>
+File: figures/regions/plots_inclusive/Plots/lep_Pt_0.png Graphic file (type png
+)
+ <use figures/regions/plots_inclusive/Plots/lep_Pt_0.png>
+Package pdftex.def Info: figures/regions/plots_inclusive/Plots/lep_Pt_0.png use
+d on input line 75.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_inclusive/Plots/lep_Pt_1.png, id=378, 598.235pt x 674.52
+pt>
+File: figures/regions/plots_inclusive/Plots/lep_Pt_1.png Graphic file (type png
+)
+ <use figures/regions/plots_inclusive/Plots/lep_Pt_1.png>
+Package pdftex.def Info: figures/regions/plots_inclusive/Plots/lep_Pt_1.png use
+d on input line 76.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_inclusive/Plots/lep_Pt_2.png, id=379, 598.235pt x 674.52
+pt>
+File: figures/regions/plots_inclusive/Plots/lep_Pt_2.png Graphic file (type png
+)
+ <use figures/regions/plots_inclusive/Plots/lep_Pt_2.png>
+Package pdftex.def Info: figures/regions/plots_inclusive/Plots/lep_Pt_2.png use
+d on input line 77.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_inclusive/Plots/MET.png, id=380, 598.235pt x 674.52pt>
+File: figures/regions/plots_inclusive/Plots/MET.png Graphic file (type png)
+
+<use figures/regions/plots_inclusive/Plots/MET.png>
+Package pdftex.def Info: figures/regions/plots_inclusive/Plots/MET.png used on 
+input line 78.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_inclusive/Plots/Mll01.png, id=381, 598.235pt x 674.52pt>
+File: figures/regions/plots_inclusive/Plots/Mll01.png Graphic file (type png)
+<use figures/regions/plots_inclusive/Plots/Mll01.png>
+Package pdftex.def Info: figures/regions/plots_inclusive/Plots/Mll01.png used o
+n input line 79.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.4}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.82 
+      <./figures/kinematics/Mll02-eps-converted-to.pdf> <./figures/kinematics/M
+ll12-eps-converted-to.pdf>]
+<figures/regions/plots_not_85/Plots/lead_jetPt.png, id=434, 598.235pt x 674.52p
+t>
+File: figures/regions/plots_not_85/Plots/lead_jetPt.png Graphic file (type png)
+
+ <use figures/regions/plots_not_85/Plots/lead_jetPt.png>
+Package pdftex.def Info: figures/regions/plots_not_85/Plots/lead_jetPt.png used
+ on input line 85.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_not_85/Plots/lep_Pt_0.png, id=435, 598.235pt x 674.52pt>
+File: figures/regions/plots_not_85/Plots/lep_Pt_0.png Graphic file (type png)
+<use figures/regions/plots_not_85/Plots/lep_Pt_0.png>
+Package pdftex.def Info: figures/regions/plots_not_85/Plots/lep_Pt_0.png used o
+n input line 86.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_not_85/Plots/lep_Pt_1.png, id=436, 598.235pt x 674.52pt>
+File: figures/regions/plots_not_85/Plots/lep_Pt_1.png Graphic file (type png)
+<use figures/regions/plots_not_85/Plots/lep_Pt_1.png>
+Package pdftex.def Info: figures/regions/plots_not_85/Plots/lep_Pt_1.png used o
+n input line 87.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_not_85/Plots/lep_Pt_2.png, id=437, 598.235pt x 674.52pt>
+File: figures/regions/plots_not_85/Plots/lep_Pt_2.png Graphic file (type png)
+<use figures/regions/plots_not_85/Plots/lep_Pt_2.png>
+Package pdftex.def Info: figures/regions/plots_not_85/Plots/lep_Pt_2.png used o
+n input line 88.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_not_85/Plots/MET.png, id=438, 598.235pt x 674.52pt>
+File: figures/regions/plots_not_85/Plots/MET.png Graphic file (type png)
+
+<use figures/regions/plots_not_85/Plots/MET.png>
+Package pdftex.def Info: figures/regions/plots_not_85/Plots/MET.png used on inp
+ut line 89.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_not_85/Plots/Mll01.png, id=439, 598.235pt x 674.52pt>
+File: figures/regions/plots_not_85/Plots/Mll01.png Graphic file (type png)
+
+<use figures/regions/plots_not_85/Plots/Mll01.png>
+Package pdftex.def Info: figures/regions/plots_not_85/Plots/Mll01.png used on i
+nput line 90.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.5}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.93 
+      <./figures/regions/plots_inclusive/Plots/lead_jetPt.png> <./figures/regio
+ns/plots_inclusive/Plots/lep_Pt_0.png> <./figures/regions/plots_inclusive/Plots
+/lep_Pt_1.png> <./figures/regions/plots_inclusive/Plots/lep_Pt_2.png> <./figure
+s/regions/plots_inclusive/Plots/MET.png> <./figures/regions/plots_inclusive/Plo
+ts/Mll01.png>]
+<figures/regions/plots_1j_77_85/Plots/lead_jetPt.png, id=451, 598.235pt x 674.5
+2pt>
+File: figures/regions/plots_1j_77_85/Plots/lead_jetPt.png Graphic file (type pn
+g)
+ <use figures/regions/plots_1j_77_85/Plots/lead_jetPt.png>
+Package pdftex.def Info: figures/regions/plots_1j_77_85/Plots/lead_jetPt.png us
+ed on input line 96.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_1j_77_85/Plots/lep_Pt_0.png, id=452, 598.235pt x 674.52p
+t>
+File: figures/regions/plots_1j_77_85/Plots/lep_Pt_0.png Graphic file (type png)
+
+ <use figures/regions/plots_1j_77_85/Plots/lep_Pt_0.png>
+Package pdftex.def Info: figures/regions/plots_1j_77_85/Plots/lep_Pt_0.png used
+ on input line 97.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_1j_77_85/Plots/lep_Pt_1.png, id=453, 598.235pt x 674.52p
+t>
+File: figures/regions/plots_1j_77_85/Plots/lep_Pt_1.png Graphic file (type png)
+
+ <use figures/regions/plots_1j_77_85/Plots/lep_Pt_1.png>
+Package pdftex.def Info: figures/regions/plots_1j_77_85/Plots/lep_Pt_1.png used
+ on input line 98.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_1j_77_85/Plots/lep_Pt_2.png, id=454, 598.235pt x 674.52p
+t>
+File: figures/regions/plots_1j_77_85/Plots/lep_Pt_2.png Graphic file (type png)
+
+ <use figures/regions/plots_1j_77_85/Plots/lep_Pt_2.png>
+Package pdftex.def Info: figures/regions/plots_1j_77_85/Plots/lep_Pt_2.png used
+ on input line 99.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_1j_77_85/Plots/MET.png, id=455, 598.235pt x 674.52pt>
+File: figures/regions/plots_1j_77_85/Plots/MET.png Graphic file (type png)
+
+<use figures/regions/plots_1j_77_85/Plots/MET.png>
+Package pdftex.def Info: figures/regions/plots_1j_77_85/Plots/MET.png used on i
+nput line 100.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_1j_77_85/Plots/Mll01.png, id=456, 598.235pt x 674.52pt>
+File: figures/regions/plots_1j_77_85/Plots/Mll01.png Graphic file (type png)
+
+<use figures/regions/plots_1j_77_85/Plots/Mll01.png>
+Package pdftex.def Info: figures/regions/plots_1j_77_85/Plots/Mll01.png used on
+ input line 101.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+ [17pdfTeX warning (ext4): destination with the same identifier (name{figure.6}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.104 
+       <./figures/regions/plots_not_85/Plots/lead_jetPt.png> <./figures/regions
+/plots_not_85/Plots/lep_Pt_0.png> <./figures/regions/plots_not_85/Plots/lep_Pt_
+1.png> <./figures/regions/plots_not_85/Plots/lep_Pt_2.png> <./figures/regions/p
+lots_not_85/Plots/MET.png> <./figures/regions/plots_not_85/Plots/Mll01.png>]
+<figures/regions/plots_1j_70_77/Plots/lead_jetPt.png, id=469, 598.235pt x 674.5
+2pt>
+File: figures/regions/plots_1j_70_77/Plots/lead_jetPt.png Graphic file (type pn
+g)
+ <use figures/regions/plots_1j_70_77/Plots/lead_jetPt.png>
+Package pdftex.def Info: figures/regions/plots_1j_70_77/Plots/lead_jetPt.png us
+ed on input line 107.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_1j_70_77/Plots/lep_Pt_0.png, id=470, 598.235pt x 674.52p
+t>
+File: figures/regions/plots_1j_70_77/Plots/lep_Pt_0.png Graphic file (type png)
+
+ <use figures/regions/plots_1j_70_77/Plots/lep_Pt_0.png>
+Package pdftex.def Info: figures/regions/plots_1j_70_77/Plots/lep_Pt_0.png used
+ on input line 108.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_1j_70_77/Plots/lep_Pt_1.png, id=471, 598.235pt x 674.52p
+t>
+File: figures/regions/plots_1j_70_77/Plots/lep_Pt_1.png Graphic file (type png)
+
+ <use figures/regions/plots_1j_70_77/Plots/lep_Pt_1.png>
+Package pdftex.def Info: figures/regions/plots_1j_70_77/Plots/lep_Pt_1.png used
+ on input line 109.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_1j_70_77/Plots/lep_Pt_2.png, id=472, 598.235pt x 674.52p
+t>
+File: figures/regions/plots_1j_70_77/Plots/lep_Pt_2.png Graphic file (type png)
+
+ <use figures/regions/plots_1j_70_77/Plots/lep_Pt_2.png>
+Package pdftex.def Info: figures/regions/plots_1j_70_77/Plots/lep_Pt_2.png used
+ on input line 110.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_1j_70_77/Plots/MET.png, id=473, 598.235pt x 674.52pt>
+File: figures/regions/plots_1j_70_77/Plots/MET.png Graphic file (type png)
+
+<use figures/regions/plots_1j_70_77/Plots/MET.png>
+Package pdftex.def Info: figures/regions/plots_1j_70_77/Plots/MET.png used on i
+nput line 111.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_1j_70_77/Plots/Mll01.png, id=474, 598.235pt x 674.52pt>
+File: figures/regions/plots_1j_70_77/Plots/Mll01.png Graphic file (type png)
+
+<use figures/regions/plots_1j_70_77/Plots/Mll01.png>
+Package pdftex.def Info: figures/regions/plots_1j_70_77/Plots/Mll01.png used on
+ input line 112.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.7}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.115 
+       <./figures/regions/plots_1j_77_85/Plots/lead_jetPt.png> <./figures/regio
+ns/plots_1j_77_85/Plots/lep_Pt_0.png> <./figures/regions/plots_1j_77_85/Plots/l
+ep_Pt_1.png> <./figures/regions/plots_1j_77_85/Plots/lep_Pt_2.png> <./figures/r
+egions/plots_1j_77_85/Plots/MET.png> <./figures/regions/plots_1j_77_85/Plots/Ml
+l01.png>]
+<figures/regions/plots_1j_60_70/Plots/lead_jetPt.png, id=486, 598.235pt x 674.5
+2pt>
+File: figures/regions/plots_1j_60_70/Plots/lead_jetPt.png Graphic file (type pn
+g)
+ <use figures/regions/plots_1j_60_70/Plots/lead_jetPt.png>
+Package pdftex.def Info: figures/regions/plots_1j_60_70/Plots/lead_jetPt.png us
+ed on input line 118.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_1j_60_70/Plots/lep_Pt_0.png, id=487, 598.235pt x 674.52p
+t>
+File: figures/regions/plots_1j_60_70/Plots/lep_Pt_0.png Graphic file (type png)
+
+ <use figures/regions/plots_1j_60_70/Plots/lep_Pt_0.png>
+Package pdftex.def Info: figures/regions/plots_1j_60_70/Plots/lep_Pt_0.png used
+ on input line 119.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_1j_60_70/Plots/lep_Pt_1.png, id=488, 598.235pt x 674.52p
+t>
+File: figures/regions/plots_1j_60_70/Plots/lep_Pt_1.png Graphic file (type png)
+
+ <use figures/regions/plots_1j_60_70/Plots/lep_Pt_1.png>
+Package pdftex.def Info: figures/regions/plots_1j_60_70/Plots/lep_Pt_1.png used
+ on input line 120.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_1j_60_70/Plots/lep_Pt_2.png, id=489, 598.235pt x 674.52p
+t>
+File: figures/regions/plots_1j_60_70/Plots/lep_Pt_2.png Graphic file (type png)
+
+ <use figures/regions/plots_1j_60_70/Plots/lep_Pt_2.png>
+Package pdftex.def Info: figures/regions/plots_1j_60_70/Plots/lep_Pt_2.png used
+ on input line 121.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_1j_60_70/Plots/MET.png, id=490, 598.235pt x 674.52pt>
+File: figures/regions/plots_1j_60_70/Plots/MET.png Graphic file (type png)
+
+<use figures/regions/plots_1j_60_70/Plots/MET.png>
+Package pdftex.def Info: figures/regions/plots_1j_60_70/Plots/MET.png used on i
+nput line 122.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_1j_60_70/Plots/Mll01.png, id=491, 598.235pt x 674.52pt>
+File: figures/regions/plots_1j_60_70/Plots/Mll01.png Graphic file (type png)
+
+<use figures/regions/plots_1j_60_70/Plots/Mll01.png>
+Package pdftex.def Info: figures/regions/plots_1j_60_70/Plots/Mll01.png used on
+ input line 123.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.8}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.126 
+       <./figures/regions/plots_1j_70_77/Plots/lead_jetPt.png> <./figures/regio
+ns/plots_1j_70_77/Plots/lep_Pt_0.png> <./figures/regions/plots_1j_70_77/Plots/l
+ep_Pt_1.png> <./figures/regions/plots_1j_70_77/Plots/lep_Pt_2.png> <./figures/r
+egions/plots_1j_70_77/Plots/MET.png> <./figures/regions/plots_1j_70_77/Plots/Ml
+l01.png>]
+<figures/regions/plots_1j_60/Plots/lead_jetPt.png, id=504, 598.235pt x 674.52pt
+>
+File: figures/regions/plots_1j_60/Plots/lead_jetPt.png Graphic file (type png)
+ <use figures/regions/plots_1j_60/Plots/lead_jetPt.png>
+Package pdftex.def Info: figures/regions/plots_1j_60/Plots/lead_jetPt.png used 
+on input line 129.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_1j_60/Plots/lep_Pt_0.png, id=505, 598.235pt x 674.52pt>
+File: figures/regions/plots_1j_60/Plots/lep_Pt_0.png Graphic file (type png)
+
+<use figures/regions/plots_1j_60/Plots/lep_Pt_0.png>
+Package pdftex.def Info: figures/regions/plots_1j_60/Plots/lep_Pt_0.png used on
+ input line 130.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_1j_60/Plots/lep_Pt_1.png, id=506, 598.235pt x 674.52pt>
+File: figures/regions/plots_1j_60/Plots/lep_Pt_1.png Graphic file (type png)
+
+<use figures/regions/plots_1j_60/Plots/lep_Pt_1.png>
+Package pdftex.def Info: figures/regions/plots_1j_60/Plots/lep_Pt_1.png used on
+ input line 131.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_1j_60/Plots/lep_Pt_2.png, id=507, 598.235pt x 674.52pt>
+File: figures/regions/plots_1j_60/Plots/lep_Pt_2.png Graphic file (type png)
+
+<use figures/regions/plots_1j_60/Plots/lep_Pt_2.png>
+Package pdftex.def Info: figures/regions/plots_1j_60/Plots/lep_Pt_2.png used on
+ input line 132.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_1j_60/Plots/MET.png, id=508, 598.235pt x 674.52pt>
+File: figures/regions/plots_1j_60/Plots/MET.png Graphic file (type png)
+
+<use figures/regions/plots_1j_60/Plots/MET.png>
+Package pdftex.def Info: figures/regions/plots_1j_60/Plots/MET.png used on inpu
+t line 133.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_1j_60/Plots/Mll01.png, id=509, 598.235pt x 674.52pt>
+File: figures/regions/plots_1j_60/Plots/Mll01.png Graphic file (type png)
+
+<use figures/regions/plots_1j_60/Plots/Mll01.png>
+Package pdftex.def Info: figures/regions/plots_1j_60/Plots/Mll01.png used on in
+put line 134.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+ [20pdfTeX warning (ext4): destination with the same identifier (name{figure.9}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.137 
+       <./figures/regions/plots_1j_60_70/Plots/lead_jetPt.png> <./figures/regio
+ns/plots_1j_60_70/Plots/lep_Pt_0.png> <./figures/regions/plots_1j_60_70/Plots/l
+ep_Pt_1.png> <./figures/regions/plots_1j_60_70/Plots/lep_Pt_2.png> <./figures/r
+egions/plots_1j_60_70/Plots/MET.png> <./figures/regions/plots_1j_60_70/Plots/Ml
+l01.png>]
+<figures/regions/plots_tZ_CR/Plots/lead_jetPt.png, id=521, 598.235pt x 674.52pt
+>
+File: figures/regions/plots_tZ_CR/Plots/lead_jetPt.png Graphic file (type png)
+ <use figures/regions/plots_tZ_CR/Plots/lead_jetPt.png>
+Package pdftex.def Info: figures/regions/plots_tZ_CR/Plots/lead_jetPt.png used 
+on input line 140.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_tZ_CR/Plots/lep_Pt_0.png, id=522, 598.235pt x 674.52pt>
+File: figures/regions/plots_tZ_CR/Plots/lep_Pt_0.png Graphic file (type png)
+
+<use figures/regions/plots_tZ_CR/Plots/lep_Pt_0.png>
+Package pdftex.def Info: figures/regions/plots_tZ_CR/Plots/lep_Pt_0.png used on
+ input line 141.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_tZ_CR/Plots/lep_Pt_1.png, id=523, 598.235pt x 674.52pt>
+File: figures/regions/plots_tZ_CR/Plots/lep_Pt_1.png Graphic file (type png)
+
+<use figures/regions/plots_tZ_CR/Plots/lep_Pt_1.png>
+Package pdftex.def Info: figures/regions/plots_tZ_CR/Plots/lep_Pt_1.png used on
+ input line 142.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_tZ_CR/Plots/lep_Pt_2.png, id=524, 598.235pt x 674.52pt>
+File: figures/regions/plots_tZ_CR/Plots/lep_Pt_2.png Graphic file (type png)
+
+<use figures/regions/plots_tZ_CR/Plots/lep_Pt_2.png>
+Package pdftex.def Info: figures/regions/plots_tZ_CR/Plots/lep_Pt_2.png used on
+ input line 143.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_tZ_CR/Plots/MET.png, id=525, 598.235pt x 674.52pt>
+File: figures/regions/plots_tZ_CR/Plots/MET.png Graphic file (type png)
+
+<use figures/regions/plots_tZ_CR/Plots/MET.png>
+Package pdftex.def Info: figures/regions/plots_tZ_CR/Plots/MET.png used on inpu
+t line 144.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_tZ_CR/Plots/Mll01.png, id=526, 598.235pt x 674.52pt>
+File: figures/regions/plots_tZ_CR/Plots/Mll01.png Graphic file (type png)
+
+<use figures/regions/plots_tZ_CR/Plots/Mll01.png>
+Package pdftex.def Info: figures/regions/plots_tZ_CR/Plots/Mll01.png used on in
+put line 145.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+ [21pdfTeX warning (ext4): destination with the same identifier (name{figure.10
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.148 
+       <./figures/regions/plots_1j_60/Plots/lead_jetPt.png> <./figures/regions/
+plots_1j_60/Plots/lep_Pt_0.png> <./figures/regions/plots_1j_60/Plots/lep_Pt_1.p
+ng> <./figures/regions/plots_1j_60/Plots/lep_Pt_2.png> <./figures/regions/plots
+_1j_60/Plots/MET.png> <./figures/regions/plots_1j_60/Plots/Mll01.png>]
+<figures/regions/plots_not_85_2j/Plots/lead_jetPt.png, id=538, 598.235pt x 674.
+52pt>
+File: figures/regions/plots_not_85_2j/Plots/lead_jetPt.png Graphic file (type p
+ng)
+ <use figures/regions/plots_not_85_2j/Plots/lead_jetPt.png>
+Package pdftex.def Info: figures/regions/plots_not_85_2j/Plots/lead_jetPt.png u
+sed on input line 151.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_not_85_2j/Plots/lep_Pt_0.png, id=539, 598.235pt x 674.52
+pt>
+File: figures/regions/plots_not_85_2j/Plots/lep_Pt_0.png Graphic file (type png
+)
+ <use figures/regions/plots_not_85_2j/Plots/lep_Pt_0.png>
+Package pdftex.def Info: figures/regions/plots_not_85_2j/Plots/lep_Pt_0.png use
+d on input line 152.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_not_85_2j/Plots/lep_Pt_1.png, id=540, 598.235pt x 674.52
+pt>
+File: figures/regions/plots_not_85_2j/Plots/lep_Pt_1.png Graphic file (type png
+)
+ <use figures/regions/plots_not_85_2j/Plots/lep_Pt_1.png>
+Package pdftex.def Info: figures/regions/plots_not_85_2j/Plots/lep_Pt_1.png use
+d on input line 153.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_not_85_2j/Plots/lep_Pt_2.png, id=541, 598.235pt x 674.52
+pt>
+File: figures/regions/plots_not_85_2j/Plots/lep_Pt_2.png Graphic file (type png
+)
+ <use figures/regions/plots_not_85_2j/Plots/lep_Pt_2.png>
+Package pdftex.def Info: figures/regions/plots_not_85_2j/Plots/lep_Pt_2.png use
+d on input line 154.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_not_85_2j/Plots/MET.png, id=542, 598.235pt x 674.52pt>
+File: figures/regions/plots_not_85_2j/Plots/MET.png Graphic file (type png)
+
+<use figures/regions/plots_not_85_2j/Plots/MET.png>
+Package pdftex.def Info: figures/regions/plots_not_85_2j/Plots/MET.png used on 
+input line 155.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_not_85_2j/Plots/Mll01.png, id=543, 598.235pt x 674.52pt>
+File: figures/regions/plots_not_85_2j/Plots/Mll01.png Graphic file (type png)
+<use figures/regions/plots_not_85_2j/Plots/Mll01.png>
+Package pdftex.def Info: figures/regions/plots_not_85_2j/Plots/Mll01.png used o
+n input line 156.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+ [22pdfTeX warning (ext4): destination with the same identifier (name{figure.11
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.159 
+       <./figures/regions/plots_tZ_CR/Plots/lead_jetPt.png> <./figures/regions/
+plots_tZ_CR/Plots/lep_Pt_0.png> <./figures/regions/plots_tZ_CR/Plots/lep_Pt_1.p
+ng> <./figures/regions/plots_tZ_CR/Plots/lep_Pt_2.png> <./figures/regions/plots
+_tZ_CR/Plots/MET.png> <./figures/regions/plots_tZ_CR/Plots/Mll01.png>]
+<figures/regions/plots_2j_77_85/Plots/lead_jetPt.png, id=555, 598.235pt x 674.5
+2pt>
+File: figures/regions/plots_2j_77_85/Plots/lead_jetPt.png Graphic file (type pn
+g)
+ <use figures/regions/plots_2j_77_85/Plots/lead_jetPt.png>
+Package pdftex.def Info: figures/regions/plots_2j_77_85/Plots/lead_jetPt.png us
+ed on input line 162.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_2j_77_85/Plots/lep_Pt_0.png, id=556, 598.235pt x 674.52p
+t>
+File: figures/regions/plots_2j_77_85/Plots/lep_Pt_0.png Graphic file (type png)
+
+ <use figures/regions/plots_2j_77_85/Plots/lep_Pt_0.png>
+Package pdftex.def Info: figures/regions/plots_2j_77_85/Plots/lep_Pt_0.png used
+ on input line 163.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_2j_77_85/Plots/lep_Pt_1.png, id=557, 598.235pt x 674.52p
+t>
+File: figures/regions/plots_2j_77_85/Plots/lep_Pt_1.png Graphic file (type png)
+
+ <use figures/regions/plots_2j_77_85/Plots/lep_Pt_1.png>
+Package pdftex.def Info: figures/regions/plots_2j_77_85/Plots/lep_Pt_1.png used
+ on input line 164.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_2j_77_85/Plots/lep_Pt_2.png, id=558, 598.235pt x 674.52p
+t>
+File: figures/regions/plots_2j_77_85/Plots/lep_Pt_2.png Graphic file (type png)
+
+ <use figures/regions/plots_2j_77_85/Plots/lep_Pt_2.png>
+Package pdftex.def Info: figures/regions/plots_2j_77_85/Plots/lep_Pt_2.png used
+ on input line 165.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_2j_77_85/Plots/MET.png, id=559, 598.235pt x 674.52pt>
+File: figures/regions/plots_2j_77_85/Plots/MET.png Graphic file (type png)
+
+<use figures/regions/plots_2j_77_85/Plots/MET.png>
+Package pdftex.def Info: figures/regions/plots_2j_77_85/Plots/MET.png used on i
+nput line 166.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_2j_77_85/Plots/Mll01.png, id=560, 598.235pt x 674.52pt>
+File: figures/regions/plots_2j_77_85/Plots/Mll01.png Graphic file (type png)
+
+<use figures/regions/plots_2j_77_85/Plots/Mll01.png>
+Package pdftex.def Info: figures/regions/plots_2j_77_85/Plots/Mll01.png used on
+ input line 167.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.12
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.170 
+       <./figures/regions/plots_not_85_2j/Plots/lead_jetPt.png> <./figures/regi
+ons/plots_not_85_2j/Plots/lep_Pt_0.png> <./figures/regions/plots_not_85_2j/Plot
+s/lep_Pt_1.png> <./figures/regions/plots_not_85_2j/Plots/lep_Pt_2.png> <./figur
+es/regions/plots_not_85_2j/Plots/MET.png> <./figures/regions/plots_not_85_2j/Pl
+ots/Mll01.png>]
+<figures/regions/plots_2j_70_77/Plots/lead_jetPt.png, id=572, 598.235pt x 674.5
+2pt>
+File: figures/regions/plots_2j_70_77/Plots/lead_jetPt.png Graphic file (type pn
+g)
+ <use figures/regions/plots_2j_70_77/Plots/lead_jetPt.png>
+Package pdftex.def Info: figures/regions/plots_2j_70_77/Plots/lead_jetPt.png us
+ed on input line 173.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_2j_70_77/Plots/lep_Pt_0.png, id=573, 598.235pt x 674.52p
+t>
+File: figures/regions/plots_2j_70_77/Plots/lep_Pt_0.png Graphic file (type png)
+
+ <use figures/regions/plots_2j_70_77/Plots/lep_Pt_0.png>
+Package pdftex.def Info: figures/regions/plots_2j_70_77/Plots/lep_Pt_0.png used
+ on input line 174.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_2j_70_77/Plots/lep_Pt_1.png, id=574, 598.235pt x 674.52p
+t>
+File: figures/regions/plots_2j_70_77/Plots/lep_Pt_1.png Graphic file (type png)
+
+ <use figures/regions/plots_2j_70_77/Plots/lep_Pt_1.png>
+Package pdftex.def Info: figures/regions/plots_2j_70_77/Plots/lep_Pt_1.png used
+ on input line 175.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_2j_70_77/Plots/lep_Pt_2.png, id=575, 598.235pt x 674.52p
+t>
+File: figures/regions/plots_2j_70_77/Plots/lep_Pt_2.png Graphic file (type png)
+
+ <use figures/regions/plots_2j_70_77/Plots/lep_Pt_2.png>
+Package pdftex.def Info: figures/regions/plots_2j_70_77/Plots/lep_Pt_2.png used
+ on input line 176.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_2j_70_77/Plots/MET.png, id=576, 598.235pt x 674.52pt>
+File: figures/regions/plots_2j_70_77/Plots/MET.png Graphic file (type png)
+
+<use figures/regions/plots_2j_70_77/Plots/MET.png>
+Package pdftex.def Info: figures/regions/plots_2j_70_77/Plots/MET.png used on i
+nput line 177.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_2j_70_77/Plots/Mll01.png, id=577, 598.235pt x 674.52pt>
+File: figures/regions/plots_2j_70_77/Plots/Mll01.png Graphic file (type png)
+
+<use figures/regions/plots_2j_70_77/Plots/Mll01.png>
+Package pdftex.def Info: figures/regions/plots_2j_70_77/Plots/Mll01.png used on
+ input line 178.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.13
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.181 
+       <./figures/regions/plots_2j_77_85/Plots/lead_jetPt.png> <./figures/regio
+ns/plots_2j_77_85/Plots/lep_Pt_0.png> <./figures/regions/plots_2j_77_85/Plots/l
+ep_Pt_1.png> <./figures/regions/plots_2j_77_85/Plots/lep_Pt_2.png> <./figures/r
+egions/plots_2j_77_85/Plots/MET.png> <./figures/regions/plots_2j_77_85/Plots/Ml
+l01.png>]
+<figures/regions/plots_2j_60_70/Plots/lead_jetPt.png, id=589, 598.235pt x 674.5
+2pt>
+File: figures/regions/plots_2j_60_70/Plots/lead_jetPt.png Graphic file (type pn
+g)
+ <use figures/regions/plots_2j_60_70/Plots/lead_jetPt.png>
+Package pdftex.def Info: figures/regions/plots_2j_60_70/Plots/lead_jetPt.png us
+ed on input line 184.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_2j_60_70/Plots/lep_Pt_0.png, id=590, 598.235pt x 674.52p
+t>
+File: figures/regions/plots_2j_60_70/Plots/lep_Pt_0.png Graphic file (type png)
+
+ <use figures/regions/plots_2j_60_70/Plots/lep_Pt_0.png>
+Package pdftex.def Info: figures/regions/plots_2j_60_70/Plots/lep_Pt_0.png used
+ on input line 185.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_2j_60_70/Plots/lep_Pt_1.png, id=591, 598.235pt x 674.52p
+t>
+File: figures/regions/plots_2j_60_70/Plots/lep_Pt_1.png Graphic file (type png)
+
+ <use figures/regions/plots_2j_60_70/Plots/lep_Pt_1.png>
+Package pdftex.def Info: figures/regions/plots_2j_60_70/Plots/lep_Pt_1.png used
+ on input line 186.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_2j_60_70/Plots/lep_Pt_2.png, id=592, 598.235pt x 674.52p
+t>
+File: figures/regions/plots_2j_60_70/Plots/lep_Pt_2.png Graphic file (type png)
+
+ <use figures/regions/plots_2j_60_70/Plots/lep_Pt_2.png>
+Package pdftex.def Info: figures/regions/plots_2j_60_70/Plots/lep_Pt_2.png used
+ on input line 187.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_2j_60_70/Plots/MET.png, id=593, 598.235pt x 674.52pt>
+File: figures/regions/plots_2j_60_70/Plots/MET.png Graphic file (type png)
+
+<use figures/regions/plots_2j_60_70/Plots/MET.png>
+Package pdftex.def Info: figures/regions/plots_2j_60_70/Plots/MET.png used on i
+nput line 188.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_2j_60_70/Plots/Mll01.png, id=594, 598.235pt x 674.52pt>
+File: figures/regions/plots_2j_60_70/Plots/Mll01.png Graphic file (type png)
+
+<use figures/regions/plots_2j_60_70/Plots/Mll01.png>
+Package pdftex.def Info: figures/regions/plots_2j_60_70/Plots/Mll01.png used on
+ input line 189.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.14
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.192 
+       <./figures/regions/plots_2j_70_77/Plots/lead_jetPt.png> <./figures/regio
+ns/plots_2j_70_77/Plots/lep_Pt_0.png> <./figures/regions/plots_2j_70_77/Plots/l
+ep_Pt_1.png> <./figures/regions/plots_2j_70_77/Plots/lep_Pt_2.png> <./figures/r
+egions/plots_2j_70_77/Plots/MET.png> <./figures/regions/plots_2j_70_77/Plots/Ml
+l01.png>]
+<figures/regions/plots_2j_60/Plots/lead_jetPt.png, id=607, 598.235pt x 674.52pt
+>
+File: figures/regions/plots_2j_60/Plots/lead_jetPt.png Graphic file (type png)
+ <use figures/regions/plots_2j_60/Plots/lead_jetPt.png>
+Package pdftex.def Info: figures/regions/plots_2j_60/Plots/lead_jetPt.png used 
+on input line 195.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_2j_60/Plots/lep_Pt_0.png, id=608, 598.235pt x 674.52pt>
+File: figures/regions/plots_2j_60/Plots/lep_Pt_0.png Graphic file (type png)
+
+<use figures/regions/plots_2j_60/Plots/lep_Pt_0.png>
+Package pdftex.def Info: figures/regions/plots_2j_60/Plots/lep_Pt_0.png used on
+ input line 196.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_2j_60/Plots/lep_Pt_1.png, id=609, 598.235pt x 674.52pt>
+File: figures/regions/plots_2j_60/Plots/lep_Pt_1.png Graphic file (type png)
+
+<use figures/regions/plots_2j_60/Plots/lep_Pt_1.png>
+Package pdftex.def Info: figures/regions/plots_2j_60/Plots/lep_Pt_1.png used on
+ input line 197.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_2j_60/Plots/lep_Pt_2.png, id=610, 598.235pt x 674.52pt>
+File: figures/regions/plots_2j_60/Plots/lep_Pt_2.png Graphic file (type png)
+
+<use figures/regions/plots_2j_60/Plots/lep_Pt_2.png>
+Package pdftex.def Info: figures/regions/plots_2j_60/Plots/lep_Pt_2.png used on
+ input line 198.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_2j_60/Plots/MET.png, id=611, 598.235pt x 674.52pt>
+File: figures/regions/plots_2j_60/Plots/MET.png Graphic file (type png)
+
+<use figures/regions/plots_2j_60/Plots/MET.png>
+Package pdftex.def Info: figures/regions/plots_2j_60/Plots/MET.png used on inpu
+t line 199.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/regions/plots_2j_60/Plots/Mll01.png, id=612, 598.235pt x 674.52pt>
+File: figures/regions/plots_2j_60/Plots/Mll01.png Graphic file (type png)
+
+<use figures/regions/plots_2j_60/Plots/Mll01.png>
+Package pdftex.def Info: figures/regions/plots_2j_60/Plots/Mll01.png used on in
+put line 200.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+ [26pdfTeX warning (ext4): destination with the same identifier (name{figure.15
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.203 
+       <./figures/regions/plots_2j_60_70/Plots/lead_jetPt.png> <./figures/regio
+ns/plots_2j_60_70/Plots/lep_Pt_0.png> <./figures/regions/plots_2j_60_70/Plots/l
+ep_Pt_1.png> <./figures/regions/plots_2j_60_70/Plots/lep_Pt_2.png> <./figures/r
+egions/plots_2j_60_70/Plots/MET.png> <./figures/regions/plots_2j_60_70/Plots/Ml
+l01.png>]
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 222.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.0pt on input line 222.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <6.1> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 222.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 6.1pt on input line 222.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 79.
+(hyperref)                removing `math shift' on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 79.
+(hyperref)                removing `math shift' on input line 222.
 
-[15]
-File: figures/ttbar/m3l.eps Graphic file (type eps)
- <figures/ttbar/m3l.eps>
-File: figures/ttbar/HT.eps Graphic file (type eps)
- <figures/ttbar/HT.eps>
-File: figures/ttbar/lead_jetPt.eps Graphic file (type eps)
+[27pdfTeX warning (ext4): destination with the same identifier (name{figure.16}
+) has been already used, duplicate ignored
 
-<figures/ttbar/lead_jetPt.eps>
-File: figures/ttbar/MET.eps Graphic file (type eps)
- <figures/ttbar/MET.eps>
-File: figures/ttbar/lep_Pt_0.eps Graphic file (type eps)
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.227 
+       <./figures/regions/plots_2j_60/Plots/lead_jetPt.png> <./figures/regions/
+plots_2j_60/Plots/lep_Pt_0.png> <./figures/regions/plots_2j_60/Plots/lep_Pt_1.p
+ng> <./figures/regions/plots_2j_60/Plots/lep_Pt_2.png> <./figures/regions/plots
+_2j_60/Plots/MET.png> <./figures/regions/plots_2j_60/Plots/Mll01.png>]
+Package epstopdf Info: Source file: <figures/ttbar/m3l.eps>
+(epstopdf)                    date: 2019-12-06 20:58:08
+(epstopdf)                    size: 2070202 bytes
+(epstopdf)             Output file: <figures/ttbar/m3l-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:27:52
+(epstopdf)                    size: 107521 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/ttbar/m3l-eps-conv
+erted-to.pdf figures/ttbar/m3l.eps>
+(epstopdf)             \includegraphics on input line 242.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/ttbar/lep_Pt_0.eps>
-File: figures/ttbar/lep_Pt_1.eps Graphic file (type eps)
- <figures/ttbar/lep_Pt_1.eps>
-File: figures/ttbar/lep_Pt_2.eps Graphic file (type eps)
+<figures/ttbar/m3l-eps-converted-to.pdf, id=639, 569.12625pt x 641.39626pt>
+File: figures/ttbar/m3l-eps-converted-to.pdf Graphic file (type pdf)
 
-<figures/ttbar/lep_Pt_2.eps>
-File: figures/ttbar/Mll01.eps Graphic file (type eps)
- <figures/ttbar/Mll01.eps> [16]
-File: figures/ttbar/nJets_OR_T.eps Graphic file (type eps)
+<use figures/ttbar/m3l-eps-converted-to.pdf>
+Package pdftex.def Info: figures/ttbar/m3l-eps-converted-to.pdf used on input l
+ine 242.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/ttbar/HT.eps>
+(epstopdf)                    date: 2019-12-06 20:57:44
+(epstopdf)                    size: 2065854 bytes
+(epstopdf)             Output file: <figures/ttbar/HT-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:27:55
+(epstopdf)                    size: 105855 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/ttbar/HT-eps-conve
+rted-to.pdf figures/ttbar/HT.eps>
+(epstopdf)             \includegraphics on input line 243.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/ttbar/nJets_OR_T.eps>
-File: figures/ttbar/nJets_OR_T_MV2c10_70.eps Graphic file (type eps)
- <figures/ttbar/nJets_OR_T_MV2c10_70.eps>
-[17] [18]
+<figures/ttbar/HT-eps-converted-to.pdf, id=640, 569.12625pt x 641.39626pt>
+File: figures/ttbar/HT-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/ttbar/HT-eps-converted-to.pdf>
+Package pdftex.def Info: figures/ttbar/HT-eps-converted-to.pdf used on input li
+ne 243.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/ttbar/lead_jetPt.eps>
+(epstopdf)                    date: 2019-12-06 20:57:44
+(epstopdf)                    size: 2065700 bytes
+(epstopdf)             Output file: <figures/ttbar/lead_jetPt-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2020-08-20 12:27:58
+(epstopdf)                    size: 106155 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/ttbar/lead_jetPt-e
+ps-converted-to.pdf figures/ttbar/lead_jetPt.eps>
+(epstopdf)             \includegraphics on input line 244.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/ttbar/lead_jetPt-eps-converted-to.pdf, id=641, 569.12625pt x 641.39626
+pt>
+File: figures/ttbar/lead_jetPt-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/ttbar/lead_jetPt-eps-converted-to.pdf>
+Package pdftex.def Info: figures/ttbar/lead_jetPt-eps-converted-to.pdf used on 
+input line 244.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/ttbar/MET.eps>
+(epstopdf)                    date: 2019-12-06 20:58:08
+(epstopdf)                    size: 2071041 bytes
+(epstopdf)             Output file: <figures/ttbar/MET-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:28:00
+(epstopdf)                    size: 107729 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/ttbar/MET-eps-conv
+erted-to.pdf figures/ttbar/MET.eps>
+(epstopdf)             \includegraphics on input line 245.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/ttbar/MET-eps-converted-to.pdf, id=642, 569.12625pt x 641.39626pt>
+File: figures/ttbar/MET-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/ttbar/MET-eps-converted-to.pdf>
+Package pdftex.def Info: figures/ttbar/MET-eps-converted-to.pdf used on input l
+ine 245.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/ttbar/lep_Pt_0.eps>
+(epstopdf)                    date: 2019-12-06 20:57:54
+(epstopdf)                    size: 2067672 bytes
+(epstopdf)             Output file: <figures/ttbar/lep_Pt_0-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2020-08-20 12:28:03
+(epstopdf)                    size: 106727 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/ttbar/lep_Pt_0-eps
+-converted-to.pdf figures/ttbar/lep_Pt_0.eps>
+(epstopdf)             \includegraphics on input line 249.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/ttbar/lep_Pt_0-eps-converted-to.pdf, id=643, 569.12625pt x 641.39626pt
+>
+File: figures/ttbar/lep_Pt_0-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/ttbar/lep_Pt_0-eps-converted-to.pdf>
+Package pdftex.def Info: figures/ttbar/lep_Pt_0-eps-converted-to.pdf used on in
+put line 249.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/ttbar/lep_Pt_1.eps>
+(epstopdf)                    date: 2019-12-06 20:57:56
+(epstopdf)                    size: 2065546 bytes
+(epstopdf)             Output file: <figures/ttbar/lep_Pt_1-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2020-08-20 12:28:06
+(epstopdf)                    size: 105881 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/ttbar/lep_Pt_1-eps
+-converted-to.pdf figures/ttbar/lep_Pt_1.eps>
+(epstopdf)             \includegraphics on input line 250.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/ttbar/lep_Pt_1-eps-converted-to.pdf, id=644, 569.12625pt x 641.39626pt
+>
+File: figures/ttbar/lep_Pt_1-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/ttbar/lep_Pt_1-eps-converted-to.pdf>
+Package pdftex.def Info: figures/ttbar/lep_Pt_1-eps-converted-to.pdf used on in
+put line 250.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/ttbar/lep_Pt_2.eps>
+(epstopdf)                    date: 2019-12-06 20:57:58
+(epstopdf)                    size: 2067844 bytes
+(epstopdf)             Output file: <figures/ttbar/lep_Pt_2-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2020-08-20 12:28:09
+(epstopdf)                    size: 106287 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/ttbar/lep_Pt_2-eps
+-converted-to.pdf figures/ttbar/lep_Pt_2.eps>
+(epstopdf)             \includegraphics on input line 251.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/ttbar/lep_Pt_2-eps-converted-to.pdf, id=645, 569.12625pt x 641.39626pt
+>
+File: figures/ttbar/lep_Pt_2-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/ttbar/lep_Pt_2-eps-converted-to.pdf>
+Package pdftex.def Info: figures/ttbar/lep_Pt_2-eps-converted-to.pdf used on in
+put line 251.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/ttbar/Mll01.eps>
+(epstopdf)                    date: 2019-12-06 20:58:10
+(epstopdf)                    size: 2069282 bytes
+(epstopdf)             Output file: <figures/ttbar/Mll01-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:28:12
+(epstopdf)                    size: 107366 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/ttbar/Mll01-eps-co
+nverted-to.pdf figures/ttbar/Mll01.eps>
+(epstopdf)             \includegraphics on input line 252.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/ttbar/Mll01-eps-converted-to.pdf, id=646, 569.12625pt x 641.39626pt>
+File: figures/ttbar/Mll01-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/ttbar/Mll01-eps-converted-to.pdf>
+Package pdftex.def Info: figures/ttbar/Mll01-eps-converted-to.pdf used on input
+ line 252.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+ [28]
+Package epstopdf Info: Source file: <figures/ttbar/nJets_OR_T.eps>
+(epstopdf)                    date: 2019-12-06 20:58:14
+(epstopdf)                    size: 2051723 bytes
+(epstopdf)             Output file: <figures/ttbar/nJets_OR_T-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2020-08-20 12:28:14
+(epstopdf)                    size: 99075 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/ttbar/nJets_OR_T-e
+ps-converted-to.pdf figures/ttbar/nJets_OR_T.eps>
+(epstopdf)             \includegraphics on input line 256.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/ttbar/nJets_OR_T-eps-converted-to.pdf, id=651, 569.12625pt x 641.39626
+pt>
+File: figures/ttbar/nJets_OR_T-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/ttbar/nJets_OR_T-eps-converted-to.pdf>
+Package pdftex.def Info: figures/ttbar/nJets_OR_T-eps-converted-to.pdf used on 
+input line 256.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+
+
+LaTeX Warning: File `ttbar/nJets_OR_T_DL1r_70.eps' not found on input line 257.
+
+
+Package epstopdf Info: Source file: <ttbar/nJets_OR_T_DL1r_70.eps>
+(epstopdf)             Output file: <ttbar/nJets_OR_T_DL1r_70-eps-converted-to.
+pdf>
+(epstopdf)             Command: <repstopdf --outfile=ttbar/nJets_OR_T_DL1r_70-e
+ps-converted-to.pdf ttbar/nJets_OR_T_DL1r_70.eps>
+(epstopdf)             \includegraphics on input line 257.
+Package epstopdf Info: Output file is already uptodate.
+
+! Package pdftex.def Error: File `ttbar/nJets_OR_T_DL1r_70-eps-converted-to.pdf
+' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.257 ...textwidth]{ttbar/nJets_OR_T_DL1r_70.eps}}
+                                                  \\
+? 
+[29pdfTeX warning (ext4): destination with the same identifier (name{figure.17}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.260 \end{figure}
+                   <./figures/ttbar/m3l-eps-converted-to.pdf> <./figures/ttbar/
+HT-eps-converted-to.pdf> <./figures/ttbar/lead_jetPt-eps-converted-to.pdf> <./f
+igures/ttbar/MET-eps-converted-to.pdf>] [30pdfTeX warning (ext4): destination w
+ith the same identifier (name{figure.18}) has been already used, duplicate igno
+red
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.261 
+       <./figures/ttbar/lep_Pt_0-eps-converted-to.pdf> <./figures/ttbar/lep_Pt_
+1-eps-converted-to.pdf> <./figures/ttbar/lep_Pt_2-eps-converted-to.pdf> <./figu
+res/ttbar/Mll01-eps-converted-to.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 119.
+(hyperref)                removing `math shift' on input line 262.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 119.
+(hyperref)                removing `math shift' on input line 262.
 
-File: figures/zjets/m3l.eps Graphic file (type eps)
-<figures/zjets/m3l.eps>
-File: figures/zjets/HT.eps Graphic file (type eps)
- <figures/zjets/HT.eps>
-File: figures/zjets/lead_jetPt.eps Graphic file (type eps)
- <figures/zjets/lead_jetPt.eps>
-File: figures/zjets/MET.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <figures/zjets/m3l.eps>
+(epstopdf)                    date: 2019-12-06 20:58:34
+(epstopdf)                    size: 2066440 bytes
+(epstopdf)             Output file: <figures/zjets/m3l-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:28:20
+(epstopdf)                    size: 104837 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/zjets/m3l-eps-conv
+erted-to.pdf figures/zjets/m3l.eps>
+(epstopdf)             \includegraphics on input line 269.
+Package epstopdf Info: Output file is already uptodate.
+<figures/zjets/m3l-eps-converted-to.pdf, id=855, 569.12625pt x 641.39626pt>
+File: figures/zjets/m3l-eps-converted-to.pdf Graphic file (type pdf)
 
-<figures/zjets/MET.eps>
-File: figures/zjets/lep_Pt_0.eps Graphic file (type eps)
- <figures/zjets/lep_Pt_0.eps>
-File: figures/zjets/lep_Pt_1.eps Graphic file (type eps)
+<use figures/zjets/m3l-eps-converted-to.pdf>
+Package pdftex.def Info: figures/zjets/m3l-eps-converted-to.pdf used on input l
+ine 269.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/zjets/HT.eps>
+(epstopdf)                    date: 2019-12-06 20:58:22
+(epstopdf)                    size: 2067312 bytes
+(epstopdf)             Output file: <figures/zjets/HT-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:28:23
+(epstopdf)                    size: 105292 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/zjets/HT-eps-conve
+rted-to.pdf figures/zjets/HT.eps>
+(epstopdf)             \includegraphics on input line 270.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/zjets/lep_Pt_1.eps>
-File: figures/zjets/lep_Pt_2.eps Graphic file (type eps)
- <figures/zjets/lep_Pt_2.eps>
-File: figures/zjets/Mll01.eps Graphic file (type eps)
+<figures/zjets/HT-eps-converted-to.pdf, id=856, 569.12625pt x 641.39626pt>
+File: figures/zjets/HT-eps-converted-to.pdf Graphic file (type pdf)
 
-<figures/zjets/Mll01.eps> [19]
-File: figures/zjets/nJets_OR_T.eps Graphic file (type eps)
- <figures/zjets/nJets_OR_T.eps>
-File: figures/zjets/nJets_OR_T_MV2c10_70.eps Graphic file (type eps)
+<use figures/zjets/HT-eps-converted-to.pdf>
+Package pdftex.def Info: figures/zjets/HT-eps-converted-to.pdf used on input li
+ne 270.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/zjets/lead_jetPt.eps>
+(epstopdf)                    date: 2019-12-06 20:58:24
+(epstopdf)                    size: 2069471 bytes
+(epstopdf)             Output file: <figures/zjets/lead_jetPt-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2020-08-20 12:28:26
+(epstopdf)                    size: 106023 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/zjets/lead_jetPt-e
+ps-converted-to.pdf figures/zjets/lead_jetPt.eps>
+(epstopdf)             \includegraphics on input line 271.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/zjets/nJets_OR_T_MV2c10_70.eps> [20] [21]) (./sections/tZ.tex
+<figures/zjets/lead_jetPt-eps-converted-to.pdf, id=857, 569.12625pt x 641.39626
+pt>
+File: figures/zjets/lead_jetPt-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/zjets/lead_jetPt-eps-converted-to.pdf>
+Package pdftex.def Info: figures/zjets/lead_jetPt-eps-converted-to.pdf used on 
+input line 271.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/zjets/MET.eps>
+(epstopdf)                    date: 2019-12-06 20:58:34
+(epstopdf)                    size: 2053153 bytes
+(epstopdf)             Output file: <figures/zjets/MET-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:28:28
+(epstopdf)                    size: 100241 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/zjets/MET-eps-conv
+erted-to.pdf figures/zjets/MET.eps>
+(epstopdf)             \includegraphics on input line 272.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: Citation 'Madgraph' on page 22 undefined on input line 13.
+<figures/zjets/MET-eps-converted-to.pdf, id=858, 569.12625pt x 641.39626pt>
+File: figures/zjets/MET-eps-converted-to.pdf Graphic file (type pdf)
 
-[22]
-File: figures/tZ_bdt/topMass.eps Graphic file (type eps)
- <figures/tZ_bdt/topMass.eps> [23]
-File: figures/tZ_bdt/variables_id_c1.eps Graphic file (type eps)
- <figures/tZ_bdt/variables_id_c1.eps>
-File: figures/tZ_bdt/variables_id_c2.eps Graphic file (type eps)
+<use figures/zjets/MET-eps-converted-to.pdf>
+Package pdftex.def Info: figures/zjets/MET-eps-converted-to.pdf used on input l
+ine 272.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/zjets/lep_Pt_0.eps>
+(epstopdf)                    date: 2019-12-06 20:58:28
+(epstopdf)                    size: 2072926 bytes
+(epstopdf)             Output file: <figures/zjets/lep_Pt_0-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2020-08-20 12:28:30
+(epstopdf)                    size: 106996 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/zjets/lep_Pt_0-eps
+-converted-to.pdf figures/zjets/lep_Pt_0.eps>
+(epstopdf)             \includegraphics on input line 276.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/tZ_bdt/variables_id_c2.eps> [24]
-File: figures/tZ_bdt/overtrain_BDT.eps Graphic file (type eps)
- <figures/tZ_bdt/overtrain_BDT.eps>
-File: figures/tZ_bdt/rejBvsS.eps Graphic file (type eps)
+<figures/zjets/lep_Pt_0-eps-converted-to.pdf, id=859, 569.12625pt x 641.39626pt
+>
+File: figures/zjets/lep_Pt_0-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/zjets/lep_Pt_0-eps-converted-to.pdf>
+Package pdftex.def Info: figures/zjets/lep_Pt_0-eps-converted-to.pdf used on in
+put line 276.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/zjets/lep_Pt_1.eps>
+(epstopdf)                    date: 2019-12-06 20:58:28
+(epstopdf)                    size: 2065190 bytes
+(epstopdf)             Output file: <figures/zjets/lep_Pt_1-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2020-08-20 12:28:33
+(epstopdf)                    size: 104201 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/zjets/lep_Pt_1-eps
+-converted-to.pdf figures/zjets/lep_Pt_1.eps>
+(epstopdf)             \includegraphics on input line 277.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/tZ_bdt/rejBvsS.eps> [25]) (./sections/SR.tex [26]) (./sections/sys.tex
-[27]
+<figures/zjets/lep_Pt_1-eps-converted-to.pdf, id=860, 569.12625pt x 641.39626pt
+>
+File: figures/zjets/lep_Pt_1-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/zjets/lep_Pt_1-eps-converted-to.pdf>
+Package pdftex.def Info: figures/zjets/lep_Pt_1-eps-converted-to.pdf used on in
+put line 277.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/zjets/lep_Pt_2.eps>
+(epstopdf)                    date: 2019-12-06 20:58:30
+(epstopdf)                    size: 2070017 bytes
+(epstopdf)             Output file: <figures/zjets/lep_Pt_2-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2020-08-20 12:28:35
+(epstopdf)                    size: 105835 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/zjets/lep_Pt_2-eps
+-converted-to.pdf figures/zjets/lep_Pt_2.eps>
+(epstopdf)             \includegraphics on input line 278.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/zjets/lep_Pt_2-eps-converted-to.pdf, id=861, 569.12625pt x 641.39626pt
+>
+File: figures/zjets/lep_Pt_2-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/zjets/lep_Pt_2-eps-converted-to.pdf>
+Package pdftex.def Info: figures/zjets/lep_Pt_2-eps-converted-to.pdf used on in
+put line 278.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+Package epstopdf Info: Source file: <figures/zjets/Mll01.eps>
+(epstopdf)                    date: 2019-12-06 20:58:36
+(epstopdf)                    size: 2069489 bytes
+(epstopdf)             Output file: <figures/zjets/Mll01-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:28:38
+(epstopdf)                    size: 106020 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/zjets/Mll01-eps-co
+nverted-to.pdf figures/zjets/Mll01.eps>
+(epstopdf)             \includegraphics on input line 279.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/zjets/Mll01-eps-converted-to.pdf, id=862, 569.12625pt x 641.39626pt>
+File: figures/zjets/Mll01-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/zjets/Mll01-eps-converted-to.pdf>
+Package pdftex.def Info: figures/zjets/Mll01-eps-converted-to.pdf used on input
+ line 279.
+(pdftex.def)             Requested size: 200.76pt x 226.2537pt.
+ [31pdfTeX warning (ext4): destination with the same identifier (name{figure.19
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.281 \end{figure}
+                   <./figures/ttbar/nJets_OR_T-eps-converted-to.pdf>]
+
+LaTeX Warning: File `zjets/nJets_OR.eps' not found on input line 283.
+
+Package epstopdf Info: Source file: <zjets/nJets_OR.eps>
+(epstopdf)             Output file: <zjets/nJets_OR-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=zjets/nJets_OR-eps-convert
+ed-to.pdf zjets/nJets_OR.eps>
+(epstopdf)             \includegraphics on input line 283.
+Package epstopdf Info: Output file is already uptodate.
+
+! Package pdftex.def Error: File `zjets/nJets_OR-eps-converted-to.pdf' not foun
+d.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.283 ...idth=0.48\textwidth]{zjets/nJets_OR.eps}}
+                                                  %
+? 
+
+LaTeX Warning: File `zjets/nJets_OR_DL1r_70.eps' not found on input line 284.
+
+Package epstopdf Info: Source file: <zjets/nJets_OR_DL1r_70.eps>
+(epstopdf)             Output file: <zjets/nJets_OR_DL1r_70-eps-converted-to.pd
+f>
+(epstopdf)             Command: <repstopdf --outfile=zjets/nJets_OR_DL1r_70-eps
+-converted-to.pdf zjets/nJets_OR_DL1r_70.eps>
+(epstopdf)             \includegraphics on input line 284.
+Package epstopdf Info: Output file is already uptodate.
+
+! Package pdftex.def Error: File `zjets/nJets_OR_DL1r_70-eps-converted-to.pdf' 
+not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.284 ...8\textwidth]{zjets/nJets_OR_DL1r_70.eps}}
+                                                  \\
+? 
+[32pdfTeX warning (ext4): destination with the same identifier (name{figure.20}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.287 \end{figure}
+                   <./figures/zjets/m3l-eps-converted-to.pdf> <./figures/zjets/
+HT-eps-converted-to.pdf> <./figures/zjets/lead_jetPt-eps-converted-to.pdf> <./f
+igures/zjets/MET-eps-converted-to.pdf>] [33pdfTeX warning (ext4): destination w
+ith the same identifier (name{figure.21}) has been already used, duplicate igno
+red
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.288 
+       <./figures/zjets/lep_Pt_0-eps-converted-to.pdf> <./figures/zjets/lep_Pt_
+1-eps-converted-to.pdf> <./figures/zjets/lep_Pt_2-eps-converted-to.pdf> <./figu
+res/zjets/Mll01-eps-converted-to.pdf>]) (./sections/tZ.tex
+
+LaTeX Warning: Citation 'Madgraph' on page 34 undefined on input line 13.
+
+[34pdfTeX warning (ext4): destination with the same identifier (name{figure.22}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.14 
+     ]
+Package epstopdf Info: Source file: <figures/tZInterference/lepPairMass23.eps>
+(epstopdf)                    date: 2019-12-11 14:30:23
+(epstopdf)                    size: 17053 bytes
+(epstopdf)             Output file: <figures/tZInterference/lepPairMass23-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:28:44
+(epstopdf)                    size: 9358 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/lep
+PairMass23-eps-converted-to.pdf figures/tZInterference/lepPairMass23.eps>
+(epstopdf)             \includegraphics on input line 20.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/tZInterference/lepPairMass23-eps-converted-to.pdf, id=1105, 569.12625p
+t x 385.44pt>
+File: figures/tZInterference/lepPairMass23-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use figures/tZInterference/lepPairMass23-eps-converted-to.pdf>
+Package pdftex.def Info: figures/tZInterference/lepPairMass23-eps-converted-to.
+pdf used on input line 20.
+(pdftex.def)             Requested size: 196.57976pt x 133.13573pt.
+Package epstopdf Info: Source file: <figures/tZInterference/lep1pt.eps>
+(epstopdf)                    date: 2019-12-11 14:30:23
+(epstopdf)                    size: 18866 bytes
+(epstopdf)             Output file: <figures/tZInterference/lep1pt-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:28:45
+(epstopdf)                    size: 10503 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/lep
+1pt-eps-converted-to.pdf figures/tZInterference/lep1pt.eps>
+(epstopdf)             \includegraphics on input line 21.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/tZInterference/lep1pt-eps-converted-to.pdf, id=1106, 569.12625pt x 385
+.44pt>
+File: figures/tZInterference/lep1pt-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use figures/tZInterference/lep1pt-eps-converted-to.pdf>
+Package pdftex.def Info: figures/tZInterference/lep1pt-eps-converted-to.pdf use
+d on input line 21.
+(pdftex.def)             Requested size: 196.57976pt x 133.13573pt.
+Package epstopdf Info: Source file: <figures/tZInterference/drll23.eps>
+(epstopdf)                    date: 2019-12-11 14:30:23
+(epstopdf)                    size: 17151 bytes
+(epstopdf)             Output file: <figures/tZInterference/drll23-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:28:45
+(epstopdf)                    size: 8547 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/drl
+l23-eps-converted-to.pdf figures/tZInterference/drll23.eps>
+(epstopdf)             \includegraphics on input line 22.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/tZInterference/drll23-eps-converted-to.pdf, id=1107, 569.12625pt x 385
+.44pt>
+File: figures/tZInterference/drll23-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use figures/tZInterference/drll23-eps-converted-to.pdf>
+Package pdftex.def Info: figures/tZInterference/drll23-eps-converted-to.pdf use
+d on input line 22.
+(pdftex.def)             Requested size: 196.57976pt x 133.13573pt.
+Package epstopdf Info: Source file: <figures/tZInterference/btpt.eps>
+(epstopdf)                    date: 2019-12-11 14:30:23
+(epstopdf)                    size: 17666 bytes
+(epstopdf)             Output file: <figures/tZInterference/btpt-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2020-08-20 12:28:46
+(epstopdf)                    size: 10150 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/btp
+t-eps-converted-to.pdf figures/tZInterference/btpt.eps>
+(epstopdf)             \includegraphics on input line 23.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/tZInterference/btpt-eps-converted-to.pdf, id=1108, 569.12625pt x 385.4
+4pt>
+File: figures/tZInterference/btpt-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/tZInterference/btpt-eps-converted-to.pdf>
+Package pdftex.def Info: figures/tZInterference/btpt-eps-converted-to.pdf used 
+on input line 23.
+(pdftex.def)             Requested size: 196.57976pt x 133.13573pt.
+ [35pdfTeX warning (ext4): destination with the same identifier (name{figure.23
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.45 
+      <./figures/tZInterference/lepPairMass23-eps-converted-to.pdf> <./figures/
+tZInterference/lep1pt-eps-converted-to.pdf> <./figures/tZInterference/drll23-ep
+s-converted-to.pdf> <./figures/tZInterference/btpt-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:topMass' on page 36 undefined on input line 62.
+
+Package epstopdf Info: Source file: <figures/tZ_bdt/topMass.eps>
+(epstopdf)                    date: 2019-12-09 10:50:31
+(epstopdf)                    size: 1872576 bytes
+(epstopdf)             Output file: <figures/tZ_bdt/topMass-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2020-08-20 12:28:49
+(epstopdf)                    size: 19070 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/tZ_bdt/topMass-eps
+-converted-to.pdf figures/tZ_bdt/topMass.eps>
+(epstopdf)             \includegraphics on input line 66.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/tZ_bdt/topMass-eps-converted-to.pdf, id=1152, 462.72874pt x 347.2975pt
+>
+File: figures/tZ_bdt/topMass-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/tZ_bdt/topMass-eps-converted-to.pdf>
+Package pdftex.def Info: figures/tZ_bdt/topMass-eps-converted-to.pdf used on in
+put line 66.
+(pdftex.def)             Requested size: 292.77632pt x 219.74185pt.
+
+
+LaTeX Warning: Reference `fig:tZ_kinematics' on page 36 undefined on input line
+ 86.
+
+[36]
+Package epstopdf Info: Source file: <figures/tZ_bdt/variables_id_c1.eps>
+(epstopdf)                    date: 2019-12-09 10:50:50
+(epstopdf)                    size: 2008543 bytes
+(epstopdf)             Output file: <figures/tZ_bdt/variables_id_c1-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:28:52
+(epstopdf)                    size: 29869 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/tZ_bdt/variables_i
+d_c1-eps-converted-to.pdf figures/tZ_bdt/variables_id_c1.eps>
+(epstopdf)             \includegraphics on input line 90.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/tZ_bdt/variables_id_c1-eps-converted-to.pdf, id=1161, 800.9925pt x 414
+.54875pt>
+File: figures/tZ_bdt/variables_id_c1-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use figures/tZ_bdt/variables_id_c1-eps-converted-to.pdf>
+Package pdftex.def Info: figures/tZ_bdt/variables_id_c1-eps-converted-to.pdf us
+ed on input line 90.
+(pdftex.def)             Requested size: 376.4258pt x 194.81895pt.
+Package epstopdf Info: Source file: <figures/tZ_bdt/variables_id_c2.eps>
+(epstopdf)                    date: 2019-12-09 10:50:58
+(epstopdf)                    size: 2008543 bytes
+(epstopdf)             Output file: <figures/tZ_bdt/variables_id_c2-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:28:54
+(epstopdf)                    size: 28460 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/tZ_bdt/variables_i
+d_c2-eps-converted-to.pdf figures/tZ_bdt/variables_id_c2.eps>
+(epstopdf)             \includegraphics on input line 91.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/tZ_bdt/variables_id_c2-eps-converted-to.pdf, id=1162, 800.9925pt x 414
+.54875pt>
+File: figures/tZ_bdt/variables_id_c2-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use figures/tZ_bdt/variables_id_c2-eps-converted-to.pdf>
+Package pdftex.def Info: figures/tZ_bdt/variables_id_c2-eps-converted-to.pdf us
+ed on input line 91.
+(pdftex.def)             Requested size: 376.4258pt x 194.81895pt.
+ [37pdfTeX warning (ext4): destination with the same identifier (name{figure.24
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.95 
+      <./figures/tZ_bdt/topMass-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:tZ_bdt' on page 38 undefined on input line 98.
+
+Package epstopdf Info: Source file: <figures/tZ_bdt/overtrain_BDT.eps>
+(epstopdf)                    date: 2019-12-09 10:51:06
+(epstopdf)                    size: 1619241 bytes
+(epstopdf)             Output file: <figures/tZ_bdt/overtrain_BDT-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:28:57
+(epstopdf)                    size: 21217 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/tZ_bdt/overtrain_B
+DT-eps-converted-to.pdf figures/tZ_bdt/overtrain_BDT.eps>
+(epstopdf)             \includegraphics on input line 102.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/tZ_bdt/overtrain_BDT-eps-converted-to.pdf, id=1172, 600.2425pt x 445.6
+65pt>
+File: figures/tZ_bdt/overtrain_BDT-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use figures/tZ_bdt/overtrain_BDT-eps-converted-to.pdf>
+Package pdftex.def Info: figures/tZ_bdt/overtrain_BDT-eps-converted-to.pdf used
+ on input line 102.
+(pdftex.def)             Requested size: 188.21289pt x 139.73918pt.
+Package epstopdf Info: Source file: <figures/tZ_bdt/rejBvsS.eps>
+(epstopdf)                    date: 2019-12-09 10:51:18
+(epstopdf)                    size: 1880154 bytes
+(epstopdf)             Output file: <figures/tZ_bdt/rejBvsS-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2020-08-20 12:28:59
+(epstopdf)                    size: 21570 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/tZ_bdt/rejBvsS-eps
+-converted-to.pdf figures/tZ_bdt/rejBvsS.eps>
+(epstopdf)             \includegraphics on input line 103.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/tZ_bdt/rejBvsS-eps-converted-to.pdf, id=1173, 650.43pt x 477.785pt>
+File: figures/tZ_bdt/rejBvsS-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/tZ_bdt/rejBvsS-eps-converted-to.pdf>
+Package pdftex.def Info: figures/tZ_bdt/rejBvsS-eps-converted-to.pdf used on in
+put line 103.
+(pdftex.def)             Requested size: 188.21289pt x 138.25519pt.
+ [38pdfTeX warning (ext4): destination with the same identifier (name{figure.25
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.107 
+       <./figures/tZ_bdt/variables_id_c1-eps-converted-to.pdf> <./figures/tZ_bd
+t/variables_id_c2-eps-converted-to.pdf>]) (./sections/SR.tex
+
+LaTeX Warning: Reference `tab:regions' on page 39 undefined on input line 2.
+
+
+LaTeX Warning: Reference `sec:tZ_bdt' on page 39 undefined on input line 31.
+
+[39pdfTeX warning (ext4): destination with the same identifier (name{figure.26}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.32 
+     pdfTeX warning (ext4): destination with the same identifier (name{table.9}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.32 
+      <./figures/tZ_bdt/overtrain_BDT-eps-converted-to.pdf> <./figures/tZ_bdt/r
+ejBvsS-eps-converted-to.pdf>]) (./sections/sys.tex
+
+LaTeX Warning: Reference `tab:systematics' on page 40 undefined on input line 2
+.
+
+
+LaTeX Warning: Reference `sec:results' on page 40 undefined on input line 2.
+
+[40pdfTeX warning (ext4): destination with the same identifier (name{table.10})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.44 
+     ]
+
+LaTeX Warning: Reference `Tab:LeptonExperimentalSyst' on page 41 undefined on i
+nput line 48.
+
+
+LaTeX Warning: Reference `Tab:JetsExperimentalSyst' on page 41 undefined on inp
+ut line 48.
+
+
+LaTeX Warning: Reference `Tab:BTagExperimentalSyst' on page 41 undefined on inp
+ut line 48.
+
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
@@ -2868,7 +4678,6 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <5.5> not available
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 5.5pt on input line 55.
 
-
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.5> not available
 (Font)              size <5> substituted on input line 55.
 
@@ -2877,78 +4686,373 @@ Overfull \hbox (68.72618pt too wide) in paragraph at lines 53--101
  [] 
  []
 
-[28] [29]
-Overfull \hbox (56.63628pt too wide) in paragraph at lines 151--173
+[41pdfTeX warning (ext4): destination with the same identifier (name{table.11})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.147 
+      ]
+Overfull \hbox (43.29628pt too wide) in paragraph at lines 151--173
  [] 
  []
 
-[30]) (./sections/results.tex
-File: figures/all_b/not_85_postFit.eps Graphic file (type eps)
- <figures/all_b/not_85_postFit.eps>
-File: figures/all_b/WP_1b_77_85_postFit.eps Graphic file (type eps)
+[42pdfTeX warning (ext4): destination with the same identifier (name{table.12})
+ has been already used, duplicate ignored
 
-<figures/all_b/WP_1b_77_85_postFit.eps>
-File: figures/all_b/WP_1b_70_77_postFit.eps Graphic file (type eps)
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.176 
+      ]) (./sections/results.tex
 
-<figures/all_b/WP_1b_70_77_postFit.eps>
+LaTeX Warning: Reference `sec:signal_region' on page 43 undefined on input line
+ 4.
+
+
+LaTeX Warning: Reference `fig:fit_regions' on page 43 undefined on input line 7
+.
+
+Package epstopdf Info: Source file: <figures/all_b/not_85_postFit.eps>
+(epstopdf)                    date: 2019-12-09 11:55:25
+(epstopdf)                    size: 2046317 bytes
+(epstopdf)             Output file: <figures/all_b/not_85_postFit-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:29:03
+(epstopdf)                    size: 98181 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/all_b/not_85_postF
+it-eps-converted-to.pdf figures/all_b/not_85_postFit.eps>
+(epstopdf)             \includegraphics on input line 11.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/all_b/not_85_postFit-eps-converted-to.pdf, id=1223, 569.12625pt x 641.
+39626pt>
+File: figures/all_b/not_85_postFit-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use figures/all_b/not_85_postFit-eps-converted-to.pdf>
+Package pdftex.def Info: figures/all_b/not_85_postFit-eps-converted-to.pdf used
+ on input line 11.
+(pdftex.def)             Requested size: 146.39134pt x 164.97787pt.
+Package epstopdf Info: Source file: <figures/all_b/WP_1b_77_85_postFit.eps>
+(epstopdf)                    date: 2019-12-09 10:57:39
+(epstopdf)                    size: 2045091 bytes
+(epstopdf)             Output file: <figures/all_b/WP_1b_77_85_postFit-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:29:05
+(epstopdf)                    size: 98042 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/all_b/WP_1b_77_85_
+postFit-eps-converted-to.pdf figures/all_b/WP_1b_77_85_postFit.eps>
+(epstopdf)             \includegraphics on input line 12.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/all_b/WP_1b_77_85_postFit-eps-converted-to.pdf, id=1224, 569.12625pt x
+ 641.39626pt>
+File: figures/all_b/WP_1b_77_85_postFit-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use figures/all_b/WP_1b_77_85_postFit-eps-converted-to.pdf>
+Package pdftex.def Info: figures/all_b/WP_1b_77_85_postFit-eps-converted-to.pdf
+ used on input line 12.
+(pdftex.def)             Requested size: 146.39134pt x 164.97787pt.
+Package epstopdf Info: Source file: <figures/all_b/WP_1b_70_77_postFit.eps>
+(epstopdf)                    date: 2019-12-09 10:57:19
+(epstopdf)                    size: 2046747 bytes
+(epstopdf)             Output file: <figures/all_b/WP_1b_70_77_postFit-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:29:08
+(epstopdf)                    size: 98247 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/all_b/WP_1b_70_77_
+postFit-eps-converted-to.pdf figures/all_b/WP_1b_70_77_postFit.eps>
+(epstopdf)             \includegraphics on input line 13.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/all_b/WP_1b_70_77_postFit-eps-converted-to.pdf, id=1225, 569.12625pt x
+ 641.39626pt>
+File: figures/all_b/WP_1b_70_77_postFit-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use figures/all_b/WP_1b_70_77_postFit-eps-converted-to.pdf>
+Package pdftex.def Info: figures/all_b/WP_1b_70_77_postFit-eps-converted-to.pdf
+ used on input line 13.
+(pdftex.def)             Requested size: 146.39134pt x 164.97787pt.
+
 Overfull \hbox (20.9203pt too wide) in paragraph at lines 11--13
  [][][] 
  []
 
-File: figures/all_b/WP_1b_60_70_postFit.eps Graphic file (type eps)
-<figures/all_b/WP_1b_60_70_postFit.eps>
-File: figures/all_b/WP_1b_60_postFit.eps Graphic file (type eps)
- <figures/all_b/WP_1b_60_postFit.eps>
-File: figures/all_b/tZ_CR_postFit.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <figures/all_b/WP_1b_60_70_postFit.eps>
+(epstopdf)                    date: 2019-12-09 10:56:39
+(epstopdf)                    size: 2047715 bytes
+(epstopdf)             Output file: <figures/all_b/WP_1b_60_70_postFit-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:29:11
+(epstopdf)                    size: 98729 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/all_b/WP_1b_60_70_
+postFit-eps-converted-to.pdf figures/all_b/WP_1b_60_70_postFit.eps>
+(epstopdf)             \includegraphics on input line 14.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/all_b/tZ_CR_postFit.eps>
+<figures/all_b/WP_1b_60_70_postFit-eps-converted-to.pdf, id=1226, 569.12625pt x
+ 641.39626pt>
+File: figures/all_b/WP_1b_60_70_postFit-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use figures/all_b/WP_1b_60_70_postFit-eps-converted-to.pdf>
+Package pdftex.def Info: figures/all_b/WP_1b_60_70_postFit-eps-converted-to.pdf
+ used on input line 14.
+(pdftex.def)             Requested size: 146.39134pt x 164.97787pt.
+Package epstopdf Info: Source file: <figures/all_b/WP_1b_60_postFit.eps>
+(epstopdf)                    date: 2019-12-09 10:56:59
+(epstopdf)                    size: 2048295 bytes
+(epstopdf)             Output file: <figures/all_b/WP_1b_60_postFit-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:29:13
+(epstopdf)                    size: 98840 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/all_b/WP_1b_60_pos
+tFit-eps-converted-to.pdf figures/all_b/WP_1b_60_postFit.eps>
+(epstopdf)             \includegraphics on input line 15.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/all_b/WP_1b_60_postFit-eps-converted-to.pdf, id=1227, 569.12625pt x 64
+1.39626pt>
+File: figures/all_b/WP_1b_60_postFit-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use figures/all_b/WP_1b_60_postFit-eps-converted-to.pdf>
+Package pdftex.def Info: figures/all_b/WP_1b_60_postFit-eps-converted-to.pdf us
+ed on input line 15.
+(pdftex.def)             Requested size: 146.39134pt x 164.97787pt.
+Package epstopdf Info: Source file: <figures/all_b/tZ_CR_postFit.eps>
+(epstopdf)                    date: 2019-12-09 11:56:00
+(epstopdf)                    size: 2048164 bytes
+(epstopdf)             Output file: <figures/all_b/tZ_CR_postFit-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2020-08-20 12:29:16
+(epstopdf)                    size: 98685 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/all_b/tZ_CR_postFi
+t-eps-converted-to.pdf figures/all_b/tZ_CR_postFit.eps>
+(epstopdf)             \includegraphics on input line 16.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/all_b/tZ_CR_postFit-eps-converted-to.pdf, id=1228, 569.12625pt x 641.3
+9626pt>
+File: figures/all_b/tZ_CR_postFit-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/all_b/tZ_CR_postFit-eps-converted-to.pdf>
+Package pdftex.def Info: figures/all_b/tZ_CR_postFit-eps-converted-to.pdf used 
+on input line 16.
+(pdftex.def)             Requested size: 146.39134pt x 164.97787pt.
+
 Overfull \hbox (20.9203pt too wide) in paragraph at lines 14--16
  [][][][] 
  []
 
-File: figures/all_b/WP_2b_77_85_postFit.eps Graphic file (type eps)
-<figures/all_b/WP_2b_77_85_postFit.eps>
-File: figures/all_b/WP_2b_70_77_postFit.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <figures/all_b/WP_2b_77_85_postFit.eps>
+(epstopdf)                    date: 2019-12-09 10:58:09
+(epstopdf)                    size: 2044939 bytes
+(epstopdf)             Output file: <figures/all_b/WP_2b_77_85_postFit-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:29:19
+(epstopdf)                    size: 98016 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/all_b/WP_2b_77_85_
+postFit-eps-converted-to.pdf figures/all_b/WP_2b_77_85_postFit.eps>
+(epstopdf)             \includegraphics on input line 17.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/all_b/WP_2b_70_77_postFit.eps>
-File: figures/all_b/Summary_postFit.eps Graphic file (type eps)
- <figures/all_b/Summary_postFit.eps>
-[31] [32] [33]
-File: figures/all_b/Ranking.eps Graphic file (type eps)
- <figures/all_b/Ranking.eps> [34] [35]
-File: figures/all_b/PieChart_postFit.eps Graphic file (type eps)
+<figures/all_b/WP_2b_77_85_postFit-eps-converted-to.pdf, id=1229, 569.12625pt x
+ 641.39626pt>
+File: figures/all_b/WP_2b_77_85_postFit-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use figures/all_b/WP_2b_77_85_postFit-eps-converted-to.pdf>
+Package pdftex.def Info: figures/all_b/WP_2b_77_85_postFit-eps-converted-to.pdf
+ used on input line 17.
+(pdftex.def)             Requested size: 146.39134pt x 164.97787pt.
+Package epstopdf Info: Source file: <figures/all_b/WP_2b_70_77_postFit.eps>
+(epstopdf)                    date: 2019-12-09 10:57:59
+(epstopdf)                    size: 2048636 bytes
+(epstopdf)             Output file: <figures/all_b/WP_2b_70_77_postFit-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:29:21
+(epstopdf)                    size: 98857 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/all_b/WP_2b_70_77_
+postFit-eps-converted-to.pdf figures/all_b/WP_2b_70_77_postFit.eps>
+(epstopdf)             \includegraphics on input line 18.
+Package epstopdf Info: Output file is already uptodate.
 
-<figures/all_b/PieChart_postFit.eps>
-File: figures/all_b/CorrMatrix.eps Graphic file (type eps)
- <figures/all_b/CorrMatrix.eps> [36]
-[37])
+<figures/all_b/WP_2b_70_77_postFit-eps-converted-to.pdf, id=1230, 569.12625pt x
+ 641.39626pt>
+File: figures/all_b/WP_2b_70_77_postFit-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use figures/all_b/WP_2b_70_77_postFit-eps-converted-to.pdf>
+Package pdftex.def Info: figures/all_b/WP_2b_70_77_postFit-eps-converted-to.pdf
+ used on input line 18.
+(pdftex.def)             Requested size: 146.39134pt x 164.97787pt.
+
+
+LaTeX Warning: Reference `fig:fit_results' on page 43 undefined on input line 2
+3.
+
+Package epstopdf Info: Source file: <figures/all_b/Summary_postFit.eps>
+(epstopdf)                    date: 2019-12-09 11:56:34
+(epstopdf)                    size: 2046603 bytes
+(epstopdf)             Output file: <figures/all_b/Summary_postFit-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:29:23
+(epstopdf)                    size: 99235 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/all_b/Summary_post
+Fit-eps-converted-to.pdf figures/all_b/Summary_postFit.eps>
+(epstopdf)             \includegraphics on input line 27.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/all_b/Summary_postFit-eps-converted-to.pdf, id=1231, 569.12625pt x 426
+.59375pt>
+File: figures/all_b/Summary_postFit-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use figures/all_b/Summary_postFit-eps-converted-to.pdf>
+Package pdftex.def Info: figures/all_b/Summary_postFit-eps-converted-to.pdf use
+d on input line 27.
+(pdftex.def)             Requested size: 376.4258pt x 282.16461pt.
+ [43pdfTeX warning (ext4): destination with the same identifier (name{table.13}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.31 
+     ] [44pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.27}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.31 
+      <./figures/all_b/not_85_postFit-eps-converted-to.pdf> <./figures/all_b/WP
+_1b_77_85_postFit-eps-converted-to.pdf> <./figures/all_b/WP_1b_70_77_postFit-ep
+s-converted-to.pdf> <./figures/all_b/WP_1b_60_70_postFit-eps-converted-to.pdf> 
+<./figures/all_b/WP_1b_60_postFit-eps-converted-to.pdf> <./figures/all_b/tZ_CR_
+postFit-eps-converted-to.pdf> <./figures/all_b/WP_2b_77_85_postFit-eps-converte
+d-to.pdf> <./figures/all_b/WP_2b_70_77_postFit-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `sec:sys' on page 45 undefined on input line 32.
+
+
+LaTeX Warning: Reference `tab:systematics' on page 45 undefined on input line 3
+5.
+
+[45pdfTeX warning (ext4): destination with the same identifier (name{figure.28}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.61 
+      <./figures/all_b/Summary_postFit-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:ranking' on page 46 undefined on input line 62.
+
+Package epstopdf Info: Source file: <figures/all_b/Ranking.eps>
+(epstopdf)                    date: 2019-12-09 10:53:29
+(epstopdf)                    size: 26944 bytes
+(epstopdf)             Output file: <figures/all_b/Ranking-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2020-08-20 12:29:24
+(epstopdf)                    size: 15741 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/all_b/Ranking-eps-
+converted-to.pdf figures/all_b/Ranking.eps>
+(epstopdf)             \includegraphics on input line 66.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/all_b/Ranking-eps-converted-to.pdf, id=1421, 398.48875pt x 739.76375pt
+>
+File: figures/all_b/Ranking-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/all_b/Ranking-eps-converted-to.pdf>
+Package pdftex.def Info: figures/all_b/Ranking-eps-converted-to.pdf used on inp
+ut line 66.
+(pdftex.def)             Requested size: 292.77632pt x 543.53357pt.
+ [46pdfTeX warning (ext4): destination with the same identifier (name{table.14}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.70 
+     ]
+
+LaTeX Warning: Reference `fig:pie_chart' on page 47 undefined on input line 71.
+
+
+[47pdfTeX warning (ext4): destination with the same identifier (name{figure.29}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.72 
+      <./figures/all_b/Ranking-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/all_b/PieChart_postFit.eps>
+(epstopdf)                    date: 2019-12-09 10:53:19
+(epstopdf)                    size: 2116660 bytes
+(epstopdf)             Output file: <figures/all_b/PieChart_postFit-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2020-08-20 12:29:26
+(epstopdf)                    size: 120925 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/all_b/PieChart_pos
+tFit-eps-converted-to.pdf figures/all_b/PieChart_postFit.eps>
+(epstopdf)             \includegraphics on input line 75.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/all_b/PieChart_postFit-eps-converted-to.pdf, id=1444, 569.12625pt x 50
+2.87875pt>
+File: figures/all_b/PieChart_postFit-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use figures/all_b/PieChart_postFit-eps-converted-to.pdf>
+Package pdftex.def Info: figures/all_b/PieChart_postFit-eps-converted-to.pdf us
+ed on input line 75.
+(pdftex.def)             Requested size: 292.77632pt x 258.70537pt.
+
+
+LaTeX Warning: Reference `fig:corr_mat' on page 48 undefined on input line 80.
+
+Package epstopdf Info: Source file: <figures/all_b/CorrMatrix.eps>
+(epstopdf)                    date: 2019-12-09 10:52:14
+(epstopdf)                    size: 98447 bytes
+(epstopdf)             Output file: <figures/all_b/CorrMatrix-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2020-08-20 12:29:27
+(epstopdf)                    size: 16055 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/all_b/CorrMatrix-e
+ps-converted-to.pdf figures/all_b/CorrMatrix.eps>
+(epstopdf)             \includegraphics on input line 84.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/all_b/CorrMatrix-eps-converted-to.pdf, id=1445, 569.12625pt x 560.0925
+pt>
+File: figures/all_b/CorrMatrix-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/all_b/CorrMatrix-eps-converted-to.pdf>
+Package pdftex.def Info: figures/all_b/CorrMatrix-eps-converted-to.pdf used on 
+input line 84.
+(pdftex.def)             Requested size: 418.25372pt x 411.63313pt.
+ [48pdfTeX warning (ext4): destination with the same identifier (name{figure.30
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.88 
+      <./figures/all_b/PieChart_postFit-eps-converted-to.pdf>] [49pdfTeX warnin
+g (ext4): destination with the same identifier (name{figure.31}) has been alrea
+dy used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.94 
+      <./figures/all_b/CorrMatrix-eps-converted-to.pdf>])
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.95pt on input line 200.
-
-Overfull \hbox (62.3227pt too wide) in paragraph at lines 205--205
-\T1/ntxtlf/m/it/10.95 the AT-LAS de-tector\T1/ntxtlf/m/n/10.95 , ATLAS-CONF-201
-5-029, 2015, \T1/ntxtlf/m/sc/10.95 url\T1/ntxtlf/m/n/10.95 : [][][]$\T1/ntxtt/m
-/n/10.95 https : / / cds . cern . ch / record / 2037702$[][][][]\T1/ntxtlf/m/n/
-10.95 . 
- []
-
-[38]
-Overfull \hbox (127.19417pt too wide) in paragraph at lines 205--205
-\T1/ntxtlf/m/it/10.95 Journal of In-stru-ment-a-tion \T1/ntxtlf/m/n/10.95 11.04
- (2016), P04008, \T1/ntxtlf/m/sc/10.95 url\T1/ntxtlf/m/n/10.95 : [][][]$\T1/ntx
-tt/m/n/10.95 http : / / stacks . iop . org / 1748 -[] 0221 / 11 / i = 04 / a = 
-P04008$[][][][]\T1/ntxtlf/m/n/10.95 . 
- []
-
-[39]
+ [50] [51]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
- (./wz_heavy_flavor.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 250.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
-Package rerunfilecheck Info: File `wz_heavy_flavor.out' has not changed.
-(rerunfilecheck)             Checksum: 51778C0489327ED2E853D0AE8E8CF11F;1820.
 
+(./wz_heavy_flavor.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
+
+
+Package rerunfilecheck Warning: File `wz_heavy_flavor.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `wz_heavy_flavor.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  51778C0489327ED2E853D0AE8E8CF11F;1820.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.18pt have occurred.
@@ -2969,12 +5073,42 @@ Package logreq Info: Writing requests to 'wz_heavy_flavor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38790 strings out of 493014
- 753728 string characters out of 6131978
- 1256441 words of memory out of 5000000
- 41671 multiletter control sequences out of 15000+600000
- 159919 words of font info for 214 fonts, out of 8000000 for 9000
+ 40024 strings out of 493013
+ 797104 string characters out of 6123688
+ 1255523 words of memory out of 5000000
+ 42595 multiletter control sequences out of 15000+600000
+ 161673 words of font info for 220 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,24n,74p,10407b,1985s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,24n,74p,10411b,1979s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/enc/dvips/newt
+x/ntx-ec-tlf.enc}{/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts
+/enc/dvips/newtx/ntx-ec-tlf-sc.enc}{/cvmfs/sft.cern.ch/lcg/external/texlive/201
+6/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/cvmfs/sft.cern.ch/lcg/externa
+l/texlive/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}</cvmfs/sft.cern.ch
+/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.
+pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public
+/amsfonts/euler/eufm10.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-
+dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></cvmfs/sft.cern.ch/lcg/extern
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></cvmfs
+/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/e
+uler/eurb7.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/t
+ype1/public/amsfonts/euler/eurm10.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/
+2016/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></cvmfs/sft.cern.ch
+/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.
+pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public
+/tex-gyre/qhvb.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fon
+ts/type1/public/tex-gyre/qhvr.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016
+/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb></cvmfs/sft.cern.ch/lcg/extern
+al/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></cvmfs/sft.cer
+n.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb
+></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/tx
+fonts/t1xtt.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/
+type1/public/newtx/txbsys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/tex
+mf-dist/fonts/type1/public/newtx/txsys.pfb>
+Output written on wz_heavy_flavor.pdf (51 pages, 6258111 bytes).
+PDF statistics:
+ 1634 PDF objects out of 1728 (max. 8388607)
+ 1161 compressed objects within 12 object streams
+ 246 named destinations out of 1000 (max. 500000)
+ 628 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on wz_heavy_flavor.dvi (39 pages, 191224 bytes).

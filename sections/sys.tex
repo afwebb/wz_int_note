@@ -40,7 +40,7 @@ The uncertainty in the combined integrated luminosity is derived from a calibrat
 
 The experimental uncertainties are related to the reconstruction and identification of light leptons and b-tagging of jets, and to the reconstruction of $E^{miss}_T$. The sources which contribute to the uncertainty in the jet energy scale \cite{jes} are decomposed into uncorrelated components and treated as independent sources in the analysis. 
 
-The uncertainties in the b-tagging efficiencies measured in dedicated calibration analyses \cite{btag_cal} are also decomposed into uncorrelated components. The large number of components for b-tagging is due to the calibration of the distribution of the BDT discriminant.  
+The uncertainties in the b-tagging efficiencies measured in dedicated calibration analyses \cite{btag_cal} are also decomposed into uncorrelated components. The large number of components for b-tagging is due to the calibration of the distribution of the MVA discriminant.  
 
 The systematic uncertainties associated with the signal and background processes are accounted for by varying the cross-section of each process within its uncertainty.
 
@@ -155,22 +155,22 @@ The full list of systematic uncertainties considered in the analysis is summariz
       Type     & Origin   & Systematic Name \\
      \hline
      &   &                \\
-      Scale Factors & MV2c10 b-tagger efficiency & MC2c10$\_$Continuous$\_$EventWeight$\_$B0-29 \\
+      Scale Factors & DL1r b-tagger efficiency & DL1r$\_$Continuous$\_$EventWeight$\_$B0-29 \\
       &    on b originated jets in bins of $\eta$  &   \\
       &   &                \\
-      &    MC2c10 b-tagger efficiency & MC2c10$\_$Continuous$\_$EventWeight$\_$C0-19  \\
+      &    DL1r b-tagger efficiency & DL1r$\_$Continuous$\_$EventWeight$\_$C0-19  \\
       &    on c originated jets in bins of $\eta$    &     \\
       &   &   \\
-      &    MC2c10 b-tagger efficiency & MC2c10$\_$Continuous$\_$EventWeight$\_$Light0-79           \\
+      &    DL1r b-tagger efficiency & DL1r$\_$Continuous$\_$EventWeight$\_$Light0-79           \\
       &    on light flavoured originated jets         &   \\
      &     in bins of $\eta$ and \pt      &    \\
          &   &             \\
-     &    MC2c10 b-tagger                        & MC2c10$\_$Continuous$\_$EventWeight$\_$extrapolation  \\
-     &    extrapolation efficiency    &         MC2c10$\_$Continuous$\_$EventWeight$\_$extrapolation$\_$from$\_$charm             \\
+     &    DL1r b-tagger                        & DL1r$\_$Continuous$\_$EventWeight$\_$extrapolation  \\
+     &    extrapolation efficiency    &         DL1r$\_$Continuous$\_$EventWeight$\_$extrapolation$\_$from$\_$charm             \\
      \hline
     \end{tabular}
     }
-    \caption{\label{Tab:BTagExperimentalSyst} Summary of experimental systematics to be included for $b$-tagging of jets in the analysis, using the continuous MC2c10 tagging algorithm. All of the b-tagging related systematics are applied as event weights. From left: type, description, and the name of systematic used in the fit.}
+    \caption{\label{Tab:BTagExperimentalSyst} Summary of experimental systematics to be included for $b$-tagging of jets in the analysis, using the continuous DL1r tagging algorithm. All of the b-tagging related systematics are applied as event weights. From left: type, description, and the name of systematic used in the fit.}
   \end{center}
 \end{table}
 

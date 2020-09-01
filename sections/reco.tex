@@ -1,9 +1,9 @@
 
-All regions defined in this analysis share a common lepton, jet, and overall event selection. This selection is detailed here; the selection used to define the various fit regions is described in section \ref{sec:signal_region}.
+All regions defined in this analysis share a common lepton, jet, and overall event preselection. This preselection is detailed here; the selection used to define the various fit regions is described in section \ref{sec:signal_region}.
 
 \subsection{Trigger}
 
-Events are required to be selected by dilepton triggers, as summarized in table \ref{tbl:trigger}. \textbf{The 2018 trigger has not yet been implemented, and 2018 data currently uses 2017 triggers.}
+Events are required to be selected by dilepton triggers, as summarized in table \ref{tbl:trigger}. 
 
 \begin{table}[h!]
  \begin{center}
@@ -28,8 +28,14 @@ Events are required to be selected by dilepton triggers, as summarized in table 
       $ee$ (symm.)                        & \verb!HLT_2e24_lhvloose_nod0! \\
       $e\mu,\mu e$ ($\sim$symm.)          & \verb!HLT_e17_lhloose_nod0_mu14! \\
      \bottomrule
+                  & Dilepton triggers (2018) \\
+     \midrule
+      $\mu\mu$ (asymm.)                   & \verb!HLT_mu22_mu8noL1! \\
+      $ee$ (symm.)                        & \verb!HLT_2e24_lhvloose_nod0! \\
+      $e\mu,\mu e$ ($\sim$symm.)          & \verb!HLT_e17_lhloose_nod0_mu14! \\ 
+      \bottomrule
    \end{tabular}
-   \caption{\label{tbl:trigger} List of lowest $p_{T}$-threshold, un-prescaled dilepton triggers used for 2015-2017 data taking.}
+   \caption{\label{tbl:trigger} List of lowest $p_{T}$-threshold, un-prescaled dilepton triggers used for 2015-2018 data taking.}
  \end{center}
 \end{table}
 
@@ -74,22 +80,22 @@ All leptons are required to be isolated, and pass a non-prompt BDT selection des
 
 \subsection{Jets}
 \label{subsec:jets}
-
+%UPDATE FOR PFLOW
 Jets are reconstructed from calibrated topological clusters built from energy deposits in the calorimeters \cite{ATL-PHYS-PUB-2015-015}, using the anti-$k_t$ algorithm with a radius parameter $R=0.4$.  Jets with energy contributions likely arising from noise or detector effects are removed from consideration \cite{ATLAS-CONF-2015-029}, and only jets satisfying $\pt > 25$~GeV and $|\eta| < 2.5$ are used in this analysis.  For jets with $\pt < 60$~GeV and $|\eta| < 2.4$, a jet-track association algorithm is used to confirm that the jet originates from the selected primary vertex, in order to reject jets arising from pileup collisions \cite{PERF-2014-03}.
 
 \subsection{B-tagged Jets}
 \label{subsec:bjets}
 
-In order to make a measurement of $WZ$ + heavy flavor it is necessary to distinguish these events from $WZ$ + light jets. For this purpose, the MV2c10 b-tagging algorithm is used to distinguish heavy flavor jets from lighter ones. The MV2c10 algorithm uses jet kinematics, particularly jet vertex information, as input for a BDT which assigns each jet a score designed to reflect how likely that jet is to have originated from a b-quark. 
+In order to make a measurement of $WZ$ + heavy flavor it is necessary to distinguish these events from $WZ$ + light jets. For this purpose, the DL1r b-tagging algorithm is used to distinguish heavy flavor jets from lighter ones. The DL1r algorithm uses jet kinematics, particularly jet vertex information, as input for a neural network which assigns each jet a score designed to reflect how likely that jet is to have originated from a b-quark. 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.54\linewidth]{MV2c10_output.eps}
-    \caption{Output distribution of the MV2c10 algorithm for b-jets, charm jets, and light jets}
-    \label{fig:MV2c10}
+    \includegraphics[width=0.54\linewidth]{DL1_output.pdf} 
+    \caption{Output distribution of the DL1r algorithm for b-jets, charm jets, and light jets}
+    \label{fig:DL1r}
 \end{figure}
 
-From the output of the BDT, working points (WPs) are developed based on the efficiency of truth b-jets at particular values of the MV2c10 algorithm. The working points used in this analysis are summarized in table \ref{tab:btag_WPs}. 
+From the output of the BDT, working points (WPs) are developed based on the efficiency of truth b-jets at particular values of the DL1r algorithm. The working points used in this analysis are summarized in table \ref{tab:btag_WPs}. 
 
 \begin{table}[H]
 \begin{center}
@@ -105,7 +111,7 @@ From the output of the BDT, working points (WPs) are developed based on the effi
     \end{center}
 \end{table}
 
-A tighter WP will accept fewer b-jets, but reject a higher fraction of charm and light jets. Generally, analyses that include b-jets will use a fixed working point, for example, requiring that a jet pass the 70\% threshold. By instead treating these working point as bins, e.g. events with jets that fall between the 85\% and 77\% WPs fall into one bin, while events with jets passing the 60\% WP fall into another, and looking at the full psuedo-continuous MV2c10 spectrum of the jets, additional information can be gained. The psuedo-continuous b-tag spectrum is used in this case to separate out WZ + b, WZ + charm, and WZ + light. 
+A tighter WP will accept fewer b-jets, but reject a higher fraction of charm and light jets. Generally, analyses that include b-jets will use a fixed working point, for example, requiring that a jet pass the 70\% threshold. By instead treating these working point as bins, e.g. events with jets that fall between the 85\% and 77\% WPs fall into one bin, while events with jets passing the 60\% WP fall into another, and looking at the full psuedo-continuous DL1r spectrum of the jets, additional information can be gained. The psuedo-continuous b-tag spectrum is used in this case to separate out WZ + b, WZ + charm, and WZ + light. 
 
 \subsection{Missing transverse energy}
 \label{subsec:met}

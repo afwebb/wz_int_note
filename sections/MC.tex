@@ -6,11 +6,11 @@ Both data and Monte Carlo samples used in this analysis were prepared in the \ve
     \item at least one light lepton with $p_{T}$ > 15 GeV within a range $|\eta|$<2.6, and at least two hadronic taus with $p_{T}$ > 15 GeV.
 \end{itemize}
 
-Samples were then generated from these \verb|HIGG8D1| derivations using a modified version of AnalysisTop version 21.2.36.
+Samples were then generated from these \verb|HIGG8D1| derivations using a modified version of AnalysisBase version 21.2.127.
 
 \subsection{Data Samples}
 
-The study uses a sample of proton-proton collision data collected by the ATLAS detector from 2015 through 2018 at an energy of $\sqrt{s} = 13$ TeV, which represents an integrated luminosity of 140 $fb^{-1}$. The data set was collected with a bunch crossing rate of 25 ns. All data used in this analysis was verified by data quality checks, having been included in the following Good Run Lists: 
+The study uses a sample of proton-proton collision data collected by the ATLAS detector from 2015 through 2018 at an energy of $\sqrt{s} = 13$ TeV, which represents an integrated luminosity of 139 $fb^{-1}$. This data set was collected with a bunch crossing rate of 25 ns. All data used in this analysis was verified by data quality checks, having been included in the following Good Run Lists: 
 \begin{itemize}
     \item data15\_13TeV.periodAllYear\_DetStatus-v79-repro20-02\_DQDefects-00-02-02\\\_PHYS\_StandardGRL\_All\_Good\_25ns.xml
     \item data16\_13TeV.periodAllYear\_DetStatus-v88-pro20-21\_DQDefects-00-02-04\\\_PHYS\_StandardGRL\_All\_Good\_25ns.xml 
@@ -20,8 +20,7 @@ The study uses a sample of proton-proton collision data collected by the ATLAS d
 
 \subsection{Monte Carlo Samples}
 
-Several different generators were used to produce Monte Carlo simulations of the signal and background processes. For all samples, the response of the ATLAS detector is simulated using Geant4. The WZ signal samples are simulated using Sherpa 2.2.2 \cite{sherpa}. Specific information about the Monte Carlo samples being used can be found in table \ref{tbl:evgen}.
-
+Several different generators were used to produce Monte Carlo simulations of the signal and background processes. For all samples, the response of the ATLAS detector is simulated using Geant4. The WZ signal samples are simulated using Sherpa 2.2.2 \cite{sherpa}. Specific information about the Monte Carlo samples being used can be found in table \ref{tbl:evgen}. A list of the specific samples used by data set ID is shown in table \ref{tbl:dsids}.
 
 \begin{table}[H]
 \begin{center}
@@ -31,7 +30,7 @@ Several different generators were used to produce Monte Carlo simulations of the
 \hline\hline
 Process & Event generator & ME order & Parton Shower & PDF   \\
 \hline
-$VV$, & \textsc{Sherpa} 2.2.2
+$WZ$, $VV$ & \textsc{Sherpa} 2.2.2
 & MEPS NLO & \textsc{Sherpa} & CT10 \\
 $t Z$ & \textsc{MG5\_aMC} & LO & \textsc{Pythia} 6  & CTEQ6L1  \\
 $\ttbar W$ & \textsc{MG5\_aMC} & NLO & \textsc{Pythia} 8 & NNPDF 3.0 NLO \\
@@ -57,5 +56,37 @@ $Z \to l^+l^-$ & \textsc{Sherpa} 2.2.1 & MEPS NLO  & \textsc{Sherpa} & NNPDF 3.0
 \end{center}
 \end{table}
 
-\input{sampleList.tex}
-
+\begin{table}[]
+    \centering
+    \begin{tabular}{l|l}
+        \hline\hline
+        Sample & DSID \\
+        \hline\hline
+        $WZ$ & 364253, 364739-42 \\
+        $VV$ & 364250, 364254, 364255, 363355-60, 364890 \\
+        $t\bar{t}W$ & 410155 \\
+        $t\bar{t}Z$ & 410156, 410157, 410218-20 \\
+        low mass $t\bar{t}Z$ & 410276-8 \\
+        Rare Top & 410397, 410398, 410399 \\
+        single Top & 410658-9, 410644-5 \\
+        three Top & 304014 \\
+        four Top & 410080 \\
+        $t\bar{t}WW$ & 410081 \\
+        Z + jets & 364100-41 \\
+        low mass Z + jets & 364198-215 \\
+        W + jets & 364156-97 \\
+        $V\gamma$ & 364500-35 \\
+        $tZ$  & 410560 \\
+        $tW$  & 410013-4 \\
+        $WtZ$ & 410408 \\
+        $VVV$ & 364242-9 \\
+        $VH$ & 342284-5 \\
+        $WtH$ & 341998 \\
+        $t\bar{t}\gamma$ & 410389 \\
+        $t\bar{t}$ & 410470 \\
+        $t\bar{t}H$ & 345873-5, 346343-5 \\
+        \hline\hline
+    \end{tabular}
+    \caption{List of Monte Carlo samples by data set ID used in the analysis.}
+    \label{tab:dsids}
+\end{table}

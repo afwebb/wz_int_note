@@ -12,11 +12,31 @@ The result of this BDT is used to create a tZ enriched region in the fit, reduci
 
 In order to estimate the matrix level interference effects between tZ and WZ + b-jet, two different sets of simulations are produced using MadGraph 5 \cite{Madgraph} - one which simulates these two processes independently, and another where they are produced simultaneously, such that interference effects are present. These two sets of samples are then compared, and the difference between them can be taken to represent any interference effects.
 
-MadGraph simulations of 10,000 tZ and 10,000 WZ + b-jet events are produced, along with 20,000 events where both are present, in the fiducial region where 
+MadGraph simulations of 10,000 tZ and 10,000 WZ + b-jet events are produced, along with 20,000 events where both are present, in the fiducial region where three leptons and at least one jet are produced. 
 
 The kinematics of these samples are shown below:
 
+\begin{figure}[H]
+    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/lepPairMass23.eps}}%
+    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/lep1pt.eps}}\\                        
+    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/drll23.eps}}%
+    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/btpt.eps}}\\
+    \caption{Comparisons between (a) the invariant mass of the Z-candidate, (b) the $p_T$ of the leading lepton, (c) $\Delta(R)$ of the two leptons that form the Z-candidate, and (d) the $p_T$ of the b-jet, for WZ and tZ events generated with interference effects (blue) and without interference effects (red).}
+\end{figure}
 
+%\begin{figure}[H]
+%    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/lep3pt.eps}}%
+%    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/lep3eta.eps}}\\
+%    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/lepPairMass12.eps}}%
+%    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/lepPairMass13.eps}}\\
+%\end{figure}
+
+%\begin{figure}[H]
+%    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/drll12.eps}}%
+%    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/drll13.eps}}\\                                      
+%    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/btpt.eps}}% 
+%    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/bteta.eps}}\\                                    
+%\end{figure}
 
 \subsection{Top Mass Reconstruction}
 \label{subsec:topMass}
@@ -61,7 +81,7 @@ The following kinematic variables are used as inputs in order to distinguish bet
      \item Distance between each lepton and the jet, $\Delta R (lj)$
  \end{itemize}
  
-The training samples included only events meeting the requirements of the 1-jet, >60\% region, i.e. passing all the selection described in section \ref{sec:evt_selection} and having exactly one jet which passes the tightest (60\%) MV2c10 working point. 
+The training samples included only events meeting the requirements of the 1-jet, >60\% region, i.e. passing all the selection described in section \ref{sec:evt_selection} and having exactly one jet which passes the tightest (60\%) DL1r working point. 
  
 The distributions of these features for both signal and background is shown in figure \ref{fig:tZ_kinematics}.
  
