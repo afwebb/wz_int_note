@@ -19,13 +19,13 @@
 \contentsline {section}{\numberline {5}Event Selection}{10}{section.5}
 \contentsline {subsection}{\numberline {5.1}Signal Region Validation}{10}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Non-Prompt Lepton Estimation}{12}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}$t\bar {t}$ Validation}{12}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}$Z$+jets Validation}{27}{subsubsection.5.2.2}
-\contentsline {section}{\numberline {6}tZ Interference Studies and Separation Multivariate Analysis}{30}{section.6}
-\contentsline {subsection}{\numberline {6.1}Interference Studies}{31}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Top Mass Reconstruction}{32}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}tZ BDT}{32}{subsection.6.3}
-\contentsline {section}{\numberline {7}Signal Region Definitions}{35}{section.7}
-\contentsline {section}{\numberline {8}Systematic Uncertainties}{36}{section.8}
-\contentsline {section}{\numberline {9}Results}{39}{section.9}
-\contentsline {section}{\numberline {10}Conclusion}{46}{section.10}
+\contentsline {subsubsection}{\numberline {5.2.1}$t\bar {t}$ Validation}{13}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}$Z$+jets Validation}{18}{subsubsection.5.2.2}
+\contentsline {section}{\numberline {6}tZ Interference Studies and Separation Multivariate Analysis}{22}{section.6}
+\contentsline {subsection}{\numberline {6.1}Interference Studies}{23}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Top Mass Reconstruction}{24}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}tZ BDT}{25}{subsection.6.3}
+\contentsline {section}{\numberline {7}Signal Region Definitions}{27}{section.7}
+\contentsline {section}{\numberline {8}Systematic Uncertainties}{28}{section.8}
+\contentsline {section}{\numberline {9}Results}{31}{section.9}
+\contentsline {section}{\numberline {10}Conclusion}{38}{section.10}
