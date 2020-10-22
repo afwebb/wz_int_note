@@ -25,17 +25,6 @@ The kinematics of these samples are shown below:
 \end{figure}
 
 %\begin{figure}[H]
-%    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/lep3pt.eps}}%
-%    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/lep3eta.eps}}\\
-%    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/lepPairMass12.eps}}%
-%    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/lepPairMass13.eps}}\\
-%\end{figure}
-
-%\begin{figure}[H]
-%    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/drll12.eps}}%
-%    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/drll13.eps}}\\                                      
-%    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/btpt.eps}}% 
-%    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/bteta.eps}}\\                                    
 %\end{figure}
 
 \subsection{Top Mass Reconstruction}
@@ -71,25 +60,35 @@ The reconstructed top mass distribution for tZ and $WZ$ + b can be seen in figur
 \subsection{tZ BDT}
 \label{subsec:tZ_bdt}
  
-The following kinematic variables are used as inputs in order to distinguish between these two processes:
+A Boosted Decision Tree (BDT), specifically XGBoost \cite{xgboost_cite}, is used to provide separation between tZ and WZ+b. The following kinematic variables are used as inputs:
  
  \begin{itemize}
      \item The invariant mass of the reconstructed top candidate
-     \item $p_T$ of each of the leptons
+     \item $p_T$ of each of the leptons, jet
+     \item The  invariant mass of each combination of lepton pairs, $M(ll)$
      \item $E_T^{miss}$
      \item Distance between each combination of leptons, $\Delta R (ll)$
      \item Distance between each lepton and the jet, $\Delta R (lj)$
  \end{itemize}
  
-The training samples included only events meeting the requirements of the 1-jet, >60\% region, i.e. passing all the selection described in section \ref{sec:evt_selection} and having exactly one jet which passes the tightest (60\%) DL1r working point. 
+The training samples included only events meeting the requirements of the 1-jet, >60\% region, i.e. passing all the selection described in section \ref{sec:evt_selection} and having exactly one jet which passes the tightest (60\%) DL1r working point.
  
-The distributions of these features for both signal and background is shown in figure \ref{fig:tZ_kinematics}.
+The distributions of a few of these features for both signal and background is shown in figure \ref{fig:tZ_kinematics}.
  
-\begin{figure}[H]
+\begin{figure}[h!]
 \center
-    \includegraphics[width=0.9\linewidth]{tZ_bdt/variables_id_c1.eps}\\
-    \includegraphics[width=0.9\linewidth]{tZ_bdt/variables_id_c2.eps}\\
-    \caption{Distribution of input features of the BDT for signal (WZ) and background (tZ).}
+    \subfigure[]{\includegraphics[width=.29\linewidth]{tZ_bdt_ab127/1j/ab127/lep_Pt_0.pdf}}%
+    \subfigure[]{\includegraphics[width=.29\linewidth]{tZ_bdt_ab127/1j/ab127/lep_Pt_1.pdf}}%
+    \subfigure[]{\includegraphics[width=.29\linewidth]{tZ_bdt_ab127/1j/ab127/jet_Pt_0.pdf}}\\
+    \subfigure[]{\includegraphics[width=.29\linewidth]{tZ_bdt_ab127/1j/ab127/topMassReco.pdf}}% 
+    \subfigure[]{\includegraphics[width=.29\linewidth]{tZ_bdt_ab127/1j/ab127/Mll01.pdf}}%
+    \subfigure[]{\includegraphics[width=.29\linewidth]{tZ_bdt_ab127/1j/ab127/Mll02.pdf}}\\
+    \subfigure[]{\includegraphics[width=.29\linewidth]{tZ_bdt_ab127/1j/ab127/MET.pdf}}%                           
+    \subfigure[]{\includegraphics[width=.29\linewidth]{tZ_bdt_ab127/1j/ab127/DRll01.pdf}}%                                  
+    \subfigure[]{\includegraphics[width=.29\linewidth]{tZ_bdt_ab127/1j/ab127/minDeltaR_LJ_0.pdf}}\\                          
+    %\subfigure[]{\includegraphics[width=.29\linewidth]{tZ_bdt_ab127/1j/ab127/DRll12.pdf}}\\
+    
+    \caption{Distribution of input features of the BDT for signal (WZ) and background (tZ). Both are scaled to an equal number of events. (a), (b) and (c) show the $p_T$ of lepton 0, lepton 1, and the jet, (d) show the reconstructed top mass, (e) and (f) show the invariant mass of leptons 0 and 1, leptons 0 and 2. (g) shows the $E_T^miss$ of each event. (h) and (i) show the $\delta R$ between lepton 0 and lepton 1, and the jet.}
     \label{fig:tZ_kinematics}
 \end{figure}
 
@@ -99,11 +98,11 @@ The results of the BDT training are shown in figure \ref{fig:tZ_bdt}. The output
 
 \begin{figure}[H]
 \center
-    \includegraphics[width=.45\linewidth]{tZ_bdt/overtrain_BDT.eps}%                                     
-    \includegraphics[width=.45\linewidth]{tZ_bdt/rejBvsS.eps}\\
+    \subfigure[]{\includegraphics[width=.45\linewidth]{tZ_bdt_ab127/1j/xgb_score.png}}%
+    \subfigure[]{\includegraphics[width=.45\linewidth]{tZ_bdt_ab127/1j/roc.png}}    
     \caption{Distribution of the BDT response for signal and background events on the left, the ROC curve for the BDT on the right.}
     \label{fig:tZ_bdt}
 \end{figure}
 
-These results suggest that some amount of separation can be achieved between these two processes, with a high BDT score selecting a set of events that is pure in $WZ$ + b. Further, the ROC curve demonstrates the BDT performs significantly better than a flat selection.
+These results suggest that some amount of separation can be achieved between these two processes, with a high BDT score selecting a set of events that is pure in $WZ$ + b. 
 

@@ -2141,9 +2141,10 @@
     <bcf:citekey order="15">TMVA_guide</bcf:citekey>
     <bcf:citekey order="16">Madgraph</bcf:citekey>
     <bcf:citekey order="17">ttZ_paper</bcf:citekey>
-    <bcf:citekey order="18">lumi</bcf:citekey>
-    <bcf:citekey order="19">jes</bcf:citekey>
-    <bcf:citekey order="20">btag_cal</bcf:citekey>
+    <bcf:citekey order="18">xgboost_cite</bcf:citekey>
+    <bcf:citekey order="19">lumi</bcf:citekey>
+    <bcf:citekey order="20">jes</bcf:citekey>
+    <bcf:citekey order="21">btag_cal</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

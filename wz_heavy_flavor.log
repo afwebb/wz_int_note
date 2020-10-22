@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  2 SEP 2020 15:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  22 OCT 2020 11:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2877,19 +2877,19 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 106.
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 113.
- [3
 
-] (./sections/intro.tex) (./sections/MC.tex
-[4
+
+LaTeX Warning: Reference `tab:dsids' on page 3 undefined on input line 125.
+
+[3
+
+] (./sections/intro.tex) (./sections/MC.tex [4
 
 ]
 Overfull \hbox (0.36421pt too wide) in paragraph at lines 18--19
 []\T1/ntxtlf/m/n/10.95 data18_13TeV.periodAllYear_DetStatus-v102-pro22-04_Unkno
 wn_PHYS_StandardGRL 
  []
-
-
-LaTeX Warning: Reference `tbl:dsids' on page 5 undefined on input line 23.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 10.95pt on input line 55.
@@ -4041,7 +4041,7 @@ re.17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.55 
+l.44 
       <./figures/tZInterference/lepPairMass23-eps-converted-to.pdf> <./figures/
 tZInterference/lep1pt-eps-converted-to.pdf> <./figures/tZInterference/drll23-ep
 s-converted-to.pdf> <./figures/tZInterference/btpt-eps-converted-to.pdf>]
@@ -4054,109 +4054,148 @@ f>
 (epstopdf)                    size: 19070 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/tZ_bdt/topMass-eps
 -converted-to.pdf figures/tZ_bdt/topMass.eps>
-(epstopdf)             \includegraphics on input line 66.
+(epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/tZ_bdt/topMass-eps-converted-to.pdf, id=652, 462.72874pt x 347.2975pt>
 File: figures/tZ_bdt/topMass-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/tZ_bdt/topMass-eps-converted-to.pdf>
 Package pdftex.def Info: figures/tZ_bdt/topMass-eps-converted-to.pdf used on in
-put line 66.
+put line 55.
 (pdftex.def)             Requested size: 292.77632pt x 219.74185pt.
- [33pdfTeX warning (ext4): destination with the same identifier (name{figure.18
-}) has been already used, duplicate ignored
+
+
+LaTeX Warning: Citation 'xgboost_cite' on page 33 undefined on input line 63.
+
+[33pdfTeX warning (ext4): destination with the same identifier (name{figure.18}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.85 
-      <./figures/tZ_bdt/topMass-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <figures/tZ_bdt/variables_id_c1.eps>
-(epstopdf)                    date: 2019-12-09 10:50:50
-(epstopdf)                    size: 2008543 bytes
-(epstopdf)             Output file: <figures/tZ_bdt/variables_id_c1-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2020-08-20 12:28:52
-(epstopdf)                    size: 29869 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/tZ_bdt/variables_i
-d_c1-eps-converted-to.pdf figures/tZ_bdt/variables_id_c1.eps>
-(epstopdf)             \includegraphics on input line 90.
-Package epstopdf Info: Output file is already uptodate.
+l.72  \end{itemize}
+                    <./figures/tZ_bdt/topMass-eps-converted-to.pdf>]
+<figures/tZ_bdt_ab127/1j/ab127/lep_Pt_0.pdf, id=663, 462.52798pt x 346.89601pt>
+File: figures/tZ_bdt_ab127/1j/ab127/lep_Pt_0.pdf Graphic file (type pdf)
+<use figures/tZ_bdt_ab127/1j/ab127/lep_Pt_0.pdf>
+Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/lep_Pt_0.pdf used on inp
+ut line 80.
+(pdftex.def)             Requested size: 121.29077pt x 90.96364pt.
 
-<figures/tZ_bdt/variables_id_c1-eps-converted-to.pdf, id=663, 800.9925pt x 414.
-54875pt>
-File: figures/tZ_bdt/variables_id_c1-eps-converted-to.pdf Graphic file (type pd
-f)
- <use figures/tZ_bdt/variables_id_c1-eps-converted-to.pdf>
-Package pdftex.def Info: figures/tZ_bdt/variables_id_c1-eps-converted-to.pdf us
-ed on input line 90.
-(pdftex.def)             Requested size: 376.4258pt x 194.81895pt.
-Package epstopdf Info: Source file: <figures/tZ_bdt/variables_id_c2.eps>
-(epstopdf)                    date: 2019-12-09 10:50:58
-(epstopdf)                    size: 2008543 bytes
-(epstopdf)             Output file: <figures/tZ_bdt/variables_id_c2-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2020-08-20 12:28:54
-(epstopdf)                    size: 28460 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/tZ_bdt/variables_i
-d_c2-eps-converted-to.pdf figures/tZ_bdt/variables_id_c2.eps>
-(epstopdf)             \includegraphics on input line 91.
-Package epstopdf Info: Output file is already uptodate.
+<figures/tZ_bdt_ab127/1j/ab127/lep_Pt_1.pdf, id=664, 462.52798pt x 346.89601pt>
+File: figures/tZ_bdt_ab127/1j/ab127/lep_Pt_1.pdf Graphic file (type pdf)
+<use figures/tZ_bdt_ab127/1j/ab127/lep_Pt_1.pdf>
+Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/lep_Pt_1.pdf used on inp
+ut line 81.
+(pdftex.def)             Requested size: 121.29077pt x 90.96364pt.
 
-<figures/tZ_bdt/variables_id_c2-eps-converted-to.pdf, id=664, 800.9925pt x 414.
-54875pt>
-File: figures/tZ_bdt/variables_id_c2-eps-converted-to.pdf Graphic file (type pd
-f)
- <use figures/tZ_bdt/variables_id_c2-eps-converted-to.pdf>
-Package pdftex.def Info: figures/tZ_bdt/variables_id_c2-eps-converted-to.pdf us
-ed on input line 91.
-(pdftex.def)             Requested size: 376.4258pt x 194.81895pt.
+<figures/tZ_bdt_ab127/1j/ab127/jet_Pt_0.pdf, id=665, 462.52798pt x 346.89601pt>
+File: figures/tZ_bdt_ab127/1j/ab127/jet_Pt_0.pdf Graphic file (type pdf)
+<use figures/tZ_bdt_ab127/1j/ab127/jet_Pt_0.pdf>
+Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/jet_Pt_0.pdf used on inp
+ut line 82.
+(pdftex.def)             Requested size: 121.29077pt x 90.96364pt.
+
+<figures/tZ_bdt_ab127/1j/ab127/topMassReco.pdf, id=666, 462.52798pt x 346.89601
+pt>
+File: figures/tZ_bdt_ab127/1j/ab127/topMassReco.pdf Graphic file (type pdf)
+ <use figures/tZ_bdt_ab127/1j/ab127/topMassReco.pdf>
+Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/topMassReco.pdf used on 
+input line 83.
+(pdftex.def)             Requested size: 121.29077pt x 90.96364pt.
+
+<figures/tZ_bdt_ab127/1j/ab127/Mll01.pdf, id=667, 462.52798pt x 346.89601pt>
+File: figures/tZ_bdt_ab127/1j/ab127/Mll01.pdf Graphic file (type pdf)
+
+<use figures/tZ_bdt_ab127/1j/ab127/Mll01.pdf>
+Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/Mll01.pdf used on input 
+line 84.
+(pdftex.def)             Requested size: 121.29077pt x 90.96364pt.
+
+<figures/tZ_bdt_ab127/1j/ab127/Mll02.pdf, id=668, 462.52798pt x 346.89601pt>
+File: figures/tZ_bdt_ab127/1j/ab127/Mll02.pdf Graphic file (type pdf)
+
+<use figures/tZ_bdt_ab127/1j/ab127/Mll02.pdf>
+Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/Mll02.pdf used on input 
+line 85.
+(pdftex.def)             Requested size: 121.29077pt x 90.96364pt.
+
+<figures/tZ_bdt_ab127/1j/ab127/MET.pdf, id=669, 462.52798pt x 346.89601pt>
+File: figures/tZ_bdt_ab127/1j/ab127/MET.pdf Graphic file (type pdf)
+
+<use figures/tZ_bdt_ab127/1j/ab127/MET.pdf>
+Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/MET.pdf used on input li
+ne 86.
+(pdftex.def)             Requested size: 121.29077pt x 90.96364pt.
+
+<figures/tZ_bdt_ab127/1j/ab127/DRll01.pdf, id=670, 462.52798pt x 346.89601pt>
+File: figures/tZ_bdt_ab127/1j/ab127/DRll01.pdf Graphic file (type pdf)
+
+<use figures/tZ_bdt_ab127/1j/ab127/DRll01.pdf>
+Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/DRll01.pdf used on input
+ line 87.
+(pdftex.def)             Requested size: 121.29077pt x 90.96364pt.
+
+<figures/tZ_bdt_ab127/1j/ab127/minDeltaR_LJ_0.pdf, id=671, 462.52798pt x 346.89
+601pt>
+File: figures/tZ_bdt_ab127/1j/ab127/minDeltaR_LJ_0.pdf Graphic file (type pdf)
+ <use figures/tZ_bdt_ab127/1j/ab127/minDeltaR_LJ_0.pdf>
+Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/minDeltaR_LJ_0.pdf used 
+on input line 88.
+(pdftex.def)             Requested size: 121.29077pt x 90.96364pt.
  [34pdfTeX warning (ext4): destination with the same identifier (name{figure.19
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.97 
-      <./figures/tZ_bdt/variables_id_c1-eps-converted-to.pdf> <./figures/tZ_bdt
-/variables_id_c2-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <figures/tZ_bdt/overtrain_BDT.eps>
-(epstopdf)                    date: 2019-12-09 10:51:06
-(epstopdf)                    size: 1619241 bytes
-(epstopdf)             Output file: <figures/tZ_bdt/overtrain_BDT-eps-converted
--to.pdf>
-(epstopdf)                    date: 2020-08-20 12:28:57
-(epstopdf)                    size: 21217 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/tZ_bdt/overtrain_B
-DT-eps-converted-to.pdf figures/tZ_bdt/overtrain_BDT.eps>
-(epstopdf)             \includegraphics on input line 102.
-Package epstopdf Info: Output file is already uptodate.
+l.96 
+      <./figures/tZ_bdt_ab127/1j/ab127/lep_Pt_0.pdf> <./figures/tZ_bdt_ab127/1j
+/ab127/lep_Pt_1.pdf
 
-<figures/tZ_bdt/overtrain_BDT-eps-converted-to.pdf, id=677, 600.2425pt x 445.66
-5pt>
-File: figures/tZ_bdt/overtrain_BDT-eps-converted-to.pdf Graphic file (type pdf)
+pdfTeX warning: pdflatex (file ./figures/tZ_bdt_ab127/1j/ab127/lep_Pt_1.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <./figures/tZ_bdt_ab127/1j/ab127/jet_Pt_0.pdf
 
- <use figures/tZ_bdt/overtrain_BDT-eps-converted-to.pdf>
-Package pdftex.def Info: figures/tZ_bdt/overtrain_BDT-eps-converted-to.pdf used
- on input line 102.
-(pdftex.def)             Requested size: 188.21289pt x 139.73918pt.
-Package epstopdf Info: Source file: <figures/tZ_bdt/rejBvsS.eps>
-(epstopdf)                    date: 2019-12-09 10:51:18
-(epstopdf)                    size: 1880154 bytes
-(epstopdf)             Output file: <figures/tZ_bdt/rejBvsS-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2020-08-20 12:28:59
-(epstopdf)                    size: 21570 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/tZ_bdt/rejBvsS-eps
--converted-to.pdf figures/tZ_bdt/rejBvsS.eps>
-(epstopdf)             \includegraphics on input line 103.
-Package epstopdf Info: Output file is already uptodate.
+pdfTeX warning: pdflatex (file ./figures/tZ_bdt_ab127/1j/ab127/jet_Pt_0.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <./figures/tZ_bdt_ab127/1j/ab127/topMassReco.pdf
 
-<figures/tZ_bdt/rejBvsS-eps-converted-to.pdf, id=678, 650.43pt x 477.785pt>
-File: figures/tZ_bdt/rejBvsS-eps-converted-to.pdf Graphic file (type pdf)
+pdfTeX warning: pdflatex (file ./figures/tZ_bdt_ab127/1j/ab127/topMassReco.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/tZ_bdt_ab127/1j/ab127/Mll01.pdf
 
-<use figures/tZ_bdt/rejBvsS-eps-converted-to.pdf>
-Package pdftex.def Info: figures/tZ_bdt/rejBvsS-eps-converted-to.pdf used on in
-put line 103.
-(pdftex.def)             Requested size: 188.21289pt x 138.25519pt.
+pdfTeX warning: pdflatex (file ./figures/tZ_bdt_ab127/1j/ab127/Mll01.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+> <./figures/tZ_bdt_ab127/1j/ab127/Mll02.pdf
+
+pdfTeX warning: pdflatex (file ./figures/tZ_bdt_ab127/1j/ab127/Mll02.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+> <./figures/tZ_bdt_ab127/1j/ab127/MET.pdf
+
+pdfTeX warning: pdflatex (file ./figures/tZ_bdt_ab127/1j/ab127/MET.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./figures/tZ_bdt_ab127/1j/ab127/DRll01.pdf
+
+pdfTeX warning: pdflatex (file ./figures/tZ_bdt_ab127/1j/ab127/DRll01.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./figures/tZ_bdt_ab127/1j/ab127/minDeltaR_LJ_0.pdf
+
+pdfTeX warning: pdflatex (file ./figures/tZ_bdt_ab127/1j/ab127/minDeltaR_LJ_0.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+>] <figures/tZ_bdt_ab127/1j/xgb_score.png, id=961, 462.528pt x 346.896pt>
+File: figures/tZ_bdt_ab127/1j/xgb_score.png Graphic file (type png)
+
+<use figures/tZ_bdt_ab127/1j/xgb_score.png>
+Package pdftex.def Info: figures/tZ_bdt_ab127/1j/xgb_score.png used on input li
+ne 101.
+(pdftex.def)             Requested size: 188.21289pt x 141.15904pt.
+
+<figures/tZ_bdt_ab127/1j/roc.png, id=963, 462.528pt x 346.896pt>
+File: figures/tZ_bdt_ab127/1j/roc.png Graphic file (type png)
+
+<use figures/tZ_bdt_ab127/1j/roc.png>
+Package pdftex.def Info: figures/tZ_bdt_ab127/1j/roc.png used on input line 102
+.
+(pdftex.def)             Requested size: 188.21289pt x 141.15904pt.
 ) (./sections/sys.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -4167,8 +4206,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.44 
-      <./figures/tZ_bdt/overtrain_BDT-eps-converted-to.pdf> <./figures/tZ_bdt/r
-ejBvsS-eps-converted-to.pdf>]
+      <./figures/tZ_bdt_ab127/1j/xgb_score.png> <./figures/tZ_bdt_ab127/1j/roc.
+png>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
@@ -4215,14 +4254,14 @@ Overfull \hbox (43.29628pt too wide) in paragraph at lines 151--173
                                                   \fi \fi 
 l.176 
       ]) (./sections/splitResults.tex
-<figures/1j/not_85_postFit.png, id=721, 598.235pt x 674.52pt>
+<figures/1j/not_85_postFit.png, id=1004, 598.235pt x 674.52pt>
 File: figures/1j/not_85_postFit.png Graphic file (type png)
 
 <use figures/1j/not_85_postFit.png>
 Package pdftex.def Info: figures/1j/not_85_postFit.png used on input line 14.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/1j/WP_1b_77_85_postFit.png, id=722, 598.235pt x 674.52pt>
+<figures/1j/WP_1b_77_85_postFit.png, id=1005, 598.235pt x 674.52pt>
 File: figures/1j/WP_1b_77_85_postFit.png Graphic file (type png)
 
 <use figures/1j/WP_1b_77_85_postFit.png>
@@ -4230,7 +4269,7 @@ Package pdftex.def Info: figures/1j/WP_1b_77_85_postFit.png used on input line
 15.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/1j/WP_1b_70_77_postFit.png, id=723, 598.235pt x 674.52pt>
+<figures/1j/WP_1b_70_77_postFit.png, id=1006, 598.235pt x 674.52pt>
 File: figures/1j/WP_1b_70_77_postFit.png Graphic file (type png)
 
 <use figures/1j/WP_1b_70_77_postFit.png>
@@ -4242,7 +4281,7 @@ Overfull \hbox (20.9203pt too wide) in paragraph at lines 14--16
  [][][] 
  []
 
-<figures/1j/WP_1b_60_70_postFit.png, id=724, 598.235pt x 674.52pt>
+<figures/1j/WP_1b_60_70_postFit.png, id=1007, 598.235pt x 674.52pt>
 File: figures/1j/WP_1b_60_70_postFit.png Graphic file (type png)
 
 <use figures/1j/WP_1b_60_70_postFit.png>
@@ -4250,7 +4289,7 @@ Package pdftex.def Info: figures/1j/WP_1b_60_70_postFit.png used on input line
 17.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/1j/WP_1b_60_postFit.png, id=725, 598.235pt x 674.52pt>
+<figures/1j/WP_1b_60_postFit.png, id=1008, 598.235pt x 674.52pt>
 File: figures/1j/WP_1b_60_postFit.png Graphic file (type png)
 
 <use figures/1j/WP_1b_60_postFit.png>
@@ -4258,7 +4297,7 @@ Package pdftex.def Info: figures/1j/WP_1b_60_postFit.png used on input line 18.
 
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/1j/tZ_CR_postFit.png, id=726, 598.235pt x 674.52pt>
+<figures/1j/tZ_CR_postFit.png, id=1009, 598.235pt x 674.52pt>
 File: figures/1j/tZ_CR_postFit.png Graphic file (type png)
 
 <use figures/1j/tZ_CR_postFit.png>
@@ -4269,7 +4308,7 @@ Overfull \hbox (20.9203pt too wide) in paragraph at lines 17--19
  [][][][] 
  []
 
-<figures/1j/Summary_postFit.png, id=728, 899.36pt x 674.52pt>
+<figures/1j/Summary_postFit.png, id=1011, 899.36pt x 674.52pt>
 File: figures/1j/Summary_postFit.png Graphic file (type png)
 
 <use figures/1j/Summary_postFit.png>
@@ -4301,7 +4340,7 @@ l.32
 <./figures/1j/WP_1b_70_77_postFit.png> <./figures/1j/WP_1b_60_70_postFit.png> <
 ./figures/1j/WP_1b_60_postFit.png> <./figures/1j/tZ_CR_postFit.png> <./figures/
 1j/Summary_postFit.png>]
-<figures/1j/Ranking.png, id=742, 598.235pt x 1111.15125pt>
+<figures/1j/Ranking.png, id=1025, 598.235pt x 1111.15125pt>
 File: figures/1j/Ranking.png Graphic file (type png)
 
 <use figures/1j/Ranking.png>
@@ -4320,7 +4359,7 @@ ure.23}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.73 
       <./figures/1j/Ranking.png>]
-<figures/1j/PieChart_postFit.png, id=754, 748.7975pt x 574.145pt>
+<figures/1j/PieChart_postFit.png, id=1037, 748.7975pt x 574.145pt>
 File: figures/1j/PieChart_postFit.png Graphic file (type png)
 
 <use figures/1j/PieChart_postFit.png>
@@ -4328,7 +4367,7 @@ Package pdftex.def Info: figures/1j/PieChart_postFit.png used on input line 76.
 
 (pdftex.def)             Requested size: 292.77632pt x 224.48509pt.
 
-<figures/1j/CorrMatrix.png, id=756, 1652.1725pt x 1628.0825pt>
+<figures/1j/CorrMatrix.png, id=1039, 1652.1725pt x 1628.0825pt>
 File: figures/1j/CorrMatrix.png Graphic file (type png)
 
 <use figures/1j/CorrMatrix.png>
@@ -4348,7 +4387,7 @@ gnored
                                                   \fi \fi 
 l.95 
       <./figures/1j/CorrMatrix.png>]
-<figures/2j/not_85_2j_postFit.png, id=770, 598.235pt x 674.52pt>
+<figures/2j/not_85_2j_postFit.png, id=1052, 598.235pt x 674.52pt>
 File: figures/2j/not_85_2j_postFit.png Graphic file (type png)
 
 <use figures/2j/not_85_2j_postFit.png>
@@ -4356,7 +4395,7 @@ Package pdftex.def Info: figures/2j/not_85_2j_postFit.png used on input line 15
 3.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/2j/WP_2b_77_85_postFit.png, id=771, 598.235pt x 674.52pt>
+<figures/2j/WP_2b_77_85_postFit.png, id=1053, 598.235pt x 674.52pt>
 File: figures/2j/WP_2b_77_85_postFit.png Graphic file (type png)
 
 <use figures/2j/WP_2b_77_85_postFit.png>
@@ -4364,7 +4403,7 @@ Package pdftex.def Info: figures/2j/WP_2b_77_85_postFit.png used on input line
 154.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/2j/WP_2b_70_77_postFit.png, id=772, 598.235pt x 674.52pt>
+<figures/2j/WP_2b_70_77_postFit.png, id=1054, 598.235pt x 674.52pt>
 File: figures/2j/WP_2b_70_77_postFit.png Graphic file (type png)
 
 <use figures/2j/WP_2b_70_77_postFit.png>
@@ -4376,7 +4415,7 @@ Overfull \hbox (20.9203pt too wide) in paragraph at lines 153--155
  [][][] 
  []
 
-<figures/2j/WP_2b_60_70_postFit.png, id=773, 598.235pt x 674.52pt>
+<figures/2j/WP_2b_60_70_postFit.png, id=1055, 598.235pt x 674.52pt>
 File: figures/2j/WP_2b_60_70_postFit.png Graphic file (type png)
 
 <use figures/2j/WP_2b_60_70_postFit.png>
@@ -4384,7 +4423,7 @@ Package pdftex.def Info: figures/2j/WP_2b_60_70_postFit.png used on input line
 156.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/2j/WP_2b_60_postFit.png, id=774, 598.235pt x 674.52pt>
+<figures/2j/WP_2b_60_postFit.png, id=1056, 598.235pt x 674.52pt>
 File: figures/2j/WP_2b_60_postFit.png Graphic file (type png)
 
 <use figures/2j/WP_2b_60_postFit.png>
@@ -4392,7 +4431,7 @@ Package pdftex.def Info: figures/2j/WP_2b_60_postFit.png used on input line 157
 .
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/2j/tZ_CR_2j_postFit.png, id=775, 598.235pt x 674.52pt>
+<figures/2j/tZ_CR_2j_postFit.png, id=1057, 598.235pt x 674.52pt>
 File: figures/2j/tZ_CR_2j_postFit.png Graphic file (type png)
 
 <use figures/2j/tZ_CR_2j_postFit.png>
@@ -4404,84 +4443,88 @@ Overfull \hbox (20.9203pt too wide) in paragraph at lines 156--158
  [][][][] 
  []
 
-<figures/2j/Summary_postFit.png, id=777, 899.36pt x 674.52pt>
+<figures/2j/Summary_postFit.png, id=1059, 899.36pt x 674.52pt>
 File: figures/2j/Summary_postFit.png Graphic file (type png)
 
 <use figures/2j/Summary_postFit.png>
 Package pdftex.def Info: figures/2j/Summary_postFit.png used on input line 167.
 
 (pdftex.def)             Requested size: 376.4258pt x 282.3187pt.
- [45pdfTeX warning (ext4): destination with the same identifier (name{figure.26
-}) has been already used, duplicate ignored
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[45pdfTeX warning (ext4): destination with the same identifier (name{figure.26}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.171 
+l.202 
        <./figures/2j/not_85_2j_postFit.png> <./figures/2j/WP_2b_77_85_postFit.p
 ng> <./figures/2j/WP_2b_70_77_postFit.png> <./figures/2j/WP_2b_60_70_postFit.pn
 g> <./figures/2j/WP_2b_60_postFit.png> <./figures/2j/tZ_CR_2j_postFit.png>]
-[46pdfTeX warning (ext4): destination with the same identifier (name{figure.27}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.201 
-       <./figures/2j/Summary_postFit.png>]
-<figures/2j/Ranking.png, id=792, 598.235pt x 1111.15125pt>
+<figures/2j/Ranking.png, id=1069, 598.235pt x 1111.15125pt>
 File: figures/2j/Ranking.png Graphic file (type png)
 
 <use figures/2j/Ranking.png>
-Package pdftex.def Info: figures/2j/Ranking.png used on input line 206.
+Package pdftex.def Info: figures/2j/Ranking.png used on input line 207.
 (pdftex.def)             Requested size: 292.77632pt x 543.80763pt.
- [47pdfTeX warning (ext4): destination with the same identifier (name{table.14}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.210 
-      ] [48pdfTeX warning (ext4): destination with the same identifier (name{fi
-gure.28}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.212 
-       <./figures/2j/Ranking.png>]
-<figures/2j/PieChart_postFit.png, id=803, 748.7975pt x 574.145pt>
-File: figures/2j/PieChart_postFit.png Graphic file (type png)
-
-<use figures/2j/PieChart_postFit.png>
-Package pdftex.def Info: figures/2j/PieChart_postFit.png used on input line 215
-.
-(pdftex.def)             Requested size: 292.77632pt x 224.48509pt.
-
-<figures/2j/CorrMatrix.png, id=805, 1752.5475pt x 1728.4575pt>
-File: figures/2j/CorrMatrix.png Graphic file (type png)
-
-<use figures/2j/CorrMatrix.png>
-Package pdftex.def Info: figures/2j/CorrMatrix.png used on input line 224.
-(pdftex.def)             Requested size: 418.25372pt x 412.49098pt.
- [49pdfTeX warning (ext4): destination with the same identifier (name{figure.29
+ [46pdfTeX warning (ext4): destination with the same identifier (name{figure.27
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.228 
-       <./figures/2j/PieChart_postFit.png>] [50pdfTeX warning (ext4): destinati
-on with the same identifier (name{figure.30}) has been already used, duplicate 
-ignored
+l.211 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.1
+4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.234 
-       <./figures/2j/CorrMatrix.png>])
+l.211 
+       <./figures/2j/Summary_postFit.png>] [47pdfTeX warning (ext4): destinatio
+n with the same identifier (name{figure.28}) has been already used, duplicate i
+gnored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.213 
+       <./figures/2j/Ranking.png>]
+<figures/2j/PieChart_postFit.png, id=1080, 748.7975pt x 574.145pt>
+File: figures/2j/PieChart_postFit.png Graphic file (type png)
+
+<use figures/2j/PieChart_postFit.png>
+Package pdftex.def Info: figures/2j/PieChart_postFit.png used on input line 216
+.
+(pdftex.def)             Requested size: 292.77632pt x 224.48509pt.
+
+<figures/2j/CorrMatrix.png, id=1082, 1752.5475pt x 1728.4575pt>
+File: figures/2j/CorrMatrix.png Graphic file (type png)
+
+<use figures/2j/CorrMatrix.png>
+Package pdftex.def Info: figures/2j/CorrMatrix.png used on input line 225.
+(pdftex.def)             Requested size: 418.25372pt x 412.49098pt.
+ [48pdfTeX warning (ext4): destination with the same identifier (name{figure.29
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.229 
+       <./figures/2j/PieChart_postFit.png>]) [49pdfTeX warning (ext4): destinat
+ion with the same identifier (name{figure.30}) has been already used, duplicate
+ ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.198 
+       <./figures/2j/CorrMatrix.png>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 200.
- [51] [52]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
+(Font)              scaled to size 10.95pt on input line 202.
+ [50] [51]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 252.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 252.
  (./wz_heavy_flavor.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 252.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 252.
 Package rerunfilecheck Info: File `wz_heavy_flavor.out' has not changed.
 (rerunfilecheck)             Checksum: 15C58E687CAEBE31C399F0126194C2B1;1977.
 
@@ -4493,9 +4536,6 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                wz_heavy_flavor
 (biblatex)                and rerun LaTeX afterwards.
@@ -4505,13 +4545,13 @@ Package logreq Info: Writing requests to 'wz_heavy_flavor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40080 strings out of 493013
- 796524 string characters out of 6123688
- 1260999 words of memory out of 5000000
- 42655 multiletter control sequences out of 15000+600000
+ 40126 strings out of 493013
+ 797967 string characters out of 6123688
+ 1261597 words of memory out of 5000000
+ 42683 multiletter control sequences out of 15000+600000
  161673 words of font info for 220 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,24n,74p,10411b,1978s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,24n,74p,10411b,1995s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/enc/dvips/newt
 x/ntx-ec-tlf.enc}{/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts
 /enc/dvips/newtx/ntx-ec-tlf-sc.enc}{/cvmfs/sft.cern.ch/lcg/external/texlive/201
@@ -4537,10 +4577,10 @@ n.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb
 fonts/t1xtt.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/
 type1/public/newtx/txbsys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/tex
 mf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (52 pages, 3845140 bytes).
+Output written on wz_heavy_flavor.pdf (51 pages, 3864136 bytes).
 PDF statistics:
- 970 PDF objects out of 1000 (max. 8388607)
- 745 compressed objects within 8 object streams
- 244 named destinations out of 1000 (max. 500000)
- 903 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1251 PDF objects out of 1440 (max. 8388607)
+ 818 compressed objects within 9 object streams
+ 254 named destinations out of 1000 (max. 500000)
+ 938 words of extra memory for PDF output out of 10000 (max. 10000000)
 
