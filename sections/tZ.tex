@@ -88,7 +88,7 @@ The distributions of a few of these features for both signal and background is s
     \subfigure[]{\includegraphics[width=.32\linewidth]{tZ_bdt_ab127/1j/ab127/minDeltaR_LJ_0.pdf}}\\                          
     %\subfigure[]{\includegraphics[width=.32\linewidth]{tZ_bdt_ab127/1j/ab127/DRll12.pdf}}\\
     
-    \caption{Distribution of input features of the BDT for signal (WZ) and background (tZ). Both are scaled to an equal number of events. (a), (b) and (c) show the $p_T$ of lepton 0, lepton 1, and the jet, (d) show the reconstructed top mass, (e) and (f) show the invariant mass of leptons 0 and 1, leptons 0 and 2. (g) shows the $E_T^miss$ of each event. (h) and (i) show the $\delta R$ between lepton 0 and lepton 1, and the jet.}
+    \caption{Distribution of input features of the BDT for signal (WZ) and background (tZ). Both are scaled to an equal number of events. (a), (b) and (c) show the $p_T$ of lepton 0, lepton 1, and the jet, (d) show the reconstructed top mass, (e) and (f) show the invariant mass of leptons 0 and 1, leptons 0 and 2. (g) shows the $E_T^miss$ of each event. (h) and (i) show the $\Delta R$ between lepton 0 and lepton 1, and the jet.}
     \label{fig:tZ_kinematics}
 \end{figure}
 
@@ -98,10 +98,19 @@ The results of the BDT training are shown in figure \ref{fig:tZ_bdt}. The output
 
 \begin{figure}[H]
 \center
-    \subfigure[]{\includegraphics[width=.45\linewidth]{tZ_bdt_ab127/1j/xgb_score.png}}%
-    \subfigure[]{\includegraphics[width=.45\linewidth]{tZ_bdt_ab127/1j/roc.png}}    
+    \subfigure[]{\includegraphics[width=.45\linewidth]{tZ_bdt/xgb_score.png}}%
+    \subfigure[]{\includegraphics[width=.45\linewidth]{tZ_bdt/roc.png}}    
     \caption{Distribution of the BDT response for signal and background events on the left, the ROC curve for the BDT on the right.}
     \label{fig:tZ_bdt}
+\end{figure}
+
+The relative important of each input feature in the model, measured by how often they appeared in the decision trees, is shown in figure \ref{fig:tZ_fImp}.
+
+\begin{figure}[H]
+\center
+        \includegraphics[width=0.7\linewidth]{tZ_bdt/feature_importance.png}
+        \caption{Relative importance of each input feature in the model.}
+        \label{fig:tZ_fImp}
 \end{figure}
 
 These results suggest that some amount of separation can be achieved between these two processes, with a high BDT score selecting a set of events that is pure in $WZ$ + b. 

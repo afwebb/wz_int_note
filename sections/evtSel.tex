@@ -35,7 +35,7 @@ Events are required to have one or two reconstructed jets passing the selection 
     \label{tbl:selection}
 \end{table}
 
-The event yields in the preselection region for both data and Monte Carlo are summarized in table \ref{tab:evt_yields}, which shows good agreement between data and Monte Carlo, and demonstrates that this region consists primarily of WZ events.
+The event yields in the preselection region for both data and Monte Carlo are summarized in table \ref{tab:evt_yields}, which shows good agreement between data and Monte Carlo, and demonstrates that this region consists primarily of WZ events. The WZ events are split into WZ + b, WZ + c, and WZ + l based on the truth flavor of the heaviest associated jet in the event. Specifically, this determination is made based on the \verb!HadronConeExclTruthLabelID! of the jet. That is, WZ + l events contain no charm and b jets at truth level, WZ + c contain at least one truth charm and no b-jets, and WZ + b contains at least one truth b-jet. 
 
 \begin{table}[H]
     \centering
@@ -271,7 +271,7 @@ $t\bar{t}$ events can produce two prompt leptons from the decay of each of the t
 
 The $t\bar{t}$ validation region is similar to the preselection region - three leptons meeting the criteria described in section \ref{sec:evt_selection} are required, and the requirements on $E_T^{miss}$ remain the same. However, the selection requiring a lepton pair form a Z-candidate are reversed. Events where the invariant mass of any two opposite sign, same flavor leptons falls within 10 GeV of 91.2 GeV are rejected. This ensures the $t\bar{t}$ validation region is orthogonal to the preselection region. 
 
-Further, because the jet multiplicity of $t\bar{t}$ events tends to be higher than WZ, the number of jets in each event is required to be greater than 1. As b-jets are almost invariably produced from top decays, at least one b-tagged jet in each event is required. 
+Further, because the jet multiplicity of $t\bar{t}$ events tends to be higher than WZ, the number of jets in each event is required to be greater than 1. As b-jets are almost invariably produced from top decays, at least one b-tagged jet passing the 70\% DL1r WP in each event is required. 
 
 %This selection creates a region which is dominated by $t\bar{t}$ events. The yields in this region are summarized in \ref{tab:ttbar_yields}.
 
@@ -301,7 +301,7 @@ Various kinematic plots of this region are shown below. The general agreement be
 
 \subsubsection{$Z$+jets Validation}
 
-Similar to $t\bar{t}$, a non-prompt $Z$+jets validation region is produced in order to validate the MC predictions. The lepton requirements remain the same as the preselection region. Because no neutrinos are present for this process, the $E_T^{miss}$ cut is reversed, requiring $E_T^{miss}$ < 30 GeV. This also ensures this validation region is orthogonal to the preselection region. Further, the number of jets in each event is required to be greater than one. 
+Similar to $t\bar{t}$, a non-prompt $Z$+jets validation region is produced in order to validate the MC predictions. The lepton requirements remain the same as the preselection region. Because no neutrinos are present for this process, the $E_T^{miss}$ cut is reversed, requiring $E_T^{miss}$ < 30 GeV. This also ensures this validation region is orthogonal to the preselection region. Further, the number of jets in each event is required to be greater than or equal to one. 
 
 Various kinematic plots of this region are shown below. The general agreement between data and MC in each of these suggests that the non-prompt contribution of $Z$+jets is well modeled by Monte Carlo.
 

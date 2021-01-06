@@ -46,7 +46,7 @@ Electron candidates are reconstructed from energy clusters in the electromagneti
                    
 Muon candidates are reconstructed by combining inner detector tracks with track segments or full tracks in the muon spectrometer \cite{PERF-2014-05}. Muon candidates are required to have $\pt > 10$~GeV and $|\eta| < 2.5$. 
 
-All leptons are required to be isolated, and pass a non-prompt BDT selection described in detail in \cite{ttH_paper}. 
+All leptons are required to be isolated, and pass a non-prompt BDT selection described in detail in \cite{ttH_paper}.
 
 \begin{table}
 \begin{center}
@@ -54,7 +54,7 @@ All leptons are required to be isolated, and pass a non-prompt BDT selection des
  \hline\hline
  & \multicolumn{3}{c|}{$e$} & \multicolumn{3}{c}{$\mu$} \\
  \hline
- & L & L* & T & L & L* & T \\
+ & L | & L* | & T | & L  | & L* | & T \\
   \hline
   FixedCutLoose           &  No & \multicolumn{2}{|c|}{Yes} & No & \multicolumn{2}{|c}{Yes} \\
   \hline
@@ -62,10 +62,10 @@ All leptons are required to be isolated, and pass a non-prompt BDT selection des
   \hline
   Identification  & \multicolumn{2}{c|}{Loose} & \multicolumn{1}{c|}{Tight} & \multicolumn{2}{c}{Loose} & Medium\\
   \hline
-  Charge mis-assignment veto &  \multicolumn{2}{c|}{No} & Yes & \multicolumn{3}{|c}{N/A} \\
-  \hline
-  ambiguity bit == 0 &  \multicolumn{2}{c|}{No} & Yes & \multicolumn{3}{|c}{N/A} \\
-  \hline
+  %Charge mis-assignment veto &  \multicolumn{2}{c|}{No} & Yes & \multicolumn{3}{|c}{N/A} \\ - not needed, only for 2lSS
+  %\hline
+  %ambiguity bit == 0 &  \multicolumn{2}{c|}{No} & Yes & \multicolumn{3}{|c}{N/A} \\
+  %\hline
   Transverse impact parameter significance  &  \multicolumn{3}{c|}{$<5$} & \multicolumn{3}{c}{$<3$ } \\
   $|d_0|/\sigma_{d_0}$ & \multicolumn{3}{c|}{} &  \multicolumn{3}{c}{}  \\
   \hline
@@ -116,5 +116,5 @@ A tighter WP will accept fewer b-jets, but reject a higher fraction of charm and
 \subsection{Missing transverse energy}
 \label{subsec:met}
 
-Missing transverse momentum ($E_T^{miss}$) is used as part of the event selection. The missing transverse momentum vector is defined as the inverse of the sum of the transverse momenta of all reconstructed physics objects as well as remaining unclustered energy, the latter of which is estimated from low-\pt tracks associated with the primary vertex but not assigned to a hard object \cite{ATL-PHYS-PUB-2015-027}. 
+Missing transverse momentum ($E_T^{miss}$) is used as part of the event selection. The missing transverse momentum vector is defined as the inverse of the sum of the transverse momenta of all reconstructed physics objects as well as remaining unclustered energy, the latter of which is estimated from low-\pt tracks associated with the primary vertex but not assigned to a hard object, with object definitions taken from \cite{ATL-PHYS-PUB-2015-027}. Light leptons considered in the $E_T^{miss}$ reconstruction are required to have $p_T$>10 GeV, while jets are required to have $p_T$>20 GeV.
 
