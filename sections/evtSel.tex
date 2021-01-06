@@ -80,18 +80,30 @@ Once preselection has been applied, the remaining events are categorized into on
 Region & Selection            \\
 \hline
 \hline
-1j, <85\%       & $N_{jets}$ = 1, jet DL1r score < 85\% WP            \\
-1j, 85\%-77\%   & $N_{jets}$ = 1, 85\% < jet DL1r score < 77\% WP                    \\
-1j, 77\%-70\%   & $N_{jets}$ = 1, 77\% < jet DL1r score < 70\% WP                    \\
-1j, 70\%-60\%   & $N_{jets}$ = 1, 70\% < jet DL1r score < 60\% WP                    \\
-1j, >60\%       & $N_{jets}$ = 1, jet DL1r score > 85\% WP, tZ BDT score > 0.03 \\
-1j tZ CR        & $N_{jets}$ = 1, jet DL1r > 85\% WP, tZ BDT score < 0.03 \\
-2j, <85\%       & $N_{jets}$ = 2, jet DL1r score < 85\% WP                    \\
-2j, 85\%-77\%   & $N_{jets}$ = 2, 85\% WP < jet DL1r score < 77\% WP                 \\
-2j, 77\%-70\%   & $N_{jets}$ = 2, 77\% WP < jet DL1r score < 70\% WP                 \\
-2j, 70\%-60\%   & $N_{jets}$ = 2, 70\% < jet DL1r score < 60\% WP                     \\
-2j, >60\%       & $N_{jets}$ = 2, jet DL1r score > 85\% WP, tZ BDT score > 0.03 \\
-2j tZ CR        & $N_{jets}$ = 2, jet DL1r score > 85\% WP, tZ BDT score < 0.03 \\
+%1j, <85\%       & $N_{jets}$ = 1, jet DL1r score < 85\% WP            \\
+%1j, 85\%-77\%   & $N_{jets}$ = 1, 85\% < jet DL1r score < 77\% WP                    \\
+%1j, 77\%-70\%   & $N_{jets}$ = 1, 77\% < jet DL1r score < 70\% WP                    \\
+%1j, 70\%-60\%   & $N_{jets}$ = 1, 70\% < jet DL1r score < 60\% WP                    \\
+%1j, >60\%       & $N_{jets}$ = 1, jet DL1r score > 85\% WP, tZ BDT score > 0.03 \\
+%1j tZ CR        & $N_{jets}$ = 1, jet DL1r > 85\% WP, tZ BDT score < 0.03 \\
+%2j, <85\%       & $N_{jets}$ = 2, jet DL1r score < 85\% WP                    \\
+%2j, 85\%-77\%   & $N_{jets}$ = 2, 85\% WP < jet DL1r score < 77\% WP                 \\
+%2j, 77\%-70\%   & $N_{jets}$ = 2, 77\% WP < jet DL1r score < 70\% WP                 \\
+%2j, 70\%-60\%   & $N_{jets}$ = 2, 70\% < jet DL1r score < 60\% WP                     \\
+%2j, >60\%       & $N_{jets}$ = 2, jet DL1r score > 85\% WP, tZ BDT score > 0.03 \\
+%2j tZ CR        & $N_{jets}$ = 2, jet DL1r score > 85\% WP, tZ BDT score < 0.03 \\
+1j, <85\%       & $N_{jets}$ = 1, nJets\_DL1r\_85 = 0            \\
+1j, 85\%-77\%   & $N_{jets}$ = 1, nJets\_DL1r\_85 = 1, nJets\_DL1r\_77=0                     \\
+1j, 77\%-70\%   & $N_{jets}$ = 1, nJets\_DL1r\_77 = 1, nJets\_DL1r\_70=0                     \\
+1j, 70\%-60\%   & $N_{jets}$ = 1, nJets\_DL1r\_70 = 1, nJets\_DL1r\_60=0                      \\
+1j, >60\%       & $N_{jets}$ = 1, nJets\_DL1r\_60 = 1, tZ BDT > 0.525 \\
+1j tZ CR        & $N_{jets}$ = 1, nJets\_DL1r\_60 = 1, tZ BDT < 0.525 \\
+2j, <85\%       & $N_{jets}$ = 2, nJets\_DL1r\_85 = 0                    \\
+2j, 85\%-77\%   & $N_{jets}$ = 2, nJets\_DL1r\_85 >= 1, nJets\_DL1r\_77=0                     \\
+2j, 77\%-70\%   & $N_{jets}$ = 2, nJets\_DL1r\_77 >= 1, nJets\_DL1r\_70=0                     \\
+2j, 70\%-60\%   & $N_{jets}$ = 2, nJets\_DL1r\_70 >= 1, nJets\_DL1r\_60=0                      \\
+2j, >60\%       & $N_{jets}$ = 2, nJets\_DL1r\_60 >= 1, tZ BDT > 0.525 \\
+2j tZ CR        & $N_{jets}$ = 2, nJets\_DL1r\_60 >= 1, tZ BDT < 0.525 \\
 \hline\hline
 \end{tabular}
 \label{tab:regions}
