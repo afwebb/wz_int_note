@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  18 JAN 2021 20:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  21 JAN 2021 13:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2402,7 +2402,17 @@ Package biblatex Info: ... file 'english.lbx' found.
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/biblatex/lbx
 /english.lbx
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
-))) (./wz_heavy_flavor.aux (./sections/xsecUnc.aux))
+))) (./wz_heavy_flavor.aux
+
+LaTeX Warning: Label `fig:ttbar_noScale' multiply defined.
+
+
+LaTeX Warning: Label `fig:zjets_noScale' multiply defined.
+
+
+LaTeX Warning: Label `fig:ttbar_summary' multiply defined.
+
+(./sections/xsecUnc.aux))
 \openout1 = `wz_heavy_flavor.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 91.
@@ -2876,13 +2886,17 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 106.
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 113.
- [3
+(Font)              scaled to size 10.95pt on input line 112.
 
-] (./sections/summary.tex) (./sections/intro.tex
-[4
 
-]) (./sections/MC.tex [5]
+LaTeX Warning: Reference `tbl:tightLeps' on page 3 undefined on input line 115.
+
+
+[3
+
+] [4] (./sections/summary.tex) (./sections/MC.tex [5
+
+]
 Overfull \hbox (0.36421pt too wide) in paragraph at lines 18--19
 []\T1/ntxtlf/m/n/10.95 data18_13TeV.periodAllYear_DetStatus-v102-pro22-04_Unkno
 wn_PHYS_StandardGRL 
@@ -2944,7 +2958,7 @@ l.90
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.90 
-     ] <figures/DL1_output.pdf, id=275, 569.12625pt x 552.0625pt>
+     ] <figures/DL1_output.pdf, id=269, 569.12625pt x 552.0625pt>
 File: figures/DL1_output.pdf Graphic file (type pdf)
 
 <use figures/DL1_output.pdf>
@@ -2972,7 +2986,7 @@ sed, duplicate ignored
                                                   \fi \fi 
 l.46 
      ]
-<figures/regions/plots_inclusive/Plots/lead_jetPt.png, id=315, 598.235pt x 674.
+<figures/regions/plots_inclusive/Plots/lead_jetPt.png, id=309, 598.235pt x 674.
 52pt>
 File: figures/regions/plots_inclusive/Plots/lead_jetPt.png Graphic file (type p
 ng)
@@ -2983,7 +2997,7 @@ sed on input line 56.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 9.0pt on input line 56.
 
-<figures/regions/plots_inclusive/Plots/lep_Pt_0.png, id=316, 598.235pt x 674.52
+<figures/regions/plots_inclusive/Plots/lep_Pt_0.png, id=310, 598.235pt x 674.52
 pt>
 File: figures/regions/plots_inclusive/Plots/lep_Pt_0.png Graphic file (type png
 )
@@ -2992,7 +3006,7 @@ Package pdftex.def Info: figures/regions/plots_inclusive/Plots/lep_Pt_0.png use
 d on input line 57.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_inclusive/Plots/lep_Pt_1.png, id=317, 598.235pt x 674.52
+<figures/regions/plots_inclusive/Plots/lep_Pt_1.png, id=311, 598.235pt x 674.52
 pt>
 File: figures/regions/plots_inclusive/Plots/lep_Pt_1.png Graphic file (type png
 )
@@ -3001,7 +3015,7 @@ Package pdftex.def Info: figures/regions/plots_inclusive/Plots/lep_Pt_1.png use
 d on input line 58.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_inclusive/Plots/lep_Pt_2.png, id=318, 598.235pt x 674.52
+<figures/regions/plots_inclusive/Plots/lep_Pt_2.png, id=312, 598.235pt x 674.52
 pt>
 File: figures/regions/plots_inclusive/Plots/lep_Pt_2.png Graphic file (type png
 )
@@ -3010,7 +3024,7 @@ Package pdftex.def Info: figures/regions/plots_inclusive/Plots/lep_Pt_2.png use
 d on input line 59.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_inclusive/Plots/MET.png, id=319, 598.235pt x 674.52pt>
+<figures/regions/plots_inclusive/Plots/MET.png, id=313, 598.235pt x 674.52pt>
 File: figures/regions/plots_inclusive/Plots/MET.png Graphic file (type png)
 
 <use figures/regions/plots_inclusive/Plots/MET.png>
@@ -3018,21 +3032,21 @@ Package pdftex.def Info: figures/regions/plots_inclusive/Plots/MET.png used on
 input line 60.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_inclusive/Plots/Mll01.png, id=320, 598.235pt x 674.52pt>
+<figures/regions/plots_inclusive/Plots/Mll01.png, id=314, 598.235pt x 674.52pt>
 File: figures/regions/plots_inclusive/Plots/Mll01.png Graphic file (type png)
 <use figures/regions/plots_inclusive/Plots/Mll01.png>
 Package pdftex.def Info: figures/regions/plots_inclusive/Plots/Mll01.png used o
 n input line 61.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_inclusive/Plots/Mll02.png, id=321, 598.235pt x 674.52pt>
+<figures/regions/plots_inclusive/Plots/Mll02.png, id=315, 598.235pt x 674.52pt>
 File: figures/regions/plots_inclusive/Plots/Mll02.png Graphic file (type png)
 <use figures/regions/plots_inclusive/Plots/Mll02.png>
 Package pdftex.def Info: figures/regions/plots_inclusive/Plots/Mll02.png used o
 n input line 62.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_inclusive/Plots/Mll12.png, id=322, 598.235pt x 674.52pt>
+<figures/regions/plots_inclusive/Plots/Mll12.png, id=316, 598.235pt x 674.52pt>
 File: figures/regions/plots_inclusive/Plots/Mll12.png Graphic file (type png)
 <use figures/regions/plots_inclusive/Plots/Mll12.png>
 Package pdftex.def Info: figures/regions/plots_inclusive/Plots/Mll12.png used o
@@ -3056,7 +3070,7 @@ ns/plots_inclusive/Plots/lep_Pt_1.png> <./figures/regions/plots_inclusive/Plots
 /lep_Pt_2.png> <./figures/regions/plots_inclusive/Plots/MET.png> <./figures/reg
 ions/plots_inclusive/Plots/Mll01.png> <./figures/regions/plots_inclusive/Plots/
 Mll02.png> <./figures/regions/plots_inclusive/Plots/Mll12.png>]
-<figures/regions/plots_not_85/Plots/lead_jetPt.png, id=347, 598.235pt x 674.52p
+<figures/regions/plots_not_85/Plots/lead_jetPt.png, id=341, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_not_85/Plots/lead_jetPt.png Graphic file (type png)
 
@@ -3065,28 +3079,28 @@ Package pdftex.def Info: figures/regions/plots_not_85/Plots/lead_jetPt.png used
  on input line 121.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_not_85/Plots/lep_Pt_0.png, id=348, 598.235pt x 674.52pt>
+<figures/regions/plots_not_85/Plots/lep_Pt_0.png, id=342, 598.235pt x 674.52pt>
 File: figures/regions/plots_not_85/Plots/lep_Pt_0.png Graphic file (type png)
 <use figures/regions/plots_not_85/Plots/lep_Pt_0.png>
 Package pdftex.def Info: figures/regions/plots_not_85/Plots/lep_Pt_0.png used o
 n input line 122.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_not_85/Plots/lep_Pt_1.png, id=349, 598.235pt x 674.52pt>
+<figures/regions/plots_not_85/Plots/lep_Pt_1.png, id=343, 598.235pt x 674.52pt>
 File: figures/regions/plots_not_85/Plots/lep_Pt_1.png Graphic file (type png)
 <use figures/regions/plots_not_85/Plots/lep_Pt_1.png>
 Package pdftex.def Info: figures/regions/plots_not_85/Plots/lep_Pt_1.png used o
 n input line 123.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_not_85/Plots/lep_Pt_2.png, id=350, 598.235pt x 674.52pt>
+<figures/regions/plots_not_85/Plots/lep_Pt_2.png, id=344, 598.235pt x 674.52pt>
 File: figures/regions/plots_not_85/Plots/lep_Pt_2.png Graphic file (type png)
 <use figures/regions/plots_not_85/Plots/lep_Pt_2.png>
 Package pdftex.def Info: figures/regions/plots_not_85/Plots/lep_Pt_2.png used o
 n input line 124.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_not_85/Plots/MET.png, id=351, 598.235pt x 674.52pt>
+<figures/regions/plots_not_85/Plots/MET.png, id=345, 598.235pt x 674.52pt>
 File: figures/regions/plots_not_85/Plots/MET.png Graphic file (type png)
 
 <use figures/regions/plots_not_85/Plots/MET.png>
@@ -3094,7 +3108,7 @@ Package pdftex.def Info: figures/regions/plots_not_85/Plots/MET.png used on inp
 ut line 125.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_not_85/Plots/Mll01.png, id=352, 598.235pt x 674.52pt>
+<figures/regions/plots_not_85/Plots/Mll01.png, id=346, 598.235pt x 674.52pt>
 File: figures/regions/plots_not_85/Plots/Mll01.png Graphic file (type png)
 
 <use figures/regions/plots_not_85/Plots/Mll01.png>
@@ -3108,7 +3122,7 @@ nput line 126.
                                                   \fi \fi 
 l.130 
       ]
-<figures/regions/plots_1j_77_85/Plots/lead_jetPt.png, id=360, 598.235pt x 674.5
+<figures/regions/plots_1j_77_85/Plots/lead_jetPt.png, id=353, 598.235pt x 674.5
 2pt>
 File: figures/regions/plots_1j_77_85/Plots/lead_jetPt.png Graphic file (type pn
 g)
@@ -3117,7 +3131,7 @@ Package pdftex.def Info: figures/regions/plots_1j_77_85/Plots/lead_jetPt.png us
 ed on input line 134.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_1j_77_85/Plots/lep_Pt_0.png, id=361, 598.235pt x 674.52p
+<figures/regions/plots_1j_77_85/Plots/lep_Pt_0.png, id=354, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_1j_77_85/Plots/lep_Pt_0.png Graphic file (type png)
 
@@ -3126,7 +3140,7 @@ Package pdftex.def Info: figures/regions/plots_1j_77_85/Plots/lep_Pt_0.png used
  on input line 135.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_1j_77_85/Plots/lep_Pt_1.png, id=362, 598.235pt x 674.52p
+<figures/regions/plots_1j_77_85/Plots/lep_Pt_1.png, id=355, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_1j_77_85/Plots/lep_Pt_1.png Graphic file (type png)
 
@@ -3135,7 +3149,7 @@ Package pdftex.def Info: figures/regions/plots_1j_77_85/Plots/lep_Pt_1.png used
  on input line 136.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_1j_77_85/Plots/lep_Pt_2.png, id=363, 598.235pt x 674.52p
+<figures/regions/plots_1j_77_85/Plots/lep_Pt_2.png, id=356, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_1j_77_85/Plots/lep_Pt_2.png Graphic file (type png)
 
@@ -3144,7 +3158,7 @@ Package pdftex.def Info: figures/regions/plots_1j_77_85/Plots/lep_Pt_2.png used
  on input line 137.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_1j_77_85/Plots/MET.png, id=364, 598.235pt x 674.52pt>
+<figures/regions/plots_1j_77_85/Plots/MET.png, id=357, 598.235pt x 674.52pt>
 File: figures/regions/plots_1j_77_85/Plots/MET.png Graphic file (type png)
 
 <use figures/regions/plots_1j_77_85/Plots/MET.png>
@@ -3152,7 +3166,7 @@ Package pdftex.def Info: figures/regions/plots_1j_77_85/Plots/MET.png used on i
 nput line 138.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_1j_77_85/Plots/Mll01.png, id=365, 598.235pt x 674.52pt>
+<figures/regions/plots_1j_77_85/Plots/Mll01.png, id=358, 598.235pt x 674.52pt>
 File: figures/regions/plots_1j_77_85/Plots/Mll01.png Graphic file (type png)
 
 <use figures/regions/plots_1j_77_85/Plots/Mll01.png>
@@ -3169,7 +3183,7 @@ l.143
 /plots_not_85/Plots/lep_Pt_0.png> <./figures/regions/plots_not_85/Plots/lep_Pt_
 1.png> <./figures/regions/plots_not_85/Plots/lep_Pt_2.png> <./figures/regions/p
 lots_not_85/Plots/MET.png> <./figures/regions/plots_not_85/Plots/Mll01.png>]
-<figures/regions/plots_1j_70_77/Plots/lead_jetPt.png, id=376, 598.235pt x 674.5
+<figures/regions/plots_1j_70_77/Plots/lead_jetPt.png, id=369, 598.235pt x 674.5
 2pt>
 File: figures/regions/plots_1j_70_77/Plots/lead_jetPt.png Graphic file (type pn
 g)
@@ -3178,7 +3192,7 @@ Package pdftex.def Info: figures/regions/plots_1j_70_77/Plots/lead_jetPt.png us
 ed on input line 147.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_1j_70_77/Plots/lep_Pt_0.png, id=377, 598.235pt x 674.52p
+<figures/regions/plots_1j_70_77/Plots/lep_Pt_0.png, id=370, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_1j_70_77/Plots/lep_Pt_0.png Graphic file (type png)
 
@@ -3187,7 +3201,7 @@ Package pdftex.def Info: figures/regions/plots_1j_70_77/Plots/lep_Pt_0.png used
  on input line 148.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_1j_70_77/Plots/lep_Pt_1.png, id=378, 598.235pt x 674.52p
+<figures/regions/plots_1j_70_77/Plots/lep_Pt_1.png, id=371, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_1j_70_77/Plots/lep_Pt_1.png Graphic file (type png)
 
@@ -3196,7 +3210,7 @@ Package pdftex.def Info: figures/regions/plots_1j_70_77/Plots/lep_Pt_1.png used
  on input line 149.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_1j_70_77/Plots/lep_Pt_2.png, id=379, 598.235pt x 674.52p
+<figures/regions/plots_1j_70_77/Plots/lep_Pt_2.png, id=372, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_1j_70_77/Plots/lep_Pt_2.png Graphic file (type png)
 
@@ -3205,7 +3219,7 @@ Package pdftex.def Info: figures/regions/plots_1j_70_77/Plots/lep_Pt_2.png used
  on input line 150.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_1j_70_77/Plots/MET.png, id=380, 598.235pt x 674.52pt>
+<figures/regions/plots_1j_70_77/Plots/MET.png, id=373, 598.235pt x 674.52pt>
 File: figures/regions/plots_1j_70_77/Plots/MET.png Graphic file (type png)
 
 <use figures/regions/plots_1j_70_77/Plots/MET.png>
@@ -3213,7 +3227,7 @@ Package pdftex.def Info: figures/regions/plots_1j_70_77/Plots/MET.png used on i
 nput line 151.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_1j_70_77/Plots/Mll01.png, id=381, 598.235pt x 674.52pt>
+<figures/regions/plots_1j_70_77/Plots/Mll01.png, id=374, 598.235pt x 674.52pt>
 File: figures/regions/plots_1j_70_77/Plots/Mll01.png Graphic file (type png)
 
 <use figures/regions/plots_1j_70_77/Plots/Mll01.png>
@@ -3231,7 +3245,7 @@ ns/plots_1j_77_85/Plots/lep_Pt_0.png> <./figures/regions/plots_1j_77_85/Plots/l
 ep_Pt_1.png> <./figures/regions/plots_1j_77_85/Plots/lep_Pt_2.png> <./figures/r
 egions/plots_1j_77_85/Plots/MET.png> <./figures/regions/plots_1j_77_85/Plots/Ml
 l01.png>]
-<figures/regions/plots_1j_60_70/Plots/lead_jetPt.png, id=393, 598.235pt x 674.5
+<figures/regions/plots_1j_60_70/Plots/lead_jetPt.png, id=386, 598.235pt x 674.5
 2pt>
 File: figures/regions/plots_1j_60_70/Plots/lead_jetPt.png Graphic file (type pn
 g)
@@ -3240,7 +3254,7 @@ Package pdftex.def Info: figures/regions/plots_1j_60_70/Plots/lead_jetPt.png us
 ed on input line 160.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_1j_60_70/Plots/lep_Pt_0.png, id=394, 598.235pt x 674.52p
+<figures/regions/plots_1j_60_70/Plots/lep_Pt_0.png, id=387, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_1j_60_70/Plots/lep_Pt_0.png Graphic file (type png)
 
@@ -3249,7 +3263,7 @@ Package pdftex.def Info: figures/regions/plots_1j_60_70/Plots/lep_Pt_0.png used
  on input line 161.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_1j_60_70/Plots/lep_Pt_1.png, id=395, 598.235pt x 674.52p
+<figures/regions/plots_1j_60_70/Plots/lep_Pt_1.png, id=388, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_1j_60_70/Plots/lep_Pt_1.png Graphic file (type png)
 
@@ -3258,7 +3272,7 @@ Package pdftex.def Info: figures/regions/plots_1j_60_70/Plots/lep_Pt_1.png used
  on input line 162.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_1j_60_70/Plots/lep_Pt_2.png, id=396, 598.235pt x 674.52p
+<figures/regions/plots_1j_60_70/Plots/lep_Pt_2.png, id=389, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_1j_60_70/Plots/lep_Pt_2.png Graphic file (type png)
 
@@ -3267,7 +3281,7 @@ Package pdftex.def Info: figures/regions/plots_1j_60_70/Plots/lep_Pt_2.png used
  on input line 163.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_1j_60_70/Plots/MET.png, id=397, 598.235pt x 674.52pt>
+<figures/regions/plots_1j_60_70/Plots/MET.png, id=390, 598.235pt x 674.52pt>
 File: figures/regions/plots_1j_60_70/Plots/MET.png Graphic file (type png)
 
 <use figures/regions/plots_1j_60_70/Plots/MET.png>
@@ -3275,7 +3289,7 @@ Package pdftex.def Info: figures/regions/plots_1j_60_70/Plots/MET.png used on i
 nput line 164.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_1j_60_70/Plots/Mll01.png, id=398, 598.235pt x 674.52pt>
+<figures/regions/plots_1j_60_70/Plots/Mll01.png, id=391, 598.235pt x 674.52pt>
 File: figures/regions/plots_1j_60_70/Plots/Mll01.png Graphic file (type png)
 
 <use figures/regions/plots_1j_60_70/Plots/Mll01.png>
@@ -3293,7 +3307,7 @@ ns/plots_1j_70_77/Plots/lep_Pt_0.png> <./figures/regions/plots_1j_70_77/Plots/l
 ep_Pt_1.png> <./figures/regions/plots_1j_70_77/Plots/lep_Pt_2.png> <./figures/r
 egions/plots_1j_70_77/Plots/MET.png> <./figures/regions/plots_1j_70_77/Plots/Ml
 l01.png>]
-<figures/regions/plots_1j_60/Plots/lead_jetPt.png, id=410, 598.235pt x 674.52pt
+<figures/regions/plots_1j_60/Plots/lead_jetPt.png, id=403, 598.235pt x 674.52pt
 >
 File: figures/regions/plots_1j_60/Plots/lead_jetPt.png Graphic file (type png)
  <use figures/regions/plots_1j_60/Plots/lead_jetPt.png>
@@ -3301,7 +3315,7 @@ Package pdftex.def Info: figures/regions/plots_1j_60/Plots/lead_jetPt.png used
 on input line 173.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_1j_60/Plots/lep_Pt_0.png, id=411, 598.235pt x 674.52pt>
+<figures/regions/plots_1j_60/Plots/lep_Pt_0.png, id=404, 598.235pt x 674.52pt>
 File: figures/regions/plots_1j_60/Plots/lep_Pt_0.png Graphic file (type png)
 
 <use figures/regions/plots_1j_60/Plots/lep_Pt_0.png>
@@ -3309,7 +3323,7 @@ Package pdftex.def Info: figures/regions/plots_1j_60/Plots/lep_Pt_0.png used on
  input line 174.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_1j_60/Plots/lep_Pt_1.png, id=412, 598.235pt x 674.52pt>
+<figures/regions/plots_1j_60/Plots/lep_Pt_1.png, id=405, 598.235pt x 674.52pt>
 File: figures/regions/plots_1j_60/Plots/lep_Pt_1.png Graphic file (type png)
 
 <use figures/regions/plots_1j_60/Plots/lep_Pt_1.png>
@@ -3317,7 +3331,7 @@ Package pdftex.def Info: figures/regions/plots_1j_60/Plots/lep_Pt_1.png used on
  input line 175.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_1j_60/Plots/lep_Pt_2.png, id=413, 598.235pt x 674.52pt>
+<figures/regions/plots_1j_60/Plots/lep_Pt_2.png, id=406, 598.235pt x 674.52pt>
 File: figures/regions/plots_1j_60/Plots/lep_Pt_2.png Graphic file (type png)
 
 <use figures/regions/plots_1j_60/Plots/lep_Pt_2.png>
@@ -3325,7 +3339,7 @@ Package pdftex.def Info: figures/regions/plots_1j_60/Plots/lep_Pt_2.png used on
  input line 176.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_1j_60/Plots/MET.png, id=414, 598.235pt x 674.52pt>
+<figures/regions/plots_1j_60/Plots/MET.png, id=407, 598.235pt x 674.52pt>
 File: figures/regions/plots_1j_60/Plots/MET.png Graphic file (type png)
 
 <use figures/regions/plots_1j_60/Plots/MET.png>
@@ -3333,7 +3347,7 @@ Package pdftex.def Info: figures/regions/plots_1j_60/Plots/MET.png used on inpu
 t line 177.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_1j_60/Plots/Mll01.png, id=415, 598.235pt x 674.52pt>
+<figures/regions/plots_1j_60/Plots/Mll01.png, id=408, 598.235pt x 674.52pt>
 File: figures/regions/plots_1j_60/Plots/Mll01.png Graphic file (type png)
 
 <use figures/regions/plots_1j_60/Plots/Mll01.png>
@@ -3351,7 +3365,7 @@ ns/plots_1j_60_70/Plots/lep_Pt_0.png> <./figures/regions/plots_1j_60_70/Plots/l
 ep_Pt_1.png> <./figures/regions/plots_1j_60_70/Plots/lep_Pt_2.png> <./figures/r
 egions/plots_1j_60_70/Plots/MET.png> <./figures/regions/plots_1j_60_70/Plots/Ml
 l01.png>]
-<figures/regions/plots_tZ_CR/Plots/lead_jetPt.png, id=428, 598.235pt x 674.52pt
+<figures/regions/plots_tZ_CR/Plots/lead_jetPt.png, id=421, 598.235pt x 674.52pt
 >
 File: figures/regions/plots_tZ_CR/Plots/lead_jetPt.png Graphic file (type png)
  <use figures/regions/plots_tZ_CR/Plots/lead_jetPt.png>
@@ -3359,7 +3373,7 @@ Package pdftex.def Info: figures/regions/plots_tZ_CR/Plots/lead_jetPt.png used
 on input line 186.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_tZ_CR/Plots/lep_Pt_0.png, id=429, 598.235pt x 674.52pt>
+<figures/regions/plots_tZ_CR/Plots/lep_Pt_0.png, id=422, 598.235pt x 674.52pt>
 File: figures/regions/plots_tZ_CR/Plots/lep_Pt_0.png Graphic file (type png)
 
 <use figures/regions/plots_tZ_CR/Plots/lep_Pt_0.png>
@@ -3367,7 +3381,7 @@ Package pdftex.def Info: figures/regions/plots_tZ_CR/Plots/lep_Pt_0.png used on
  input line 187.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_tZ_CR/Plots/lep_Pt_1.png, id=430, 598.235pt x 674.52pt>
+<figures/regions/plots_tZ_CR/Plots/lep_Pt_1.png, id=423, 598.235pt x 674.52pt>
 File: figures/regions/plots_tZ_CR/Plots/lep_Pt_1.png Graphic file (type png)
 
 <use figures/regions/plots_tZ_CR/Plots/lep_Pt_1.png>
@@ -3375,7 +3389,7 @@ Package pdftex.def Info: figures/regions/plots_tZ_CR/Plots/lep_Pt_1.png used on
  input line 188.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_tZ_CR/Plots/lep_Pt_2.png, id=431, 598.235pt x 674.52pt>
+<figures/regions/plots_tZ_CR/Plots/lep_Pt_2.png, id=424, 598.235pt x 674.52pt>
 File: figures/regions/plots_tZ_CR/Plots/lep_Pt_2.png Graphic file (type png)
 
 <use figures/regions/plots_tZ_CR/Plots/lep_Pt_2.png>
@@ -3383,7 +3397,7 @@ Package pdftex.def Info: figures/regions/plots_tZ_CR/Plots/lep_Pt_2.png used on
  input line 189.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_tZ_CR/Plots/MET.png, id=432, 598.235pt x 674.52pt>
+<figures/regions/plots_tZ_CR/Plots/MET.png, id=425, 598.235pt x 674.52pt>
 File: figures/regions/plots_tZ_CR/Plots/MET.png Graphic file (type png)
 
 <use figures/regions/plots_tZ_CR/Plots/MET.png>
@@ -3391,7 +3405,7 @@ Package pdftex.def Info: figures/regions/plots_tZ_CR/Plots/MET.png used on inpu
 t line 190.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_tZ_CR/Plots/Mll01.png, id=433, 598.235pt x 674.52pt>
+<figures/regions/plots_tZ_CR/Plots/Mll01.png, id=426, 598.235pt x 674.52pt>
 File: figures/regions/plots_tZ_CR/Plots/Mll01.png Graphic file (type png)
 
 <use figures/regions/plots_tZ_CR/Plots/Mll01.png>
@@ -3408,7 +3422,7 @@ l.195
 plots_1j_60/Plots/lep_Pt_0.png> <./figures/regions/plots_1j_60/Plots/lep_Pt_1.p
 ng> <./figures/regions/plots_1j_60/Plots/lep_Pt_2.png> <./figures/regions/plots
 _1j_60/Plots/MET.png> <./figures/regions/plots_1j_60/Plots/Mll01.png>]
-<figures/regions/plots_not_85_2j/Plots/lead_jetPt.png, id=445, 598.235pt x 674.
+<figures/regions/plots_not_85_2j/Plots/lead_jetPt.png, id=438, 598.235pt x 674.
 52pt>
 File: figures/regions/plots_not_85_2j/Plots/lead_jetPt.png Graphic file (type p
 ng)
@@ -3417,7 +3431,7 @@ Package pdftex.def Info: figures/regions/plots_not_85_2j/Plots/lead_jetPt.png u
 sed on input line 199.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_not_85_2j/Plots/lep_Pt_0.png, id=446, 598.235pt x 674.52
+<figures/regions/plots_not_85_2j/Plots/lep_Pt_0.png, id=439, 598.235pt x 674.52
 pt>
 File: figures/regions/plots_not_85_2j/Plots/lep_Pt_0.png Graphic file (type png
 )
@@ -3426,7 +3440,7 @@ Package pdftex.def Info: figures/regions/plots_not_85_2j/Plots/lep_Pt_0.png use
 d on input line 200.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_not_85_2j/Plots/lep_Pt_1.png, id=447, 598.235pt x 674.52
+<figures/regions/plots_not_85_2j/Plots/lep_Pt_1.png, id=440, 598.235pt x 674.52
 pt>
 File: figures/regions/plots_not_85_2j/Plots/lep_Pt_1.png Graphic file (type png
 )
@@ -3435,7 +3449,7 @@ Package pdftex.def Info: figures/regions/plots_not_85_2j/Plots/lep_Pt_1.png use
 d on input line 201.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_not_85_2j/Plots/lep_Pt_2.png, id=448, 598.235pt x 674.52
+<figures/regions/plots_not_85_2j/Plots/lep_Pt_2.png, id=441, 598.235pt x 674.52
 pt>
 File: figures/regions/plots_not_85_2j/Plots/lep_Pt_2.png Graphic file (type png
 )
@@ -3444,7 +3458,7 @@ Package pdftex.def Info: figures/regions/plots_not_85_2j/Plots/lep_Pt_2.png use
 d on input line 202.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_not_85_2j/Plots/MET.png, id=449, 598.235pt x 674.52pt>
+<figures/regions/plots_not_85_2j/Plots/MET.png, id=442, 598.235pt x 674.52pt>
 File: figures/regions/plots_not_85_2j/Plots/MET.png Graphic file (type png)
 
 <use figures/regions/plots_not_85_2j/Plots/MET.png>
@@ -3452,7 +3466,7 @@ Package pdftex.def Info: figures/regions/plots_not_85_2j/Plots/MET.png used on
 input line 203.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_not_85_2j/Plots/Mll01.png, id=450, 598.235pt x 674.52pt>
+<figures/regions/plots_not_85_2j/Plots/Mll01.png, id=443, 598.235pt x 674.52pt>
 File: figures/regions/plots_not_85_2j/Plots/Mll01.png Graphic file (type png)
 <use figures/regions/plots_not_85_2j/Plots/Mll01.png>
 Package pdftex.def Info: figures/regions/plots_not_85_2j/Plots/Mll01.png used o
@@ -3468,7 +3482,7 @@ l.208
 plots_tZ_CR/Plots/lep_Pt_0.png> <./figures/regions/plots_tZ_CR/Plots/lep_Pt_1.p
 ng> <./figures/regions/plots_tZ_CR/Plots/lep_Pt_2.png> <./figures/regions/plots
 _tZ_CR/Plots/MET.png> <./figures/regions/plots_tZ_CR/Plots/Mll01.png>]
-<figures/regions/plots_2j_77_85/Plots/lead_jetPt.png, id=463, 598.235pt x 674.5
+<figures/regions/plots_2j_77_85/Plots/lead_jetPt.png, id=455, 598.235pt x 674.5
 2pt>
 File: figures/regions/plots_2j_77_85/Plots/lead_jetPt.png Graphic file (type pn
 g)
@@ -3477,7 +3491,7 @@ Package pdftex.def Info: figures/regions/plots_2j_77_85/Plots/lead_jetPt.png us
 ed on input line 212.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_2j_77_85/Plots/lep_Pt_0.png, id=464, 598.235pt x 674.52p
+<figures/regions/plots_2j_77_85/Plots/lep_Pt_0.png, id=456, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_2j_77_85/Plots/lep_Pt_0.png Graphic file (type png)
 
@@ -3486,7 +3500,7 @@ Package pdftex.def Info: figures/regions/plots_2j_77_85/Plots/lep_Pt_0.png used
  on input line 213.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_2j_77_85/Plots/lep_Pt_1.png, id=465, 598.235pt x 674.52p
+<figures/regions/plots_2j_77_85/Plots/lep_Pt_1.png, id=457, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_2j_77_85/Plots/lep_Pt_1.png Graphic file (type png)
 
@@ -3495,7 +3509,7 @@ Package pdftex.def Info: figures/regions/plots_2j_77_85/Plots/lep_Pt_1.png used
  on input line 214.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_2j_77_85/Plots/lep_Pt_2.png, id=466, 598.235pt x 674.52p
+<figures/regions/plots_2j_77_85/Plots/lep_Pt_2.png, id=458, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_2j_77_85/Plots/lep_Pt_2.png Graphic file (type png)
 
@@ -3504,7 +3518,7 @@ Package pdftex.def Info: figures/regions/plots_2j_77_85/Plots/lep_Pt_2.png used
  on input line 215.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_2j_77_85/Plots/MET.png, id=467, 598.235pt x 674.52pt>
+<figures/regions/plots_2j_77_85/Plots/MET.png, id=459, 598.235pt x 674.52pt>
 File: figures/regions/plots_2j_77_85/Plots/MET.png Graphic file (type png)
 
 <use figures/regions/plots_2j_77_85/Plots/MET.png>
@@ -3512,7 +3526,7 @@ Package pdftex.def Info: figures/regions/plots_2j_77_85/Plots/MET.png used on i
 nput line 216.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_2j_77_85/Plots/Mll01.png, id=468, 598.235pt x 674.52pt>
+<figures/regions/plots_2j_77_85/Plots/Mll01.png, id=460, 598.235pt x 674.52pt>
 File: figures/regions/plots_2j_77_85/Plots/Mll01.png Graphic file (type png)
 
 <use figures/regions/plots_2j_77_85/Plots/Mll01.png>
@@ -3530,7 +3544,7 @@ ons/plots_not_85_2j/Plots/lep_Pt_0.png> <./figures/regions/plots_not_85_2j/Plot
 s/lep_Pt_1.png> <./figures/regions/plots_not_85_2j/Plots/lep_Pt_2.png> <./figur
 es/regions/plots_not_85_2j/Plots/MET.png> <./figures/regions/plots_not_85_2j/Pl
 ots/Mll01.png>]
-<figures/regions/plots_2j_70_77/Plots/lead_jetPt.png, id=480, 598.235pt x 674.5
+<figures/regions/plots_2j_70_77/Plots/lead_jetPt.png, id=473, 598.235pt x 674.5
 2pt>
 File: figures/regions/plots_2j_70_77/Plots/lead_jetPt.png Graphic file (type pn
 g)
@@ -3539,7 +3553,7 @@ Package pdftex.def Info: figures/regions/plots_2j_70_77/Plots/lead_jetPt.png us
 ed on input line 225.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_2j_70_77/Plots/lep_Pt_0.png, id=481, 598.235pt x 674.52p
+<figures/regions/plots_2j_70_77/Plots/lep_Pt_0.png, id=474, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_2j_70_77/Plots/lep_Pt_0.png Graphic file (type png)
 
@@ -3548,7 +3562,7 @@ Package pdftex.def Info: figures/regions/plots_2j_70_77/Plots/lep_Pt_0.png used
  on input line 226.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_2j_70_77/Plots/lep_Pt_1.png, id=482, 598.235pt x 674.52p
+<figures/regions/plots_2j_70_77/Plots/lep_Pt_1.png, id=475, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_2j_70_77/Plots/lep_Pt_1.png Graphic file (type png)
 
@@ -3557,7 +3571,7 @@ Package pdftex.def Info: figures/regions/plots_2j_70_77/Plots/lep_Pt_1.png used
  on input line 227.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_2j_70_77/Plots/lep_Pt_2.png, id=483, 598.235pt x 674.52p
+<figures/regions/plots_2j_70_77/Plots/lep_Pt_2.png, id=476, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_2j_70_77/Plots/lep_Pt_2.png Graphic file (type png)
 
@@ -3566,7 +3580,7 @@ Package pdftex.def Info: figures/regions/plots_2j_70_77/Plots/lep_Pt_2.png used
  on input line 228.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_2j_70_77/Plots/MET.png, id=484, 598.235pt x 674.52pt>
+<figures/regions/plots_2j_70_77/Plots/MET.png, id=477, 598.235pt x 674.52pt>
 File: figures/regions/plots_2j_70_77/Plots/MET.png Graphic file (type png)
 
 <use figures/regions/plots_2j_70_77/Plots/MET.png>
@@ -3574,7 +3588,7 @@ Package pdftex.def Info: figures/regions/plots_2j_70_77/Plots/MET.png used on i
 nput line 229.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_2j_70_77/Plots/Mll01.png, id=485, 598.235pt x 674.52pt>
+<figures/regions/plots_2j_70_77/Plots/Mll01.png, id=478, 598.235pt x 674.52pt>
 File: figures/regions/plots_2j_70_77/Plots/Mll01.png Graphic file (type png)
 
 <use figures/regions/plots_2j_70_77/Plots/Mll01.png>
@@ -3592,7 +3606,7 @@ ns/plots_2j_77_85/Plots/lep_Pt_0.png> <./figures/regions/plots_2j_77_85/Plots/l
 ep_Pt_1.png> <./figures/regions/plots_2j_77_85/Plots/lep_Pt_2.png> <./figures/r
 egions/plots_2j_77_85/Plots/MET.png> <./figures/regions/plots_2j_77_85/Plots/Ml
 l01.png>]
-<figures/regions/plots_2j_60_70/Plots/lead_jetPt.png, id=497, 598.235pt x 674.5
+<figures/regions/plots_2j_60_70/Plots/lead_jetPt.png, id=490, 598.235pt x 674.5
 2pt>
 File: figures/regions/plots_2j_60_70/Plots/lead_jetPt.png Graphic file (type pn
 g)
@@ -3601,7 +3615,7 @@ Package pdftex.def Info: figures/regions/plots_2j_60_70/Plots/lead_jetPt.png us
 ed on input line 238.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_2j_60_70/Plots/lep_Pt_0.png, id=498, 598.235pt x 674.52p
+<figures/regions/plots_2j_60_70/Plots/lep_Pt_0.png, id=491, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_2j_60_70/Plots/lep_Pt_0.png Graphic file (type png)
 
@@ -3610,7 +3624,7 @@ Package pdftex.def Info: figures/regions/plots_2j_60_70/Plots/lep_Pt_0.png used
  on input line 239.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_2j_60_70/Plots/lep_Pt_1.png, id=499, 598.235pt x 674.52p
+<figures/regions/plots_2j_60_70/Plots/lep_Pt_1.png, id=492, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_2j_60_70/Plots/lep_Pt_1.png Graphic file (type png)
 
@@ -3619,7 +3633,7 @@ Package pdftex.def Info: figures/regions/plots_2j_60_70/Plots/lep_Pt_1.png used
  on input line 240.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_2j_60_70/Plots/lep_Pt_2.png, id=500, 598.235pt x 674.52p
+<figures/regions/plots_2j_60_70/Plots/lep_Pt_2.png, id=493, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_2j_60_70/Plots/lep_Pt_2.png Graphic file (type png)
 
@@ -3628,7 +3642,7 @@ Package pdftex.def Info: figures/regions/plots_2j_60_70/Plots/lep_Pt_2.png used
  on input line 241.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_2j_60_70/Plots/MET.png, id=501, 598.235pt x 674.52pt>
+<figures/regions/plots_2j_60_70/Plots/MET.png, id=494, 598.235pt x 674.52pt>
 File: figures/regions/plots_2j_60_70/Plots/MET.png Graphic file (type png)
 
 <use figures/regions/plots_2j_60_70/Plots/MET.png>
@@ -3636,7 +3650,7 @@ Package pdftex.def Info: figures/regions/plots_2j_60_70/Plots/MET.png used on i
 nput line 242.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_2j_60_70/Plots/Mll01.png, id=502, 598.235pt x 674.52pt>
+<figures/regions/plots_2j_60_70/Plots/Mll01.png, id=495, 598.235pt x 674.52pt>
 File: figures/regions/plots_2j_60_70/Plots/Mll01.png Graphic file (type png)
 
 <use figures/regions/plots_2j_60_70/Plots/Mll01.png>
@@ -3654,7 +3668,7 @@ ns/plots_2j_70_77/Plots/lep_Pt_0.png> <./figures/regions/plots_2j_70_77/Plots/l
 ep_Pt_1.png> <./figures/regions/plots_2j_70_77/Plots/lep_Pt_2.png> <./figures/r
 egions/plots_2j_70_77/Plots/MET.png> <./figures/regions/plots_2j_70_77/Plots/Ml
 l01.png>]
-<figures/regions/plots_2j_60/Plots/lead_jetPt.png, id=514, 598.235pt x 674.52pt
+<figures/regions/plots_2j_60/Plots/lead_jetPt.png, id=507, 598.235pt x 674.52pt
 >
 File: figures/regions/plots_2j_60/Plots/lead_jetPt.png Graphic file (type png)
  <use figures/regions/plots_2j_60/Plots/lead_jetPt.png>
@@ -3662,7 +3676,7 @@ Package pdftex.def Info: figures/regions/plots_2j_60/Plots/lead_jetPt.png used
 on input line 251.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_2j_60/Plots/lep_Pt_0.png, id=515, 598.235pt x 674.52pt>
+<figures/regions/plots_2j_60/Plots/lep_Pt_0.png, id=508, 598.235pt x 674.52pt>
 File: figures/regions/plots_2j_60/Plots/lep_Pt_0.png Graphic file (type png)
 
 <use figures/regions/plots_2j_60/Plots/lep_Pt_0.png>
@@ -3670,7 +3684,7 @@ Package pdftex.def Info: figures/regions/plots_2j_60/Plots/lep_Pt_0.png used on
  input line 252.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_2j_60/Plots/lep_Pt_1.png, id=516, 598.235pt x 674.52pt>
+<figures/regions/plots_2j_60/Plots/lep_Pt_1.png, id=509, 598.235pt x 674.52pt>
 File: figures/regions/plots_2j_60/Plots/lep_Pt_1.png Graphic file (type png)
 
 <use figures/regions/plots_2j_60/Plots/lep_Pt_1.png>
@@ -3678,7 +3692,7 @@ Package pdftex.def Info: figures/regions/plots_2j_60/Plots/lep_Pt_1.png used on
  input line 253.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_2j_60/Plots/lep_Pt_2.png, id=517, 598.235pt x 674.52pt>
+<figures/regions/plots_2j_60/Plots/lep_Pt_2.png, id=510, 598.235pt x 674.52pt>
 File: figures/regions/plots_2j_60/Plots/lep_Pt_2.png Graphic file (type png)
 
 <use figures/regions/plots_2j_60/Plots/lep_Pt_2.png>
@@ -3686,7 +3700,7 @@ Package pdftex.def Info: figures/regions/plots_2j_60/Plots/lep_Pt_2.png used on
  input line 254.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_2j_60/Plots/MET.png, id=518, 598.235pt x 674.52pt>
+<figures/regions/plots_2j_60/Plots/MET.png, id=511, 598.235pt x 674.52pt>
 File: figures/regions/plots_2j_60/Plots/MET.png Graphic file (type png)
 
 <use figures/regions/plots_2j_60/Plots/MET.png>
@@ -3694,7 +3708,7 @@ Package pdftex.def Info: figures/regions/plots_2j_60/Plots/MET.png used on inpu
 t line 255.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_2j_60/Plots/Mll01.png, id=519, 598.235pt x 674.52pt>
+<figures/regions/plots_2j_60/Plots/Mll01.png, id=512, 598.235pt x 674.52pt>
 File: figures/regions/plots_2j_60/Plots/Mll01.png Graphic file (type png)
 
 <use figures/regions/plots_2j_60/Plots/Mll01.png>
@@ -3712,7 +3726,7 @@ ns/plots_2j_60_70/Plots/lep_Pt_0.png> <./figures/regions/plots_2j_60_70/Plots/l
 ep_Pt_1.png> <./figures/regions/plots_2j_60_70/Plots/lep_Pt_2.png> <./figures/r
 egions/plots_2j_60_70/Plots/MET.png> <./figures/regions/plots_2j_60_70/Plots/Ml
 l01.png>]
-<figures/regions/plots_tZ_CR_2j/Plots/lead_jetPt.png, id=532, 598.235pt x 674.5
+<figures/regions/plots_tZ_CR_2j/Plots/lead_jetPt.png, id=525, 598.235pt x 674.5
 2pt>
 File: figures/regions/plots_tZ_CR_2j/Plots/lead_jetPt.png Graphic file (type pn
 g)
@@ -3721,7 +3735,7 @@ Package pdftex.def Info: figures/regions/plots_tZ_CR_2j/Plots/lead_jetPt.png us
 ed on input line 263.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_tZ_CR_2j/Plots/lep_Pt_0.png, id=533, 598.235pt x 674.52p
+<figures/regions/plots_tZ_CR_2j/Plots/lep_Pt_0.png, id=526, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_tZ_CR_2j/Plots/lep_Pt_0.png Graphic file (type png)
 
@@ -3730,7 +3744,7 @@ Package pdftex.def Info: figures/regions/plots_tZ_CR_2j/Plots/lep_Pt_0.png used
  on input line 264.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_tZ_CR_2j/Plots/lep_Pt_1.png, id=534, 598.235pt x 674.52p
+<figures/regions/plots_tZ_CR_2j/Plots/lep_Pt_1.png, id=527, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_tZ_CR_2j/Plots/lep_Pt_1.png Graphic file (type png)
 
@@ -3739,7 +3753,7 @@ Package pdftex.def Info: figures/regions/plots_tZ_CR_2j/Plots/lep_Pt_1.png used
  on input line 265.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_tZ_CR_2j/Plots/lep_Pt_2.png, id=535, 598.235pt x 674.52p
+<figures/regions/plots_tZ_CR_2j/Plots/lep_Pt_2.png, id=528, 598.235pt x 674.52p
 t>
 File: figures/regions/plots_tZ_CR_2j/Plots/lep_Pt_2.png Graphic file (type png)
 
@@ -3748,7 +3762,7 @@ Package pdftex.def Info: figures/regions/plots_tZ_CR_2j/Plots/lep_Pt_2.png used
  on input line 266.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_tZ_CR_2j/Plots/MET.png, id=536, 598.235pt x 674.52pt>
+<figures/regions/plots_tZ_CR_2j/Plots/MET.png, id=529, 598.235pt x 674.52pt>
 File: figures/regions/plots_tZ_CR_2j/Plots/MET.png Graphic file (type png)
 
 <use figures/regions/plots_tZ_CR_2j/Plots/MET.png>
@@ -3756,7 +3770,7 @@ Package pdftex.def Info: figures/regions/plots_tZ_CR_2j/Plots/MET.png used on i
 nput line 267.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/regions/plots_tZ_CR_2j/Plots/Mll01.png, id=537, 598.235pt x 674.52pt>
+<figures/regions/plots_tZ_CR_2j/Plots/Mll01.png, id=530, 598.235pt x 674.52pt>
 File: figures/regions/plots_tZ_CR_2j/Plots/Mll01.png Graphic file (type png)
 
 <use figures/regions/plots_tZ_CR_2j/Plots/Mll01.png>
@@ -3791,162 +3805,353 @@ l.283
 ns/plots_tZ_CR_2j/Plots/lep_Pt_0.png> <./figures/regions/plots_tZ_CR_2j/Plots/l
 ep_Pt_1.png> <./figures/regions/plots_tZ_CR_2j/Plots/lep_Pt_2.png> <./figures/r
 egions/plots_tZ_CR_2j/Plots/MET.png> <./figures/regions/plots_tZ_CR_2j/Plots/Ml
-l01.png>] <figures/ttbar/lead_jetPt.png, id=560, 598.235pt x 674.52pt>
-File: figures/ttbar/lead_jetPt.png Graphic file (type png)
+l01.png>] <figures/ttbar/noScale/lead_jetPt.png, id=554, 598.235pt x 674.52pt>
+File: figures/ttbar/noScale/lead_jetPt.png Graphic file (type png)
 
-<use figures/ttbar/lead_jetPt.png>
-Package pdftex.def Info: figures/ttbar/lead_jetPt.png used on input line 301.
+<use figures/ttbar/noScale/lead_jetPt.png>
+Package pdftex.def Info: figures/ttbar/noScale/lead_jetPt.png used on input lin
+e 290.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/ttbar/MET.png, id=561, 598.235pt x 674.52pt>
-File: figures/ttbar/MET.png Graphic file (type png)
+<figures/ttbar/noScale/MET.png, id=555, 598.235pt x 674.52pt>
+File: figures/ttbar/noScale/MET.png Graphic file (type png)
 
-<use figures/ttbar/MET.png>
-Package pdftex.def Info: figures/ttbar/MET.png used on input line 302.
+<use figures/ttbar/noScale/MET.png>
+Package pdftex.def Info: figures/ttbar/noScale/MET.png used on input line 291.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/ttbar/lep_Pt_0.png, id=562, 598.235pt x 674.52pt>
-File: figures/ttbar/lep_Pt_0.png Graphic file (type png)
+<figures/ttbar/noScale/lep_Pt_0.png, id=556, 598.235pt x 674.52pt>
+File: figures/ttbar/noScale/lep_Pt_0.png Graphic file (type png)
 
-<use figures/ttbar/lep_Pt_0.png>
-Package pdftex.def Info: figures/ttbar/lep_Pt_0.png used on input line 303.
+<use figures/ttbar/noScale/lep_Pt_0.png>
+Package pdftex.def Info: figures/ttbar/noScale/lep_Pt_0.png used on input line 
+292.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/ttbar/lep_Pt_1.png, id=563, 598.235pt x 674.52pt>
-File: figures/ttbar/lep_Pt_1.png Graphic file (type png)
+<figures/ttbar/noScale/lep_Pt_1.png, id=557, 598.235pt x 674.52pt>
+File: figures/ttbar/noScale/lep_Pt_1.png Graphic file (type png)
 
-<use figures/ttbar/lep_Pt_1.png>
-Package pdftex.def Info: figures/ttbar/lep_Pt_1.png used on input line 304.
+<use figures/ttbar/noScale/lep_Pt_1.png>
+Package pdftex.def Info: figures/ttbar/noScale/lep_Pt_1.png used on input line 
+293.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/ttbar/lep_Pt_2.png, id=564, 598.235pt x 674.52pt>
-File: figures/ttbar/lep_Pt_2.png Graphic file (type png)
+<figures/ttbar/noScale/lep_Pt_2.png, id=558, 598.235pt x 674.52pt>
+File: figures/ttbar/noScale/lep_Pt_2.png Graphic file (type png)
 
-<use figures/ttbar/lep_Pt_2.png>
-Package pdftex.def Info: figures/ttbar/lep_Pt_2.png used on input line 305.
+<use figures/ttbar/noScale/lep_Pt_2.png>
+Package pdftex.def Info: figures/ttbar/noScale/lep_Pt_2.png used on input line 
+294.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/ttbar/Mll01.png, id=565, 598.235pt x 674.52pt>
-File: figures/ttbar/Mll01.png Graphic file (type png)
+<figures/ttbar/noScale/Mll01.png, id=559, 598.235pt x 674.52pt>
+File: figures/ttbar/noScale/Mll01.png Graphic file (type png)
 
-<use figures/ttbar/Mll01.png>
-Package pdftex.def Info: figures/ttbar/Mll01.png used on input line 306.
+<use figures/ttbar/noScale/Mll01.png>
+Package pdftex.def Info: figures/ttbar/noScale/Mll01.png used on input line 295
+.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/ttbar/Mll02.png, id=566, 598.235pt x 674.52pt>
-File: figures/ttbar/Mll02.png Graphic file (type png)
+<figures/ttbar/noScale/Mll02.png, id=560, 598.235pt x 674.52pt>
+File: figures/ttbar/noScale/Mll02.png Graphic file (type png)
 
-<use figures/ttbar/Mll02.png>
-Package pdftex.def Info: figures/ttbar/Mll02.png used on input line 307.
+<use figures/ttbar/noScale/Mll02.png>
+Package pdftex.def Info: figures/ttbar/noScale/Mll02.png used on input line 296
+.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/ttbar/nJets_OR.png, id=567, 598.235pt x 674.52pt>
-File: figures/ttbar/nJets_OR.png Graphic file (type png)
+<figures/ttbar/noScale/nJets_OR.png, id=561, 598.235pt x 674.52pt>
+File: figures/ttbar/noScale/nJets_OR.png Graphic file (type png)
 
-<use figures/ttbar/nJets_OR.png>
-Package pdftex.def Info: figures/ttbar/nJets_OR.png used on input line 308.
+<use figures/ttbar/noScale/nJets_OR.png>
+Package pdftex.def Info: figures/ttbar/noScale/nJets_OR.png used on input line 
+297.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/ttbar/nJets_OR_DL1r_70.png, id=568, 598.235pt x 674.52pt>
-File: figures/ttbar/nJets_OR_DL1r_70.png Graphic file (type png)
+<figures/ttbar/noScale/nJets_OR_DL1r_70.png, id=562, 598.235pt x 674.52pt>
+File: figures/ttbar/noScale/nJets_OR_DL1r_70.png Graphic file (type png)
 
-<use figures/ttbar/nJets_OR_DL1r_70.png>
-Package pdftex.def Info: figures/ttbar/nJets_OR_DL1r_70.png used on input line 
-309.
+<use figures/ttbar/noScale/nJets_OR_DL1r_70.png>
+Package pdftex.def Info: figures/ttbar/noScale/nJets_OR_DL1r_70.png used on inp
+ut line 298.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
  [28]
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 314.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 314.
+LaTeX Warning: Reference `fig:ttbar_withScale' on page 29 undefined on input li
+ne 303.
 
 [29pdfTeX warning (ext4): destination with the same identifier (name{figure.15}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.317 
-       <./figures/ttbar/lead_jetPt.png> <./figures/ttbar/MET.png> <./figures/tt
-bar/lep_Pt_0.png> <./figures/ttbar/lep_Pt_1.png> <./figures/ttbar/lep_Pt_2.png>
- <./figures/ttbar/Mll01.png> <./figures/ttbar/Mll02.png> <./figures/ttbar/nJets
-_OR.png> <./figures/ttbar/nJets_OR_DL1r_70.png>]
-<figures/zjets/lead_jetPt.png, id=587, 598.235pt x 674.52pt>
-File: figures/zjets/lead_jetPt.png Graphic file (type png)
+l.304 
+       <./figures/ttbar/noScale/lead_jetPt.png> <./figures/ttbar/noScale/MET.pn
+g> <./figures/ttbar/noScale/lep_Pt_0.png> <./figures/ttbar/noScale/lep_Pt_1.png
+> <./figures/ttbar/noScale/lep_Pt_2.png> <./figures/ttbar/noScale/Mll01.png> <.
+/figures/ttbar/noScale/Mll02.png> <./figures/ttbar/noScale/nJets_OR.png> <./fig
+ures/ttbar/noScale/nJets_OR_DL1r_70.png>]
+File: figures/ttbar/noScale/lead_jetPt.png Graphic file (type png)
 
-<use figures/zjets/lead_jetPt.png>
-Package pdftex.def Info: figures/zjets/lead_jetPt.png used on input line 321.
+<use figures/ttbar/noScale/lead_jetPt.png>
+Package pdftex.def Info: figures/ttbar/noScale/lead_jetPt.png used on input lin
+e 307.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
-
-<figures/zjets/DRll01.png, id=588, 598.235pt x 674.52pt>
-File: figures/zjets/DRll01.png Graphic file (type png)
-
-<use figures/zjets/DRll01.png>
-Package pdftex.def Info: figures/zjets/DRll01.png used on input line 322.
+File: figures/ttbar/noScale/MET.png Graphic file (type png)
+ <use figures/ttbar/noScale/MET.png>
+Package pdftex.def Info: figures/ttbar/noScale/MET.png used on input line 308.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+File: figures/ttbar/noScale/lep_Pt_0.png Graphic file (type png)
 
-<figures/zjets/lep_Pt_0.png, id=589, 598.235pt x 674.52pt>
-File: figures/zjets/lep_Pt_0.png Graphic file (type png)
-
-<use figures/zjets/lep_Pt_0.png>
-Package pdftex.def Info: figures/zjets/lep_Pt_0.png used on input line 323.
+<use figures/ttbar/noScale/lep_Pt_0.png>
+Package pdftex.def Info: figures/ttbar/noScale/lep_Pt_0.png used on input line 
+309.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+File: figures/ttbar/noScale/lep_Pt_1.png Graphic file (type png)
 
-<figures/zjets/lep_Pt_1.png, id=590, 598.235pt x 674.52pt>
-File: figures/zjets/lep_Pt_1.png Graphic file (type png)
-
-<use figures/zjets/lep_Pt_1.png>
-Package pdftex.def Info: figures/zjets/lep_Pt_1.png used on input line 324.
+<use figures/ttbar/noScale/lep_Pt_1.png>
+Package pdftex.def Info: figures/ttbar/noScale/lep_Pt_1.png used on input line 
+310.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+File: figures/ttbar/noScale/lep_Pt_2.png Graphic file (type png)
 
-<figures/zjets/lep_Pt_2.png, id=591, 598.235pt x 674.52pt>
-File: figures/zjets/lep_Pt_2.png Graphic file (type png)
-
-<use figures/zjets/lep_Pt_2.png>
-Package pdftex.def Info: figures/zjets/lep_Pt_2.png used on input line 325.
+<use figures/ttbar/noScale/lep_Pt_2.png>
+Package pdftex.def Info: figures/ttbar/noScale/lep_Pt_2.png used on input line 
+311.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
-
-<figures/zjets/Mll01.png, id=592, 598.235pt x 674.52pt>
-File: figures/zjets/Mll01.png Graphic file (type png)
-
-<use figures/zjets/Mll01.png>
-Package pdftex.def Info: figures/zjets/Mll01.png used on input line 326.
+File: figures/ttbar/noScale/Mll01.png Graphic file (type png)
+ <use figures/ttbar/noScale/Mll01.png>
+Package pdftex.def Info: figures/ttbar/noScale/Mll01.png used on input line 312
+.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+File: figures/ttbar/noScale/Mll02.png Graphic file (type png)
 
-<figures/zjets/Mll02.png, id=593, 598.235pt x 674.52pt>
-File: figures/zjets/Mll02.png Graphic file (type png)
-
-<use figures/zjets/Mll02.png>
-Package pdftex.def Info: figures/zjets/Mll02.png used on input line 327.
+<use figures/ttbar/noScale/Mll02.png>
+Package pdftex.def Info: figures/ttbar/noScale/Mll02.png used on input line 313
+.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
-
-<figures/zjets/nJets_OR.png, id=594, 598.235pt x 674.52pt>
-File: figures/zjets/nJets_OR.png Graphic file (type png)
-
-<use figures/zjets/nJets_OR.png>
-Package pdftex.def Info: figures/zjets/nJets_OR.png used on input line 328.
+File: figures/ttbar/noScale/nJets_OR.png Graphic file (type png)
+ <use figures/ttbar/noScale/nJets_OR.png>
+Package pdftex.def Info: figures/ttbar/noScale/nJets_OR.png used on input line 
+314.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+File: figures/ttbar/noScale/nJets_OR_DL1r_70.png Graphic file (type png)
 
-<figures/zjets/DRll02.png, id=595, 598.235pt x 674.52pt>
-File: figures/zjets/DRll02.png Graphic file (type png)
-
-<use figures/zjets/DRll02.png>
-Package pdftex.def Info: figures/zjets/DRll02.png used on input line 329.
+<use figures/ttbar/noScale/nJets_OR_DL1r_70.png>
+Package pdftex.def Info: figures/ttbar/noScale/nJets_OR_DL1r_70.png used on inp
+ut line 315.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
- [30]) (./sections/tZ.tex [31pdfTeX warning (ext4): destination with the same i
-dentifier (name{figure.16}) has been already used, duplicate ignored
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.16
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.3 
-     <./figures/zjets/lead_jetPt.png> <./figures/zjets/DRll01.png> <./figures/z
-jets/lep_Pt_0.png> <./figures/zjets/lep_Pt_1.png> <./figures/zjets/lep_Pt_2.png
-> <./figures/zjets/Mll01.png> <./figures/zjets/Mll02.png> <./figures/zjets/nJet
-s_OR.png> <./figures/zjets/DRll02.png>]
+l.320 
+      ] <figures/ttbar/Summary.png, id=596, 899.36pt x 674.52pt>
+File: figures/ttbar/Summary.png Graphic file (type png)
 
-LaTeX Warning: Citation 'Madgraph' on page 32 undefined on input line 13.
+<use figures/ttbar/Summary.png>
+Package pdftex.def Info: figures/ttbar/Summary.png used on input line 323.
+(pdftex.def)             Requested size: 376.4258pt x 282.3187pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 330.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 330.
+
+<figures/zjets/noScale/lead_jetPt.png, id=597, 598.235pt x 674.52pt>
+File: figures/zjets/noScale/lead_jetPt.png Graphic file (type png)
+
+<use figures/zjets/noScale/lead_jetPt.png>
+Package pdftex.def Info: figures/zjets/noScale/lead_jetPt.png used on input lin
+e 335.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/zjets/noScale/DRll01.png, id=598, 598.235pt x 674.52pt>
+File: figures/zjets/noScale/DRll01.png Graphic file (type png)
+
+<use figures/zjets/noScale/DRll01.png>
+Package pdftex.def Info: figures/zjets/noScale/DRll01.png used on input line 33
+6.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/zjets/noScale/lep_Pt_0.png, id=599, 598.235pt x 674.52pt>
+File: figures/zjets/noScale/lep_Pt_0.png Graphic file (type png)
+
+<use figures/zjets/noScale/lep_Pt_0.png>
+Package pdftex.def Info: figures/zjets/noScale/lep_Pt_0.png used on input line 
+337.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/zjets/noScale/lep_Pt_1.png, id=600, 598.235pt x 674.52pt>
+File: figures/zjets/noScale/lep_Pt_1.png Graphic file (type png)
+
+<use figures/zjets/noScale/lep_Pt_1.png>
+Package pdftex.def Info: figures/zjets/noScale/lep_Pt_1.png used on input line 
+338.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/zjets/noScale/lep_Pt_2.png, id=601, 598.235pt x 674.52pt>
+File: figures/zjets/noScale/lep_Pt_2.png Graphic file (type png)
+
+<use figures/zjets/noScale/lep_Pt_2.png>
+Package pdftex.def Info: figures/zjets/noScale/lep_Pt_2.png used on input line 
+339.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/zjets/noScale/Mll01.png, id=602, 598.235pt x 674.52pt>
+File: figures/zjets/noScale/Mll01.png Graphic file (type png)
+
+<use figures/zjets/noScale/Mll01.png>
+Package pdftex.def Info: figures/zjets/noScale/Mll01.png used on input line 340
+.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/zjets/noScale/Mll02.png, id=603, 598.235pt x 674.52pt>
+File: figures/zjets/noScale/Mll02.png Graphic file (type png)
+
+<use figures/zjets/noScale/Mll02.png>
+Package pdftex.def Info: figures/zjets/noScale/Mll02.png used on input line 341
+.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/zjets/noScale/nJets_OR.png, id=604, 598.235pt x 674.52pt>
+File: figures/zjets/noScale/nJets_OR.png Graphic file (type png)
+
+<use figures/zjets/noScale/nJets_OR.png>
+Package pdftex.def Info: figures/zjets/noScale/nJets_OR.png used on input line 
+342.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/zjets/noScale/DRll02.png, id=605, 598.235pt x 674.52pt>
+File: figures/zjets/noScale/DRll02.png Graphic file (type png)
+
+<use figures/zjets/noScale/DRll02.png>
+Package pdftex.def Info: figures/zjets/noScale/DRll02.png used on input line 34
+3.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+ [31pdfTeX warning (ext4): destination with the same identifier (name{figure.17
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.347 
+       <./figures/ttbar/Summary.png>]
+
+LaTeX Warning: Reference `fig:zjets_withScale' on page 32 undefined on input li
+ne 348.
+
+[32pdfTeX warning (ext4): destination with the same identifier (name{figure.18}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.349 
+       <./figures/zjets/noScale/lead_jetPt.png> <./figures/zjets/noScale/DRll01
+.png> <./figures/zjets/noScale/lep_Pt_0.png> <./figures/zjets/noScale/lep_Pt_1.
+png> <./figures/zjets/noScale/lep_Pt_2.png> <./figures/zjets/noScale/Mll01.png>
+ <./figures/zjets/noScale/Mll02.png> <./figures/zjets/noScale/nJets_OR.png> <./
+figures/zjets/noScale/DRll02.png>]
+<figures/zjets/withScale/lead_jetPt.png, id=628, 598.235pt x 674.52pt>
+File: figures/zjets/withScale/lead_jetPt.png Graphic file (type png)
+
+<use figures/zjets/withScale/lead_jetPt.png>
+Package pdftex.def Info: figures/zjets/withScale/lead_jetPt.png used on input l
+ine 351.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/zjets/withScale/DRll01.png, id=629, 598.235pt x 674.52pt>
+File: figures/zjets/withScale/DRll01.png Graphic file (type png)
+
+<use figures/zjets/withScale/DRll01.png>
+Package pdftex.def Info: figures/zjets/withScale/DRll01.png used on input line 
+352.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/zjets/withScale/lep_Pt_0.png, id=630, 598.235pt x 674.52pt>
+File: figures/zjets/withScale/lep_Pt_0.png Graphic file (type png)
+
+<use figures/zjets/withScale/lep_Pt_0.png>
+Package pdftex.def Info: figures/zjets/withScale/lep_Pt_0.png used on input lin
+e 353.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/zjets/withScale/lep_Pt_1.png, id=631, 598.235pt x 674.52pt>
+File: figures/zjets/withScale/lep_Pt_1.png Graphic file (type png)
+
+<use figures/zjets/withScale/lep_Pt_1.png>
+Package pdftex.def Info: figures/zjets/withScale/lep_Pt_1.png used on input lin
+e 354.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/zjets/withScale/lep_Pt_2.png, id=632, 598.235pt x 674.52pt>
+File: figures/zjets/withScale/lep_Pt_2.png Graphic file (type png)
+
+<use figures/zjets/withScale/lep_Pt_2.png>
+Package pdftex.def Info: figures/zjets/withScale/lep_Pt_2.png used on input lin
+e 355.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/zjets/withScale/Mll01.png, id=633, 598.235pt x 674.52pt>
+File: figures/zjets/withScale/Mll01.png Graphic file (type png)
+
+<use figures/zjets/withScale/Mll01.png>
+Package pdftex.def Info: figures/zjets/withScale/Mll01.png used on input line 3
+56.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/zjets/withScale/Mll02.png, id=634, 598.235pt x 674.52pt>
+File: figures/zjets/withScale/Mll02.png Graphic file (type png)
+
+<use figures/zjets/withScale/Mll02.png>
+Package pdftex.def Info: figures/zjets/withScale/Mll02.png used on input line 3
+57.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/zjets/withScale/nJets_OR.png, id=635, 598.235pt x 674.52pt>
+File: figures/zjets/withScale/nJets_OR.png Graphic file (type png)
+
+<use figures/zjets/withScale/nJets_OR.png>
+Package pdftex.def Info: figures/zjets/withScale/nJets_OR.png used on input lin
+e 358.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+
+<figures/zjets/withScale/DRll02.png, id=636, 598.235pt x 674.52pt>
+File: figures/zjets/withScale/DRll02.png Graphic file (type png)
+
+<use figures/zjets/withScale/DRll02.png>
+Package pdftex.def Info: figures/zjets/withScale/DRll02.png used on input line 
+359.
+(pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
+ [33] [34pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.19}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.365 
+       <./figures/zjets/withScale/lead_jetPt.png> <./figures/zjets/withScale/DR
+ll01.png> <./figures/zjets/withScale/lep_Pt_0.png> <./figures/zjets/withScale/l
+ep_Pt_1.png> <./figures/zjets/withScale/lep_Pt_2.png> <./figures/zjets/withScal
+e/Mll01.png> <./figures/zjets/withScale/Mll02.png> <./figures/zjets/withScale/n
+Jets_OR.png> <./figures/zjets/withScale/DRll02.png>]
+<figures/zjets/Summary.png, id=656, 899.36pt x 674.52pt>
+File: figures/zjets/Summary.png Graphic file (type png)
+
+<use figures/zjets/Summary.png>
+Package pdftex.def Info: figures/zjets/Summary.png used on input line 369.
+(pdftex.def)             Requested size: 376.4258pt x 282.3187pt.
+) (./sections/tZ.tex [35pdfTeX warning (ext4): destination with the same identi
+fier (name{figure.20}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.5 
+     <./figures/zjets/Summary.png>]
+
+LaTeX Warning: Citation 'Madgraph' on page 36 undefined on input line 13.
 
 Package epstopdf Info: Source file: <figures/tZInterference/lepPairMass23.eps>
 (epstopdf)                    date: 2019-12-11 14:30:23
@@ -3960,7 +4165,7 @@ PairMass23-eps-converted-to.pdf figures/tZInterference/lepPairMass23.eps>
 (epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/tZInterference/lepPairMass23-eps-converted-to.pdf, id=616, 569.12625pt
+<figures/tZInterference/lepPairMass23-eps-converted-to.pdf, id=662, 569.12625pt
  x 385.44pt>
 File: figures/tZInterference/lepPairMass23-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -3980,7 +4185,7 @@ d-to.pdf>
 (epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/tZInterference/lep1pt-eps-converted-to.pdf, id=617, 569.12625pt x 385.
+<figures/tZInterference/lep1pt-eps-converted-to.pdf, id=663, 569.12625pt x 385.
 44pt>
 File: figures/tZInterference/lep1pt-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -4000,7 +4205,7 @@ l23-eps-converted-to.pdf figures/tZInterference/drll23.eps>
 (epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/tZInterference/drll23-eps-converted-to.pdf, id=618, 569.12625pt x 385.
+<figures/tZInterference/drll23-eps-converted-to.pdf, id=664, 569.12625pt x 385.
 44pt>
 File: figures/tZInterference/drll23-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -4020,15 +4225,15 @@ t-eps-converted-to.pdf figures/tZInterference/btpt.eps>
 (epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/tZInterference/btpt-eps-converted-to.pdf, id=619, 569.12625pt x 387.44
+<figures/tZInterference/btpt-eps-converted-to.pdf, id=665, 569.12625pt x 387.44
 75pt>
 File: figures/tZInterference/btpt-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/tZInterference/btpt-eps-converted-to.pdf>
 Package pdftex.def Info: figures/tZInterference/btpt-eps-converted-to.pdf used 
 on input line 23.
 (pdftex.def)             Requested size: 196.57976pt x 133.82915pt.
- [32] [33pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.17}) has been already used, duplicate ignored
+ [36] [37pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -4049,7 +4254,7 @@ f>
 (epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/tZ_bdt/topMass-eps-converted-to.pdf, id=667, 462.72874pt x 347.2975pt>
+<figures/tZ_bdt/topMass-eps-converted-to.pdf, id=713, 462.72874pt x 347.2975pt>
 File: figures/tZ_bdt/topMass-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/tZ_bdt/topMass-eps-converted-to.pdf>
 Package pdftex.def Info: figures/tZ_bdt/topMass-eps-converted-to.pdf used on in
@@ -4057,9 +4262,9 @@ put line 55.
 (pdftex.def)             Requested size: 292.77632pt x 219.74185pt.
 
 
-LaTeX Warning: Citation 'xgboost_cite' on page 34 undefined on input line 63.
+LaTeX Warning: Citation 'xgboost_cite' on page 38 undefined on input line 63.
 
-[34pdfTeX warning (ext4): destination with the same identifier (name{figure.18}
+[38pdfTeX warning (ext4): destination with the same identifier (name{figure.22}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -4067,28 +4272,28 @@ LaTeX Warning: Citation 'xgboost_cite' on page 34 undefined on input line 63.
 l.70      \item D
                  istance between each combination of leptons, $\Delta R (ll)$ <
 ./figures/tZ_bdt/topMass-eps-converted-to.pdf>]
-<figures/tZ_bdt_ab127/1j/ab127/lep_Pt_0.pdf, id=678, 462.52798pt x 346.89601pt>
+<figures/tZ_bdt_ab127/1j/ab127/lep_Pt_0.pdf, id=724, 462.52798pt x 346.89601pt>
 File: figures/tZ_bdt_ab127/1j/ab127/lep_Pt_0.pdf Graphic file (type pdf)
 <use figures/tZ_bdt_ab127/1j/ab127/lep_Pt_0.pdf>
 Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/lep_Pt_0.pdf used on inp
 ut line 80.
 (pdftex.def)             Requested size: 133.84425pt x 100.38553pt.
 
-<figures/tZ_bdt_ab127/1j/ab127/lep_Pt_1.pdf, id=679, 462.52798pt x 346.89601pt>
+<figures/tZ_bdt_ab127/1j/ab127/lep_Pt_1.pdf, id=725, 462.52798pt x 346.89601pt>
 File: figures/tZ_bdt_ab127/1j/ab127/lep_Pt_1.pdf Graphic file (type pdf)
 <use figures/tZ_bdt_ab127/1j/ab127/lep_Pt_1.pdf>
 Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/lep_Pt_1.pdf used on inp
 ut line 81.
 (pdftex.def)             Requested size: 133.84425pt x 100.38553pt.
 
-<figures/tZ_bdt_ab127/1j/ab127/jet_Pt_0.pdf, id=680, 462.52798pt x 346.89601pt>
+<figures/tZ_bdt_ab127/1j/ab127/jet_Pt_0.pdf, id=726, 462.52798pt x 346.89601pt>
 File: figures/tZ_bdt_ab127/1j/ab127/jet_Pt_0.pdf Graphic file (type pdf)
 <use figures/tZ_bdt_ab127/1j/ab127/jet_Pt_0.pdf>
 Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/jet_Pt_0.pdf used on inp
 ut line 82.
 (pdftex.def)             Requested size: 133.84425pt x 100.38553pt.
 
-<figures/tZ_bdt_ab127/1j/ab127/topMassReco.pdf, id=681, 462.52798pt x 346.89601
+<figures/tZ_bdt_ab127/1j/ab127/topMassReco.pdf, id=727, 462.52798pt x 346.89601
 pt>
 File: figures/tZ_bdt_ab127/1j/ab127/topMassReco.pdf Graphic file (type pdf)
  <use figures/tZ_bdt_ab127/1j/ab127/topMassReco.pdf>
@@ -4096,7 +4301,7 @@ Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/topMassReco.pdf used on
 input line 83.
 (pdftex.def)             Requested size: 133.84425pt x 100.38553pt.
 
-<figures/tZ_bdt_ab127/1j/ab127/Mll01.pdf, id=682, 462.52798pt x 346.89601pt>
+<figures/tZ_bdt_ab127/1j/ab127/Mll01.pdf, id=728, 462.52798pt x 346.89601pt>
 File: figures/tZ_bdt_ab127/1j/ab127/Mll01.pdf Graphic file (type pdf)
 
 <use figures/tZ_bdt_ab127/1j/ab127/Mll01.pdf>
@@ -4104,7 +4309,7 @@ Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/Mll01.pdf used on input
 line 84.
 (pdftex.def)             Requested size: 133.84425pt x 100.38553pt.
 
-<figures/tZ_bdt_ab127/1j/ab127/Mll02.pdf, id=683, 462.52798pt x 346.89601pt>
+<figures/tZ_bdt_ab127/1j/ab127/Mll02.pdf, id=729, 462.52798pt x 346.89601pt>
 File: figures/tZ_bdt_ab127/1j/ab127/Mll02.pdf Graphic file (type pdf)
 
 <use figures/tZ_bdt_ab127/1j/ab127/Mll02.pdf>
@@ -4112,7 +4317,7 @@ Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/Mll02.pdf used on input
 line 85.
 (pdftex.def)             Requested size: 133.84425pt x 100.38553pt.
 
-<figures/tZ_bdt_ab127/1j/ab127/MET.pdf, id=684, 462.52798pt x 346.89601pt>
+<figures/tZ_bdt_ab127/1j/ab127/MET.pdf, id=730, 462.52798pt x 346.89601pt>
 File: figures/tZ_bdt_ab127/1j/ab127/MET.pdf Graphic file (type pdf)
 
 <use figures/tZ_bdt_ab127/1j/ab127/MET.pdf>
@@ -4120,7 +4325,7 @@ Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/MET.pdf used on input li
 ne 86.
 (pdftex.def)             Requested size: 133.84425pt x 100.38553pt.
 
-<figures/tZ_bdt_ab127/1j/ab127/DRll01.pdf, id=685, 462.52798pt x 346.89601pt>
+<figures/tZ_bdt_ab127/1j/ab127/DRll01.pdf, id=731, 462.52798pt x 346.89601pt>
 File: figures/tZ_bdt_ab127/1j/ab127/DRll01.pdf Graphic file (type pdf)
 
 <use figures/tZ_bdt_ab127/1j/ab127/DRll01.pdf>
@@ -4128,14 +4333,14 @@ Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/DRll01.pdf used on input
  line 87.
 (pdftex.def)             Requested size: 133.84425pt x 100.38553pt.
 
-<figures/tZ_bdt_ab127/1j/ab127/minDeltaR_LJ_0.pdf, id=686, 462.52798pt x 346.89
+<figures/tZ_bdt_ab127/1j/ab127/minDeltaR_LJ_0.pdf, id=732, 462.52798pt x 346.89
 601pt>
 File: figures/tZ_bdt_ab127/1j/ab127/minDeltaR_LJ_0.pdf Graphic file (type pdf)
  <use figures/tZ_bdt_ab127/1j/ab127/minDeltaR_LJ_0.pdf>
 Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/minDeltaR_LJ_0.pdf used 
 on input line 88.
 (pdftex.def)             Requested size: 133.84425pt x 100.38553pt.
- [35pdfTeX warning (ext4): destination with the same identifier (name{figure.19
+ [39pdfTeX warning (ext4): destination with the same identifier (name{figure.23
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -4174,28 +4379,28 @@ pdfTeX warning: pdflatex (file ./figures/tZ_bdt_ab127/1j/ab127/DRll01.pdf): PDF
 
 pdfTeX warning: pdflatex (file ./figures/tZ_bdt_ab127/1j/ab127/minDeltaR_LJ_0.p
 df): PDF inclusion: multiple pdfs with page group included in a single page
->] <figures/tZ_bdt/xgb_score.png, id=1015, 462.528pt x 346.896pt>
+>] <figures/tZ_bdt/xgb_score.png, id=1061, 462.528pt x 346.896pt>
 File: figures/tZ_bdt/xgb_score.png Graphic file (type png)
 
 <use figures/tZ_bdt/xgb_score.png>
 Package pdftex.def Info: figures/tZ_bdt/xgb_score.png used on input line 101.
 (pdftex.def)             Requested size: 188.21289pt x 141.15904pt.
 
-<figures/tZ_bdt/roc.png, id=1017, 462.528pt x 346.896pt>
+<figures/tZ_bdt/roc.png, id=1063, 462.528pt x 346.896pt>
 File: figures/tZ_bdt/roc.png Graphic file (type png)
 
 <use figures/tZ_bdt/roc.png>
 Package pdftex.def Info: figures/tZ_bdt/roc.png used on input line 102.
 (pdftex.def)             Requested size: 188.21289pt x 141.15904pt.
 
-<figures/tZ_bdt/feature_importance.png, id=1019, 722.7pt x 433.62pt>
+<figures/tZ_bdt/feature_importance.png, id=1065, 722.7pt x 433.62pt>
 File: figures/tZ_bdt/feature_importance.png Graphic file (type png)
 
 <use figures/tZ_bdt/feature_importance.png>
 Package pdftex.def Info: figures/tZ_bdt/feature_importance.png used on input li
 ne 111.
 (pdftex.def)             Requested size: 376.4258pt x 225.85422pt.
- [36pdfTeX warning (ext4): destination with the same identifier (name{figure.20
+ [40pdfTeX warning (ext4): destination with the same identifier (name{figure.24
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -4207,9 +4412,9 @@ l.115
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation 'LUCID2' on page 37 undefined on input line 39.
+LaTeX Warning: Citation 'LUCID2' on page 41 undefined on input line 39.
 
-[37pdfTeX warning (ext4): destination with the same identifier (name{figure.21}
+[41pdfTeX warning (ext4): destination with the same identifier (name{figure.25}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -4238,14 +4443,27 @@ Overfull \hbox (68.72618pt too wide) in paragraph at lines 53--101
  [] 
  []
 
-[38pdfTeX warning (ext4): destination with the same identifier (name{table.9}) 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[42pdfTeX warning (ext4): destination with the same identifier (name{table.9}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.104 
-      ] [39pdfTeX warning (ext4): destination with the same identifier (name{ta
-ble.10}) has been already used, duplicate ignored
+l.147 
+      ]
+Overfull \vbox (236.79204pt too high) has occurred while \output is active []
+
+
+[43pdfTeX warning (ext4): destination with the same identifier (name{table.10})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.147 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.1
+1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -4255,25 +4473,18 @@ Overfull \hbox (43.29628pt too wide) in paragraph at lines 151--173
  [] 
  []
 
-[40pdfTeX warning (ext4): destination with the same identifier (name{table.11})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.176 
-      ]
 \openout2 = `sections/xsecUnc.aux'.
 
- (./sections/xsecUnc.tex
+(./sections/xsecUnc.tex
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 (Font)              scaled to size 8.09995pt on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 9.0pt on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <9> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 9.0pt on input line 21.
-)) (./sections/splitResults.tex [41pdfTeX warning (ext4): destination with the 
+(Font)              scaled to size 9.0pt on input line 22.
+)) (./sections/splitResults.tex [44pdfTeX warning (ext4): destination with the 
 same identifier (name{table.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -4288,14 +4499,14 @@ s been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.3 
-    ] <figures/1j/not_85_postFit.png, id=1072, 598.235pt x 674.52pt>
+    ] <figures/1j/not_85_postFit.png, id=1115, 598.235pt x 674.52pt>
 File: figures/1j/not_85_postFit.png Graphic file (type png)
 
 <use figures/1j/not_85_postFit.png>
 Package pdftex.def Info: figures/1j/not_85_postFit.png used on input line 14.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/1j/WP_1b_77_85_postFit.png, id=1073, 598.235pt x 674.52pt>
+<figures/1j/WP_1b_77_85_postFit.png, id=1116, 598.235pt x 674.52pt>
 File: figures/1j/WP_1b_77_85_postFit.png Graphic file (type png)
 
 <use figures/1j/WP_1b_77_85_postFit.png>
@@ -4303,7 +4514,7 @@ Package pdftex.def Info: figures/1j/WP_1b_77_85_postFit.png used on input line
 15.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/1j/WP_1b_70_77_postFit.png, id=1074, 598.235pt x 674.52pt>
+<figures/1j/WP_1b_70_77_postFit.png, id=1117, 598.235pt x 674.52pt>
 File: figures/1j/WP_1b_70_77_postFit.png Graphic file (type png)
 
 <use figures/1j/WP_1b_70_77_postFit.png>
@@ -4315,7 +4526,7 @@ Overfull \hbox (20.9203pt too wide) in paragraph at lines 14--16
  [][][] 
  []
 
-<figures/1j/WP_1b_60_70_postFit.png, id=1075, 598.235pt x 674.52pt>
+<figures/1j/WP_1b_60_70_postFit.png, id=1118, 598.235pt x 674.52pt>
 File: figures/1j/WP_1b_60_70_postFit.png Graphic file (type png)
 
 <use figures/1j/WP_1b_60_70_postFit.png>
@@ -4323,7 +4534,7 @@ Package pdftex.def Info: figures/1j/WP_1b_60_70_postFit.png used on input line
 17.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/1j/WP_1b_60_postFit.png, id=1076, 598.235pt x 674.52pt>
+<figures/1j/WP_1b_60_postFit.png, id=1119, 598.235pt x 674.52pt>
 File: figures/1j/WP_1b_60_postFit.png Graphic file (type png)
 
 <use figures/1j/WP_1b_60_postFit.png>
@@ -4331,7 +4542,7 @@ Package pdftex.def Info: figures/1j/WP_1b_60_postFit.png used on input line 18.
 
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/1j/tZ_CR_postFit.png, id=1077, 598.235pt x 674.52pt>
+<figures/1j/tZ_CR_postFit.png, id=1120, 598.235pt x 674.52pt>
 File: figures/1j/tZ_CR_postFit.png Graphic file (type png)
 
 <use figures/1j/tZ_CR_postFit.png>
@@ -4342,20 +4553,20 @@ Overfull \hbox (20.9203pt too wide) in paragraph at lines 17--19
  [][][][] 
  []
 
-<figures/1j/Summary_postFit.png, id=1079, 899.36pt x 674.52pt>
+<figures/1j/Summary_postFit.png, id=1122, 899.36pt x 674.52pt>
 File: figures/1j/Summary_postFit.png Graphic file (type png)
 
 <use figures/1j/Summary_postFit.png>
 Package pdftex.def Info: figures/1j/Summary_postFit.png used on input line 28.
 (pdftex.def)             Requested size: 376.4258pt x 282.3187pt.
- [42pdfTeX warning (ext4): destination with the same identifier (name{figure.23
+ [45pdfTeX warning (ext4): destination with the same identifier (name{figure.27
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.35 
-      <./figures/1j/Summary_postFit.png>] [43pdfTeX warning (ext4): destination
- with the same identifier (name{figure.22}) has been already used, duplicate ig
+      <./figures/1j/Summary_postFit.png>] [46pdfTeX warning (ext4): destination
+ with the same identifier (name{figure.26}) has been already used, duplicate ig
 nored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -4364,26 +4575,26 @@ l.62
       <./figures/1j/not_85_postFit.png> <./figures/1j/WP_1b_77_85_postFit.png> 
 <./figures/1j/WP_1b_70_77_postFit.png> <./figures/1j/WP_1b_60_70_postFit.png> <
 ./figures/1j/WP_1b_60_postFit.png> <./figures/1j/tZ_CR_postFit.png>]
-<figures/1j/Ranking.png, id=1095, 598.235pt x 1111.15125pt>
+<figures/1j/Ranking.png, id=1137, 598.235pt x 1111.15125pt>
 File: figures/1j/Ranking.png Graphic file (type png)
 
 <use figures/1j/Ranking.png>
 Package pdftex.def Info: figures/1j/Ranking.png used on input line 67.
 (pdftex.def)             Requested size: 292.77632pt x 543.80763pt.
- [44pdfTeX warning (ext4): destination with the same identifier (name{table.14}
+ [47pdfTeX warning (ext4): destination with the same identifier (name{table.14}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.71 
-     ] [45pdfTeX warning (ext4): destination with the same identifier (name{fig
-ure.24}) has been already used, duplicate ignored
+     ] [48pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.28}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.73 
       <./figures/1j/Ranking.png>]
-<figures/1j/PieChart_postFit.png, id=1107, 748.7975pt x 574.145pt>
+<figures/1j/PieChart_postFit.png, id=1148, 748.7975pt x 574.145pt>
 File: figures/1j/PieChart_postFit.png Graphic file (type png)
 
 <use figures/1j/PieChart_postFit.png>
@@ -4391,27 +4602,27 @@ Package pdftex.def Info: figures/1j/PieChart_postFit.png used on input line 76.
 
 (pdftex.def)             Requested size: 292.77632pt x 224.48509pt.
 
-<figures/1j/CorrMatrix.png, id=1109, 1551.7975pt x 1527.7075pt>
+<figures/1j/CorrMatrix.png, id=1150, 1652.1725pt x 1628.0825pt>
 File: figures/1j/CorrMatrix.png Graphic file (type png)
 
 <use figures/1j/CorrMatrix.png>
 Package pdftex.def Info: figures/1j/CorrMatrix.png used on input line 85.
-(pdftex.def)             Requested size: 418.25372pt x 411.7639pt.
- [46pdfTeX warning (ext4): destination with the same identifier (name{figure.25
+(pdftex.def)             Requested size: 418.25372pt x 412.13718pt.
+ [49pdfTeX warning (ext4): destination with the same identifier (name{figure.29
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.89 
-      <./figures/1j/PieChart_postFit.png>] [47pdfTeX warning (ext4): destinatio
-n with the same identifier (name{figure.26}) has been already used, duplicate i
+      <./figures/1j/PieChart_postFit.png>] [50pdfTeX warning (ext4): destinatio
+n with the same identifier (name{figure.30}) has been already used, duplicate i
 gnored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.95 
       <./figures/1j/CorrMatrix.png>]
-<figures/2j/not_85_2j_postFit.png, id=1121, 598.235pt x 674.52pt>
+<figures/2j/not_85_2j_postFit.png, id=1163, 598.235pt x 674.52pt>
 File: figures/2j/not_85_2j_postFit.png Graphic file (type png)
 
 <use figures/2j/not_85_2j_postFit.png>
@@ -4419,7 +4630,7 @@ Package pdftex.def Info: figures/2j/not_85_2j_postFit.png used on input line 15
 3.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/2j/WP_2b_77_85_postFit.png, id=1122, 598.235pt x 674.52pt>
+<figures/2j/WP_2b_77_85_postFit.png, id=1164, 598.235pt x 674.52pt>
 File: figures/2j/WP_2b_77_85_postFit.png Graphic file (type png)
 
 <use figures/2j/WP_2b_77_85_postFit.png>
@@ -4427,7 +4638,7 @@ Package pdftex.def Info: figures/2j/WP_2b_77_85_postFit.png used on input line
 154.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/2j/WP_2b_70_77_postFit.png, id=1123, 598.235pt x 674.52pt>
+<figures/2j/WP_2b_70_77_postFit.png, id=1165, 598.235pt x 674.52pt>
 File: figures/2j/WP_2b_70_77_postFit.png Graphic file (type png)
 
 <use figures/2j/WP_2b_70_77_postFit.png>
@@ -4439,7 +4650,7 @@ Overfull \hbox (20.9203pt too wide) in paragraph at lines 153--155
  [][][] 
  []
 
-<figures/2j/WP_2b_60_70_postFit.png, id=1124, 598.235pt x 674.52pt>
+<figures/2j/WP_2b_60_70_postFit.png, id=1166, 598.235pt x 674.52pt>
 File: figures/2j/WP_2b_60_70_postFit.png Graphic file (type png)
 
 <use figures/2j/WP_2b_60_70_postFit.png>
@@ -4447,7 +4658,7 @@ Package pdftex.def Info: figures/2j/WP_2b_60_70_postFit.png used on input line
 156.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/2j/WP_2b_60_postFit.png, id=1125, 598.235pt x 674.52pt>
+<figures/2j/WP_2b_60_postFit.png, id=1167, 598.235pt x 674.52pt>
 File: figures/2j/WP_2b_60_postFit.png Graphic file (type png)
 
 <use figures/2j/WP_2b_60_postFit.png>
@@ -4455,7 +4666,7 @@ Package pdftex.def Info: figures/2j/WP_2b_60_postFit.png used on input line 157
 .
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/2j/tZ_CR_2j_postFit.png, id=1126, 598.235pt x 674.52pt>
+<figures/2j/tZ_CR_2j_postFit.png, id=1168, 598.235pt x 674.52pt>
 File: figures/2j/tZ_CR_2j_postFit.png Graphic file (type png)
 
 <use figures/2j/tZ_CR_2j_postFit.png>
@@ -4467,7 +4678,7 @@ Overfull \hbox (20.9203pt too wide) in paragraph at lines 156--158
  [][][][] 
  []
 
-<figures/2j/Summary_postFit.png, id=1128, 899.36pt x 674.52pt>
+<figures/2j/Summary_postFit.png, id=1170, 899.36pt x 674.52pt>
 File: figures/2j/Summary_postFit.png Graphic file (type png)
 
 <use figures/2j/Summary_postFit.png>
@@ -4478,7 +4689,7 @@ Package pdftex.def Info: figures/2j/Summary_postFit.png used on input line 167.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[48pdfTeX warning (ext4): destination with the same identifier (name{figure.27}
+[51pdfTeX warning (ext4): destination with the same identifier (name{figure.31}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -4487,13 +4698,13 @@ l.202
        <./figures/2j/not_85_2j_postFit.png> <./figures/2j/WP_2b_77_85_postFit.p
 ng> <./figures/2j/WP_2b_70_77_postFit.png> <./figures/2j/WP_2b_60_70_postFit.pn
 g> <./figures/2j/WP_2b_60_postFit.png> <./figures/2j/tZ_CR_2j_postFit.png>]
-<figures/2j/Ranking.png, id=1138, 598.235pt x 1111.15125pt>
+<figures/2j/Ranking.png, id=1180, 598.235pt x 1111.15125pt>
 File: figures/2j/Ranking.png Graphic file (type png)
 
 <use figures/2j/Ranking.png>
 Package pdftex.def Info: figures/2j/Ranking.png used on input line 207.
 (pdftex.def)             Requested size: 292.77632pt x 543.80763pt.
- [49pdfTeX warning (ext4): destination with the same identifier (name{figure.28
+ [52pdfTeX warning (ext4): destination with the same identifier (name{figure.32
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -4505,15 +4716,15 @@ l.211
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.211 
-       <./figures/2j/Summary_postFit.png>] [50pdfTeX warning (ext4): destinatio
-n with the same identifier (name{figure.29}) has been already used, duplicate i
+       <./figures/2j/Summary_postFit.png>] [53pdfTeX warning (ext4): destinatio
+n with the same identifier (name{figure.33}) has been already used, duplicate i
 gnored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.213 
        <./figures/2j/Ranking.png>]
-<figures/2j/PieChart_postFit.png, id=1150, 748.7975pt x 574.145pt>
+<figures/2j/PieChart_postFit.png, id=1191, 748.7975pt x 574.145pt>
 File: figures/2j/PieChart_postFit.png Graphic file (type png)
 
 <use figures/2j/PieChart_postFit.png>
@@ -4521,37 +4732,37 @@ Package pdftex.def Info: figures/2j/PieChart_postFit.png used on input line 216
 .
 (pdftex.def)             Requested size: 292.77632pt x 224.48509pt.
 
-<figures/2j/CorrMatrix.png, id=1152, 1802.735pt x 1778.645pt>
+<figures/2j/CorrMatrix.png, id=1193, 1802.735pt x 1778.645pt>
 File: figures/2j/CorrMatrix.png Graphic file (type png)
 
 <use figures/2j/CorrMatrix.png>
 Package pdftex.def Info: figures/2j/CorrMatrix.png used on input line 225.
 (pdftex.def)             Requested size: 418.25372pt x 412.66222pt.
- [51pdfTeX warning (ext4): destination with the same identifier (name{figure.30
+ [54pdfTeX warning (ext4): destination with the same identifier (name{figure.34
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.229 
-       <./figures/2j/PieChart_postFit.png>]) [52pdfTeX warning (ext4): destinat
-ion with the same identifier (name{figure.31}) has been already used, duplicate
+       <./figures/2j/PieChart_postFit.png>]) [55pdfTeX warning (ext4): destinat
+ion with the same identifier (name{figure.35}) has been already used, duplicate
  ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.203 
+l.218 
        <./figures/2j/CorrMatrix.png>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 207.
- [53] [54]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
+(Font)              scaled to size 10.95pt on input line 222.
+ [56] [57]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 272.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 272.
  (./wz_heavy_flavor.aux
 (./sections/xsecUnc.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 272.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 272.
 Package rerunfilecheck Info: File `wz_heavy_flavor.out' has not changed.
-(rerunfilecheck)             Checksum: 41175D89F693CE779335B42D8062A4C0;2031.
+(rerunfilecheck)             Checksum: 76EEF6D8AC4C493480FE4E09F05DB3EB;2064.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -4559,6 +4770,9 @@ LaTeX Font Warning: Size substitutions with differences
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -4570,10 +4784,10 @@ Package logreq Info: Writing requests to 'wz_heavy_flavor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40174 strings out of 493013
- 798713 string characters out of 6123688
- 1264309 words of memory out of 5000000
- 42712 multiletter control sequences out of 15000+600000
+ 40250 strings out of 493013
+ 801474 string characters out of 6123688
+ 1266581 words of memory out of 5000000
+ 42756 multiletter control sequences out of 15000+600000
  172019 words of font info for 236 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,24n,74p,10411b,1995s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4602,10 +4816,10 @@ n.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb
 fonts/t1xtt.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/
 type1/public/newtx/txbsys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/tex
 mf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (54 pages, 3946397 bytes).
+Output written on wz_heavy_flavor.pdf (57 pages, 4164083 bytes).
 PDF statistics:
- 1320 PDF objects out of 1440 (max. 8388607)
- 851 compressed objects within 9 object streams
- 260 named destinations out of 1000 (max. 500000)
- 951 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1366 PDF objects out of 1440 (max. 8388607)
+ 883 compressed objects within 9 object streams
+ 285 named destinations out of 1000 (max. 500000)
+ 1006 words of extra memory for PDF output out of 10000 (max. 10000000)
 
