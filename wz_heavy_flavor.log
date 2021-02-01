@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  23 JAN 2021 09:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  1 FEB 2021 10:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4538,7 +4538,7 @@ LaTeX Warning: Citation 'LUCID2' on page 43 undefined on input line 39.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.49 
+l.46 
       <./figures/tZ_bdt/feature_importance.png>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 55.
@@ -4600,32 +4600,24 @@ LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 9.0pt on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <9> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 22.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 9.0pt on input line 22.
+(Font)              scaled to size 9.0pt on input line 27.
 )) (./sections/splitResults.tex [46pdfTeX warning (ext4): destination with the 
 same identifier (name{table.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.3 
-    
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{table.13}) ha
-s been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.3 
-    ] <figures/1j/not_85_postFit.png, id=1157, 598.235pt x 674.52pt>
+l.8 \subsection{1-jet Fit Results}
+                                  ]
+<figures/1j/not_85_postFit.png, id=1158, 598.235pt x 674.52pt>
 File: figures/1j/not_85_postFit.png Graphic file (type png)
 
 <use figures/1j/not_85_postFit.png>
 Package pdftex.def Info: figures/1j/not_85_postFit.png used on input line 14.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/1j/WP_1b_77_85_postFit.png, id=1158, 598.235pt x 674.52pt>
+<figures/1j/WP_1b_77_85_postFit.png, id=1159, 598.235pt x 674.52pt>
 File: figures/1j/WP_1b_77_85_postFit.png Graphic file (type png)
 
 <use figures/1j/WP_1b_77_85_postFit.png>
@@ -4633,7 +4625,7 @@ Package pdftex.def Info: figures/1j/WP_1b_77_85_postFit.png used on input line
 15.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/1j/WP_1b_70_77_postFit.png, id=1159, 598.235pt x 674.52pt>
+<figures/1j/WP_1b_70_77_postFit.png, id=1160, 598.235pt x 674.52pt>
 File: figures/1j/WP_1b_70_77_postFit.png Graphic file (type png)
 
 <use figures/1j/WP_1b_70_77_postFit.png>
@@ -4645,7 +4637,7 @@ Overfull \hbox (20.9203pt too wide) in paragraph at lines 14--16
  [][][] 
  []
 
-<figures/1j/WP_1b_60_70_postFit.png, id=1160, 598.235pt x 674.52pt>
+<figures/1j/WP_1b_60_70_postFit.png, id=1161, 598.235pt x 674.52pt>
 File: figures/1j/WP_1b_60_70_postFit.png Graphic file (type png)
 
 <use figures/1j/WP_1b_60_70_postFit.png>
@@ -4653,7 +4645,7 @@ Package pdftex.def Info: figures/1j/WP_1b_60_70_postFit.png used on input line
 17.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/1j/WP_1b_60_postFit.png, id=1161, 598.235pt x 674.52pt>
+<figures/1j/WP_1b_60_postFit.png, id=1162, 598.235pt x 674.52pt>
 File: figures/1j/WP_1b_60_postFit.png Graphic file (type png)
 
 <use figures/1j/WP_1b_60_postFit.png>
@@ -4661,7 +4653,7 @@ Package pdftex.def Info: figures/1j/WP_1b_60_postFit.png used on input line 18.
 
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/1j/tZ_CR_postFit.png, id=1162, 598.235pt x 674.52pt>
+<figures/1j/tZ_CR_postFit.png, id=1163, 598.235pt x 674.52pt>
 File: figures/1j/tZ_CR_postFit.png Graphic file (type png)
 
 <use figures/1j/tZ_CR_postFit.png>
@@ -4672,28 +4664,41 @@ Overfull \hbox (20.9203pt too wide) in paragraph at lines 17--19
  [][][][] 
  []
 
-<figures/1j/Summary_postFit.png, id=1164, 899.36pt x 674.52pt>
+<figures/1j/Summary_postFit.png, id=1165, 899.36pt x 674.52pt>
 File: figures/1j/Summary_postFit.png Graphic file (type png)
 
 <use figures/1j/Summary_postFit.png>
 Package pdftex.def Info: figures/1j/Summary_postFit.png used on input line 28.
 (pdftex.def)             Requested size: 376.4258pt x 282.3187pt.
- [47pdfTeX warning (ext4): destination with the same identifier (name{figure.29
-}) has been already used, duplicate ignored
+ [47
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.13}) ha
+s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.35 
-      <./figures/1j/Summary_postFit.png>] [48pdfTeX warning (ext4): destination
- with the same identifier (name{figure.28}) has been already used, duplicate ig
-nored
+l.32 
+     ]
+Overfull \vbox (89.14478pt too high) has occurred while \output is active []
+
+
+[48pdfTeX warning (ext4): destination with the same identifier (name{figure.28}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.62 
+l.32 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.32 
       <./figures/1j/not_85_postFit.png> <./figures/1j/WP_1b_77_85_postFit.png> 
 <./figures/1j/WP_1b_70_77_postFit.png> <./figures/1j/WP_1b_60_70_postFit.png> <
-./figures/1j/WP_1b_60_postFit.png> <./figures/1j/tZ_CR_postFit.png>]
+./figures/1j/WP_1b_60_postFit.png> <./figures/1j/tZ_CR_postFit.png> <./figures/
+1j/Summary_postFit.png>]
 <figures/1j/Ranking.png, id=1179, 598.235pt x 1111.15125pt>
 File: figures/1j/Ranking.png Graphic file (type png)
 
@@ -4713,7 +4718,7 @@ ure.30}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.73 
       <./figures/1j/Ranking.png>]
-<figures/1j/PieChart_postFit.png, id=1191, 748.7975pt x 574.145pt>
+<figures/1j/PieChart_postFit.png, id=1192, 748.7975pt x 574.145pt>
 File: figures/1j/PieChart_postFit.png Graphic file (type png)
 
 <use figures/1j/PieChart_postFit.png>
@@ -4721,12 +4726,12 @@ Package pdftex.def Info: figures/1j/PieChart_postFit.png used on input line 76.
 
 (pdftex.def)             Requested size: 292.77632pt x 224.48509pt.
 
-<figures/1j/CorrMatrix.png, id=1193, 1652.1725pt x 1628.0825pt>
+<figures/1j/CorrMatrix.png, id=1194, 1903.11pt x 1879.02pt>
 File: figures/1j/CorrMatrix.png Graphic file (type png)
 
 <use figures/1j/CorrMatrix.png>
 Package pdftex.def Info: figures/1j/CorrMatrix.png used on input line 85.
-(pdftex.def)             Requested size: 418.25372pt x 412.13718pt.
+(pdftex.def)             Requested size: 418.25372pt x 412.95561pt.
  [51pdfTeX warning (ext4): destination with the same identifier (name{figure.31
 }) has been already used, duplicate ignored
 
@@ -4741,7 +4746,7 @@ gnored
                                                   \fi \fi 
 l.95 
       <./figures/1j/CorrMatrix.png>]
-<figures/2j/not_85_2j_postFit.png, id=1205, 598.235pt x 674.52pt>
+<figures/2j/not_85_2j_postFit.png, id=1206, 598.235pt x 674.52pt>
 File: figures/2j/not_85_2j_postFit.png Graphic file (type png)
 
 <use figures/2j/not_85_2j_postFit.png>
@@ -4749,7 +4754,7 @@ Package pdftex.def Info: figures/2j/not_85_2j_postFit.png used on input line 15
 3.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/2j/WP_2b_77_85_postFit.png, id=1206, 598.235pt x 674.52pt>
+<figures/2j/WP_2b_77_85_postFit.png, id=1207, 598.235pt x 674.52pt>
 File: figures/2j/WP_2b_77_85_postFit.png Graphic file (type png)
 
 <use figures/2j/WP_2b_77_85_postFit.png>
@@ -4757,7 +4762,7 @@ Package pdftex.def Info: figures/2j/WP_2b_77_85_postFit.png used on input line
 154.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/2j/WP_2b_70_77_postFit.png, id=1207, 598.235pt x 674.52pt>
+<figures/2j/WP_2b_70_77_postFit.png, id=1208, 598.235pt x 674.52pt>
 File: figures/2j/WP_2b_70_77_postFit.png Graphic file (type png)
 
 <use figures/2j/WP_2b_70_77_postFit.png>
@@ -4769,7 +4774,7 @@ Overfull \hbox (20.9203pt too wide) in paragraph at lines 153--155
  [][][] 
  []
 
-<figures/2j/WP_2b_60_70_postFit.png, id=1208, 598.235pt x 674.52pt>
+<figures/2j/WP_2b_60_70_postFit.png, id=1209, 598.235pt x 674.52pt>
 File: figures/2j/WP_2b_60_70_postFit.png Graphic file (type png)
 
 <use figures/2j/WP_2b_60_70_postFit.png>
@@ -4777,7 +4782,7 @@ Package pdftex.def Info: figures/2j/WP_2b_60_70_postFit.png used on input line
 156.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/2j/WP_2b_60_postFit.png, id=1209, 598.235pt x 674.52pt>
+<figures/2j/WP_2b_60_postFit.png, id=1210, 598.235pt x 674.52pt>
 File: figures/2j/WP_2b_60_postFit.png Graphic file (type png)
 
 <use figures/2j/WP_2b_60_postFit.png>
@@ -4785,7 +4790,7 @@ Package pdftex.def Info: figures/2j/WP_2b_60_postFit.png used on input line 157
 .
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/2j/tZ_CR_2j_postFit.png, id=1210, 598.235pt x 674.52pt>
+<figures/2j/tZ_CR_2j_postFit.png, id=1211, 598.235pt x 674.52pt>
 File: figures/2j/tZ_CR_2j_postFit.png Graphic file (type png)
 
 <use figures/2j/tZ_CR_2j_postFit.png>
@@ -4797,7 +4802,7 @@ Overfull \hbox (20.9203pt too wide) in paragraph at lines 156--158
  [][][][] 
  []
 
-<figures/2j/Summary_postFit.png, id=1212, 899.36pt x 674.52pt>
+<figures/2j/Summary_postFit.png, id=1213, 899.36pt x 674.52pt>
 File: figures/2j/Summary_postFit.png Graphic file (type png)
 
 <use figures/2j/Summary_postFit.png>
@@ -4817,7 +4822,7 @@ l.202
        <./figures/2j/not_85_2j_postFit.png> <./figures/2j/WP_2b_77_85_postFit.p
 ng> <./figures/2j/WP_2b_70_77_postFit.png> <./figures/2j/WP_2b_60_70_postFit.pn
 g> <./figures/2j/WP_2b_60_postFit.png> <./figures/2j/tZ_CR_2j_postFit.png>]
-<figures/2j/Ranking.png, id=1222, 598.235pt x 1111.15125pt>
+<figures/2j/Ranking.png, id=1223, 598.235pt x 1111.15125pt>
 File: figures/2j/Ranking.png Graphic file (type png)
 
 <use figures/2j/Ranking.png>
@@ -4843,7 +4848,7 @@ gnored
                                                   \fi \fi 
 l.213 
        <./figures/2j/Ranking.png>]
-<figures/2j/PieChart_postFit.png, id=1234, 748.7975pt x 574.145pt>
+<figures/2j/PieChart_postFit.png, id=1235, 748.7975pt x 574.145pt>
 File: figures/2j/PieChart_postFit.png Graphic file (type png)
 
 <use figures/2j/PieChart_postFit.png>
@@ -4851,12 +4856,12 @@ Package pdftex.def Info: figures/2j/PieChart_postFit.png used on input line 216
 .
 (pdftex.def)             Requested size: 292.77632pt x 224.48509pt.
 
-<figures/2j/CorrMatrix.png, id=1236, 1802.735pt x 1778.645pt>
+<figures/2j/CorrMatrix.png, id=1237, 1953.2975pt x 1929.2075pt>
 File: figures/2j/CorrMatrix.png Graphic file (type png)
 
 <use figures/2j/CorrMatrix.png>
 Package pdftex.def Info: figures/2j/CorrMatrix.png used on input line 225.
-(pdftex.def)             Requested size: 418.25372pt x 412.66222pt.
+(pdftex.def)             Requested size: 418.25372pt x 413.09361pt.
  [56pdfTeX warning (ext4): destination with the same identifier (name{figure.36
 }) has been already used, duplicate ignored
 
@@ -4905,7 +4910,7 @@ Package logreq Info: Writing requests to 'wz_heavy_flavor.run.xml'.
 Here is how much of TeX's memory you used:
  40353 strings out of 493013
  805582 string characters out of 6123688
- 1269138 words of memory out of 5000000
+ 1270138 words of memory out of 5000000
  42833 multiletter control sequences out of 15000+600000
  172019 words of font info for 236 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4935,10 +4940,10 @@ n.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb
 fonts/t1xtt.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/
 type1/public/newtx/txbsys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/tex
 mf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (59 pages, 4653343 bytes).
+Output written on wz_heavy_flavor.pdf (59 pages, 4712731 bytes).
 PDF statistics:
- 1412 PDF objects out of 1440 (max. 8388607)
- 907 compressed objects within 10 object streams
+ 1413 PDF objects out of 1440 (max. 8388607)
+ 908 compressed objects within 10 object streams
  299 named destinations out of 1000 (max. 500000)
  1101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
