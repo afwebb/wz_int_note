@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  1 FEB 2021 10:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  1 FEB 2021 12:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4565,14 +4565,22 @@ Overfull \hbox (68.72618pt too wide) in paragraph at lines 53--101
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (43.29628pt too wide) in paragraph at lines 151--173
+ [] 
+ []
+
 [44pdfTeX warning (ext4): destination with the same identifier (name{table.9}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.147 
+l.176 
       ]
-Overfull \vbox (236.79204pt too high) has occurred while \output is active []
+Overfull \vbox (118.79204pt too high) has occurred while \output is active []
 
 
 [45pdfTeX warning (ext4): destination with the same identifier (name{table.10})
@@ -4580,37 +4588,28 @@ Overfull \vbox (236.79204pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.147 
+l.176 
       pdfTeX warning (ext4): destination with the same identifier (name{table.1
-1}) has been already used, duplicate ignored
+2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.147 
+l.176 
       ]
-Overfull \hbox (43.29628pt too wide) in paragraph at lines 151--173
- [] 
- []
-
 \openout2 = `sections/xsecUnc.aux'.
 
-(./sections/xsecUnc.tex
+ (./sections/xsecUnc.tex
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 (Font)              scaled to size 8.09995pt on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 9.0pt on input line 1.
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <9> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 27.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 9.0pt on input line 27.
 )) (./sections/splitResults.tex [46pdfTeX warning (ext4): destination with the 
-same identifier (name{table.12}) has been already used, duplicate ignored
+same identifier (name{table.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.8 \subsection{1-jet Fit Results}
-                                  ]
-<figures/1j/not_85_postFit.png, id=1158, 598.235pt x 674.52pt>
+l.3 
+    ] <figures/1j/not_85_postFit.png, id=1158, 598.235pt x 674.52pt>
 File: figures/1j/not_85_postFit.png Graphic file (type png)
 
 <use figures/1j/not_85_postFit.png>
@@ -4874,17 +4873,17 @@ ion with the same identifier (name{figure.37}) has been already used, duplicate
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.220 
+l.226 
        <./figures/2j/CorrMatrix.png>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 224.
+(Font)              scaled to size 10.95pt on input line 230.
  [58] [59]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
  (./wz_heavy_flavor.aux
 (./sections/xsecUnc.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 274.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 274.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
 Package rerunfilecheck Info: File `wz_heavy_flavor.out' has not changed.
 (rerunfilecheck)             Checksum: 76EEF6D8AC4C493480FE4E09F05DB3EB;2064.
 
@@ -4908,11 +4907,11 @@ Package logreq Info: Writing requests to 'wz_heavy_flavor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40353 strings out of 493013
- 805582 string characters out of 6123688
- 1270138 words of memory out of 5000000
- 42833 multiletter control sequences out of 15000+600000
- 172019 words of font info for 236 fonts, out of 8000000 for 9000
+ 40351 strings out of 493013
+ 805551 string characters out of 6123688
+ 1273138 words of memory out of 5000000
+ 42831 multiletter control sequences out of 15000+600000
+ 169219 words of font info for 235 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,24n,74p,10411b,1995s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/enc/dvips/newt
@@ -4940,7 +4939,7 @@ n.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb
 fonts/t1xtt.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/
 type1/public/newtx/txbsys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/tex
 mf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (59 pages, 4712731 bytes).
+Output written on wz_heavy_flavor.pdf (59 pages, 4713082 bytes).
 PDF statistics:
  1413 PDF objects out of 1440 (max. 8388607)
  908 compressed objects within 10 object streams
