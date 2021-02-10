@@ -32,3 +32,5 @@
 \contentsline {subsection}{\numberline {8.1}1-jet Fit Results}{47}{subsection.8.1}
 \contentsline {subsection}{\numberline {8.2}2-jet Fit Results}{53}{subsection.8.2}
 \contentsline {section}{\numberline {9}Conclusion}{57}{section.9}
+\contentsline {part}{Appendices}{60}{part*.3}
+\contentsline {section}{\numberline {A}tZ Interference Studies}{60}{appendix.A}

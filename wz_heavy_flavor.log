@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  4 FEB 2021 20:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  9 FEB 2021 19:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4273,76 +4273,111 @@ l.5
 LaTeX Warning: Citation 'Madgraph' on page 38 undefined on input line 13.
 
 Package epstopdf Info: Source file: <figures/tZInterference/lepPairMass23.eps>
-(epstopdf)                    date: 2019-12-11 14:30:23
-(epstopdf)                    size: 17053 bytes
+(epstopdf)                    date: 2021-02-05 15:11:00
+(epstopdf)                    size: 21099727 bytes
 (epstopdf)             Output file: <figures/tZInterference/lepPairMass23-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2020-08-20 12:28:44
-(epstopdf)                    size: 9358 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/lep
 PairMass23-eps-converted-to.pdf figures/tZInterference/lepPairMass23.eps>
 (epstopdf)             \includegraphics on input line 20.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=figures/tZInterference/lepPairMass23-eps-converte
+d-to.pdf figures/tZInterference/lepPairMass23.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <figures/tZInterference/lepPairMass23-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2021-02-09 19:28:48
+(epstopdf)                    size: 76367 bytes.
+
+
+pdfTeX warning: pdflatex (file ./figures/tZInterference/lepPairMass23-eps-conve
+rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
+ allowed
 
 <figures/tZInterference/lepPairMass23-eps-converted-to.pdf, id=705, 569.12625pt
- x 385.44pt>
+ x 387.4475pt>
 File: figures/tZInterference/lepPairMass23-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use figures/tZInterference/lepPairMass23-eps-converted-to.pdf>
 Package pdftex.def Info: figures/tZInterference/lepPairMass23-eps-converted-to.
 pdf used on input line 20.
-(pdftex.def)             Requested size: 196.57976pt x 133.13573pt.
+(pdftex.def)             Requested size: 196.57976pt x 133.82915pt.
 Package epstopdf Info: Source file: <figures/tZInterference/lep1pt.eps>
-(epstopdf)                    date: 2019-12-11 14:30:23
-(epstopdf)                    size: 18866 bytes
+(epstopdf)                    date: 2021-02-05 15:09:08
+(epstopdf)                    size: 21100098 bytes
 (epstopdf)             Output file: <figures/tZInterference/lep1pt-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2020-08-20 12:28:45
-(epstopdf)                    size: 10503 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/lep
 1pt-eps-converted-to.pdf figures/tZInterference/lep1pt.eps>
 (epstopdf)             \includegraphics on input line 21.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=figures/tZInterference/lep1pt-eps-converted-to.pd
+f figures/tZInterference/lep1pt.eps)...executed safely (allowed).
 
-<figures/tZInterference/lep1pt-eps-converted-to.pdf, id=706, 569.12625pt x 385.
-44pt>
+Package epstopdf Info: Result file: <figures/tZInterference/lep1pt-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2021-02-09 19:29:01
+(epstopdf)                    size: 77019 bytes.
+
+
+pdfTeX warning: pdflatex (file ./figures/tZInterference/lep1pt-eps-converted-to
+.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
+d
+
+<figures/tZInterference/lep1pt-eps-converted-to.pdf, id=706, 569.12625pt x 387.
+4475pt>
 File: figures/tZInterference/lep1pt-eps-converted-to.pdf Graphic file (type pdf
 )
  <use figures/tZInterference/lep1pt-eps-converted-to.pdf>
 Package pdftex.def Info: figures/tZInterference/lep1pt-eps-converted-to.pdf use
 d on input line 21.
-(pdftex.def)             Requested size: 196.57976pt x 133.13573pt.
+(pdftex.def)             Requested size: 196.57976pt x 133.82915pt.
 Package epstopdf Info: Source file: <figures/tZInterference/drll23.eps>
-(epstopdf)                    date: 2019-12-11 14:30:23
-(epstopdf)                    size: 17151 bytes
+(epstopdf)                    date: 2021-02-05 15:11:34
+(epstopdf)                    size: 21099186 bytes
 (epstopdf)             Output file: <figures/tZInterference/drll23-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2020-08-20 12:28:45
-(epstopdf)                    size: 8547 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/drl
 l23-eps-converted-to.pdf figures/tZInterference/drll23.eps>
 (epstopdf)             \includegraphics on input line 22.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=figures/tZInterference/drll23-eps-converted-to.pd
+f figures/tZInterference/drll23.eps)...executed safely (allowed).
 
-<figures/tZInterference/drll23-eps-converted-to.pdf, id=707, 569.12625pt x 385.
-44pt>
+Package epstopdf Info: Result file: <figures/tZInterference/drll23-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2021-02-09 19:29:15
+(epstopdf)                    size: 75771 bytes.
+
+
+pdfTeX warning: pdflatex (file ./figures/tZInterference/drll23-eps-converted-to
+.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
+d
+
+<figures/tZInterference/drll23-eps-converted-to.pdf, id=707, 569.12625pt x 387.
+4475pt>
 File: figures/tZInterference/drll23-eps-converted-to.pdf Graphic file (type pdf
 )
  <use figures/tZInterference/drll23-eps-converted-to.pdf>
 Package pdftex.def Info: figures/tZInterference/drll23-eps-converted-to.pdf use
 d on input line 22.
-(pdftex.def)             Requested size: 196.57976pt x 133.13573pt.
+(pdftex.def)             Requested size: 196.57976pt x 133.82915pt.
 Package epstopdf Info: Source file: <figures/tZInterference/btpt.eps>
-(epstopdf)                    date: 2020-11-13 13:23:53
-(epstopdf)                    size: 21101477 bytes
+(epstopdf)                    date: 2021-02-05 15:11:44
+(epstopdf)                    size: 21101139 bytes
 (epstopdf)             Output file: <figures/tZInterference/btpt-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2020-11-16 11:45:07
-(epstopdf)                    size: 37444 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/btp
 t-eps-converted-to.pdf figures/tZInterference/btpt.eps>
 (epstopdf)             \includegraphics on input line 23.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=figures/tZInterference/btpt-eps-converted-to.pdf 
+figures/tZInterference/btpt.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <figures/tZInterference/btpt-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2021-02-09 19:29:29
+(epstopdf)                    size: 77307 bytes.
+
+
+pdfTeX warning: pdflatex (file ./figures/tZInterference/btpt-eps-converted-to.p
+df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 <figures/tZInterference/btpt-eps-converted-to.pdf, id=708, 569.12625pt x 387.44
 75pt>
@@ -4373,7 +4408,7 @@ f>
 (epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/tZ_bdt/topMass-eps-converted-to.pdf, id=755, 462.72874pt x 347.2975pt>
+<figures/tZ_bdt/topMass-eps-converted-to.pdf, id=785, 462.72874pt x 347.2975pt>
 File: figures/tZ_bdt/topMass-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/tZ_bdt/topMass-eps-converted-to.pdf>
 Package pdftex.def Info: figures/tZ_bdt/topMass-eps-converted-to.pdf used on in
@@ -4391,28 +4426,28 @@ LaTeX Warning: Citation 'xgboost_cite' on page 40 undefined on input line 63.
 l.70      \item D
                  istance between each combination of leptons, $\Delta R (ll)$ <
 ./figures/tZ_bdt/topMass-eps-converted-to.pdf>]
-<figures/tZ_bdt_ab127/1j/ab127/lep_Pt_0.pdf, id=766, 462.52798pt x 346.89601pt>
+<figures/tZ_bdt_ab127/1j/ab127/lep_Pt_0.pdf, id=796, 462.52798pt x 346.89601pt>
 File: figures/tZ_bdt_ab127/1j/ab127/lep_Pt_0.pdf Graphic file (type pdf)
 <use figures/tZ_bdt_ab127/1j/ab127/lep_Pt_0.pdf>
 Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/lep_Pt_0.pdf used on inp
 ut line 80.
 (pdftex.def)             Requested size: 133.84425pt x 100.38553pt.
 
-<figures/tZ_bdt_ab127/1j/ab127/lep_Pt_1.pdf, id=767, 462.52798pt x 346.89601pt>
+<figures/tZ_bdt_ab127/1j/ab127/lep_Pt_1.pdf, id=797, 462.52798pt x 346.89601pt>
 File: figures/tZ_bdt_ab127/1j/ab127/lep_Pt_1.pdf Graphic file (type pdf)
 <use figures/tZ_bdt_ab127/1j/ab127/lep_Pt_1.pdf>
 Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/lep_Pt_1.pdf used on inp
 ut line 81.
 (pdftex.def)             Requested size: 133.84425pt x 100.38553pt.
 
-<figures/tZ_bdt_ab127/1j/ab127/jet_Pt_0.pdf, id=768, 462.52798pt x 346.89601pt>
+<figures/tZ_bdt_ab127/1j/ab127/jet_Pt_0.pdf, id=798, 462.52798pt x 346.89601pt>
 File: figures/tZ_bdt_ab127/1j/ab127/jet_Pt_0.pdf Graphic file (type pdf)
 <use figures/tZ_bdt_ab127/1j/ab127/jet_Pt_0.pdf>
 Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/jet_Pt_0.pdf used on inp
 ut line 82.
 (pdftex.def)             Requested size: 133.84425pt x 100.38553pt.
 
-<figures/tZ_bdt_ab127/1j/ab127/topMassReco.pdf, id=769, 462.52798pt x 346.89601
+<figures/tZ_bdt_ab127/1j/ab127/topMassReco.pdf, id=799, 462.52798pt x 346.89601
 pt>
 File: figures/tZ_bdt_ab127/1j/ab127/topMassReco.pdf Graphic file (type pdf)
  <use figures/tZ_bdt_ab127/1j/ab127/topMassReco.pdf>
@@ -4420,7 +4455,7 @@ Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/topMassReco.pdf used on
 input line 83.
 (pdftex.def)             Requested size: 133.84425pt x 100.38553pt.
 
-<figures/tZ_bdt_ab127/1j/ab127/Mll01.pdf, id=770, 462.52798pt x 346.89601pt>
+<figures/tZ_bdt_ab127/1j/ab127/Mll01.pdf, id=800, 462.52798pt x 346.89601pt>
 File: figures/tZ_bdt_ab127/1j/ab127/Mll01.pdf Graphic file (type pdf)
 
 <use figures/tZ_bdt_ab127/1j/ab127/Mll01.pdf>
@@ -4428,7 +4463,7 @@ Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/Mll01.pdf used on input
 line 84.
 (pdftex.def)             Requested size: 133.84425pt x 100.38553pt.
 
-<figures/tZ_bdt_ab127/1j/ab127/Mll02.pdf, id=771, 462.52798pt x 346.89601pt>
+<figures/tZ_bdt_ab127/1j/ab127/Mll02.pdf, id=801, 462.52798pt x 346.89601pt>
 File: figures/tZ_bdt_ab127/1j/ab127/Mll02.pdf Graphic file (type pdf)
 
 <use figures/tZ_bdt_ab127/1j/ab127/Mll02.pdf>
@@ -4436,7 +4471,7 @@ Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/Mll02.pdf used on input
 line 85.
 (pdftex.def)             Requested size: 133.84425pt x 100.38553pt.
 
-<figures/tZ_bdt_ab127/1j/ab127/MET.pdf, id=772, 462.52798pt x 346.89601pt>
+<figures/tZ_bdt_ab127/1j/ab127/MET.pdf, id=802, 462.52798pt x 346.89601pt>
 File: figures/tZ_bdt_ab127/1j/ab127/MET.pdf Graphic file (type pdf)
 
 <use figures/tZ_bdt_ab127/1j/ab127/MET.pdf>
@@ -4444,7 +4479,7 @@ Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/MET.pdf used on input li
 ne 86.
 (pdftex.def)             Requested size: 133.84425pt x 100.38553pt.
 
-<figures/tZ_bdt_ab127/1j/ab127/DRll01.pdf, id=773, 462.52798pt x 346.89601pt>
+<figures/tZ_bdt_ab127/1j/ab127/DRll01.pdf, id=803, 462.52798pt x 346.89601pt>
 File: figures/tZ_bdt_ab127/1j/ab127/DRll01.pdf Graphic file (type pdf)
 
 <use figures/tZ_bdt_ab127/1j/ab127/DRll01.pdf>
@@ -4452,7 +4487,7 @@ Package pdftex.def Info: figures/tZ_bdt_ab127/1j/ab127/DRll01.pdf used on input
  line 87.
 (pdftex.def)             Requested size: 133.84425pt x 100.38553pt.
 
-<figures/tZ_bdt_ab127/1j/ab127/minDeltaR_LJ_0.pdf, id=774, 462.52798pt x 346.89
+<figures/tZ_bdt_ab127/1j/ab127/minDeltaR_LJ_0.pdf, id=804, 462.52798pt x 346.89
 601pt>
 File: figures/tZ_bdt_ab127/1j/ab127/minDeltaR_LJ_0.pdf Graphic file (type pdf)
  <use figures/tZ_bdt_ab127/1j/ab127/minDeltaR_LJ_0.pdf>
@@ -4498,21 +4533,21 @@ pdfTeX warning: pdflatex (file ./figures/tZ_bdt_ab127/1j/ab127/DRll01.pdf): PDF
 
 pdfTeX warning: pdflatex (file ./figures/tZ_bdt_ab127/1j/ab127/minDeltaR_LJ_0.p
 df): PDF inclusion: multiple pdfs with page group included in a single page
->] <figures/tZ_bdt/xgb_score.png, id=1103, 462.528pt x 346.896pt>
+>] <figures/tZ_bdt/xgb_score.png, id=1133, 462.528pt x 346.896pt>
 File: figures/tZ_bdt/xgb_score.png Graphic file (type png)
 
 <use figures/tZ_bdt/xgb_score.png>
 Package pdftex.def Info: figures/tZ_bdt/xgb_score.png used on input line 101.
 (pdftex.def)             Requested size: 188.21289pt x 141.15904pt.
 
-<figures/tZ_bdt/roc.png, id=1105, 462.528pt x 346.896pt>
+<figures/tZ_bdt/roc.png, id=1135, 462.528pt x 346.896pt>
 File: figures/tZ_bdt/roc.png Graphic file (type png)
 
 <use figures/tZ_bdt/roc.png>
 Package pdftex.def Info: figures/tZ_bdt/roc.png used on input line 102.
 (pdftex.def)             Requested size: 188.21289pt x 141.15904pt.
 
-<figures/tZ_bdt/feature_importance.png, id=1107, 722.7pt x 433.62pt>
+<figures/tZ_bdt/feature_importance.png, id=1137, 722.7pt x 433.62pt>
 File: figures/tZ_bdt/feature_importance.png Graphic file (type png)
 
 <use figures/tZ_bdt/feature_importance.png>
@@ -4609,14 +4644,14 @@ same identifier (name{table.11}) has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.3 
-    ] <figures/1j/not_85_postFit.png, id=1158, 598.235pt x 674.52pt>
+    ] <figures/1j/not_85_postFit.png, id=1187, 598.235pt x 674.52pt>
 File: figures/1j/not_85_postFit.png Graphic file (type png)
 
 <use figures/1j/not_85_postFit.png>
 Package pdftex.def Info: figures/1j/not_85_postFit.png used on input line 14.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/1j/WP_1b_77_85_postFit.png, id=1159, 598.235pt x 674.52pt>
+<figures/1j/WP_1b_77_85_postFit.png, id=1188, 598.235pt x 674.52pt>
 File: figures/1j/WP_1b_77_85_postFit.png Graphic file (type png)
 
 <use figures/1j/WP_1b_77_85_postFit.png>
@@ -4624,7 +4659,7 @@ Package pdftex.def Info: figures/1j/WP_1b_77_85_postFit.png used on input line
 15.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/1j/WP_1b_70_77_postFit.png, id=1160, 598.235pt x 674.52pt>
+<figures/1j/WP_1b_70_77_postFit.png, id=1189, 598.235pt x 674.52pt>
 File: figures/1j/WP_1b_70_77_postFit.png Graphic file (type png)
 
 <use figures/1j/WP_1b_70_77_postFit.png>
@@ -4636,7 +4671,7 @@ Overfull \hbox (20.9203pt too wide) in paragraph at lines 14--16
  [][][] 
  []
 
-<figures/1j/WP_1b_60_70_postFit.png, id=1161, 598.235pt x 674.52pt>
+<figures/1j/WP_1b_60_70_postFit.png, id=1190, 598.235pt x 674.52pt>
 File: figures/1j/WP_1b_60_70_postFit.png Graphic file (type png)
 
 <use figures/1j/WP_1b_60_70_postFit.png>
@@ -4644,7 +4679,7 @@ Package pdftex.def Info: figures/1j/WP_1b_60_70_postFit.png used on input line
 17.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/1j/WP_1b_60_postFit.png, id=1162, 598.235pt x 674.52pt>
+<figures/1j/WP_1b_60_postFit.png, id=1191, 598.235pt x 674.52pt>
 File: figures/1j/WP_1b_60_postFit.png Graphic file (type png)
 
 <use figures/1j/WP_1b_60_postFit.png>
@@ -4652,7 +4687,7 @@ Package pdftex.def Info: figures/1j/WP_1b_60_postFit.png used on input line 18.
 
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/1j/tZ_CR_postFit.png, id=1163, 598.235pt x 674.52pt>
+<figures/1j/tZ_CR_postFit.png, id=1192, 598.235pt x 674.52pt>
 File: figures/1j/tZ_CR_postFit.png Graphic file (type png)
 
 <use figures/1j/tZ_CR_postFit.png>
@@ -4663,7 +4698,7 @@ Overfull \hbox (20.9203pt too wide) in paragraph at lines 17--19
  [][][][] 
  []
 
-<figures/1j/Summary_postFit.png, id=1165, 899.36pt x 674.52pt>
+<figures/1j/Summary_postFit.png, id=1194, 899.36pt x 674.52pt>
 File: figures/1j/Summary_postFit.png Graphic file (type png)
 
 <use figures/1j/Summary_postFit.png>
@@ -4698,7 +4733,7 @@ l.32
 <./figures/1j/WP_1b_70_77_postFit.png> <./figures/1j/WP_1b_60_70_postFit.png> <
 ./figures/1j/WP_1b_60_postFit.png> <./figures/1j/tZ_CR_postFit.png> <./figures/
 1j/Summary_postFit.png>]
-<figures/1j/Ranking.png, id=1179, 598.235pt x 1111.15125pt>
+<figures/1j/Ranking.png, id=1208, 598.235pt x 1111.15125pt>
 File: figures/1j/Ranking.png Graphic file (type png)
 
 <use figures/1j/Ranking.png>
@@ -4717,7 +4752,7 @@ ure.30}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.73 
       <./figures/1j/Ranking.png>]
-<figures/1j/PieChart_postFit.png, id=1192, 748.7975pt x 574.145pt>
+<figures/1j/PieChart_postFit.png, id=1221, 748.7975pt x 574.145pt>
 File: figures/1j/PieChart_postFit.png Graphic file (type png)
 
 <use figures/1j/PieChart_postFit.png>
@@ -4725,7 +4760,7 @@ Package pdftex.def Info: figures/1j/PieChart_postFit.png used on input line 76.
 
 (pdftex.def)             Requested size: 292.77632pt x 224.48509pt.
 
-<figures/1j/CorrMatrix.png, id=1194, 1903.11pt x 1879.02pt>
+<figures/1j/CorrMatrix.png, id=1223, 1903.11pt x 1879.02pt>
 File: figures/1j/CorrMatrix.png Graphic file (type png)
 
 <use figures/1j/CorrMatrix.png>
@@ -4745,7 +4780,7 @@ gnored
                                                   \fi \fi 
 l.95 
       <./figures/1j/CorrMatrix.png>]
-<figures/2j/not_85_2j_postFit.png, id=1206, 598.235pt x 674.52pt>
+<figures/2j/not_85_2j_postFit.png, id=1235, 598.235pt x 674.52pt>
 File: figures/2j/not_85_2j_postFit.png Graphic file (type png)
 
 <use figures/2j/not_85_2j_postFit.png>
@@ -4753,7 +4788,7 @@ Package pdftex.def Info: figures/2j/not_85_2j_postFit.png used on input line 15
 3.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/2j/WP_2b_77_85_postFit.png, id=1207, 598.235pt x 674.52pt>
+<figures/2j/WP_2b_77_85_postFit.png, id=1236, 598.235pt x 674.52pt>
 File: figures/2j/WP_2b_77_85_postFit.png Graphic file (type png)
 
 <use figures/2j/WP_2b_77_85_postFit.png>
@@ -4761,7 +4796,7 @@ Package pdftex.def Info: figures/2j/WP_2b_77_85_postFit.png used on input line
 154.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/2j/WP_2b_70_77_postFit.png, id=1208, 598.235pt x 674.52pt>
+<figures/2j/WP_2b_70_77_postFit.png, id=1237, 598.235pt x 674.52pt>
 File: figures/2j/WP_2b_70_77_postFit.png Graphic file (type png)
 
 <use figures/2j/WP_2b_70_77_postFit.png>
@@ -4773,7 +4808,7 @@ Overfull \hbox (20.9203pt too wide) in paragraph at lines 153--155
  [][][] 
  []
 
-<figures/2j/WP_2b_60_70_postFit.png, id=1209, 598.235pt x 674.52pt>
+<figures/2j/WP_2b_60_70_postFit.png, id=1238, 598.235pt x 674.52pt>
 File: figures/2j/WP_2b_60_70_postFit.png Graphic file (type png)
 
 <use figures/2j/WP_2b_60_70_postFit.png>
@@ -4781,7 +4816,7 @@ Package pdftex.def Info: figures/2j/WP_2b_60_70_postFit.png used on input line
 156.
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/2j/WP_2b_60_postFit.png, id=1210, 598.235pt x 674.52pt>
+<figures/2j/WP_2b_60_postFit.png, id=1239, 598.235pt x 674.52pt>
 File: figures/2j/WP_2b_60_postFit.png Graphic file (type png)
 
 <use figures/2j/WP_2b_60_postFit.png>
@@ -4789,7 +4824,7 @@ Package pdftex.def Info: figures/2j/WP_2b_60_postFit.png used on input line 157
 .
 (pdftex.def)             Requested size: 146.39134pt x 165.05814pt.
 
-<figures/2j/tZ_CR_2j_postFit.png, id=1211, 598.235pt x 674.52pt>
+<figures/2j/tZ_CR_2j_postFit.png, id=1240, 598.235pt x 674.52pt>
 File: figures/2j/tZ_CR_2j_postFit.png Graphic file (type png)
 
 <use figures/2j/tZ_CR_2j_postFit.png>
@@ -4801,7 +4836,7 @@ Overfull \hbox (20.9203pt too wide) in paragraph at lines 156--158
  [][][][] 
  []
 
-<figures/2j/Summary_postFit.png, id=1213, 899.36pt x 674.52pt>
+<figures/2j/Summary_postFit.png, id=1242, 899.36pt x 674.52pt>
 File: figures/2j/Summary_postFit.png Graphic file (type png)
 
 <use figures/2j/Summary_postFit.png>
@@ -4821,7 +4856,7 @@ l.202
        <./figures/2j/not_85_2j_postFit.png> <./figures/2j/WP_2b_77_85_postFit.p
 ng> <./figures/2j/WP_2b_70_77_postFit.png> <./figures/2j/WP_2b_60_70_postFit.pn
 g> <./figures/2j/WP_2b_60_postFit.png> <./figures/2j/tZ_CR_2j_postFit.png>]
-<figures/2j/Ranking.png, id=1223, 598.235pt x 1111.15125pt>
+<figures/2j/Ranking.png, id=1252, 598.235pt x 1111.15125pt>
 File: figures/2j/Ranking.png Graphic file (type png)
 
 <use figures/2j/Ranking.png>
@@ -4847,7 +4882,7 @@ gnored
                                                   \fi \fi 
 l.213 
        <./figures/2j/Ranking.png>]
-<figures/2j/PieChart_postFit.png, id=1235, 748.7975pt x 574.145pt>
+<figures/2j/PieChart_postFit.png, id=1264, 748.7975pt x 574.145pt>
 File: figures/2j/PieChart_postFit.png Graphic file (type png)
 
 <use figures/2j/PieChart_postFit.png>
@@ -4855,7 +4890,7 @@ Package pdftex.def Info: figures/2j/PieChart_postFit.png used on input line 216
 .
 (pdftex.def)             Requested size: 292.77632pt x 224.48509pt.
 
-<figures/2j/CorrMatrix.png, id=1237, 1953.2975pt x 1929.2075pt>
+<figures/2j/CorrMatrix.png, id=1266, 1953.2975pt x 1929.2075pt>
 File: figures/2j/CorrMatrix.png Graphic file (type png)
 
 <use figures/2j/CorrMatrix.png>
@@ -4878,15 +4913,207 @@ l.226
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.95pt on input line 230.
  [58] [59]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
- (./wz_heavy_flavor.aux
-(./sections/xsecUnc.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
-Package rerunfilecheck Info: File `wz_heavy_flavor.out' has not changed.
-(rerunfilecheck)             Checksum: 76EEF6D8AC4C493480FE4E09F05DB3EB;2064.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 247.
 
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 24.88pt on input line 247.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 247.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 17.28pt on input line 247.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 17.28pt on input line 247.
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 251.
+
+[60
+
+]
+\openout2 = `sections/tZInt.aux'.
+
+ (./sections/tZInt.tex
+
+LaTeX Warning: Citation 'Madgraph' on page 61 undefined on input line 2.
+
+Package epstopdf Info: Source file: <figures/tZInterference/lep1pt.eps>
+(epstopdf)                    date: 2021-02-05 15:09:08
+(epstopdf)                    size: 21100098 bytes
+(epstopdf)             Output file: <figures/tZInterference/lep1pt-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2021-02-09 19:29:01
+(epstopdf)                    size: 77019 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/lep
+1pt-eps-converted-to.pdf figures/tZInterference/lep1pt.eps>
+(epstopdf)             \includegraphics on input line 11.
+Package epstopdf Info: Output file is already uptodate.
+File: figures/tZInterference/lep1pt-eps-converted-to.pdf Graphic file (type pdf
+)
+<use figures/tZInterference/lep1pt-eps-converted-to.pdf>
+Package pdftex.def Info: figures/tZInterference/lep1pt-eps-converted-to.pdf use
+d on input line 11.
+(pdftex.def)             Requested size: 196.57976pt x 133.82915pt.
+Package epstopdf Info: Source file: <figures/tZInterference/lep2pt.eps>
+(epstopdf)                    date: 2021-02-05 15:09:33
+(epstopdf)                    size: 21101023 bytes
+(epstopdf)             Output file: <figures/tZInterference/lep2pt-eps-converte
+d-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/lep
+2pt-eps-converted-to.pdf figures/tZInterference/lep2pt.eps>
+(epstopdf)             \includegraphics on input line 12.
+runsystem(repstopdf --outfile=figures/tZInterference/lep2pt-eps-converted-to.pd
+f figures/tZInterference/lep2pt.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <figures/tZInterference/lep2pt-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2021-02-09 19:29:49
+(epstopdf)                    size: 77170 bytes.
+
+
+pdfTeX warning: pdflatex (file ./figures/tZInterference/lep2pt-eps-converted-to
+.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
+d
+
+<figures/tZInterference/lep2pt-eps-converted-to.pdf, id=1324, 569.12625pt x 387
+.4475pt>
+File: figures/tZInterference/lep2pt-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use figures/tZInterference/lep2pt-eps-converted-to.pdf>
+Package pdftex.def Info: figures/tZInterference/lep2pt-eps-converted-to.pdf use
+d on input line 12.
+(pdftex.def)             Requested size: 196.57976pt x 133.82915pt.
+Package epstopdf Info: Source file: <figures/tZInterference/lep3pt.eps>
+(epstopdf)                    date: 2021-02-05 15:09:56
+(epstopdf)                    size: 21100957 bytes
+(epstopdf)             Output file: <figures/tZInterference/lep3pt-eps-converte
+d-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/lep
+3pt-eps-converted-to.pdf figures/tZInterference/lep3pt.eps>
+(epstopdf)             \includegraphics on input line 13.
+runsystem(repstopdf --outfile=figures/tZInterference/lep3pt-eps-converted-to.pd
+f figures/tZInterference/lep3pt.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <figures/tZInterference/lep3pt-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2021-02-09 19:30:03
+(epstopdf)                    size: 77351 bytes.
+
+
+pdfTeX warning: pdflatex (file ./figures/tZInterference/lep3pt-eps-converted-to
+.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
+d
+
+<figures/tZInterference/lep3pt-eps-converted-to.pdf, id=1325, 569.12625pt x 387
+.4475pt>
+File: figures/tZInterference/lep3pt-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use figures/tZInterference/lep3pt-eps-converted-to.pdf>
+Package pdftex.def Info: figures/tZInterference/lep3pt-eps-converted-to.pdf use
+d on input line 13.
+(pdftex.def)             Requested size: 196.57976pt x 133.82915pt.
+Package epstopdf Info: Source file: <figures/tZInterference/lepPairMass23.eps>
+(epstopdf)                    date: 2021-02-05 15:11:00
+(epstopdf)                    size: 21099727 bytes
+(epstopdf)             Output file: <figures/tZInterference/lepPairMass23-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2021-02-09 19:28:48
+(epstopdf)                    size: 76367 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/lep
+PairMass23-eps-converted-to.pdf figures/tZInterference/lepPairMass23.eps>
+(epstopdf)             \includegraphics on input line 14.
+Package epstopdf Info: Output file is already uptodate.
+File: figures/tZInterference/lepPairMass23-eps-converted-to.pdf Graphic file (t
+ype pdf)
+
+<use figures/tZInterference/lepPairMass23-eps-converted-to.pdf>
+Package pdftex.def Info: figures/tZInterference/lepPairMass23-eps-converted-to.
+pdf used on input line 14.
+(pdftex.def)             Requested size: 196.57976pt x 133.82915pt.
+Package epstopdf Info: Source file: <figures/tZInterference/lep1pt.eps>
+(epstopdf)                    date: 2021-02-05 15:09:08
+(epstopdf)                    size: 21100098 bytes
+(epstopdf)             Output file: <figures/tZInterference/lep1pt-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2021-02-09 19:29:01
+(epstopdf)                    size: 77019 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/lep
+1pt-eps-converted-to.pdf figures/tZInterference/lep1pt.eps>
+(epstopdf)             \includegraphics on input line 15.
+Package epstopdf Info: Output file is already uptodate.
+File: figures/tZInterference/lep1pt-eps-converted-to.pdf Graphic file (type pdf
+)
+
+<use figures/tZInterference/lep1pt-eps-converted-to.pdf>
+Package pdftex.def Info: figures/tZInterference/lep1pt-eps-converted-to.pdf use
+d on input line 15.
+(pdftex.def)             Requested size: 196.57976pt x 133.82915pt.
+Package epstopdf Info: Source file: <figures/tZInterference/drll23.eps>
+(epstopdf)                    date: 2021-02-05 15:11:34
+(epstopdf)                    size: 21099186 bytes
+(epstopdf)             Output file: <figures/tZInterference/drll23-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2021-02-09 19:29:15
+(epstopdf)                    size: 75771 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/drl
+l23-eps-converted-to.pdf figures/tZInterference/drll23.eps>
+(epstopdf)             \includegraphics on input line 16.
+Package epstopdf Info: Output file is already uptodate.
+File: figures/tZInterference/drll23-eps-converted-to.pdf Graphic file (type pdf
+)
+
+<use figures/tZInterference/drll23-eps-converted-to.pdf>
+Package pdftex.def Info: figures/tZInterference/drll23-eps-converted-to.pdf use
+d on input line 16.
+(pdftex.def)             Requested size: 196.57976pt x 133.82915pt.
+Package epstopdf Info: Source file: <figures/tZInterference/btpt.eps>
+(epstopdf)                    date: 2021-02-05 15:11:44
+(epstopdf)                    size: 21101139 bytes
+(epstopdf)             Output file: <figures/tZInterference/btpt-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2021-02-09 19:29:29
+(epstopdf)                    size: 77307 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/btp
+t-eps-converted-to.pdf figures/tZInterference/btpt.eps>
+(epstopdf)             \includegraphics on input line 17.
+Package epstopdf Info: Output file is already uptodate.
+File: figures/tZInterference/btpt-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/tZInterference/btpt-eps-converted-to.pdf>
+Package pdftex.def Info: figures/tZInterference/btpt-eps-converted-to.pdf used 
+on input line 17.
+(pdftex.def)             Requested size: 196.57976pt x 133.82915pt.
+ [61
+
+]
+Overfull \vbox (90.48782pt too high) has occurred while \output is active []
+
+
+[62pdfTeX warning (ext4): destination with the same identifier (name{figure.38}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.20 
+      <./figures/tZInterference/lep2pt-eps-converted-to.pdf> <./figures/tZInter
+ference/lep3pt-eps-converted-to.pdf>]) [63]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 288.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 288.
+ (./wz_heavy_flavor.aux
+(./sections/xsecUnc.aux) (./sections/tZInt.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 288.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 288.
+
+
+Package rerunfilecheck Warning: File `wz_heavy_flavor.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `wz_heavy_flavor.out':
+(rerunfilecheck)             Before: 76EEF6D8AC4C493480FE4E09F05DB3EB;2064
+(rerunfilecheck)             After:  6346A55716ECFAFE480E7EB984729759;2176.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.18pt have occurred.
@@ -4907,11 +5134,11 @@ Package logreq Info: Writing requests to 'wz_heavy_flavor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40351 strings out of 493013
- 805551 string characters out of 6123688
+ 40391 strings out of 493013
+ 806445 string characters out of 6123688
  1273138 words of memory out of 5000000
- 42831 multiletter control sequences out of 15000+600000
- 169219 words of font info for 235 fonts, out of 8000000 for 9000
+ 42849 multiletter control sequences out of 15000+600000
+ 177627 words of font info for 238 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,24n,74p,10411b,1995s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/enc/dvips/newt
@@ -4939,10 +5166,10 @@ n.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb
 fonts/t1xtt.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/
 type1/public/newtx/txbsys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/tex
 mf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (59 pages, 4712672 bytes).
+Output written on wz_heavy_flavor.pdf (63 pages, 5102265 bytes).
 PDF statistics:
- 1413 PDF objects out of 1440 (max. 8388607)
- 908 compressed objects within 10 object streams
- 299 named destinations out of 1000 (max. 500000)
- 1101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1505 PDF objects out of 1728 (max. 8388607)
+ 978 compressed objects within 10 object streams
+ 314 named destinations out of 1000 (max. 500000)
+ 1111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
