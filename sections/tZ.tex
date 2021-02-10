@@ -16,7 +16,7 @@ The result of this BDT is used to create a tZ enriched region in the fit, reduci
 
 %The kinematics of these samples are shown below:
 
-%\begin{figure}[htb!] 
+%\begin{figure}[H] 
 %    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/lepPairMass23.eps}}%
 %    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/lep1pt.eps}}\\                        
 %    \subfigure[]{\includegraphics[width=.47\linewidth]{tZInterference/drll23.eps}}%
@@ -24,7 +24,7 @@ The result of this BDT is used to create a tZ enriched region in the fit, reduci
 %    \caption{Comparisons between (a) the invariant mass of the Z-candidate, (b) the $p_T$ of the leading lepton, (c) $\Delta(R)$ of the two leptons that form the Z-candidate, and (d) the $p_T$ of the b-jet, for WZ and tZ events generated with interference effects (blue) and without interference effects (red).}
 %\end{figure}
 
-%\begin{figure}[htb!] 
+%\begin{figure}[H] 
 %\end{figure}
 
 \subsection{Top Mass Reconstruction}
@@ -96,7 +96,7 @@ A sample of 20,000 background (tZ) and signal (WZ+b) Monte Carlo events are used
 
 The results of the BDT training are shown in figure \ref{fig:tZ_bdt}. The output scores for both signal and background events is shown on the left. The right shows the receiving operating characteristic (ROC) curve that results from the MVA. The ROC curve represents the background rejection as a function of signal efficiency, where each point on the curve represents a different response score. The ROC curve of the BDT is compared to the performance of using an optimal set of flat selections on the same set of input variables.
 
-\begin{figure}[htb!] 
+\begin{figure}[H] 
 \center
     \subfigure[]{\includegraphics[width=.45\linewidth]{tZ_bdt/xgb_score.png}}%
     \subfigure[]{\includegraphics[width=.45\linewidth]{tZ_bdt/roc.png}}    
@@ -106,7 +106,7 @@ The results of the BDT training are shown in figure \ref{fig:tZ_bdt}. The output
 
 The relative important of each input feature in the model, measured by how often they appeared in the decision trees, is shown in figure \ref{fig:tZ_fImp}.
 
-\begin{figure}[htb!] 
+\begin{figure}[H] 
 \center
         \includegraphics[width=0.9\linewidth]{tZ_bdt/feature_importance.png}
         \caption{Relative importance of each input feature in the model.}
