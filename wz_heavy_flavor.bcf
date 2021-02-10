@@ -2132,20 +2132,22 @@
     <bcf:citekey order="6">powhegstp</bcf:citekey>
     <bcf:citekey order="7">ATLAS-CONF-2016-024</bcf:citekey>
     <bcf:citekey order="8">PERF-2014-05</bcf:citekey>
-    <bcf:citekey order="9">ttH_paper</bcf:citekey>
-    <bcf:citekey order="10">ATL-PHYS-PUB-2015-015</bcf:citekey>
-    <bcf:citekey order="11">ATLAS-CONF-2015-029</bcf:citekey>
-    <bcf:citekey order="12">PERF-2014-03</bcf:citekey>
-    <bcf:citekey order="13">ATL-PHYS-PUB-2015-027</bcf:citekey>
-    <bcf:citekey order="14">ttH_paper</bcf:citekey>
-    <bcf:citekey order="15">TMVA_guide</bcf:citekey>
-    <bcf:citekey order="16">ttZ_paper</bcf:citekey>
-    <bcf:citekey order="17">xgboost_cite</bcf:citekey>
-    <bcf:citekey order="18">lumi</bcf:citekey>
-    <bcf:citekey order="19">LUCID2</bcf:citekey>
-    <bcf:citekey order="20">jes</bcf:citekey>
-    <bcf:citekey order="21">btag_cal</bcf:citekey>
-    <bcf:citekey order="22">Madgraph</bcf:citekey>
+    <bcf:citekey order="9">PERF-2014-05</bcf:citekey>
+    <bcf:citekey order="10">ttH_paper</bcf:citekey>
+    <bcf:citekey order="11">ATL-PHYS-PUB-2015-015</bcf:citekey>
+    <bcf:citekey order="12">ATLAS-CONF-2015-029</bcf:citekey>
+    <bcf:citekey order="13">PERF-2014-03</bcf:citekey>
+    <bcf:citekey order="14">ATL-PHYS-PUB-2015-027</bcf:citekey>
+    <bcf:citekey order="15">ttH_paper</bcf:citekey>
+    <bcf:citekey order="16">BtagWG</bcf:citekey>
+    <bcf:citekey order="17">TMVA_guide</bcf:citekey>
+    <bcf:citekey order="18">ttZ_paper</bcf:citekey>
+    <bcf:citekey order="19">xgboost_cite</bcf:citekey>
+    <bcf:citekey order="20">lumi</bcf:citekey>
+    <bcf:citekey order="21">LUCID2</bcf:citekey>
+    <bcf:citekey order="22">jes</bcf:citekey>
+    <bcf:citekey order="23">btag_cal</bcf:citekey>
+    <bcf:citekey order="24">Madgraph</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

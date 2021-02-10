@@ -1,12 +1,12 @@
 
-Both data and Monte Carlo samples used in this analysis were prepared in the \verb|xAOD| format, which was used to produce a \verb|DxAOD| sample in the \verb|HIGG8D1| derivation framework. The \verb|HIGG8D1| framework is designed for the $t\bar{t}H$ multi-lepton| analysis, which targets events with multiple leptons as well as tau hadrons. This framework skims the dataset to remove unneeded variables as well as entire events. Events are removed from the derivations that do not meet the following selection:
+Both data and Monte Carlo samples used in this analysis were prepared in the \verb|xAOD| format, which was used to produce a \verb|DxAOD| sample in the \verb|HIGG8D1| derivation framework. The \verb|HIGG8D1| framework is designed for the $t\bar{t}H$ multi-lepton analysis, which targets events with multiple leptons as well as tau hadrons. This framework skims the dataset to remove unneeded variables as well as entire events. Events are removed from the derivations that do not meet the following selection:
 
 \begin{itemize}
     \item at least two light leptons within a range $|\eta|$<2.6, with leading lepton $p_{T}$ > 15 GeV and subleading lepton $p_{T}$ > 5 GeV
     \item at least one light lepton with $p_{T}$ > 15 GeV within a range $|\eta|$<2.6, and at least two hadronic taus with $p_{T}$ > 15 GeV.
 \end{itemize}
 
-Samples were then generated from these \verb|HIGG8D1| derivations with p-tag of p4134 using a modified version of AnalysisBase version 21.2.127.
+Samples were then generated from these \verb|HIGG8D1| derivations with p-tag of p4134 using AnalysisBase version 21.2.127 modified to include custom variables..
 
 \subsection{Data Samples}
 
@@ -24,7 +24,7 @@ Runs included from the AllYear period containers are included.
 
 Several different generators were used to produce Monte Carlo simulations of the signal and background processes. For all samples, the response of the ATLAS detector is simulated using Geant4. The WZ signal samples are simulated using Sherpa 2.2.2 \cite{sherpa}. Specific information about the Monte Carlo samples being used can be found in table \ref{tbl:evgen}. A list of the specific samples used by data set ID is shown in table \ref{tbl:dsids}.
 
-\begin{table}[H]
+\begin{table}[hbt!]
 \begin{center}
 \caption{\label{tbl:evgen} The configurations used for event generation of signal and background processes, including the event generator, matrix element (ME) order, parton shower algorithm, and parton distribution functin (PDF). }
  \resizebox{\textwidth}{!}{
@@ -58,7 +58,7 @@ $Z \to l^+l^-$ & \textsc{Sherpa} 2.2.1 & MEPS NLO  & \textsc{Sherpa} & NNPDF 3.0
 \end{center}
 \end{table}
 
-\begin{table}[]
+\begin{table}[hbt!]
     \centering
     \begin{tabular}{l|l}
         \hline\hline

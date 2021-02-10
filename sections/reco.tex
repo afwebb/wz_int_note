@@ -5,7 +5,7 @@ All regions defined in this analysis share a common lepton, jet, and overall eve
 
 Events are required to be selected by dilepton triggers, as summarized in table \ref{tbl:trigger}. 
 
-\begin{table}[h!]
+\begin{table}[hbt!]
  \begin{center}
    \begin{tabular}{cc}
      \toprule
@@ -42,40 +42,40 @@ Events are required to be selected by dilepton triggers, as summarized in table 
 \subsection{Light leptons}
 \label{subsec:leps}
 
-Electron candidates are reconstructed from energy clusters in the electromagnetic calorimeter that are associated with charged particle tracks reconstructed in the inner detector~\cite{ATLAS-CONF-2016-024}.  Electron candidates are required to have $\pt > 10$ GeV and $|\eta_\textrm{cluster}| < 2.47$. Candidates in the transition region between different electromagnetic calorimeter components, $1.37 < |\eta_\textrm{cluster}| < 1.52$, are rejected. A multivariate likelihood discriminant combining shower shape and track information is used to distinguish real electrons from hadronic showers (fake electrons). To further reduce the non-prompt electron contribution, the track is required to be consistent with originating from the primary vertex; requirements are imposed on the transverse impact parameter significance ($|d_0|/\sigma_{d_0}$) and the longitudinal impact parameter ($|\Delta z_0 \sin \theta_\ell|$), as shown in table \ref{tbl:tightleps}. 
+Electron candidates are reconstructed from energy clusters in the electromagnetic calorimeter that are associated with charged particle tracks reconstructed in the inner detector~\cite{ATLAS-CONF-2016-024}. Electron candidates are required to have $\pt > 10$ GeV and $|\eta_\textrm{cluster}| < 2.47$. Muon candidates are reconstructed by combining inner detector tracks with track segments or full tracks in the muon spectrometer \cite{PERF-2014-05}. Muon candidates are required to have $\pt > 10$~GeV and $|\eta| < 2.5$. Candidates in the transition region between different electromagnetic calorimeter components, $1.37 < |\eta_\textrm{cluster}| < 1.52$, are rejected. A multivariate likelihood discriminant combining shower shape and track information is used to distinguish real electrons from hadronic showers (fake electrons). To further reduce the non-prompt electron contribution, the track is required to be consistent with originating from the primary vertex; requirements are imposed on the transverse impact parameter significance ($|d_0|/\sigma_{d_0}<5$) and the longitudinal impact parameter ($|\Delta z_0 \sin \theta_\ell| < 0.5$ mm).
                    
-Muon candidates are reconstructed by combining inner detector tracks with track segments or full tracks in the muon spectrometer \cite{PERF-2014-05}. Muon candidates are required to have $\pt > 10$~GeV and $|\eta| < 2.5$. 
+Muon candidates are reconstructed by combining inner detector tracks with track segments or full tracks in the muon spectrometer \cite{PERF-2014-05}. Muon candidates are required to have $\pt > 10$~GeV and $|\eta| < 2.5$. The longitutinal impact parameter is the same for both electrons and muons, while muons are required to pass a slightly tighter transverse imapact parameter, $|d_0|/\sigma_{d_0}<3$. 
 
-All leptons are required to be isolated, and pass a non-prompt BDT selection described in detail in \cite{ttH_paper}.
+All leptons are required to be isolated, as defined though the standard \verb|isolationFixedCutLoose| working point supported by combined performance groups. Leptons are additionally required to pass a non-prompt BDT selection described in detail in \cite{ttH_paper}. Optimized working points and scale factors for this BDT are taken from that analysis.
 
-\begin{table}
-\begin{center}
- \begin{tabular}{l|cccccc}
- \hline\hline
- & \multicolumn{3}{c|}{$e$} & \multicolumn{3}{c}{$\mu$} \\
- \hline
- & \multicolumn{1}{c|}{L}  & \multicolumn{1}{c|}{L*} & \multicolumn{1}{c|}{T} & \multicolumn{1}{c|}{L} & \multicolumn{1}{c|}{L*} & \multicolumn{1}{c|}{T}  \\
-  \hline
-  FixedCutLoose           &  No & \multicolumn{2}{|c|}{Yes} & No & \multicolumn{2}{|c}{Yes} \\
-  \hline
-  Non-prompt lepton BDT   &  \multicolumn{2}{c|}{No} & \multicolumn{1}{c|}{Yes} & \multicolumn{2}{c|}{No} & \multicolumn{1}{c}{Yes} \\
-  \hline
-  Identification  & \multicolumn{2}{c|}{Loose} & \multicolumn{1}{c|}{Tight} & \multicolumn{2}{c}{Loose} & \multicolumn{1}{c|}{Medium}\\
-  \hline
-  %Charge mis-assignment veto &  \multicolumn{2}{c|}{No} & Yes & \multicolumn{3}{|c}{N/A} \\ - not needed, only for 2lSS
-  %\hline
-  %ambiguity bit == 0 &  \multicolumn{2}{c|}{No} & Yes & \multicolumn{3}{|c}{N/A} \\
-  %\hline
-  Transverse impact parameter significance  &  \multicolumn{3}{c|}{$<5$} & \multicolumn{3}{c}{$<3$ } \\
-  $|d_0|/\sigma_{d_0}$ & \multicolumn{3}{c|}{} &  \multicolumn{3}{c}{}  \\
-  \hline
-  Longitudinal impact parameter &  \multicolumn{6}{c}{$< 0.5$ mm} \\
-  $|z_0 \sin \theta|$ &  \multicolumn{6}{c}{} \\
-  \hline\hline
- \end{tabular}
-\caption{\label{tbl:tightleps} Loose (L), loose and minimally-isolated (L*), and tight (T) light lepton definitions.}
-\end{center}
-\end{table}
+%\begin{table}
+%\begin{center}
+% \begin{tabular}{l|cccccc}
+% \hline\hline
+% & \multicolumn{3}{c|}{$e$} & \multicolumn{3}{c}{$\mu$} \\
+% \hline
+% & \multicolumn{1}{c|}{L}  & \multicolumn{1}{c|}{L*} & \multicolumn{1}{c|}{T} & \multicolumn{1}{c|}{L} & \multicolumn{1}{c|}%{L*} & \multicolumn{1}{c|}{T}  \\
+%  \hline
+%  FixedCutLoose           &  No & \multicolumn{2}{|c|}{Yes} & No & \multicolumn{2}{|c}{Yes} \\
+%  \hline
+%  Non-prompt lepton BDT   &  \multicolumn{2}{c|}{No} & \multicolumn{1}{c|}{Yes} & \multicolumn{2}{c|}{No} & \multicolumn{1}{%c}{Yes} \\
+%  \hline
+%  Identification  & \multicolumn{2}{c|}{Loose} & \multicolumn{1}{c|}{Tight} & \multicolumn{2}{c}{Loose} & \multicolumn{1}{c|%}{Medium}\\
+%  \hline
+%  %Charge mis-assignment veto &  \multicolumn{2}{c|}{No} & Yes & \multicolumn{3}{|c}{N/A} \\ - not needed, only for 2lSS
+%  %\hline
+%  %ambiguity bit == 0 &  \multicolumn{2}{c|}{No} & Yes & \multicolumn{3}{|c}{N/A} \\
+%  %\hline
+%  Transverse impact parameter significance  &  \multicolumn{3}{c|}{$<5$} & \multicolumn{3}{c}{$<3$ } \\
+%  $|d_0|/\sigma_{d_0}$ & \multicolumn{3}{c|}{} &  \multicolumn{3}{c}{}  \\
+%  \hline
+%  Longitudinal impact parameter &  \multicolumn{6}{c}{$< 0.5$ mm} \\
+%  $|z_0 \sin \theta|$ &  \multicolumn{6}{c}{} \\
+%  \hline\hline
+% \end{tabular}
+%\caption{\label{tbl:tightleps} Loose (L), loose and minimally-isolated (L*), and tight (T) light lepton definitions.}
+%\end{center}
+%\end{table}
 
 
 \subsection{Jets}
@@ -88,7 +88,7 @@ Jets are reconstructed from calibrated topological clusters built from energy de
 
 In order to make a measurement of $WZ$ + heavy flavor it is necessary to distinguish these events from $WZ$ + light jets. For this purpose, the DL1r b-tagging algorithm is used to distinguish heavy flavor jets from lighter ones. The DL1r algorithm uses jet kinematics, particularly jet vertex information, as input for a neural network which assigns each jet a score designed to reflect how likely that jet is to have originated from a b-quark. 
 
-\begin{figure}[h]
+\begin{figure}[htb!] 
     \centering
     \includegraphics[width=0.54\linewidth]{DL1_output.pdf} 
     \caption{Output distribution of the DL1r algorithm for b-jets, charm jets, and light jets}
@@ -97,7 +97,7 @@ In order to make a measurement of $WZ$ + heavy flavor it is necessary to disting
 
 From the output of the BDT, working points (WPs) are developed based on the efficiency of truth b-jets at particular values of the DL1r algorithm. The working points used in this analysis are summarized in table \ref{tab:btag_WPs}. 
 
-\begin{table}[h]
+\begin{table}[htb!] 
 \begin{center}
 \begin{tabular}{|c|ccccc|}
     \hline
