@@ -3,13 +3,31 @@ A separate maximum-likelihood fit is performed over the 1-jet and 2-jet fit regi
 
 A maximum likelihood fit to data is performed simultaneously in the regions described in section \ref{sec:evt_selection}. The parameters $\mu_{WZ+b}$, $\mu_{WZ+charm}$, $\mu_{WZ+light}$, where $\mu = \sigma_{observed}/\sigma_{SM} $, are extracted from the fit.
 
+While in the nominal fit events with an intermediate top quark are treated as a separate process, an alternative version of the measurement is performed which considers tZ as part of the signal.
+
 %The fit gives a $\mu$ value of $1.3^{+0.5}_{-0.4}(stat)^{+0.4}_{-0.4}(sys)$ for $WZ$ + b. The fitted cross-section modifiers for $WZ$ + charm and $WZ$ + light are $1.2 \pm 0.2 \pm 0.1$ and $1.04 \pm 0.04 \pm 0.03 $, respectively, consistent with Standard Model predictions. The observed $WZ$ + heavy-flavor inclusive cross-section is $124^{+51}_{-43}(stat)^{+36}_{-35}(sys)$ fb = $124^{+63}_{-56}$ fb. This is calculated based on a model dependant extrapolation to an inclusive region of phase space. 
 
 \subsection{1-jet Fit Results}
 
-\textbf{The results of the fit are currently blinded.} The post-fit yields in each region are summarized in figure \ref{fig:fit_regions_1j}.
+\textbf{The results of the fit are currently blinded.} 
 
-\begin{figure}
+The prefit yields in each of the regions used in the fit are shown in figure \ref{fig:prefit_1j}.
+
+\begin{figure}[H]
+    \center
+    \includegraphics[width=.35\linewidth]{1j/not_85.png}%                                        
+    \includegraphics[width=.35\linewidth]{1j/WP_1b_77_85.png}%                                           
+    \includegraphics[width=.35\linewidth]{1j/WP_1b_70_77.png}\\
+    \includegraphics[width=.35\linewidth]{1j/WP_1b_60_70.png}%                                     
+    \includegraphics[width=.35\linewidth]{1j/WP_1b_60.png}%                                      
+    \includegraphics[width=.35\linewidth]{1j/tZ_CR.png}\\
+    \caption{Data/MC yields in each of the 1-jet regions before the fit has been performed.}
+    \label{fig:fit_regions_1j}
+\end{figure}
+
+The post-fit yields in each region are summarized in figure \ref{fig:fit_regions_1j}.
+
+\begin{figure}[H]
     \center
     \includegraphics[width=.35\linewidth]{1j/not_85_postFit.png}%                                     
     \includegraphics[width=.35\linewidth]{1j/WP_1b_77_85_postFit.png}%
@@ -146,9 +164,25 @@ The high correlation between the luminosity and $\mu_{WZ+light}$ arises from the
 
 \subsection{2-jet Fit Results}
 
-\textbf{The results of the fit are currently blinded.} The post-fit yields in each region are summarized in figure \ref{fig:fit_regions_2j}.
+\textbf{The results of the fit are currently blinded.} 
 
-\begin{figure}
+Pre-fit yields in each of the 2-jet fit regions are shown in figure \ref{fig:prefit_2j}.
+
+\begin{figure}[H]
+    \center
+    \includegraphics[width=.35\linewidth]{2j/not_85_2j.png}%                                                             
+    \includegraphics[width=.35\linewidth]{2j/WP_2b_77_85.png}%                                                
+    \includegraphics[width=.35\linewidth]{2j/WP_2b_70_77.png}\\
+    \includegraphics[width=.35\linewidth]{2j/WP_2b_60_70.png}%                                                       
+    \includegraphics[width=.35\linewidth]{2j/WP_2b_60.png}%                                                     
+    \includegraphics[width=.35\linewidth]{2j/tZ_CR_2j.png}\\
+    \caption{Data/MC yields in each of the regions in the 2-jet fit before the fit has been performed.}
+    \label{fig:prefit_2j}
+\end{figure}
+
+The post-fit yields in each region are summarized in figure \ref{fig:fit_regions_2j}.
+
+\begin{figure}[H]
     \center
     \includegraphics[width=.35\linewidth]{2j/not_85_2j_postFit.png}%                                                      
     \includegraphics[width=.35\linewidth]{2j/WP_2b_77_85_postFit.png}%                                                         
@@ -162,7 +196,7 @@ The high correlation between the luminosity and $\mu_{WZ+light}$ arises from the
 
 A post-fit summary plot of the fitted regions is shown in figure \ref{fig:fit_results_2j}: 
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \center
     \includegraphics[width=.9\linewidth]{2j/Summary_postFit.png}
     \caption{Post-fit summary of the fit over 2-jet regions.}
@@ -228,6 +262,10 @@ The correlations between these nuisance parameters are summarized in figure \ref
 \end{figure}
 
 As in the 1-jet case, no significant, unexpected correlations are found between nuisance parameters.
+
+\subsection{tZ Inclusive Results}
+
+While tZ is often considered as a distinct process form WZ + b,  
 
 %The negative correlations between $\mu_{WZ+charm}$ and $\mu_{WZ+b}$ and $\mu_{WZ+light}$ are expected: $WZ$ + charm is present in both the $WZ$ + b and $WZ$ + light enriched regions, therefore increasing the fraction of charm requires increasing the fraction of $WZ$ + b and $WZ$ + light. This reasoning also explains the positive correlation between $\mu_{WZ+b}$ and $\mu_{WZ+light}$. 
 

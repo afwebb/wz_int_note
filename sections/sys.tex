@@ -1,7 +1,7 @@
 
 The systematic uncertainties that are considered are summarized in table \ref{tab:SystSummary}. These are implemented in the fit either as a normalization factors or as a shape variation or both in the signal and background estimations. The numerical impact of each of these uncertainties is outlined in section \ref{sec:results}.
 
-\begin{table}[hbt!]
+\begin{table}[H]
 \centering
 \caption{Sources of systematic uncertainty considered in the analysis.}
 \begin{tabular}{lr}
@@ -47,7 +47,7 @@ The systematic uncertainties associated with the signal and background processes
 The full list of systematic uncertainties considered in the analysis is summarized in tables
 \ref{Tab:LeptonExperimentalSyst}, \ref{Tab:JetsExperimentalSyst} and \ref{Tab:BTagExperimentalSyst}.
 
-\hspace{-1in}\begin{table}[hbt!]
+\hspace{-1in}\begin{table}[H]
   \begin{center}
     {\small
     \begin{tabular}{|llcl|}
@@ -103,7 +103,7 @@ The full list of systematic uncertainties considered in the analysis is summariz
 \end{table}
 
 
-\begin{table}[hbt!]
+\begin{table}[H]
   \begin{center}
     {\small
     \begin{tabular}{|llcc|}
@@ -174,9 +174,13 @@ The full list of systematic uncertainties considered in the analysis is summariz
   \end{center}
 \end{table}
 
-Theoritical uncertainties applied to backgrounds, including cross section, PDF, and scale uncertainties are taken from theory calculations, with the exception of non-prompt and diboson backgrounds. Derivation of the non-prompt background uncertainties, Z+jets and $t\bar{t}$, are explained in detail in section \ref{sec:fakes}. Because the other VV + heavy flavor processes are also poorly understood, a conservative 50\% uncertainty is applied to those samples. The theory uncertainties applied to the predominate background estimates are summarized in table \ref{tab:xsecUnc}. 
+Theoritical uncertainties applied to MC predictions, including cross section, PDF, and scale uncertainties are taken from theory calculations, with the exception of non-prompt and diboson backgrounds. The cross-section uncertainty on tZ is taken from \ref{tZ_paper}. Derivation of the non-prompt background uncertainties, Z+jets and $t\bar{t}$, are explained in detail in section \ref{sec:fakes}. 
 
-\begin{table}[!htbp]
+The other VV + heavy flavor processes (namely VV+b and VV+charm, which primarily comprise of ZZ events) are also poorly understood, because these processes involve much of the same physics as WZ + heavy flavor, and have also not been measured. Therefore, a conservative 50\% uncertainty is applied to those samples. 
+
+The theory uncertainties applied to the predominate background estimates are summarized in table \ref{tab:xsecUnc}. 
+
+\begin{table}[H]
 {\footnotesize
 \centering
 \include{sections/xsecUnc}
@@ -184,3 +188,25 @@ Theoritical uncertainties applied to backgrounds, including cross section, PDF, 
 \label{tab:xsecUnc}
 }
 \end{table}
+
+Additional signal uncertainties are estimated by comparing estimates from the nominal Sherpa WZ samples with alternate WZ samples generated with Powheg+PYTHIA8 (DSID 361601). The shape of the templates used in the fit are compared between these two samples for WZ + b, WZ + charm and WZ + light, as shown in figures \ref{fig:powheg1j} and \ref{fig:powheg2j}. Each of these plots are normalized to unity in order to capture differences in shape. 
+
+\begin{figure}[H]
+    \centering
+    \subfigure[]{\includegraphics[width=.29\linewidth]{signalModel/plots/bjets1j.pdf}}%                  
+    \subfigure[]{\includegraphics[width=.29\linewidth]{signalModel/plots/charm1j.pdf}}%
+    \subfigure[]{\includegraphics[width=.29\linewidth]{signalModel/plots/light1j.pdf}}\\
+    \caption{Comparison between Sherpa and Powheg predictions of the distribution of (a) WZ + b, (b) WZ + charm, and (c) WZ + light among the various b-tag WPs used in the 1-jet fit.}
+\label{fig:powheg1j}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \subfigure[]{\includegraphics[width=.29\linewidth]{signalModel/plots/bjets2j.pdf}}%                                    
+    \subfigure[]{\includegraphics[width=.29\linewidth]{signalModel/plots/charm2j.pdf}}%                                     
+    \subfigure[]{\includegraphics[width=.29\linewidth]{signalModel/plots/light2j.pdf}}\\
+    \caption{Comparison between Sherpa and Powheg predictions of the distribution of (a) WZ + b, (b) WZ + charm, and (c) WZ + light among the various b-tag WPs used in the 2-jet fit.}
+\label{fig:powheg2j}
+\end{figure}
+
+Separate systematics are included in the fit for WZ + b, WZ + charm and WZ + light, where the distribution among each of the fit regions is varied based on the prediction of the Powheg sample.
