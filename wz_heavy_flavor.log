@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  19 FEB 2021 13:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  19 FEB 2021 20:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1064,6 +1064,12 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \c@nprt@blockcnt=\count174
 \c@nprt@cntprint=\count175
  No configuration file `numprint.cfg' found.)
+(/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/changepage/c
+hangepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count176
+\cp@tempcnt=\count177
+)
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/euler/euler.
 sty
 Package: euler 1995/03/05 v2.5
@@ -1223,10 +1229,10 @@ ies/pgfkeysfiltered.code.tex
 \pgf@yc=\dimen168
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count176
-\c@pgf@countb=\count177
-\c@pgf@countc=\count178
-\c@pgf@countd=\count179
+\c@pgf@counta=\count178
+\c@pgf@countb=\count179
+\c@pgf@countc=\count180
+\c@pgf@countd=\count181
 \t@pgf@toka=\toks33
 \t@pgf@tokb=\toks34
 \t@pgf@tokc=\toks35
@@ -1248,8 +1254,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/system
 layer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count180
-\pgfsyssoftpath@bigbuffer@items=\count181
+\pgfsyssoftpath@smallbuffer@items=\count182
+\pgfsyssoftpath@bigbuffer@items=\count183
 )
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/system
 layer/pgfsysprotocol.code.tex
@@ -1268,7 +1274,7 @@ gfmathutil.code.tex)
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/math/p
 gfmathparser.code.tex
 \pgfmath@dimen=\dimen169
-\pgfmath@count=\count182
+\pgfmath@count=\count184
 \pgfmath@box=\box50
 \pgfmath@toks=\toks36
 \pgfmath@stack@operand=\toks37
@@ -1294,7 +1300,7 @@ gfmathfunctions.misc.code.tex)
 gfmathfunctions.integerarithmetics.code.tex)))
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/math/p
 gfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count183
+\c@pgfmathroundto@lastzeros=\count185
 ))
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/basicl
 ayer/pgfcorepoints.code.tex
@@ -1332,7 +1338,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box51
 \pgf@hbox=\box52
 \pgf@layerbox@main=\box53
-\pgf@picture@serial@count=\count184
+\pgf@picture@serial@count=\count186
 )
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/basicl
 ayer/pgfcoregraphicstate.code.tex
@@ -1367,7 +1373,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 ayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen193
-\pgf@sys@shading@range@num=\count185
+\pgf@sys@shading@range@num=\count187
 )
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/pgf/basicl
 ayer/pgfcoreimage.code.tex
@@ -1412,9 +1418,9 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/geometry/geo
 metry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count186
-\Gm@cntv=\count187
-\c@Gm@tempcnt=\count188
+\Gm@cnth=\count188
+\Gm@cntv=\count189
+\c@Gm@tempcnt=\count190
 \Gm@bindingoffset=\dimen196
 \Gm@wd@mp=\dimen197
 \Gm@odd@mp=\dimen198
@@ -1435,7 +1441,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Info: Redefining \bf on input line 21.
+LaTeX Info: Redefining \bf on input line 23.
  (./latex/atlaspackage.sty
 Package: latex/atlaspackage 2018/01/10 v.05-03-00 ATLAS LaTeX packages
 
@@ -1854,12 +1860,12 @@ Package: placeins 2005/04/18  v 2.2
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/csquotes/csq
 uotes.sty
 Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
-\csq@reset=\count189
-\csq@gtype=\count190
-\csq@glevel=\count191
-\csq@qlevel=\count192
-\csq@maxlvl=\count193
-\csq@tshold=\count194
+\csq@reset=\count191
+\csq@gtype=\count192
+\csq@glevel=\count193
+\csq@qlevel=\count194
+\csq@maxlvl=\count195
+\csq@tshold=\count196
 \csq@ltx@everypar=\toks42
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/csquotes/csq
@@ -1888,12 +1894,12 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen267
 \cmidrulekern=\dimen268
 \defaultaddspace=\dimen269
-\@cmidla=\count195
-\@cmidlb=\count196
+\@cmidla=\count197
+\@cmidlb=\count198
 \@aboverulesep=\dimen270
 \@belowrulesep=\dimen271
-\@thisruleclass=\count197
-\@lastruleclass=\count198
+\@thisruleclass=\count199
+\@lastruleclass=\count266
 \@thisrulewidth=\dimen272
 )
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/subfigure/su
@@ -1905,10 +1911,10 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigbottomskip=\skip77
 \subfigcapmargin=\dimen274
 \subfiglabelskip=\skip78
-\c@subfigure=\count199
-\c@lofdepth=\count266
-\c@subtable=\count267
-\c@lotdepth=\count268
+\c@subfigure=\count267
+\c@lofdepth=\count268
+\c@subtable=\count269
+\c@lotdepth=\count270
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -1973,27 +1979,27 @@ Package: l3keys2e 2017/04/01 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box56
 \l__siunitx_tmp_dim=\dimen275
-\l__siunitx_tmp_int=\count269
-\l__siunitx_number_mantissa_length_int=\count270
-\l__siunitx_number_uncert_length_int=\count271
-\l__siunitx_round_int=\count272
-\l__siunitx_process_decimal_int=\count273
-\l__siunitx_process_uncertainty_int=\count274
-\l__siunitx_process_fixed_int=\count275
-\l__siunitx_process_integer_min_int=\count276
-\l__siunitx_process_precision_int=\count277
-\l__siunitx_group_min_int=\count278
+\l__siunitx_tmp_int=\count271
+\l__siunitx_number_mantissa_length_int=\count272
+\l__siunitx_number_uncert_length_int=\count273
+\l__siunitx_round_int=\count274
+\l__siunitx_process_decimal_int=\count275
+\l__siunitx_process_uncertainty_int=\count276
+\l__siunitx_process_fixed_int=\count277
+\l__siunitx_process_integer_min_int=\count278
+\l__siunitx_process_precision_int=\count279
+\l__siunitx_group_min_int=\count280
 \l__siunitx_angle_marker_box=\box57
 \l__siunitx_angle_unit_box=\box58
 \l__siunitx_angle_marker_dim=\dimen276
 \l__siunitx_angle_unit_dim=\dimen277
-\l__siunitx_unit_int=\count279
-\l__siunitx_unit_denominator_int=\count280
-\l__siunitx_unit_numerator_int=\count281
-\l__siunitx_unit_prefix_int=\count282
-\l__siunitx_unit_prefix_base_int=\count283
-\l__siunitx_unit_prefix_gram_int=\count284
-\l__siunitx_number_product_int=\count285
+\l__siunitx_unit_int=\count281
+\l__siunitx_unit_denominator_int=\count282
+\l__siunitx_unit_numerator_int=\count283
+\l__siunitx_unit_prefix_int=\count284
+\l__siunitx_unit_prefix_base_int=\count285
+\l__siunitx_unit_prefix_gram_int=\count286
+\l__siunitx_number_product_int=\count287
 \c__siunitx_one_fill_skip=\skip118
 \l__siunitx_table_unit_align_skip=\skip119
 \l__siunitx_table_exponent_dim=\dimen278
@@ -2144,7 +2150,7 @@ Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/logreq/logre
 q.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count286
+\lrq@indent=\count288
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/logreq/logre
 q.def
@@ -2155,49 +2161,49 @@ tring.sty
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/generic/xstring/xs
 tring.tex
 \@xs@message=\write4
-\integerpart=\count287
-\decimalpart=\count288
+\integerpart=\count289
+\decimalpart=\count290
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count289
-\c@listtotal=\count290
-\c@listcount=\count291
-\c@liststart=\count292
-\c@liststop=\count293
-\c@citecount=\count294
-\c@citetotal=\count295
-\c@multicitecount=\count296
-\c@multicitetotal=\count297
-\c@instcount=\count298
-\c@maxnames=\count299
-\c@minnames=\count300
-\c@maxitems=\count301
-\c@minitems=\count302
-\c@citecounter=\count303
-\c@savedcitecounter=\count304
-\c@uniquelist=\count305
-\c@uniquename=\count306
-\c@refsection=\count307
-\c@refsegment=\count308
-\c@maxextratitle=\count309
-\c@maxextratitleyear=\count310
-\c@maxextrayear=\count311
-\c@maxextraalpha=\count312
-\c@abbrvpenalty=\count313
-\c@highnamepenalty=\count314
-\c@lownamepenalty=\count315
-\c@maxparens=\count316
-\c@parenlevel=\count317
-\blx@tempcnta=\count318
-\blx@tempcntb=\count319
-\blx@tempcntc=\count320
-\blx@maxsection=\count321
-\blx@maxsegment@0=\count322
-\blx@notetype=\count323
-\blx@parenlevel@text=\count324
-\blx@parenlevel@foot=\count325
-\blx@sectionciteorder@0=\count326
+\c@tabx@nest=\count291
+\c@listtotal=\count292
+\c@listcount=\count293
+\c@liststart=\count294
+\c@liststop=\count295
+\c@citecount=\count296
+\c@citetotal=\count297
+\c@multicitecount=\count298
+\c@multicitetotal=\count299
+\c@instcount=\count300
+\c@maxnames=\count301
+\c@minnames=\count302
+\c@maxitems=\count303
+\c@minitems=\count304
+\c@citecounter=\count305
+\c@savedcitecounter=\count306
+\c@uniquelist=\count307
+\c@uniquename=\count308
+\c@refsection=\count309
+\c@refsegment=\count310
+\c@maxextratitle=\count311
+\c@maxextratitleyear=\count312
+\c@maxextrayear=\count313
+\c@maxextraalpha=\count314
+\c@abbrvpenalty=\count315
+\c@highnamepenalty=\count316
+\c@lownamepenalty=\count317
+\c@maxparens=\count318
+\c@parenlevel=\count319
+\blx@tempcnta=\count320
+\blx@tempcntb=\count321
+\blx@tempcntc=\count322
+\blx@maxsection=\count323
+\blx@maxsegment@0=\count324
+\blx@notetype=\count325
+\blx@parenlevel@text=\count326
+\blx@parenlevel@foot=\count327
+\blx@sectionciteorder@0=\count328
 \labelnumberwidth=\skip122
 \labelalphawidth=\skip123
 \biblabelsep=\skip124
@@ -2208,9 +2214,9 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibhang=\skip129
 \blx@bcfin=\read3
 \blx@bcfout=\write5
-\c@mincomprange=\count327
-\c@maxcomprange=\count328
-\c@mincompwidth=\count329
+\c@mincomprange=\count329
+\c@maxcomprange=\count330
+\c@mincompwidth=\count331
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -2220,72 +2226,72 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count330
-\c@savedafterword=\count331
-\c@annotator=\count332
-\c@savedannotator=\count333
-\c@author=\count334
-\c@savedauthor=\count335
-\c@bookauthor=\count336
-\c@savedbookauthor=\count337
-\c@commentator=\count338
-\c@savedcommentator=\count339
-\c@editor=\count340
-\c@savededitor=\count341
-\c@editora=\count342
-\c@savededitora=\count343
-\c@editorb=\count344
-\c@savededitorb=\count345
-\c@editorc=\count346
-\c@savededitorc=\count347
-\c@foreword=\count348
-\c@savedforeword=\count349
-\c@holder=\count350
-\c@savedholder=\count351
-\c@introduction=\count352
-\c@savedintroduction=\count353
-\c@namea=\count354
-\c@savednamea=\count355
-\c@nameb=\count356
-\c@savednameb=\count357
-\c@namec=\count358
-\c@savednamec=\count359
-\c@translator=\count360
-\c@savedtranslator=\count361
-\c@shortauthor=\count362
-\c@savedshortauthor=\count363
-\c@shorteditor=\count364
-\c@savedshorteditor=\count365
-\c@labelname=\count366
-\c@savedlabelname=\count367
-\c@institution=\count368
-\c@savedinstitution=\count369
-\c@lista=\count370
-\c@savedlista=\count371
-\c@listb=\count372
-\c@savedlistb=\count373
-\c@listc=\count374
-\c@savedlistc=\count375
-\c@listd=\count376
-\c@savedlistd=\count377
-\c@liste=\count378
-\c@savedliste=\count379
-\c@listf=\count380
-\c@savedlistf=\count381
-\c@location=\count382
-\c@savedlocation=\count383
-\c@organization=\count384
-\c@savedorganization=\count385
-\c@origlocation=\count386
-\c@savedoriglocation=\count387
-\c@origpublisher=\count388
-\c@savedorigpublisher=\count389
-\c@publisher=\count390
-\c@savedpublisher=\count391
-\c@language=\count392
-\c@savedlanguage=\count393
-\c@pageref=\count394
-\c@savedpageref=\count395
+\c@afterword=\count332
+\c@savedafterword=\count333
+\c@annotator=\count334
+\c@savedannotator=\count335
+\c@author=\count336
+\c@savedauthor=\count337
+\c@bookauthor=\count338
+\c@savedbookauthor=\count339
+\c@commentator=\count340
+\c@savedcommentator=\count341
+\c@editor=\count342
+\c@savededitor=\count343
+\c@editora=\count344
+\c@savededitora=\count345
+\c@editorb=\count346
+\c@savededitorb=\count347
+\c@editorc=\count348
+\c@savededitorc=\count349
+\c@foreword=\count350
+\c@savedforeword=\count351
+\c@holder=\count352
+\c@savedholder=\count353
+\c@introduction=\count354
+\c@savedintroduction=\count355
+\c@namea=\count356
+\c@savednamea=\count357
+\c@nameb=\count358
+\c@savednameb=\count359
+\c@namec=\count360
+\c@savednamec=\count361
+\c@translator=\count362
+\c@savedtranslator=\count363
+\c@shortauthor=\count364
+\c@savedshortauthor=\count365
+\c@shorteditor=\count366
+\c@savedshorteditor=\count367
+\c@labelname=\count368
+\c@savedlabelname=\count369
+\c@institution=\count370
+\c@savedinstitution=\count371
+\c@lista=\count372
+\c@savedlista=\count373
+\c@listb=\count374
+\c@savedlistb=\count375
+\c@listc=\count376
+\c@savedlistc=\count377
+\c@listd=\count378
+\c@savedlistd=\count379
+\c@liste=\count380
+\c@savedliste=\count381
+\c@listf=\count382
+\c@savedlistf=\count383
+\c@location=\count384
+\c@savedlocation=\count385
+\c@organization=\count386
+\c@savedorganization=\count387
+\c@origlocation=\count388
+\c@savedoriglocation=\count389
+\c@origpublisher=\count390
+\c@savedorigpublisher=\count391
+\c@publisher=\count392
+\c@savedpublisher=\count393
+\c@language=\count394
+\c@savedlanguage=\count395
+\c@pageref=\count396
+\c@savedpageref=\count397
 \shorthandwidth=\skip130
 \shortjournalwidth=\skip131
 \shortserieswidth=\skip132
@@ -2305,13 +2311,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/biblatex/bib
 latex.def
 File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count396
-\c@textcitetotal=\count397
-\c@textcitemaxnames=\count398
-\c@biburlnumpenalty=\count399
-\c@biburlucpenalty=\count400
-\c@biburllcpenalty=\count401
-\c@smartand=\count402
+\c@textcitecount=\count398
+\c@textcitetotal=\count399
+\c@textcitemaxnames=\count400
+\c@biburlnumpenalty=\count401
+\c@biburlucpenalty=\count402
+\c@biburllcpenalty=\count403
+\c@smartand=\count404
 )
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
@@ -2331,8 +2337,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/biblatex/bbx
 /standard.bbx
 File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count403
-\c@bbx:relatedtotal=\count404
+\c@bbx:relatedcount=\count405
+\c@bbx:relatedtotal=\count406
 )))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
@@ -2340,8 +2346,8 @@ Package biblatex Info: ... file 'numeric-comp.cbx' found.
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/biblatex/cbx
 /numeric-comp.cbx
 File: numeric-comp.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
-\c@cbx@tempcnta=\count405
-\c@cbx@tempcntb=\count406
+\c@cbx@tempcnta=\count407
+\c@cbx@tempcntb=\count408
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -2374,9 +2380,9 @@ hblk.sty
 Package: authblk 2001/02/27 1.3 (PWD)
 \affilsep=\skip136
 \@affilsep=\skip137
-\c@Maxaffil=\count407
-\c@authors=\count408
-\c@affil=\count409
+\c@Maxaffil=\count409
+\c@authors=\count410
+\c@affil=\count411
 )) (./latex/atlasphysics.sty
 Package: latex/atlasphysics 2018/01/10 v.05-03-00 ATLAS physics macros
 
@@ -2395,7 +2401,7 @@ atlasphysics: AUNIT@texlive is [2016]
 *** atlasunit: defining TeVc, TeVcc as siunitx > 2010
 ) (./latex/atlasxref.sty)) (./wz_heavy_flavor-defs.sty)
 (./wz_heavy_flavor-metadata.tex)
-LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 92
+LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 94
 .
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/t1ntxt
@@ -2403,7 +2409,7 @@ lf.fd
 File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 92.
+(Font)              scaled to size 10.95pt on input line 94.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package biblatex Info: Trying to load language 'UKenglish'...
@@ -2433,74 +2439,74 @@ LaTeX Warning: Label `fig:ttbar_summary' multiply defined.
 (./sections/tables/yields2j_postFit.aux) (./sections/tZInt.aux))
 \openout1 = `wz_heavy_flavor.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 92.
-LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 92
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 94.
+LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 94
 .
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/omlntx
 mi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 92.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 92.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 94.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 94.
 
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/untxex
 a.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 92.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 94.
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.
 fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 92.
-LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 92
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 94.
+LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 94
 .
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/lmsntx
 sy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 94.
 LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 9
-2.
+4.
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/lmxntx
 exx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    ... okay on input line 94.
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/context/base/mkii/
 supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count410
+\scratchcounter=\count412
 \scratchdimen=\dimen288
 \scratchbox=\box63
-\nofMPsegments=\count411
-\nofMParguments=\count412
+\nofMPsegments=\count413
+\nofMParguments=\count414
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count413
+\MPscratchCnt=\count415
 \MPscratchDim=\dimen289
-\MPnumerator=\count414
-\makeMPintoPDFobject=\count415
+\MPnumerator=\count416
+\makeMPintoPDFobject=\count417
 \everyMPtoPDFconversion=\toks44
 )
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/oberdiek/eps
@@ -2524,7 +2530,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box64
-Package hyperref Info: Link coloring ON on input line 92.
+Package hyperref Info: Link coloring ON on input line 94.
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/hyperref/nam
 eref.sty
@@ -2534,17 +2540,17 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count416
+\c@section@level=\count418
 )
-LaTeX Info: Redefining \ref on input line 92.
-LaTeX Info: Redefining \pageref on input line 92.
-LaTeX Info: Redefining \nameref on input line 92.
+LaTeX Info: Redefining \ref on input line 94.
+LaTeX Info: Redefining \pageref on input line 94.
+LaTeX Info: Redefining \nameref on input line 94.
  (./wz_heavy_flavor.out) (./wz_heavy_flavor.out)
 \@outlinefile=\write6
 \openout6 = `wz_heavy_flavor.out'.
 
-\c@mv@tabular=\count417
-\c@mv@boldtabular=\count418
+\c@mv@tabular=\count419
+\c@mv@boldtabular=\count420
 
 atlasdoc: this is an ATLAS draft document
 
@@ -2567,72 +2573,72 @@ Package scrlayer-scrpage Info: deactivating warning for font element
 (scrlayer-scrpage)             `pagefoot' on input line 1203.
 )
 Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 92.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 94.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 92.
+(Font)              `operators' in the math version `normal' on input line 94.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/ntxtlf/m/n --> T1/ntxtlf/m/n on input line 92.
+(Font)                  OT1/ntxtlf/m/n --> T1/ntxtlf/m/n on input line 94.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 92.
+(Font)              `operators' in the math version `bold' on input line 94.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/ntxtlf/b/n --> T1/ntxtlf/m/n on input line 92.
+(Font)                  OT1/ntxtlf/b/n --> T1/ntxtlf/m/n on input line 94.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `tabular' on input line 92.
+(Font)              `operators' in the math version `tabular' on input line 94.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `tabular'
-(Font)                  OT1/ntxtlf/m/n --> T1/ntxtlf/m/n on input line 92.
+(Font)                  OT1/ntxtlf/m/n --> T1/ntxtlf/m/n on input line 94.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
 (Font)              `operators' in the math version `boldtabular' on input line
- 92.
+ 94.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `boldtabular
 '
-(Font)                  OT1/ntxtlf/b/n --> T1/ntxtlf/m/n on input line 92.
+(Font)                  OT1/ntxtlf/b/n --> T1/ntxtlf/m/n on input line 94.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  T1/ntxtlf/m/n --> T1/ntxtlf/bx/n on input line 92.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 92.
+(Font)                  T1/ntxtlf/m/n --> T1/ntxtlf/bx/n on input line 94.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/ntxtlf/b/n --> T1/ntxtlf/bx/n on input line 92.
+(Font)                  OT1/ntxtlf/b/n --> T1/ntxtlf/bx/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/ntxtlf/b/n --> T1/ntxtlf/bx/n on input line 92.
+(Font)                  OT1/ntxtlf/b/n --> T1/ntxtlf/bx/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `tabular'
-(Font)                  OT1/ntxtlf/b/n --> T1/ntxtlf/bx/n on input line 92.
+(Font)                  OT1/ntxtlf/b/n --> T1/ntxtlf/bx/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldtabular
 '
-(Font)                  OT1/ntxtlf/b/n --> T1/ntxtlf/bx/n on input line 92.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 92.
+(Font)                  OT1/ntxtlf/b/n --> T1/ntxtlf/bx/n on input line 94.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  T1/qhv/m/n --> T1/qhv/m/n on input line 92.
+(Font)                  T1/qhv/m/n --> T1/qhv/m/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/qhv/b/n --> T1/qhv/m/n on input line 92.
+(Font)                  T1/qhv/b/n --> T1/qhv/m/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `tabular'
-(Font)                  T1/qhv/m/n --> T1/qhv/m/n on input line 92.
+(Font)                  T1/qhv/m/n --> T1/qhv/m/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldtabular
 '
-(Font)                  T1/qhv/b/n --> T1/qhv/m/n on input line 92.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 92.
+(Font)                  T1/qhv/b/n --> T1/qhv/m/n on input line 94.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/ntxtlf/m/it --> T1/ntxtlf/m/it on input line 92.
+(Font)                  OT1/ntxtlf/m/it --> T1/ntxtlf/m/it on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/ntxtlf/b/it --> T1/ntxtlf/m/it on input line 92.
+(Font)                  OT1/ntxtlf/b/it --> T1/ntxtlf/m/it on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `tabular'
-(Font)                  OT1/ntxtlf/m/it --> T1/ntxtlf/m/it on input line 92.
+(Font)                  OT1/ntxtlf/m/it --> T1/ntxtlf/m/it on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldtabular
 '
-(Font)                  OT1/ntxtlf/b/it --> T1/ntxtlf/m/it on input line 92.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 92.
+(Font)                  OT1/ntxtlf/b/it --> T1/ntxtlf/m/it on input line 94.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  T1/ntxtt/m/n --> T1/ntxtt/m/n on input line 92.
+(Font)                  T1/ntxtt/m/n --> T1/ntxtt/m/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/ntxtt/b/n --> T1/ntxtt/m/n on input line 92.
+(Font)                  T1/ntxtt/b/n --> T1/ntxtt/m/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `tabular'
-(Font)                  T1/ntxtt/m/n --> T1/ntxtt/m/n on input line 92.
+(Font)                  T1/ntxtt/m/n --> T1/ntxtt/m/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldtabular
 '
-(Font)                  T1/ntxtt/b/n --> T1/ntxtt/m/n on input line 92.
+(Font)                  T1/ntxtt/b/n --> T1/ntxtt/m/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/qhv/m/n --> T1/qhv/bx/n on input line 92.
+(Font)                  T1/qhv/m/n --> T1/qhv/bx/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/ntxtlf/m/it --> T1/ntxtlf/bx/it on input line 92.
+(Font)                  T1/ntxtlf/m/it --> T1/ntxtlf/bx/it on input line 94.
  ABD: EveryShipout initializing macros
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2715,72 +2721,72 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 92.
-Package biblatex Info: Reference segment=0 on input line 92.
-\c__siunitx_mathsf_int=\count419
+Package biblatex Info: Reference section=0 on input line 94.
+Package biblatex Info: Reference segment=0 on input line 94.
+\c__siunitx_mathsf_int=\count421
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 92.
+(Font)              scaled to size 8.0pt on input line 94.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 92.
-LaTeX Font Info:    Try loading font information for U+eur on input line 92.
+(Font)              scaled to size 6.1pt on input line 94.
+LaTeX Font Info:    Try loading font information for U+eur on input line 94.
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/amsfonts/ueu
 r.fd
 File: ueur.fd 2013/01/14 v3.01 Euler Roman
 )
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 92.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 94.
 
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/untxmi
 a.fd
 File: untxmia.fd 2016/01/31 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 92.
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 94.
 
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/untxsy
 m.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 92.
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 94.
 
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/untxsy
 c.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Font Info:    Try loading font information for U+euf on input line 92.
+LaTeX Font Info:    Try loading font information for U+euf on input line 94.
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/amsfonts/ueu
 f.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
-LaTeX Font Info:    Try loading font information for U+eus on input line 92.
+LaTeX Font Info:    Try loading font information for U+eus on input line 94.
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/amsfonts/ueu
 s.fd
 File: ueus.fd 2013/01/14 v3.01 Euler Script
 )
-LaTeX Font Info:    Try loading font information for U+euex on input line 92.
+LaTeX Font Info:    Try loading font information for U+euex on input line 94.
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/amsfonts/ueu
 ex.fd
 File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
 )
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 92.
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 94.
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/tex-gyre/t1q
 hv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 92.
+(Font)              scaled to size 9.85492pt on input line 94.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 92.
+(Font)              scaled to size 7.19995pt on input line 94.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 5.48996pt on input line 92.
-\c__siunitx_mathtt_int=\count420
-LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 92.
+(Font)              scaled to size 5.48996pt on input line 94.
+\c__siunitx_mathtt_int=\count422
+LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 94.
 
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/t1ntxt
@@ -2788,82 +2794,82 @@ t.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.95pt on input line 92.
+(Font)              scaled to size 10.95pt on input line 94.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 8.0pt on input line 92.
+(Font)              scaled to size 8.0pt on input line 94.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 6.1pt on input line 92.
+(Font)              scaled to size 6.1pt on input line 94.
  <logos/AT_atlaslogo_2015.pdf, id=139, 259.97125pt x 259.97125pt>
 File: logos/AT_atlaslogo_2015.pdf Graphic file (type pdf)
 
 <use logos/AT_atlaslogo_2015.pdf>
-Package pdftex.def Info: logos/AT_atlaslogo_2015.pdf used on input line 94.
+Package pdftex.def Info: logos/AT_atlaslogo_2015.pdf used on input line 96.
 (pdftex.def)             Requested size: 71.12935pt x 71.13188pt.
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 94.
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 9.85492pt on input line 94.
+(Font)              scaled to size 9.85492pt on input line 96.
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <20> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 94.
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 17.99988pt on input line 94.
+(Font)              scaled to size 17.99988pt on input line 96.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 94.
+(Font)              scaled to size 14.4pt on input line 96.
 
 <logos/AT_cernlogo.pdf, id=140, 85.31876pt x 83.31125pt>
 File: logos/AT_cernlogo.pdf Graphic file (type pdf)
 
 <use logos/AT_cernlogo.pdf>
-Package pdftex.def Info: logos/AT_cernlogo.pdf used on input line 94.
+Package pdftex.def Info: logos/AT_cernlogo.pdf used on input line 96.
 (pdftex.def)             Requested size: 72.85063pt x 71.13188pt.
 
-Overfull \hbox (40.03896pt too wide) in paragraph at lines 94--94
+Overfull \hbox (40.03896pt too wide) in paragraph at lines 96--96
 [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 94.
+(Font)              scaled to size 6.0pt on input line 96.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 5.39996pt on input line 94.
+(Font)              scaled to size 5.39996pt on input line 96.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 94.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 94.
+(Font)              scaled to size 10.95pt on input line 96.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 94.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 94.
+(Font)              scaled to size 20.74pt on input line 96.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <16.1> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 94.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 16.1pt on input line 94.
+(Font)              scaled to size 16.1pt on input line 96.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <11.4> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 94.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 11.4pt on input line 94.
+(Font)              scaled to size 11.4pt on input line 96.
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <16.1> not available
-(Font)              size <17.28> substituted on input line 94.
+(Font)              size <17.28> substituted on input line 96.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <11.4> not available
-(Font)              size <10.95> substituted on input line 94.
+(Font)              size <10.95> substituted on input line 96.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 20.74pt on input line 94.
+(Font)              scaled to size 20.74pt on input line 96.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 94.
+(Font)              scaled to size 10.0pt on input line 96.
 LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 9
-4.
+6.
 
 (/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/tex/latex/newtx/ts1ntx
 tlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 94.
+(Font)              scaled to size 10.0pt on input line 96.
 
-Overfull \hbox (40.03896pt too wide) in paragraph at lines 94--94
+Overfull \hbox (40.03896pt too wide) in paragraph at lines 96--96
  [][] 
  []
 
@@ -2872,15 +2878,15 @@ Overfull \hbox (40.03896pt too wide) in paragraph at lines 94--94
 {/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-var/fonts/map/pdftex/updmap
 /pdftex.map} <./logos/AT_atlaslogo_2015.pdf> <./logos/AT_cernlogo.pdf>]
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 96.
+(Font)              scaled to size 12.9599pt on input line 98.
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 96.
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 98.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 96.
+(Font)              scaled to size 12.9599pt on input line 98.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 96.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 98.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 96.
+(Font)              scaled to size 14.4pt on input line 98.
 
 (./wz_heavy_flavor.toc
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
@@ -2911,10 +2917,10 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 
  [2]
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 113.
+(Font)              scaled to size 10.95pt on input line 115.
 
 
-LaTeX Warning: Reference `tbl:tightleps' on page 3 undefined on input line 127.
+LaTeX Warning: Reference `tbl:tightleps' on page 3 undefined on input line 129.
 
 
 [3
@@ -2922,10 +2928,10 @@ LaTeX Warning: Reference `tbl:tightleps' on page 3 undefined on input line 127.
 ]
 
 LaTeX Warning: Reference `subsec:interference' on page 4 undefined on input lin
-e 143.
+e 145.
 
 
-LaTeX Warning: Reference `tbl:tightleps' on page 4 undefined on input line 155.
+LaTeX Warning: Reference `tbl:tightleps' on page 4 undefined on input line 157.
 
 
 [4] (./sections/summary.tex) (./sections/MC.tex [5
@@ -2943,7 +2949,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.195 
+l.197 
       ] (./sections/reco.tex
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.3pt on input line 38.
@@ -4612,7 +4618,7 @@ signalModel/plots/light1j.pdf, page is rotated 90 degrees>])
 \openout2 = `sections/tables/yields1j.aux'.
 
  (./sections/tables/yields1j.tex
-Overfull \hbox (158.90553pt too wide) in paragraph at lines 1--25
+Overfull \hbox (12.47078pt too wide) in paragraph at lines 1--25
 [][] 
  []
 
@@ -4621,7 +4627,7 @@ Overfull \hbox (158.90553pt too wide) in paragraph at lines 1--25
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.21 
+l.24 
       <./figures/signalModel/plots/bjets2j.pdf, page is rotated 90 degrees> <./
 figures/signalModel/plots/charm2j.pdf, page is rotated 90 degrees> <./figures/s
 ignalModel/plots/light2j.pdf, page is rotated 90 degrees>]
@@ -4629,7 +4635,7 @@ ignalModel/plots/light2j.pdf, page is rotated 90 degrees>]
 
 
 (./sections/tables/yields1j_postFit.tex)
-Overfull \hbox (156.48308pt too wide) in paragraph at lines 1--37
+Overfull \hbox (156.48308pt too wide) in paragraph at lines 1--40
 [][] 
  []
 
@@ -4641,12 +4647,12 @@ s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.41 
+l.44 
      ] <figures/1j/Summary_postFit.png, id=1417, 899.36pt x 674.52pt>
 File: figures/1j/Summary_postFit.png Graphic file (type png)
 
 <use figures/1j/Summary_postFit.png>
-Package pdftex.def Info: figures/1j/Summary_postFit.png used on input line 46.
+Package pdftex.def Info: figures/1j/Summary_postFit.png used on input line 49.
 (pdftex.def)             Requested size: 376.4258pt x 282.3187pt.
  [50
 
@@ -4656,38 +4662,38 @@ s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.50 
+l.53 
      ] [51pdfTeX warning (ext4): destination with the same identifier (name{fig
 ure.29}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.80 
+l.83 
       <./figures/1j/Summary_postFit.png>]
 <figures/1j/Ranking.png, id=1432, 598.235pt x 1111.15125pt>
 File: figures/1j/Ranking.png Graphic file (type png)
 
 <use figures/1j/Ranking.png>
-Package pdftex.def Info: figures/1j/Ranking.png used on input line 85.
+Package pdftex.def Info: figures/1j/Ranking.png used on input line 88.
 (pdftex.def)             Requested size: 292.77632pt x 543.80763pt.
  [52pdfTeX warning (ext4): destination with the same identifier (name{table.15}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.89 
+l.92 
      ] [53pdfTeX warning (ext4): destination with the same identifier (name{fig
 ure.30}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.91 
+l.94 
       <./figures/1j/Ranking.png>]
 <figures/1j/PieChart_postFit.png, id=1443, 748.7975pt x 574.145pt>
 File: figures/1j/PieChart_postFit.png Graphic file (type png)
 
 <use figures/1j/PieChart_postFit.png>
-Package pdftex.def Info: figures/1j/PieChart_postFit.png used on input line 94.
+Package pdftex.def Info: figures/1j/PieChart_postFit.png used on input line 97.
 
 (pdftex.def)             Requested size: 292.77632pt x 224.48509pt.
 
@@ -4695,26 +4701,26 @@ Package pdftex.def Info: figures/1j/PieChart_postFit.png used on input line 94.
 File: figures/1j/CorrMatrix.png Graphic file (type png)
 
 <use figures/1j/CorrMatrix.png>
-Package pdftex.def Info: figures/1j/CorrMatrix.png used on input line 103.
+Package pdftex.def Info: figures/1j/CorrMatrix.png used on input line 106.
 (pdftex.def)             Requested size: 418.25372pt x 413.09361pt.
  [54pdfTeX warning (ext4): destination with the same identifier (name{figure.31
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.107 
+l.110 
        <./figures/1j/PieChart_postFit.png>] [55pdfTeX warning (ext4): destinati
 on with the same identifier (name{figure.32}) has been already used, duplicate 
 ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.113 
+l.116 
        <./figures/1j/CorrMatrix.png>]
 \openout2 = `sections/tables/yields2j.aux'.
 
  (./sections/tables/yields2j.tex)
-Overfull \hbox (624.53394pt too wide) in paragraph at lines 1--172
+Overfull \hbox (624.53394pt too wide) in paragraph at lines 1--175
 [][] 
  []
 
@@ -4733,12 +4739,12 @@ s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.196 
+l.199 
       ] <figures/2j/Summary_postFit.png, id=1465, 899.36pt x 674.52pt>
 File: figures/2j/Summary_postFit.png Graphic file (type png)
 
 <use figures/2j/Summary_postFit.png>
-Package pdftex.def Info: figures/2j/Summary_postFit.png used on input line 213.
+Package pdftex.def Info: figures/2j/Summary_postFit.png used on input line 216.
 
 (pdftex.def)             Requested size: 376.4258pt x 282.3187pt.
  [57
@@ -4749,38 +4755,38 @@ s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.217 
+l.220 
       ] [58pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.33}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.250 
+l.253 
       pdfTeX warning (ext4): destination with the same identifier (name{table.1
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.250 
+l.253 
        <./figures/2j/Summary_postFit.png>]
 <figures/2j/Ranking.png, id=1479, 598.235pt x 1111.15125pt>
 File: figures/2j/Ranking.png Graphic file (type png)
 
 <use figures/2j/Ranking.png>
-Package pdftex.def Info: figures/2j/Ranking.png used on input line 253.
+Package pdftex.def Info: figures/2j/Ranking.png used on input line 256.
 (pdftex.def)             Requested size: 292.77632pt x 543.80763pt.
  [59] [60pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.34}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.259 
+l.262 
        <./figures/2j/Ranking.png>]
 <figures/2j/PieChart_postFit.png, id=1490, 748.7975pt x 574.145pt>
 File: figures/2j/PieChart_postFit.png Graphic file (type png)
 
 <use figures/2j/PieChart_postFit.png>
-Package pdftex.def Info: figures/2j/PieChart_postFit.png used on input line 262
+Package pdftex.def Info: figures/2j/PieChart_postFit.png used on input line 265
 .
 (pdftex.def)             Requested size: 292.77632pt x 224.48509pt.
 
@@ -4788,21 +4794,21 @@ Package pdftex.def Info: figures/2j/PieChart_postFit.png used on input line 262
 File: figures/2j/CorrMatrix.png Graphic file (type png)
 
 <use figures/2j/CorrMatrix.png>
-Package pdftex.def Info: figures/2j/CorrMatrix.png used on input line 271.
+Package pdftex.def Info: figures/2j/CorrMatrix.png used on input line 274.
 (pdftex.def)             Requested size: 418.25372pt x 413.20857pt.
  [61pdfTeX warning (ext4): destination with the same identifier (name{figure.35
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.275 
+l.278 
        <./figures/2j/PieChart_postFit.png>]) [62pdfTeX warning (ext4): destinat
 ion with the same identifier (name{figure.36}) has been already used, duplicate
  ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.234 \section{Conclusion}
+l.236 \section{Conclusion}
                            <./figures/2j/CorrMatrix.png>] [63] [64
 
 ]
@@ -4969,26 +4975,26 @@ on input line 18.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.265 \include{sections/tZInt}
+l.267 \include{sections/tZInt}
                                <./figures/tZInterference/lep1pt-eps-converted-t
 o.pdf> <./figures/tZInterference/lep2pt-eps-converted-to.pdf> <./figures/tZInte
 rference/lep3pt-eps-converted-to.pdf> <./figures/tZInterference/lepPairMass23-e
 ps-converted-to.pdf> <./figures/tZInterference/drll23-eps-converted-to.pdf> <./
 figures/tZInterference/btpt-eps-converted-to.pdf>] [67]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 297.
+(Font)              scaled to size 10.95pt on input line 299.
  [68
 
 
 ] [69]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 300.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 300.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
 
 (./wz_heavy_flavor.aux (./sections/xsecUnc.aux) (./sections/tables/yields1j.aux
 ) (./sections/tables/yields1j_postFit.aux) (./sections/tables/yields2j.aux)
 (./sections/tables/yields2j_postFit.aux) (./sections/tZInt.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 300.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 300.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
 Package rerunfilecheck Info: File `wz_heavy_flavor.out' has not changed.
 (rerunfilecheck)             Checksum: 5D864A84B2C202B2EB620EEBEADF9E8A;2194.
 
@@ -5012,11 +5018,11 @@ Package logreq Info: Writing requests to 'wz_heavy_flavor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40772 strings out of 493013
- 813034 string characters out of 6123688
- 1326438 words of memory out of 5000000
- 43188 multiletter control sequences out of 15000+600000
- 186186 words of font info for 271 fonts, out of 8000000 for 9000
+ 40822 strings out of 493013
+ 813919 string characters out of 6123688
+ 1327329 words of memory out of 5000000
+ 43232 multiletter control sequences out of 15000+600000
+ 186769 words of font info for 273 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,24n,74p,10411b,1987s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/enc/dvips/newt
@@ -5044,7 +5050,7 @@ n.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb
 fonts/t1xtt.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/
 type1/public/newtx/txbsys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/tex
 mf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (69 pages, 4881009 bytes).
+Output written on wz_heavy_flavor.pdf (69 pages, 4880807 bytes).
 PDF statistics:
  1797 PDF objects out of 2073 (max. 8388607)
  1118 compressed objects within 12 object streams
