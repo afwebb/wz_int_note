@@ -14,23 +14,27 @@ Pileup reweighting 	& 1		      \\
 \textbf {Physics Objects}     	&		      \\
 \ \ Electron                               	& 6		      \\
 \ \ Muon	& 15		      \\
-\ \ Jet energy scale and resolution  	& 28                  \\
+\ \ Jet energy scale   	& 28                  \\
+\ \ Jet energy resolution & 8 \\
 \ \ Jet vertex fraction  	& 1		      \\
 \ \ Jet flavor tagging   	& 131		      \\
 \ \ $E^{miss}_T$  	& 3		      \\
 \hline
-Total (Experimental)        & 186		     \\
+Total (Experimental)        & 194		     \\
 \hline
 \hline
+\textbf {Signal Modeling}           &                     \\
+\ \ Shape modelling & 3 \\
+\ \ Renormalization and factorization scales    & 5                  \\
 \textbf {Background Modeling}          	&		      \\
-\ \ Cross section                 	& 24		      \\
-\ \ Renormalization and factorization scales 	& 10		      \\
-\ \ Parton shower and hadronization model       	& 2		      \\
-\ \ Shower tune				& 4		      \\
+\ \ Cross section                 	& 15		      \\
+\ \ Renormalization and factorization scales 	& 12		      \\
+%\ \ Parton shower and hadronization model       	& 2		      \\
+%\ \ Shower tune				& 4		      \\
 \hline
-Total (Signal and background modeling)       & 40		     \\
+Total (Signal and background modeling)       &  35		     \\
 \hline\hline
-Total (Overall)                             & 226	      \\
+Total (Overall)                             & 229	      \\
 \hline\hline
 \end{tabular}
 \label{tab:SystSummary}
@@ -42,7 +46,7 @@ The experimental uncertainties are related to the reconstruction and identificat
 
 The uncertainties in the b-tagging efficiencies measured in dedicated calibration analyses \cite{btag_cal} are also decomposed into uncorrelated components. The large number of components for b-tagging is due to the calibration of the distribution of the MVA discriminant.  
 
-The systematic uncertainties associated with the signal and background processes are accounted for by varying the cross-section of each process within its uncertainty.
+%The systematic uncertainties associated with the signal and background processes are accounted for by varying the cross-section of each process within its uncertainty.
 
 The full list of systematic uncertainties considered in the analysis is summarized in tables
 \ref{Tab:LeptonExperimentalSyst}, \ref{Tab:JetsExperimentalSyst} and \ref{Tab:BTagExperimentalSyst}.
@@ -52,16 +56,16 @@ The full list of systematic uncertainties considered in the analysis is summariz
     {\small
     \begin{tabular}{|llcl|}
       \hline
-      \multicolumn{4}{|c|}{\bf Experimental Systematics on Leptons and $E_T^{miss}$} \\
+      \multicolumn{4}{|c|}{\textbf{ Experimental Systematics on Leptons and $E_T^{miss}$} }\\
      % \hline
       Type     & Description  & Systematics Name & Application \\
      \hline
      \hline
-     \multicolumn{4}{|c|}{\bf{Trigger}}\\
+     \multicolumn{4}{|c|}{\textbf{Trigger}}\\
      \hline
     Scale Factors    & Trigger Efficiency        & lepSFTrigTight$\_$MU(EL)$\_$SF$\_$Trigger$\_$STAT(SYST)    & Event Weight      \\
       \hline
-      \multicolumn{4}{|c|}{\bf{Muons}} \\
+      \multicolumn{4}{|c|}{\textbf{Muons}} \\
       \hline
       Efficiencies   & Reconstruction and        & lepSFObjTight$\_$MU$\_$SF$\_$ID$\_$STAT(SYST)              & Event Weight       \\
      & Identification    &       &        \\
@@ -76,7 +80,7 @@ The full list of systematic uncertainties considered in the analysis is summariz
      & Energy Resolution         &       &        \\
      &   &   &         \\
      \hline
-     \multicolumn{4}{|c|}{\bf{Electrons}}\\
+     \multicolumn{4}{|c|}{\textbf{Electrons}}\\
      \hline
      Efficiencies    & Reconstruction       	 & lepSFObjTight$\_$EL$\_$SF$\_$ID  			      & Event Weight   	    \\
      & Identification   & lepSFObjTight$\_$EL$\_$SF$\_$Reco       		      & Event Weight            \\
@@ -87,7 +91,7 @@ The full list of systematic uncertainties considered in the analysis is summariz
      Resolution      & Energy Resolution  	 & EG$\_$RESOLUTION$\_$ALL      			      & Energy Correction     \\
          	     &   &   &             \\
      \hline
-     \multicolumn{4}{|c|}{\bf{$E_T^{miss}$}}\\
+     \multicolumn{4}{|c|}{\textbf{$E_T^{miss}$}}\\
      \hline
      Soft Tracks Terms         &             Resolution                   &      MET$\_$SoftTrk$\_$ResoPerp       &   \pt Correction  \\
                                &             Resolution                   &      MET$\_$SoftTrk$\_$ResoPara        &    \pt Correction    \\
@@ -108,7 +112,7 @@ The full list of systematic uncertainties considered in the analysis is summariz
     {\small
     \begin{tabular}{|llcc|}
       \hline
-      \multicolumn{4}{|c|}{\bf Experimental Systematics on Jets} \\
+      \multicolumn{4}{|c|}{\textbf{ Experimental Systematics on Jets}} \\
       \hline
       Type     & Origin   & Systematics Name  & Application \\
       \hline
@@ -150,7 +154,7 @@ The full list of systematic uncertainties considered in the analysis is summariz
     {\small
     \begin{tabular}{|llc|}
       \hline
-     \multicolumn{3}{|c|}{\bf Experimental Systematics on b-tagging} \\
+     \multicolumn{3}{|c|}{\textbf{Experimental Systematics on b-tagging}} \\
       \hline
       Type     & Origin   & Systematic Name \\
      \hline
@@ -176,7 +180,7 @@ The full list of systematic uncertainties considered in the analysis is summariz
 
 Theoritical uncertainties applied to MC predictions, including cross section, PDF, and scale uncertainties are taken from theory calculations, with the exception of non-prompt and diboson backgrounds. The cross-section uncertainty on tZ is taken from \cite{tZ_paper}. Derivation of the non-prompt background uncertainties, Z+jets and $t\bar{t}$, are explained in detail in section \ref{sec:fakes}. 
 
-The other VV + heavy flavor processes (namely VV+b and VV+charm, which primarily comprise of ZZ events) are also poorly understood, because these processes involve much of the same physics as WZ + heavy flavor, and have also not been measured. Therefore, a conservative 50\% uncertainty is applied to those samples. 
+The other VV + heavy flavor processes (namely VV+b and VV+charm, which primarily consist of ZZ events) are also poorly understood, because these processes involve the same physics as WZ + heavy flavor, and have also not been measured. Therefore, a conservative 50\% uncertainty is applied to those samples. While this uncertainty is large, it is found to have little impact on the significance of the final result.
 
 The theory uncertainties applied to the predominate background estimates are summarized in table \ref{tab:xsecUnc}. 
 
@@ -193,18 +197,18 @@ Additional signal uncertainties are estimated by comparing estimates from the no
 
 \begin{figure}[H]
     \centering
-    \subfigure[]{\includegraphics[width=.32\linewidth]{signalModel/plots/bjets1j.pdf}}%                  
-    \subfigure[]{\includegraphics[width=.32\linewidth]{signalModel/plots/charm1j.pdf}}%
-    \subfigure[]{\includegraphics[width=.32\linewidth]{signalModel/plots/light1j.pdf}}\\
+    \subfigure[]{\includegraphics[width=.32\linewidth]{signalModel/plotsNotZ/bjets1j.pdf}}%                  
+    \subfigure[]{\includegraphics[width=.32\linewidth]{signalModel/plotsNotZ/charm1j.pdf}}%
+    \subfigure[]{\includegraphics[width=.32\linewidth]{signalModel/plotsNotZ/light1j.pdf}}\\
     \caption{Comparison between Sherpa and Powheg predictions of the distribution of (a) WZ + b, (b) WZ + charm, and (c) WZ + light among the various b-tag WPs used in the 1-jet fit.}
 \label{fig:powheg1j}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \subfigure[]{\includegraphics[width=.32\linewidth]{signalModel/plots/bjets2j.pdf}}%                                    
-    \subfigure[]{\includegraphics[width=.32\linewidth]{signalModel/plots/charm2j.pdf}}%                                     
-    \subfigure[]{\includegraphics[width=.32\linewidth]{signalModel/plots/light2j.pdf}}\\
+    \subfigure[]{\includegraphics[width=.32\linewidth]{signalModel/plotsNotZ/bjets2j.pdf}}%                     
+    \subfigure[]{\includegraphics[width=.32\linewidth]{signalModel/plotsNotZ/charm2j.pdf}}%                           
+    \subfigure[]{\includegraphics[width=.32\linewidth]{signalModel/plotsNotZ/light2j.pdf}}\\
     \caption{Comparison between Sherpa and Powheg predictions of the distribution of (a) WZ + b, (b) WZ + charm, and (c) WZ + light among the various b-tag WPs used in the 2-jet fit.}
 \label{fig:powheg2j}
 \end{figure}

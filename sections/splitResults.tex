@@ -3,15 +3,21 @@ A separate maximum-likelihood fit is performed over the 1-jet and 2-jet fit regi
 
 A maximum likelihood fit to data is performed simultaneously in the regions described in section \ref{sec:evt_selection}. The parameters $\mu_{WZ+b}$, $\mu_{WZ+charm}$, $\mu_{WZ+light}$, where $\mu = \sigma_{observed}/\sigma_{SM} $, are extracted from the fit.
 
-While in the nominal fit events with an intermediate top quark are treated as a separate process, an alternative version of the measurement is performed which considers tZ as part of the signal.
+%While in the nominal fit events with an intermediate top quark are treated as a separate process, an alternative version of the measurement is performed which considers tZ as part of the signal.
 
-%The fit gives a $\mu$ value of $1.3^{+0.5}_{-0.4}(stat)^{+0.4}_{-0.4}(sys)$ for $WZ$ + b. The fitted cross-section modifiers for $WZ$ + charm and $WZ$ + light are $1.2 \pm 0.2 \pm 0.1$ and $1.04 \pm 0.04 \pm 0.03 $, respectively, consistent with Standard Model predictions. The observed $WZ$ + heavy-flavor inclusive cross-section is $124^{+51}_{-43}(stat)^{+36}_{-35}(sys)$ fb = $124^{+63}_{-56}$ fb. This is calculated based on a model dependant extrapolation to an inclusive region of phase space. 
+The Asimov fit for 1-jet events gives an expected $\mu$ value of $1.00^{+0.37}_{-0.35}(stat)^{+0.24}_{-0.22}(sys)$ for $WZ$ + b. The fitted cross-section modifiers for $WZ$ + charm and $WZ$ + light are $1.00 \pm 0.17 \pm 0.15$ and $1.00 \pm 0.04 \pm 0.07 $, respectively.
+
+The expected cross-section of WZ+b with 1 associated jet obtained from the fit is $1.74^{+0.65}_{-0.61}(stat)^{+0.42}_{-0.37}(sys)$ fb with an expected significance of 2.2$\sigma$.
+
+For 2-jet events, the fit gives an expected $\mu$ value of $1.00^{+0.34}_{-0.33}(stat)^{+0.29}_{-0.28}(sys)$ for $WZ$ + b. The fitted cross-section modifiers for $WZ$ + charm and $WZ$ + light are $1.00 \pm 0.17 \pm 0.15$ and $1.00 \pm 0.04 \pm 0.08 $, respectively.
+
+The expected $WZ$ + b cross-section in the 2-jet region is $2.46^{+0.83}_{-0.81}(stat)^{+0.0.73}_{-0.68}(sys)$ fb with an expected significance of 2.6$\sigma$.  
 
 \subsection{1-jet Fit Results}
 
 \textbf{The results of the fit are currently blinded.} 
 
-The pre-fit yields in each of the regions used in the fit are shown in table \ref{tab:prefitYield1j}.
+The pre-fit yields in each of the regions used in the fit are shown in table \ref{tab:prefitYield1j}, and summarized in figure \ref{fig:prefitSummary_1j}.
 
 \hspace{-1in}\begin{table}[H]
 \begin{adjustwidth}{-3em}{-3em}
@@ -21,6 +27,13 @@ The pre-fit yields in each of the regions used in the fit are shown in table \re
 \caption{Pre-fit yields in each of the 1-jet fit regions.}
 \end{adjustwidth}
 \end{table}
+
+\begin{figure}[H]
+  \center
+  \includegraphics[width=.9\linewidth]{1j/Summary.png}
+  \caption{Pre-fit summary of the 1-jet fit regions.}
+  \label{fig:prefitSummary_1j}
+\end{figure}
 
 %\begin{figure}[H]
 %    \center
@@ -53,8 +66,7 @@ A post-fit summary plot of the 1-jet fitted regions is shown in figure \ref{fig:
     \label{fig:fit_results_1j}
 \end{figure}
 
-As described in section \ref{sec:sys}, there are 226 systematic uncertainties that are considered as NPs in the fit. These NPs are constrained by Gaussian or log-normal probability density functions. The latter are used for normalisation factors to ensure that they are always positive. The expected numbers
-of signal and background events are functions of the likelihood. The prior for each NP is added as a penalty term, decreasing the likelihood as it is shifted away from its nominal value. 
+As described in section \ref{sec:sys}, there are 226 systematic uncertainties that are considered as NPs in the fit. These NPs are constrained by Gaussian or log-normal probability density functions. The latter are used for normalisation factors to ensure that they are always positive. The expected number of signal and background events are functions of the likelihood. The prior for each NP is added as a penalty term, decreasing the likelihood as it is shifted away from its nominal value. 
 
 The impact of each NP is calculated by performing the fit with the parameter of interest held fixed, varied from its fitted value by its uncertainty, and calculating $\Delta\mu$ relative to the baseline fit.  The impact of the most significant sources of systematic uncertainties is summarized in table \ref{tab:systematics_1j}. 
 
@@ -181,6 +193,13 @@ Pre-fit yields in each of the 2-jet fit regions are shown in figure \ref{tab:pre
 \end{adjustwidth}
 \end{table}
 
+\begin{figure}[H]
+  \center                                                                                                                    
+  \includegraphics[width=.9\linewidth]{2j/Summary.png}
+  \caption{Pre-fit summary of the 2-jet fit regions.}                                                                        
+  \label{fig:prefitSummary_2j}
+\end{figure}
+
 %\begin{figure}[H]
 %    \center
 %    \includegraphics[width=.35\linewidth]{2j/not_85_2j.png}%                                                             
@@ -215,7 +234,7 @@ The post-fit yields in each region are summarized in figure \ref{tab:postfitYiel
 %    \label{fig:fit_regions_2j}
 %\end{figure}
 
-A post-fit summary plot of the fitted regions is shown in figure \ref{fig:fit_results_2j}: 
+A post-fit summary of the fitted regions is shown in figure \ref{fig:fit_results_2j}: 
 
 \begin{figure}[H]
     \center
@@ -284,9 +303,6 @@ The correlations between these nuisance parameters are summarized in figure \ref
 
 As in the 1-jet case, no significant, unexpected correlations are found between nuisance parameters.
 
-\subsection{tZ Inclusive Results}
-
-While tZ is often considered as a distinct process form WZ + b,  
 
 %The negative correlations between $\mu_{WZ+charm}$ and $\mu_{WZ+b}$ and $\mu_{WZ+light}$ are expected: $WZ$ + charm is present in both the $WZ$ + b and $WZ$ + light enriched regions, therefore increasing the fraction of charm requires increasing the fraction of $WZ$ + b and $WZ$ + light. This reasoning also explains the positive correlation between $\mu_{WZ+b}$ and $\mu_{WZ+light}$. 
 
