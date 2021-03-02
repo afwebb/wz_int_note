@@ -2017,4 +2017,144 @@
         <bcf:field>title</bcf:field>
         <bcf:field>booktitle</bcf:field>
       </bcf:constraint>
-    </bcf:constraints
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>manual</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>misc</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>online</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>title</bcf:field>
+        <bcf:field>url</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>patent</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>author</bcf:field>
+        <bcf:field>title</bcf:field>
+        <bcf:field>number</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>periodical</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>editor</bcf:field>
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>proceedings</bcf:entrytype>
+      <bcf:entrytype>mvproceedings</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>editor</bcf:field>
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>inproceedings</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>author</bcf:field>
+        <bcf:field>title</bcf:field>
+        <bcf:field>booktitle</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>report</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>author</bcf:field>
+        <bcf:field>title</bcf:field>
+        <bcf:field>type</bcf:field>
+        <bcf:field>institution</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>thesis</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>author</bcf:field>
+        <bcf:field>title</bcf:field>
+        <bcf:field>type</bcf:field>
+        <bcf:field>institution</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>unpublished</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>author</bcf:field>
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:constraint type="data" datatype="isbn">
+        <bcf:field>isbn</bcf:field>
+      </bcf:constraint>
+      <bcf:constraint type="data" datatype="issn">
+        <bcf:field>issn</bcf:field>
+      </bcf:constraint>
+      <bcf:constraint type="data" datatype="ismn">
+        <bcf:field>ismn</bcf:field>
+      </bcf:constraint>
+      <bcf:constraint type="data" datatype="date">
+        <bcf:field>date</bcf:field>
+        <bcf:field>eventdate</bcf:field>
+        <bcf:field>origdate</bcf:field>
+        <bcf:field>urldate</bcf:field>
+      </bcf:constraint>
+      <bcf:constraint type="data" datatype="pattern" pattern="(?:sf|sm|sn|pf|pm|pn|pp)">
+        <bcf:field>gender</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+  </bcf:datamodel>
+  <!-- CITATION DATA -->
+  <!-- SECTION 0 -->
+  <bcf:bibdata section="0">
+    <bcf:datasource type="file" datatype="bibtex">wz_heavy_flavor.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bib/ATLAS.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bib/CMS.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bib/ConfNotes.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bib/PubNotes.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="0">
+    <bcf:citekey order="1">WZ_36</bcf:citekey>
+    <bcf:citekey order="2">sherpa</bcf:citekey>
+    <bcf:citekey order="3">Ball:2014uwa</bcf:citekey>
+    <bcf:citekey order="4">ct10</bcf:citekey>
+    <bcf:citekey order="5">powhegtt</bcf:citekey>
+    <bcf:citekey order="6">powhegstp</bcf:citekey>
+    <bcf:citekey order="7">ATLAS-CONF-2016-024</bcf:citekey>
+    <bcf:citekey order="8">PERF-2014-05</bcf:citekey>
+    <bcf:citekey order="9">PERF-2014-05</bcf:citekey>
+    <bcf:citekey order="10">ttH_paper</bcf:citekey>
+    <bcf:citekey order="11">ATL-PHYS-PUB-2015-015</bcf:citekey>
+    <bcf:citekey order="12">ATLAS-CONF-2015-029</bcf:citekey>
+    <bcf:citekey order="13">PERF-2014-03</bcf:citekey>
+    <bcf:citekey order="14">ATL-PHYS-PUB-2015-027</bcf:citekey>
+    <bcf:citekey order="15">ttH_paper</bcf:citekey>
+    <bcf:citekey order="16">BtagWG</bcf:citekey>
+    <bcf:citekey order="17">TMVA_guide</bcf:citekey>
+    <bcf:citekey order="18">ttZ_paper</bcf:citekey>
+    <bcf:citekey order="19">xgboost_cite</bcf:citekey>
+    <bcf:citekey order="20">lumi</bcf:citekey>
+    <bcf:citekey order="21">LUCID2</bcf:citekey>
+    <bcf:citekey order="22">jes</bcf:citekey>
+    <bcf:citekey order="23">btag_cal</bcf:citekey>
+    <bcf:citekey order="24">tZ_paper</bcf:citekey>
+    <bcf:citekey order="25">Madgraph</bcf:citekey>
+  </bcf:section>
+  <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
+  <bcf:sorting>
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">citeorder</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sorting>
+  </bcf:sortlist>
+</bcf:controlfile>
