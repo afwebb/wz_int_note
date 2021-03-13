@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  13 MAR 2021 09:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  13 MAR 2021 09:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4686,25 +4686,24 @@ n input line 8.
 l.12 
       <./figures/signalModel/truthJets/plots/overflow.pdf, page is rotated 90 d
 egrees>]
-Overfull \hbox (40.25949pt too wide) in paragraph at lines 17--18
+Overfull \hbox (40.25949pt too wide) in paragraph at lines 19--20
 []\T1/ntxtlf/m/n/10.95 The ex-pec-ted cross-section of WZ+b with 1 as-so-ci-ate
 d jet ob-tained from the fit is $\U/eur/m/n/10.95 1:74[]\U/euf/m/n/10.95 (\U/eu
 r/m/n/10.95 stat\U/euf/m/n/10.95 )[](\U/eur/m/n/10.95 sys\U/euf/m/n/10.95 )$
  []
-
-
-LaTeX Warning: Reference `fig:prefitSummary_1j' on page 51 undefined on input l
-ine 28.
 
 [51pdfTeX warning (ext4): destination with the same identifier (name{figure.31}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.29 
+l.28 
       <./figures/sys_truthJets/Plots/Summary_postFit.png>]
-\openout2 = `sections/tables/yields1j.aux'.
 
+LaTeX Warning: Reference `fig:prefitSummary_1j' on page 52 undefined on input l
+ine 29.
+
+\openout2 = `sections/tables/yields1j.aux'.
 
 (./sections/tables/yields1j.tex
 Overfull \hbox (29.03203pt too wide) in paragraph at lines 1--29
@@ -4715,7 +4714,7 @@ Overfull \hbox (29.03203pt too wide) in paragraph at lines 1--29
 \openout2 = `sections/tables/yields1j_postFit.aux'.
 
  (./sections/tables/yields1j_postFit.tex)
-Overfull \hbox (69.48079pt too wide) in paragraph at lines 1--43
+Overfull \hbox (69.48079pt too wide) in paragraph at lines 1--44
 [][] 
  []
 
@@ -4727,7 +4726,7 @@ s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.48 
+l.49 
      ] [53
 
 
@@ -4736,50 +4735,51 @@ s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.77 
+l.78 
      ] <figures/sys_truthJets/Ranking.png, id=1533, 598.235pt x 1111.15125pt>
 File: figures/sys_truthJets/Ranking.png Graphic file (type png)
 
 <use figures/sys_truthJets/Ranking.png>
 Package pdftex.def Info: figures/sys_truthJets/Ranking.png used on input line 8
-2.
+3.
 (pdftex.def)             Requested size: 292.77632pt x 543.80763pt.
  [54pdfTeX warning (ext4): destination with the same identifier (name{table.15}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.86 
+l.87 
      ]
 
 LaTeX Warning: Reference `fig:pie_chart_1j' on page 55 undefined on input line 
-87.
+88.
 
 [55pdfTeX warning (ext4): destination with the same identifier (name{figure.32}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.88 
+l.89 
       <./figures/sys_truthJets/Ranking.png>]
 <figures/sys_truthJets/CorrMatrix.png, id=1546, 2505.36pt x 2481.27pt>
 File: figures/sys_truthJets/CorrMatrix.png Graphic file (type png)
 
 <use figures/sys_truthJets/CorrMatrix.png>
 Package pdftex.def Info: figures/sys_truthJets/CorrMatrix.png used on input lin
-e 93.
+e 94.
 (pdftex.def)             Requested size: 418.25372pt x 414.20024pt.
  [56pdfTeX warning (ext4): destination with the same identifier (name{figure.33
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.99 
-      <./figures/sys_truthJets/CorrMatrix.png>]
+l.100 
+       <./figures/sys_truthJets/CorrMatrix.png>]
 \openout2 = `sections/tables/yields2j.aux'.
 
- (./sections/tables/yields2j.tex)
-Overfull \hbox (69.48079pt too wide) in paragraph at lines 1--112
+
+(./sections/tables/yields2j.tex)
+Overfull \hbox (69.48079pt too wide) in paragraph at lines 1--113
 [][] 
  []
 
@@ -4799,7 +4799,7 @@ s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.127 
+l.128 
       ] [59
 
 
@@ -4808,34 +4808,34 @@ s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.153 
+l.154 
       ]
 <figures/sys_truthJets_2j/Ranking.png, id=1571, 598.235pt x 1111.15125pt>
 File: figures/sys_truthJets_2j/Ranking.png Graphic file (type png)
 
 <use figures/sys_truthJets_2j/Ranking.png>
 Package pdftex.def Info: figures/sys_truthJets_2j/Ranking.png used on input lin
-e 158.
+e 159.
 (pdftex.def)             Requested size: 292.77632pt x 543.80763pt.
  [60pdfTeX warning (ext4): destination with the same identifier (name{table.18}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.162 
+l.163 
       ] [61pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.34}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.164 
+l.165 
        <./figures/sys_truthJets_2j/Ranking.png>]
 <figures/sys_truthJets_2j/CorrMatrix.png, id=1583, 2505.36pt x 2481.27pt>
 File: figures/sys_truthJets_2j/CorrMatrix.png Graphic file (type png)
 
 <use figures/sys_truthJets_2j/CorrMatrix.png>
 Package pdftex.def Info: figures/sys_truthJets_2j/CorrMatrix.png used on input 
-line 176.
+line 177.
 (pdftex.def)             Requested size: 418.25372pt x 414.20024pt.
 ) [62pdfTeX warning (ext4): destination with the same identifier (name{figure.3
 5}) has been already used, duplicate ignored
@@ -5310,7 +5310,7 @@ n.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb
 fonts/t1xtt.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/
 type1/public/newtx/txbsys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/tex
 mf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (85 pages, 5112623 bytes).
+Output written on wz_heavy_flavor.pdf (85 pages, 5112844 bytes).
 PDF statistics:
  1968 PDF objects out of 2073 (max. 8388607)
  1221 compressed objects within 13 object streams
