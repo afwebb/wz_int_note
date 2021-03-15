@@ -33,7 +33,7 @@
 \contentsline {subsection}{\numberline {8.1}1-jet Results}{53}{subsection.8.1}
 \contentsline {subsection}{\numberline {8.2}2-jet Results}{58}{subsection.8.2}
 \contentsline {section}{\numberline {9}Conclusion}{63}{section.9}
-\contentsline {part}{Appendices}{64}{section*.1}
-\contentsline {subsection}{\numberline {.1}tZ Interference Studies}{64}{subsection.Alph0.1}
-\contentsline {subsection}{\numberline {.2}Alternate tZ Inclusive Fit}{68}{subsection.Alph0.2}
-\contentsline {subsection}{\numberline {.3}DSID list}{72}{subsection.Alph0.3}
+\contentsline {part}{Appendices}{66}{section*.3}
+\contentsline {subsection}{\numberline {.1}tZ Interference Studies}{66}{subsection.Alph0.1}
+\contentsline {subsection}{\numberline {.2}Alternate tZ Inclusive Fit}{70}{subsection.Alph0.2}
+\contentsline {subsection}{\numberline {.3}DSID list}{74}{subsection.Alph0.3}

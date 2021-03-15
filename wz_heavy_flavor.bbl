@@ -113,6 +113,144 @@
       \verb 0811.4622
       \endverb
     \endentry
+    \entry{Ball:2014uwa}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=250babb635b404ffb49817a97a0fb9ca}{%
+           family={Ball},
+           familyi={B\bibinitperiod},
+           given={Richard\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{876e8072a47289b137d22df90918f9a5}
+      \strng{fullhash}{876e8072a47289b137d22df90918f9a5}
+      \strng{authornamehash}{876e8072a47289b137d22df90918f9a5}
+      \strng{authorfullhash}{876e8072a47289b137d22df90918f9a5}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP}
+      \field{title}{{Parton distributions for the LHC Run II}}
+      \field{volume}{04}
+      \field{year}{2015}
+      \field{pages}{040}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/JHEP04(2015)040
+      \endverb
+      \verb{eprint}
+      \verb 1410.8849
+      \endverb
+    \endentry
+    \entry{ct10}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=126736663bb7789da9b7224779cf57e2}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={H.-L.},
+           giveni={H\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{005212297990d1a16664de1c57920156}
+      \strng{fullhash}{005212297990d1a16664de1c57920156}
+      \strng{authornamehash}{005212297990d1a16664de1c57920156}
+      \strng{authorfullhash}{005212297990d1a16664de1c57920156}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys.~Rev.~D}
+      \field{title}{New parton distributions for collider physics}
+      \field{volume}{82}
+      \field{year}{2010}
+      \field{pages}{074024}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.82.074024
+      \endverb
+      \verb{eprint}
+      \verb 1007.2241
+      \endverb
+    \endentry
+    \entry{powhegtt}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5dc8bf4fcd0bcd5319217da96d473413}{%
+           family={Frixione},
+           familyi={F\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8ff6a81db13564e6b11d131dea0477f0}{%
+           family={Ridolfi},
+           familyi={R\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=12430c3aa66b5180e0b7b8cba9b7d380}{%
+           family={Nason},
+           familyi={N\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a55cf202bd2e880bac00fcba91e9b0b3}
+      \strng{fullhash}{a55cf202bd2e880bac00fcba91e9b0b3}
+      \strng{authornamehash}{a55cf202bd2e880bac00fcba91e9b0b3}
+      \strng{authorfullhash}{a55cf202bd2e880bac00fcba91e9b0b3}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP}
+      \field{title}{A positive-weight next-to-leading-order Monte Carlo for heavy flavour hadroproduction}
+      \field{volume}{09}
+      \field{year}{2007}
+      \field{pages}{126}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1126-6708/2007/09/126
+      \endverb
+      \verb{eprint}
+      \verb 0707.3088
+      \endverb
+    \endentry
+    \entry{powhegstp}{article}{}
+      \name{author}{1}{}{%
+        {{hash=51d4481e2425fdb8a515221328f9b9cd}{%
+           family={Re},
+           familyi={R\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{51d4481e2425fdb8a515221328f9b9cd}
+      \strng{fullhash}{51d4481e2425fdb8a515221328f9b9cd}
+      \strng{authornamehash}{51d4481e2425fdb8a515221328f9b9cd}
+      \strng{authorfullhash}{51d4481e2425fdb8a515221328f9b9cd}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Eur. Phys. J. C}
+      \field{title}{Single-top Wt-channel production matched with parton showers using the POWHEG method}
+      \field{volume}{71}
+      \field{year}{2011}
+      \field{pages}{1547}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-011-1547-z
+      \endverb
+      \verb{eprint}
+      \verb 1009.2450
+      \endverb
+    \endentry
     \entry{ATLAS-CONF-2016-024}{booklet}{}
       \name{author}{1}{}{%
         {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
@@ -170,8 +308,8 @@
       \list{location}{1}{%
         {Geneva}%
       }
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labeltitlesource}{title}
       \field{month}{11}
       \field{number}{ATLAS-CONF-2017-077}
@@ -272,6 +410,14 @@
       \field{year}{2015}
       \verb{url}
       \verb https://cds.cern.ch/record/2037904
+      \endverb
+    \endentry
+    \entry{BtagWG}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{year}{2021}
+      \verb{url}
+      \verb https://twiki.cern.ch/twiki/bin/view/AtlasProtected/BTagCalibrationRecommendationsRelease21#Tools_for_Flavor_Tagging_Calibra
       \endverb
     \endentry
     \entry{TMVA_guide}{article}{}
@@ -479,6 +625,48 @@
       \verb https://cds.cern.ch/record/2672207
       \endverb
     \endentry
+    \entry{xgboost_cite}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=48461ccdf50ba5a54e29a354aa734c0b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Tianqi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c9ab8ac486d7f85ac914b1a8e51e512b}{%
+           family={Guestrin},
+           familyi={G\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Francisco, California, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{fullhash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authornamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authorfullhash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}
+      \field{isbn}{978-1-4503-4232-2}
+      \field{series}{KDD '16}
+      \field{title}{{XGBoost}: A Scalable Tree Boosting System}
+      \field{year}{2016}
+      \field{pages}{785\bibrangedash 794}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/2939672.2939785
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/2939672.2939785
+      \endverb
+      \keyw{large-scale machine learning}
+    \endentry
     \entry{lumi}{article}{}
       \name{author}{1}{}{%
         {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
@@ -489,8 +677,8 @@
       \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
       \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
       \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ex}
@@ -506,6 +694,35 @@
       \endverb
       \verb{eprint}
       \verb 1101.2185
+      \endverb
+    \endentry
+    \entry{LUCID2}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=308f0ec958b77802495b56e957fba5b4}{%
+           family={Avoni},
+           familyi={A\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8a31cc92f526a770cf7840723038ef37}
+      \strng{fullhash}{8a31cc92f526a770cf7840723038ef37}
+      \strng{authornamehash}{8a31cc92f526a770cf7840723038ef37}
+      \strng{authorfullhash}{8a31cc92f526a770cf7840723038ef37}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{JINST}
+      \field{number}{07}
+      \field{title}{The new LUCID-2 detector for luminosity measurement and monitoring in ATLAS}
+      \field{volume}{13}
+      \field{year}{2018}
+      \field{pages}{P07017}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/13/07/P07017
       \endverb
     \endentry
     \entry{jes}{article}{}
@@ -533,8 +750,8 @@
       \strng{fullhash}{be5730149185af71f437280391cfd313}
       \strng{authornamehash}{ae55f906ac43ce98f52f0b2b76f11197}
       \strng{authorfullhash}{be5730149185af71f437280391cfd313}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The measurement of the jet energy resolution is presented using data recorded with the ATLAS detector in proton-proton collisions at {\$}{\backslash}sqrt{\{}s{\}}=7{\backslash}mbox{\{} TeV{\}}{\$} . The sample corresponds to an integrated luminosity of 35 pb−1. Jets are reconstructed from energy deposits measured by the calorimeters and calibrated using different jet calibration schemes. The jet energy resolution is measured with two different in situ methods which are found to be in agreement within uncertainties. The total uncertainties on these measurements range from 20 {\%} to 10 {\%} for jets within |y|<2.8 and with transverse momenta increasing from 30 GeV to 500 GeV. Overall, the Monte Carlo simulation of the jet energy resolution agrees with the data within 10 {\%}.}
@@ -582,11 +799,18 @@
       \verb http://stacks.iop.org/1748-0221/11/i=04/a=P04008
       \endverb
     \endentry
+    \entry{tZ_paper}{article}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labeltitlesource}{title}
+      \field{month}{7}
+      \field{title}{{Observation of the associated production of a top quark and a Z boson at 13 TeV with ATLAS}}
+      \field{year}{2020}
+      \verb{url}
+      \verb https://cds.cern.ch/record/2722504
+      \endverb
+    \endentry
   \endsortlist
-  \missing{ct10}
-  \missing{Ball:2014uwa}
-  \missing{powhegstp}
-  \missing{powhegtt}
 \endrefsection
 \endinput
 
