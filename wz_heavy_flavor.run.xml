@@ -82,7 +82,7 @@
       <file>wz_heavy_flavor.bcf</file>
     </requires>
     <requires type="editable">
-      <file>wz_heavy_flavor.bib</file>
+      <file>bib/wz_heavy_flavor.bib</file>
       <file>bib/ATLAS.bib</file>
       <file>bib/CMS.bib</file>
       <file>bib/ConfNotes.bib</file>

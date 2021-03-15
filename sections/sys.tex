@@ -222,12 +222,14 @@ A similar approach is taken to account for uncertainties in migrations between t
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.62\linewidth]{signalModel/truthJets/plots/migrations_12j.pdf}
-    \caption{Comparison between Sherpa and Powheg predictions for truth jet migrations between the 1 and 2 jet reco bins}
+    \subfigure[]{\includegraphics[width=.32\linewidth]{signalModel/truthJets/plots/migrations_bjets.pdf}}%                
+    \subfigure[]{\includegraphics[width=.32\linewidth]{signalModel/truthJets/plots/migrations_charm.pdf}}%    
+    \subfigure[]{\includegraphics[width=.32\linewidth]{signalModel/truthJets/plots/migrations_light.pdf}}\\
+    \caption{Comparison between Sherpa and Powheg predictions for truth jet migrations between the 1 and 2 jet reco bins for (a) WZ + b, (b) WZ + charm, and (c) WZ +\ light}
 \label{fig:migration12}
 \end{figure}
 
-A systematic is included where events are shifted between the 1-jet and 2-jet regions based on the differences between these two shapes.
+A systematic is included where events are shifted between the 1-jet and 2-jet regions based on the differences between these two shapes. This is done independently for each of the WZ + b, WZ + charm, and WZ + light templates.
 
 Additional systematics are included to account for the uncertainty in the contamination of 0 jet and 3 or more jet events (at truth level) in the 1 and 2 reco jet bins. Because these events fall outside the scope of this measurement, these events are included as a background. As such, a normalization, rather than a shape, uncertainty is applied for this background.
 
