@@ -30,8 +30,8 @@
 \contentsline {subsection}{\numberline {6.2}tZ BDT}{42}{subsection.6.2}
 \contentsline {section}{\numberline {7}Systematic Uncertainties}{46}{section.7}
 \contentsline {section}{\numberline {8}Results}{53}{section.8}
-\contentsline {section}{\numberline {9}Conclusion}{65}{section.9}
-\contentsline {part}{Appendices}{68}{section*.3}
-\contentsline {subsection}{\numberline {.1}tZ Interference Studies}{68}{subsection.Alph0.1}
-\contentsline {subsection}{\numberline {.2}Alternate tZ Inclusive Fit}{72}{subsection.Alph0.2}
-\contentsline {subsection}{\numberline {.3}DSID list}{76}{subsection.Alph0.3}
+\contentsline {section}{\numberline {9}Conclusion}{64}{section.9}
+\contentsline {part}{Appendices}{67}{section*.3}
+\contentsline {subsection}{\numberline {.1}tZ Interference Studies}{67}{subsection.Alph0.1}
+\contentsline {subsection}{\numberline {.2}Alternate tZ Inclusive Fit}{71}{subsection.Alph0.2}
+\contentsline {subsection}{\numberline {.3}DSID list}{75}{subsection.Alph0.3}
