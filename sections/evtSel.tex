@@ -107,11 +107,21 @@ Region & Selection            \\
 \label{tab:regions}
 \end{table}
 
-The working points discussed in Section \ref{subsec:bjets} are used to separate events into fit regions based on the highest working point reached by a jet in each event. Because the background composition differs significantly based on the number of b-jets, events are further subdivided into 1 jet and 2 jet regions in order to minimize the impact of background uncertainties.
+The working points discussed in Section \ref{subsec:bjets} are used to separate events into fit regions based on the highest working point reached by a jet in each event. Because the background composition differs significantly based on the number of b-jets, events are further subdivided into 1-jet and 2-jet regions in order to minimize the impact of background uncertainties.
+
+An unfolding procedure is performed to account for differences in the number of reconstructed jets compared to the number of truth jets in each event. In order to account for migration of WZ+1-jet and WZ+2-jet events between the 1-jet and 2-jet bins at reco level, the signal samples are separated based on the number of truth jets. Events with 0 jets or more than 3 jets at truth level, yet fall within one of the categories listed in Table \ref{tab:regions}, are categorized as WZ + other, and treated as a background. The migration matrix in the number of jets at truth level versus reco level is shown in Figure \ref{fig:migrationMat}. The composition of the number of truth jets in each reco jet bin is taken from MC, with uncertainties in these estimates described in detail in Section \ref{sec:sys}. 
+
+\begin{figure}[H]
+\includegraphics[width=.8\linewidth]{nJets2D.png}
+\caption{Number of truth jets compared to the number of reconstructed jets in each WZ event falling in the preselection region. Each row is normalized to unity.} 
+\label{fig:migrationMat}
+\end{figure}
 
 An additional tZ control region is created based on the BDT described in Section \ref{sec:tZ_bdt}. The region with 1-jet passing the 60\% working point is split in two - a signal enriched region of events with a BDT score greater than 0.03, and a tZ control region including events with less than 0.03. This cutoff is arrived at by performing an Asimov fit with a variety of cutoffs, and selecting the value that produces the highest significance for the measurement of $WZ$ + b.
 
 The modeling in each region is validated by comparing data and MC predictions for various kinematic distributions. These plot are shown in Figures \ref{kin:WP_1j_inc}-\ref{kin:tZ_CR_2j}.
+
+
 
 \begin{figure}[H] 
     \centering
