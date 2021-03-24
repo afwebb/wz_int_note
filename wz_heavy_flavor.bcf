@@ -2148,8 +2148,7 @@
     <bcf:citekey order="22">jes</bcf:citekey>
     <bcf:citekey order="23">btag_cal</bcf:citekey>
     <bcf:citekey order="24">tZ_paper</bcf:citekey>
-    <bcf:citekey order="25">ATLAS-CONF-2016-058</bcf:citekey>
-    <bcf:citekey order="26">Madgraph</bcf:citekey>
+    <bcf:citekey order="25">Madgraph</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
