@@ -6,7 +6,7 @@ Event are required to pass a preselection described in Section \ref{subsec:prese
 \label{subsec:presel}
 %--------------------------- 
 
-Events are required to include exactly three reconstructed light leptons passing the requirement described in \ref{subsec:leps}, which have a total charge of $\pm$1. As the opposite sign lepton is found to be prompt the vast majority of the time \cite{ttH_paper}, it is required to be loose and isolated, as defined though the standard \verb|isolationFixedCutLoose| working point supported by combined performance groups. The same sign leptons are required to be very tightly isolated, as per the recommended \verb|isolationFixedCutTight|.
+Events are required to include exactly three reconstructed light leptons passing the requirement described in \ref{subsec:leps}, which have a total charge of $\pm$1. As the opposite sign lepton is found to be prompt the vast majority of the time \cite{ttH_paper}, it is required to be loose and isolated, as defined though the standard \verb|PLVLoose| working point supported by combined performance groups. The same sign leptons are required to be very tightly isolated, as per the recommended \verb|PLVTight|.
 
 The leptons are ordered in the analysis code as 0, 1, and 2. Lepton 0 is the lepton whose charge is opposite the other two. Lepton 1 is the lepton closest to the opposite charge lepton, i.e. the smallest $\Delta R$, leaving lepton 2 as the lepton further from the opposite charge lepton. Lepton 0 is required to have $p_T > 10$ GeV, while the same sign leptons, 1 and 2, are required to have $p_T > 20$ GeV to reduce the contribution of non-prompt leptons.  
 
@@ -109,9 +109,10 @@ Region & Selection            \\
 
 The working points discussed in Section \ref{subsec:bjets} are used to separate events into fit regions based on the highest working point reached by a jet in each event. Because the background composition differs significantly based on the number of b-jets, events are further subdivided into 1-jet and 2-jet regions in order to minimize the impact of background uncertainties.
 
-An unfolding procedure is performed to account for differences in the number of reconstructed jets compared to the number of truth jets in each event. In order to account for migration of WZ+1-jet and WZ+2-jet events between the 1-jet and 2-jet bins at reco level, the signal samples are separated based on the number of truth jets. Events with 0 jets or more than 3 jets at truth level, yet fall within one of the categories listed in Table \ref{tab:regions}, are categorized as WZ + other, and treated as a background. The migration matrix in the number of jets at truth level versus reco level is shown in Figure \ref{fig:migrationMat}. The composition of the number of truth jets in each reco jet bin is taken from MC, with uncertainties in these estimates described in detail in Section \ref{sec:sys}. 
+An unfolding procedure is performed to account for differences in the number of reconstructed jets compared to the number of truth jets in each event. The \verb!AntiKt4TruthDressedWZJets! truth jet collection is used to make this determination. In order to account for migration of WZ+1-jet and WZ+2-jet events between the 1-jet and 2-jet bins at reco level, the signal samples are separated based on the number of truth jets. Events with 0 jets or more than 3 jets at truth level, yet fall within one of the categories listed in Table \ref{tab:regions}, are categorized as WZ + other, and treated as a background. The migration matrix in the number of jets at truth level versus reco level is shown in Figure \ref{fig:migrationMat}. The composition of the number of truth jets in each reco jet bin is taken from MC, with uncertainties in these estimates described in detail in Section \ref{sec:sys}. 
 
 \begin{figure}[H]
+\center
 \includegraphics[width=.8\linewidth]{nJets2D.png}
 \caption{Number of truth jets compared to the number of reconstructed jets in each WZ event falling in the preselection region. Each row is normalized to unity.} 
 \label{fig:migrationMat}
@@ -309,13 +310,13 @@ The modeling in each region is validated by comparing data and MC predictions fo
 \label{sec:fakes}
 %---------------------------
 
-Two processes act as sources of non-prompt leptons appear in the analysis: $t\bar{t}$ and $Z$+jet production both produce two prompt leptons, and each contribute to the 3l region when an additional non-prompt lepton appears in the event. The contribution of these processes is estimated with Monte Carlo simulations, which are validated using enriched validation regions.
+Two processes act as sources of non-prompt leptons appear in the analysis: $t\bar{t}$ and $Z$+jet production both produce two prompt leptons, and each contribute to the 3l region when an additional non-prompt lepton appears in the event. The contribution of these processes is estimated with Monte Carlo simulations, which are validated using enriched control regions.
 
 \subsubsection{$t\bar{t}$ Validation}
 
-$t\bar{t}$ events can produce two prompt leptons from the decay of each of the tops. These top decays produce two b-quarks, the decay of which can produce additional non-prompt leptons, which occasionally pass the event preselection. In order to validate that the Monte Carlo accurately simulates this process accurately, the MC prediction in a non-prompt $t\bar{t}$ enriched validation region is compared to data.
+$t\bar{t}$ events can produce two prompt leptons from the decay of each of the tops. These top decays produce two b-quarks, the decay of which can produce additional non-prompt leptons, which occasionally pass the event preselection. In order to validate that the Monte Carlo accurately simulates this process accurately, the MC prediction in a non-prompt $t\bar{t}$ enriched control region is compared to data.
 
-The $t\bar{t}$ validation region is similar to the preselection region - three leptons meeting the criteria described in Section \ref{sec:evt_selection} are required, and the requirements on $E_T^{miss}$ remain the same. However, the selection requiring a lepton pair form a Z-candidate are reversed. Events where the invariant mass of any two opposite sign, same flavor leptons falls within 10 GeV of 91.2 GeV are rejected. This ensures the $t\bar{t}$ validation region is orthogonal to the preselection region. 
+The $t\bar{t}$ control region is similar to the preselection region - three leptons meeting the criteria described in Section \ref{sec:evt_selection} are required, and the requirements on $E_T^{miss}$ remain the same. However, the selection requiring a lepton pair form a Z-candidate are reversed. Events where the invariant mass of any two opposite sign, same flavor leptons falls within 10 GeV of 91.2 GeV are rejected. This ensures the $t\bar{t}$ control region is orthogonal to the preselection region. 
 
 Further, because the jet multiplicity of $t\bar{t}$ events tends to be higher than WZ, the number of jets in each event is required to be greater than 1. As b-jets are almost invariably produced from top decays, at least one b-tagged jet passing the 70\% DL1r WP in each event is required. Various kinematic plots of this region are shown in Figure \ref{fig:ttbar_noScale}.
 
@@ -330,7 +331,7 @@ Further, because the jet multiplicity of $t\bar{t}$ events tends to be higher th
     \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/noScale/Mll02.png}}%
     \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/noScale/nJets_OR.png}}%                                       
     \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/noScale/nJets_OR_DL1r_70.png}}\\
-    \caption{Comparisons between the data and MC distributions in the $t\bar{t}$ validation region for (a) the $p_T$ of the leading jet, (b) the missing transverse energy, (c) the $p_T$ of lepton 0, (d) $p_T$ of lepton 1, (e) $p_T$ of lepton 2, (f) the invariant mass of leptons 0 and 1, (g) the invariant mass of leptons 0 and 2, (h) the number of jets, (i) the number of b-tagged jets.}
+    \caption{Comparisons between the data and MC distributions in the $t\bar{t}$ control region for (a) the $p_T$ of the leading jet, (b) the missing transverse energy, (c) the $p_T$ of lepton 0, (d) $p_T$ of lepton 1, (e) $p_T$ of lepton 2, (f) the invariant mass of leptons 0 and 1, (g) the invariant mass of leptons 0 and 2, (h) the number of jets, (i) the number of b-tagged jets.}
     \label{fig:ttbar_noScale}
 \end{figure}
 
@@ -347,7 +348,7 @@ The shape of each distribution agrees quite well between data and MC, with a con
     \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/withScale/Mll02.png}}%                                         
     \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/withScale/nJets_OR.png}}%                                      
     \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/withScale/nJets_OR_DL1r_70.png}}\\                             
-    \caption{Comparisons between the data and MC distributions in the $t\bar{t}$ validation region after the correction factor has been applied for (a) the $p_T$ of the leading jet, (b) the missing transverse energy, (c) the $p_T$ of lepton 0, (d) $p_T$ of lepton 1, (e) $p_T$ of lepton 2, (f) the invariant mass of leptons 0 and 1, (g) the invariant mass of leptons 0 and 2, (h) the number of jets, (i) the number of b-tagged jets.}                                                                   
+    \caption{Comparisons between the data and MC distributions in the $t\bar{t}$ control region after the correction factor has been applied for (a) the $p_T$ of the leading jet, (b) the missing transverse energy, (c) the $p_T$ of lepton 0, (d) $p_T$ of lepton 1, (e) $p_T$ of lepton 2, (f) the invariant mass of leptons 0 and 1, (g) the invariant mass of leptons 0 and 2, (h) the number of jets, (i) the number of b-tagged jets.}                                                                   
      \label{fig:ttbar_withScale}
 \end{figure}
 
@@ -360,11 +361,11 @@ The modeling is further validated by looking at the yield in the $t\bar{t}$ VR f
    \label{fig:ttbar_summary}
 \end{figure}
 
-As data and MC are found to agree within 10\% for each of these working points, a 10\% systematic uncertainty on the $t\bar{t}$ prediction is included for the analysis.
+As data and MC are found to agree within 20\% for each of these working points, a 20\% systematic uncertainty on the $t\bar{t}$ prediction is included for the analysis.
 
 \subsubsection{$Z$+jets Validation}
 
-Similar to $t\bar{t}$, a non-prompt $Z$+jets validation region is produced in order to validate the MC predictions. The lepton requirements remain the same as the preselection region. Because no neutrinos are present for this process, the $E_T^{miss}$ cut is reversed, requiring $E_T^{miss}$ < 30 GeV. This also ensures this validation region is orthogonal to the preselection region. Further, the number of jets in each event is required to be greater than or equal to one. Various kinematic plots of this region are shown below. The general agreement between data and MC in each of these suggests that the non-prompt contribution of $Z$+jets is well modeled by Monte Carlo.
+Similar to $t\bar{t}$, a non-prompt $Z$+jets control region is produced in order to validate the MC predictions. The lepton requirements remain the same as the preselection region. Because no neutrinos are present for this process, the $E_T^{miss}$ cut is reversed, requiring $E_T^{miss}$ < 30 GeV. This also ensures this control region is orthogonal to the preselection region. Further, the number of jets in each event is required to be greater than or equal to one. Various kinematic plots of this region are shown below. The general agreement between data and MC in each of these suggests that the non-prompt contribution of $Z$+jets is well modeled by Monte Carlo.
 
 \begin{figure}[H] 
     \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/noScale/lead_jetPt.png}}%                          
@@ -376,11 +377,11 @@ Similar to $t\bar{t}$, a non-prompt $Z$+jets validation region is produced in or
     \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/noScale/Mll02.png}}%
     \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/noScale/nJets_OR.png}}%                            
     \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/noScale/DRll02.png}}\\
-    \caption{Comparisons between the data and MC distributions in the $Z$+jets validation region for (a) the $p_T$ of the leading jet, (b) $\Delta R$ between leptons 0 and 1, (c) the $p_T$ of lepton 0, (d) $p_T$ of SS lepton from the Z candidate, (e) $p_T$ of the SS lepton from the W candidate, (f) the invariant mass of leptons 0 and 1, (g) the invariant mass of leptons 0 and 2, (h) the number of jets, (i) $\Delta R$ between leptons 0 and 2. Includes only statistical uncertainties}%(i) the number of b-tagged jets.}
+    \caption{Comparisons between the data and MC distributions in the $Z$+jets control region for (a) the $p_T$ of the leading jet, (b) $\Delta R$ between leptons 0 and 1, (c) the $p_T$ of lepton 0, (d) $p_T$ of SS lepton from the Z candidate, (e) $p_T$ of the SS lepton from the W candidate, (f) the invariant mass of leptons 0 and 1, (g) the invariant mass of leptons 0 and 2, (h) the number of jets, (i) $\Delta R$ between leptons 0 and 2. Includes only statistical uncertainties}%(i) the number of b-tagged jets.}
     \label{fig:zjets_noScale}
 \end{figure}
 
-While there is general agreement between data and MC within statistical uncertainty, the shape of the $p_T$ spectrum of the lepton from the W is found to differ. To account for this discrepency, a variable correction factor is applied to Z+jets. $\chi^2$ minimization of the lepton 2 $p_T$ spectrum is performed to derive a correction factor of $1.53 - 6.6*10^{-6} (lep\_Pt\_W)$. Kinematic plots of the Z + jets validation region after this correction factor has been aplied are shown in Figure \ref{fig:zjets_withScale}.
+While there is general agreement between data and MC within statistical uncertainty, the shape of the $p_T$ spectrum of the lepton from the W is found to differ. To account for this discrepency, a variable correction factor is applied to Z+jets. $\chi^2$ minimization of the lepton 2 $p_T$ spectrum is performed to derive a correction factor of $1.53 - 6.6*10^{-6} (lep\_Pt\_W)$. Kinematic plots of the Z + jets control region after this correction factor has been aplied are shown in Figure \ref{fig:zjets_withScale}.
 
 \begin{figure}[H]
     \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/withScale/lead_jetPt.png}}%              
@@ -392,18 +393,18 @@ While there is general agreement between data and MC within statistical uncertai
     \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/withScale/Mll02.png}}%                                   
     \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/withScale/nJets_OR.png}}%                               
     \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/withScale/DRll02.png}}\\
-    \caption{Comparisons between the data and MC distributions in the $Z$+jets validation region after the correction factor has been applied for (a) the $p_T$ of the leading jet, (b) $\Delta R$ between leptons 0 and 1, (c) the $p_T$ of lepton 0, (d) $p_T$ of SS lepton from the Z candidate, (e) $p_T$ of the SS lepton from the W candidate, (f) the invariant mass of leptons 0 and 1, (g) the invariant mass of leptons 0 and 2, (h) the number of jets, (i) $\Delta R$ between leptons 0 and 2}%(i) the number of b-tagged jets.}                 
+    \caption{Comparisons between the data and MC distributions in the $Z$+jets control region after the correction factor has been applied for (a) the $p_T$ of the leading jet, (b) $\Delta R$ between leptons 0 and 1, (c) the $p_T$ of lepton 0, (d) $p_T$ of SS lepton from the Z candidate, (e) $p_T$ of the SS lepton from the W candidate, (f) the invariant mass of leptons 0 and 1, (g) the invariant mass of leptons 0 and 2, (h) the number of jets, (i) $\Delta R$ between leptons 0 and 2}%(i) the number of b-tagged jets.}                 
     \label{fig:zjets_withScale}
 \end{figure}
 
-The modeling is further validated by looking at the yield in the Z+jets VR for each DL1r WP, giving a clearer correspondence to the signal regions used in the fit. Each region shown in Figure \ref{fig:ttbar_summary} requires one or more jets pass the listed WP, with no jets passing the next highest WP.                                                                    
+The modeling is further validated by looking at the yield in the Z+jets VR for each DL1r WP, giving a clearer correspondence to the signal regions used in the fit. Each region shown in Figure \ref{fig:zjets_summary} requires one or more jets pass the listed WP, with no jets passing the next highest WP.                                                                    
 
                                                                                                                              
 \begin{figure}[H]                                                                                                        
    \centering
    \includegraphics[width=0.9\textwidth]{zjets/Summary.png}
    \caption{Data and MC comparisons for each DL1r WP for both 1-jet and 2-jet regions, after the Z+jets VR selection and correction factor have been applied}                                                                                             
-   \label{fig:ttbar_summary}
+   \label{fig:zjets_summary}
 \end{figure}
 
-For each of the b-tagging working points considered, the data falls within 20\% of the MC prediction once this correction factor has been applied. Therefore, a 20\% systematic uncertainty is applied to Z + jets in the analysis.
+For each of the b-tagging working points considered, the data falls within 25\% of the MC prediction once this correction factor has been applied. Therefore, a 25\% systematic uncertainty is applied to Z + jets in the analysis.

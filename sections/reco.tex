@@ -46,7 +46,7 @@ Electron candidates are reconstructed from energy clusters in the electromagneti
                    
 Muon candidates are reconstructed by combining inner detector tracks with track segments or full tracks in the muon spectrometer \cite{PERF-2014-05}. Muon candidates are required to have $\pt > 10$~GeV and $|\eta| < 2.5$. The longitutinal impact parameter is the same for both electrons and muons, while muons are required to pass a slightly tighter transverse imapact parameter, $|d_0|/\sigma_{d_0}<3$. 
 
-All leptons are required to be isolated, as defined though the standard \verb|isolationFixedCutLoose| working point supported by combined performance groups. Leptons are additionally required to pass a non-prompt BDT selection described in detail in \cite{ttH_paper}. Optimized working points and scale factors for this BDT are taken from that analysis.
+All leptons are required to be isolated, as defined though the standard \verb|PLVLoose| working point supported by combined performance groups. Leptons are additionally required to pass a non-prompt BDT selection described in detail in \cite{ttH_paper}. Optimized working points and scale factors for this BDT are taken from that analysis.
 
 %\begin{table}
 %\begin{center}
@@ -81,7 +81,7 @@ All leptons are required to be isolated, as defined though the standard \verb|is
 \subsection{Jets}
 \label{subsec:jets}
 %UPDATE FOR PFLOW
-Jets are reconstructed from calibrated topological clusters built from energy deposits in the calorimeters \cite{ATL-PHYS-PUB-2015-015}, using the anti-$k_t$ algorithm with a radius parameter $R=0.4$.  Jets with energy contributions likely arising from noise or detector effects are removed from consideration \cite{ATLAS-CONF-2015-029}, and only jets satisfying $\pt > 25$~GeV and $|\eta| < 2.5$ are used in this analysis.  For jets with $\pt < 60$~GeV and $|\eta| < 2.4$, a jet-track association algorithm is used to confirm that the jet originates from the selected primary vertex, in order to reject jets arising from pileup collisions \cite{PERF-2014-03}.
+Jets are reconstructed from calibrated topological clusters built from energy deposits in the calorimeters \cite{ATL-PHYS-PUB-2015-015}, using the anti-$k_t$ algorithm with a radius parameter $R=0.4$. Particle Flow, or PFlow, jets are used in the analysis. Jets with energy contributions likely arising from noise or detector effects are removed from consideration \cite{ATLAS-CONF-2015-029}, and only jets satisfying $\pt > 25$~GeV and $|\eta| < 2.5$ are used in this analysis.  For jets with $\pt < 60$~GeV and $|\eta| < 2.4$, a jet-track association algorithm is used to confirm that the jet originates from the selected primary vertex, in order to reject jets arising from pileup collisions \cite{PERF-2014-03}.
 
 \subsection{B-tagged Jets}
 \label{subsec:bjets}
@@ -95,7 +95,7 @@ In order to make a measurement of $WZ$ + heavy flavor it is necessary to disting
     \label{fig:DL1r}
 \end{figure}
 
-From the output of the BDT, working points (WPs) are developed based on the efficiency of truth b-jets at particular values of the DL1r algorithm. The working points used in this analysis are summarized in Table \ref{tab:btag_WPs}. 
+From the output of the BDT, working points (WPs) are developed based on the efficiency of truth b-jets at particular values of the DL1r algorithm. These WPs are taken from the March 2020 CDI file, 2020-21-13TeV-MC16-CDI-2020-03-11\_v2.root. The working points used in this analysis are summarized in Table \ref{tab:btag_WPs}. 
 
 \begin{table}[H] 
 \begin{center}
@@ -118,3 +118,30 @@ A tighter WP will accept fewer b-jets, but reject a higher fraction of charm and
 
 Missing transverse momentum ($E_T^{miss}$) is used as part of the event selection. The missing transverse momentum vector is defined as the inverse of the sum of the transverse momenta of all reconstructed physics objects as well as remaining unclustered energy, the latter of which is estimated from low-\pt tracks associated with the primary vertex but not assigned to a hard object, with object definitions taken from \cite{ATL-PHYS-PUB-2015-027}. Light leptons considered in the $E_T^{miss}$ reconstruction are required to have $p_T$>10 GeV, while jets are required to have $p_T$>20 GeV.
 
+\subsection{Overlap removal}
+\label{subsec:overlapremoval}
+
+To avoid double counting objects and remove leptons originating from decays of hadrons, overlap removal is performed in the following order: any electron candidate within $\Delta R = 0.1$ of another electron candidate with higher \pt\ is removed; any electron candidate within $\Delta R = 0.1$ of a muon candidate is removed; any jet within $\Delta R = 0.3$ of an electron candidate is removed; if a muon candidate and a jet lie within $\Delta R = min(0.4, $0.04+10$[GeV]/\pt(muon))$ of each other, the jet is kept and the muon is removed.
+
+This algorithm is applied to the preselected objects. The overlap removal procedure is summarized in Table~\ref{tab:overlap-removal}. 
+
+\begin{table}[h!]
+ \begin{center}
+   \begin{tabular}{|c|c|c|}
+     \hline
+                            \bf{Keep}  &  \bf{Remove} & \bf{Cone size ($\Delta$ R)}  \\
+         \hline
+                        electron        & electron (low \pt)    & 0.1 \\
+     \hline
+                        muon    & electron      & 0.1 \\
+     \hline
+                            electron    & jet   & 0.3 \\
+         \hline
+                        jet             & muon  & min(0.4, $0.04+10$[GeV]/\pt(muon)) \\
+         \hline
+                        electron        & tau   & 0.2 \\
+     \hline
+   \end{tabular}
+   \caption{\label{tab:overlap-removal} Summary of the overlap removal procedure between electrons, muons, and jets.}
+ \end{center}
+\end{table}
