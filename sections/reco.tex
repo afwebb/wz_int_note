@@ -46,7 +46,7 @@ Electron candidates are reconstructed from energy clusters in the electromagneti
                    
 Muon candidates are reconstructed by combining inner detector tracks with track segments or full tracks in the muon spectrometer \cite{PERF-2014-05}. Muon candidates are required to have $\pt > 10$~GeV and $|\eta| < 2.5$. The longitutinal impact parameter is the same for both electrons and muons, while muons are required to pass a slightly tighter transverse imapact parameter, $|d_0|/\sigma_{d_0}<3$. 
 
-All leptons are required to be isolated, as defined though the standard \verb|PLVLoose| working point supported by combined performance groups. Leptons are additionally required to pass a non-prompt BDT selection described in detail in \cite{ttH_paper}. Optimized working points and scale factors for this BDT are taken from that analysis.
+All leptons are required to be isolated, as defined though the standard \verb|PLVLoose| working point supported by combined performance groups. Leptons are additionally required to pass a non-prompt BDT selection developed by the $t\bar{t}H$ multilepton/$t\bar{t}W$ analysis group. This BDT is described in detail in \cite{ttW_140}. Optimized working points and scale factors for this BDT are taken from that analysis.
 
 %\begin{table}
 %\begin{center}
@@ -129,7 +129,7 @@ This algorithm is applied to the preselected objects. The overlap removal proced
  \begin{center}
    \begin{tabular}{|c|c|c|}
      \hline
-                            \bf{Keep}  &  \bf{Remove} & \bf{Cone size ($\Delta$ R)}  \\
+                            \textbf{Keep}  &  \textbf{Remove} & \textbf{Cone size ($\Delta$ R)}  \\
          \hline
                         electron        & electron (low \pt)    & 0.1 \\
      \hline

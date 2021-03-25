@@ -1,35 +1,37 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
-[3] Config.pm:357> INFO - Logfile is 'wz_heavy_flavor.blg'
-[56] biber:303> INFO - === Mon Mar 15, 2021, 20:21:33
+[2] Config.pm:357> INFO - Logfile is 'wz_heavy_flavor.blg'
+[52] biber:303> INFO - === Thu Mar 25, 2021, 17:31:19
 [87] Biber.pm:359> INFO - Reading 'wz_heavy_flavor.bcf'
-[163] Biber.pm:835> INFO - Found 23 citekeys in bib section 0
-[174] Biber.pm:3670> INFO - Processing section 0
-[186] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/wz_heavy_flavor.bib' for section 0
-[190] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[206] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/wz_heavy_flavor.bib'
-[211] Utils.pm:164> WARN - Duplicate entry key: 'Madgraph' in file 'bib/wz_heavy_flavor.bib', skipping ...
-[231] Utils.pm:164> WARN - month field 'Nov' in entry 'ttH_paper' is not an integer - this will probably not sort properly.
-[252] Utils.pm:164> WARN - month field 'Apr' in entry 'ttZ_paper' is not an integer - this will probably not sort properly.
-[291] Utils.pm:164> WARN - month field 'Mar' in entry 'jes' is not an integer - this will probably not sort properly.
-[293] Utils.pm:164> WARN - month field 'Jul' in entry 'tZ_paper' is not an integer - this will probably not sort properly.
-[294] Utils.pm:164> WARN - Name "J. Alwall, M. Herquet, F. Maltoni, O. Mattelaer" has too many commas: skipping name
-[295] Utils.pm:164> WARN - BibTeX subsystem: /tmp/PsqLvNG2W0/wz_heavy_flavor.bib_3619282.utf8, line 8, warning: 14 characters of junk seen at toplevel
-[295] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/ATLAS.bib' for section 0
-[367] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[527] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/ATLAS.bib'
-[590] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/CMS.bib' for section 0
-[632] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[710] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/CMS.bib'
-[762] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/ConfNotes.bib' for section 0
-[801] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[870] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/ConfNotes.bib'
-[984] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/PubNotes.bib' for section 0
-[1000] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[1035] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/PubNotes.bib'
-[1086] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1086] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1086] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-UK'
-[1086] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-UK'
-[1102] bbl.pm:608> INFO - Writing 'wz_heavy_flavor.bbl' with encoding 'UTF-8'
-[1107] bbl.pm:712> INFO - Output to wz_heavy_flavor.bbl
-[1107] Biber.pm:109> INFO - WARNINGS: 7
+[194] Biber.pm:835> INFO - Found 25 citekeys in bib section 0
+[208] Biber.pm:3670> INFO - Processing section 0
+[222] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/wz_heavy_flavor.bib' for section 0
+[227] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[242] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/wz_heavy_flavor.bib'
+[246] Utils.pm:164> WARN - Duplicate entry key: 'Madgraph' in file 'bib/wz_heavy_flavor.bib', skipping ...
+[280] Utils.pm:164> WARN - month field 'Mar' in entry 'ttW_140' is not an integer - this will probably not sort properly.
+[287] Utils.pm:164> WARN - month field 'Nov' in entry 'ttH_paper' is not an integer - this will probably not sort properly.
+[299] Utils.pm:164> WARN - month field 'Apr' in entry 'ttZ_paper' is not an integer - this will probably not sort properly.
+[333] Utils.pm:164> WARN - month field 'Mar' in entry 'jes' is not an integer - this will probably not sort properly.
+[335] Utils.pm:164> WARN - month field 'Jul' in entry 'tZ_paper' is not an integer - this will probably not sort properly.
+[336] Utils.pm:164> WARN - Name "J. Alwall, M. Herquet, F. Maltoni, O. Mattelaer" has too many commas: skipping name
+[337] Utils.pm:164> WARN - BibTeX subsystem: /tmp/Jydeo9gXpJ/wz_heavy_flavor.bib_1032730.utf8, line 8, warning: 14 characters of junk seen at toplevel
+[337] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/ATLAS.bib' for section 0
+[414] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[548] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/ATLAS.bib'
+[618] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/CMS.bib' for section 0
+[688] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[815] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/CMS.bib'
+[882] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/ConfNotes.bib' for section 0
+[945] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[1061] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/ConfNotes.bib'
+[1142] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/PubNotes.bib' for section 0
+[1157] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[1192] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/PubNotes.bib'
+[1219] Utils.pm:164> WARN - I didn't find a database entry for 'ttW_fullR2' (section 0)
+[1244] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1244] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1244] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-UK'
+[1244] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-UK'
+[1262] bbl.pm:608> INFO - Writing 'wz_heavy_flavor.bbl' with encoding 'UTF-8'
+[1268] bbl.pm:712> INFO - Output to wz_heavy_flavor.bbl
+[1268] Biber.pm:109> INFO - WARNINGS: 9

@@ -23,20 +23,20 @@
 \contentsline {subsection}{\numberline {4.6}Overlap removal}{14}{subsection.4.6}
 \contentsline {section}{\numberline {5}Event Selection and Signal Region Definitions}{15}{section.5}
 \contentsline {subsection}{\numberline {5.1}Event Preselection}{15}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Fit Regions}{18}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Non-Prompt Lepton Estimation}{34}{subsection.5.3}
-\contentsline {subsubsection}{\numberline {5.3.1}$t\bar {t}$ Validation}{34}{subsubsection.5.3.1}
+\contentsline {subsection}{\numberline {5.2}Fit Regions}{19}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Non-Prompt Lepton Estimation}{35}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}$t\bar {t}$ Validation}{35}{subsubsection.5.3.1}
 \contentsline {subsubsection}{\numberline {5.3.2}$Z$+jets Validation}{38}{subsubsection.5.3.2}
 \contentsline {section}{\numberline {6}tZ Separation Multivariate Analysis}{42}{section.6}
 \contentsline {subsection}{\numberline {6.1}Top Mass Reconstruction}{43}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}tZ BDT}{43}{subsection.6.2}
 \contentsline {section}{\numberline {7}Systematic Uncertainties}{47}{section.7}
 \contentsline {section}{\numberline {8}Results}{54}{section.8}
-\contentsline {section}{\numberline {9}Conclusion}{65}{section.9}
-\contentsline {section}{\numberline {A}Appendices}{68}{appendix.A}
-\contentsline {part}{Appendices}{68}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Non-prompt lepton MVA}{68}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Non-prompt CR Modelling}{71}{subsection.A.2}
-\contentsline {subsection}{\numberline {A.3}tZ Interference Studies}{76}{subsection.A.3}
-\contentsline {subsection}{\numberline {A.4}Alternate tZ Inclusive Fit}{80}{subsection.A.4}
-\contentsline {subsection}{\numberline {A.5}DSID list}{84}{subsection.A.5}
+\contentsline {section}{\numberline {9}Conclusion}{66}{section.9}
+\contentsline {section}{\numberline {A}Appendices}{69}{appendix.A}
+\contentsline {part}{Appendices}{69}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Non-prompt lepton MVA}{69}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Non-prompt CR Modelling}{72}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}tZ Interference Studies}{77}{subsection.A.3}
+\contentsline {subsection}{\numberline {A.4}Alternate tZ Inclusive Fit}{81}{subsection.A.4}
+\contentsline {subsection}{\numberline {A.5}DSID list}{85}{subsection.A.5}

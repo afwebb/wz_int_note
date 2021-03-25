@@ -2133,7 +2133,7 @@
     <bcf:citekey order="7">ATLAS-CONF-2016-024</bcf:citekey>
     <bcf:citekey order="8">PERF-2014-05</bcf:citekey>
     <bcf:citekey order="9">PERF-2014-05</bcf:citekey>
-    <bcf:citekey order="10">ttH_paper</bcf:citekey>
+    <bcf:citekey order="10">ttW_140</bcf:citekey>
     <bcf:citekey order="11">ATL-PHYS-PUB-2015-015</bcf:citekey>
     <bcf:citekey order="12">ATLAS-CONF-2015-029</bcf:citekey>
     <bcf:citekey order="13">PERF-2014-03</bcf:citekey>
@@ -2148,7 +2148,8 @@
     <bcf:citekey order="22">jes</bcf:citekey>
     <bcf:citekey order="23">btag_cal</bcf:citekey>
     <bcf:citekey order="24">tZ_paper</bcf:citekey>
-    <bcf:citekey order="25">Madgraph</bcf:citekey>
+    <bcf:citekey order="25">ttW_fullR2</bcf:citekey>
+    <bcf:citekey order="26">Madgraph</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

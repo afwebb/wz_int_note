@@ -301,23 +301,245 @@
       \verb 1407.3935
       \endverb
     \endentry
-    \entry{ttH_paper}{report}{}
+    \entry{ttW_140}{report}{}
+      \name{author}{43}{}{%
+        {{hash=bbc41bbd1e0c0673777d27f409ebcaa3}{%
+           family={Narayan},
+           familyi={N\bibinitperiod},
+           given={Rohin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b4f941098f9da8bb0c63b9b19072adc8}{%
+           family={Mcfayden},
+           familyi={M\bibinitperiod},
+           given={Joshua\bibnamedelima Angus},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f428676ddfb421c031e9cce8542b01ed}{%
+           family={Deiana},
+           familyi={D\bibinitperiod},
+           given={Allison\bibnamedelima McCarn},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=9163ed7dec304247ca9dee56a69fddd4}{%
+           family={Sopczak},
+           familyi={S\bibinitperiod},
+           given={Andre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=70d9af97fd9a167fa24a2223e78dbf82}{%
+           family={Hoecker},
+           familyi={H\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=55ebb158bc7e45e30a94c724ae13af4b}{%
+           family={Policicchio},
+           familyi={P\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e53e99cb6bc49b3086197536ffac8a89}{%
+           family={Chomont},
+           familyi={C\bibinitperiod},
+           given={Arthur\bibnamedelima Rene},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=52f98ca01a728159191b9dc5804892bd}{%
+           family={Juste\bibnamedelima Rozas},
+           familyi={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Aurelio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0e1ccc133c3f4a3cf87cb0f8fab0f9ff}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3f948dad5d31ec1693fbaf4cca8230d4}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chenliang},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4f2748420ff493712fcc9e3d24aea0ad}{%
+           family={Boumediene},
+           familyi={B\bibinitperiod},
+           given={Djamel\bibnamedelima Eddine},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=d9790d8c8cf6855f94915a8a433dadd4}{%
+           family={Agaras},
+           familyi={A\bibinitperiod},
+           given={Merve\bibnamedelima Nazlim},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=4e5f15fec04af03cb20fee07c6300ae9}{%
+           family={Bruscino},
+           familyi={B\bibinitperiod},
+           given={Nello},
+           giveni={N\bibinitperiod}}}%
+        {{hash=61286ec4170f981045b68bdebf53f67d}{%
+           family={Clavijo\bibnamedelima Columbie},
+           familyi={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Jose\bibnamedelima Manuel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7f08438dc8a52aa469faf97f4c2ffa00}{%
+           family={Duehrssen},
+           familyi={D\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=184eccdd4134affbff592ccdedd830c3}{%
+           family={Falke},
+           familyi={F\bibinitperiod},
+           given={Peter\bibnamedelima Johannes},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=90961944826df3ed7a1b4e5e1bd7d98c}{%
+           family={Gentile},
+           familyi={G\bibinitperiod},
+           given={Simonetta},
+           giveni={S\bibinitperiod}}}%
+        {{hash=65a0b92a55955dab9272bbd65e813c59}{%
+           family={Grevtsov},
+           familyi={G\bibinitperiod},
+           given={Kirill},
+           giveni={K\bibinitperiod}}}%
+        {{hash=febec431d07cf7e676489756ac13c50a}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=96a0357e6188ecfcb3c329255fda502c}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Fudong},
+           giveni={F\bibinitperiod}}}%
+        {{hash=88b439e5bfcf01f54479a98da69ffeb6}{%
+           family={Huseynov},
+           familyi={H\bibinitperiod},
+           given={Nazim},
+           giveni={N\bibinitperiod}}}%
+        {{hash=fbd7180b8daef9c2ceb186c521018a32}{%
+           family={Katzy},
+           familyi={K\bibinitperiod},
+           given={Judith},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c148e2296023e93a214c8488fecba87a}{%
+           family={Kazakos},
+           familyi={K\bibinitperiod},
+           given={Stergios},
+           giveni={S\bibinitperiod}}}%
+        {{hash=614e3d236e176a811001a7b7ac1b62ef}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Matthew\bibnamedelima Henry},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=d562f671c07f8c040705eecd9a9fbd05}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Kun},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9efac5fb6b1d0a3baae37c5f5f186b69}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={LianLiang},
+           giveni={L\bibinitperiod}}}%
+        {{hash=bec0206bf001b038a874da25898fe46e}{%
+           family={Miralles\bibnamedelima Lopez},
+           familyi={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Marcos},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4206fd32d1c8513a5b223e5e6a014f45}{%
+           family={Mondal},
+           familyi={M\bibinitperiod},
+           given={Santu},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7a41ab482d13556af10bca351c377121}{%
+           family={Monnier},
+           familyi={M\bibinitperiod},
+           given={Emmanuel},
+           giveni={E\bibinitperiod}}}%
+        {{hash=7a705c74ba59d0e0d28f39e949a8a184}{%
+           family={Moreno\bibnamedelima Llacer},
+           familyi={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=387944333d17f671548e91ff7e90a6c5}{%
+           family={Ospanov},
+           familyi={O\bibinitperiod},
+           given={Rustem},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ddb6385b034a25394b2ba3a814da4397}{%
+           family={Niemeyer},
+           familyi={N\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9489395f50457492420eb86a71f8bc3f}{%
+           family={Onyisi},
+           familyi={O\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d1eea8ecd1a3690b4dc241b20742336c}{%
+           family={Peiffer},
+           familyi={P\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=355b3f716b88570d6c746f08986d3f0a}{%
+           family={Polifka},
+           familyi={P\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=500354549780a676b3a7f72f55da6c20}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Jianming},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8c0a02c88f019c2dee413a67786c2527}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=39c2ea520b2be8d11dbfb1d67f2adfc8}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={Meng-ju},
+           giveni={M\bibinithyphendelim j\bibinitperiod}}}%
+        {{hash=f8bc16f95fced637bd2b055e9ba39fbd}{%
+           family={Vazquez\bibnamedelima Schroeder},
+           familyi={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Tamara},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1f4b598686ce610694ba950fa8293d22}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Zhi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=ae2b97b1b25972db478228f89db8f2f9}{%
+           family={Zhi},
+           familyi={Z\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=34ac9410a07c8b7c22942bcf40f12391}{%
+           family={Brahimi},
+           familyi={B\bibinitperiod},
+           given={Nihal},
+           giveni={N\bibinitperiod}}}%
+        {{hash=18fb2314f8e0f2353df4e10848064177}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Weiming},
+           giveni={W\bibinitperiod}}}%
+      }
       \list{institution}{1}{%
         {CERN}%
       }
       \list{location}{1}{%
         {Geneva}%
       }
+      \strng{namehash}{eed19a8120c3ea3f0bfb28b35d57ee23}
+      \strng{fullhash}{0969db7231e2d24cb9c10f64f54dbf54}
+      \strng{authornamehash}{eed19a8120c3ea3f0bfb28b35d57ee23}
+      \strng{authorfullhash}{0969db7231e2d24cb9c10f64f54dbf54}
       \field{sortinit}{1}
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{11}
-      \field{number}{ATLAS-CONF-2017-077}
-      \field{title}{{Evidence for the associated production of the Higgs boson and a top quark pair with the ATLAS detector}}
+      \field{month}{3}
+      \field{number}{ATL-COM-PHYS-2020-217}
+      \field{title}{{Measurement of the total and differential cross sections of a top-quark-antiquark pair in association with a W boson in proton-proton collisions at a centre-of-mass energy of 13 TeV with ATLAS detector at the Large Hadron Collider}}
       \field{type}{techreport}
-      \field{year}{2017}
+      \field{year}{2020}
       \verb{url}
-      \verb https://cds.cern.ch/record/2291405
+      \verb https://cds.cern.ch/record/2712986
       \endverb
     \endentry
     \entry{ATL-PHYS-PUB-2015-015}{booklet}{}
@@ -410,6 +632,25 @@
       \field{year}{2015}
       \verb{url}
       \verb https://cds.cern.ch/record/2037904
+      \endverb
+    \endentry
+    \entry{ttH_paper}{report}{}
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{number}{ATLAS-CONF-2017-077}
+      \field{title}{{Evidence for the associated production of the Higgs boson and a top quark pair with the ATLAS detector}}
+      \field{type}{techreport}
+      \field{year}{2017}
+      \verb{url}
+      \verb https://cds.cern.ch/record/2291405
       \endverb
     \endentry
     \entry{BtagWG}{misc}{}
@@ -811,6 +1052,7 @@
       \endverb
     \endentry
   \endsortlist
+  \missing{ttW_fullR2}
 \endrefsection
 \endinput
 
