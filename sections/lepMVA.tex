@@ -1,0 +1,32 @@
+
+A lepton MVA has been developed to better reject non-prompt leptons than standard cut based selections based upon impact parameter, isolation and PID. The name of this MVA is \texttt{PromptLeptonIso}. The full set of studies and detailed explanation can be found in \cite{ttW_fullR2}.
+
+The decays of $W$ and $Z$ bosons are commonly selected by the identification of one or two electrons or muons.  The negligible lifetimes of these bosons mean that the leptons produced in the decay originate from the interaction vertex and are thus labelled ``prompt''.  Analyses using these light leptons impose strict reconstruction quality, isolation and impact parameter requirements to remove ``fake'' leptons. A significant source of the fake light leptons are non-prompt leptons produced in decays of hadrons that contain bottom ($b$) or charm ($c$) quarks. Such hadrons typically have microscopically significant lifetimes that can be detected experimentally.
+
+These non-prompt leptons can also pass the tight selection criteria. In analyses that involve top ($t$) quarks, which decay almost exclusively into a $W$ boson and a $b$ quark, non-prompt leptons from the semileptonic decay of bottom and charm hadrons can be a significant source of background events. This is particularly the case in the selection of same-sign dilepton and multilepton final states. 
+
+The main idea is to identify non-prompt light leptons using lifetime information associated with a track jet that matches the selected light lepton. This lifetime information is computed using tracks contained within the jet. Typically, lepton lifetime is determined using the impact parameter of the track reconstructed by the inner tracking detector which is matched to the reconstructed lepton. Using additional reconstructed charged particle tracks increases the precision of identifying the displaced decay vertex of bottom or charm hadrons that produced a non-prompt light lepton. The MVA also includes information related to the isolation of the lepton to reject non-prompt leptons.
+                                                                                                                              \texttt{PromptLeptonIso} is a gradient boosted BDT. The training of the BDT is performed on leptons selected from the \textsc{Powheg+Pythia6} non-allhad $t\bar{t}$ MC sample. Eight variables are used to train the BDT in order to discriminate between prompt and non-prompt leptons. The track jets that are matched to the non-prompt leptons correspond to jets initiated by $b$ or $c$ quarks, and may contain a displaced vertex. Consequently, three of the selected variables are used to identify $b$-tag jets by standard ATLAS flavour tagging algorithms. Two variables use the relationship between the track jet and lepton: the ratio of the lepton $p_{T}$ with respect to the track jet $p_{T}$ and $\Delta R$ between the lepton and the track jet axis.  Finally three additional variables test whether the reconstructed lepton is isolated: the number of tracks collected by the track jet and the lepton track and calorimeter isolation variables. Table \ref{table:BODY_lepMVA_btagging_variables} describes the variables used to train the BDT algorithm. The choice of input variables has been extensively discussed with Egamma, Muon, Tracking, and Flavour Tagging CP groups.
+
+\begin{table}[h!]
+        \begin{center}
+                \resizebox{1.0\textwidth}{!}{
+                \begin{tabular}{c|c}
+                %\hline                                                                                                      
+                Variable  & Description \\
+                \hline
+                $N_{\text{track}}$ in track jet &  Number of tracks collected by the track jet \\
+                IP2 log($P_{b} / P_{\text{light}}$)  &  Log-likelihood ratio between the $b$ and light jet hypotheses with the IP2D algorithm\\
+                IP3 log($P_{b} / P_{\text{light}}$)  &  Log-likelihood ratio between the $b$ and light jet hypotheses with the IP3D algorithm\\
+                $N_{\text{TrkAtVtx}}$ SV + JF  & Number of tracks used in the secondary vertex found by the SV1 algorithm \\                 & in addition to the number of tracks from secondary vertices found by the JetFitter algorithm with at least two tracks\\
+                $p_{T}^{\text{lepton}} / p_{T}^{\text{track jet}}$ & The ratio of the lepton $p_{T}$ and the track jet $p_{T}$ \\
+                $\Delta R(\text{lepton}, \text{track jet})$ & $\Delta R$ between the lepton and the track jet axis \\
+                $p_{T}{\text{VarCone}}30 / p_{T}$& Lepton track isolation, with track collecting radius of $\Delta R < 0.3$ \\
+                $E_{T}{\text{TopoCone}}30 / p_{T}$& Lepton calorimeter isolation, with topological cluster collecting radius of $\Delta R < 0.3$ \\
+                        %\hline                                                                                              
+         \end{tabular}}
+    \end{center}                                                                                                         
+    \caption{\label{table:BODY_lepMVA_btagging_variables} A table of the variables used in the training of \texttt{PromptLeptonIso}.}
+\end{table}
+
+The efficiency of the tight \texttt{PromptLeptonIso} working point is measured using the tag and probe method with $Z\rightarrow \ell^{+}\ell^{-}$ events. Such calibration are performed by analysers from this analysis in communication with the Egamma and Muon combined performance groups. The scale factor are approximately 0.92 for $10 < \pT < 15$~GeV, and averaging at 0.98 to 0.99 for higher $\pT$ leptons. An extra systematic is applied to muons within $\Delta R < 0.6$ of a calorimeter jet, since there is a strong dependence on the scale factor due to the presence of these jets. For electrons, the dominant systematics  is coming from pile-up dependence. Overall the systematics are a maximum of 3\% at low \pT and decreasing at a function of \pT.
