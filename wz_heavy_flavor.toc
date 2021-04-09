@@ -1,0 +1,47 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {UKenglish}
+\contentsline {section}{\numberline {1}Changes and outstanding items}{5}{section.1}
+\contentsline {subsection}{\numberline {1.1}Changelog}{5}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Changes relative to v7}{5}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Changes relative to v5}{5}{subsubsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.3}Changes relative to v4}{6}{subsubsection.1.1.3}
+\contentsline {subsubsection}{\numberline {1.1.4}Changes relative to v3}{6}{subsubsection.1.1.4}
+\contentsline {subsubsection}{\numberline {1.1.5}Changes relative to v2}{7}{subsubsection.1.1.5}
+\contentsline {subsubsection}{\numberline {1.1.6}Changes relative to v1}{7}{subsubsection.1.1.6}
+\contentsline {subsection}{\numberline {1.2}Outstanding Items}{7}{subsection.1.2}
+\contentsline {section}{\numberline {2}Executive Summary}{8}{section.2}
+\contentsline {section}{\numberline {3}Data and Monte Carlo Samples}{9}{section.3}
+\contentsline {subsection}{\numberline {3.1}Data Samples}{9}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Monte Carlo Samples}{10}{subsection.3.2}
+\contentsline {section}{\numberline {4}Object Reconstruction}{11}{section.4}
+\contentsline {subsection}{\numberline {4.1}Trigger}{11}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Light leptons}{12}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Jets}{13}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}B-tagged Jets}{13}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Missing transverse energy}{14}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Overlap removal}{14}{subsection.4.6}
+\contentsline {section}{\numberline {5}Event Selection and Signal Region Definitions}{15}{section.5}
+\contentsline {subsection}{\numberline {5.1}Event Preselection}{15}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Fit Regions}{19}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Non-Prompt Lepton Estimation}{35}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}$t\bar {t}$ Validation}{35}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}$Z$+jets Validation}{38}{subsubsection.5.3.2}
+\contentsline {section}{\numberline {6}tZ Separation Multivariate Analysis}{42}{section.6}
+\contentsline {subsection}{\numberline {6.1}Top Mass Reconstruction}{43}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}tZ BDT}{43}{subsection.6.2}
+\contentsline {section}{\numberline {7}Systematic Uncertainties}{47}{section.7}
+\contentsline {section}{\numberline {8}Results}{54}{section.8}
+\contentsline {subsection}{\numberline {8.1}Fit Procedure}{54}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Independent 1-jet and 2-jet Results}{55}{subsection.8.2}
+\contentsline {section}{\numberline {9}Conclusion}{66}{section.9}
+\contentsline {section}{\numberline {A}Appendices}{69}{appendix.A}
+\contentsline {part}{Appendices}{69}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Non-prompt lepton MVA}{69}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Non-prompt CR Modelling}{72}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}tZ Interference Studies}{77}{subsection.A.3}
+\contentsline {subsection}{\numberline {A.4}Inclusive 1+2 Jet Cross Check}{81}{subsection.A.4}
+\contentsline {subsection}{\numberline {A.5}Alternate tZ Inclusive Fit}{85}{subsection.A.5}
+\contentsline {subsubsection}{\numberline {A.5.1}tZ Inclusive Fit}{86}{subsubsection.A.5.1}
+\contentsline {subsubsection}{\numberline {A.5.2}Floating tZ}{86}{subsubsection.A.5.2}
+\contentsline {subsection}{\numberline {A.6}DSID list}{87}{subsection.A.6}
