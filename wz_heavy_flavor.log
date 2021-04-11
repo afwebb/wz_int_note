@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  11 APR 2021 12:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  11 APR 2021 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2711,15 +2711,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'wz_heavy_flavor.bbl' found.
- (./wz_heavy_flavor.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                ttW_fullR2
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (./wz_heavy_flavor.bbl)
 Package biblatex Info: Reference section=0 on input line 96.
 Package biblatex Info: Reference segment=0 on input line 96.
 \c__siunitx_mathsf_int=\count426
@@ -5136,12 +5128,8 @@ n input line 13.
                                                   \fi \fi 
 l.17 
       <./figures/signalModel/truthJets/plots/overflow.pdf, page is rotated 90 d
-egrees>]
-
-LaTeX Warning: Reference `sec:with_tZ' on page 55 undefined on input line 28.
-
-[55pdfTeX warning (ext4): destination with the same identifier (name{figure.32}
-) has been already used, duplicate ignored
+egrees>] [55pdfTeX warning (ext4): destination with the same identifier (name{f
+igure.32}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -5151,7 +5139,7 @@ Overfull \hbox (37.7775pt too wide) in paragraph at lines 46--57
  [] 
  []
 
-<figures/sys_truthJets/CorrMatrix.png, id=1810, 2605.735pt x 2581.645pt>
+<figures/sys_truthJets/CorrMatrix.png, id=1811, 2605.735pt x 2581.645pt>
 File: figures/sys_truthJets/CorrMatrix.png Graphic file (type png)
 
 <use figures/sys_truthJets/CorrMatrix.png>
@@ -5205,7 +5193,7 @@ s been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.120 
-      ] <figures/sys_truthJets/Ranking.png, id=1835, 598.235pt x 1111.15125pt>
+      ] <figures/sys_truthJets/Ranking.png, id=1836, 598.235pt x 1111.15125pt>
 File: figures/sys_truthJets/Ranking.png Graphic file (type png)
 
 <use figures/sys_truthJets/Ranking.png>
@@ -5258,7 +5246,7 @@ s been already used, duplicate ignored
                                                   \fi \fi 
 l.185 
       ]
-<figures/sys_truthJets_2j/Ranking.png, id=1861, 598.235pt x 1111.15125pt>
+<figures/sys_truthJets_2j/Ranking.png, id=1862, 598.235pt x 1111.15125pt>
 File: figures/sys_truthJets_2j/Ranking.png Graphic file (type png)
 
 <use figures/sys_truthJets_2j/Ranking.png>
@@ -5303,7 +5291,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 (hyperref)                than one, level fixed on input line 297.
 
 (./sections/fakes_CR.tex
-<figures/valZjets_lepPtW/Plots/not_85.png, id=1949, 598.235pt x 674.52pt>
+<figures/valZjets_lepPtW/Plots/not_85.png, id=1951, 598.235pt x 674.52pt>
 File: figures/valZjets_lepPtW/Plots/not_85.png Graphic file (type png)
 
 <use figures/valZjets_lepPtW/Plots/not_85.png>
@@ -5311,7 +5299,7 @@ Package pdftex.def Info: figures/valZjets_lepPtW/Plots/not_85.png used on input
  line 8.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/valZjets_lepPtW/Plots/WP_1b_77_85.png, id=1950, 598.235pt x 674.52pt>
+<figures/valZjets_lepPtW/Plots/WP_1b_77_85.png, id=1952, 598.235pt x 674.52pt>
 File: figures/valZjets_lepPtW/Plots/WP_1b_77_85.png Graphic file (type png)
 
 <use figures/valZjets_lepPtW/Plots/WP_1b_77_85.png>
@@ -5319,7 +5307,7 @@ Package pdftex.def Info: figures/valZjets_lepPtW/Plots/WP_1b_77_85.png used on
 input line 9.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/valZjets_lepPtW/Plots/WP_1b_70_77.png, id=1951, 598.235pt x 674.52pt>
+<figures/valZjets_lepPtW/Plots/WP_1b_70_77.png, id=1953, 598.235pt x 674.52pt>
 File: figures/valZjets_lepPtW/Plots/WP_1b_70_77.png Graphic file (type png)
 
 <use figures/valZjets_lepPtW/Plots/WP_1b_70_77.png>
@@ -5327,7 +5315,7 @@ Package pdftex.def Info: figures/valZjets_lepPtW/Plots/WP_1b_70_77.png used on
 input line 10.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/valZjets_lepPtW/Plots/WP_1b_60_70.png, id=1952, 598.235pt x 674.52pt>
+<figures/valZjets_lepPtW/Plots/WP_1b_60_70.png, id=1954, 598.235pt x 674.52pt>
 File: figures/valZjets_lepPtW/Plots/WP_1b_60_70.png Graphic file (type png)
 
 <use figures/valZjets_lepPtW/Plots/WP_1b_60_70.png>
@@ -5335,7 +5323,7 @@ Package pdftex.def Info: figures/valZjets_lepPtW/Plots/WP_1b_60_70.png used on
 input line 11.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/valZjets_lepPtW/Plots/WP_1b_60.png, id=1953, 598.235pt x 674.52pt>
+<figures/valZjets_lepPtW/Plots/WP_1b_60.png, id=1955, 598.235pt x 674.52pt>
 File: figures/valZjets_lepPtW/Plots/WP_1b_60.png Graphic file (type png)
 
 <use figures/valZjets_lepPtW/Plots/WP_1b_60.png>
@@ -5349,7 +5337,7 @@ ut line 12.
                                                   \fi \fi 
 l.16 
      ]
-<figures/valZjets_lepPtW/Plots/not_85_2j.png, id=1960, 598.235pt x 674.52pt>
+<figures/valZjets_lepPtW/Plots/not_85_2j.png, id=1962, 598.235pt x 674.52pt>
 File: figures/valZjets_lepPtW/Plots/not_85_2j.png Graphic file (type png)
 
 <use figures/valZjets_lepPtW/Plots/not_85_2j.png>
@@ -5357,7 +5345,7 @@ Package pdftex.def Info: figures/valZjets_lepPtW/Plots/not_85_2j.png used on in
 put line 19.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/valZjets_lepPtW/Plots/WP_2b_77_85.png, id=1961, 598.235pt x 674.52pt>
+<figures/valZjets_lepPtW/Plots/WP_2b_77_85.png, id=1963, 598.235pt x 674.52pt>
 File: figures/valZjets_lepPtW/Plots/WP_2b_77_85.png Graphic file (type png)
 
 <use figures/valZjets_lepPtW/Plots/WP_2b_77_85.png>
@@ -5365,7 +5353,7 @@ Package pdftex.def Info: figures/valZjets_lepPtW/Plots/WP_2b_77_85.png used on
 input line 20.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/valZjets_lepPtW/Plots/WP_2b_70_77.png, id=1962, 598.235pt x 674.52pt>
+<figures/valZjets_lepPtW/Plots/WP_2b_70_77.png, id=1964, 598.235pt x 674.52pt>
 File: figures/valZjets_lepPtW/Plots/WP_2b_70_77.png Graphic file (type png)
 
 <use figures/valZjets_lepPtW/Plots/WP_2b_70_77.png>
@@ -5373,7 +5361,7 @@ Package pdftex.def Info: figures/valZjets_lepPtW/Plots/WP_2b_70_77.png used on
 input line 21.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/valZjets_lepPtW/Plots/WP_2b_60_70.png, id=1963, 598.235pt x 674.52pt>
+<figures/valZjets_lepPtW/Plots/WP_2b_60_70.png, id=1965, 598.235pt x 674.52pt>
 File: figures/valZjets_lepPtW/Plots/WP_2b_60_70.png Graphic file (type png)
 
 <use figures/valZjets_lepPtW/Plots/WP_2b_60_70.png>
@@ -5381,7 +5369,7 @@ Package pdftex.def Info: figures/valZjets_lepPtW/Plots/WP_2b_60_70.png used on
 input line 22.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/valZjets_lepPtW/Plots/WP_2b_60.png, id=1964, 598.235pt x 674.52pt>
+<figures/valZjets_lepPtW/Plots/WP_2b_60.png, id=1966, 598.235pt x 674.52pt>
 File: figures/valZjets_lepPtW/Plots/WP_2b_60.png Graphic file (type png)
 
 <use figures/valZjets_lepPtW/Plots/WP_2b_60.png>
@@ -5398,7 +5386,7 @@ l.27
 lots/WP_1b_77_85.png> <./figures/valZjets_lepPtW/Plots/WP_1b_70_77.png> <./figu
 res/valZjets_lepPtW/Plots/WP_1b_60_70.png> <./figures/valZjets_lepPtW/Plots/WP_
 1b_60.png>]
-<figures/valTtbar_lepPt0/Plots/not_85.png, id=1976, 598.235pt x 674.52pt>
+<figures/valTtbar_lepPt0/Plots/not_85.png, id=1979, 598.235pt x 674.52pt>
 File: figures/valTtbar_lepPt0/Plots/not_85.png Graphic file (type png)
 
 <use figures/valTtbar_lepPt0/Plots/not_85.png>
@@ -5406,7 +5394,7 @@ Package pdftex.def Info: figures/valTtbar_lepPt0/Plots/not_85.png used on input
  line 32.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/valTtbar_lepPt0/Plots/WP_1b_77_85.png, id=1977, 598.235pt x 674.52pt>
+<figures/valTtbar_lepPt0/Plots/WP_1b_77_85.png, id=1980, 598.235pt x 674.52pt>
 File: figures/valTtbar_lepPt0/Plots/WP_1b_77_85.png Graphic file (type png)
 
 <use figures/valTtbar_lepPt0/Plots/WP_1b_77_85.png>
@@ -5414,7 +5402,7 @@ Package pdftex.def Info: figures/valTtbar_lepPt0/Plots/WP_1b_77_85.png used on
 input line 33.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/valTtbar_lepPt0/Plots/WP_1b_70_77.png, id=1978, 598.235pt x 674.52pt>
+<figures/valTtbar_lepPt0/Plots/WP_1b_70_77.png, id=1981, 598.235pt x 674.52pt>
 File: figures/valTtbar_lepPt0/Plots/WP_1b_70_77.png Graphic file (type png)
 
 <use figures/valTtbar_lepPt0/Plots/WP_1b_70_77.png>
@@ -5422,7 +5410,7 @@ Package pdftex.def Info: figures/valTtbar_lepPt0/Plots/WP_1b_70_77.png used on
 input line 34.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/valTtbar_lepPt0/Plots/WP_1b_60_70.png, id=1979, 598.235pt x 674.52pt>
+<figures/valTtbar_lepPt0/Plots/WP_1b_60_70.png, id=1982, 598.235pt x 674.52pt>
 File: figures/valTtbar_lepPt0/Plots/WP_1b_60_70.png Graphic file (type png)
 
 <use figures/valTtbar_lepPt0/Plots/WP_1b_60_70.png>
@@ -5430,7 +5418,7 @@ Package pdftex.def Info: figures/valTtbar_lepPt0/Plots/WP_1b_60_70.png used on
 input line 35.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/valTtbar_lepPt0/Plots/WP_1b_60.png, id=1980, 598.235pt x 674.52pt>
+<figures/valTtbar_lepPt0/Plots/WP_1b_60.png, id=1983, 598.235pt x 674.52pt>
 File: figures/valTtbar_lepPt0/Plots/WP_1b_60.png Graphic file (type png)
 
 <use figures/valTtbar_lepPt0/Plots/WP_1b_60.png>
@@ -5447,7 +5435,7 @@ l.40
 W/Plots/WP_2b_77_85.png> <./figures/valZjets_lepPtW/Plots/WP_2b_70_77.png> <./f
 igures/valZjets_lepPtW/Plots/WP_2b_60_70.png> <./figures/valZjets_lepPtW/Plots/
 WP_2b_60.png>]
-<figures/valTtbar_lepPt0/Plots/not_85_2j.png, id=1993, 598.235pt x 674.52pt>
+<figures/valTtbar_lepPt0/Plots/not_85_2j.png, id=1995, 598.235pt x 674.52pt>
 File: figures/valTtbar_lepPt0/Plots/not_85_2j.png Graphic file (type png)
 
 <use figures/valTtbar_lepPt0/Plots/not_85_2j.png>
@@ -5455,7 +5443,7 @@ Package pdftex.def Info: figures/valTtbar_lepPt0/Plots/not_85_2j.png used on in
 put line 43.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/valTtbar_lepPt0/Plots/WP_2b_77_85.png, id=1994, 598.235pt x 674.52pt>
+<figures/valTtbar_lepPt0/Plots/WP_2b_77_85.png, id=1996, 598.235pt x 674.52pt>
 File: figures/valTtbar_lepPt0/Plots/WP_2b_77_85.png Graphic file (type png)
 
 <use figures/valTtbar_lepPt0/Plots/WP_2b_77_85.png>
@@ -5463,7 +5451,7 @@ Package pdftex.def Info: figures/valTtbar_lepPt0/Plots/WP_2b_77_85.png used on
 input line 44.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/valTtbar_lepPt0/Plots/WP_2b_70_77.png, id=1995, 598.235pt x 674.52pt>
+<figures/valTtbar_lepPt0/Plots/WP_2b_70_77.png, id=1997, 598.235pt x 674.52pt>
 File: figures/valTtbar_lepPt0/Plots/WP_2b_70_77.png Graphic file (type png)
 
 <use figures/valTtbar_lepPt0/Plots/WP_2b_70_77.png>
@@ -5471,7 +5459,7 @@ Package pdftex.def Info: figures/valTtbar_lepPt0/Plots/WP_2b_70_77.png used on
 input line 45.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/valTtbar_lepPt0/Plots/WP_2b_60_70.png, id=1996, 598.235pt x 674.52pt>
+<figures/valTtbar_lepPt0/Plots/WP_2b_60_70.png, id=1998, 598.235pt x 674.52pt>
 File: figures/valTtbar_lepPt0/Plots/WP_2b_60_70.png Graphic file (type png)
 
 <use figures/valTtbar_lepPt0/Plots/WP_2b_60_70.png>
@@ -5479,7 +5467,7 @@ Package pdftex.def Info: figures/valTtbar_lepPt0/Plots/WP_2b_60_70.png used on
 input line 46.
 (pdftex.def)             Requested size: 121.29077pt x 136.75423pt.
 
-<figures/valTtbar_lepPt0/Plots/WP_2b_60.png, id=1997, 598.235pt x 674.52pt>
+<figures/valTtbar_lepPt0/Plots/WP_2b_60.png, id=1999, 598.235pt x 674.52pt>
 File: figures/valTtbar_lepPt0/Plots/WP_2b_60.png Graphic file (type png)
 
 <use figures/valTtbar_lepPt0/Plots/WP_2b_60.png>
@@ -5526,7 +5514,7 @@ pdfTeX warning: pdflatex (file ./figures/tZInterference/lep1pt-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
 
-<figures/tZInterference/lep1pt-eps-converted-to.pdf, id=2017, 569.12625pt x 387
+<figures/tZInterference/lep1pt-eps-converted-to.pdf, id=2019, 569.12625pt x 387
 .4475pt>
 File: figures/tZInterference/lep1pt-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -5551,7 +5539,7 @@ pdfTeX warning: pdflatex (file ./figures/tZInterference/lep2pt-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
 
-<figures/tZInterference/lep2pt-eps-converted-to.pdf, id=2018, 569.12625pt x 387
+<figures/tZInterference/lep2pt-eps-converted-to.pdf, id=2020, 569.12625pt x 387
 .4475pt>
 File: figures/tZInterference/lep2pt-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -5576,7 +5564,7 @@ pdfTeX warning: pdflatex (file ./figures/tZInterference/lep3pt-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
 
-<figures/tZInterference/lep3pt-eps-converted-to.pdf, id=2019, 569.12625pt x 387
+<figures/tZInterference/lep3pt-eps-converted-to.pdf, id=2021, 569.12625pt x 387
 .4475pt>
 File: figures/tZInterference/lep3pt-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -5601,7 +5589,7 @@ pdfTeX warning: pdflatex (file ./figures/tZInterference/lepPairMass23-eps-conve
 rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
  allowed
 
-<figures/tZInterference/lepPairMass23-eps-converted-to.pdf, id=2020, 569.12625p
+<figures/tZInterference/lepPairMass23-eps-converted-to.pdf, id=2022, 569.12625p
 t x 387.4475pt>
 File: figures/tZInterference/lepPairMass23-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -5627,7 +5615,7 @@ pdfTeX warning: pdflatex (file ./figures/tZInterference/drll23-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
 
-<figures/tZInterference/drll23-eps-converted-to.pdf, id=2021, 569.12625pt x 387
+<figures/tZInterference/drll23-eps-converted-to.pdf, id=2023, 569.12625pt x 387
 .4475pt>
 File: figures/tZInterference/drll23-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -5651,7 +5639,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./figures/tZInterference/btpt-eps-converted-to.p
 df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<figures/tZInterference/btpt-eps-converted-to.pdf, id=2022, 569.12625pt x 387.4
+<figures/tZInterference/btpt-eps-converted-to.pdf, id=2024, 569.12625pt x 387.4
 475pt>
 File: figures/tZInterference/btpt-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/tZInterference/btpt-eps-converted-to.pdf>
@@ -5669,7 +5657,7 @@ rference/lep2pt-eps-converted-to.pdf> <./figures/tZInterference/lep3pt-eps-conv
 erted-to.pdf> <./figures/tZInterference/lepPairMass23-eps-converted-to.pdf> <./
 figures/tZInterference/drll23-eps-converted-to.pdf> <./figures/tZInterference/b
 tpt-eps-converted-to.pdf>] (./sections/incFit.tex
-<figures/sys_inclusive/Plots/Summary_postFit.png, id=2128, 899.36pt x 674.52pt>
+<figures/sys_inclusive/Plots/Summary_postFit.png, id=2130, 899.36pt x 674.52pt>
 File: figures/sys_inclusive/Plots/Summary_postFit.png Graphic file (type png)
 <use figures/sys_inclusive/Plots/Summary_postFit.png>
 Package pdftex.def Info: figures/sys_inclusive/Plots/Summary_postFit.png used o
@@ -5682,7 +5670,7 @@ n input line 12.
                                                   \fi \fi 
 l.18 
       <./figures/sys_inclusive/Plots/Summary_postFit.png>]
-<figures/sys_inclusive/Ranking.png, id=2136, 598.235pt x 1111.15125pt>
+<figures/sys_inclusive/Ranking.png, id=2138, 598.235pt x 1111.15125pt>
 File: figures/sys_inclusive/Ranking.png Graphic file (type png)
 
 <use figures/sys_inclusive/Ranking.png>
@@ -5909,10 +5897,10 @@ Package logreq Info: Writing requests to 'wz_heavy_flavor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41458 strings out of 493013
- 835506 string characters out of 6123688
- 1307374 words of memory out of 5000000
- 43694 multiletter control sequences out of 15000+600000
+ 41456 strings out of 493013
+ 835483 string characters out of 6123688
+ 1307360 words of memory out of 5000000
+ 43692 multiletter control sequences out of 15000+600000
  217170 words of font info for 312 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,24n,74p,10411b,2363s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5941,10 +5929,10 @@ n.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb
 fonts/t1xtt.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/
 type1/public/newtx/txbsys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/tex
 mf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (91 pages, 6603793 bytes).
+Output written on wz_heavy_flavor.pdf (91 pages, 6603722 bytes).
 PDF statistics:
- 2357 PDF objects out of 2487 (max. 8388607)
- 1485 compressed objects within 15 object streams
+ 2359 PDF objects out of 2487 (max. 8388607)
+ 1487 compressed objects within 15 object streams
  449 named destinations out of 1000 (max. 500000)
  1525 words of extra memory for PDF output out of 10000 (max. 10000000)
 
