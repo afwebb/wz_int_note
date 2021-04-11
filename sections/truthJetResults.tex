@@ -17,13 +17,13 @@ A maximum likelihood fit to data is performed simultaneously in the regions desc
 
 As described in Section \ref{sec:sys}, there are 229 systematic uncertainties that are considered as NPs in the fit. These NPs are constrained by Gaussian or log-normal probability density functions. The latter are used for normalisation factors to ensure that they are always positive. The expected number of signal and background events are functions of the likelihood. The prior for each NP is added as a penalty term, decreasing the likelihood as it is shifted away from its nominal value. The correlations between these nuisance parameters are summarized in Figure \ref{fig:corr_mat_1j}. 
 
-%The result of the fit is used to extract the cross-section of $WZ$ + heavy-flavor production in the fiducial region defined below:
+The result of the fit is used to extract the cross-section of $WZ$ + heavy-flavor production in the fiducial region defined below:
 
-%\begin{itemize}
-%\item Three light leptons with total charge $\pm$1
-%\item One OSSF lepton pair with $|M(ll)-91.2e3 \un{GeV}| < 10e3 \un{GeV}|$
-%\item One or two associated jets with $p_T >$25 GeV
-%\end{itemize}
+\begin{itemize}
+\item Three light leptons with total charge $\pm$1
+\item One OSSF lepton pair with $|M(ll)-91.2\ GeV| < 10\ GeV|$
+\item One or two associated jets with $p_T >$25 GeV
+\end{itemize}
 
 Several alternate fit strategies are documented in Appendices \ref{sec:incFit}-\ref{sec:with_tZ}. These include a measurement of WZ + 1 or 2 jets inclusively, a fit where tZ is allowed to float, and a case where tZ is included as part of the signal.
 
@@ -40,22 +40,24 @@ The expected $WZ$ + b cross-section in the 2-jet region is $2.5^{+1.3}_{-1.3}(st
 
 A summary of the correlation between the various WZ components is summarized in Table \ref{tab:WZ_corr}.
 
-\begin{table}[H]
+\hspace{-1in}\begin{table}[H]
+\begin{adjustwidth}{-3em}{-3em}
 \begin{center}
 \begin{tabular}{l|cccccc}
 \hline
  & WZ + b - 1-jet & WZ + c - 1-jet & WZ + l - 1-jet & WZ + b - 2-jet & WZ + c - 2-jet & WZ + l - 2-jet\\
 WZ + b - 1-jet & 1.00 & -0.15 & 0.28 & -0.13 & -0.22 & 0.17 \\
-WZ + c - 1-jet & & 1.00 & 0.36 & 0.13 & -0.14 & -0.16 \\
-WZ + l - 1-jet & & & 1.00 & 0.10 & -0.20 & -0.39 \\
-WZ + b - 2-jet & & & & 1.00 & -0.22 & 0.17 \\
-WZ + c - 2-jet & & & & & 1.00 & 0.23 \\
-WZ + l - 2-jet & & & & & & 1.00 \\
+WZ + c - 1-jet & - & 1.00 & 0.36 & 0.13 & -0.14 & -0.16 \\
+WZ + l - 1-jet & - & - & 1.00 & 0.10 & -0.20 & -0.39 \\
+WZ + b - 2-jet & - & - & - & 1.00 & -0.22 & 0.17 \\
+WZ + c - 2-jet & - & - & - & - & 1.00 & 0.23 \\
+WZ + l - 2-jet & - & - & - & - & - & 1.00 \\
 \hline
 \end{tabular}
 \caption{Correlations between the various components of WZ}
 \label{tab:WZ_corr}
 \end{center}
+\end{adjustwidth}
 \end{table}
 
 The correlations between the all of the nuisance parameters considered in the fit are summarized in Figure \ref{fig:corr_mat_1j}.a
