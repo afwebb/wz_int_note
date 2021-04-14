@@ -33,7 +33,7 @@
 \contentsline {section}{\numberline {7}Systematic Uncertainties}{47}{section.7}
 \contentsline {section}{\numberline {8}Results}{54}{section.8}
 \contentsline {subsection}{\numberline {8.1}Fit Procedure}{54}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Independent 1-jet and 2-jet Results}{56}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.2}Results of the Simultaneous Fit}{56}{subsection.8.2}
 \contentsline {section}{\numberline {9}Conclusion}{66}{section.9}
 \contentsline {section}{\numberline {A}Appendices}{69}{appendix.A}
 \contentsline {part}{Appendices}{69}{appendix.A}
