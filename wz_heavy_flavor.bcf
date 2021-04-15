@@ -2138,18 +2138,17 @@
     <bcf:citekey order="12">ATLAS-CONF-2015-029</bcf:citekey>
     <bcf:citekey order="13">PERF-2014-03</bcf:citekey>
     <bcf:citekey order="14">ATL-PHYS-PUB-2015-027</bcf:citekey>
-    <bcf:citekey order="15">ttH_paper</bcf:citekey>
-    <bcf:citekey order="16">BtagWG</bcf:citekey>
-    <bcf:citekey order="17">TMVA_guide</bcf:citekey>
-    <bcf:citekey order="18">ttZ_paper</bcf:citekey>
-    <bcf:citekey order="19">xgboost_cite</bcf:citekey>
-    <bcf:citekey order="20">lumi</bcf:citekey>
-    <bcf:citekey order="21">LUCID2</bcf:citekey>
-    <bcf:citekey order="22">jes</bcf:citekey>
-    <bcf:citekey order="23">btag_cal</bcf:citekey>
-    <bcf:citekey order="24">tZ_paper</bcf:citekey>
-    <bcf:citekey order="25">ttW_140</bcf:citekey>
-    <bcf:citekey order="26">Madgraph</bcf:citekey>
+    <bcf:citekey order="15">BtagWG</bcf:citekey>
+    <bcf:citekey order="16">TMVA_guide</bcf:citekey>
+    <bcf:citekey order="17">ttZ_paper</bcf:citekey>
+    <bcf:citekey order="18">xgboost_cite</bcf:citekey>
+    <bcf:citekey order="19">lumi</bcf:citekey>
+    <bcf:citekey order="20">LUCID2</bcf:citekey>
+    <bcf:citekey order="21">jes</bcf:citekey>
+    <bcf:citekey order="22">btag_cal</bcf:citekey>
+    <bcf:citekey order="23">tZ_paper</bcf:citekey>
+    <bcf:citekey order="24">ttW_140</bcf:citekey>
+    <bcf:citekey order="25">Madgraph</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

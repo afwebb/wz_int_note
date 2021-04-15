@@ -29,4 +29,27 @@ The main idea is to identify non-prompt light leptons using lifetime information
     \caption{\label{table:BODY_lepMVA_btagging_variables} A table of the variables used in the training of \texttt{PromptLeptonIso}.}
 \end{table}
 
+The output distribution of the BDT is shown in Figure \ref{fig:PLV_score}.
+
+\begin{figure}[H]
+\begin{center}
+    \subfigure[]{\includegraphics[width=.45\linewidth]{PLV_electrons.JPG}}%                         
+    \subfigure[]{\includegraphics[width=.45\linewidth]{PLV_muons.JPG}}\\
+    \label{fig:PLV_score}
+    \caption{Distribution of the PLV BDT discriminant for (a) electrons and (b) muons}
+\end{center}
+\end{figure}
+
+The ROC curve for the BDT response, compared to the standard \verb!FixedCutTight! WP, is shown in figure \ref{fig:PLV_roc}, which shows a clear improvement when using this alternate training.
+
+\begin{figure}[H]
+\begin{center}
+    \includegraphics[width=.85\linewidth]{PLV_roc.JPG}
+    \label{fig:PLV_roc}
+    \caption{ROC curves for the PLV as well as the peformance of the standard FixedCutTight WP for (left) electrons and (right) muons}
+\end{center}
+\end{figure}
+
+A cutoff value of -0.7 for electrons and -0.5 for muons are chosen as the WPs for this MVA, based on an optimisation of $S/\sqrt{B}$ performed in the preselection regions of the $t\bar{t}H-ML$ analysis, which have a signiture similar to that of this analysis.
+
 The efficiency of the tight \texttt{PromptLeptonIso} working point is measured using the tag and probe method with $Z\rightarrow \ell^{+}\ell^{-}$ events. Such calibration are performed by analysers from this analysis in communication with the Egamma and Muon combined performance groups. The scale factor are approximately 0.92 for $10 < \pT < 15$~GeV, and averaging at 0.98 to 0.99 for higher $\pT$ leptons. An extra systematic is applied to muons within $\Delta R < 0.6$ of a calorimeter jet, since there is a strong dependence on the scale factor due to the presence of these jets. For electrons, the dominant systematics  is coming from pile-up dependence. Overall the systematics are a maximum of 3\% at low \pT and decreasing at a function of \pT.

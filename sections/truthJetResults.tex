@@ -17,15 +17,28 @@ A maximum likelihood fit to data is performed simultaneously in the regions desc
 
 As described in Section \ref{sec:sys}, there are 229 systematic uncertainties that are considered as NPs in the fit. These NPs are constrained by Gaussian or log-normal probability density functions. The latter are used for normalisation factors to ensure that they are always positive. The expected number of signal and background events are functions of the likelihood. The prior for each NP is added as a penalty term, decreasing the likelihood as it is shifted away from its nominal value. The correlations between these nuisance parameters are summarized in Figure \ref{fig:corr_mat_1j}. 
 
-The result of the fit is used to extract the cross-section of $WZ$ + heavy-flavor production in the fiducial region defined below:
+Several alternate fit strategies are documented in Appendices \ref{sec:incFit}-\ref{sec:inc_tZ}. These include a measurement of WZ + 1 or 2 jets inclusively, a fit where tZ is allowed to float, and a case where tZ is included as part of the signal.
+
+\subsection{Fiducial Region Definition}
+\label{sec:fid}
+
+The fiducial volume at particle level is defined based on the number of stable leptons and jets in each event. Three light leptons with total charge $\pm$1 and one or two associated jets are required. This is separated into four observations based on the number and flavor of associated jets.
+
+Only leptons which do not originate from hadron or $\tau$ decays are considered. The phase space definitions use dressed kinematics of the final state particles. Leptons are dressed by summing the momentum of photons within a cone of $\Delta R < 0.1$ of the lepton to correct the leptons energy. 
+
+Particle level jets are reconstructed using the anti-$k_t$ algorithm with a radius of $R=0.4$. Specifically, the \verb!AntiKt4TruthDressedWZJets! collection is used to define the jets, and their truth flavor is determined by \verb!HadronConeExclTruthLabelID!. 
+
+The kinematic selection used at particle level closely follows the selection used at reconstructed level. Three light leptons with total charge $\pm$1 and one or two associated jets  Leptons and jets are required to have $|\eta < 2.5|$, with the transition region included. The OS leptons is required to have $p_T > 10$ GeV, while the SS leptons are required to have $p_T > 20$ GeV. Jets are required to have $p_T > 25$ GeV. The base fiducial region definition is summarized below:
 
 \begin{itemize}
-\item Three light leptons with total charge $\pm$1
+\item Three light leptons with total charge $\pm$1, $|\eta < 2.5|$
+\item OS lepton with \pt$>$10 GeV, SS leptons with \pt$>$20 GeV
 \item One OSSF lepton pair with $|M(ll)-91.2\ GeV| < 10\ GeV|$
-\item One or two associated jets with $p_T >$25 GeV
+\item One or two associated truth jets with $p_T >$25 GeV, $|\eta < 2.5|$
+%\item At least one truth b-jet or one charm jet
 \end{itemize}
 
-Several alternate fit strategies are documented in Appendices \ref{sec:incFit}-\ref{sec:inc_tZ}. These include a measurement of WZ + 1 or 2 jets inclusively, a fit where tZ is allowed to float, and a case where tZ is included as part of the signal.
+The result of the fit is used to extract the cross-section in this fiducial region for WZ + b and WZ + charm with one associated jet, and WZ + b and WZ + charm with two associated jets, where the number and flavor of the jets is determined at particle level. Events with both charm and b-jets are counted as WZ + b.
 
 \subsection{Results of the Simultaneous Fit}
 \label{sec:resSum}
