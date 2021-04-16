@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  15 APR 2021 15:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  16 APR 2021 14:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2988,7 +2988,7 @@ wn_PHYS_StandardGRL
 
 [9]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 57.
+(Font)              scaled to size 10.95pt on input line 59.
 ) [10pdfTeX warning (ext4): destination with the same identifier (name{table.1}
 ) has been already used, duplicate ignored
 
@@ -5006,43 +5006,53 @@ File: figures/signalModel/plotsNotZ/bjets1j.pdf Graphic file (type pdf)
 <use figures/signalModel/plotsNotZ/bjets1j.pdf>
 Package pdftex.def Info: figures/signalModel/plotsNotZ/bjets1j.pdf used on inpu
 t line 208.
-(pdftex.def)             Requested size: 133.84425pt x 91.35124pt.
+(pdftex.def)             Requested size: 150.5716pt x 102.77312pt.
 
 <figures/signalModel/plotsNotZ/charm1j.pdf, id=1334, 569.12625pt x 388.45125pt>
 File: figures/signalModel/plotsNotZ/charm1j.pdf Graphic file (type pdf)
 <use figures/signalModel/plotsNotZ/charm1j.pdf>
 Package pdftex.def Info: figures/signalModel/plotsNotZ/charm1j.pdf used on inpu
 t line 209.
-(pdftex.def)             Requested size: 133.84425pt x 91.35124pt.
+(pdftex.def)             Requested size: 150.5716pt x 102.77312pt.
 
 <figures/signalModel/plotsNotZ/light1j.pdf, id=1335, 569.12625pt x 388.45125pt>
 File: figures/signalModel/plotsNotZ/light1j.pdf Graphic file (type pdf)
 <use figures/signalModel/plotsNotZ/light1j.pdf>
 Package pdftex.def Info: figures/signalModel/plotsNotZ/light1j.pdf used on inpu
 t line 210.
-(pdftex.def)             Requested size: 133.84425pt x 91.35124pt.
+(pdftex.def)             Requested size: 150.5716pt x 102.77312pt.
+
+Overfull \hbox (33.46106pt too wide) in paragraph at lines 208--210
+ [][][][][][] 
+ []
+
 
 <figures/signalModel/plotsNotZ/bjets2j.pdf, id=1336, 569.12625pt x 388.45125pt>
 File: figures/signalModel/plotsNotZ/bjets2j.pdf Graphic file (type pdf)
 <use figures/signalModel/plotsNotZ/bjets2j.pdf>
 Package pdftex.def Info: figures/signalModel/plotsNotZ/bjets2j.pdf used on inpu
 t line 217.
-(pdftex.def)             Requested size: 133.84425pt x 91.35124pt.
+(pdftex.def)             Requested size: 150.5716pt x 102.77312pt.
 
 <figures/signalModel/plotsNotZ/charm2j.pdf, id=1337, 569.12625pt x 388.45125pt>
 File: figures/signalModel/plotsNotZ/charm2j.pdf Graphic file (type pdf)
 <use figures/signalModel/plotsNotZ/charm2j.pdf>
 Package pdftex.def Info: figures/signalModel/plotsNotZ/charm2j.pdf used on inpu
 t line 218.
-(pdftex.def)             Requested size: 133.84425pt x 91.35124pt.
+(pdftex.def)             Requested size: 150.5716pt x 102.77312pt.
 
 <figures/signalModel/plotsNotZ/light2j.pdf, id=1338, 569.12625pt x 388.45125pt>
 File: figures/signalModel/plotsNotZ/light2j.pdf Graphic file (type pdf)
 <use figures/signalModel/plotsNotZ/light2j.pdf>
 Package pdftex.def Info: figures/signalModel/plotsNotZ/light2j.pdf used on inpu
 t line 219.
-(pdftex.def)             Requested size: 133.84425pt x 91.35124pt.
- [52
+(pdftex.def)             Requested size: 150.5716pt x 102.77312pt.
+
+Overfull \hbox (33.46106pt too wide) in paragraph at lines 217--219
+ [][][][][][] 
+ []
+
+[52
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.13}) ha
@@ -5067,7 +5077,7 @@ pe pdf)
  <use figures/signalModel/truthJets/plots/migrations_bjets.pdf>
 Package pdftex.def Info: figures/signalModel/truthJets/plots/migrations_bjets.p
 df used on input line 231.
-(pdftex.def)             Requested size: 133.84425pt x 91.35124pt.
+(pdftex.def)             Requested size: 150.5716pt x 102.77312pt.
 
 <figures/signalModel/truthJets/plots/migrations_charm.pdf, id=1480, 569.12625pt
  x 388.45125pt>
@@ -5076,7 +5086,7 @@ pe pdf)
  <use figures/signalModel/truthJets/plots/migrations_charm.pdf>
 Package pdftex.def Info: figures/signalModel/truthJets/plots/migrations_charm.p
 df used on input line 232.
-(pdftex.def)             Requested size: 133.84425pt x 91.35124pt.
+(pdftex.def)             Requested size: 150.5716pt x 102.77312pt.
 
 <figures/signalModel/truthJets/plots/migrations_light.pdf, id=1481, 569.12625pt
  x 388.45125pt>
@@ -5085,7 +5095,11 @@ pe pdf)
  <use figures/signalModel/truthJets/plots/migrations_light.pdf>
 Package pdftex.def Info: figures/signalModel/truthJets/plots/migrations_light.p
 df used on input line 233.
-(pdftex.def)             Requested size: 133.84425pt x 91.35124pt.
+(pdftex.def)             Requested size: 150.5716pt x 102.77312pt.
+
+Overfull \hbox (33.46106pt too wide) in paragraph at lines 231--233
+ [][][][][][] 
+ []
 
 [53pdfTeX warning (ext4): destination with the same identifier (name{figure.29}
 ) has been already used, duplicate ignored
@@ -5114,22 +5128,22 @@ Package pdftex.def Info: figures/signalModel/truthJets/plots/overflow.pdf used
 on input line 246.
 (pdftex.def)             Requested size: 259.31526pt x 177.00046pt.
 )
-(./sections/truthJetResults.tex
-<figures/sys_truthJets/Plots/Summary_postFit.png, id=1759, 899.36pt x 674.52pt>
+(./sections/truthJetResults.tex [54pdfTeX warning (ext4): destination with the 
+same identifier (name{figure.31}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.10 
+      <./figures/signalModel/truthJets/plots/overflow.pdf, page is rotated 90 d
+egrees>]
+<figures/sys_truthJets/Plots/Summary_postFit.png, id=1808, 899.36pt x 674.52pt>
 File: figures/sys_truthJets/Plots/Summary_postFit.png Graphic file (type png)
 <use figures/sys_truthJets/Plots/Summary_postFit.png>
 Package pdftex.def Info: figures/sys_truthJets/Plots/Summary_postFit.png used o
 n input line 13.
 (pdftex.def)             Requested size: 376.4258pt x 282.3187pt.
- [54pdfTeX warning (ext4): destination with the same identifier (name{figure.31
+ [55pdfTeX warning (ext4): destination with the same identifier (name{figure.32
 }) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.17 
-      <./figures/signalModel/truthJets/plots/overflow.pdf, page is rotated 90 d
-egrees>] [55pdfTeX warning (ext4): destination with the same identifier (name{f
-igure.32}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -5287,14 +5301,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figures/PLV_electrons.JPG Graphic file (type jpg)
 
 <use figures/PLV_electrons.JPG>
-Package pdftex.def Info: figures/PLV_electrons.JPG used on input line 36.
+Package pdftex.def Info: figures/PLV_electrons.JPG used on input line 37.
 (pdftex.def)             Requested size: 188.21289pt x 136.20561pt.
 
 <figures/PLV_muons.JPG, id=1961, 497.97723pt x 358.7124pt>
 File: figures/PLV_muons.JPG Graphic file (type jpg)
 
 <use figures/PLV_muons.JPG>
-Package pdftex.def Info: figures/PLV_muons.JPG used on input line 37.
+Package pdftex.def Info: figures/PLV_muons.JPG used on input line 38.
 (pdftex.def)             Requested size: 188.21289pt x 135.57867pt.
  [70
 
@@ -5303,26 +5317,26 @@ Package pdftex.def Info: figures/PLV_muons.JPG used on input line 37.
 File: figures/PLV_roc.JPG Graphic file (type jpg)
 
 <use figures/PLV_roc.JPG>
-Package pdftex.def Info: figures/PLV_roc.JPG used on input line 47.
+Package pdftex.def Info: figures/PLV_roc.JPG used on input line 48.
 (pdftex.def)             Requested size: 355.5182pt x 124.06181pt.
  [71pdfTeX warning (ext4): destination with the same identifier (name{table.21}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.54 
+l.55 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.3
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.54 
+l.55 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.3
 7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.54 
+l.55 
       <./figures/PLV_electrons.JPG> <./figures/PLV_muons.JPG> <./figures/PLV_ro
 c.JPG>])
 
@@ -5962,7 +5976,7 @@ n.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb
 fonts/t1xtt.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/
 type1/public/newtx/txbsys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/tex
 mf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (93 pages, 6876317 bytes).
+Output written on wz_heavy_flavor.pdf (93 pages, 6875259 bytes).
 PDF statistics:
  2391 PDF objects out of 2487 (max. 8388607)
  1513 compressed objects within 16 object streams
