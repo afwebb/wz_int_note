@@ -105,47 +105,9 @@ Data is compared to MC predictions in the region for a variety of kinematic vari
 
 \subsubsection{$Z$+jets Validation}
 
-Similar to $t\bar{t}$, a non-prompt $Z$+jets control region is produced in order to validate the MC predictions. The lepton requirements remain the same as the preselection region. Because no neutrinos are present for this process, the $E_T^{miss}$ cut is reversed, requiring $E_T^{miss}$ < 30 GeV. This also ensures this control region is orthogonal to the preselection region. Further, the number of jets in each event is required to be greater than or equal to one. Various kinematic plots of this region are shown below. The general agreement between data and MC in each of these suggests that the non-prompt contribution of $Z$+jets is well modeled by Monte Carlo.
+Similar to $t\bar{t}$, a non-prompt $Z$+jets control region is produced in order to validate the MC predictions. The lepton requirements remain the same as the preselection region. Because no neutrinos are present for this process, the $E_T^{miss}$ cut is reversed, requiring $E_T^{miss}$ < 30 GeV. This also ensures this control region is orthogonal to the preselection region. Further, the number of jets in each event is required to be greater than or equal to one.
 
-\begin{figure}[H] 
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/noScale/lead_jetPt.png}}%                          
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/noScale/DRll01.png}}%
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/noScale/lep_Pt_0.png}}\\
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/noScale/lep_Pt_Z.png}}%
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/noScale/lep_Pt_W.png}}%                                      
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/noScale/Mll01.png}}\\
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/noScale/Mll02.png}}%
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/noScale/nJets_OR.png}}%                            
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/noScale/DRll02.png}}\\
-    \caption{Comparisons between the data and MC distributions in the $Z$+jets control region for (a) the $p_T$ of the leading jet, (b) $\Delta R$ between leptons 0 and 1, (c) the $p_T$ of lepton 0, (d) $p_T$ of SS lepton from the Z candidate, (e) $p_T$ of the SS lepton from the W candidate, (f) the invariant mass of leptons 0 and 1, (g) the invariant mass of leptons 0 and 2, (h) the number of jets, (i) $\Delta R$ between leptons 0 and 2. Includes only statistical uncertainties}%(i) the number of b-tagged jets.}
-    \label{fig:zjets_noScale}
-\end{figure}
+While there is general agreement between data and MC within statistical uncertainty, the shape of the $p_T$ spectrum of the lepton from the W is found to differ. To account for this discrepency, a variable correction factor is applied to Z+jets. $\chi^2$ minimization of the W lepton $p_T$ spectrum is performed to derive a correction factor of $1.53 - 6.6*10^{-6} (lep\_Pt\_W)$. 
 
-While there is general agreement between data and MC within statistical uncertainty, the shape of the $p_T$ spectrum of the lepton from the W is found to differ. To account for this discrepency, a variable correction factor is applied to Z+jets. $\chi^2$ minimization of the lepton 2 $p_T$ spectrum is performed to derive a correction factor of $1.53 - 6.6*10^{-6} (lep\_Pt\_W)$. Kinematic plots of the Z + jets control region after this correction factor has been aplied are shown in Figure \ref{fig:zjets_withScale}.
-
-\begin{figure}[H]
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/withScale/lead_jetPt.png}}%              
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/withScale/DRll01.png}}%                            
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/withScale/lep_Pt_0.png}}\\
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/withScale/lep_Pt_Z.png}}%                           
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/withScale/lep_Pt_W.png}}%                             
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/withScale/Mll01.png}}\\                                 
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/withScale/Mll02.png}}%                                   
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/withScale/nJets_OR.png}}%                               
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/withScale/DRll02.png}}\\
-    \caption{Comparisons between the data and MC distributions in the $Z$+jets control region after the correction factor has been applied for (a) the $p_T$ of the leading jet, (b) $\Delta R$ between leptons 0 and 1, (c) the $p_T$ of lepton 0, (d) $p_T$ of SS lepton from the Z candidate, (e) $p_T$ of the SS lepton from the W candidate, (f) the invariant mass of leptons 0 and 1, (g) the invariant mass of leptons 0 and 2, (h) the number of jets, (i) $\Delta R$ between leptons 0 and 2}%(i) the number of b-tagged jets.}                 
-    \label{fig:zjets_withScale}
-\end{figure}
-
-The modeling is further validated by looking at the yield in the Z+jets VR for each DL1r WP, giving a clearer correspondence to the signal regions used in the fit. Each region shown in Figure \ref{fig:zjets_summary} requires one or more jets pass the listed WP, with no jets passing the next highest WP.                                                                    
-
-                                                                                                                             
-\begin{figure}[H]                                                                                                        
-   \centering
-   \includegraphics[width=0.9\textwidth]{zjets/Summary.png}
-   \caption{Data and MC comparisons for each DL1r WP for both 1-jet and 2-jet regions, after the Z+jets VR selection and correction factor have been applied}                                                                                             
-   \label{fig:zjets_summary}
-\end{figure}
-
-For each of the b-tagging working points considered, the data falls within 25\% of the MC prediction once this correction factor has been applied. Therefore, a 25\% systematic uncertainty is applied to Z + jets in the analysis.
+The uncertainty in the Z + jets prediction is evaluated by comparing data to MC for each of the continuous b-tag WPs. For each of the regions considered, the data falls within 25\% of the MC prediction once this correction factor has been applied. Therefore, a 25\% systematic uncertainty is applied to Z + jets in the analysis.
 
