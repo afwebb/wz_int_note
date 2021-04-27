@@ -44,148 +44,13 @@ Total (Overall)                             & 230	      \\
 The uncertainty in the combined integrated luminosity is derived from a calibration of the luminosity scale performed for 13 TeV proton-proton collisions \cite{lumi}, \cite{LUCID2}.
 
 \paragraph{}
-The experimental uncertainties are related to the reconstruction and identification of light leptons and b-tagging of jets, and to the reconstruction of $E^{miss}_T$. The \verb!TOTAL! electron ID correlation model is used, corresponding to 1 electron ID systematic. Electron ID is found to be a subleading systematic that is unconstrained by the fit, making it an appropriate choice for this analysis.
-
-\paragraph{}
-The sources which contribute to the uncertainty in the jet energy scale (JES) \cite{jes} are decomposed into uncorrelated components and treated as independent sources in the analysis. The CategoryReduction model is used to account for JES uncertainties, which decomposes the uncertainties into 30 nuiscance parameters included in the fit. The SimpleJER model is used to account for jet energy resolution (JER) uncertainties, and 8 JER uncertainty components uncluded as NPs in the fit. 
+The experimental uncertainties are related to the reconstruction and identification of light leptons and b-tagging of jets, and to the reconstruction of $E^{miss}_T$. The sources which contribute to the uncertainty in the jet energy scale (JES) \cite{jes} are decomposed into uncorrelated components and treated as independent sources of uncertainty in the analysis. These are treated as 30 nuiscance parameters included in the fit. A similar approach is used for the jet energy resolution (JER) uncertainty, which is depomposed into 8 JER uncertainty components included as NPs in the fit. 
 
 \paragraph{}
 The uncertainties in the b-tagging efficiencies measured in dedicated calibration analyses \cite{btag_cal} are also decomposed into uncorrelated components. The large number of components for b-tagging is due to the calibration of the distribution of the MVA discriminant.  
 
-%The systematic uncertainties associated with the signal and background processes are accounted for by varying the cross-section of each process within its uncertainty.
-
-The full list of systematic uncertainties considered in the analysis is summarized in Tables
-\ref{Tab:LeptonExperimentalSyst}, \ref{Tab:JetsExperimentalSyst} and \ref{Tab:BTagExperimentalSyst}.
-
-\hspace{-1in}\begin{table}[H]
-  \begin{center}
-    {\small
-    \begin{tabular}{|llcl|}
-      \hline
-      \multicolumn{4}{|c|}{\textbf{ Experimental Systematics on Leptons and $E_T^{miss}$} }\\
-     % \hline
-      Type     & Description  & Systematics Name & Application \\
-     \hline
-     \hline
-     \multicolumn{4}{|c|}{\textbf{Trigger}}\\
-     \hline
-    Scale Factors    & Trigger Efficiency        & lepSFTrigTight$\_$MU(EL)$\_$SF$\_$Trigger$\_$STAT(SYST)    & Event Weight      \\
-      \hline
-      \multicolumn{4}{|c|}{\textbf{Muons}} \\
-      \hline
-      Efficiencies   & Reconstruction and        & lepSFObjTight$\_$MU$\_$SF$\_$ID$\_$STAT(SYST)              & Event Weight       \\
-     & Identification    &       &        \\
-      & Isolation                 &       lepSFObjTight$\_$MU$\_$SF$\_$Isol$\_$STAT(SYST)            & Event Weight       \\
-         & Track To Vertex   	 & lepSFObjTight$\_$MU$\_$SF$\_$TTVA$\_$STAT(SYST )           & Event Weight       \\
-    & Association  		 &   							      &           \\
-     \pt Scale   & \pt Scale & MUONS$\_$SCALE    & \pt Correction     \\
-     &   &   &           \\
-      Resolution     & Inner Detector            & MUONS$\_$ID        					      & \pt Correction     \\
-         & Energy Resolution      	 &     &         \\
-    & Muon Spectrometer    	 & MUONS$\_$MS      & \pt Correction     \\
-     & Energy Resolution         &       &        \\
-     &   &   &         \\
-     \hline
-     \multicolumn{4}{|c|}{\textbf{Electrons}}\\
-     \hline
-     Efficiencies    & Reconstruction       	 & lepSFObjTight$\_$EL$\_$SF$\_$ID  			      & Event Weight   	    \\
-     & Identification   & lepSFObjTight$\_$EL$\_$SF$\_$Reco       		      & Event Weight            \\
-        & Isolation                 & lepSFObjTight$\_$EL$\_$SF$\_$Isol      		      & Event Weight        \\
-       &   &   &          \\
-     Scale Factor    & Energy  Scale             & EG$\_$SCALE$\_$ALL  					      & Energy Correction    \\
-         	     &   &   &          \\
-     Resolution      & Energy Resolution  	 & EG$\_$RESOLUTION$\_$ALL      			      & Energy Correction     \\
-         	     &   &   &             \\
-     \hline
-     \multicolumn{4}{|c|}{\textbf{$E_T^{miss}$}}\\
-     \hline
-     Soft Tracks Terms         &             Resolution                   &      MET$\_$SoftTrk$\_$ResoPerp       &   \pt Correction  \\
-                               &             Resolution                   &      MET$\_$SoftTrk$\_$ResoPara        &    \pt Correction    \\
-                               &             Scale                        &      MET$\_$SoftTrk$\_$ScaleUp         &   \pt Correction     \\
-                               &             Scale                        &      MET$\_$SoftTrk$\_$ScaleDown         &   \pt Correction     \\
-
-     \hline
-     
-    \end{tabular}
-   }
-   \caption{\label{Tab:LeptonExperimentalSyst} Summary of experimental systematics considered for leptons and $E_T^{miss}$. Includes type, description, name of systematic as used in the fit, and mode of application. The mode of application indicates the systematic evaluation, e.g. as an  overall event re-weighting (Event Weight) or rescaling (\pt Correction).}
-  \end{center}
-\end{table}
-
-
-\begin{table}[H]
-  \begin{center}
-    {\small
-    \begin{tabular}{|llcc|}
-      \hline
-      \multicolumn{4}{|c|}{\textbf{ Experimental Systematics on Jets}} \\
-      \hline
-      Type     & Origin   & Systematics Name  & Application \\
-      \hline
-      Jet Vertex Tagger         &     & JVT      &        Event Weight          \\
-     	&   &   &     \\
-      Energy Scale              & Calibration Method              & JET$\_$21NP$\_$           &      \pt Correction         \\
-       &   & JET$\_$EffectiveNP$\_$1-19     &    \pt Correction  \\
-       &   &   &       \\
-        & $\eta$ inter-calibration        & JET$\_$EtaIntercalibration$\_$Modelling    & \pt Correction          \\
-     &                                 & JET$\_$EtaIntercalibration$\_$NonClosure   & \pt Correction      \\
-     &                                 & JET$\_$EtaIntercalibration$\_$TotalStat    & \pt Correction      \\
-    &   &   &        \\
-     & High \pt jets                   & JET$\_$SingleParticle$\_$HighPt         &     \pt Correction             \\
-     	&   &   &           \\
-        & Pile-Up                         & JET$\_$Pileup$\_$OffsetNPV            &     \pt Correction             \\
-        &       & JET$\_$Pileup$\_$OffsetMu             &     \pt Correction               \\
-        &        & JET$\_$Pileup$\_$PtTerm       &     \pt Correction         \\
-        &                                         & JET$\_$Pileup$\_$RhoTopology      &     \pt Correction             \\
-    	&   &   &            \\
-          & Non Closure                     & JET$\_$PunchThrough$\_$MC15    & \pt Correction    \\
-    	&   &   &       \\
-         & Flavour                         & JET$\_$Flavor$\_$Response          &   \pt Correction            \\
-     &         & JET$\_$BJES$\_$Response          &   \pt Correction           \\
-           &                                 & JET$\_$Flavor$\_$Composition        &    \pt Correction             \\
-         	&   &   &          \\
-      Resolution         	&                                 & JET$\_$JER$\_$SINGLE$\_$NP          &  Event Weight       \\
-        			&   &   &          \\
-        			
-    \hline
-
-     \end{tabular}
-    }
-    \caption{\label{Tab:JetsExperimentalSyst} Jet systematics take into account effects of jets calibration method, $\eta$ inter-calibration, high \pt jets, pile-up, and flavor response. They are all diagonalised into effective parameters.}
- \end{center}
-\end{table}
-
-\begin{table}[H] 
-  \begin{center}
-    {\small
-    \begin{tabular}{|llc|}
-      \hline
-     \multicolumn{3}{|c|}{\textbf{Experimental Systematics on b-tagging}} \\
-      \hline
-      Type     & Origin   & Systematic Name \\
-     \hline
-     &   &                \\
-      Scale Factors & DL1r b-tagger efficiency & DL1r$\_$Continuous$\_$EventWeight$\_$B0-29 \\
-      &    on b originated jets in bins of $\eta$  &   \\
-      &   &                \\
-      &    DL1r b-tagger efficiency & DL1r$\_$Continuous$\_$EventWeight$\_$C0-19  \\
-      &    on c originated jets in bins of $\eta$    &     \\
-      &   &   \\
-      &    DL1r b-tagger efficiency & DL1r$\_$Continuous$\_$EventWeight$\_$Light0-79           \\
-      &    on light flavoured originated jets         &   \\
-     &     in bins of $\eta$ and \pt      &    \\
-         &   &             \\
-     &    DL1r b-tagger                        & DL1r$\_$Continuous$\_$EventWeight$\_$extrapolation  \\
-     &    extrapolation efficiency    &         DL1r$\_$Continuous$\_$EventWeight$\_$extrapolation$\_$from$\_$charm             \\
-     \hline
-    \end{tabular}
-    }
-    \caption{\label{Tab:BTagExperimentalSyst} Summary of experimental systematics to be included for $b$-tagging of jets in the analysis, using the continuous DL1r tagging algorithm. All of the b-tagging related systematics are applied as event weights. From left: type, description, and the name of systematic used in the fit.}
-  \end{center}
-\end{table}
-
 \paragraph{}
-Theoretical uncertainties applied to MC predictions, including cross section, PDF, and scale uncertainties are taken from theory calculations, with the exception of non-prompt and diboson backgrounds. The cross-section uncertainty on tZ is taken from \cite{tZ_paper}. Derivation of the non-prompt background uncertainties, Z+jets and $t\bar{t}$, are explained in detail in Section \ref{sec:fakes}. These normalization uncertainties are chosen so as to account for the complete uncertainty in the non-prompt contribution, and therefore no additional modelling uncertainties are considered for Z+jets and $t\bar{t}$.
+Theoretical uncertainties applied to MC predictions, including cross section, PDF, and scale uncertainties are taken from theory calculations, with the exception of non-prompt and diboson backgrounds. The cross-section uncertainty on tZ is taken from \cite{tZ_paper}. Derivation of the non-prompt background uncertainties, Z+jets and $t\bar{t}$, are explained in Section \ref{sec:fakes}. These normalization uncertainties are chosen so as to account for the complete uncertainty in the non-prompt contribution, and therefore no additional modelling uncertainties are considered for Z+jets and $t\bar{t}$.
 
 The other VV + heavy flavor processes (namely VV+b and VV+charm, which primarily consist of ZZ events) are also poorly understood, because these processes involve the same physics as WZ + heavy flavor, and have also not been measured. Therefore, a conservative 50\% uncertainty is applied to those samples. While this uncertainty is large, it is found to have little impact on the significance of the final result.
 
@@ -201,49 +66,9 @@ The theory uncertainties applied to the predominate background estimates are sum
 \end{table}
 
 \paragraph{}
-Additional signal uncertainties are estimated by comparing estimates from the nominal Sherpa WZ samples with alternate WZ samples generated with Powheg+PYTHIA8 (DSID 361601). MC/MC scale factors are applied to make these comparisons. The shape of the templates used in the fit are compared between these two samples for WZ + b, WZ + charm and WZ + light, as shown in Figures \ref{fig:powheg1j} and \ref{fig:powheg2j}. Each of these plots are normalized to unity in order to capture differences in shape. 
-
-\begin{figure}[H]
-    \centering
-    \subfigure[]{\includegraphics[width=.36\linewidth]{signalModel/plotsNotZ/bjets1j.pdf}}%                  
-    \subfigure[]{\includegraphics[width=.36\linewidth]{signalModel/plotsNotZ/charm1j.pdf}}%
-    \subfigure[]{\includegraphics[width=.36\linewidth]{signalModel/plotsNotZ/light1j.pdf}}\\
-    \caption{Comparison between Sherpa and Powheg predictions of the distribution of (a) WZ + b, (b) WZ + charm, and (c) WZ + light among the various b-tag WPs used in the 1-jet fit.}
-\label{fig:powheg1j}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \subfigure[]{\includegraphics[width=.36\linewidth]{signalModel/plotsNotZ/bjets2j.pdf}}%                     
-    \subfigure[]{\includegraphics[width=.36\linewidth]{signalModel/plotsNotZ/charm2j.pdf}}%                           
-    \subfigure[]{\includegraphics[width=.36\linewidth]{signalModel/plotsNotZ/light2j.pdf}}\\
-    \caption{Comparison between Sherpa and Powheg predictions of the distribution of (a) WZ + b, (b) WZ + charm, and (c) WZ + light among the various b-tag WPs used in the 2-jet fit.}
-\label{fig:powheg2j}
-\end{figure}
-
-Separate systematics are included in the fit for WZ + b, WZ + charm and WZ + light, where the distribution among each of the fit regions is varied based on the prediction of the Powheg sample.
+Additional signal uncertainties are estimated by comparing estimates from the nominal Sherpa WZ samples with alternate WZ samples generated with Powheg+PYTHIA8. Separate systematics are included in the fit for WZ + b, WZ + charm and WZ + light, where the distribution among each of the fit regions is varied based on the prediction of the Powheg sample.
 
 \paragraph{}
-A similar approach is taken to account for uncertainties in migrations between the number of reco and truth jets. The fraction of events with 1 truth jet which fall into the 1 jet bin versus the 2 jet bin at reco level is compared for Sherpa and Powheg. The same is done for events with 2 truth jets. This comparison is shown is figure \ref{fig:migration12}.
+A similar approach is taken to account for uncertainties in migrations between the number of reco and truth jets. The fraction of events with 1 truth jet which fall into the 1 jet bin versus the 2 jet bin at reco level is compared for Sherpa and Powheg. The same is done for events with 2 truth jets. A systematic is included where events are shifted between the 1-jet and 2-jet regions based on the differences between these two shapes. This is done independently for each of the WZ + b, WZ + charm, and WZ + light templates.
 
-\begin{figure}[H]
-    \centering
-    \subfigure[]{\includegraphics[width=.36\linewidth]{signalModel/truthJets/plots/migrations_bjets.pdf}}%                
-    \subfigure[]{\includegraphics[width=.36\linewidth]{signalModel/truthJets/plots/migrations_charm.pdf}}%    
-    \subfigure[]{\includegraphics[width=.36\linewidth]{signalModel/truthJets/plots/migrations_light.pdf}}\\
-    \caption{Comparison between Sherpa and Powheg predictions for truth jet migrations between the 1 and 2 jet reco bins for (a) WZ + b, (b) WZ + charm, and (c) WZ +\ light}
-\label{fig:migration12}
-\end{figure}
-
-A systematic is included where events are shifted between the 1-jet and 2-jet regions based on the differences between these two shapes. This is done independently for each of the WZ + b, WZ + charm, and WZ + light templates.
-
-Additional systematics are included to account for the uncertainty in the contamination of 0 jet and 3 or more jet events (at truth level) in the 1 and 2 reco jet bins. Because these events fall outside the scope of this measurement, these events are included as a background. As such, a normalization, rather than a shape, uncertainty is applied for this background.
-
-The number of WZ events with 0-jets and $>=$3-jets in the reconstructed 1-jet and 2-jet regions are compared for Sherpa and Powheg, as seen in figure \ref{fig:overflow}. These differences are taken as separate normalization systematics on the yield of WZ+0-jet and WZ+$>=$3-jet events.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=.62\linewidth]{signalModel/truthJets/plots/overflow.pdf}
-    \caption{Comparison between Sherpa and Powheg predictions for 0 and $>=$3 truth jet contributions in the 1 and 2 jet reco bins}
-\label{fig:overflow}
-\end{figure} 
+Additional systematics are included to account for the uncertainty in the contamination of 0 jet and 3 or more jet events (as defined at truth level) in the 1 and 2 reco jet bins. Because these events fall outside the scope of this measurement, these events are included as a background. As such, a normalization, rather than a shape, uncertainty is applied for this background. The number of WZ events with 0-jets and $>=$3-jets in the reconstructed 1-jet and 2-jet regions are compared for Sherpa and Powheg, and these differences are taken as separate normalization systematics on the yield of WZ+0-jet and WZ+$>=$3-jet events.
