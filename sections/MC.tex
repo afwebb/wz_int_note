@@ -1,30 +1,20 @@
 
-Both data and Monte Carlo samples used in this analysis were prepared in the \verb|xAOD| format, which was used to produce a \verb|DxAOD| sample in the \verb|HIGG8D1| derivation framework. The \verb|HIGG8D1| framework is designed for the $t\bar{t}H$ multi-lepton analysis, which targets events with multiple leptons as well as tau hadrons. This framework skims the dataset to remove unneeded variables as well as entire events. Events are removed from the derivations that do not meet the following selection:
+%Both data and Monte Carlo samples used in this analysis were prepared in the \verb|xAOD| format, which was used to produce a \verb|DxAOD| sample in the \verb|HIGG8D1| derivation framework. The \verb|HIGG8D1| framework is designed for the $t\bar{t}H$ multi-lepton analysis, which targets events with multiple leptons as well as tau hadrons. This framework skims the dataset to remove unneeded variables as well as entire events. Events are removed from the derivations that do not meet the following selection:
 
-\begin{itemize}
-    \item at least two light leptons within a range $|\eta|$<2.6, with leading lepton $p_{T}$ > 15 GeV and subleading lepton $p_{T}$ > 5 GeV
-    \item at least one light lepton with $p_{T}$ > 15 GeV within a range $|\eta|$<2.6, and at least two hadronic taus with $p_{T}$ > 15 GeV.
-\end{itemize}
+%\begin{itemize}
+%    \item at least two light leptons within a range $|\eta|$<2.6, with leading lepton $p_{T}$ > 15 GeV and subleading lepton $p_{T}$ > 5 GeV
+%    \item at least one light lepton with $p_{T}$ > 15 GeV within a range $|\eta|$<2.6, and at least two hadronic taus with $p_{T}$ > 15 GeV.
+%\end{itemize}
 
-Samples were then generated from these \verb|HIGG8D1| derivations with p-tag of p4134 for data and p4133 for Monte Carlo using AnalysisBase version 21.2.127 modified to include custom variables.
+%Samples were then generated from these \verb|HIGG8D1| derivations with p-tag of p4134 for data and p4133 for Monte Carlo using AnalysisBase version 21.2.127 modified to include custom variables.
 
 \subsection{Data Samples}
 
-The study uses a sample of proton-proton collision data collected by the ATLAS detector from 2015 through 2018 at an energy of $\sqrt{s} = 13$ TeV, which represents an integrated luminosity of 139 $fb^{-1}$. This data set was collected with a bunch crossing rate of 25 ns. All data used in this analysis was verified by data quality checks, having been included in the following Good Run Lists: 
-\begin{itemize}
-    \item data15\_13TeV.periodAllYear\_DetStatus-v79-repro20-02\_DQDefects-00-02-02\\\_PHYS\_StandardGRL\_All\_Good\_25ns.xml
-    \item data16\_13TeV.periodAllYear\_DetStatus-v88-pro20-21\_DQDefects-00-02-04\\\_PHYS\_StandardGRL\_All\_Good\_25ns.xml 
-    \item data17\_13TeV.periodAllYear\_DetStatus-v97-pro21-13\_Unknown\_PHYS\_StandardGRL\\\_All\_Good\_25ns\_Triggerno17e33prim.xml 
-    \item data18\_13TeV.periodAllYear\_DetStatus-v102-pro22-04\_Unknown\_PHYS\_StandardGRL\\\_All\_Good\_25ns\_Triggerno17e33prim.xml
-\end{itemize}
-
-Runs included from the AllYear period containers are included.
+This study uses a sample of proton-proton collision data collected by the ATLAS detector from 2015 through 2018 at an energy of $\sqrt{s} = 13$ TeV, which represents an integrated luminosity of 139 $fb^{-1}$. This data set was collected with a bunch crossing rate of 25 ns. All data used in this analysis was verified by data quality checks.
 
 \subsection{Monte Carlo Samples}
 
-Several different generators were used to produce Monte Carlo simulations of the signal and background processes. For all samples, the response of the ATLAS detector is simulated using Geant4. The WZ signal samples are simulated using Sherpa 2.2.2 \cite{sherpa}. Signal events are generated using NNPDF30NNLO PDF set with up to one parton at NLO and 2 to 3 partons at LO. 
-
-Specific information about the Monte Carlo samples being used can be found in Table \ref{tbl:evgen}. A list of the specific samples used by data set ID is shown in Table \ref{tbl:dsids}.
+Several different generators were used to produce Monte Carlo simulations of the signal and background processes. For all samples, the response of the ATLAS detector is simulated using Geant4. The WZ signal samples are simulated using Sherpa 2.2.2 \cite{sherpa}. Specific information about the Monte Carlo samples being used can be found in Table \ref{tbl:evgen}. 
 
 \begin{table}[H]
 \begin{center}
@@ -58,39 +48,4 @@ $Z \to l^+l^-$ & \textsc{Sherpa} 2.2.1 & MEPS NLO  & \textsc{Sherpa} & NNPDF 3.0
 \end{tabular}
 }
 \end{center}
-\end{table}
-
-\begin{table}[H]
-    \centering
-    \begin{tabular}{l|l}
-        \hline\hline
-        Sample & DSID \\
-        \hline\hline
-        $WZ$ & 364253, 364739-42 \\
-        $VV$ & 364250, 364254, 364255, 363355-60, 364890 \\
-        $t\bar{t}W$ & 410155 \\
-        $t\bar{t}Z$ & 410156, 410157, 410218-20 \\
-        low mass $t\bar{t}Z$ & 410276-8 \\
-        Rare Top & 410397, 410398, 410399 \\
-        single Top & 410658-9, 410644-5 \\
-        three Top & 304014 \\
-        four Top & 410080 \\
-        $t\bar{t}WW$ & 410081 \\
-        Z + jets & 364100-41 \\
-        low mass Z + jets & 364198-215 \\
-        W + jets & 364156-97 \\
-        $V\gamma$ & 364500-35 \\
-        $tZ$  & 412063 \\
-        $tW$  & 410013-4 \\
-        $WtZ$ & 410408 \\
-        $VVV$ & 364242-9 \\
-        $VH$ & 342284-5 \\
-        $WtH$ & 341998 \\
-        $t\bar{t}\gamma$ & 410389 \\
-        $t\bar{t}$ & 410470 \\
-        $t\bar{t}H$ & 345873-5, 346343-5 \\
-        \hline\hline
-    \end{tabular}
-    \caption{List of Monte Carlo samples by data set ID used in the analysis.}
-    \label{tbl:dsids}
 \end{table}

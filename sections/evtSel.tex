@@ -35,7 +35,7 @@ Events are required to have one or two reconstructed jets passing the selection 
     \label{tbl:selection}
 \end{table}
 
-The event yields in the preselection region for both data and Monte Carlo are summarized in Table \ref{tab:evt_yields}, which shows good agreement between data and Monte Carlo, and demonstrates that this region consists primarily of WZ events. The WZ events are split into WZ + b, WZ + c, and WZ + l based on the truth flavor of the associated jet in the event. Specifically, this determination is made based on the \verb!HadronConeExclTruthLabelID! of the jet, as recommended by the b-tagging working group \cite{BtagWG}. In this ordering b-jet supersede charm, which supersides light. That is, WZ + l events contain no charm and no b jets at truth level, WZ + c contain at least one truth charm and no b-jets, and WZ + b contains at least one truth b-jet. 
+The event yields in the preselection region for both data and Monte Carlo are summarized in Table \ref{tab:evt_yields}, which shows good agreement between data and Monte Carlo, and demonstrates that this region consists primarily of WZ events. The WZ events are split into WZ + b, WZ + c, and WZ + l based on the truth flavor of the associated jet in the event. In this ordering b-jet supersede charm, which supersides light. That is, WZ + l events contain no charm and no b jets at truth level, WZ + c contain at least one truth charm and no b-jets, and WZ + b contains at least one truth b-jet. 
 
 \begin{table}[H] 
     \centering
@@ -45,26 +45,6 @@ The event yields in the preselection region for both data and Monte Carlo are su
 \end{table}
 
 Here Other $VV$ represents diboson processes other than WZ, and consists predominantly of $ZZ\rightarrow llll$ events where one of the leptons is not reconstructed.
-
-Simulations are further validated by comparing the kinematic distributions of the Monte Carlo with data, which are shown in Figure \ref{kin:inclusive}. Here, bins with 5\% or more WZ+b are blinded.
-
-%textbf{There is some discrepancies between data and MC, particularly in the low MET and low lepton $p_T$ regions, which are being investigated. This is suspected to be the result of underestimating the fake contribution, possibly because of several missing Z+jets simulation files.}
-
-\begin{figure}[H] 
-    \centering
-    \textbf{WZ Fit Region - Inclusive}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_inclusive/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_inclusive/Plots/lep_Pt_Z.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_inclusive/Plots/lep_Pt_W.png}}\\      
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_inclusive/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_inclusive/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_inclusive/Plots/Mll01.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_inclusive/Plots/topMassReco.png}}%     
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_inclusive/Plots/DRll01.png}}%         
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_inclusive/Plots/minDeltaR_LJ_0.png}}\\
-    \caption{Comparisons between the data and MC distributions in the preselection region for (a) the $p_T$ of the opposite sign lepton, (b) the $p_T$ of the other lepton from the Z candidate, (c) the $p_T$ of the lepton from the W candidate, (d) the leading jet $p_T$, (e) the $E_T^{miss}$, and (f) the invariant mass of leptons 0 and 1, (g) the reconstructed top mass, (h) $\Delta(R)$  between lepton 0 and 1, (i) the $\Delta(R)$ between the closest lepton and jet.}
-    \label{kin:inclusive}
-\end{figure}
 
 %---------------------------                                                                                         
 \subsection{Fit Regions}
@@ -81,18 +61,6 @@ Once preselection has been applied, the remaining events are categorized into on
 Region & Selection            \\
 \hline
 \hline
-%1j, <85\%       & $N_{jets}$ = 1, jet DL1r score < 85\% WP            \\
-%1j, 85\%-77\%   & $N_{jets}$ = 1, 85\% < jet DL1r score < 77\% WP                    \\
-%1j, 77\%-70\%   & $N_{jets}$ = 1, 77\% < jet DL1r score < 70\% WP                    \\
-%1j, 70\%-60\%   & $N_{jets}$ = 1, 70\% < jet DL1r score < 60\% WP                    \\
-%1j, >60\%       & $N_{jets}$ = 1, jet DL1r score > 85\% WP, tZ BDT score > 0.03 \\
-%1j tZ CR        & $N_{jets}$ = 1, jet DL1r > 85\% WP, tZ BDT score < 0.03 \\
-%2j, <85\%       & $N_{jets}$ = 2, jet DL1r score < 85\% WP                    \\
-%2j, 85\%-77\%   & $N_{jets}$ = 2, 85\% WP < jet DL1r score < 77\% WP                 \\
-%2j, 77\%-70\%   & $N_{jets}$ = 2, 77\% WP < jet DL1r score < 70\% WP                 \\
-%2j, 70\%-60\%   & $N_{jets}$ = 2, 70\% < jet DL1r score < 60\% WP                     \\
-%2j, >60\%       & $N_{jets}$ = 2, jet DL1r score > 85\% WP, tZ BDT score > 0.03 \\
-%2j tZ CR        & $N_{jets}$ = 2, jet DL1r score > 85\% WP, tZ BDT score < 0.03 \\
 1j, <85\%       & $N_{jets}$ = 1, nJets\_DL1r\_85 = 0            \\
 1j, 85\%-77\%   & $N_{jets}$ = 1, nJets\_DL1r\_85 = 1, nJets\_DL1r\_77=0                     \\
 1j, 77\%-70\%   & $N_{jets}$ = 1, nJets\_DL1r\_77 = 1, nJets\_DL1r\_70=0                     \\
@@ -112,243 +80,9 @@ Region & Selection            \\
 
 The working points discussed in Section \ref{subsec:bjets} are used to separate events into fit regions based on the highest working point reached by a jet in each event. Because the background composition differs significantly based on the number of b-jets, events are further subdivided into 1-jet and 2-jet regions in order to minimize the impact of background uncertainties.
 
-An unfolding procedure is performed to account for differences in the number of reconstructed jets compared to the number of truth jets in each event. The \verb!AntiKt4TruthDressedWZJets! truth jet collection is used to make this determination. In order to account for migration of WZ+1-jet and WZ+2-jet events between the 1-jet and 2-jet bins at reco level, the signal samples are separated based on the number of truth jets. Events with 0 jets or more than 3 jets at truth level, yet fall within one of the categories listed in Table \ref{tab:regions}, are categorized as WZ + other, and treated as a background. The migration matrix in the number of jets at truth level versus reco level is shown in Figure \ref{fig:migrationMat}. The composition of the number of truth jets in each reco jet bin is taken from MC, with uncertainties in these estimates described in detail in Section \ref{sec:sys}. 
-
-\begin{figure}[H]
-\center
-\includegraphics[width=.8\linewidth]{nJets2D.png}
-\caption{Number of truth jets compared to the number of reconstructed jets in each WZ event falling in the preselection region. Each row is normalized to unity.} 
-\label{fig:migrationMat}
-\end{figure}
+An unfolding procedure is performed to account for differences in the number of reconstructed jets compared to the number of truth jets in each event. In order to account for migration of WZ+1-jet and WZ+2-jet events between the 1-jet and 2-jet bins at reco level, the signal samples are separated based on the number of truth jets. Events with 0 jets or more than 3 jets at truth level, yet fall within one of the categories listed in Table \ref{tab:regions}, are categorized as WZ + other, and treated as a background. The composition of the number of truth jets in each reco jet bin is taken from MC, with uncertainties in these estimates described in detail in Section \ref{sec:sys}. 
 
 An additional tZ control region is created based on the BDT described in Section \ref{sec:tZ_bdt}. The region with 1-jet passing the 60\% working point is split in two - a signal enriched region of events with a BDT score greater than 0.03, and a tZ control region including events with less than 0.03. This cutoff is arrived at by performing an Asimov fit with a variety of cutoffs, and selecting the value that produces the highest significance for the measurement of $WZ$ + b.
-
-The modeling in each region is validated by comparing data and MC predictions for various kinematic distributions. These plot are shown in Figures \ref{kin:WP_1j_inc}-\ref{kin:tZ_CR_2j}.
-
-
-
-\begin{figure}[H] 
-    \centering
-    \textbf{WZ Fit Region - 1j Inclusive}\\                                                                                  
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_inclusive/Plots/lep_Pt_0.png}}%                      
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_inclusive/Plots/lep_Pt_Z.png}}%                      
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_inclusive/Plots/lep_Pt_W.png}}\\                     
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_inclusive/Plots/lead_jetPt.png}}%             
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_inclusive/Plots/MET.png}}%                           
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_inclusive/Plots/Mll01.png}}\\                     
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_inclusive/Plots/topMassReco.png}}%               
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_inclusive/Plots/DRll01.png}}%  
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_inclusive/Plots/minDeltaR_LJ_0.png}}\\ 
-    \caption{Comparisons between the data and MC distributions in the preselection region for (a) the $p_T$ of the opposite sign lepton, (b) the $p_T$ of the other lepton from the Z candidate, (c) the $p_T$ of the lepton from the W candidate, (d) the leading jet $p_T$, (e) the $E_T^{miss}$, and (f) the invariant mass of leptons 0 and 1, (g) the reconstructed top mass, (h) $\Delta(R)$  between lepton 0 and 1, (i) the $\Delta(R)$ between the closest lepton and jet.}                                      
-    \label{kin:WP_1j_inc}                                                                                                    
-\end{figure}
-
-\begin{figure}[H] 
-    \centering
-    \textbf{WZ Fit Region - 1j $<$ 85\% WP}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85/Plots/lep_Pt_Z.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85/Plots/lep_Pt_W.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85/Plots/Mll01.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85/Plots/topMassReco.png}}%                      
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85/Plots/DRll01.png}}%                           
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85/Plots/minDeltaR_LJ_0.png}}\\ 
-    \caption{Comparisons between the data and MC distributions in the preselection region for (a) the $p_T$ of the opposite sign lepton, (b) the $p_T$ of the other lepton from the Z candidate, (c) the $p_T$ of the lepton from the W candidate, (d) the leading jet $p_T$, (e) the $E_T^{miss}$, and (f) the invariant mass of leptons 0 and 1, (g) the reconstructed top mass, (h) $\Delta(R)$  between lepton 0 and 1, (i) the $\Delta(R)$ between the closest lepton and jet.}
-    \label{kin:WP_1j_not85}
-\end{figure}
-
-\begin{figure}[H] 
-    \centering
-    \textbf{WZ Fit Region - 1j 77-85\% WP}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_77_85/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_77_85/Plots/lep_Pt_Z.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_77_85/Plots/lep_Pt_W.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_77_85/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_77_85/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_77_85/Plots/Mll01.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_77_85/Plots/topMassReco.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_77_85/Plots/DRll01.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_77_85/Plots/minDeltaR_LJ_0.png}}\\
-    \caption{Comparisons between the data and MC distributions in the preselection region for (a) the $p_T$ of the opposite sign lepton, (b) the $p_T$ of the other lepton from the Z candidate, (c) the $p_T$ of the lepton from the W candidate, (d) the leading jet $p_T$, (e) the $E_T^{miss}$, and (f) the invariant mass of leptons 0 and 1, (g) the reconstructed top mass, (h) $\Delta(R)$  between lepton 0 and 1, (i) the $\Delta(R)$ between the closest lepton and jet.}
-    \label{kin:WP_1j_77_85}
-\end{figure}
-
-\begin{figure}[H] 
-    \centering
-    \textbf{WZ Fit Region - 1j 70-77\% WP}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_70_77/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_70_77/Plots/lep_Pt_Z.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_70_77/Plots/lep_Pt_W.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_70_77/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_70_77/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_70_77/Plots/Mll01.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_70_77/Plots/topMassReco.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_70_77/Plots/DRll01.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_70_77/Plots/minDeltaR_LJ_0.png}}\\
-    \caption{Comparisons between the data and MC distributions in the preselection region for (a) the $p_T$ of the opposite sign lepton, (b) the $p_T$ of the other lepton from the Z candidate, (c) the $p_T$ of the lepton from the W candidate, (d) the leading jet $p_T$, (e) the $E_T^{miss}$, and (f) the invariant mass of leptons 0 and 1, (g) the reconstructed top mass, (h) $\Delta(R)$  between lepton 0 and 1, (i) the $\Delta(R)$ between the closest lepton and jet.}
-    \label{kin:WP_1j_70_77}   
-\end{figure}
-
-\begin{figure}[H] 
-    \centering
-    \textbf{WZ Fit Region - 1j 60-70\% WP}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60_70/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60_70/Plots/lep_Pt_Z.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60_70/Plots/lep_Pt_W.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60_70/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60_70/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60_70/Plots/Mll01.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60_70/Plots/topMassReco.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60_70/Plots/DRll01.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60_70/Plots/minDeltaR_LJ_0.png}}\\
-    \caption{Comparisons between the data and MC distributions in the preselection region for (a) the $p_T$ of the opposite sign lepton, (b) the $p_T$ of the other lepton from the Z candidate, (c) the $p_T$ of the lepton from the W candidate, (d) the leading jet $p_T$, (e) the $E_T^{miss}$, and (f) the invariant mass of leptons 0 and 1, (g) the reconstructed top mass, (h) $\Delta(R)$  between lepton 0 and 1, (i) the $\Delta(R)$ between the closest lepton and jet.}
-    \label{kin:WP_1j_60_70}
-\end{figure}
-
-\begin{figure}[H] 
-    \centering
-    \textbf{WZ Fit Region - 1j 60\% WP}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60/Plots/lep_Pt_Z.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60/Plots/lep_Pt_W.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60/Plots/Mll01.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60/Plots/topMassReco.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60/Plots/DRll01.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_1j_60/Plots/minDeltaR_LJ_0.png}}\\
-    \caption{Comparisons between the data and MC distributions in the preselection region for (a) the $p_T$ of the opposite sign lepton, (b) the $p_T$ of the other lepton from the Z candidate, (c) the $p_T$ of the lepton from the W candidate, (d) the leading jet $p_T$, (e) the $E_T^{miss}$, and (f) the invariant mass of leptons 0 and 1, (g) the reconstructed top mass, (h) $\Delta(R)$  between lepton 0 and 1, (i) the $\Delta(R)$ between the closest lepton and jet.}
-    \label{kin:WP_1j_60}    
-\end{figure}
-
-\begin{figure}[H] 
-    \centering
-    \textbf{WZ Fit Region - tZ-CR}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR/Plots/lep_Pt_Z.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR/Plots/lep_Pt_W.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR/Plots/Mll01.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR/Plots/topMassReco.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR/Plots/DRll01.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR/Plots/minDeltaR_LJ_0.png}}\\
-    \caption{Comparisons between the data and MC distributions in the preselection region for (a) the $p_T$ of the opposite sign lepton, (b) the $p_T$ of the other lepton from the Z candidate, (c) the $p_T$ of the lepton from the W candidate, (d) the leading jet $p_T$, (e) the $E_T^{miss}$, and (f) the invariant mass of leptons 0 and 1, (g) the reconstructed top mass, (h) $\Delta(R)$  between lepton 0 and 1, (i) the $\Delta(R)$ between the closest lepton and jet.}
-    \label{kin:tZ_CR_1j}
-\end{figure}
-
-\begin{figure}[H] 
-    \centering
-    \textbf{WZ Fit Region - 2j Inclusive}\\                                                                                
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_inclusive/Plots/lep_Pt_0.png}}%              
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_inclusive/Plots/lep_Pt_Z.png}}%                    
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_inclusive/Plots/lep_Pt_W.png}}\\                   
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_inclusive/Plots/lead_jetPt.png}}%                
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_inclusive/Plots/MET.png}}%                    
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_inclusive/Plots/Mll01.png}}\\                  
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_inclusive/Plots/topMassReco.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_inclusive/Plots/DRll01.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_inclusive/Plots/minDeltaR_LJ_0.png}}\\
-    \caption{Comparisons between the data and MC distributions in the preselection region for (a) the $p_T$ of the opposite sign lepton, (b) the $p_T$ of the other lepton from the Z candidate, (c) the $p_T$ of the lepton from the W candidate, (d) the leading jet $p_T$, (e) the $E_T^{miss}$, and (f) the invariant mass of leptons 0 and 1, (g) the reconstructed top mass, (h) $\Delta(R)$  between lepton 0 and 1, (i) the $\Delta(R)$ between the closest lepton and jet.}
-    \label{kin:WP_2j_inc}
-\end{figure}
-
-\begin{figure}[H] 
-    \centering
-    \textbf{WZ Fit Region - 2j $<$ 85\% WP}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85_2j/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85_2j/Plots/lep_Pt_Z.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85_2j/Plots/lep_Pt_W.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85_2j/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85_2j/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85_2j/Plots/Mll01.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85_2j/Plots/topMassReco.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85_2j/Plots/DRll01.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_not_85_2j/Plots/minDeltaR_LJ_0.png}}\\
-    \caption{Comparisons between the data and MC distributions in the preselection region for (a) the $p_T$ of the opposite sign lepton, (b) the $p_T$ of the other lepton from the Z candidate, (c) the $p_T$ of the lepton from the W candidate, (d) the leading jet $p_T$, (e) the $E_T^{miss}$, and (f) the invariant mass of leptons 0 and 1, (g) the reconstructed top mass, (h) $\Delta(R)$  between lepton 0 and 1, (i) the $\Delta(R)$ between the closest lepton and jet.}
-    \label{kin:WP_2j_not85}
-\end{figure}
-
-\begin{figure}[H] 
-    \centering
-    \textbf{WZ Fit Region - 2j 77-85\% WP}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_77_85/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_77_85/Plots/lep_Pt_Z.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_77_85/Plots/lep_Pt_W.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_77_85/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_77_85/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_77_85/Plots/Mll01.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_77_85/Plots/topMassReco.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_77_85/Plots/DRll01.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_77_85/Plots/minDeltaR_LJ_0.png}}\\
-    \caption{Comparisons between the data and MC distributions in the preselection region for (a) the $p_T$ of the opposite sign lepton, (b) the $p_T$ of the other lepton from the Z candidate, (c) the $p_T$ of the lepton from the W candidate, (d) the leading jet $p_T$, (e) the $E_T^{miss}$, and (f) the invariant mass of leptons 0 and 1, (g) the reconstructed top mass, (h) $\Delta(R)$  between lepton 0 and 1, (i) the $\Delta(R)$ between the closest lepton and jet.}
-    \label{kin:WP_2j_77_85}
-\end{figure}
-
-\begin{figure}[H] 
-    \centering
-    \textbf{WZ Fit Region - 2j 70-77\% WP}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_70_77/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_70_77/Plots/lep_Pt_Z.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_70_77/Plots/lep_Pt_W.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_70_77/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_70_77/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_70_77/Plots/Mll01.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_70_77/Plots/topMassReco.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_70_77/Plots/DRll01.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_70_77/Plots/minDeltaR_LJ_0.png}}\\
-    \caption{Comparisons between the data and MC distributions in the preselection region for (a) the $p_T$ of the opposite sign lepton, (b) the $p_T$ of the other lepton from the Z candidate, (c) the $p_T$ of the lepton from the W candidate, (d) the leading jet $p_T$, (e) the $E_T^{miss}$, and (f) the invariant mass of leptons 0 and 1, (g) the reconstructed top mass, (h) $\Delta(R)$  between lepton 0 and 1, (i) the $\Delta(R)$ between the closest lepton and jet.}
-    \label{kin:WP_2j_70_77}
-\end{figure}
-
-\begin{figure}[H] 
-    \centering
-    \textbf{WZ Fit Region - 2j 60-70\% WP}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60_70/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60_70/Plots/lep_Pt_Z.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60_70/Plots/lep_Pt_W.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60_70/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60_70/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60_70/Plots/Mll01.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60_70/Plots/topMassReco.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60_70/Plots/DRll01.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60_70/Plots/minDeltaR_LJ_0.png}}\\
-    \caption{Comparisons between the data and MC distributions in the preselection region for (a) the $p_T$ of the opposite sign lepton, (b) the $p_T$ of the other lepton from the Z candidate, (c) the $p_T$ of the lepton from the W candidate, (d) the leading jet $p_T$, (e) the $E_T^{miss}$, and (f) the invariant mass of leptons 0 and 1, (g) the reconstructed top mass, (h) $\Delta(R)$ between lepton 0 and 1, (i) the $\Delta(R)$ between the closest lepton and jet.}
-    \label{kin:WP_2j_60_70}
-\end{figure}
-
-\begin{figure}[H] 
-    \centering
-    \textbf{WZ Fit Region - 2j 60\% WP}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60/Plots/lep_Pt_Z.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60/Plots/lep_Pt_W.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60/Plots/Mll01.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60/Plots/topMassReco.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60/Plots/DRll01.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_2j_60/Plots/minDeltaR_LJ_0.png}}\\
-    \caption{Comparisons between the data and MC distributions in the preselection region for (a) the $p_T$ of the opposite sign lepton, (b) the $p_T$ of the other lepton from the Z candidate, (c) the $p_T$ of the lepton from the W candidate, (d) the leading jet $p_T$, (e) the $E_T^{miss}$, and (f) the invariant mass of leptons 0 and 1, (g) the reconstructed top mass, (h) $\Delta(R)$ between lepton 0 and 1, (i) the $\Delta(R)$ between the closest lepton and jet.}
-    \label{kin:WP_2j_60}
-\end{figure}
-
-\begin{figure}[H] 
-    \textbf{WZ Fit Region - tZ-CR-2j}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR_2j/Plots/lep_Pt_0.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR_2j/Plots/lep_Pt_Z.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR_2j/Plots/lep_Pt_W.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR_2j/Plots/lead_jetPt.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR_2j/Plots/MET.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR_2j/Plots/Mll01.png}}\\
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR_2j/Plots/topMassReco.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR_2j/Plots/DRll01.png}}%
-    \subfigure[]{\includegraphics[width=.29\linewidth]{regions/plots_tZ_CR_2j/Plots/minDeltaR_LJ_0.png}}\\
-    \caption{Comparisons between the data and MC distributions in the preselection region for (a) the $p_T$ of the opposite sign lepton, (b) the $p_T$ of the other lepton from the Z candidate, (c) the $p_T$ of the lepton from the W candidate, (d) the leading jet $p_T$, (e) the $E_T^{miss}$, and (f) the invariant mass of leptons 0 and 1, (g) the reconstructed top mass, (h) $\Delta(R)$ between lepton 0 and 1, (i) the $\Delta(R)$ between the closest lepton and jet.}
-    \label{kin:tZ_CR_2j}
-\end{figure}
 
 %---------------------------
 \subsection{Non-Prompt Lepton Estimation}
@@ -365,50 +99,9 @@ $t\bar{t}$ events can produce two prompt leptons from the decay of each of the t
 
 The $t\bar{t}$ control region is similar to the preselection region - three leptons meeting the criteria described in Section \ref{sec:evt_selection} are required, and the requirements on $E_T^{miss}$ remain the same. However, the selection requiring a lepton pair form a Z-candidate are reversed. Events where the invariant mass of any two opposite sign, same flavor leptons falls within 10 GeV of 91.2 GeV are rejected. This ensures the $t\bar{t}$ control region is orthogonal to the preselection region. 
 
-Further, because the jet multiplicity of $t\bar{t}$ events tends to be higher than WZ, the number of jets in each event is required to be greater than 1. As b-jets are almost invariably produced from top decays, at least one b-tagged jet passing the 70\% DL1r WP in each event is required. Various kinematic plots of this region are shown in Figure \ref{fig:ttbar_noScale}.
+Further, because the jet multiplicity of $t\bar{t}$ events tends to be higher than WZ, the number of jets in each event is required to be greater than 1. As b-jets are almost invariably produced from top decays, at least one b-tagged jet passing the 70\% DL1r WP in each event is required. 
 
-\begin{figure}[H] 
-    \centering
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/noScale/lead_jetPt.png}}%                             
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/noScale/MET.png}}%
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/noScale/lep_Pt_0.png}}\\
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/noScale/lep_Pt_1.png}}%
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/noScale/lep_Pt_2.png}}%                                                 
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/noScale/Mll01.png}}\\
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/noScale/Mll02.png}}%
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/noScale/nJets_OR.png}}%                                       
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/noScale/nJets_OR_DL1r_70.png}}\\
-    \caption{Comparisons between the data and MC distributions in the $t\bar{t}$ control region for (a) the $p_T$ of the leading jet, (b) the missing transverse energy, (c) the $p_T$ of lepton 0, (d) $p_T$ of lepton 1, (e) $p_T$ of lepton 2, (f) the invariant mass of leptons 0 and 1, (g) the invariant mass of leptons 0 and 2, (h) the number of jets, (i) the number of b-tagged jets.}
-    \label{fig:ttbar_noScale}
-\end{figure}
-
-The shape of each distribution agrees quite well between data and MC, with a constant offset between the two. This is accounted for by applying a constant correction factor of 0.883 to the $t\bar{t}$ MC prediction. Plots showing the kinematics of the $t\bar{t}$ VR after this correction factor has been applied are shown in Figure \ref{fig:ttbar_withScale}.
-
-\begin{figure}[H] 
-    \centering
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/withScale/lead_jetPt.png}}%                                    
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/withScale/MET.png}}%                                           
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/withScale/lep_Pt_0.png}}\\                                     
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/withScale/lep_Pt_1.png}}%                                      
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/withScale/lep_Pt_2.png}}%                            
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/withScale/Mll01.png}}\\                                        
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/withScale/Mll02.png}}%                                         
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/withScale/nJets_OR.png}}%                                      
-    \subfigure[]{\includegraphics[width=0.29\textwidth]{ttbar/withScale/nJets_OR_DL1r_70.png}}\\                             
-    \caption{Comparisons between the data and MC distributions in the $t\bar{t}$ control region after the correction factor has been applied for (a) the $p_T$ of the leading jet, (b) the missing transverse energy, (c) the $p_T$ of lepton 0, (d) $p_T$ of lepton 1, (e) $p_T$ of lepton 2, (f) the invariant mass of leptons 0 and 1, (g) the invariant mass of leptons 0 and 2, (h) the number of jets, (i) the number of b-tagged jets.}                                                                   
-     \label{fig:ttbar_withScale}
-\end{figure}
-
-The modeling is further validated by looking at the yield in the $t\bar{t}$ VR for each DL1r WP, giving a clearer correspondence to the signal regions used in the fit. Each region shown in Figure \ref{fig:ttbar_summary} requires one or more jets pass the listed WP, with no jets passing the next highest WP.
-
-\begin{figure}[H] 
-   \centering
-   \includegraphics[width=0.9\textwidth]{ttbar/Summary.png}   
-   \caption{Data and MC comparisons for each DL1r WP for both 1-jet and 2-jet regions, after the $t\bar{t}$ VR selection and correction factor have been applied}
-   \label{fig:ttbar_summary}
-\end{figure}
-
-As data and MC are found to agree within 20\% for each of these working points, a 20\% systematic uncertainty on the $t\bar{t}$ prediction is included for the analysis.
+Data is compared to MC predictions in the region for a variety of kinematic variable, as well as various b-tag WPs. A constant normalization discrepency between data and MC predictions of approximately 10\% is found, which is accounted for by applying a constant correction factor of 0.9 to the $t\bar{t}$ MC prediction. As data and MC are found to agree within 20\% for each of the b-tag WPs considered, a 20\% systematic uncertainty on the $t\bar{t}$ prediction is included for the analysis.
 
 \subsubsection{$Z$+jets Validation}
 

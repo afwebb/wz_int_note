@@ -103,109 +103,8 @@
 \PrintAtlasContribute{0.30}
 \clearpage
 
-%------------------------------------------------------------------------------
-\section{Changes and outstanding items}
-\label{sec:changes}
-%------------------------------------------------------------------------------
-
-\subsection{Changelog}
-
-This is version 9
-
-\subsubsection{Changes relative to v8}
-\begin{itemize}
-  \item Included more references to appendices in the text
-  \item Expanded explanation of fiducial region definition
-  \item Previous draft claimed that both standard and custom PLVs were used. Text is fixed to state that a custom PLV is used for lepton iso, but standard lepton id is used
-  \item Included plots of PLV output, included WPs used
-  \item specified that non-prompt CR plots are post correction
-  \item changed title of results section
-\end{itemize}
-
-\subsubsection{Changes relative to v7}
-\begin{itemize}
-  \item Moved from LO to NLO tZ sample
-  \item Add additional plots of Z+jets and ttbar CRs in Section \ref{sec:fakeCR_plots}
-  \item Clarified CDI file used, MC ptag, PFlow jet algorithm
-  \item Included overlap removal procedure
-  \item Included details on PLV
-  \item Added plots of missing tZ BDT input features for each fit region
-  \item Changed reference on PLV to recent ttH/ttW note
-  \item Included alternate fits with WZ+1-2 jet inclusive, tZ floating
-\end{itemize}
-
-\subsubsection{Changes relative to v5}
-\begin{itemize}
-  \item added list of DSIDs to an appendix
-  \item included systematics on jet migrations
-  \item Updated results section to include simultaneous fit over 1-jet and 2-jet bins, describe unfolding procedure
-  \item Updated other sections to account for this change
-  \item Included info about migrations in Section 5.2
-\end{itemize}
-
-\subsubsection{Changes relative to v4}
-\begin{itemize}
-  \item Fixed various typos, clarified wording
-  \item Expanded info about JER uncertainties, electron systematics, theory uncertainties
-  \item removed a table on lepton selection, included information in the text instead
-  \item Plotted lepton Pt Z and W for Zjet CR, rather than lep 1 and 2
-  \item fixed binning in kinematic plots
-  \item Included prefit and postfit yield tables
-  \item added signal modelling systematics
-  \item included alternate fit studies with tZ included in signal
-\end{itemize}
-
-\subsubsection{Changes relative to v3}
-\begin{itemize}
-  \item Merged introduction into executive summary, including unblinding details and list of SRs/CRs used
-  \item listed ptag used (p4133), and release (AB 21.2.127)
-  \item Included table ref{tab:xsecUnc} listing x-sec uncertainties used
-  \item Removed selection criteria listed in table \ref{tbl:tightleps} (QMisID, AmbiguityType) that were removed from the analysis
-  \item specified variable used to make truth jet flavor determination (HadronConeExclTruthLabelID)
-  \item fixed bug in MtLepMet calculation, updated selection/fits to account for this
-  \item Included plots of MtLepMet and PtZ, swapped lep 1 and 2 $p_T$ plots for lep W and lep Z plots
-  \item updated tZ BDT training to reduce overfitting, updated plots to include error bars, feature importance
-  \item updated table \ref{tab:regions} to clarify selection, fix the tZ\_BDT cut used
-  \item replace a few broken ntuples which included large weight events
-  \item include DL1r distribution for Z+jets and $t\bar{t}$ VRs
-  \item Expanded section on fakes, included information on derived scale factors from VRs.
-  \item Changed the kinematic plots to include $p_T(Z)$ and $m_T(W)$, list lepton $p_T$ based on W and Z candidates.
-\end{itemize}
-
-\subsubsection{Changes relative to v2}
-
-\begin{itemize}
-    \item Added alternate VBS samples to include missing b-jet diagrams
-    \item Included a section on tZ interference effects, \ref{subsec:interference}. 
-    \item Updated to reflect changes for 2018, including the move to PFlow jets, DL1r, updated trigger, and updated AnalysisBase version (now 21.2.127)
-    \item Revised fit regions, using seperate 1-jet and 2-jet fits, with all 2-j regions included
-    \item updated plots for tZ BDT, added details about the model
-    \item Included truth jet information
-\end{itemize}
-
-\subsubsection{Changes relative to v1}
-
-\begin{itemize}
-    \item Added GRL list
-    \item Fixed latex issue in line 92, typo in line 172
-    \item Added tables \ref{tbl:selection} and \ref{tbl:tightleps}, summarizing the event and object selection
-    \item Added table \ref{tbl:dsids}, which includes the DSID of samples used
-    \item Included reference to WZ inclusive paper in introduction
-\end{itemize}
-
-\subsection{Outstanding Items}
-
-\begin{itemize}
-    \item Unblind, update plots and fits to include data
-    \item Add cross-section, significance once unblinded
-\end{itemize}
-
-
-
-\clearpage
-
 %-------------------------------------------------------------------------------                                     
-\section{Executive Summary}
+\section{Introduction}
 \label{sec:summary}
 \input{sections/summary}
 %-------------------------------------------------------------------------------
@@ -297,10 +196,6 @@ For the 2-jet regions, an expected significance of 1.7 is observed for WZ + b, w
 \label{sec:lepMVA}
 \input{sections/lepMVA}
 
-\subsection{Non-prompt CR Modelling}
-\label{sec:fakeCR_plots}
-\input{sections/fakes_CR}
-
 \subsection{tZ Interference Studies}
 \label{sec:tZInt}
 \input{sections/tZInt}
@@ -312,10 +207,6 @@ For the 2-jet regions, an expected significance of 1.7 is observed for WZ + b, w
 \subsection{Alternate tZ Inclusive Fit}
 \label{sec:inc_tZ}
 \input{sections/with_tZ}
-
-\subsection{DSID list}
-\label{sec:dsid_list}
-\input{sections/tables/allDSIDs}
 
 \iffalse
 \section*{Top Mass Reconstruction}
