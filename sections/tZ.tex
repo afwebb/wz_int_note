@@ -1,11 +1,9 @@
 
 %Because it includes an on-shell Z boson as well as a b-jet and W from the top decay, tZ production represents an identical final state  to WZ + b-jet. This implies the possibility of matrix level interference between these two processes not accounted for in the Monte Carlo simulations, which consider the two processes independently. Truth level studies are performed in order to estimate the impact of these interference effects.
 
-Because tZ produces a final state identical to signal, it represents a predominant background in the most signal enriched regions. That is, the region with one jet passing the 60\% DL1r WP. Therefore, a boosted decision tree (BDT) algorithm is trained using TMVA \cite{TMVA_guide} to separate $WZ$ + heavy flavor from tZ.
+Because tZ produces a final state identical to signal, it represents a predominant background in the most signal enriched regions. That is, the region with one jet passing the 60\% DL1r WP. Therefore, a boosted decision tree (BDT) algorithm is trained to separate $WZ$ + heavy flavor from tZ.
 
-Separation between tZ and $WZ$ + heavy flavor is achieved in part by reconstructing the invariant mass of the top candidate, which clusters more closely to the top mass for tZ than WZ + heavy flavor.
-
-The result of this BDT is used to create a tZ enriched region in the fit, reducing its impact on the measurement of WZ + heavy flavor.
+Separation between tZ and $WZ$ + heavy flavor is achieved in part by reconstructing the invariant mass of the top candidate, which clusters more closely to the top mass for tZ than WZ + heavy flavor. The result of this BDT is used to create a tZ enriched region in the fit, reducing its impact on the measurement of WZ + heavy flavor.
 
 %\subsection{Interference Studies}
 %\label{subsec:interference}
