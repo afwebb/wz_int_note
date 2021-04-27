@@ -6,28 +6,27 @@
 \contentsline {subsection}{\numberline {2.1}Data Samples}{6}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Monte Carlo Samples}{6}{subsection.2.2}
 \contentsline {section}{\numberline {3}Object Reconstruction}{7}{section.3}
-\contentsline {subsection}{\numberline {3.1}Trigger}{7}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Light leptons}{7}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Jets}{8}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}B-tagged Jets}{8}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Missing transverse energy}{9}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Overlap removal}{10}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.1}Light leptons}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Jets}{7}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}B-tagged Jets}{8}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Missing transverse energy}{9}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Overlap removal}{9}{subsection.3.5}
 \contentsline {section}{\numberline {4}Event Selection and Signal Region Definitions}{10}{section.4}
 \contentsline {subsection}{\numberline {4.1}Event Preselection}{10}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Fit Regions}{12}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Non-Prompt Lepton Estimation}{13}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}$t\bar {t}$ Validation}{14}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}$Z$+jets Validation}{14}{subsubsection.4.3.2}
-\contentsline {section}{\numberline {5}tZ Separation Multivariate Analysis}{15}{section.5}
-\contentsline {section}{\numberline {6}Systematic Uncertainties}{17}{section.6}
-\contentsline {section}{\numberline {7}Results}{20}{section.7}
-\contentsline {subsection}{\numberline {7.1}Fit Procedure}{20}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Fiducial Region Definition}{21}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Results of the Simultaneous Fit}{22}{subsection.7.3}
-\contentsline {section}{\numberline {8}Conclusion}{33}{section.8}
-\contentsline {section}{\numberline {A}Appendices}{35}{appendix.A}
-\contentsline {part}{Appendices}{35}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Inclusive 1+2 Jet Cross Check}{35}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Alternate tZ Inclusive Fit}{38}{subsection.A.2}
-\contentsline {subsubsection}{\numberline {A.2.1}tZ Inclusive Fit}{38}{subsubsection.A.2.1}
-\contentsline {subsubsection}{\numberline {A.2.2}Floating tZ}{38}{subsubsection.A.2.2}
+\contentsline {subsection}{\numberline {4.2}Fit Regions}{11}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Non-Prompt Lepton Estimation}{12}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}$t\bar {t}$ Validation}{13}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}$Z$+jets Validation}{13}{subsubsection.4.3.2}
+\contentsline {section}{\numberline {5}tZ Separation Multivariate Analysis}{14}{section.5}
+\contentsline {section}{\numberline {6}Systematic Uncertainties}{16}{section.6}
+\contentsline {section}{\numberline {7}Results}{19}{section.7}
+\contentsline {subsection}{\numberline {7.1}Fit Procedure}{19}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Fiducial Region Definition}{20}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Results of the Simultaneous Fit}{21}{subsection.7.3}
+\contentsline {section}{\numberline {8}Conclusion}{32}{section.8}
+\contentsline {section}{\numberline {A}Appendices}{34}{appendix.A}
+\contentsline {part}{Appendices}{34}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Inclusive 1+2 Jet Cross Check}{34}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Alternate tZ Inclusive Fit}{37}{subsection.A.2}
+\contentsline {subsubsection}{\numberline {A.2.1}tZ Inclusive Fit}{37}{subsubsection.A.2.1}
+\contentsline {subsubsection}{\numberline {A.2.2}Floating tZ}{37}{subsubsection.A.2.2}
