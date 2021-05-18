@@ -1,29 +1,30 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Data and Monte Carlo Samples}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{Data Samples}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{Monte Carlo Samples}{section.2}% 4
-\BOOKMARK [1][-]{section.3}{Object Reconstruction}{}% 5
-\BOOKMARK [2][-]{subsection.3.1}{Light leptons}{section.3}% 6
-\BOOKMARK [2][-]{subsection.3.2}{Jets}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.3}{B-tagged Jets}{section.3}% 8
-\BOOKMARK [2][-]{subsection.3.4}{Missing transverse energy}{section.3}% 9
-\BOOKMARK [2][-]{subsection.3.5}{Overlap removal}{section.3}% 10
-\BOOKMARK [1][-]{section.4}{Event Selection and Signal Region Definitions}{}% 11
-\BOOKMARK [2][-]{subsection.4.1}{Event Preselection}{section.4}% 12
-\BOOKMARK [2][-]{subsection.4.2}{Fit Regions}{section.4}% 13
-\BOOKMARK [2][-]{subsection.4.3}{Non-Prompt Lepton Estimation}{section.4}% 14
-\BOOKMARK [3][-]{subsubsection.4.3.1}{tbart Validation}{subsection.4.3}% 15
-\BOOKMARK [3][-]{subsubsection.4.3.2}{Z+jets Validation}{subsection.4.3}% 16
-\BOOKMARK [1][-]{section.5}{tZ Separation Multivariate Analysis}{}% 17
-\BOOKMARK [1][-]{section.6}{Systematic Uncertainties}{}% 18
-\BOOKMARK [1][-]{section.7}{Results}{}% 19
-\BOOKMARK [2][-]{subsection.7.1}{Fit Procedure}{section.7}% 20
-\BOOKMARK [2][-]{subsection.7.2}{Fiducial Region Definition}{section.7}% 21
-\BOOKMARK [2][-]{subsection.7.3}{Results of the Simultaneous Fit}{section.7}% 22
-\BOOKMARK [1][-]{section.8}{Conclusion}{}% 23
-\BOOKMARK [1][-]{appendix.A}{Appendices}{}% 24
-\BOOKMARK [-1][-]{appendix.A}{Appendices}{}% 25
-\BOOKMARK [0][-]{subsection.A.1}{Inclusive 1+2 Jet Cross Check}{appendix.A}% 26
-\BOOKMARK [1][-]{subsection.A.2}{Alternate tZ Inclusive Fit}{subsection.A.1}% 27
-\BOOKMARK [2][-]{subsubsection.A.2.1}{tZ Inclusive Fit}{subsection.A.2}% 28
-\BOOKMARK [3][-]{subsubsection.A.2.2}{Floating tZ}{subsubsection.A.2.1}% 29
+\BOOKMARK [1][-]{section.2}{The ATLAS Detector}{}% 2
+\BOOKMARK [1][-]{section.3}{Data and Monte Carlo Samples}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Data Samples}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Monte Carlo Samples}{section.3}% 5
+\BOOKMARK [1][-]{section.4}{Object Reconstruction}{}% 6
+\BOOKMARK [2][-]{subsection.4.1}{Light leptons}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.2}{Jets}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.3}{B-tagged Jets}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.4}{Missing transverse energy}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.5}{Overlap removal}{section.4}% 11
+\BOOKMARK [1][-]{section.5}{Event Selection and Signal Region Definitions}{}% 12
+\BOOKMARK [2][-]{subsection.5.1}{Event Preselection}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.2}{Fit Regions}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.3}{Non-Prompt Lepton Estimation}{section.5}% 15
+\BOOKMARK [3][-]{subsubsection.5.3.1}{tbart Validation}{subsection.5.3}% 16
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Z+jets Validation}{subsection.5.3}% 17
+\BOOKMARK [1][-]{section.6}{tZ Separation Multivariate Analysis}{}% 18
+\BOOKMARK [1][-]{section.7}{Systematic Uncertainties}{}% 19
+\BOOKMARK [1][-]{section.8}{Results}{}% 20
+\BOOKMARK [2][-]{subsection.8.1}{Fit Procedure}{section.8}% 21
+\BOOKMARK [2][-]{subsection.8.2}{Fiducial Region Definition}{section.8}% 22
+\BOOKMARK [2][-]{subsection.8.3}{Results of the Simultaneous Fit}{section.8}% 23
+\BOOKMARK [1][-]{section.9}{Conclusion}{}% 24
+\BOOKMARK [1][-]{appendix.A}{Appendices}{}% 25
+\BOOKMARK [-1][-]{appendix.A}{Appendices}{}% 26
+\BOOKMARK [0][-]{subsection.A.1}{Inclusive 1+2 Jet Cross Check}{appendix.A}% 27
+\BOOKMARK [1][-]{subsection.A.2}{Alternate tZ Inclusive Fit}{subsection.A.1}% 28
+\BOOKMARK [2][-]{subsubsection.A.2.1}{tZ Inclusive Fit}{subsection.A.2}% 29
+\BOOKMARK [3][-]{subsubsection.A.2.2}{Floating tZ}{subsubsection.A.2.1}% 30

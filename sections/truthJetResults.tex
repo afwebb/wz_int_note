@@ -24,9 +24,7 @@ Several alternate fit strategies are documented in Appendices \ref{sec:incFit}-\
 
 The fiducial volume at particle level is defined based on the number of stable leptons and jets in each event. Three light leptons with total charge $\pm$1 and one or two associated jets are required. This is separated into four observations based on the number and flavor of associated jets.
 
-Only leptons which do not originate from hadron or $\tau$ decays are considered. The phase space definitions use dressed kinematics of the final state particles. Leptons are dressed by summing the momentum of photons within a cone of $\Delta R < 0.1$ of the lepton to correct the leptons energy. 
-
-Particle level jets are reconstructed using the anti-$k_t$ algorithm with a radius of $R=0.4$. Specifically, the \verb!AntiKt4TruthDressedWZJets! collection is used to define the jets, and their truth flavor is determined by \verb!HadronConeExclTruthLabelID!. 
+Only leptons which do not originate from hadron or $\tau$ decays are considered. The phase space definitions use dressed kinematics of the final state particles. Leptons are dressed by summing the momentum of photons within a cone of $\Delta R < 0.1$ of the lepton to correct the leptons energy. Particle level jets are reconstructed using the anti-$k_t$ algorithm with a radius of $R=0.4$. 
 
 The kinematic selection used at particle level closely follows the selection used at reconstructed level. Three light leptons with total charge $\pm$1 and one or two associated jets  Leptons and jets are required to have $|\eta < 2.5|$, with the transition region included. The OS leptons is required to have $p_T > 10$ GeV, while the SS leptons are required to have $p_T > 20$ GeV. Jets are required to have $p_T > 25$ GeV. The base fiducial region definition is summarized below:
 
@@ -73,38 +71,6 @@ WZ + l - 2-jet & - & - & - & - & - & 1.00 \\
 \end{adjustwidth}
 \end{table}
 
-The correlations between the all of the nuisance parameters considered in the fit are summarized in Figure \ref{fig:corr_mat_1j}.a
-
-\begin{figure}[H]                                                                                                            
-    \centering                                                                                                               
-    \includegraphics[width=1.0\linewidth]{sys_truthJets/CorrMatrix.png}
-    \caption{Correlations between nuisance parameters}
-    \label{fig:corr_mat_1j}
-\end{figure}
-
-
-The pre-fit yields in each of the 1-jet regions used in the fit are shown in Table \ref{tab:prefitYield1j}.
-
-\hspace{-1in}\begin{table}[H]
-\begin{adjustwidth}{-3em}{-3em}
-\small
-\include{sections/tables/yields1j}
-\label{tab:prefitYield1j}
-\caption{Pre-fit yields in each of the 1-jet regions.}
-\end{adjustwidth}
-\end{table}
-
-The post-fit yields in each region are summarized in Figure \ref{tab:postfitYield1j}.
-
-\hspace{-1in}\begin{table}[H]
-\begin{adjustwidth}{-3em}{-3em}
-\small
-\include{sections/tables/yields1j_postFit}
-\label{tab:postfitYield1j}
-\caption{Post-fit yields in each of the 1-jet regions.}                                                                 
-\end{adjustwidth} 
-\end{table}
-
 The impact of each NP is calculated by performing the fit with the parameter of interest held fixed, varied from its fitted value by its uncertainty, and calculating $\Delta\mu$ relative to the baseline fit.  The impact of the most significant sources of systematic uncertainties on WZ + b with one associated jet is summarized in Table \ref{tab:systematics_1j}. 
 
 \begin{table}[H]
@@ -147,28 +113,6 @@ The large impact of the Jet Energy Scale and Jet Flavor Tagging is unsurprising,
 %Two of the major backgrounds in the region with the highest purity of $WZ$ + b are tZ and Other VV + b, explaining the negative correlations between $\mu_{WZ+b}$ and the tZ cross section, and the VV + b cross section.
 
 %The high correlation between the luminosity and $\mu_{WZ+light}$ arises from the fact that the uncertainty on $\mu_{WZ+light}$ is very low (around 4\%). Small changes in luminosity cause a change in the yield of $WZ$ + light that is large compared to its uncertainty, producing a large correlation between these two parameters. 
-
-Pre-fit yields in each of the 2-jet fit are shown in Figure \ref{tab:prefitYield2j}.
-
-\begin{table}[H]
-\begin{adjustwidth}{-3em}{-3em}
-\small
-\include{sections/tables/yields2j}
-\label{tab:prefitYield2j}
-\caption{Pre-fit yields in each of the 2-jet regions.}                                     
-\end{adjustwidth}
-\end{table}
-
-The post-fit yields in each region are summarized in Figure \ref{tab:postfitYield2j}.
-
-\begin{table}[H]
-\begin{adjustwidth}{-3em}{-3em}
-\small
-\include{sections/tables/yields2j_postFit}
-\label{tab:postfitYield2j}
-\caption{Post-fit yields in each of the 2-jet regions.}                                                         
-\end{adjustwidth}
-\end{table}
 
 The same set of systematic uncertainties consider for the 1-jet fit are included in the 2-jet fit as well. The impact of the most significant systematic uncertainties is summarized in Table \ref{tab:systematics_2j}. 
 
