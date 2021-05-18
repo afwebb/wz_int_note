@@ -52,6 +52,118 @@
       \verb 1812.09740
       \endverb
     \endentry
+    \entry{PERF-2007-01}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{journaltitle}{JINST}
+      \field{title}{{The ATLAS Experiment at the CERN Large Hadron Collider}}
+      \field{volume}{3}
+      \field{year}{2008}
+      \field{pages}{S08003}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/3/08/S08003
+      \endverb
+    \endentry
+    \entry{IDET-2010-01}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Eur. Phys. J. C}
+      \field{title}{{The ATLAS Inner Detector commissioning and calibration}}
+      \field{volume}{70}
+      \field{year}{2010}
+      \field{pages}{787}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-010-1366-7
+      \endverb
+      \verb{eprint}
+      \verb 1004.5293
+      \endverb
+    \endentry
+    \entry{LARG-2009-01}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Eur. Phys. J. C}
+      \field{title}{{Readiness of the ATLAS liquid argon calorimeter for LHC collisions}}
+      \field{volume}{70}
+      \field{year}{2010}
+      \field{pages}{723}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-010-1354-y
+      \endverb
+      \verb{eprint}
+      \verb 0912.2642
+      \endverb
+    \endentry
+    \entry{PERF-2011-02}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Eur. Phys. J. C}
+      \field{title}{{Performance of the ATLAS Trigger System in 2010}}
+      \field{volume}{72}
+      \field{year}{2012}
+      \field{pages}{1849}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-011-1849-1
+      \endverb
+      \verb{eprint}
+      \verb 1110.1530
+      \endverb
+    \endentry
     \entry{sherpa}{article}{}
       \name{author}{7}{}{%
         {{hash=0fae53ee2502128c6831e8c273a9e252}{%
@@ -94,8 +206,8 @@
       \strng{fullhash}{4630ba201ea1f13b519c12d61514b9e0}
       \strng{authornamehash}{1ae2f61d167929afdd82590a335a0b43}
       \strng{authorfullhash}{4630ba201ea1f13b519c12d61514b9e0}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -127,8 +239,8 @@
       \strng{fullhash}{876e8072a47289b137d22df90918f9a5}
       \strng{authornamehash}{876e8072a47289b137d22df90918f9a5}
       \strng{authorfullhash}{876e8072a47289b137d22df90918f9a5}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -160,8 +272,8 @@
       \strng{fullhash}{005212297990d1a16664de1c57920156}
       \strng{authornamehash}{005212297990d1a16664de1c57920156}
       \strng{authorfullhash}{005212297990d1a16664de1c57920156}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -201,8 +313,8 @@
       \strng{fullhash}{a55cf202bd2e880bac00fcba91e9b0b3}
       \strng{authornamehash}{a55cf202bd2e880bac00fcba91e9b0b3}
       \strng{authorfullhash}{a55cf202bd2e880bac00fcba91e9b0b3}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -232,8 +344,8 @@
       \strng{fullhash}{51d4481e2425fdb8a515221328f9b9cd}
       \strng{authornamehash}{51d4481e2425fdb8a515221328f9b9cd}
       \strng{authorfullhash}{51d4481e2425fdb8a515221328f9b9cd}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -261,8 +373,8 @@
       \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
       \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
       \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{{ATLAS-CONF-2016-024}}
@@ -282,8 +394,8 @@
       \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
       \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
       \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ex}
@@ -849,8 +961,8 @@
       \strng{fullhash}{245b7b2fc3c1d24443a723fdedc9e163}
       \strng{authornamehash}{8205afbb616a72a1f9d85ee74fc2004d}
       \strng{authorfullhash}{245b7b2fc3c1d24443a723fdedc9e163}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{4}
@@ -871,8 +983,8 @@
       \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
       \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
       \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ex}
@@ -904,8 +1016,8 @@
       \strng{fullhash}{8a31cc92f526a770cf7840723038ef37}
       \strng{authornamehash}{8a31cc92f526a770cf7840723038ef37}
       \strng{authorfullhash}{8a31cc92f526a770cf7840723038ef37}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{JINST}
@@ -944,8 +1056,8 @@
       \strng{fullhash}{be5730149185af71f437280391cfd313}
       \strng{authornamehash}{ae55f906ac43ce98f52f0b2b76f11197}
       \strng{authorfullhash}{be5730149185af71f437280391cfd313}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The measurement of the jet energy resolution is presented using data recorded with the ATLAS detector in proton-proton collisions at {\$}{\backslash}sqrt{\{}s{\}}=7{\backslash}mbox{\{} TeV{\}}{\$} . The sample corresponds to an integrated luminosity of 35 pb−1. Jets are reconstructed from energy deposits measured by the calorimeters and calibrated using different jet calibration schemes. The jet energy resolution is measured with two different in situ methods which are found to be in agreement within uncertainties. The total uncertainties on these measurements range from 20 {\%} to 10 {\%} for jets within |y|<2.8 and with transverse momenta increasing from 30 GeV to 500 GeV. Overall, the Monte Carlo simulation of the jet energy resolution agrees with the data within 10 {\%}.}

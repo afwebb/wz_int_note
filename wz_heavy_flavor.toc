@@ -25,9 +25,9 @@
 \contentsline {subsection}{\numberline {8.2}Fiducial Region Definition}{21}{subsection.8.2}
 \contentsline {subsection}{\numberline {8.3}Results of the Simultaneous Fit}{22}{subsection.8.3}
 \contentsline {section}{\numberline {9}Conclusion}{27}{section.9}
-\contentsline {section}{\numberline {A}Appendices}{29}{appendix.A}
-\contentsline {part}{Appendices}{29}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Inclusive 1+2 Jet Cross Check}{29}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Alternate tZ Inclusive Fit}{32}{subsection.A.2}
-\contentsline {subsubsection}{\numberline {A.2.1}tZ Inclusive Fit}{32}{subsubsection.A.2.1}
-\contentsline {subsubsection}{\numberline {A.2.2}Floating tZ}{32}{subsubsection.A.2.2}
+\contentsline {section}{\numberline {A}Appendices}{30}{appendix.A}
+\contentsline {part}{Appendices}{30}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Inclusive 1+2 Jet Cross Check}{30}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Alternate tZ Inclusive Fit}{33}{subsection.A.2}
+\contentsline {subsubsection}{\numberline {A.2.1}tZ Inclusive Fit}{33}{subsubsection.A.2.1}
+\contentsline {subsubsection}{\numberline {A.2.2}Floating tZ}{33}{subsubsection.A.2.2}
