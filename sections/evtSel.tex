@@ -35,16 +35,7 @@ Events are required to have one or two reconstructed jets passing the selection 
     \label{tbl:selection}
 \end{table}
 
-The event yields in the preselection region for both data and Monte Carlo are summarized in Table \ref{tab:evt_yields}, which shows good agreement between data and Monte Carlo, and demonstrates that this region consists primarily of WZ events. The WZ events are split into WZ + b, WZ + c, and WZ + l based on the truth flavor of the associated jet in the event. In this ordering b-jet supersede charm, which supersides light. That is, WZ + l events contain no charm and no b jets at truth level, WZ + c contain at least one truth charm and no b-jets, and WZ + b contains at least one truth b-jet. 
-
-\begin{table}[H] 
-    \centering
-        \input{sections/inclusiveYields.tex}
-    %\caption{Data and MC yields after the event selection requiring three leptons, one or two jets, $E^{miss}_T$ > 20 GeV, and $m(E^{miss}_T + l_{other}) > 30$ GeV selection has been applied.}
-    \label{tab:evt_yields}
-\end{table}
-
-Here Other $VV$ represents diboson processes other than WZ, and consists predominantly of $ZZ\rightarrow llll$ events where one of the leptons is not reconstructed.
+The WZ events are split into WZ + b, WZ + c, and WZ + l based on the truth flavor of the associated jet in the event. In this ordering b-jet supersede charm, which supersides light. That is, WZ + l events contain no charm and no b jets at truth level, WZ + c contain at least one truth charm and no b-jets, and WZ + b contains at least one truth b-jet. 
 
 %---------------------------                                                                                         
 \subsection{Fit Regions}
@@ -80,7 +71,7 @@ Region & Selection            \\
 
 The working points discussed in Section \ref{subsec:bjets} are used to separate events into fit regions based on the highest working point reached by a jet in each event. Because the background composition differs significantly based on the number of b-jets, events are further subdivided into 1-jet and 2-jet regions in order to minimize the impact of background uncertainties.
 
-An unfolding procedure is performed to account for differences in the number of reconstructed jets compared to the number of truth jets in each event. In order to account for migration of WZ+1-jet and WZ+2-jet events between the 1-jet and 2-jet bins at reco level, the signal samples are separated based on the number of truth jets. Events with 0 jets or more than 3 jets at truth level, yet fall within one of the categories listed in Table \ref{tab:regions}, are categorized as WZ + other, and treated as a background. The composition of the number of truth jets in each reco jet bin is taken from MC, with uncertainties in these estimates described in detail in Section \ref{sec:sys}. 
+An unfolding procedure is performed to account for differences in the number of reconstructed jets compared to the number of truth jets in each event. In order to account for migration of WZ+1-jet and WZ+2-jet events between the 1-jet and 2-jet bins at reco level, the signal samples are separated based on the number of truth jets. Events with 0 jets or more than 3 jets at truth level, yet fall within one of the categories listed in Table \ref{tab:regions}, are categorized as WZ + other, and treated as background. The composition of the number of truth jets in each reco jet bin is taken from MC, with uncertainties in these estimates described in detail in Section \ref{sec:sys}. 
 
 An additional tZ control region is created based on the BDT described in Section \ref{sec:tZ_bdt}. The region with 1-jet passing the 60\% working point is split in two - a signal enriched region of events with a BDT score greater than 0.03, and a tZ control region including events with less than 0.03. This cutoff is arrived at by performing an Asimov fit with a variety of cutoffs, and selecting the value that produces the highest significance for the measurement of $WZ$ + b.
 
@@ -89,9 +80,7 @@ An additional tZ control region is created based on the BDT described in Section
 \label{sec:fakes}
 %---------------------------
 
-Two processes act as sources of non-prompt leptons appear in the analysis: $t\bar{t}$ and $Z$+jet production both produce two prompt leptons, and each contribute to the 3l region when an additional non-prompt lepton appears in the event. The contribution of these processes is estimated with Monte Carlo simulations, which are validated using enriched control regions.
-
-The modelling in the Z+jets and $t\bar{t}$ CRs is further validated for each of the pseudo-continuous b-tag regions used in the analysis. The relevant lepton \pt spectrum in each b-tag region is shown in Appendix \ref{sec:fakeCR_plots} for these CRs  after the correction factors derived below have been applied.
+Two processes act as sources of non-prompt leptons appear in the analysis: $t\bar{t}$ and $Z$+jet production both produce two prompt leptons, and each contribute to the 3l region when an additional non-prompt lepton appears in the event. The contribution of these processes is estimated with Monte Carlo simulations, which are validated using non-prompt enriched regions. These validation regions are used to derive correction factors and uncertainties for the non-prompt contribution.
 
 \subsubsection{$t\bar{t}$ Validation}
 

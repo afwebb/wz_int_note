@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  18 MAY 2021 12:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  19 MAY 2021 12:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**wz_heavy_flavor.tex
+**wz_heavy_flavor
 (./wz_heavy_flavor.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
@@ -2956,7 +2956,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-[4] (./sections/summary.tex) (./sections/ATLAS.tex) [5
+[4] (./sections/intro.tex) (./sections/ATLAS.tex) [5
 
 ] (./sections/MC.tex
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
@@ -2997,52 +2997,40 @@ t4): destination with the same identifier (name{table.3}) has been already used
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.14 
-     ] (./sections/inclusiveYields.tex) [11pdfTeX warning (ext4): destination w
-ith the same identifier (name{table.4}) has been already used, duplicate ignore
-d
+     ] [11pdfTeX warning (ext4): destination with the same identifier (name{tab
+le.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.46 
+l.71 
      ] [12pdfTeX warning (ext4): destination with the same identifier (name{tab
 le.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.80 
-     ]
-
-LaTeX Warning: Reference `sec:fakeCR_plots' on page 13 undefined on input line 
-94.
-
-[13pdfTeX warning (ext4): destination with the same identifier (name{table.6}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.95 
-     ]
+l.85 \subsubsection{$t\bar{t}$ Validation}
+                                          ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 96.
+(hyperref)                removing `math shift' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 96.
+(hyperref)                removing `math shift' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 106.
+(hyperref)                removing `math shift' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 106.
+(hyperref)                removing `math shift' on input line 95.
 
-[14]) (./sections/tZ.tex
+) (./sections/tZ.tex [13]
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 9.
- [15]
-<figures/tZ_bdt_ab127/plots_nlo/xgb_score.png, id=337, 462.528pt x 346.896pt>
+
+<figures/tZ_bdt_ab127/plots_nlo/xgb_score.png, id=323, 462.528pt x 346.896pt>
 File: figures/tZ_bdt_ab127/plots_nlo/xgb_score.png Graphic file (type png)
 
 <use figures/tZ_bdt_ab127/plots_nlo/xgb_score.png>
@@ -3052,22 +3040,22 @@ nput line 26.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 9.0pt on input line 26.
 
-<figures/tZ_bdt_ab127/plots_nlo/roc.png, id=339, 462.528pt x 346.896pt>
+<figures/tZ_bdt_ab127/plots_nlo/roc.png, id=325, 462.528pt x 346.896pt>
 File: figures/tZ_bdt_ab127/plots_nlo/roc.png Graphic file (type png)
 
 <use figures/tZ_bdt_ab127/plots_nlo/roc.png>
 Package pdftex.def Info: figures/tZ_bdt_ab127/plots_nlo/roc.png used on input l
 ine 27.
 (pdftex.def)             Requested size: 188.21289pt x 141.15904pt.
-
-<figures/tZ_bdt/feature_importance.png, id=341, 722.7pt x 433.62pt>
+ [14]
+<figures/tZ_bdt/feature_importance.png, id=334, 722.7pt x 433.62pt>
 File: figures/tZ_bdt/feature_importance.png Graphic file (type png)
 
 <use figures/tZ_bdt/feature_importance.png>
 Package pdftex.def Info: figures/tZ_bdt/feature_importance.png used on input li
 ne 36.
 (pdftex.def)             Requested size: 376.4258pt x 225.85422pt.
- [16pdfTeX warning (ext4): destination with the same identifier (name{figure.2}
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.2}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -3081,12 +3069,12 @@ l.42
 l.42 
       <./figures/tZ_bdt_ab127/plots_nlo/xgb_score.png> <./figures/tZ_bdt_ab127/
 plots_nlo/roc.png> <./figures/tZ_bdt/feature_importance.png>])
-(./sections/sys.tex [17pdfTeX warning (ext4): destination with the same identif
-ier (name{table.7}) has been already used, duplicate ignored
+(./sections/sys.tex [16pdfTeX warning (ext4): destination with the same identif
+ier (name{table.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.48 
+l.47 
      ]
 \openout2 = `sections/xsecUnc.aux'.
 
@@ -3095,30 +3083,25 @@ LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 (Font)              scaled to size 8.09995pt on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 9.0pt on input line 1.
-) [18]) (./sections/truthJetResults.tex [19
+) [17
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.8}) has
+pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has
  been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.6 
-    ]
-<figures/sys_truthJets/Plots/Summary_postFit.png, id=389, 899.36pt x 674.52pt>
+l.66 
+     ]) (./sections/truthJetResults.tex
+<figures/sys_truthJets/Plots/Summary_postFit.png, id=373, 899.36pt x 674.52pt>
 File: figures/sys_truthJets/Plots/Summary_postFit.png Graphic file (type png)
 
 <use figures/sys_truthJets/Plots/Summary_postFit.png>
 Package pdftex.def Info: figures/sys_truthJets/Plots/Summary_postFit.png used o
 n input line 13.
 (pdftex.def)             Requested size: 376.4258pt x 282.3187pt.
- [20]
-
-LaTeX Warning: Reference `fig:corr_mat_1j' on page 21 undefined on input line 1
-8.
-
-[21pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
- has been already used, duplicate ignored
+ [18] [19pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -3128,46 +3111,46 @@ Overfull \hbox (37.7775pt too wide) in paragraph at lines 57--68
  [] 
  []
 
-[22] <figures/sys_truthJets/Ranking.png, id=410, 598.235pt x 1111.15125pt>
+[20] <figures/sys_truthJets/Ranking.png, id=395, 598.235pt x 1111.15125pt>
 File: figures/sys_truthJets/Ranking.png Graphic file (type png)
 
 <use figures/sys_truthJets/Ranking.png>
 Package pdftex.def Info: figures/sys_truthJets/Ranking.png used on input line 1
 04.
 (pdftex.def)             Requested size: 292.77632pt x 543.80763pt.
- [23pdfTeX warning (ext4): destination with the same identifier (name{table.9})
+ [21pdfTeX warning (ext4): destination with the same identifier (name{table.8})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.108 
-      pdfTeX warning (ext4): destination with the same identifier (name{table.1
-0}) has been already used, duplicate ignored
+      pdfTeX warning (ext4): destination with the same identifier (name{table.9
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.108 
-      ] [24pdfTeX warning (ext4): destination with the same identifier (name{fi
+      ] [22pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.110 
        <./figures/sys_truthJets/Ranking.png>]
-<figures/sys_truthJets_2j/Ranking.png, id=423, 598.235pt x 1111.15125pt>
+<figures/sys_truthJets_2j/Ranking.png, id=408, 598.235pt x 1111.15125pt>
 File: figures/sys_truthJets_2j/Ranking.png Graphic file (type png)
 
 <use figures/sys_truthJets_2j/Ranking.png>
 Package pdftex.def Info: figures/sys_truthJets_2j/Ranking.png used on input lin
 e 147.
 (pdftex.def)             Requested size: 292.77632pt x 543.80763pt.
- [25pdfTeX warning (ext4): destination with the same identifier (name{table.11}
+ [23pdfTeX warning (ext4): destination with the same identifier (name{table.10}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.151 
-      ]) [26pdfTeX warning (ext4): destination with the same identifier (name{f
+      ]) [24pdfTeX warning (ext4): destination with the same identifier (name{f
 igure.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -3176,26 +3159,26 @@ l.168 \section{Conclusion}
                            <./figures/sys_truthJets_2j/Ranking.png>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.95pt on input line 180.
- [27]
+ [25]
 Overfull \hbox (3.876pt too wide) in paragraph at lines 185--185
 []\T1/ntxtlf/m/n/10.95 E. Re. `  Single-top Wt-channel pro-duc-tion matched wit
 h par-ton showers us-ing the POWHEG
  []
 
-[28] [29]
+[26] [27]
 
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 201.
 
 (./sections/incFit.tex
-<figures/sys_inclusive/Plots/Summary_postFit.png, id=507, 899.36pt x 674.52pt>
+<figures/sys_inclusive/Plots/Summary_postFit.png, id=492, 899.36pt x 674.52pt>
 File: figures/sys_inclusive/Plots/Summary_postFit.png Graphic file (type png)
 
 <use figures/sys_inclusive/Plots/Summary_postFit.png>
 Package pdftex.def Info: figures/sys_inclusive/Plots/Summary_postFit.png used o
 n input line 12.
 (pdftex.def)             Requested size: 376.4258pt x 282.3187pt.
- [30
+ [28
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
 s been already used, duplicate ignored
@@ -3204,20 +3187,20 @@ s been already used, duplicate ignored
                                                   \fi \fi 
 l.18 
       <./figures/sys_inclusive/Plots/Summary_postFit.png>]
-<figures/sys_inclusive/Ranking.png, id=516, 598.235pt x 1111.15125pt>
+<figures/sys_inclusive/Ranking.png, id=500, 598.235pt x 1111.15125pt>
 File: figures/sys_inclusive/Ranking.png Graphic file (type png)
 
 <use figures/sys_inclusive/Ranking.png>
 Package pdftex.def Info: figures/sys_inclusive/Ranking.png used on input line 4
 8.
 (pdftex.def)             Requested size: 292.77632pt x 543.80763pt.
- [31pdfTeX warning (ext4): destination with the same identifier (name{table.12}
+ [29pdfTeX warning (ext4): destination with the same identifier (name{table.11}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.52 
-     ]) [32pdfTeX warning (ext4): destination with the same identifier (name{fi
+     ]) [30pdfTeX warning (ext4): destination with the same identifier (name{fi
 gure.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -3234,7 +3217,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 2.
 
-) [33pdfTeX warning (ext4): destination with the same identifier (name{table.13
+) [31pdfTeX warning (ext4): destination with the same identifier (name{table.12
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -3264,13 +3247,13 @@ Package logreq Info: Writing requests to 'wz_heavy_flavor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39945 strings out of 493013
- 780167 string characters out of 6123688
- 1270719 words of memory out of 5000000
- 42684 multiletter control sequences out of 15000+600000
+ 39928 strings out of 493013
+ 779851 string characters out of 6123688
+ 1269675 words of memory out of 5000000
+ 42678 multiletter control sequences out of 15000+600000
  198115 words of font info for 278 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,24n,74p,10411b,1993s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,24n,74p,10407b,1993s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/enc/dvips/newt
 x/ntx-ec-tlf-sc.enc}{/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fo
 nts/enc/dvips/tex-gyre/q-ts1.enc}{/cvmfs/sft.cern.ch/lcg/external/texlive/2016/
@@ -3295,10 +3278,10 @@ cg/external/texlive/2016/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></cvmf
 s/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/newtx/txb
 sys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/pu
 blic/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (33 pages, 591438 bytes).
+Output written on wz_heavy_flavor.pdf (31 pages, 588034 bytes).
 PDF statistics:
- 616 PDF objects out of 1000 (max. 8388607)
- 541 compressed objects within 6 object streams
- 117 named destinations out of 1000 (max. 500000)
+ 600 PDF objects out of 1000 (max. 8388607)
+ 527 compressed objects within 6 object streams
+ 109 named destinations out of 1000 (max. 500000)
  308 words of extra memory for PDF output out of 10000 (max. 10000000)
 
