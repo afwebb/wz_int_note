@@ -10,11 +10,11 @@
 
 \subsection{Data Samples}
 
-This study uses a sample of proton-proton collision data collected by the ATLAS detector from 2015 through 2018 at an energy of $\sqrt{s} = 13$ TeV, which represents an integrated luminosity of 139 $fb^{-1}$. This data set was collected with a bunch crossing rate of 25 ns. All data used in this analysis was verified by data quality checks.
+This study uses a sample of proton-proton collision data collected by the ATLAS detector from 2015 through 2018 at an energy of $\sqrt{s} = 13$ TeV, which represents an integrated luminosity of 139 $fb^{-1}$ \cite{lumi}. This data set was collected with a bunch crossing rate of 25 ns. All data used in this analysis was verified by data quality checks \cite{PERF-2010-01}.
 
 \subsection{Monte Carlo Samples}
 
-Several different generators were used to produce Monte Carlo simulations of the signal and background processes. For all samples, the response of the ATLAS detector is simulated using Geant4. The WZ signal samples are simulated using Sherpa 2.2.2 \cite{sherpa}. Specific information about the Monte Carlo samples being used can be found in Table \ref{tbl:evgen}. 
+Several different generators were used to produce Monte Carlo simulations of the signal and background processes. For all samples, the response of the ATLAS detector is simulated using \textsc{Geant4} \cite{GEANT4}. The WZ signal samples are simulated using Sherpa 2.2.2 \cite{sherpa}. Specific information about the Monte Carlo samples being used can be found in Table \ref{tbl:evgen}. 
 
 \begin{table}[H]
 \begin{center}
@@ -24,19 +24,19 @@ Several different generators were used to produce Monte Carlo simulations of the
 \hline\hline
 Process & Event generator & ME order & Parton Shower & PDF   \\
 \hline
-$WZ$, $VV$ & \textsc{Sherpa} 2.2.2
-& MEPS NLO & \textsc{Sherpa} & CT10 \\
-$t Z$ & \textsc{MG5\_aMC} & NLO & \textsc{Pythia} 8  & CTEQ6L1  \\
+$WZ$, $ZZ$, $WW$ & \textsc{Sherpa} 2.2.2
+& MEPS NLO & \textsc{Sherpa} & CT10 \cite{ct10} \\
+$t Z$ & \textsc{MG5\_aMC} \cite{Alwall:2014hca} & NLO & \textsc{Pythia} 8  & CTEQ6L1  \\
 $\ttbar W$ & \textsc{MG5\_aMC} & NLO & \textsc{Pythia} 8 & NNPDF 3.0 NLO \\
 & (\textsc{Sherpa} 2.1.1) & (LO multileg) & (\textsc{Sherpa}) & (NNPDF 3.0 NLO)  \\
 $\ttbar (Z/\gamma^* \to ll)$ & \textsc{MG5\_aMC} & NLO & \textsc{Pythia} 8 & NNPDF 3.0 NLO  \\
 $t\bar{t}H$ & \textsc{MG5\_aMC} & NLO & \textsc{Pythia} 8\ & NNPDF 3.0 NLO \cite{Ball:2014uwa} \\
-     & (\textsc{MG5\_aMC}) & (NLO) & (\textsc{Herwig++}) & (CT10 \cite{ct10})  \\
+     & (\textsc{MG5\_aMC}) & (NLO) & (\textsc{Herwig++}) \cite{Bahr:2008pv} & (CT10 \cite{ct10})  \\
 $tHqb$ & \textsc{MG5\_aMC} & LO & \textsc{Pythia} 8 & CT10  \\
 $tHW$ & \textsc{MG5\_aMC} & NLO & \textsc{Herwig++}  & CT10  \\
 & (\textsc{Sherpa} 2.1.1) & (LO multileg) & (\textsc{Sherpa}) & (NNPDF 3.0 NLO)  \\
 $t W Z$ & \textsc{MG5\_aMC} & NLO & \textsc{Pythia} 8 & NNPDF 2.3 LO   \\
-$t\bar t t$, $t\bar t t\bar t$ & \textsc{MG5\_aMC} & LO & \textsc{Pythia} 8 & NNPDF 2.3 LO  \\
+$t\bar t t$, $t\bar t t\bar t$ & \textsc{MG5\_aMC} & LO & \textsc{Pythia} 8 & NNPDF 2.3 LO \cite{Ball:2012cx} \\
 $t\bar t W^+ W^-$ & \textsc{MG5\_aMC} & LO & \textsc{Pythia} 8 & NNPDF 2.3 LO\\
 $\ttbar$ & \textsc{Powheg-BOX v2} \cite{powhegtt} & NLO & \textsc{Pythia} 8 & NNPDF 3.0 NLO  \\
 $\ttbar\gamma$ & \textsc{MG5\_aMC} & LO & \textsc{Pythia} 8 & NNPDF 2.3 LO \\

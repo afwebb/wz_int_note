@@ -3,15 +3,12 @@ All regions defined in this analysis share a common lepton, jet, and overall eve
 
 All events are required to be selected by dilepton triggers. The $p_T$ thresholds of the dilepton trigger on two electrons were 12 GeV in 2015, 17 GeV in 2016, and 24 GeV in 2017 and 2018, while for the dimuon triggers the $p_T$ thresholds on the leading (sub-leading) muon were 18 GeV (8 GeV) in 2015, and 22 GeV (8 GeV) in 2016-2018. For the electron+muon triggers, the $p_T$ thresholds on the electron (muon) were 17 GeV (14 GeV) for all datasets.
 
-\subsection{Light leptons}
-\label{subsec:leps}
-
-Electron candidates are reconstructed from energy clusters in the electromagnetic calorimeter that are associated with charged particle tracks reconstructed in the inner detector~\cite{ATLAS-CONF-2016-024}. Electron candidates are required to have $\pt > 10$ GeV and $|\eta_\textrm{cluster}| < 2.47$. Muon candidates are reconstructed by combining inner detector tracks with track segments or full tracks in the muon spectrometer \cite{PERF-2014-05}. Muon candidates are required to have $\pt > 10$~GeV and $|\eta| < 2.5$. Candidates in the transition region between different electromagnetic calorimeter components, $1.37 < |\eta_\textrm{cluster}| < 1.52$, are rejected. A multivariate likelihood discriminant combining shower shape and track information is used to distinguish real electrons from hadronic showers (fake electrons). To further reduce the non-prompt electron contribution, the track is required to be consistent with originating from the primary vertex; requirements are imposed on the transverse impact parameter significance ($|d_0|/\sigma_{d_0}<5$) and the longitudinal impact parameter ($|\Delta z_0 \sin \theta_\ell| < 0.5$ mm). Electron candidates are required to pass TightLH identification.
+Electron candidates are reconstructed from energy clusters in the electromagnetic calorimeter that are associated with charged particle tracks reconstructed in the inner detector~\cite{ATLAS-CONF-2016-024}. Electron candidates are required to have $\pt > 10$ GeV and $|\eta_\textrm{cluster}| < 2.47$. Candidates in the transition region between different electromagnetic calorimeter components, $1.37 < |\eta_\textrm{cluster}| < 1.52$, are rejected. A multivariate likelihood discriminant combining shower shape and track information is used to distinguish real electrons from hadronic showers (fake electrons). To further reduce the non-prompt electron contribution, the track is required to be consistent with originating from the primary vertex; requirements are imposed on the transverse impact parameter significance ($|d_0|/\sigma_{d_0}<5$) and the longitudinal impact parameter ($|\Delta z_0 \sin \theta_\ell| < 0.5$ mm). Electron candidates are required to pass TightLH identification.
                    
-Muon candidates are reconstructed by combining inner detector tracks with track segments or full tracks in the muon spectrometer \cite{PERF-2014-05}. Muon candidates are required to have $\pt > 10$~GeV and $|\eta| < 2.5$. The longitutinal impact parameter is the same for both electrons and muons, while muons are required to pass a slightly tighter transverse imapact parameter, $|d_0|/\sigma_{d_0}<3$. Muons are also required to pass Medium ID requirements. 
+Muon candidates are reconstructed by combining inner detector tracks with track segments or full tracks in the muon spectrometer \cite{PERF-2014-05}. Muon candidates are required to have $\pt > 10$~GeV and $|\eta| < 2.5$. The longitutinal impact parameter is the same for both electrons and muons, while muons are required to pass a slightly tighter transverse imapact parameter selection, $|d_0|/\sigma_{d_0}<3$. Muons are also required to pass Medium ID requirements. 
 
 %All leptons are required to be isolated, as defined though the standard \verb|PLVLoose| working point supported by combined performance groups. 
-Leptons are additionally required to pass a non-prompt BDT selection developed by the $t\bar{t}H$ multilepton/$t\bar{t}W$ analysis group. This BDT and the WPs used are summarized in Appendix \ref{sec:lepMVA}, and described in detail in \cite{ttW_140}. Optimized working points and scale factors for this BDT are taken from that analysis.
+Leptons are additionally required to pass a non-prompt BDT selection. This BDT and the WPs used are summarized in Appendix \ref{sec:lepMVA}, and described in detail in \cite{ttW_140}. Optimized working points and scale factors for this BDT are taken from that analysis.
 
 %\begin{table}
 %\begin{center}
@@ -43,22 +40,11 @@ Leptons are additionally required to pass a non-prompt BDT selection developed b
 %\end{table}
 
 
-\subsection{Jets}
-\label{subsec:jets}
 %UPDATE FOR PFLOW
 Jets are reconstructed from calibrated topological clusters built from energy deposits in the calorimeters \cite{ATL-PHYS-PUB-2015-015}, using the anti-$k_t$ algorithm with a radius parameter $R=0.4$. Particle Flow, or PFlow, jets are used in the analysis, which are hadronic objects reconstructed using information from both the tracker and the calorimeter. Jets with energy contributions likely arising from noise or detector effects are removed from consideration \cite{ATLAS-CONF-2015-029}, and only jets satisfying $\pt > 25$~GeV and $|\eta| < 2.5$ are used in this analysis.  For jets with $\pt < 60$~GeV and $|\eta| < 2.4$, a jet-track association algorithm is used to confirm that the jet originates from the selected primary vertex, in order to reject jets arising from pileup collisions \cite{PERF-2014-03}.
 
-\subsection{B-tagged Jets}
-\label{subsec:bjets}
 
-In order to make a measurement of $WZ$ + heavy flavor it is necessary to distinguish these events from $WZ$ + light jets. For this purpose, the DL1r b-tagging algorithm is used to distinguish heavy flavor jets from lighter ones. The DL1r algorithm uses jet kinematics, particularly jet vertex information, as input for a neural network which assigns each jet a score designed to reflect how likely that jet is to have originated from a b-quark. 
-
-\begin{figure}[H] 
-    \centering
-    \includegraphics[width=0.54\linewidth]{DL1_output.pdf} 
-    \caption{Output distribution of the DL1r algorithm for b-jets, charm jets, and light jets}
-    \label{fig:DL1r}
-\end{figure}
+In order to make a measurement of $WZ$ + heavy flavor it is necessary to distinguish these events from $WZ$ + light jets. For this purpose, the DL1r b-tagging algorithm is used to distinguish heavy flavor jets from lighter ones \cite{btagging}. The DL1r algorithm uses jet kinematics, particularly jet vertex information, as input for a neural network which assigns each jet a score designed to reflect how likely that jet is to have originated from a b-quark. 
 
 From the output of the BDT, calibrated working points (WPs) are developed based on the efficiency of truth b-jets at particular values of the DL1r algorithm. The working points used in this analysis are summarized in Table \ref{tab:btag_WPs}. 
 
@@ -66,47 +52,24 @@ From the output of the BDT, calibrated working points (WPs) are developed based 
 \begin{center}
 \begin{tabular}{|c|ccccc|}
     \hline
-       WP &  none & loose & medium & tight & tightest\\
-       \hline
-     b eff. & - & 85\% & 77\% & 70\% & 60\% \\ 
+    WP & \multicolumn{2}{c}{Rejection}\\
     \hline
+    $b$-jet eff. & $c$-jet & light jet\\
+    \hline
+    85\% & 2.6 & 29 \\
+    77\% & 4.9 & 130 \\
+    70\% & 9.4 & 390 \\
+    60\% & 27 & 1300 \\ 
     \end{tabular}    
-    \caption{B-tagging Working Points by tightness and b-jet efficiency}
+    \caption{$c$-jet and light-flavor jet rejections corresponding to each $b$-tagging Working Point by b-jet efficiency, evaluated on $t\bar{t}$ events.}
     \label{tab:btag_WPs}
     \end{center}
 \end{table}
 
-A tighter WP will accept fewer b-jets, but reject a higher fraction of charm and light jets. Generally, analyses that include b-jets will use a fixed working point, for example, requiring that a jet pass the 70\% threshold. By instead treating these working point as bins, e.g. events with jets that fall between the 85\% and 77\% WPs fall into one bin, while events with jets passing the 60\% WP fall into another, and looking at the full psuedo-continuous DL1r spectrum of the jets, additional information can be gained. The psuedo-continuous b-tag spectrum is used in this case to separate out WZ + b, WZ + charm, and WZ + light. 
-
-\subsection{Missing transverse energy}
-\label{subsec:met}
+%rewrite paragraph
+As shown in table \ref{tab:btag_WPs}, a tighter WP will accept fewer b-jets, but reject a higher fraction of charm and light jets. Generally, analyses that include b-jets will use a fixed working point, for example, requiring that a jet pass the 70\% threshold. By instead treating these working point as bins, e.g. events with jets that fall between the 85\% and 77\% WPs fall into one bin, while events with jets passing the 60\% WP fall into another, and looking at the full psuedo-continuous DL1r spectrum of the jets, additional information can be gained. The psuedo-continuous b-tag spectrum is used in this case to separate out WZ + b, WZ + charm, and WZ + light. 
 
 Missing transverse momentum ($E_T^{miss}$) is used as part of the event selection. The missing transverse momentum vector is defined as the inverse of the sum of the transverse momenta of all reconstructed physics objects as well as remaining unclustered energy, the latter of which is estimated from low-\pt tracks associated with the primary vertex but not assigned to a hard object, with object definitions taken from \cite{ATL-PHYS-PUB-2015-027}. Light leptons considered in the $E_T^{miss}$ reconstruction are required to have $p_T$>10 GeV, while jets are required to have $p_T$>20 GeV.
 
-\subsection{Overlap removal}
-\label{subsec:overlapremoval}
+To avoid double counting objects and remove leptons originating from decays of hadrons, overlap removal is performed in the following order: any electron candidate within $\Delta R = 0.1$ of another electron candidate with higher \pt\ is removed; any electron candidate within $\Delta R = 0.1$ of a muon candidate is removed; any jet within $\Delta R = 0.3$ of an electron candidate is removed; if a muon candidate and a jet lie within $\Delta R = min(0.4, $0.04+10$[GeV]/\pt(muon))$ of each other, the jet is kept and the muon is removed. This algorithm is applied to the preselected objects. 
 
-To avoid double counting objects and remove leptons originating from decays of hadrons, overlap removal is performed in the following order: any electron candidate within $\Delta R = 0.1$ of another electron candidate with higher \pt\ is removed; any electron candidate within $\Delta R = 0.1$ of a muon candidate is removed; any jet within $\Delta R = 0.3$ of an electron candidate is removed; if a muon candidate and a jet lie within $\Delta R = min(0.4, $0.04+10$[GeV]/\pt(muon))$ of each other, the jet is kept and the muon is removed.
-
-This algorithm is applied to the preselected objects. The overlap removal procedure is summarized in Table~\ref{tab:overlap-removal}. 
-
-\begin{table}[h!]
- \begin{center}
-   \begin{tabular}{|c|c|c|}
-     \hline
-                            \textbf{Keep}  &  \textbf{Remove} & \textbf{Cone size ($\Delta$ R)}  \\
-         \hline
-                        electron        & electron (low \pt)    & 0.1 \\
-     \hline
-                        muon    & electron      & 0.1 \\
-     \hline
-                            electron    & jet   & 0.3 \\
-         \hline
-                        jet             & muon  & min(0.4, $0.04+10$[GeV]/\pt(muon)) \\
-         \hline
-                        electron        & tau   & 0.2 \\
-     \hline
-   \end{tabular}
-   \caption{\label{tab:overlap-removal} Summary of the overlap removal procedure between electrons, muons, and jets.}
- \end{center}
-\end{table}

@@ -43,26 +43,26 @@ Total (Overall)                             & 230	      \\
 
 The uncertainty in the combined integrated luminosity is derived from a calibration of the luminosity scale performed for 13 TeV proton-proton collisions \cite{lumi}, \cite{LUCID2}.
 
-The experimental uncertainties are related to the reconstruction and identification of light leptons and b-tagging of jets, and to the reconstruction of $E^{miss}_T$. The sources which contribute to the uncertainty in the jet energy scale (JES) \cite{jes} are decomposed into uncorrelated components and treated as independent sources of uncertainty in the analysis. These are treated as 30 nuiscance parameters included in the fit. A similar approach is used for the jet energy resolution (JER) uncertainty, which is depomposed into 8 JER uncertainty components included as NPs in the fit. 
+The experimental uncertainties are related to the reconstruction and identification of light leptons and b-tagging of jets, and to the reconstruction of $E^{miss}_T$. The sources which contribute to the uncertainty in the jet energy scale (JES) \cite{jes} are decomposed into uncorrelated components and treated as independent sources of uncertainty in the analysis. A similar approach is used for the jet energy resolution (JER) uncertainty.
 
-The uncertainties in the b-tagging efficiencies measured in dedicated calibration analyses \cite{btag_cal} are also decomposed into uncorrelated components. The large number of components for b-tagging is due to the calibration of the distribution of the MVA discriminant.  
+The uncertainties in the b-tagging efficiencies measured in dedicated calibration analyses \cite{btag_cal} are also decomposed into uncorrelated components. The large number of components for b-tagging is due to the calibration of the distribution of the MVA discriminant for each WP bin..  
 
 Theoretical uncertainties applied to MC predictions, including cross section, PDF, and scale uncertainties are taken from theory calculations, with the exception of non-prompt and diboson backgrounds. The cross-section uncertainty on tZ is taken from \cite{tZ_paper}. Derivation of the non-prompt background uncertainties, Z+jets and $t\bar{t}$, are explained in Section \ref{sec:fakes}. These normalization uncertainties are chosen so as to account for the complete uncertainty in the non-prompt contribution, and therefore no additional modelling uncertainties are considered for Z+jets and $t\bar{t}$.
 
 The other VV + heavy flavor processes (namely VV+b and VV+charm, which primarily consist of ZZ events) are also poorly understood, because these processes involve the same physics as WZ + heavy flavor, and have also not been measured. Therefore, a conservative 50\% uncertainty is applied to those samples. While this uncertainty is large, it is found to have little impact on the significance of the final result.
 
-The theory uncertainties applied to the predominate background estimates are summarized in Table \ref{tab:xsecUnc}. 
+The theory uncertainties applied to the predominant background estimates are summarized in Table \ref{tab:xsecUnc}. 
 
 \begin{table}[H]
 {\footnotesize
 \centering
 \include{sections/xsecUnc}
-\caption{Summary of theoretical uncertainties for MC predictions in the analysis.}
+\caption{Summary of theoretical uncertainties for normalization of MC predictions in the analysis.}
 \label{tab:xsecUnc}
 }
 \end{table}
 
-Additional signal uncertainties are estimated by comparing estimates from the nominal Sherpa WZ samples with alternate WZ samples generated with Powheg+PYTHIA8. Separate systematics are included in the fit for WZ + b, WZ + charm and WZ + light, where the distribution among each of the fit regions is varied based on the prediction of the Powheg sample.
+Additional signal uncertainties are estimated by comparing estimates from the nominal Sherpa WZ samples with alternate WZ samples generated with \textsc{Powheg}+\textsc{Pythia8}. Separate systematics are included in the fit for WZ + b, WZ + charm and WZ + light, where the distribution among each of the fit regions is varied based on the prediction of the Powheg sample.
 
 A similar approach is taken to account for uncertainties in migrations between the number of reco and truth jets. The fraction of events with 1 truth jet which fall into the 1 jet bin versus the 2 jet bin at reco level is compared for Sherpa and Powheg. The same is done for events with 2 truth jets. A systematic is included where events are shifted between the 1-jet and 2-jet regions based on the differences between these two shapes. This is done independently for each of the WZ + b, WZ + charm, and WZ + light templates.
 
