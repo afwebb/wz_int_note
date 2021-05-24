@@ -639,16 +639,14 @@
     \endentry
     \entry{ttH_comb}{article}{}
       \name{author}{1}{}{%
-        {{hash=a3364242a05dc5a80a93fa55804031af}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={ATLAS},
-           giveni={A\bibinitperiod}}}%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{fullhash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authornamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authorfullhash}{a3364242a05dc5a80a93fa55804031af}
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
@@ -845,167 +843,10 @@
       \keyw{large-scale machine learning}
     \endentry
     \entry{ttZ_paper}{article}{}
-      \name{author}{32}{}{%
-        {{hash=dcddcff0bb61bec7e3893e68b068aabd}{%
-           family={Cardillo},
-           familyi={C\bibinitperiod},
-           given={Fabio},
-           giveni={F\bibinitperiod}}}%
-        {{hash=64dfe9b70a2d83124bdc792788995a53}{%
-           family={Mccarthy},
-           familyi={M\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod}}}%
-        {{hash=f4cafe0dd8061b5d7c80bb9e29253fe5}{%
-           family={Babal},
-           familyi={B\bibinitperiod},
-           given={Dominik},
-           giveni={D\bibinitperiod}}}%
-        {{hash=b4443aaee6b638204e994fdba5f15842}{%
-           family={Bartos},
-           familyi={B\bibinitperiod},
-           given={Pavol},
-           giveni={P\bibinitperiod}}}%
-        {{hash=910b1b68a506107ed278ab7b005e07cb}{%
-           family={Ta},
-           familyi={T\bibinitperiod},
-           given={Duc\bibnamedelima Bao},
-           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{hash=9930f6a04e276114915bb7635ba6b219}{%
-           family={Biebel},
-           familyi={B\bibinitperiod},
-           given={Otmar},
-           giveni={O\bibinitperiod}}}%
-        {{hash=812beaf92d41bba7d1cfd3c82fbde52a}{%
-           family={Bierwagen},
-           familyi={B\bibinitperiod},
-           given={Katharina},
-           giveni={K\bibinitperiod}}}%
-        {{hash=948412f5ff39ee64db9af1ff103365a5}{%
-           family={Dubovsky},
-           familyi={D\bibinitperiod},
-           given={Michal},
-           giveni={M\bibinitperiod}}}%
-        {{hash=2bdd25f1a0d719e185641cd1b8f52764}{%
-           family={Evans},
-           familyi={E\bibinitperiod},
-           given={Meirin\bibnamedelima Oan},
-           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-        {{hash=e143cad6d887b5dff549c405ae7cc464}{%
-           family={Fabbri},
-           familyi={F\bibinitperiod},
-           given={Federica},
-           giveni={F\bibinitperiod}}}%
-        {{hash=392ad853caeb612604a9c838a88741b3}{%
-           family={Fischer},
-           familyi={F\bibinitperiod},
-           given={Florian\bibnamedelima Christoph},
-           giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=ca4c01c720baaeeda0a158729f8e25fb}{%
-           family={Howarth},
-           familyi={H\bibinitperiod},
-           given={James},
-           giveni={J\bibinitperiod}}}%
-        {{hash=5d44748d0eef8c0508d0e715ed0a73d6}{%
-           family={Kennedy},
-           familyi={K\bibinitperiod},
-           given={Philip\bibnamedelima David},
-           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=dc8750eba7d1aab885d83ba070b8852a}{%
-           family={Macdonald},
-           familyi={M\bibinitperiod},
-           given={Calum\bibnamedelima Michael},
-           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=7f146077d126d3e49c80101b87504a3c}{%
-           family={Ravina},
-           familyi={R\bibinitperiod},
-           given={Baptiste},
-           giveni={B\bibinitperiod}}}%
-        {{hash=3e8837007aca76e0ee978b9f1445c6a5}{%
-           family={Owen},
-           familyi={O\bibinitperiod},
-           given={Mark},
-           giveni={M\bibinitperiod}}}%
-        {{hash=a90126b22fff102bae14c0f0e112c6d1}{%
-           family={Mince},
-           familyi={M\bibinitperiod},
-           given={Laurynas},
-           giveni={L\bibinitperiod}}}%
-        {{hash=1d6b437fe1b710f491b82a9829f6cad8}{%
-           family={Williams},
-           familyi={W\bibinitperiod},
-           given={Sarah},
-           giveni={S\bibinitperiod}}}%
-        {{hash=eba206b017140f57eb5c5bf4c2c3b937}{%
-           family={Shaw},
-           familyi={S\bibinitperiod},
-           given={Kate},
-           giveni={K\bibinitperiod}}}%
-        {{hash=4cb61c298ed8bf0bc4d404cfa96ce75c}{%
-           family={Stevenson},
-           familyi={S\bibinitperiod},
-           given={Thomas\bibnamedelima James},
-           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=9b100f6863af1e27b35e98ce63202211}{%
-           family={Menke},
-           familyi={M\bibinitperiod},
-           given={Sven},
-           giveni={S\bibinitperiod}}}%
-        {{hash=35ee4d174683176dbab98a14ca07a207}{%
-           family={Wagner-kuhr},
-           familyi={W\bibinithyphendelim k\bibinitperiod},
-           given={Jeannine},
-           giveni={J\bibinitperiod}}}%
-        {{hash=654a8066dcdec0c4b86fc000a46c5e19}{%
-           family={Nellist},
-           familyi={N\bibinitperiod},
-           given={Clara},
-           giveni={C\bibinitperiod}}}%
-        {{hash=6c0a66bd051a8a801f06fd456dcf2c1b}{%
-           family={Protopopescu},
-           familyi={P\bibinitperiod},
-           given={Serban},
-           giveni={S\bibinitperiod}}}%
-        {{hash=af5f570c3651a5f4b94859a3c8abee79}{%
-           family={Racko},
-           familyi={R\bibinitperiod},
-           given={Michal},
-           giveni={M\bibinitperiod}}}%
-        {{hash=0b98dcf729d56c6b98c5420e00499bb7}{%
-           family={Schulte},
-           familyi={S\bibinitperiod},
-           given={Alexandra},
-           giveni={A\bibinitperiod}}}%
-        {{hash=9f9c1e16c145a1e1b5c59d831738b39a}{%
-           family={Shaikh},
-           familyi={S\bibinitperiod},
-           given={Nabila\bibnamedelima Wahab},
-           giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=fa772160928387efe1e6e37901076a30}{%
-           family={Sjoelin},
-           familyi={S\bibinitperiod},
-           given={Joergen},
-           giveni={J\bibinitperiod}}}%
-        {{hash=2dcf67114ea2e1927d5665855198f48f}{%
-           family={Lopez\bibnamedelima Solis},
-           familyi={L\bibinitperiod\bibinitdelim S\bibinitperiod},
-           given={Alvaro},
-           giveni={A\bibinitperiod}}}%
-        {{hash=f9a407337a7fb8c5dbe88b0ba80ace2d}{%
-           family={Tokar},
-           familyi={T\bibinitperiod},
-           given={Stano},
-           giveni={S\bibinitperiod}}}%
-        {{hash=457bdfc2256a70fe499f5a06a1ff760f}{%
-           family={Vivarelli},
-           familyi={V\bibinitperiod},
-           given={Iacopo},
-           giveni={I\bibinitperiod}}}%
-        {{hash=7a705c74ba59d0e0d28f39e949a8a184}{%
-           family={Moreno\bibnamedelima Llacer},
-           familyi={M\bibinitperiod\bibinitdelim L\bibinitperiod},
-           given={Maria},
-           giveni={M\bibinitperiod}}}%
+      \name{author}{1}{}{%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
       }
       \list{institution}{1}{%
         {CERN}%
@@ -1013,10 +854,10 @@
       \list{location}{1}{%
         {Geneva}%
       }
-      \strng{namehash}{8205afbb616a72a1f9d85ee74fc2004d}
-      \strng{fullhash}{245b7b2fc3c1d24443a723fdedc9e163}
-      \strng{authornamehash}{8205afbb616a72a1f9d85ee74fc2004d}
-      \strng{authorfullhash}{245b7b2fc3c1d24443a723fdedc9e163}
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
@@ -1030,19 +871,15 @@
       \endverb
     \endentry
     \entry{LUCID2}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{1}{}{%
-        {{hash=308f0ec958b77802495b56e957fba5b4}{%
-           family={Avoni},
-           familyi={A\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod}}}%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{8a31cc92f526a770cf7840723038ef37}
-      \strng{fullhash}{8a31cc92f526a770cf7840723038ef37}
-      \strng{authornamehash}{8a31cc92f526a770cf7840723038ef37}
-      \strng{authorfullhash}{8a31cc92f526a770cf7840723038ef37}
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
       \field{sortinit}{3}
       \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
@@ -1059,30 +896,15 @@
       \endverb
     \endentry
     \entry{jes}{article}{}
-      \name{author}{4}{}{%
-        {{hash=9ecfda666f0459b6c19c8c962038a023}{%
-           family={Aad},
-           familyi={A\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod}}}%
-        {{hash=2ed13db12d6c87c33097ca8881ad9282}{%
-           family={Abajyan},
-           familyi={A\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=7a99d977d7f839f1386ca659f8f9505a}{%
-           family={Abbott},
-           familyi={A\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=c4b12c788d52a4ea109e98f5758529ae}{%
-           family={{etal}},
-           familyi={e\bibinitperiod}}}%
+      \name{author}{1}{}{%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{ae55f906ac43ce98f52f0b2b76f11197}
-      \strng{fullhash}{be5730149185af71f437280391cfd313}
-      \strng{authornamehash}{ae55f906ac43ce98f52f0b2b76f11197}
-      \strng{authorfullhash}{be5730149185af71f437280391cfd313}
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
       \field{sortinit}{3}
       \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
