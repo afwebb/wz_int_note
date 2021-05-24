@@ -10,7 +10,7 @@
 % \newcommand*{\ATLASLATEXPATH}{}
 %-------------------------------------------------------------------------------
 %\documentclass[USenglish,texlive=2016,cernpreprint,NOTE,paper=A4]{\ATLASLATEXPATH atlasdoc}
-\documentclass[NOTE, atlasdraft=true, texlive=2016, UKenglish]{\ATLASLATEXPATH atlasdoc}
+\documentclass[PAPER, atlasdraft=true, texlive=2016, UKenglish]{\ATLASLATEXPATH atlasdoc}
 %\usepackage{\ATLASLATEXPATH atlasphysics}
 \usepackage{float}
 \usepackage{numprint}
@@ -181,7 +181,7 @@ For the 2-jet regions, an expected significance of 1.7 is observed for WZ + b, w
 %-------------------------------------------------------------------------------
 % If you use biblatex and either biber or bibtex to process the bibliography
 % just say \printbibliography here
-\printbibliography
+%\printbibliography
 % If you want to use the traditional BibTeX you need to use the syntax below.
 %\bibliographystyle{bib/bst/atlasBibStyleWithTitle}
 %\bibliography{wz_heavy_flavor,bib,ATLAS,bib/CMS,bib/ConfNotes,bib/PubNotes}
@@ -191,7 +191,11 @@ For the 2-jet regions, an expected significance of 1.7 is observed for WZ + b, w
 % Print the list of contributors to the analysis
 % The argument gives the fraction of the text width used for the names
 %-------------------------------------------------------------------------------
-%\clearpage
+
+\clearpage
+\section*{Acknowledgements}
+
+\input{acknowledgements/Acknowledgements}
 %\PrintAtlasContribute{0.30}
 
 
@@ -240,7 +244,7 @@ The reconstructed top mass distribution for tZ and $WZ$ + b can be seen in figur
 \fi
 
 \clearpage
-%\printbibliography
+\printbibliography
 
 
 \end{document}

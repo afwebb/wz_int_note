@@ -2158,6 +2158,7 @@
     <bcf:citekey order="32">jes</bcf:citekey>
     <bcf:citekey order="33">btag_cal</bcf:citekey>
     <bcf:citekey order="34">tZ_paper</bcf:citekey>
+    <bcf:citekey order="35">ATL-GEN-PUB-2016-002</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

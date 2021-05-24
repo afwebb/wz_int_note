@@ -2,9 +2,9 @@
 \subsection{Fit Procedure}
 \label{sec:fit}
 
-A maximum-likelihood fit is performed over the various fit regions described in Section \ref{sec:evt_selection} in order to extract the best-fit value of the WZ + b-jet and WZ + charm jet contributions for events with both 1 and 2 associated jets.
+A maximum-likelihood fit is performed over the total yields in the various fit regions described in Section \ref{sec:evt_selection} in order to extract the best-fit value of the WZ + b-jet and WZ + charm jet contributions for events with both 1 and 2 associated jets.
 
-Because the fit regions are defined by the number of associated jets at reco-level, an unfolding procedure is applied to the signal in order to account for differences in the number of truth jets compared to the number of reco-jets. The $WZ$ + b, $WZ$ + charm and $WZ$ + light contributions are separated into independent samples based on the number of truth jets in each event. WZ + 1 truth-jet and WZ + 2 truth-jets are treated as signal samples, while WZ + 0 truth-jets and WZ + $>=$3 truth-jets are treated as an additional background. 
+Because the fit regions are defined by the number of associated jets at reco-level, the signal is split into separate samples based on the number of truth jets in order to account for differences in the number of truth jets compared to the number of reco-jets. The $WZ$ + b, $WZ$ + charm and $WZ$ + light contributions are separated into independent samples based on the number of truth jets in each event. WZ + 1 truth-jet and WZ + 2 truth-jets are treated as signal samples, while WZ + 0 truth-jets and WZ + $>=$3 truth-jets are treated as an additional background. 
 
 A maximum likelihood fit to data is performed simultaneously in the regions described in Section \ref{sec:evt_selection}, summarized in figure \ref{fig:summary}. The six signal templates, which include WZ+b 1-jet, WZ+c 1-jet, WZ+l 1-jet, WZ+b 2-jets, WZ+c 2-jets, WZ+l 2-jets, are allowed to float, while the remaining background contributions are held fixed. The parameters $\mu_{WZ+b - 1-jet}$, $\mu_{WZ+charm 1-jet}$, $\mu_{WZ+light - 1-jet}$, $\mu_{WZ+b - 2-jet}$, $\mu_{WZ+charm 2-jet}$, $\mu_{WZ+light - 2-jet}$, where $\mu = \sigma_{observed}/\sigma_{SM} $, are extracted from the fit. A simultaneous fit is performed over all 1-jet and 2-jet regions.
 
@@ -26,7 +26,7 @@ The fiducial volume at particle level is defined based on the number of stable l
 
 Only leptons which do not originate from hadron or $\tau$ decays are considered. The phase space definitions use dressed kinematics of the final state particles. Leptons are dressed by summing the momentum of photons within a cone of $\Delta R < 0.1$ of the lepton to correct the leptons energy. Particle level jets are reconstructed using the anti-$k_t$ algorithm with a radius of $R=0.4$. 
 
-The kinematic selection used at particle level closely follows the selection used at reconstructed level. Three light leptons with total charge $\pm$1 and one or two associated jets  Leptons and jets are required to have $|\eta < 2.5|$, with the transition region included. The OS leptons is required to have $p_T > 10$ GeV, while the SS leptons are required to have $p_T > 20$ GeV. Jets are required to have $p_T > 25$ GeV. The base fiducial region definition is summarized below:
+The kinematic selection used at particle level closely follows the selection used at reconstructed level. Three light leptons with total charge $\pm$1 and one or two associated jets  Leptons and jets are required to have $|\eta| < 2.5$, with the transition region included. The OS leptons is required to have $p_T > 10$ GeV, while the SS leptons are required to have $p_T > 20$ GeV. Jets are required to have $p_T > 25$ GeV. The base fiducial region definition is summarized below:
 
 \begin{itemize}
 \item Three light leptons with total charge $\pm$1, $|\eta| < 2.5$
@@ -42,6 +42,24 @@ The result of the fit is used to extract the cross-section in this fiducial regi
 \label{sec:resSum}
 
 The Asimov fit for 1-jet events gives an expected $\mu$ value of $1.00^{+0.47}_{-0.43}(stat)^{+0.30}_{-0.27}(sys)$ for $WZ$ + b. The fitted cross-section modifiers for $WZ$ + charm and $WZ$ + light are $1.00 \pm 0.17 \pm 0.17$ and $1.00 \pm 0.06 \pm 0.14 $, respectively.
+
+\hspace{-1in}\begin{table}[H]
+\begin{adjustwidth}{-3em}{-3em}
+\begin{center}
+\begin{tabular}{l|cc}
+\hline
+Process & $\mu$ & $\sigma$ \\
+WZ + b - 1-jet & $1.00^{+0.47}_{-0.43}(stat)^{+0.30}_{-0.27}(sys)$ & \\
+WZ + c - 1-jet & $1.00 \pm 0.17(stat) \pm 0.17(sys)$ & \\
+WZ + b - 2-jet & $1.00^{+0.53}_{-0.51}(stat)^{+0.39}_{-0.34}(sys)$ & \\
+WZ + c - 2-jet & $1.00 \pm 0.25(stat) \pm 0.21(sys)$ & \\
+\hline
+\end{tabular}
+\caption{Correlations between the various components of WZ}
+\label{tab:WZ_res }
+\end{center}
+\end{adjustwidth}
+\end{table}
 
 The expected cross-section of WZ+b with 1-jet is $1.74^{+0.82}_{-0.75}(stat)^{+0.53}_{-0.48}(sys)$ fb, and $14.6 \pm 2.5 (stat) \pm 2.3 (sys)$ fb for WZ + charm, with a correlation of -0.15 between them. An expected significance of 2.0 is observed for WZ + b in this region. 
 
@@ -77,7 +95,7 @@ The impact of each NP is calculated by performing the fit with the parameter of 
     \centering
     \begin{tabular}{l|cc}
         \hline\hline
-        Uncertainty Source & \multicolumn{2}{c}{$\Delta \mu$ }  \\
+        Uncertainty Source & \multicolumn{2}{c}{$\Delta \sigma/\sigma_{nominal}$ }  \\
         \hline
         WZ + 1-jet light cross-section & 0.13 & -0.15 \\
         WZ + 1-jet charm cross-section & -0.10 & 0.12 \\
@@ -120,7 +138,7 @@ The same set of systematic uncertainties consider for the 1-jet fit are included
     \centering
     \begin{tabular}{l|cc}
         \hline\hline
-        Uncertainty Source & \multicolumn{2}{c}{$\Delta \mu$ }  \\
+        Uncertainty Source & \multicolumn{2}{c}{$\Delta \sigma/\sigma_{nominal}$ }  \\
         \hline
         WZ + c 2-jet cross-section & -0.13 & 0.16 \\
         WZ + l 2-jet cross-section & 0.12 & -0.09 \\

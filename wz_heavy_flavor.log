@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  23 MAY 2021 13:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  24 MAY 2021 10:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**wz_heavy_flavor
+**wz_heavy_flavor.tex
 (./wz_heavy_flavor.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
@@ -48,7 +48,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-atlasdoc: ATLAS Note
+atlasdoc: ATLAS paper
 atlasdoc: use KOMA-script scrartcl class
 atlasdoc: paper size set to default A4
 \ADOC@skipbeforetitle=\dimen102
@@ -2713,7 +2713,7 @@ Package biblatex Info: ... file 'wz_heavy_flavor.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Alwall:2014hca
+(biblatex)                Ball:2012cx
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2727,7 +2727,7 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Ball:2012cx
+(biblatex)                Alwall:2014hca
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -3010,215 +3010,33 @@ nput line 13.
 (pdftex.def)             Requested size: 292.77632pt x 219.59367pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 9.0pt on input line 13.
- [8]
-<figures/tZ_bdt/feature_importance.png, id=256, 722.7pt x 433.62pt>
-File: figures/tZ_bdt/feature_importance.png Graphic file (type png)
+ [8]) (./sections/tZInt.tex
 
-<use figures/tZ_bdt/feature_importance.png>
-Package pdftex.def Info: figures/tZ_bdt/feature_importance.png used on input li
-ne 22.
-(pdftex.def)             Requested size: 376.4258pt x 225.85422pt.
- [9pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
- has been already used, duplicate ignored
+LaTeX Warning: Citation 'Madgraph' on page 9 undefined on input line 4.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.26 
-      <./figures/tZ_bdt_ab127/plots_nlo/xgb_score.png>]) (./sections/tZInt.tex
-
-LaTeX Warning: Citation 'Madgraph' on page 10 undefined on input line 4.
-
-[10pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.9 
-     <./figures/tZ_bdt/feature_importance.png>]
-Package epstopdf Info: Source file: <figures/tZInterference/lep1pt.eps>
-(epstopdf)                    date: 2021-02-11 19:35:43
-(epstopdf)                    size: 21099410 bytes
-(epstopdf)             Output file: <figures/tZInterference/lep1pt-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2021-02-17 12:12:55
-(epstopdf)                    size: 76445 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/lep
-1pt-eps-converted-to.pdf figures/tZInterference/lep1pt.eps>
-(epstopdf)             \includegraphics on input line 13.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/tZInterference/lep1pt-eps-converted-to
-.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
-d
-
-<figures/tZInterference/lep1pt-eps-converted-to.pdf, id=270, 569.12625pt x 387.
-4475pt>
-File: figures/tZInterference/lep1pt-eps-converted-to.pdf Graphic file (type pdf
-)
- <use figures/tZInterference/lep1pt-eps-converted-to.pdf>
-Package pdftex.def Info: figures/tZInterference/lep1pt-eps-converted-to.pdf use
-d on input line 13.
-(pdftex.def)             Requested size: 196.57976pt x 133.82915pt.
-Package epstopdf Info: Source file: <figures/tZInterference/lep2pt.eps>
-(epstopdf)                    date: 2021-02-11 19:36:06
-(epstopdf)                    size: 21099261 bytes
-(epstopdf)             Output file: <figures/tZInterference/lep2pt-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2021-02-17 12:13:10
-(epstopdf)                    size: 76443 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/lep
-2pt-eps-converted-to.pdf figures/tZInterference/lep2pt.eps>
-(epstopdf)             \includegraphics on input line 14.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/tZInterference/lep2pt-eps-converted-to
-.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
-d
-
-<figures/tZInterference/lep2pt-eps-converted-to.pdf, id=271, 569.12625pt x 387.
-4475pt>
-File: figures/tZInterference/lep2pt-eps-converted-to.pdf Graphic file (type pdf
-)
- <use figures/tZInterference/lep2pt-eps-converted-to.pdf>
-Package pdftex.def Info: figures/tZInterference/lep2pt-eps-converted-to.pdf use
-d on input line 14.
-(pdftex.def)             Requested size: 196.57976pt x 133.82915pt.
-Package epstopdf Info: Source file: <figures/tZInterference/lep3pt.eps>
-(epstopdf)                    date: 2021-02-11 19:36:28
-(epstopdf)                    size: 21098309 bytes
-(epstopdf)             Output file: <figures/tZInterference/lep3pt-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2021-02-17 12:13:24
-(epstopdf)                    size: 76364 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/lep
-3pt-eps-converted-to.pdf figures/tZInterference/lep3pt.eps>
-(epstopdf)             \includegraphics on input line 15.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/tZInterference/lep3pt-eps-converted-to
-.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
-d
-
-<figures/tZInterference/lep3pt-eps-converted-to.pdf, id=272, 569.12625pt x 387.
-4475pt>
-File: figures/tZInterference/lep3pt-eps-converted-to.pdf Graphic file (type pdf
-)
- <use figures/tZInterference/lep3pt-eps-converted-to.pdf>
-Package pdftex.def Info: figures/tZInterference/lep3pt-eps-converted-to.pdf use
-d on input line 15.
-(pdftex.def)             Requested size: 196.57976pt x 133.82915pt.
-Package epstopdf Info: Source file: <figures/tZInterference/lepPairMass23.eps>
-(epstopdf)                    date: 2021-02-11 19:37:21
-(epstopdf)                    size: 21099488 bytes
-(epstopdf)             Output file: <figures/tZInterference/lepPairMass23-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2021-02-17 12:13:39
-(epstopdf)                    size: 76545 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/lep
-PairMass23-eps-converted-to.pdf figures/tZInterference/lepPairMass23.eps>
-(epstopdf)             \includegraphics on input line 16.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/tZInterference/lepPairMass23-eps-conve
-rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
- allowed
-
-<figures/tZInterference/lepPairMass23-eps-converted-to.pdf, id=273, 569.12625pt
- x 387.4475pt>
-File: figures/tZInterference/lepPairMass23-eps-converted-to.pdf Graphic file (t
-ype pdf)
- <use figures/tZInterference/lepPairMass23-eps-converted-to.pdf>
-Package pdftex.def Info: figures/tZInterference/lepPairMass23-eps-converted-to.
-pdf used on input line 16.
-(pdftex.def)             Requested size: 196.57976pt x 133.82915pt.
-Package epstopdf Info: Source file: <figures/tZInterference/drll23.eps>
-(epstopdf)                    date: 2021-02-11 19:37:50
-(epstopdf)                    size: 21097435 bytes
-(epstopdf)             Output file: <figures/tZInterference/drll23-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2021-02-17 15:01:00
-(epstopdf)                    size: 75241 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/drl
-l23-eps-converted-to.pdf figures/tZInterference/drll23.eps>
-(epstopdf)             \includegraphics on input line 17.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/tZInterference/drll23-eps-converted-to
-.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
-d
-
-<figures/tZInterference/drll23-eps-converted-to.pdf, id=274, 569.12625pt x 387.
-4475pt>
-File: figures/tZInterference/drll23-eps-converted-to.pdf Graphic file (type pdf
-)
- <use figures/tZInterference/drll23-eps-converted-to.pdf>
-Package pdftex.def Info: figures/tZInterference/drll23-eps-converted-to.pdf use
-d on input line 17.
-(pdftex.def)             Requested size: 196.57976pt x 133.82915pt.
-Package epstopdf Info: Source file: <figures/tZInterference/btpt.eps>
-(epstopdf)                    date: 2021-02-11 19:37:59
-(epstopdf)                    size: 21099656 bytes
-(epstopdf)             Output file: <figures/tZInterference/btpt-eps-converted-
-to.pdf>
-(epstopdf)                    date: 2021-02-17 12:14:08
-(epstopdf)                    size: 76636 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/tZInterference/btp
-t-eps-converted-to.pdf figures/tZInterference/btpt.eps>
-(epstopdf)             \includegraphics on input line 19.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./figures/tZInterference/btpt-eps-converted-to.p
-df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-
-<figures/tZInterference/btpt-eps-converted-to.pdf, id=275, 569.12625pt x 387.44
-75pt>
-File: figures/tZInterference/btpt-eps-converted-to.pdf Graphic file (type pdf)
- <use figures/tZInterference/btpt-eps-converted-to.pdf>
-Package pdftex.def Info: figures/tZInterference/btpt-eps-converted-to.pdf used 
-on input line 19.
-(pdftex.def)             Requested size: 196.57976pt x 133.82915pt.
- [11]) [12pdfTeX warning (ext4): destination with the same identifier (name{fig
-ure.3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.145 
-       <./figures/tZInterference/lep1pt-eps-converted-to.pdf> <./figures/tZInte
-rference/lep2pt-eps-converted-to.pdf> <./figures/tZInterference/lep3pt-eps-conv
-erted-to.pdf> <./figures/tZInterference/lepPairMass23-eps-converted-to.pdf> <./
-figures/tZInterference/drll23-eps-converted-to.pdf> <./figures/tZInterference/b
-tpt-eps-converted-to.pdf>] (./sections/evtSel.tex
-
-LaTeX Warning: Reference `tbl:selection' on page 13 undefined on input line 2.
-
-
-LaTeX Warning: Reference `subsec:leps' on page 13 undefined on input line 9.
-
-
-LaTeX Warning: Reference `subsec:jets' on page 13 undefined on input line 15.
-
-[13]
-
-LaTeX Warning: Reference `subsec:bjets' on page 14 undefined on input line 51.
-
-[14pdfTeX warning (ext4): destination with the same identifier (name{table.3}) 
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.65 
-     ]) (./sections/sys.tex [15] [16pdfTeX warning (ext4): destination with the
+l.5 
+     <./figures/tZ_bdt_ab127/plots_nlo/xgb_score.png>]) (./sections/evtSel.tex
+[10]
+
+LaTeX Warning: Reference `subsec:bjets' on page 11 undefined on input line 51.
+
+[11pdfTeX warning (ext4): destination with the same identifier (name{table.3}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.63 
+     ]) (./sections/sys.tex [12] [13pdfTeX warning (ext4): destination with the
  same identifier (name{table.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.53 
+l.51 
      ]
 \openout2 = `sections/xsecUnc.aux'.
 
@@ -3227,7 +3045,7 @@ LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 (Font)              scaled to size 8.09995pt on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 9.0pt on input line 1.
-)) [17
+) [14
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
@@ -3235,17 +3053,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.163 
-      ] (./sections/truthJetResults.tex
-<figures/sys_truthJets/Plots/Summary_postFit.png, id=430, 899.36pt x 674.52pt>
+l.68 
+     ]) (./sections/truthJetResults.tex
+<figures/sys_truthJets/Plots/Summary_postFit.png, id=314, 899.36pt x 674.52pt>
 File: figures/sys_truthJets/Plots/Summary_postFit.png Graphic file (type png)
 
 <use figures/sys_truthJets/Plots/Summary_postFit.png>
 Package pdftex.def Info: figures/sys_truthJets/Plots/Summary_postFit.png used o
 n input line 13.
 (pdftex.def)             Requested size: 376.4258pt x 282.3187pt.
- [18] [19pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.4}) has been already used, duplicate ignored
+ [15] [16pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -3253,129 +3071,140 @@ l.28
       <./figures/sys_truthJets/Plots/Summary_postFit.png>]
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 32.
+ [17pdfTeX warning (ext4): destination with the same identifier (name{table.6})
+ has been already used, duplicate ignored
 
-Overfull \hbox (37.7775pt too wide) in paragraph at lines 57--68
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.69 
+     ]
+Overfull \hbox (37.7775pt too wide) in paragraph at lines 75--86
  [] 
  []
 
-[20] <figures/sys_truthJets/Ranking.png, id=453, 598.235pt x 1111.15125pt>
+<figures/sys_truthJets/Ranking.png, id=335, 598.235pt x 1111.15125pt>
 File: figures/sys_truthJets/Ranking.png Graphic file (type png)
 
 <use figures/sys_truthJets/Ranking.png>
 Package pdftex.def Info: figures/sys_truthJets/Ranking.png used on input line 1
-04.
+22.
 (pdftex.def)             Requested size: 292.77632pt x 543.80763pt.
- [21pdfTeX warning (ext4): destination with the same identifier (name{table.6})
+ [18pdfTeX warning (ext4): destination with the same identifier (name{table.7})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.108 
-      pdfTeX warning (ext4): destination with the same identifier (name{table.7
+l.126 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.8
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.108 
-      ] [22pdfTeX warning (ext4): destination with the same identifier (name{fi
-gure.5}) has been already used, duplicate ignored
+l.126 
+      ] [19pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.110 
+l.128 
        <./figures/sys_truthJets/Ranking.png>]
-<figures/sys_truthJets_2j/Ranking.png, id=466, 598.235pt x 1111.15125pt>
+<figures/sys_truthJets_2j/Ranking.png, id=350, 598.235pt x 1111.15125pt>
 File: figures/sys_truthJets_2j/Ranking.png Graphic file (type png)
 
 <use figures/sys_truthJets_2j/Ranking.png>
 Package pdftex.def Info: figures/sys_truthJets_2j/Ranking.png used on input lin
-e 147.
+e 165.
 (pdftex.def)             Requested size: 292.77632pt x 543.80763pt.
- [23pdfTeX warning (ext4): destination with the same identifier (name{table.8})
+ [20pdfTeX warning (ext4): destination with the same identifier (name{table.9})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.151 
-      ]) [24pdfTeX warning (ext4): destination with the same identifier (name{f
-igure.6}) has been already used, duplicate ignored
+l.169 
+      ]) [21pdfTeX warning (ext4): destination with the same identifier (name{f
+igure.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.172 \section{Conclusion}
-                           <./figures/sys_truthJets_2j/Ranking.png>]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 184.
- [25]
-Overfull \hbox (3.876pt too wide) in paragraph at lines 189--189
-[]\T1/ntxtlf/m/n/10.95 E. Re. `  Single-top Wt-channel pro-duc-tion matched wit
-h par-ton showers us-ing the POWHEG
- []
+                           <./figures/sys_truthJets_2j/Ranking.png>] [22]
+(./acknowledgements/Acknowledgements.tex) [23
 
-[26] [27]
+]
 
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 205.
+(hyperref)                than one, level fixed on input line 209.
 
 (./sections/incFit.tex
-<figures/sys_inclusive/Plots/Summary_postFit.png, id=560, 899.36pt x 674.52pt>
+<figures/sys_inclusive/Plots/Summary_postFit.png, id=373, 899.36pt x 674.52pt>
 File: figures/sys_inclusive/Plots/Summary_postFit.png Graphic file (type png)
 
 <use figures/sys_inclusive/Plots/Summary_postFit.png>
 Package pdftex.def Info: figures/sys_inclusive/Plots/Summary_postFit.png used o
 n input line 12.
 (pdftex.def)             Requested size: 376.4258pt x 282.3187pt.
- [28
+ [24
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.18 
       <./figures/sys_inclusive/Plots/Summary_postFit.png>]
-<figures/sys_inclusive/Ranking.png, id=568, 598.235pt x 1111.15125pt>
+<figures/sys_inclusive/Ranking.png, id=381, 598.235pt x 1111.15125pt>
 File: figures/sys_inclusive/Ranking.png Graphic file (type png)
 
 <use figures/sys_inclusive/Ranking.png>
 Package pdftex.def Info: figures/sys_inclusive/Ranking.png used on input line 4
 8.
 (pdftex.def)             Requested size: 292.77632pt x 543.80763pt.
- [29pdfTeX warning (ext4): destination with the same identifier (name{table.9})
- has been already used, duplicate ignored
+ [25pdfTeX warning (ext4): destination with the same identifier (name{table.10}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.52 
-     ]) [30pdfTeX warning (ext4): destination with the same identifier (name{fi
-gure.8}) has been already used, duplicate ignored
+     ]) [26pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.209 \subsection{Alternate tZ Inclusive Fit}
+l.213 \subsection{Alternate tZ Inclusive Fit}
                                               <./figures/sys_inclusive/Ranking.
 png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 209.
+(hyperref)                than one, level fixed on input line 213.
 
 (./sections/with_tZ.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 2.
 
-) [31pdfTeX warning (ext4): destination with the same identifier (name{table.10
+) [27pdfTeX warning (ext4): destination with the same identifier (name{table.11
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.242 \clearpage
+l.246 \clearpage
                 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 10.95pt on input line 247.
+
+Overfull \hbox (3.876pt too wide) in paragraph at lines 248--248
+[]\T1/ntxtlf/m/n/10.95 E. Re. `  Single-top Wt-channel pro-duc-tion matched wit
+h par-ton showers us-ing the POWHEG
+ []
+
+[28
+
+] [29] [30]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
  (./wz_heavy_flavor.aux (./sections/xsecUnc.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 246.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
 Package rerunfilecheck Info: File `wz_heavy_flavor.out' has not changed.
 (rerunfilecheck)             Checksum: C2168A22ECF536CFC1D7DCD2DAF818E6;1530.
 
@@ -3399,13 +3228,13 @@ Package logreq Info: Writing requests to 'wz_heavy_flavor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39957 strings out of 493013
- 781249 string characters out of 6123688
- 1270220 words of memory out of 5000000
- 42695 multiletter control sequences out of 15000+600000
+ 39915 strings out of 493013
+ 779797 string characters out of 6123688
+ 1270275 words of memory out of 5000000
+ 42669 multiletter control sequences out of 15000+600000
  198115 words of font info for 278 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,24n,74p,10407b,1997s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,24n,74p,10411b,1991s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/enc/dvips/newt
 x/ntx-ec-tlf-sc.enc}{/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fo
 nts/enc/dvips/tex-gyre/q-ts1.enc}{/cvmfs/sft.cern.ch/lcg/external/texlive/2016/
@@ -3430,10 +3259,10 @@ cg/external/texlive/2016/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></cvmf
 s/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/newtx/txb
 sys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/pu
 blic/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (31 pages, 990776 bytes).
+Output written on wz_heavy_flavor.pdf (30 pages, 525209 bytes).
 PDF statistics:
- 667 PDF objects out of 1000 (max. 8388607)
- 571 compressed objects within 6 object streams
- 110 named destinations out of 1000 (max. 500000)
- 280 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 560 PDF objects out of 1000 (max. 8388607)
+ 497 compressed objects within 5 object streams
+ 104 named destinations out of 1000 (max. 500000)
+ 245 words of extra memory for PDF output out of 10000 (max. 10000000)
 

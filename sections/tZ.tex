@@ -15,14 +15,14 @@ The training samples included only events meeting the requirements of the 1-jet,
     \label{fig:tZ_bdt}
 \end{figure}
 
-The relative important of each input feature in the model, measured by how often they appeared in the decision trees, is shown in figure \ref{fig:tZ_fImp}.
+%The relative important of each input feature in the model, measured by how often they appeared in the decision trees, is shown in figure \ref{fig:tZ_fImp}.
 
-\begin{figure}[H] 
-\center
-        \includegraphics[width=0.9\linewidth]{tZ_bdt/feature_importance.png}
-        \caption{Relative importance of each input feature in the model.}
-        \label{fig:tZ_fImp}
-\end{figure}
+%\begin{figure}[H] 
+%\center
+%        \includegraphics[width=0.9\linewidth]{tZ_bdt/feature_importance.png}
+%        \caption{Relative importance of each input feature in the model.}
+%        \label{fig:tZ_fImp}
+%\end{figure}
 
 A BDT score of 0.12 is selected as a cutoff, where events with scores higher than this form a signal enriched region, and events with scores lower than this form a tZ control region. This cutoff is selected by varying the value of this cutoff in stat-only Asimov fits, and selecting the value that minimizes the statistical uncertainty on WZ + b.
 

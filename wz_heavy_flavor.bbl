@@ -1271,10 +1271,30 @@
       \verb https://cds.cern.ch/record/2722504
       \endverb
     \endentry
+    \entry{ATL-GEN-PUB-2016-002}{booklet}{}
+      \name{author}{1}{}{%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{{ATL-GEN-PUB-2016-002}}
+      \field{title}{{ATLAS Computing Acknowledgements}}
+      \verb{url}
+      \verb https://cds.cern.ch/record/2202407
+      \endverb
+    \endentry
   \endsortlist
-  \missing{Alwall:2014hca}
-  \missing{Bahr:2008pv}
   \missing{Ball:2012cx}
+  \missing{Bahr:2008pv}
+  \missing{Alwall:2014hca}
 \endrefsection
 \endinput
 
