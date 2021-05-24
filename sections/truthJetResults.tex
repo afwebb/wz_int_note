@@ -19,25 +19,6 @@ As described in Section \ref{sec:sys}, there are 230 systematic uncertainties th
 
 Several alternate fit strategies are documented in Appendices \ref{sec:incFit}-\ref{sec:inc_tZ}. These include a measurement of WZ + 1 or 2 jets inclusively, a fit where tZ is allowed to float, and a case where tZ is included as part of the signal.
 
-\subsection{Fiducial Region Definition}
-\label{sec:fid}
-
-The fiducial volume at particle level is defined based on the number of stable leptons and jets in each event. Three light leptons with total charge $\pm$1 and one or two associated jets are required. This is separated into four observations based on the number and flavor of associated jets.
-
-Only leptons which do not originate from hadron or $\tau$ decays are considered. The phase space definitions use dressed kinematics of the final state particles. Leptons are dressed by summing the momentum of photons within a cone of $\Delta R < 0.1$ of the lepton to correct the leptons energy. Particle level jets are reconstructed using the anti-$k_t$ algorithm with a radius of $R=0.4$. 
-
-The kinematic selection used at particle level closely follows the selection used at reconstructed level. Three light leptons with total charge $\pm$1 and one or two associated jets  Leptons and jets are required to have $|\eta| < 2.5$, with the transition region included. The OS leptons is required to have $p_T > 10$ GeV, while the SS leptons are required to have $p_T > 20$ GeV. Jets are required to have $p_T > 25$ GeV. The base fiducial region definition is summarized below:
-
-\begin{itemize}
-\item Three light leptons with total charge $\pm$1, $|\eta| < 2.5$
-\item OS lepton with \pt$>$10 GeV, SS leptons with \pt$>$20 GeV
-\item One OSSF lepton pair with $|M(ll)-91.2\ GeV| < 10\ GeV$
-\item One or two associated truth jets with $p_T >$25 GeV, $|\eta| < 2.5$
-%\item At least one truth b-jet or one charm jet
-\end{itemize}
-
-The result of the fit is used to extract the cross-section in this fiducial region for WZ + b and WZ + charm with one associated jet, and WZ + b and WZ + charm with two associated jets, where the number and flavor of the jets is determined at particle level. Events with both charm and b-jets are counted as WZ + b.
-
 \subsection{Results of the Simultaneous Fit}
 \label{sec:resSum}
 
@@ -115,15 +96,6 @@ The impact of each NP is calculated by performing the fit with the parameter of 
     \label{tab:systematics_1j}
 \end{table}
 
-The ranking and impact of those nuisance parameters with the largest contribution to the overall uncertainty is shown in Figure \ref{fig:ranking_1j}.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\linewidth]{sys_truthJets/Ranking.png}
-    \caption{Impact of systematic uncertainties on the signal-strength of $WZ$ + b for events with exactly one jet}
-    \label{fig:ranking_1j}
-\end{figure}
-
 The large impact of the Jet Energy Scale and Jet Flavor Tagging is unsurprising, as the shape of the fit regions depends heavily on the modeling of the jets. The other major sources of uncertainty come from background modelling and cross-section uncertainty. %The pie charts in Figure \ref{fig:pie_chart_1j} show that for the modelling uncertainties that contribute most correspond to the most significant backgrounds. 
 
 %The negative correlations between $\mu_{WZ+charm}$ and $\mu_{WZ+b}$ and $\mu_{WZ+light}$ are expected: $WZ$ + charm is present in both the $WZ$ + b and $WZ$ + light enriched regions, therefore increasing the fraction of charm requires increasing the fraction of $WZ$ + b and $WZ$ + light. This reasoning also explains the positive correlation between $\mu_{WZ+b}$ and $\mu_{WZ+light}$. 
@@ -158,14 +130,13 @@ The same set of systematic uncertainties consider for the 1-jet fit are included
     \label{tab:systematics_2j}
 \end{table}
 
-The ranking and impact of those nuisance parameters with the largest contribution to the overall uncertainty is shown in Figure \ref{fig:ranking_2j}.
+\subsection{Inclusive 1-2 Jet Fit}
+\label{sec:incFit}
+\include{sections/incFit}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\linewidth]{sys_truthJets_2j/Ranking.png}
-    \caption{Impact of systematic uncertainties on the signal-strength of $WZ$ + b in 2-jet events.}
-    \label{fig:ranking_2j}
-\end{figure}
+\subsection{Alternate tZ Inclusive Fit}
+\label{sec:inc_tZ}
+\input{sections/with_tZ}
 
 %The large impact of the Jet Energy Scale and Jet Flavor Tagging is unsurprising, as the shape of the fit regions depends heavily on the modeling of the jets. The other major sources of uncertainty come from background modelling and cross-section uncertainty. %The pie charts in Figure \ref{fig:pie_chart_2j} show that for the modelling uncertainties that contribute most correspond to the most significant backgrounds. 
 

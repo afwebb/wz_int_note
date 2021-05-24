@@ -2141,24 +2141,25 @@
     <bcf:citekey order="15">Ball:2012cx</bcf:citekey>
     <bcf:citekey order="16">powhegtt</bcf:citekey>
     <bcf:citekey order="17">powhegstp</bcf:citekey>
-    <bcf:citekey order="18">ATLAS-CONF-2016-024</bcf:citekey>
-    <bcf:citekey order="19">PERF-2014-05</bcf:citekey>
-    <bcf:citekey order="20">ttW_140</bcf:citekey>
-    <bcf:citekey order="21">ATL-PHYS-PUB-2015-015</bcf:citekey>
-    <bcf:citekey order="22">ATLAS-CONF-2015-029</bcf:citekey>
-    <bcf:citekey order="23">PERF-2014-03</bcf:citekey>
-    <bcf:citekey order="24">btagging</bcf:citekey>
-    <bcf:citekey order="25">ATL-PHYS-PUB-2015-027</bcf:citekey>
-    <bcf:citekey order="26">xgboost_cite</bcf:citekey>
-    <bcf:citekey order="27">ttZ_paper</bcf:citekey>
-    <bcf:citekey order="28">Madgraph</bcf:citekey>
-    <bcf:citekey order="29">ttH_paper</bcf:citekey>
-    <bcf:citekey order="30">lumi</bcf:citekey>
-    <bcf:citekey order="31">LUCID2</bcf:citekey>
-    <bcf:citekey order="32">jes</bcf:citekey>
-    <bcf:citekey order="33">btag_cal</bcf:citekey>
-    <bcf:citekey order="34">tZ_paper</bcf:citekey>
-    <bcf:citekey order="35">ATL-GEN-PUB-2016-002</bcf:citekey>
+    <bcf:citekey order="18">ele_eff</bcf:citekey>
+    <bcf:citekey order="19">Aad:2014fxa</bcf:citekey>
+    <bcf:citekey order="20">PERF-2014-05</bcf:citekey>
+    <bcf:citekey order="21">Aad:2014fxa</bcf:citekey>
+    <bcf:citekey order="22">ttH_comb</bcf:citekey>
+    <bcf:citekey order="23">Cacciari_2008</bcf:citekey>
+    <bcf:citekey order="24">PERF-2014-03</bcf:citekey>
+    <bcf:citekey order="25">btagging</bcf:citekey>
+    <bcf:citekey order="26">met_2018</bcf:citekey>
+    <bcf:citekey order="27">xgboost_cite</bcf:citekey>
+    <bcf:citekey order="28">ttZ_paper</bcf:citekey>
+    <bcf:citekey order="29">Madgraph</bcf:citekey>
+    <bcf:citekey order="30">ttH_comb</bcf:citekey>
+    <bcf:citekey order="31">lumi</bcf:citekey>
+    <bcf:citekey order="32">LUCID2</bcf:citekey>
+    <bcf:citekey order="33">jes</bcf:citekey>
+    <bcf:citekey order="34">btag_cal</bcf:citekey>
+    <bcf:citekey order="35">tZ_paper</bcf:citekey>
+    <bcf:citekey order="36">ATL-GEN-PUB-2016-002</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

@@ -1,27 +1,26 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {UKenglish}
-\contentsline {section}{\numberline {1}Introduction}{4}{section.1}
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
 \contentsline {section}{\numberline {2}The ATLAS Detector}{4}{section.2}
-\contentsline {section}{\numberline {3}Data and Monte Carlo Samples}{5}{section.3}
-\contentsline {subsection}{\numberline {3.1}Data Samples}{5}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Monte Carlo Samples}{5}{subsection.3.2}
-\contentsline {section}{\numberline {4}Object Reconstruction}{6}{section.4}
-\contentsline {section}{\numberline {5}tZ Separation Classifier}{8}{section.5}
-\contentsline {section}{\numberline {6}tZ Interference Studies}{9}{section.6}
-\contentsline {section}{\numberline {7}Event Selection and Signal Region Definitions}{10}{section.7}
-\contentsline {subsection}{\numberline {7.1}Event Preselection}{10}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Fit Regions}{11}{subsection.7.2}
+\contentsline {section}{\numberline {3}Data and Monte Carlo Samples}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}Data Samples}{4}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Monte Carlo Samples}{4}{subsection.3.2}
+\contentsline {section}{\numberline {4}Object Reconstruction}{5}{section.4}
+\contentsline {section}{\numberline {5}tZ Separation Classifier}{7}{section.5}
+\contentsline {section}{\numberline {6}tZ Interference Studies}{8}{section.6}
+\contentsline {section}{\numberline {7}Event Selection and Signal Region Definitions}{9}{section.7}
+\contentsline {subsection}{\numberline {7.1}Event Preselection}{9}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Fit Regions}{10}{subsection.7.2}
 \contentsline {subsection}{\numberline {7.3}Non-Prompt Lepton Estimation}{11}{subsection.7.3}
-\contentsline {section}{\numberline {8}Systematic Uncertainties}{13}{section.8}
-\contentsline {section}{\numberline {9}Results}{15}{section.9}
-\contentsline {subsection}{\numberline {9.1}Fit Procedure}{15}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Fiducial Region Definition}{16}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Results of the Simultaneous Fit}{17}{subsection.9.3}
+\contentsline {section}{\numberline {8}Systematic Uncertainties}{12}{section.8}
+\contentsline {section}{\numberline {9}Results}{14}{section.9}
+\contentsline {subsection}{\numberline {9.1}Fit Procedure}{14}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Results of the Simultaneous Fit}{15}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Inclusive 1-2 Jet Fit}{17}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Alternate tZ Inclusive Fit}{21}{subsection.9.4}
+\contentsline {subsubsection}{\numberline {9.4.1}tZ Inclusive Fit}{21}{subsubsection.9.4.1}
+\contentsline {subsubsection}{\numberline {9.4.2}Floating tZ}{21}{subsubsection.9.4.2}
 \contentsline {section}{\numberline {10}Conclusion}{22}{section.10}
 \contentsline {section}{\numberline {A}Appendices}{24}{appendix.A}
 \contentsline {part}{Appendices}{24}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Inclusive 1+2 Jet Cross Check}{24}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Alternate tZ Inclusive Fit}{27}{subsection.A.2}
-\contentsline {subsubsection}{\numberline {A.2.1}tZ Inclusive Fit}{27}{subsubsection.A.2.1}
-\contentsline {subsubsection}{\numberline {A.2.2}Floating tZ}{27}{subsubsection.A.2.2}
