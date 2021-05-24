@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  24 MAY 2021 15:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  24 MAY 2021 15:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2950,11 +2950,13 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 \tf@toc=\write7
 \openout7 = `wz_heavy_flavor.toc'.
 
- (./sections/intro.tex [2]
+ [2] (./sections/intro.tex
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 11.
-) (./sections/ATLAS.tex)
-[3] (./sections/MC.tex
+ [3
+
+]) (./sections/ATLAS.tex)
+(./sections/MC.tex
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 10.95pt on input line 17.
 ) [4] (./sections/reco.tex [5pdfTeX warning (ext4): destination with the same i
@@ -3197,10 +3199,10 @@ s/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/newtx/txb
 sys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/pu
 blic/newtx/txexs.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/f
 onts/type1/public/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (27 pages, 456692 bytes).
+Output written on wz_heavy_flavor.pdf (27 pages, 456505 bytes).
 PDF statistics:
- 566 PDF objects out of 1000 (max. 8388607)
- 506 compressed objects within 6 object streams
+ 564 PDF objects out of 1000 (max. 8388607)
+ 504 compressed objects within 6 object streams
  99 named destinations out of 1000 (max. 500000)
  227 words of extra memory for PDF output out of 10000 (max. 10000000)
 

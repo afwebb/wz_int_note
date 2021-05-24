@@ -21,16 +21,14 @@
   \sortlist[entry]{none/global/}
     \entry{WZ_36}{article}{}
       \name{author}{1}{}{%
-        {{hash=a3364242a05dc5a80a93fa55804031af}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={ATLAS},
-           giveni={A\bibinitperiod}}}%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{fullhash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authornamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authorfullhash}{a3364242a05dc5a80a93fa55804031af}
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
       \field{sortinit}{1}
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
@@ -582,16 +580,14 @@
     \endentry
     \entry{Aad:2014fxa}{article}{}
       \name{author}{1}{}{%
-        {{hash=a3364242a05dc5a80a93fa55804031af}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={ATLAS},
-           giveni={A\bibinitperiod}}}%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{fullhash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authornamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authorfullhash}{a3364242a05dc5a80a93fa55804031af}
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
       \field{sortinit}{1}
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
@@ -743,66 +739,19 @@
       \endverb
     \endentry
     \entry{btagging}{article}{}
-      \name{author}{10}{}{%
-        {{hash=5fedf3ef7bdb956f82ae570f261deec1}{%
-           family={Aaboud},
-           familyi={A\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=9ecfda666f0459b6c19c8c962038a023}{%
-           family={Aad},
-           familyi={A\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod}}}%
-        {{hash=7a99d977d7f839f1386ca659f8f9505a}{%
-           family={Abbott},
-           familyi={A\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=0f1bde1bb354eb77f57a617f7367bc48}{%
-           family={Abdinov},
-           familyi={A\bibinitperiod},
-           given={O.},
-           giveni={O\bibinitperiod}}}%
-        {{hash=97e23dd46de422fee015ef3bd5d4c99c}{%
-           family={Abeloos},
-           familyi={A\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=10b1fa6e5abb1a5fc5ce762e540c7752}{%
-           family={Abhayasinghe},
-           familyi={A\bibinitperiod},
-           given={D.\bibnamedelimi K.},
-           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=201bc0c419a6fca21122a8a7393e6120}{%
-           family={Abidi},
-           familyi={A\bibinitperiod},
-           given={S.\bibnamedelimi H.},
-           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=4db8d132999d31ff96b173ca0b39dfff}{%
-           family={AbouZeid},
-           familyi={A\bibinitperiod},
-           given={O.\bibnamedelimi S.},
-           giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=c723742a34ec8aa72a0cf85f9d930811}{%
-           family={Abraham},
-           familyi={A\bibinitperiod},
-           given={N.\bibnamedelimi L.},
-           giveni={N\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=c3b2ca4e1cd26593d202b777d068da34}{%
-           family={al.},
-           familyi={a\bibinitperiod},
-           prefix={et},
-           prefixi={e\bibinitperiod}}}%
+      \name{author}{1}{}{%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
       }
       \list{publisher}{2}{%
         {Springer Science}%
         {Business Media LLC}%
       }
-      \strng{namehash}{b032208fe2cc3910aa1524b60007b054}
-      \strng{fullhash}{92afc6df3e2c3368addc14d2855445d3}
-      \strng{authornamehash}{b032208fe2cc3910aa1524b60007b054}
-      \strng{authorfullhash}{92afc6df3e2c3368addc14d2855445d3}
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
@@ -823,20 +772,18 @@
     \endentry
     \entry{met_2018}{article}{}
       \name{author}{1}{}{%
-        {{hash=a3364242a05dc5a80a93fa55804031af}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={ATLAS},
-           giveni={A\bibinitperiod}}}%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
       }
       \list{publisher}{2}{%
         {Springer Science}%
         {Business Media LLC}%
       }
-      \strng{namehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{fullhash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authornamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authorfullhash}{a3364242a05dc5a80a93fa55804031af}
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
@@ -1159,16 +1106,14 @@
     \endentry
     \entry{btag_cal}{article}{}
       \name{author}{1}{}{%
-        {{hash=a3364242a05dc5a80a93fa55804031af}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={ATLAS},
-           giveni={A\bibinitperiod}}}%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{fullhash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authornamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authorfullhash}{a3364242a05dc5a80a93fa55804031af}
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
       \field{sortinit}{3}
       \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
@@ -1187,20 +1132,18 @@
     \endentry
     \entry{tZ_paper}{article}{}
       \name{author}{1}{}{%
-        {{hash=a3364242a05dc5a80a93fa55804031af}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={ATLAS},
-           giveni={A\bibinitperiod}}}%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
       }
       \list{publisher}{2}{%
         {Springer Science}%
         {Business Media LLC}%
       }
-      \strng{namehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{fullhash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authornamehash}{a3364242a05dc5a80a93fa55804031af}
-      \strng{authorfullhash}{a3364242a05dc5a80a93fa55804031af}
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
       \field{sortinit}{3}
       \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
@@ -1209,7 +1152,7 @@
       \field{journaltitle}{Journal of High Energy Physics}
       \field{month}{7}
       \field{number}{7}
-      \field{title}{Observation of the associated production of a top quark and a Z boson in pp collisions at $$ \sqrt{s} $$= 13 TeV with the ATLAS detector}
+      \field{title}{Observation of the associated production of a top quark and a Z boson in pp collisions at $\sqrt{s}$= 13 TeV with the ATLAS detector}
       \field{volume}{2020}
       \field{year}{2020}
       \verb{doi}
