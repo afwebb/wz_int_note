@@ -22,55 +22,37 @@ Several alternate fit strategies are documented in Appendices \ref{sec:incFit}-\
 \subsection{Results of the Simultaneous Fit}
 \label{sec:resSum}
 
-The Asimov fit for 1-jet events gives an expected $\mu$ value of $1.00^{+0.47}_{-0.43}(stat)^{+0.30}_{-0.27}(sys)$ for $WZ$ + b. The fitted cross-section modifiers for $WZ$ + charm and $WZ$ + light are $1.00 \pm 0.17 \pm 0.17$ and $1.00 \pm 0.06 \pm 0.14 $, respectively.
+The results of the Asimov fit for the fiducial regions considered, including both the normalization factors as well as the expected cross-sections, along with their uncertainties, are summarized in Table \ref{tab:WZ_results}.
 
 \hspace{-1in}\begin{table}[H]
 \begin{adjustwidth}{-3em}{-3em}
 \begin{center}
-\begin{tabular}{l|cc}
-\hline
+\begin{tabular}{|l|c|c|}
+\hline\hline
 Process & $\mu$ & $\sigma$ \\
-WZ + b - 1-jet & $1.00^{+0.47}_{-0.43}(stat)^{+0.30}_{-0.27}(sys)$ & \\
-WZ + c - 1-jet & $1.00 \pm 0.17(stat) \pm 0.17(sys)$ & \\
-WZ + b - 2-jet & $1.00^{+0.53}_{-0.51}(stat)^{+0.39}_{-0.34}(sys)$ & \\
-WZ + c - 2-jet & $1.00 \pm 0.25(stat) \pm 0.21(sys)$ & \\
+\hline
+WZ + b - 1-jet & $1.00^{+0.47}_{-0.43}(stat)^{+0.30}_{-0.27}(sys)$ & $1.74^{+0.82}_{-0.75}(stat)^{+0.53}_{-0.48}(sys)$ fb \\
+WZ + c - 1-jet & $1.00 \pm 0.17(stat) \pm 0.17(sys)$ & $14.6 \pm 2.5 (stat) \pm 2.3 (sys)$ fb \\
+WZ + b - 2-jet & $1.00^{+0.53}_{-0.51}(stat)^{+0.39}_{-0.34}(sys)$ & $2.5^{+1.3}_{-1.3}(stat)^{+0.95}_{-0.83}(sys)$ fb \\
+WZ + c - 2-jet & $1.00 \pm 0.25(stat) \pm 0.21(sys)$ & $12.7 \pm 3.2 (stat) \pm 2.7 (sys)$ fb \\
 \hline
 \end{tabular}
-\caption{Correlations between the various components of WZ}
-\label{tab:WZ_res }
+\caption{Normalization factors and cross-sections extracted from the fit for each of the fiducial regions considered}
+\label{tab:WZ_results}
 \end{center}
 \end{adjustwidth}
 \end{table}
 
-The expected cross-section of WZ + $b$ with 1-jet is $1.74^{+0.82}_{-0.75}(stat)^{+0.53}_{-0.48}(sys)$ fb, and $14.6 \pm 2.5 (stat) \pm 2.3 (sys)$ fb for WZ + $c$, with a correlation of -0.15 between them. An expected significance of 2.0 is observed for WZ + $b$ in this region. 
+An expected significance of 2.0$\sigma$ is observed for WZ + $b$ with 1-jet, and 1.7$\sigma$ for WZ + $b$ with two jets. A summary of the correlations between these various measurements is shown in Figure \ref{fig:corrMat}.
 
-For 2-jet events, the fit gives an expected $\mu$ value of $1.00^{+0.53}_{-0.51}(stat)^{+0.39}_{-0.34}(sys)$ for $WZ$ + b. The fitted cross-section modifiers for $WZ$ + charm and $WZ$ + light are $1.00 \pm 0.25 \pm 0.21$ and $1.00 \pm 0.06 \pm 0.16 $, respectively.
+\begin{figure}[H]
+  \center
+  \includegraphics[width=.8\linewidth]{corrMat.png}
+  \caption{Correlations between the various measured components of WZ.}
+  \label{fig:corrMat}
+\end{figure}
 
-The expected $WZ$ + b cross-section in the 2-jet region is $2.5^{+1.3}_{-1.3}(stat)^{+0.95}_{-0.83}(sys)$ fb with an expected significance of 1.7$\sigma$. The 2-jet expected cross-section of $WZ$ + charm is $12.7 \pm 3.2 (stat) \pm 2.7 (sys)$ fb, and the correlation between WZ + $c$ and WZ + $b$ is -0.22. 
-
-A summary of the correlation between the various WZ components is summarized in Table \ref{tab:WZ_corr}.
-
-\hspace{-1in}\begin{table}[H]
-\begin{adjustwidth}{-3em}{-3em}
-\begin{center}
-\begin{tabular}{l|cccccc}
-\hline
- & WZ + $b$ - 1-jet & WZ + c - 1-jet & WZ + l - 1-jet & WZ + $b$ - 2-jet & WZ + c - 2-jet & WZ + l - 2-jet\\
-WZ + b - 1-jet & 1.00 & -0.15 & 0.28 & -0.13 & -0.22 & 0.17 \\
-WZ + c - 1-jet & - & 1.00 & 0.36 & 0.13 & -0.14 & -0.16 \\
-WZ + l - 1-jet & - & - & 1.00 & 0.10 & -0.20 & -0.39 \\
-WZ + b - 2-jet & - & - & - & 1.00 & -0.22 & 0.17 \\
-WZ + c - 2-jet & - & - & - & - & 1.00 & 0.23 \\
-WZ + l - 2-jet & - & - & - & - & - & 1.00 \\
-\hline
-\end{tabular}
-\caption{Correlations between the various components of WZ}
-\label{tab:WZ_corr}
-\end{center}
-\end{adjustwidth}
-\end{table}
-
-The impact of each NP is calculated by performing the fit with the parameter of interest held fixed, varied from its fitted value by its uncertainty, and calculating $\Delta\mu$ relative to the baseline fit.  The impact of the most significant sources of systematic uncertainties on WZ + $b$ with one associated jet is summarized in Table \ref{tab:systematics_1j}. 
+The impact of each NP is calculated by performing the fit with the parameter of interest held fixed, varied from its fitted value by its uncertainty, and calculating $\Delta\mu$ relative to the baseline fit.  The impact of the most significant sources of systematic uncertainties on WZ + $b$ and WZ + $c$ with one associated jet are summarized in Table \ref{tab:systematics_1j}. 
 
 \begin{table}[H]
     \centering
@@ -78,12 +60,12 @@ The impact of each NP is calculated by performing the fit with the parameter of 
         \hline\hline
         Uncertainty Source & \multicolumn{2}{c}{$\Delta \sigma/\sigma_{nominal}$ }  \\
         \hline
-        WZ + 1-jet light cross-section & 0.13 & -0.15 \\
-        WZ + 1-jet charm cross-section & -0.10 & 0.12 \\
+        WZ + light, 1-jet cross-section & 0.13 & -0.15 \\
+        WZ + $c$, 1-jet cross-section & -0.10 & 0.12 \\
         Jet Energy Scale & 0.1 & -0.13 \\
         Other Diboson + b cross-section & -0.09 & 0.09 \\
         tZ cross-section & -0.08 & 0.08 \\
-        WZ 1-jet/2-jet Migration & 0.08 & -0.07 \\
+        WZ + $b$ 1j/2j Migration & 0.08 & -0.07 \\
         Jet Energy Resolution & -0.07 & 0.08 \\
         Luminosity & -0.06 & 0.07 \\
         Flavor tagging & 0.05 & 0.05 \\
@@ -92,11 +74,30 @@ The impact of each NP is calculated by performing the fit with the parameter of 
         Total Systematic Uncertainty & 0.28 & 0.33 \\
         \hline\hline
     \end{tabular}
-    \caption{Summary of the most significant sources of systematic uncertainty on the measurement of $WZ+b$ with exactly one associated jet.}
+    \quad
+    \begin{tabular}{l|cc}
+        \hline\hline
+        Uncertainty Source & \multicolumn{2}{c}{$\Delta \sigma/\sigma_{nominal}$ }  \\
+        \hline
+        WZ + $c$ 1j/2j migration & 0.12 & -0.09 \\
+        Flavor Tagging & 0.09 & 0.08 \\
+        WZ + $b$, 1-jet cross-section & -0.04 & 0.05 \\
+        Luminosity & -0.04 & 0.04 \\
+        Jet Energy Resolution & 0.04 & 0.04 \\
+        WZ + $b$, 2-jet cross-section & 0.04 & -0.03 \\
+        WZ cross-section - QCD scale & -0.04 & 0.04 \\
+        Jet Energy Scaling & 0.04 & 0.02 \\
+        WZ cross-section - PDF & -0.03 & 0.03 \\
+        WZ + light, 1-jet cross-section & 0.03 & -0.03 \\
+        \hline
+        total & 0.1879 & 0.1753 \\
+        \hline\hline
+    \end{tabular}  
+    \caption{Summary of the most significant sources of systematic uncertainty on the measurement of WZ + $b$ (left) and WZ + $c$ (right) with exactly one associated jet.}
     \label{tab:systematics_1j}
 \end{table}
 
-The large impact of the Jet Energy Scale and Jet Flavor Tagging is unsurprising, as the shape of the fit regions depends heavily on the modeling of the jets. The other major sources of uncertainty come from background modelling and cross-section uncertainty. %The pie charts in Figure \ref{fig:pie_chart_1j} show that for the modelling uncertainties that contribute most correspond to the most significant backgrounds. 
+%The large impact of the Jet Energy Scale and Jet Flavor Tagging is unsurprising, as the shape of the fit regions depends heavily on the modeling of the jets. The other major sources of uncertainty come from background modelling and cross-section uncertainty. %The pie charts in Figure \ref{fig:pie_chart_1j} show that for the modelling uncertainties that contribute most correspond to the most significant backgrounds. 
 
 %The negative correlations between $\mu_{WZ+charm}$ and $\mu_{WZ+b}$ and $\mu_{WZ+light}$ are expected: $WZ$ + charm is present in both the $WZ$ + b and $WZ$ + light enriched regions, therefore increasing the fraction of charm requires increasing the fraction of $WZ$ + b and $WZ$ + light. This reasoning also explains the positive correlation between $\mu_{WZ+b}$ and $\mu_{WZ+light}$. 
 
@@ -104,7 +105,7 @@ The large impact of the Jet Energy Scale and Jet Flavor Tagging is unsurprising,
 
 %The high correlation between the luminosity and $\mu_{WZ+light}$ arises from the fact that the uncertainty on $\mu_{WZ+light}$ is very low (around 4\%). Small changes in luminosity cause a change in the yield of $WZ$ + light that is large compared to its uncertainty, producing a large correlation between these two parameters. 
 
-The same set of systematic uncertainties consider for the 1-jet fit are included in the 2-jet fit as well. The impact of the most significant systematic uncertainties is summarized in Table \ref{tab:systematics_2j}. 
+The impact of the most significant systematic uncertainties on the 2-jet fiducial regions are summarized in Table \ref{tab:systematics_2j}. 
 
 \begin{table}[H]
     \centering
@@ -124,6 +125,25 @@ The same set of systematic uncertainties consider for the 1-jet fit are included
         Other VV + b cross-section & -0.05 & 0.05 \\
         \hline
         Total & 0.35 & 0.37 \\
+        \hline\hline
+    \end{tabular}
+    \quad
+    \begin{tabular}{l|cc}
+        \hline\hline
+        Uncertainty Source & \multicolumn{2}{c}{$\Delta \sigma/\sigma_{nominal}$ }  \\
+        \hline
+        WZ + $c$ 1j/2j migration & -0.17 & 0.25 \\
+        Flavor Tagging & 0.14 & 0.13 \\
+        WZ + $b$, 1-jet cross-section & -0.09 & 0.09 \\
+        Jet Energy Scale & 0.06 & 0.08 \\
+        Jet Energy Resolution & 0.05 & 0.05 \\
+        WZ $>=$3j/2j migration & -0.04 & 0.04 \\
+        WZ + $c$ 2j/1j migration & -0.04 & 0.04 \\
+        WZ cross-section - QCD scale & -0.04 & 0.04 \\
+        WZ + light modelling & 0.04 & -0.03 \\
+        Luminosity & -0.03 & 0.03 \\
+        \hline
+        total & 0.2694 & 0.3274 \\
         \hline\hline
     \end{tabular}
     \caption{Summary of the most significant sources of systematic uncertainty on the measurement of $WZ+b$ 2-jet events.}

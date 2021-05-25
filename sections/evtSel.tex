@@ -10,7 +10,7 @@ Events are required to include exactly three reconstructed light leptons passing
 
 The invariant mass of at least one pair of opposite sign, same flavor leptons is required to fall within 10 GeV of the mass of the Z boson, 91.2 GeV. Events where one of the opposite sign pairs have an invariant mass less than 12 GeV are rejected in order to suppress low mass resonances. %Further, events where the trilepton mass falls within 5 GeV of the Z mass are rejected to remove Z events that include conversions.
 
-An additional requirement is placed on the missing transverse energy, $E^{miss}_T$ > 20 GeV. The transverse mass of the $W$ candidate, defined as $\sqrt{2*p_T^{lep}*E^{miss}_T*(1-\cos(\Delta\phi))}$, is required to be greater than 30 GeV. Here $E^{miss}_T$ is the missing transverse energy, and the lepton considered is the lepton not included in the Z-candidate. 
+An additional requirement is placed on the missing transverse energy, $E^{miss}_T$ > 20 GeV. The transverse mass of the $W$ candidate, defined as $\sqrt{2p_T^{lep}E^{miss}_T*(1-\cos(\phi_{lep}-\phi_{E^{miss}_T}))}$, is required to be greater than 30 GeV. Here $E^{miss}_T$ is the missing transverse energy, and the lepton considered is the lepton not included in the Z-candidate. 
 
 Events are required to have exactly one or two reconstructed. Events with more than two jets are rejected in order to reduce the contribution of backgrounds such as $t\bar{t}Z$ and $t\bar{t}W$, which tend to have higher jet multiplicity. 
 
@@ -48,7 +48,7 @@ Region & Selection            \\
 \label{tab:regions}
 \end{table}
 
-The working points discussed in Section \ref{subsec:bjets} are used to separate events into fit regions based on the highest working point reached by a jet in each event. Because the background composition differs significantly based on the number of b-jets, events are further subdivided into 1-jet and 2-jet regions in order to minimize the impact of background uncertainties.
+The working points discussed in Section \ref{sec:obj} are used to separate events into fit regions based on the highest working point reached by a jet in each event. Because the background composition differs significantly based on the number of b-jets, events are further subdivided into 1-jet and 2-jet regions in order to minimize the impact of background uncertainties.
 
 An unfolding procedure is performed to account for differences in the number of reconstructed jets compared to the number of truth jets in each event. In order to account for migration of WZ+1-jet and WZ+2-jet events between the 1-jet and 2-jet bins at reco level, the signal samples are separated based on the number of truth jets. Events with 0 jets or more than 3 jets at truth level, yet fall within one of the categories listed in Table \ref{tab:regions}, are categorized as WZ + other, and treated as background. The composition of the number of truth jets in each reco jet bin is taken from MC, with uncertainties in these estimates described in detail in Section \ref{sec:sys}. 
 
