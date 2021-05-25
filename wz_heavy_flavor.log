@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  25 MAY 2021 15:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  25 MAY 2021 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3091,12 +3091,10 @@ l.172 \section{Conclusion}
                           ] [22] (./acknowledgements/Acknowledgements.tex)
 [23
 
-] [24
-
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.95pt on input line 247.
- [25
+ [24
 
 ]
 Overfull \hbox (3.876pt too wide) in paragraph at lines 248--248
@@ -3104,16 +3102,22 @@ Overfull \hbox (3.876pt too wide) in paragraph at lines 248--248
 h par-ton showers us-ing the POWHEG
  []
 
-[26] [27]
+[25] [26]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
  (./wz_heavy_flavor.aux (./sections/xsecUnc.aux)
 (./sections/incFit.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
-Package rerunfilecheck Info: File `wz_heavy_flavor.out' has not changed.
-(rerunfilecheck)             Checksum: DAAB66656B63D6B3735F712AB097861E;1435.
 
+
+Package rerunfilecheck Warning: File `wz_heavy_flavor.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `wz_heavy_flavor.out':
+(rerunfilecheck)             Before: DAAB66656B63D6B3735F712AB097861E;1435
+(rerunfilecheck)             After:  F881BA3A2BDD63F5E8AB13780A4937B6;1340.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.18pt have occurred.
@@ -3126,42 +3130,45 @@ Package logreq Info: Writing requests to 'wz_heavy_flavor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39858 strings out of 493013
- 778791 string characters out of 6123688
- 1273427 words of memory out of 5000000
- 42619 multiletter control sequences out of 15000+600000
+ 39856 strings out of 493013
+ 778772 string characters out of 6123688
+ 1273455 words of memory out of 5000000
+ 42618 multiletter control sequences out of 15000+600000
  167328 words of font info for 238 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,24n,74p,10407b,1991s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/enc/dvips/newt
-x/ntx-ec-tlf.enc}{/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts
-/enc/dvips/newtx/ntx-ec-tlf-sc.enc}{/cvmfs/sft.cern.ch/lcg/external/texlive/201
-6/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/cvmfs/sft.cern.ch/lcg/externa
-l/texlive/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}</cvmfs/sft.cern.ch
-/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.
-pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public
-/amsfonts/euler/eufm10.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-
-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></cvmfs/sft.cern.ch/lcg/extern
-al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></cvmfs
-/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/e
-uler/eurm10.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/
-type1/public/amsfonts/euler/eurm7.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/
-2016/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></cvmfs/sft.cern.c
-h/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></c
-vmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/tex-gy
-re/qhvr.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type
-1/public/tex-gyre/qtmb.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-
-dist/fonts/type1/public/tex-gyre/qtmr.pfb></cvmfs/sft.cern.ch/lcg/external/texl
-ive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb></cvmfs/sft.cern.ch/l
-cg/external/texlive/2016/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></cvmf
-s/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/newtx/txb
-sys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/pu
-blic/newtx/txexs.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/f
-onts/type1/public/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (27 pages, 439518 bytes).
+pdfTeX warning (dest): name{appendix.A} has been referenced but does not exis
+t, replaced by a fixed one
+
+{/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/
+ntx-ec-tlf.enc}{/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/e
+nc/dvips/newtx/ntx-ec-tlf-sc.enc}{/cvmfs/sft.cern.ch/lcg/external/texlive/2016/
+texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/cvmfs/sft.cern.ch/lcg/external/
+texlive/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}</cvmfs/sft.cern.ch/l
+cg/external/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pf
+b></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/a
+msfonts/euler/eufm10.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-di
+st/fonts/type1/public/amsfonts/euler/eufm7.pfb></cvmfs/sft.cern.ch/lcg/external
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></cvmfs/s
+ft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/eul
+er/eurm10.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/ty
+pe1/public/amsfonts/euler/eurm7.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></cvmfs/sft.cern.ch/
+lcg/external/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></cvm
+fs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre
+/qhvr.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/
+public/tex-gyre/qtmb.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-di
+st/fonts/type1/public/tex-gyre/qtmr.pfb></cvmfs/sft.cern.ch/lcg/external/texliv
+e/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb></cvmfs/sft.cern.ch/lcg
+/external/texlive/2016/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></cvmfs/
+sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/newtx/txbsy
+s.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/publ
+ic/newtx/txexs.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fon
+ts/type1/public/newtx/txsys.pfb>
+Output written on wz_heavy_flavor.pdf (26 pages, 438958 bytes).
 PDF statistics:
- 576 PDF objects out of 1000 (max. 8388607)
- 516 compressed objects within 6 object streams
- 102 named destinations out of 1000 (max. 500000)
+ 572 PDF objects out of 1000 (max. 8388607)
+ 513 compressed objects within 6 object streams
+ 101 named destinations out of 1000 (max. 500000)
  227 words of extra memory for PDF output out of 10000 (max. 10000000)
 

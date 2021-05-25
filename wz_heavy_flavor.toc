@@ -22,5 +22,3 @@
 \contentsline {subsubsection}{\numberline {9.4.1}tZ Inclusive Fit}{21}{subsubsection.9.4.1}
 \contentsline {subsubsection}{\numberline {9.4.2}Floating tZ}{21}{subsubsection.9.4.2}
 \contentsline {section}{\numberline {10}Conclusion}{22}{section.10}
-\contentsline {section}{\numberline {A}Appendices}{24}{appendix.A}
-\contentsline {part}{Appendices}{24}{appendix.A}
