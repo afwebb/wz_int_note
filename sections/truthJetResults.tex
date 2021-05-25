@@ -6,7 +6,7 @@ A maximum-likelihood fit is performed over the total yields in the various fit r
 
 Because the fit regions are defined by the number of associated jets at reco-level, the signal is split into separate samples based on the number of truth jets in order to account for differences in the number of truth jets compared to the number of reco-jets. The WZ + $b$, WZ + $c$ and $WZ$ + light contributions are separated into independent samples based on the number of truth jets in each event. WZ + 1 truth-jet and WZ + 2 truth-jets are treated as signal samples, while WZ + 0 truth-jets and WZ + $>=$3 truth-jets are treated as an additional background. 
 
-A maximum likelihood fit to data is performed simultaneously in the regions described in Section \ref{sec:evt_selection}, summarized in figure \ref{fig:summary}. The six signal templates, which include WZ + $b$ 1-jet, WZ + $c$ 1-jet, WZ+ light 1-jet, WZ + $b$ 2-jets, WZ + $c$ 2-jets, WZ + light 2-jets, are allowed to float, while the remaining background contributions are held fixed. The parameters $\mu_{WZ+b - 1-jet}$, $\mu_{WZ+charm 1-jet}$, $\mu_{WZ+light - 1-jet}$, $\mu_{WZ+b - 2-jet}$, $\mu_{WZ+charm 2-jet}$, $\mu_{WZ+light - 2-jet}$, where $\mu = \sigma_{observed}/\sigma_{SM} $, are extracted from the fit. A simultaneous fit is performed over all 1-jet and 2-jet regions.
+A maximum likelihood fit to data is performed simultaneously in the regions described in Section \ref{sec:evt_selection}, summarized in figure \ref{fig:summary}. The six signal templates, which include WZ + $b$ 1-jet, WZ + $c$ 1-jet, WZ+ light 1-jet, WZ + $b$ 2-jets, WZ + $c$ 2-jets, WZ + light 2-jets, are allowed to float, while the remaining background contributions are held fixed. Normalization factors for each of these templates are extracted from the fit. A simultaneous fit is performed over all 1-jet and 2-jet regions.
 
 \begin{figure}[H]
   \center                                                                                                                    
@@ -15,9 +15,9 @@ A maximum likelihood fit to data is performed simultaneously in the regions desc
   \label{fig:summary}
 \end{figure}
 
-As described in Section \ref{sec:sys}, there are 230 systematic uncertainties that are considered as NPs in the fit. These NPs are constrained by Gaussian or log-normal probability density functions. The latter are used for normalisation factors to ensure that they are always positive. The expected number of signal and background events are functions of the likelihood. The prior for each NP is added as a penalty term, decreasing the likelihood as it is shifted away from its nominal value.
+Several alternate fit strategies are reported as well, including a measurement of WZ + 1 or 2 jets inclusively, a fit where tZ is allowed to float, and a case where tZ is included as part of the signal.
 
-Several alternate fit strategies are documented in Appendices \ref{sec:incFit}-\ref{sec:inc_tZ}. These include a measurement of WZ + 1 or 2 jets inclusively, a fit where tZ is allowed to float, and a case where tZ is included as part of the signal.
+As described in Section \ref{sec:sys}, there are 230 systematic uncertainties that are considered as NPs in the fit. These NPs are constrained by Gaussian or log-normal probability density functions. The latter are used for normalisation factors to ensure that they are always positive. The expected number of signal and background events are functions of the likelihood. The prior for each NP is added as a penalty term, decreasing the likelihood as it is shifted away from its nominal value.
 
 \subsection{Results of the Simultaneous Fit}
 \label{sec:resSum}

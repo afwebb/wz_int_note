@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  25 MAY 2021 14:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  25 MAY 2021 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2710,15 +2710,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'wz_heavy_flavor.bbl' found.
- (./wz_heavy_flavor.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                ATLAS-CONF-2019-021
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (./wz_heavy_flavor.bbl)
 Package biblatex Info: Reference section=0 on input line 96.
 Package biblatex Info: Reference segment=0 on input line 96.
 \c__siunitx_mathsf_int=\count426
@@ -2968,9 +2960,6 @@ nput line 13.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 9.0pt on input line 13.
  [7]) (./sections/tZInt.tex
-
-LaTeX Warning: Citation 'Madgraph' on page 8 undefined on input line 4.
-
 [8pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
 has been already used, duplicate ignored
 
@@ -2985,11 +2974,6 @@ l.5
                                                   \fi \fi 
 l.58 \subsection{Non-Prompt Lepton Estimation}
                                               ] [11]) (./sections/sys.tex
-Overfull \hbox (27.22353pt too wide) in paragraph at lines 46--47
-[]\T1/ntxtlf/m/n/10.95 The un-cer-tainty in the com-bined 2015--2018 in-teg-rat
-ed lu-min-os-ity is 1.7 % [[]],
- []
-
 [12pdfTeX warning (ext4): destination with the same identifier (name{table.4}) 
 has been already used, duplicate ignored
 
@@ -3005,7 +2989,7 @@ LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 9.0pt on input line 1.
 ) [13]) (./sections/truthJetResults.tex
-<figures/sys_truthJets/Plots/Summary_postFit.png, id=309, 899.36pt x 674.52pt>
+<figures/sys_truthJets/Plots/Summary_postFit.png, id=314, 899.36pt x 674.52pt>
 File: figures/sys_truthJets/Plots/Summary_postFit.png Graphic file (type png)
 
 <use figures/sys_truthJets/Plots/Summary_postFit.png>
@@ -3028,7 +3012,7 @@ ure.2}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.45 
       <./figures/sys_truthJets/Plots/Summary_postFit.png>]
-<figures/corrMat.png, id=327, 700.6175pt x 477.785pt>
+<figures/corrMat.png, id=329, 700.6175pt x 477.785pt>
 File: figures/corrMat.png Graphic file (type png)
 
 <use figures/corrMat.png>
@@ -3074,7 +3058,7 @@ l.167 \include{sections/incFit}
 \openout2 = `sections/incFit.aux'.
 
  (./sections/incFit.tex
-<figures/sys_inclusive/Plots/Summary_postFit.png, id=350, 899.36pt x 674.52pt>
+<figures/sys_inclusive/Plots/Summary_postFit.png, id=352, 899.36pt x 674.52pt>
 File: figures/sys_inclusive/Plots/Summary_postFit.png Graphic file (type png)
 
 <use figures/sys_inclusive/Plots/Summary_postFit.png>
@@ -3089,28 +3073,14 @@ s been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.43 
-      <./figures/sys_inclusive/Plots/Summary_postFit.png>]
-<figures/sys_inclusive/Ranking.png, id=360, 598.235pt x 1111.15125pt>
-File: figures/sys_inclusive/Ranking.png Graphic file (type png)
-
-<use figures/sys_inclusive/Ranking.png>
-Package pdftex.def Info: figures/sys_inclusive/Ranking.png used on input line 4
-8.
-(pdftex.def)             Requested size: 292.77632pt x 543.80763pt.
- [20pdfTeX warning (ext4): destination with the same identifier (name{table.11}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.52 
-     ]) [21pdfTeX warning (ext4): destination with the same identifier (name{fi
-gure.5}) has been already used, duplicate ignored
+      <./figures/sys_inclusive/Plots/Summary_postFit.png>]) [20pdfTeX warning (
+ext4): destination with the same identifier (name{table.11}) has been already u
+sed, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.167 \include{sections/incFit}
-                                <./figures/sys_inclusive/Ranking.png>]
-(./sections/with_tZ.tex)) [22
+                               ] (./sections/with_tZ.tex)) [21
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.12}) ha
 s been already used, duplicate ignored
@@ -3118,15 +3088,15 @@ s been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.172 \section{Conclusion}
-                          ] [23] (./acknowledgements/Acknowledgements.tex)
-[24
+                          ] [22] (./acknowledgements/Acknowledgements.tex)
+[23
 
-] [25
+] [24
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.95pt on input line 247.
- [26
+ [25
 
 ]
 Overfull \hbox (3.876pt too wide) in paragraph at lines 248--248
@@ -3134,7 +3104,7 @@ Overfull \hbox (3.876pt too wide) in paragraph at lines 248--248
 h par-ton showers us-ing the POWHEG
  []
 
-[27] [28]
+[26] [27]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
  (./wz_heavy_flavor.aux (./sections/xsecUnc.aux)
@@ -3149,25 +3119,17 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.18pt have occurred.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                wz_heavy_flavor
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'wz_heavy_flavor.run.xml'.
 \openout1 = `wz_heavy_flavor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39864 strings out of 493013
- 778855 string characters out of 6123688
- 1273559 words of memory out of 5000000
- 42621 multiletter control sequences out of 15000+600000
+ 39858 strings out of 493013
+ 778791 string characters out of 6123688
+ 1273427 words of memory out of 5000000
+ 42619 multiletter control sequences out of 15000+600000
  167328 words of font info for 238 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,24n,74p,10407b,1991s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3196,10 +3158,10 @@ s/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/newtx/txb
 sys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/pu
 blic/newtx/txexs.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/f
 onts/type1/public/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (28 pages, 474053 bytes).
+Output written on wz_heavy_flavor.pdf (27 pages, 439518 bytes).
 PDF statistics:
- 577 PDF objects out of 1000 (max. 8388607)
- 515 compressed objects within 6 object streams
+ 576 PDF objects out of 1000 (max. 8388607)
+ 516 compressed objects within 6 object streams
  102 named destinations out of 1000 (max. 500000)
- 232 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 227 words of extra memory for PDF output out of 10000 (max. 10000000)
 

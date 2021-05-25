@@ -870,6 +870,73 @@
       \verb https://cds.cern.ch/record/2672207
       \endverb
     \endentry
+    \entry{Frederix_2018}{article}{}
+      \name{author}{6}{}{%
+        {{hash=a27660aea1d9d3108b9d81577eaf2544}{%
+           family={Frederix},
+           familyi={F\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5dc8bf4fcd0bcd5319217da96d473413}{%
+           family={Frixione},
+           familyi={F\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=926f864f12297fcf2892bb92a0ec04c3}{%
+           family={Hirschi},
+           familyi={H\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=2b34accd1fc6ac9767c11088f7b6d320}{%
+           family={Pagani},
+           familyi={P\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fb5bf48c3a9f3fdd9492af3542fe58e7}{%
+           family={Shao},
+           familyi={S\bibinitperiod},
+           given={H.-S.},
+           giveni={H\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=07f74c5bded8d1a4b8c17603bb514645}{%
+           family={Zaro},
+           familyi={Z\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{7b872fd3ba2e77eebd13128418638949}
+      \strng{fullhash}{99dd2c2d1b2e76076b870cda035a7022}
+      \strng{authornamehash}{7b872fd3ba2e77eebd13128418638949}
+      \strng{authorfullhash}{99dd2c2d1b2e76076b870cda035a7022}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{The automation of next-to-leading order electroweak calculations}
+      \field{volume}{2018}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1007/jhep07(2018)185
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/JHEP07(2018)185
+      \endverb
+    \endentry
+    \entry{ATLAS:2019pzw}{article}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{{Luminosity determination in $pp$ collisions at $\sqrt{s}=13$ TeV using the ATLAS detector at the LHC}}
+      \field{year}{2019}
+    \endentry
     \entry{LUCID2}{article}{}
       \name{author}{1}{}{%
         {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
@@ -1005,7 +1072,6 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{ATLAS-CONF-2019-021}
 \endrefsection
 \endinput
 

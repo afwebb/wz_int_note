@@ -18,9 +18,9 @@
 \contentsline {subsection}{\numberline {9.1}Fit Procedure}{14}{subsection.9.1}
 \contentsline {subsection}{\numberline {9.2}Results of the Simultaneous Fit}{15}{subsection.9.2}
 \contentsline {subsection}{\numberline {9.3}Inclusive 1-2 Jet Fit}{18}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Alternate tZ Inclusive Fit}{22}{subsection.9.4}
-\contentsline {subsubsection}{\numberline {9.4.1}tZ Inclusive Fit}{22}{subsubsection.9.4.1}
-\contentsline {subsubsection}{\numberline {9.4.2}Floating tZ}{22}{subsubsection.9.4.2}
-\contentsline {section}{\numberline {10}Conclusion}{23}{section.10}
-\contentsline {section}{\numberline {A}Appendices}{25}{appendix.A}
-\contentsline {part}{Appendices}{25}{appendix.A}
+\contentsline {subsection}{\numberline {9.4}Alternate tZ Inclusive Fit}{21}{subsection.9.4}
+\contentsline {subsubsection}{\numberline {9.4.1}tZ Inclusive Fit}{21}{subsubsection.9.4.1}
+\contentsline {subsubsection}{\numberline {9.4.2}Floating tZ}{21}{subsubsection.9.4.2}
+\contentsline {section}{\numberline {10}Conclusion}{22}{section.10}
+\contentsline {section}{\numberline {A}Appendices}{24}{appendix.A}
+\contentsline {part}{Appendices}{24}{appendix.A}
