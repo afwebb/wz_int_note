@@ -55,8 +55,9 @@ An expected significance of 2.0$\sigma$ is observed for WZ + $b$ with 1-jet, and
 The impact of each NP is calculated by performing the fit with the parameter of interest held fixed, varied from its fitted value by its uncertainty, and calculating $\Delta\mu$ relative to the baseline fit.  The impact of the most significant sources of systematic uncertainties on WZ + $b$ and WZ + $c$ with one associated jet are summarized in Table \ref{tab:systematics_1j}. 
 
 \begin{table}[H]
-    \centering
-    \begin{tabular}{l|cc}
+      \begin{minipage}{.4\textwidth}
+      \centering  
+      \begin{tabular}{l|cc}
         \hline\hline
         Uncertainty Source & \multicolumn{2}{c}{$\Delta \sigma/\sigma_{nominal}$ }  \\
         \hline
@@ -73,8 +74,11 @@ The impact of each NP is calculated by performing the fit with the parameter of 
         \hline
         Total Systematic Uncertainty & 0.28 & 0.33 \\
         \hline\hline
-    \end{tabular}%
-    \begin{tabular}{l|cc}
+    \end{tabular}
+    \end{minipage}
+    \begin{minipage}{.4\textwidth}
+      \centering
+      \begin{tabular}{l|cc}
         \hline\hline
         Uncertainty Source & \multicolumn{2}{c}{$\Delta \sigma/\sigma_{nominal}$ }  \\
         \hline
@@ -91,7 +95,8 @@ The impact of each NP is calculated by performing the fit with the parameter of 
         \hline
         total & 0.1879 & 0.1753 \\
         \hline\hline
-    \end{tabular}  
+    \end{tabular}
+    \end{minipage}
     \caption{Summary of the most significant sources of systematic uncertainty on the measurement of WZ + $b$ (left) and WZ + $c$ (right) with exactly one associated jet.}
     \label{tab:systematics_1j}
 \end{table}
@@ -107,7 +112,8 @@ The impact of each NP is calculated by performing the fit with the parameter of 
 The impact of the most significant systematic uncertainties on the 2-jet fiducial regions are summarized in Table \ref{tab:systematics_2j}. 
 
 \begin{table}[H]
-    \centering
+    \begin{minipage}{.4\textwidth}
+      \centering
     \begin{tabular}{l|cc}
         \hline\hline
         Uncertainty Source & \multicolumn{2}{c}{$\Delta \sigma/\sigma_{nominal}$ }  \\
@@ -125,7 +131,10 @@ The impact of the most significant systematic uncertainties on the 2-jet fiducia
         \hline
         Total & 0.35 & 0.37 \\
         \hline\hline
-    \end{tabular}%
+    \end{tabular}
+    \end{minipage}
+    \begin{minipage}{.4\textwidth}
+      \centering
     \begin{tabular}{l|cc}
         \hline\hline
         Uncertainty Source & \multicolumn{2}{c}{$\Delta \sigma/\sigma_{nominal}$ }  \\
@@ -144,6 +153,7 @@ The impact of the most significant systematic uncertainties on the 2-jet fiducia
         total & 0.2694 & 0.3274 \\
         \hline\hline
     \end{tabular}
+    \end{minipage}
     \caption{Summary of the most significant sources of systematic uncertainty on the measurement of $WZ+b$ 2-jet events.}
     \label{tab:systematics_2j}
 \end{table}
