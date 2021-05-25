@@ -41,7 +41,9 @@ Total (Overall)                             & 230	      \\
 \label{tab:SystSummary}
 \end{table}
 
-The uncertainty in the combined integrated luminosity is derived from a calibration of the luminosity scale performed for 13 TeV proton-proton collisions \cite{lumi}, \cite{LUCID2}.
+%The uncertainty in the combined integrated luminosity is derived from a calibration of the luminosity scale performed for 13 TeV proton-proton collisions \cite{lumi}, \cite{LUCID2}.
+
+The uncertainty in the combined 2015--2018 integrated luminosity is 1.7 \% \cite{ATLAS-CONF-2019-021}, obtained using the LUCID-2 detector \cite{LUCID2} for the primary luminosity measurements.
 
 The experimental uncertainties are related to the reconstruction and identification of light leptons and b-tagging of jets, and to the reconstruction of $E^{miss}_T$. The sources which contribute to the uncertainty in the jet energy scale (JES) \cite{jes} are decomposed into uncorrelated components and treated as independent sources of uncertainty in the analysis. A similar approach is used for the jet energy resolution (JER) uncertainty.
 
@@ -62,8 +64,8 @@ The theory uncertainties applied to the predominant background estimates are sum
 }
 \end{table}
 
-Additional signal uncertainties, probing the shape of the signal templates as well as the rate of migrations between the number of truth-jets and reconstructed jets, are estimated by comparing estimates from the nominal Sherpa WZ samples with alternate WZ samples generated with \textsc{Powheg}+\textsc{Pythia8}. Separate systematics are included in the fit for WZ + b, WZ + charm and WZ + light, where the distribution among each of the fit regions is varied based on the prediction of the Powheg sample.
+Because the fit involves varying the overall normalization of WZ + $b$, WZ + $c$ and WZ + light templates over the regions described in Section \rec{subsec:regions}, the modelling of these templates impacts the final result. Therefore, additional signal uncertainties, probing the shape of the signal templates as well as the rate of migrations between the number of truth-jets and reconstructed jets, are estimated by comparing estimates from the nominal Sherpa WZ samples with alternate WZ samples generated with \textsc{Powheg}+\textsc{Pythia8}. Separate systematics are included in the fit for WZ + $b$, WZ + $c$ and WZ + light, where the distribution among each of the fit regions is varied based on the prediction of the Powheg sample.
 
-A similar approach is taken to account for uncertainties in migrations between the number of reco and truth jets. The fraction of events with 1 truth jet which fall into the 1 jet bin versus the 2 jet bin at reco level is compared for Sherpa and Powheg. The same is done for events with 2 truth jets. A systematic is included where events are shifted between the 1-jet and 2-jet regions based on the differences between these two shapes. This is done independently for each of the WZ + b, WZ + charm, and WZ + light templates.
+A similar approach is taken to account for uncertainties in migrations between the number of reco and truth jets. The fraction of events with 1 truth jet which fall into the 1 jet bin versus the 2 jet bin at reco level is compared for Sherpa and Powheg. The same is done for events with 2 truth jets. A systematic is included where events are shifted between the 1-jet and 2-jet regions based on the differences between these two shapes. This is done independently for each of the WZ + $b$, WZ + $c$, and WZ + light templates.
 
 Additional systematics are included to account for the uncertainty in the contamination of 0 jet and 3 or more jet events (as defined at truth level) in the 1 and 2 reco jet bins. Because these events fall outside the scope of this measurement, these events are included as a background. As such, a normalization, rather than a shape, uncertainty is applied for this background. The number of WZ events with 0-jets and $>=$3-jets in the reconstructed 1-jet and 2-jet regions are compared for Sherpa and Powheg, and these differences are taken as separate normalization systematics on the yield of WZ+0-jet and WZ+$>=$3-jet events.
