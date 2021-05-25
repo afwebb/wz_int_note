@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  24 MAY 2021 15:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  24 MAY 2021 21:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2710,7 +2710,15 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'wz_heavy_flavor.bbl' found.
- (./wz_heavy_flavor.bbl)
+ (./wz_heavy_flavor.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                ATLAS-CONF-2019-021
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 96.
 Package biblatex Info: Reference segment=0 on input line 96.
 \c__siunitx_mathsf_int=\count426
@@ -2848,53 +2856,7 @@ LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <11.4> not available
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 20.74pt on input line 98.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.5pt on input line 98.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.9pt on input line 98.
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 98.
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 9.44994pt on input line 98.
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 7.10994pt on input line 98.
-LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 14.4pt on input line 98.
-LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.5pt on input line 98.
-LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 7.9pt on input line 98.
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 98.
-
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 14.4pt on input line 98.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.0pt on input line 98.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 98.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 98.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 98.
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 98.
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 6.56995pt on input line 98.
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 4.94997pt on input line 98.
-LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 98.
-LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 7.3pt on input line 98.
-LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 5.5pt on input line 98.
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 98.
-
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 7.3pt on input line 98.
 LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 9
 8.
 
@@ -2913,6 +2875,8 @@ Overfull \hbox (40.03896pt too wide) in paragraph at lines 98--98
 
 {/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-var/fonts/map/pdftex/updmap
 /pdftex.map} <./logos/AT_atlaslogo_2015.pdf> <./logos/AT_cernlogo.pdf>]
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 100.
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/qhv/b/n' tried instead on input line 100.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
@@ -2966,17 +2930,35 @@ dentifier (name{table.1}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.7 
     ]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.3pt on input line 62.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 5.5pt on input line 62.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 62.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 6.56995pt on input line 62.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 4.94997pt on input line 62.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 62.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 7.3pt on input line 62.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 5.5pt on input line 62.
 
-LaTeX Warning: Reference `sec:lepMVA' on page 6 undefined on input line 11.
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
+(Font)              size <5> substituted on input line 62.
 
 [6pdfTeX warning (ext4): destination with the same identifier (name{table.2}) h
 as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.72 
+l.69 
      ]) (./sections/tZ.tex
-<figures/tZ_bdt_ab127/plots_nlo/xgb_score.png, id=242, 462.528pt x 346.896pt>
+<figures/tZ_bdt_ab127/plots_nlo/xgb_score.png, id=241, 462.528pt x 346.896pt>
 File: figures/tZ_bdt_ab127/plots_nlo/xgb_score.png Graphic file (type png)
 
 <use figures/tZ_bdt_ab127/plots_nlo/xgb_score.png>
@@ -3007,12 +2989,17 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.58 \subsection{Non-Prompt Lepton Estimation}
                                               ] [11]) (./sections/sys.tex
+Overfull \hbox (27.22353pt too wide) in paragraph at lines 46--47
+[]\T1/ntxtlf/m/n/10.95 The un-cer-tainty in the com-bined 2015--2018 in-teg-rat
+ed lu-min-os-ity is 1.7 % [[]],
+ []
+
 [12pdfTeX warning (ext4): destination with the same identifier (name{table.4}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.49 
+l.51 
      ]
 \openout2 = `sections/xsecUnc.aux'.
 
@@ -3021,7 +3008,15 @@ LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 (Font)              scaled to size 8.09995pt on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 9.0pt on input line 1.
-) [13
+) [13]) (./sections/truthJetResults.tex
+<figures/sys_truthJets/Plots/Summary_postFit.png, id=308, 899.36pt x 674.52pt>
+File: figures/sys_truthJets/Plots/Summary_postFit.png Graphic file (type png)
+
+<use figures/sys_truthJets/Plots/Summary_postFit.png>
+Package pdftex.def Info: figures/sys_truthJets/Plots/Summary_postFit.png used o
+n input line 13.
+(pdftex.def)             Requested size: 376.4258pt x 282.3187pt.
+ [14
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
@@ -3029,23 +3024,15 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.66 
-     ]) (./sections/truthJetResults.tex
-<figures/sys_truthJets/Plots/Summary_postFit.png, id=310, 899.36pt x 674.52pt>
-File: figures/sys_truthJets/Plots/Summary_postFit.png Graphic file (type png)
-
-<use figures/sys_truthJets/Plots/Summary_postFit.png>
-Package pdftex.def Info: figures/sys_truthJets/Plots/Summary_postFit.png used o
-n input line 13.
-(pdftex.def)             Requested size: 376.4258pt x 282.3187pt.
- [14] [15pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.2}) has been already used, duplicate ignored
+l.17 
+     ] [15pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.44 
       <./figures/sys_truthJets/Plots/Summary_postFit.png>]
-Overfull \hbox (37.7775pt too wide) in paragraph at lines 56--67
+Overfull \hbox (39.71576pt too wide) in paragraph at lines 56--67
  [] 
  []
 
@@ -3077,7 +3064,7 @@ l.135 \include{sections/incFit}
 \openout2 = `sections/incFit.aux'.
 
  (./sections/incFit.tex
-<figures/sys_inclusive/Plots/Summary_postFit.png, id=340, 899.36pt x 674.52pt>
+<figures/sys_inclusive/Plots/Summary_postFit.png, id=339, 899.36pt x 674.52pt>
 File: figures/sys_inclusive/Plots/Summary_postFit.png Graphic file (type png)
 
 <use figures/sys_inclusive/Plots/Summary_postFit.png>
@@ -3093,7 +3080,7 @@ s been already used, duplicate ignored
                                                   \fi \fi 
 l.43 
       <./figures/sys_inclusive/Plots/Summary_postFit.png>]
-<figures/sys_inclusive/Ranking.png, id=349, 598.235pt x 1111.15125pt>
+<figures/sys_inclusive/Ranking.png, id=348, 598.235pt x 1111.15125pt>
 File: figures/sys_inclusive/Ranking.png Graphic file (type png)
 
 <use figures/sys_inclusive/Ranking.png>
@@ -3167,17 +3154,17 @@ Package logreq Info: Writing requests to 'wz_heavy_flavor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39900 strings out of 493013
- 779403 string characters out of 6123688
- 1273480 words of memory out of 5000000
- 42660 multiletter control sequences out of 15000+600000
- 198481 words of font info for 279 fonts, out of 8000000 for 9000
+ 39855 strings out of 493013
+ 778693 string characters out of 6123688
+ 1273184 words of memory out of 5000000
+ 42616 multiletter control sequences out of 15000+600000
+ 167328 words of font info for 238 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,24n,74p,10407b,1991s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/enc/dvips/newt
-x/ntx-ec-tlf-sc.enc}{/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fo
-nts/enc/dvips/tex-gyre/q-ts1.enc}{/cvmfs/sft.cern.ch/lcg/external/texlive/2016/
-texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/cvmfs/sft.cern.ch/lcg/externa
+x/ntx-ec-tlf.enc}{/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts
+/enc/dvips/newtx/ntx-ec-tlf-sc.enc}{/cvmfs/sft.cern.ch/lcg/external/texlive/201
+6/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/cvmfs/sft.cern.ch/lcg/externa
 l/texlive/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}</cvmfs/sft.cern.ch
 /lcg/external/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.
 pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public
@@ -3199,7 +3186,7 @@ s/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/newtx/txb
 sys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/pu
 blic/newtx/txexs.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/f
 onts/type1/public/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (27 pages, 456431 bytes).
+Output written on wz_heavy_flavor.pdf (27 pages, 457193 bytes).
 PDF statistics:
  566 PDF objects out of 1000 (max. 8388607)
  506 compressed objects within 6 object streams
