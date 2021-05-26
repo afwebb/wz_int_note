@@ -19,27 +19,6 @@ As described in Section \ref{sec:sys}, there are 230 systematic uncertainties th
 
 Several alternate fit strategies are documented in Appendices \ref{sec:incFit}-\ref{sec:inc_tZ}. These include a measurement of WZ + 1 or 2 jets inclusively, a fit where tZ is allowed to float, and a case where tZ is included as part of the signal.
 
-\subsection{Fiducial Region Definition}
-\label{sec:fid}
-
-The fiducial volume at particle level is defined based on the number of stable leptons and jets in each event. Three light leptons with total charge $\pm$1 and one or two associated jets are required. This is separated into four observations based on the number and flavor of associated jets.
-
-Only leptons which do not originate from hadron or $\tau$ decays are considered. The phase space definitions use dressed kinematics of the final state particles. Leptons are dressed by summing the momentum of photons within a cone of $\Delta R < 0.1$ of the lepton to correct the leptons energy. 
-
-Particle level jets are reconstructed using the anti-$k_t$ algorithm with a radius of $R=0.4$. Specifically, the \verb!AntiKt4TruthDressedWZJets! collection is used to define the jets, and their truth flavor is determined by \verb!HadronConeExclTruthLabelID!. 
-
-The kinematic selection used at particle level closely follows the selection used at reconstructed level. Three light leptons with total charge $\pm$1 and one or two associated jets  Leptons and jets are required to have $|\eta < 2.5|$, with the transition region included. The OS leptons is required to have $p_T > 10$ GeV, while the SS leptons are required to have $p_T > 20$ GeV. Jets are required to have $p_T > 25$ GeV. The base fiducial region definition is summarized below:
-
-\begin{itemize}
-\item Three light leptons with total charge $\pm$1, $|\eta| < 2.5$
-\item OS lepton with \pt$>$10 GeV, SS leptons with \pt$>$20 GeV
-\item One OSSF lepton pair with $|M(ll)-91.2\ GeV| < 10\ GeV$
-\item One or two associated truth jets with $p_T >$25 GeV, $|\eta| < 2.5$
-%\item At least one truth b-jet or one charm jet
-\end{itemize}
-
-The result of the fit is used to extract the cross-section in this fiducial region for WZ + b and WZ + charm with one associated jet, and WZ + b and WZ + charm with two associated jets, where the number and flavor of the jets is determined at particle level. Events with both charm and b-jets are counted as WZ + b.
-
 \subsection{Results of the Simultaneous Fit}
 \label{sec:resSum}
 
@@ -131,6 +110,31 @@ The impact of each NP is calculated by performing the fit with the parameter of 
     \label{tab:systematics_1j}
 \end{table}
 
+
+\begin{table}[H]
+  \centering
+      \begin{tabular}{l|cc}
+        \hline\hline
+        Uncertainty Source & \multicolumn{2}{c}{$\Delta \sigma/\sigma_{nominal}$ }  \\
+        \hline
+        WZ + $c$ 1j/2j migration & 0.12 & -0.09 \\
+        Flavor Tagging & 0.09 & 0.08 \\
+        WZ + $b$, 1-jet cross-section & -0.04 & 0.05 \\
+        Luminosity & -0.04 & 0.04 \\
+        Jet Energy Resolution & 0.04 & 0.04 \\
+        WZ + $b$, 2-jet cross-section & 0.04 & -0.03 \\
+        WZ cross-section - QCD scale & -0.04 & 0.04 \\
+        Jet Energy Scaling & 0.04 & 0.02 \\
+        WZ cross-section - PDF & -0.03 & 0.03 \\
+        WZ + light, 1-jet cross-section & 0.03 & -0.03 \\
+        \hline
+        total & 0.1879 & 0.1753 \\
+        \hline\hline
+    \end{tabular}
+    \caption{Summary of the most significant sources of systematic uncertainty on the measurement of WZ + $c$ with exactly one associated jet.}
+    \label{tab:systematics_c1j}
+\end{table}
+
 The ranking and impact of those nuisance parameters with the largest contribution to the overall uncertainty is shown in Figure \ref{fig:ranking_1j}.
 
 \begin{figure}[H]
@@ -196,6 +200,30 @@ The same set of systematic uncertainties consider for the 1-jet fit are included
     \label{tab:systematics_2j}
 \end{table}
 
+\begin{table}[H]
+  \centering
+    \begin{tabular}{l|cc}
+        \hline\hline
+        Uncertainty Source & \multicolumn{2}{c}{$\Delta \sigma/\sigma_{nominal}$ }  \\
+        \hline
+        WZ + $c$ 1j/2j migration & -0.17 & 0.25 \\
+        Flavor Tagging & 0.14 & 0.13 \\
+        WZ + $b$, 1-jet cross-section & -0.09 & 0.09 \\
+        Jet Energy Scale & 0.06 & 0.08 \\
+        Jet Energy Resolution & 0.05 & 0.05 \\
+        WZ $>=$3j/2j migration & -0.04 & 0.04 \\
+        WZ + $c$ 2j/1j migration & -0.04 & 0.04 \\
+        WZ cross-section - QCD scale & -0.04 & 0.04 \\
+        WZ + light modelling & 0.04 & -0.03 \\
+        Luminosity & -0.03 & 0.03 \\
+        \hline
+        total & 0.2694 & 0.3274 \\
+        \hline\hline
+    \end{tabular}
+    \caption{Summary of the most significant sources of systematic uncertainty on the measurement of WZ + $c$ with 2 associated jets.}
+    \label{tab:systematics_c2j}
+\end{table}
+
 The ranking and impact of those nuisance parameters with the largest contribution to the overall uncertainty is shown in Figure \ref{fig:ranking_2j}.
 
 \begin{figure}[H]
@@ -215,3 +243,10 @@ The large impact of the Jet Energy Scale and Jet Flavor Tagging is unsurprising,
 %\end{figure}
 
 
+\subsection{Inclusive 1+2 Jet Fit}
+\label{sec:incFit}
+\input{sections/incFit}
+
+\subsection{Alternate tZ Inclusive Fit}
+\label{sec:inc_tZ}
+\input{sections/with_tZ}

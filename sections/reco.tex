@@ -100,24 +100,30 @@ From the output of the BDT, working points (WPs) are developed based on the effi
 
 \begin{table}[H] 
 \begin{center}
-\begin{tabular}{|c|ccccc|}
+\begin{tabular}{|c|c|c|}
+     \hline
+    WP & \multicolumn{2}{c|}{Rejection}\\
     \hline
-       WP &  none & loose & medium & tight & tightest\\
-       \hline
-     b eff. & - & 85\% & 77\% & 70\% & 60\% \\ 
+    $b$-jet eff. & $c$-jet & light jet\\
     \hline
-    \end{tabular}    
-    \caption{B-tagging Working Points by tightness and b-jet efficiency}
-    \label{tab:btag_WPs}
-    \end{center}
+     85\% & 2.6 & 29 \\
+     77\% & 4.9 & 130 \\
+     70\% & 9.4 & 390 \\
+     60\% & 27 & 1300 \\
+     \hline
+     \end{tabular}
+    \caption{$c$-jet and light-flavor jet rejections corresponding to each $b$-tagging Working Point by b-jet efficiency, evaluated on $t\bar{t}$ events.}
+     \label{tab:btag_WPs}
+     \end{center}
 \end{table}
 
-A tighter WP will accept fewer b-jets, but reject a higher fraction of charm and light jets. Generally, analyses that include b-jets will use a fixed working point, for example, requiring that a jet pass the 70\% threshold. By instead treating these working point as bins, e.g. events with jets that fall between the 85\% and 77\% WPs fall into one bin, while events with jets passing the 60\% WP fall into another, and looking at the full psuedo-continuous DL1r spectrum of the jets, additional information can be gained. The psuedo-continuous b-tag spectrum is used in this case to separate out WZ + b, WZ + charm, and WZ + light. 
+As shown in table \ref{tab:btag_WPs}, a tighter WP will accept fewer b-jets, but reject a higher fraction of charm and light\
+ jets. Generally, analyses that include b-jets will use a fixed working point, for example, requiring that a jet pass the 70\% threshold. By instead treating these working point as bins, e.g. events with jets that fall between the 85\% and 77\% WPs fall into one bin, while events with jets passing the 60\% WP fall into another, additional information can be gained. This analysis uses each of these working points to form orthogonal regions in order to provide separation between WZ + $b$, WZ + $c$, and WZ + light.
 
 \subsection{Missing transverse energy}
 \label{subsec:met}
 
-Missing transverse momentum ($E_T^{miss}$) is used as part of the event selection. The missing transverse momentum vector is defined as the inverse of the sum of the transverse momenta of all reconstructed physics objects as well as remaining unclustered energy, the latter of which is estimated from low-\pt tracks associated with the primary vertex but not assigned to a hard object, with object definitions taken from \cite{ATL-PHYS-PUB-2015-027}. Light leptons considered in the $E_T^{miss}$ reconstruction are required to have $p_T$>10 GeV, while jets are required to have $p_T$>20 GeV.
+Missing transverse momentum ($E_T^{miss}$) is used as part of the event selection. The missing transverse momentum vector is defined as the inverse of the sum of the transverse momenta of all reconstructed physics objects as well as remaining unclustered energy, the latter of which is estimated from low-\pt tracks associated with the primary vertex but not assigned to a hard object, with object definitions taken from \cite{met_2018}. Light leptons considered in the $E_T^{miss}$ reconstruction are required to have $p_T$>10 GeV, while jets are required to have $p_T$>20 GeV.
 
 \subsection{Overlap removal}
 \label{subsec:overlapremoval}

@@ -92,7 +92,7 @@ The distributions of a few of these features for both signal and background is s
 
 A sample of 20,000 background (tZ) and signal (WZ+b) Monte Carlo events are used to train the BDT. And additional 5,000 events are reserved for testing the model, in order to prevent over-fitting. A total of 750 decision trees with a maximum depth of 6 branches are used to build the model. These parameters are chosen empirically, by training several models with different parameters and selecting the one that gave the best separation for the test sample. 
 
-The results of the BDT training are shown in figure \ref{fig:tZ_bdt}. The output scores for both signal and background events is shown on the left. The right shows the receiving operating characteristic (ROC) curve that results from the MVA. The ROC curve represents the background rejection as a function of signal efficiency, where each point on the curve represents a different response score. The ROC curve of the BDT is compared to the performance of using an optimal set of flat selections on the same set of input variables.
+The results of the BDT training are shown in figure \ref{fig:tZ_bdt}. The output scores for both signal and background events is shown on the left. The right shows the receiving operating characteristic (ROC) curve that results from the MVA. The ROC curve represents the background rejection as a function of signal efficiency, where each point on the curve represents a different response score.
 
 \begin{figure}[H] 
 \center
@@ -113,3 +113,6 @@ The relative important of each input feature in the model, measured by how often
 
 These results suggest that some amount of separation can be achieved between these two processes, with a high BDT score selecting a set of events that is pure in $WZ$ + b. A BDT score of 0.725 is selected as a cutoff, where events with scores higher than this form a signal enriched region, and events with scores lower than this form a tZ control region. This cutoff is selected by varying the value of thia cutoff in stat-only Asimov fits, and selecting the value that minimizes the statistical uncertainty on WZ + b.
 
+\subsection{tZ Interference Studies}
+\label{sec:tZInt}
+\input{sections/tZInt}

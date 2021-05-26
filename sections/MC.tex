@@ -1,16 +1,16 @@
 
-Both data and Monte Carlo samples used in this analysis were prepared in the \verb|xAOD| format, which was used to produce a \verb|DxAOD| sample in the \verb|HIGG8D1| derivation framework. The \verb|HIGG8D1| framework is designed for the $t\bar{t}H$ multi-lepton analysis, which targets events with multiple leptons as well as tau hadrons. This framework skims the dataset to remove unneeded variables as well as entire events. Events are removed from the derivations that do not meet the following selection:
+Both data and Monte Carlo samples used in this analysis were prepared in the \verb|xAOD| format, which was used to produce a \verb|DxAOD| sample in the \verb|HIGG8D1| derivation framework. The \verb|HIGG8D1| framework is designed for the $t\bar{t}H$ multi-lepton analysis, which targets events with multiple leptons as well as tau hadrons. This framework skims the dataset to remove unneeded variables as well as entire events. Events are removed from the derivations that do not meet one of the following selections:
 
 \begin{itemize}
     \item at least two light leptons within a range $|\eta|$<2.6, with leading lepton $p_{T}$ > 15 GeV and subleading lepton $p_{T}$ > 5 GeV
-    \item at least one light lepton with $p_{T}$ > 15 GeV within a range $|\eta|$<2.6, and at least two hadronic taus with $p_{T}$ > 15 GeV.
+    \item OR at least one light lepton with $p_{T}$ > 15 GeV within a range $|\eta|$<2.6, and at least two hadronic taus with $p_{T}$ > 15 GeV.
 \end{itemize}
 
 Samples were then generated from these \verb|HIGG8D1| derivations with p-tag of p4134 for data and p4133 for Monte Carlo using AnalysisBase version 21.2.127 modified to include custom variables.
 
 \subsection{Data Samples}
 
-The study uses a sample of proton-proton collision data collected by the ATLAS detector from 2015 through 2018 at an energy of $\sqrt{s} = 13$ TeV, which represents an integrated luminosity of 139 $fb^{-1}$. This data set was collected with a bunch crossing rate of 25 ns. All data used in this analysis was verified by data quality checks, having been included in the following Good Run Lists: 
+The study uses a sample of proton-proton collision data collected by the ATLAS detector from 2015 through 2018 at an energy of $\sqrt{s} = 13$ TeV, which represents an integrated luminosity of 139 $fb^{-1}$ \cite{lumi}. This data set was collected with a bunch crossing rate of 25 ns. All data used in this analysis was verified by data quality checks \cite{PERF-2010-01}, having been included in the following Good Run Lists: 
 \begin{itemize}
     \item data15\_13TeV.periodAllYear\_DetStatus-v79-repro20-02\_DQDefects-00-02-02\\\_PHYS\_StandardGRL\_All\_Good\_25ns.xml
     \item data16\_13TeV.periodAllYear\_DetStatus-v88-pro20-21\_DQDefects-00-02-04\\\_PHYS\_StandardGRL\_All\_Good\_25ns.xml 
@@ -22,7 +22,7 @@ Runs included from the AllYear period containers are included.
 
 \subsection{Monte Carlo Samples}
 
-Several different generators were used to produce Monte Carlo simulations of the signal and background processes. For all samples, the response of the ATLAS detector is simulated using Geant4. The WZ signal samples are simulated using Sherpa 2.2.2 \cite{sherpa}. Signal events are generated using NNPDF30NNLO PDF set with up to one parton at NLO and 2 to 3 partons at LO \cite{Butterworth:2015oua}. 
+Several different generators were used to produce Monte Carlo simulations of the signal and background processes. For all samples, the response of the ATLAS detector is simulated using \textsc{Geant4} \cite{GEANT4}. The WZ signal samples are simulated using Sherpa 2.2.2 \cite{sherpa}. Signal events are generated using NNPDF30NNLO PDF set with up to one parton at NLO and 2 to 3 partons at LO \cite{Butterworth:2015oua}. 
 
 The tZ background is simulated at NLO with \textsc{MadGraph5\_aMC@NLO}, with \textsc{Pythia8} used to perform parton showering and fragmentation. The NNPDF30NNLO PDF set is used.
 
@@ -37,18 +37,18 @@ Specific information about the Monte Carlo samples being used can be found in Ta
 Process & Event generator & ME order & Parton Shower & PDF   \\
 \hline
 $WZ$, $VV$ & \textsc{Sherpa} 2.2.2
-& MEPS NLO & \textsc{Sherpa} & CT10 \\
-$t Z$ & \textsc{MG5\_aMC} & NLO & \textsc{Pythia} 8  & CTEQ6L1  \\
+& MEPS NLO & \textsc{Sherpa} & CT10 \cite{ct10} \\
+$t Z$ & \textsc{MG5\_aMC} \cite{Alwall:2014hca} & NLO & \textsc{Pythia} 8  & CTEQ6L1  \\
 $\ttbar W$ & \textsc{MG5\_aMC} & NLO & \textsc{Pythia} 8 & NNPDF 3.0 NLO \\
 & (\textsc{Sherpa} 2.1.1) & (LO multileg) & (\textsc{Sherpa}) & (NNPDF 3.0 NLO)  \\
 $\ttbar (Z/\gamma^* \to ll)$ & \textsc{MG5\_aMC} & NLO & \textsc{Pythia} 8 & NNPDF 3.0 NLO  \\
 $t\bar{t}H$ & \textsc{MG5\_aMC} & NLO & \textsc{Pythia} 8\ & NNPDF 3.0 NLO \cite{Ball:2014uwa} \\
-     & (\textsc{MG5\_aMC}) & (NLO) & (\textsc{Herwig++}) & (CT10 \cite{ct10})  \\
+     & (\textsc{MG5\_aMC}) & (NLO) & (\textsc{Herwig++}) \cite{Bahr:2008pv} & (CT10 \cite{ct10})  \\
 $tHqb$ & \textsc{MG5\_aMC} & LO & \textsc{Pythia} 8 & CT10  \\
 $tHW$ & \textsc{MG5\_aMC} & NLO & \textsc{Herwig++}  & CT10  \\
 & (\textsc{Sherpa} 2.1.1) & (LO multileg) & (\textsc{Sherpa}) & (NNPDF 3.0 NLO)  \\
 $t W Z$ & \textsc{MG5\_aMC} & NLO & \textsc{Pythia} 8 & NNPDF 2.3 LO   \\
-$t\bar t t$, $t\bar t t\bar t$ & \textsc{MG5\_aMC} & LO & \textsc{Pythia} 8 & NNPDF 2.3 LO  \\
+$t\bar t t$, $t\bar t t\bar t$ & \textsc{MG5\_aMC} & LO & \textsc{Pythia} 8 & NNPDF 2.3 LO \cite{Ball:2012cx} \\
 $t\bar t W^+ W^-$ & \textsc{MG5\_aMC} & LO & \textsc{Pythia} 8 & NNPDF 2.3 LO\\
 $\ttbar$ & \textsc{Powheg-BOX v2} \cite{powhegtt} & NLO & \textsc{Pythia} 8 & NNPDF 3.0 NLO  \\
 $\ttbar\gamma$ & \textsc{MG5\_aMC} & LO & \textsc{Pythia} 8 & NNPDF 2.3 LO \\
@@ -82,7 +82,7 @@ $Z \to l^+l^-$ & \textsc{Sherpa} 2.2.1 & MEPS NLO  & \textsc{Sherpa} & NNPDF 3.0
         low mass Z + jets & 364198-215 \\
         W + jets & 364156-97 \\
         $V\gamma$ & 364500-35 \\
-        $tZ$  & 412063 \\
+        $tZ$  & 412063-5 \\
         $tW$  & 410013-4 \\
         $WtZ$ & 410408 \\
         $VVV$ & 364242-9 \\
