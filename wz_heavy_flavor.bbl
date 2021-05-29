@@ -794,6 +794,32 @@
       \verb 1510.03823
       \endverb
     \endentry
+    \entry{btag_cal}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
+           family={{ATLAS Collaboration}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The identification of jets containing b hadrons is important for the physics programme of the ATLAS experiment at the Large Hadron Collider. Several algorithms to identify jets containing b hadrons are described, ranging from those based on the reconstruction of an inclusive secondary vertex or the presence of tracks with large impact parameters to combined tagging algorithms making use of multi-variate discriminants. An independent b -tagging algorithm based on the reconstruction of muons inside jets as well as the b -tagging algorithm used in the online trigger are also presented. The b -jet tagging efficiency, the c -jet tagging efficiency and the mistag rate for light flavour jets in data have been measured with a number of complementary methods. The calibration results are presented as scale factors defined as the ratio of the efficiency (or mistag rate) in data to that in simulation. In the case of b jets, where more than one calibration method exists, the results from the various analyses have been combined taking into account the statistical correlation as well as the correlation of the sources of systematic uncertainty.}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{number}{04}
+      \field{title}{Performance of b -jet identification in the ATLAS experiment}
+      \field{volume}{11}
+      \field{year}{2016}
+      \field{pages}{P04008}
+      \range{pages}{-1}
+      \verb{url}
+      \verb http://stacks.iop.org/1748-0221/11/i=04/a=P04008
+      \endverb
+    \endentry
     \entry{met_2018}{article}{}
       \name{author}{1}{}{%
         {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
@@ -824,14 +850,6 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1140/epjc/s10052-018-6288-9
-      \endverb
-    \endentry
-    \entry{BtagWG}{misc}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
-      \field{year}{2021}
-      \verb{url}
-      \verb https://twiki.cern.ch/twiki/bin/view/AtlasProtected/BTagCalibrationRecommendationsRelease21#Tools_for_Flavor_Tagging_Calibra
       \endverb
     \endentry
     \entry{ttZ_paper}{article}{}
@@ -904,9 +922,17 @@
       \endverb
       \keyw{large-scale machine learning}
     \endentry
-    \entry{ATLAS:2019pzw}{article}{}
+    \entry{BtagWG}{misc}{}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{year}{2021}
+      \verb{url}
+      \verb https://twiki.cern.ch/twiki/bin/view/AtlasProtected/BTagCalibrationRecommendationsRelease21#Tools_for_Flavor_Tagging_Calibra
+      \endverb
+    \endentry
+    \entry{ATLAS:2019pzw}{article}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labeltitlesource}{title}
       \field{month}{6}
       \field{title}{{Luminosity determination in $pp$ collisions at $\sqrt{s}=13$ TeV using the ATLAS detector at the LHC}}
@@ -922,8 +948,8 @@
       \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
       \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
       \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{JINST}
@@ -937,38 +963,7 @@
       \verb 10.1088/1748-0221/13/07/P07017
       \endverb
     \endentry
-    \entry{jes}{article}{}
-      \name{author}{1}{}{%
-        {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
-           family={{ATLAS Collaboration}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
-      \strng{fullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
-      \strng{authornamehash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
-      \strng{authorfullhash}{4e05bd17e215b0ad3d2d55d7c05b75f1}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The measurement of the jet energy resolution is presented using data recorded with the ATLAS detector in proton-proton collisions at {\$}{\backslash}sqrt{\{}s{\}}=7{\backslash}mbox{\{} TeV{\}}{\$} . The sample corresponds to an integrated luminosity of 35 pb−1. Jets are reconstructed from energy deposits measured by the calorimeters and calibrated using different jet calibration schemes. The jet energy resolution is measured with two different in situ methods which are found to be in agreement within uncertainties. The total uncertainties on these measurements range from 20 {\%} to 10 {\%} for jets within |y|<2.8 and with transverse momenta increasing from 30 GeV to 500 GeV. Overall, the Monte Carlo simulation of the jet energy resolution agrees with the data within 10 {\%}.}
-      \field{issn}{1434-6052}
-      \field{journaltitle}{The European Physical Journal C}
-      \field{month}{3}
-      \field{number}{3}
-      \field{title}{Jet energy resolution in proton-proton collisions at $\sqrt{s}$ = 7 TeV recorded in 2010 with the ATLAS detector}
-      \field{volume}{73}
-      \field{year}{2013}
-      \field{pages}{2306}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1140/epjc/s10052-013-2306-0
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1140/epjc/s10052-013-2306-0
-      \endverb
-    \endentry
-    \entry{btag_cal}{article}{}
+    \entry{PERF-2016-04}{article}{}
       \name{author}{1}{}{%
         {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%
            family={{ATLAS Collaboration}},
@@ -982,16 +977,19 @@
       \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The identification of jets containing b hadrons is important for the physics programme of the ATLAS experiment at the Large Hadron Collider. Several algorithms to identify jets containing b hadrons are described, ranging from those based on the reconstruction of an inclusive secondary vertex or the presence of tracks with large impact parameters to combined tagging algorithms making use of multi-variate discriminants. An independent b -tagging algorithm based on the reconstruction of muons inside jets as well as the b -tagging algorithm used in the online trigger are also presented. The b -jet tagging efficiency, the c -jet tagging efficiency and the mistag rate for light flavour jets in data have been measured with a number of complementary methods. The calibration results are presented as scale factors defined as the ratio of the efficiency (or mistag rate) in data to that in simulation. In the case of b jets, where more than one calibration method exists, the results from the various analyses have been combined taking into account the statistical correlation as well as the correlation of the sources of systematic uncertainty.}
-      \field{journaltitle}{Journal of Instrumentation}
-      \field{number}{04}
-      \field{title}{Performance of b -jet identification in the ATLAS experiment}
-      \field{volume}{11}
-      \field{year}{2016}
-      \field{pages}{P04008}
-      \range{pages}{-1}
-      \verb{url}
-      \verb http://stacks.iop.org/1748-0221/11/i=04/a=P04008
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{title}{{Jet energy scale measurements and their systematic uncertainties in proton--proton collisions at $\sqrt{s} = 13\;\mbox{TeV}$ with the ATLAS detector}}
+      \field{volume}{96}
+      \field{year}{2017}
+      \field{pages}{072002}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.96.072002
+      \endverb
+      \verb{eprint}
+      \verb 1703.09665
       \endverb
     \endentry
     \entry{tZ_paper}{article}{}

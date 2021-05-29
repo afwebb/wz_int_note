@@ -1,45 +1,46 @@
 \BOOKMARK [1][-]{section.1}{Changes and outstanding items}{}% 1
 \BOOKMARK [2][-]{subsection.1.1}{Changelog}{section.1}% 2
-\BOOKMARK [3][-]{subsubsection.1.1.1}{Changes relative to v8}{subsection.1.1}% 3
-\BOOKMARK [3][-]{subsubsection.1.1.2}{Changes relative to v7}{subsection.1.1}% 4
-\BOOKMARK [3][-]{subsubsection.1.1.3}{Changes relative to v5}{subsection.1.1}% 5
-\BOOKMARK [3][-]{subsubsection.1.1.4}{Changes relative to v4}{subsection.1.1}% 6
-\BOOKMARK [3][-]{subsubsection.1.1.5}{Changes relative to v3}{subsection.1.1}% 7
-\BOOKMARK [3][-]{subsubsection.1.1.6}{Changes relative to v2}{subsection.1.1}% 8
-\BOOKMARK [3][-]{subsubsection.1.1.7}{Changes relative to v1}{subsection.1.1}% 9
-\BOOKMARK [2][-]{subsection.1.2}{Outstanding Items}{section.1}% 10
-\BOOKMARK [1][-]{section.2}{Executive Summary}{}% 11
-\BOOKMARK [1][-]{section.3}{Data and Monte Carlo Samples}{}% 12
-\BOOKMARK [2][-]{subsection.3.1}{Data Samples}{section.3}% 13
-\BOOKMARK [2][-]{subsection.3.2}{Monte Carlo Samples}{section.3}% 14
-\BOOKMARK [1][-]{section.4}{Object Reconstruction}{}% 15
-\BOOKMARK [2][-]{subsection.4.1}{Trigger}{section.4}% 16
-\BOOKMARK [2][-]{subsection.4.2}{Light leptons}{section.4}% 17
-\BOOKMARK [2][-]{subsection.4.3}{Jets}{section.4}% 18
-\BOOKMARK [2][-]{subsection.4.4}{B-tagged Jets}{section.4}% 19
-\BOOKMARK [2][-]{subsection.4.5}{Missing transverse energy}{section.4}% 20
-\BOOKMARK [2][-]{subsection.4.6}{Overlap removal}{section.4}% 21
-\BOOKMARK [1][-]{section.5}{Event Selection and Signal Region Definitions}{}% 22
-\BOOKMARK [2][-]{subsection.5.1}{Event Preselection}{section.5}% 23
-\BOOKMARK [2][-]{subsection.5.2}{Fit Regions}{section.5}% 24
-\BOOKMARK [2][-]{subsection.5.3}{Non-Prompt Lepton Estimation}{section.5}% 25
-\BOOKMARK [3][-]{subsubsection.5.3.1}{tbart Validation}{subsection.5.3}% 26
-\BOOKMARK [3][-]{subsubsection.5.3.2}{Z+jets Validation}{subsection.5.3}% 27
-\BOOKMARK [1][-]{section.6}{tZ Separation Multivariate Analysis}{}% 28
-\BOOKMARK [2][-]{subsection.6.1}{Top Mass Reconstruction}{section.6}% 29
-\BOOKMARK [2][-]{subsection.6.2}{tZ BDT}{section.6}% 30
-\BOOKMARK [2][-]{subsection.6.3}{tZ Interference Studies}{section.6}% 31
-\BOOKMARK [1][-]{section.7}{Systematic Uncertainties}{}% 32
-\BOOKMARK [1][-]{section.8}{Results}{}% 33
-\BOOKMARK [2][-]{subsection.8.1}{Fit Procedure}{section.8}% 34
-\BOOKMARK [2][-]{subsection.8.2}{Results of the Simultaneous Fit}{section.8}% 35
-\BOOKMARK [2][-]{subsection.8.3}{Inclusive 1+2 Jet Fit}{section.8}% 36
-\BOOKMARK [2][-]{subsection.8.4}{Alternate tZ Inclusive Fit}{section.8}% 37
-\BOOKMARK [3][-]{subsubsection.8.4.1}{tZ Inclusive Fit}{subsection.8.4}% 38
-\BOOKMARK [3][-]{subsubsection.8.4.2}{Floating tZ}{subsection.8.4}% 39
-\BOOKMARK [1][-]{section.9}{Conclusion}{}% 40
-\BOOKMARK [1][-]{appendix.A}{Appendices}{}% 41
-\BOOKMARK [-1][-]{appendix.A}{Appendices}{}% 42
-\BOOKMARK [0][-]{subsection.A.1}{Non-prompt lepton MVA}{appendix.A}% 43
-\BOOKMARK [1][-]{subsection.A.2}{Non-prompt CR Modelling}{subsection.A.1}% 44
-\BOOKMARK [2][-]{subsection.A.3}{DSID list}{subsection.A.2}% 45
+\BOOKMARK [3][-]{subsubsection.1.1.1}{Changes relative to v9}{subsection.1.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.1.2}{Changes relative to v8}{subsection.1.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.1.3}{Changes relative to v7}{subsection.1.1}% 5
+\BOOKMARK [3][-]{subsubsection.1.1.4}{Changes relative to v5}{subsection.1.1}% 6
+\BOOKMARK [3][-]{subsubsection.1.1.5}{Changes relative to v4}{subsection.1.1}% 7
+\BOOKMARK [3][-]{subsubsection.1.1.6}{Changes relative to v3}{subsection.1.1}% 8
+\BOOKMARK [3][-]{subsubsection.1.1.7}{Changes relative to v2}{subsection.1.1}% 9
+\BOOKMARK [3][-]{subsubsection.1.1.8}{Changes relative to v1}{subsection.1.1}% 10
+\BOOKMARK [2][-]{subsection.1.2}{Outstanding Items}{section.1}% 11
+\BOOKMARK [1][-]{section.2}{Executive Summary}{}% 12
+\BOOKMARK [1][-]{section.3}{Data and Monte Carlo Samples}{}% 13
+\BOOKMARK [2][-]{subsection.3.1}{Data Samples}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.2}{Monte Carlo Samples}{section.3}% 15
+\BOOKMARK [1][-]{section.4}{Object Reconstruction}{}% 16
+\BOOKMARK [2][-]{subsection.4.1}{Trigger}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.2}{Light leptons}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.3}{Jets}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.4}{B-tagged Jets}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.5}{Missing transverse energy}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.6}{Overlap removal}{section.4}% 22
+\BOOKMARK [1][-]{section.5}{tZ Separation Multivariate Analysis}{}% 23
+\BOOKMARK [2][-]{subsection.5.1}{Top Mass Reconstruction}{section.5}% 24
+\BOOKMARK [2][-]{subsection.5.2}{tZ BDT}{section.5}% 25
+\BOOKMARK [2][-]{subsection.5.3}{tZ Interference Studies}{section.5}% 26
+\BOOKMARK [1][-]{section.6}{Event Selection and Signal Region Definitions}{}% 27
+\BOOKMARK [2][-]{subsection.6.1}{Event Preselection}{section.6}% 28
+\BOOKMARK [2][-]{subsection.6.2}{Fit Regions}{section.6}% 29
+\BOOKMARK [2][-]{subsection.6.3}{Non-Prompt Lepton Estimation}{section.6}% 30
+\BOOKMARK [3][-]{subsubsection.6.3.1}{tbart Validation}{subsection.6.3}% 31
+\BOOKMARK [3][-]{subsubsection.6.3.2}{Z+jets Validation}{subsection.6.3}% 32
+\BOOKMARK [1][-]{section.7}{Systematic Uncertainties}{}% 33
+\BOOKMARK [1][-]{section.8}{Results}{}% 34
+\BOOKMARK [2][-]{subsection.8.1}{Fit Procedure}{section.8}% 35
+\BOOKMARK [2][-]{subsection.8.2}{Results of the Simultaneous Fit}{section.8}% 36
+\BOOKMARK [2][-]{subsection.8.3}{Inclusive 1+2 Jet Fit}{section.8}% 37
+\BOOKMARK [2][-]{subsection.8.4}{Alternate tZ Inclusive Fit}{section.8}% 38
+\BOOKMARK [3][-]{subsubsection.8.4.1}{tZ Inclusive Fit}{subsection.8.4}% 39
+\BOOKMARK [3][-]{subsubsection.8.4.2}{Floating tZ}{subsection.8.4}% 40
+\BOOKMARK [1][-]{section.9}{Conclusion}{}% 41
+\BOOKMARK [1][-]{appendix.A}{Appendices}{}% 42
+\BOOKMARK [-1][-]{appendix.A}{Appendices}{}% 43
+\BOOKMARK [0][-]{subsection.A.1}{Non-prompt lepton MVA}{appendix.A}% 44
+\BOOKMARK [1][-]{subsection.A.2}{Non-prompt CR Modelling}{subsection.A.1}% 45
+\BOOKMARK [2][-]{subsection.A.3}{DSID list}{subsection.A.2}% 46
