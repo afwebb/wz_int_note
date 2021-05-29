@@ -82,17 +82,17 @@ Leptons are additionally required to pass a non-prompt BDT selection developed b
 \subsection{Jets}
 \label{subsec:jets}
 %UPDATE FOR PFLOW
-Jets are reconstructed from calibrated topological clusters built from energy deposits in the calorimeters \cite{ATL-PHYS-PUB-2015-015}, using the anti-$k_t$ algorithm with a radius parameter $R=0.4$. Particle Flow, or PFlow, jets are used in the analysis. Jets with energy contributions likely arising from noise or detector effects are removed from consideration \cite{ATLAS-CONF-2015-029}, and only jets satisfying $\pt > 25$~GeV and $|\eta| < 2.5$ are used in this analysis.  For jets with $\pt < 60$~GeV and $|\eta| < 2.4$, a jet-track association algorithm is used to confirm that the jet originates from the selected primary vertex, in order to reject jets arising from pileup collisions \cite{PERF-2014-03}.
+Jets are reconstructed from calibrated topological clusters built from energy deposits in the calorimeters \cite{ATL-PHYS-PUB-2015-015}, as well as information from the inner tracking detector, using the anti-$k_t$ algorithm with a radius parameter $R=0.4$. Particle Flow, or PFlow, jets are used in the analysis. Jets with energy contributions likely arising from noise or detector effects are removed from consideration \cite{ATLAS-CONF-2015-029}, and only jets satisfying $\pt > 25$~GeV and $|\eta| < 2.5$ are used in this analysis.  For jets with $\pt < 60$~GeV and $|\eta| < 2.4$, a jet-track association algorithm is used to confirm that the jet originates from the selected primary vertex, in order to reject jets arising from pileup collisions \cite{PERF-2014-03}.
 
 \subsection{B-tagged Jets}
 \label{subsec:bjets}
 
-In order to make a measurement of $WZ$ + heavy flavor it is necessary to distinguish these events from $WZ$ + light jets. For this purpose, the DL1r b-tagging algorithm is used to distinguish heavy flavor jets from lighter ones. The DL1r algorithm uses jet kinematics, particularly jet vertex information, as input for a neural network which assigns each jet a score designed to reflect how likely that jet is to have originated from a b-quark. 
+In order to make a measurement of $WZ$ + heavy flavor it is necessary to distinguish these events from $WZ$ + light jets. For this purpose, the DL1r b-tagging algorithm is used to distinguish heavy flavor jets from lighter ones. The DL1r algorithm \cite{btag_cal} uses jet kinematics, particularly jet vertex information, as input for a neural network which assigns each jet a score designed to reflect how likely that jet is to have originated from a b-quark. 
 
 \begin{figure}[H] 
     \centering
     \includegraphics[width=0.54\linewidth]{DL1_output.pdf} 
-    \caption{Output distribution of the DL1r algorithm for b-jets, charm jets, and light jets}
+    \caption{Output distribution of the DL1r algorithm for pure samples of b-jets, charm jets, and light jets, with each normalized to unity \cite{btag_cal}}
     \label{fig:DL1r}
 \end{figure}
 
@@ -118,17 +118,17 @@ From the output of the BDT, working points (WPs) are developed based on the effi
 \end{table}
 
 As shown in table \ref{tab:btag_WPs}, a tighter WP will accept fewer b-jets, but reject a higher fraction of charm and light\
- jets. Generally, analyses that include b-jets will use a fixed working point, for example, requiring that a jet pass the 70\% threshold. By instead treating these working point as bins, e.g. events with jets that fall between the 85\% and 77\% WPs fall into one bin, while events with jets passing the 60\% WP fall into another, additional information can be gained. This analysis uses each of these working points to form orthogonal regions in order to provide separation between WZ + $b$, WZ + $c$, and WZ + light.
+ jets. Generally, analyses that include b-jets will use a fixed working point, for example, requiring that a jet pass the 70\% threshold. By instead treating these working points as bins, e.g. events with jets that fall between the 85\% and 77\% WPs fall into one bin, while events with jets passing the 60\% WP fall into another, additional information can be gained. This analysis uses each of these working points to form orthogonal regions in order to provide separation between WZ + $b$, WZ + $c$, and WZ + light.
 
 \subsection{Missing transverse energy}
 \label{subsec:met}
 
-Missing transverse momentum ($E_T^{miss}$) is used as part of the event selection. The missing transverse momentum vector is defined as the inverse of the sum of the transverse momenta of all reconstructed physics objects as well as remaining unclustered energy, the latter of which is estimated from low-\pt tracks associated with the primary vertex but not assigned to a hard object, with object definitions taken from \cite{met_2018}. Light leptons considered in the $E_T^{miss}$ reconstruction are required to have $p_T$>10 GeV, while jets are required to have $p_T$>20 GeV.
+Missing transverse momentum ($E_T^{miss}$) is used as part of the event selection. The missing transverse momentum vector is defined as the negative of the vector sum of the transverse momenta of all reconstructed physics objects as well as remaining unclustered energy, the latter of which is estimated from low-\pt tracks associated with the primary vertex but not assigned to a hard object, with object definitions taken from \cite{met_2018}. Light leptons considered in the $E_T^{miss}$ reconstruction are required to have $p_T$>10 GeV, while jets are required to have $p_T$>20 GeV.
 
 \subsection{Overlap removal}
 \label{subsec:overlapremoval}
 
-To avoid double counting objects and remove leptons originating from decays of hadrons, overlap removal is performed in the following order: any electron candidate within $\Delta R = 0.1$ of another electron candidate with higher \pt\ is removed; any electron candidate within $\Delta R = 0.1$ of a muon candidate is removed; any jet within $\Delta R = 0.3$ of an electron candidate is removed; if a muon candidate and a jet lie within $\Delta R = min(0.4, $0.04+10$[GeV]/\pt(muon))$ of each other, the jet is kept and the muon is removed.
+To avoid double counting objects and remove leptons originating from decays of hadrons, overlap removal is performed in the following order: any electron candidate within $\Delta R = 0.1$ of another electron candidate with higher \pt\ is removed; any electron candidate within $\Delta R = 0.1$ of a muon candidate is removed; any jet within $\Delta R = 0.2$ of an electron candidate is removed; if a muon candidate and a jet lie within $\Delta R = min(0.4, $0.04+10$[GeV]/\pt(muon))$ of each other, the jet is kept and the muon is removed if the jet has at least three associated tracks, otherwise the jet is removed and the muon is kept.
 
 This algorithm is applied to the preselected objects. The overlap removal procedure is summarized in Table~\ref{tab:overlap-removal}. 
 
@@ -142,9 +142,10 @@ This algorithm is applied to the preselected objects. The overlap removal proced
      \hline
                         muon    & electron      & 0.1 \\
      \hline
-                            electron    & jet   & 0.3 \\
+                            electron    & jet   & 0.2 \\
          \hline
-                        jet             & muon  & min(0.4, $0.04+10$[GeV]/\pt(muon)) \\
+                        jet             & muon  & min(0.4, $0.04+10$[GeV]/\pt(muon)), $n_track>$3 \\
+         \hline muon             & jet  & min(0.4, $0.04+10$[GeV]/\pt(muon)), $n_track<$3 \\
          \hline
                         electron        & tau   & 0.2 \\
      \hline

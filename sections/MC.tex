@@ -1,5 +1,5 @@
 
-Both data and Monte Carlo samples used in this analysis were prepared in the \verb|xAOD| format, which was used to produce a \verb|DxAOD| sample in the \verb|HIGG8D1| derivation framework. The \verb|HIGG8D1| framework is designed for the $t\bar{t}H$ multi-lepton analysis, which targets events with multiple leptons as well as tau hadrons. This framework skims the dataset to remove unneeded variables as well as entire events. Events are removed from the derivations that do not meet one of the following selections:
+Both data and Monte Carlo samples used in this analysis were prepared in the \verb|xAOD| format, which was used to produce a \verb|DxAOD| sample in the \verb|HIGG8D1| derivation framework. The \verb|HIGG8D1| framework is designed for the $t\bar{t}H$ multi-lepton analysis, which targets events with multiple leptons as well as tau hadrons. This framework reduces the size of the dataset by removing events based on event topology and only keeping useful information for each event. Events are removed from the derivations that do not meet one of the following selections:
 
 \begin{itemize}
     \item at least two light leptons within a range $|\eta|$<2.6, with leading lepton $p_{T}$ > 15 GeV and subleading lepton $p_{T}$ > 5 GeV
@@ -10,7 +10,7 @@ Samples were then generated from these \verb|HIGG8D1| derivations with p-tag of 
 
 \subsection{Data Samples}
 
-The study uses a sample of proton-proton collision data collected by the ATLAS detector from 2015 through 2018 at an energy of $\sqrt{s} = 13$ TeV, which represents an integrated luminosity of 139 $fb^{-1}$ \cite{lumi}. This data set was collected with a bunch crossing rate of 25 ns. All data used in this analysis was verified by data quality checks \cite{PERF-2010-01}, having been included in the following Good Run Lists: 
+The study uses a sample of proton-proton collision data collected by the ATLAS detector from 2015 through 2018 at an energy of $\sqrt{s} = 13$ TeV, which represents an integrated luminosity of 139 $fb^{-1}$ \cite{lumi}. This data set was collected with a bunch-crossing rate of 25 ns. All data used in this analysis was verified by data quality checks \cite{PERF-2010-01}, having been included in the following Good Run Lists: 
 \begin{itemize}
     \item data15\_13TeV.periodAllYear\_DetStatus-v79-repro20-02\_DQDefects-00-02-02\\\_PHYS\_StandardGRL\_All\_Good\_25ns.xml
     \item data16\_13TeV.periodAllYear\_DetStatus-v88-pro20-21\_DQDefects-00-02-04\\\_PHYS\_StandardGRL\_All\_Good\_25ns.xml 

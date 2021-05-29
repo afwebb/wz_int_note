@@ -416,7 +416,16 @@ Similar to $t\bar{t}$, a non-prompt $Z$+jets validation region is produced in or
     \label{fig:zjets_noScale}
 \end{figure}
 
-While there is general agreement between data and MC within statistical uncertainty, the shape of the $p_T$ spectrum of the lepton from the W is found to differ. To account for this discrepency, a variable correction factor is applied to Z+jets. $\chi^2$ minimization of the W lepton $p_T$ spectrum is performed to derive a correction factor as a function of this \pt. Kinematic plots of the Z + jets validation region after this correction factor has been aplied are shown in Figure \ref{fig:zjets_withScale}.
+While there is general agreement between data and MC within statistical uncertainty, the shape of the $p_T$ spectrum of the lepton from the W candidate is found to differ. As this is the lepton not included in the Z-candidate, in the case of Z+jets, this lepton is most often the non-prompt lepton. A similar effect is seen for both non-prompt muons and electrons in the Z+jets validation region, as shown in Figure \ref{fig:zjets_flav}.
+
+\begin{figure}[H]
+    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/noScale/lep_Pt_W_e.png}}%                      
+    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/noScale/lep_Pt_W_mu.png}}\\
+    \caption{\pt spectrum of the lepton from the W candidate for (a) electrons and (b) muons}
+    \label{fig:zjets_flav}
+\end{figure}
+
+To account for this discrepency, a variable correction factor is applied to Z+jets. $\chi^2$ minimization of the W lepton $p_T$ spectrum is performed to derive a correction factor as a function of this \pt. Kinematic plots of the Z + jets validation region after this correction factor has been aplied are shown in Figure \ref{fig:zjets_withScale}.
 
 \begin{figure}[H]
     \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/withScale/lead_jetPt.png}}%              
