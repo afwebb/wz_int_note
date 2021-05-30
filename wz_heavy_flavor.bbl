@@ -963,6 +963,40 @@
       \verb 10.1088/1748-0221/13/07/P07017
       \endverb
     \endentry
+    \entry{ele_eff}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a3364242a05dc5a80a93fa55804031af}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={ATLAS},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{a3364242a05dc5a80a93fa55804031af}
+      \strng{fullhash}{a3364242a05dc5a80a93fa55804031af}
+      \strng{authornamehash}{a3364242a05dc5a80a93fa55804031af}
+      \strng{authorfullhash}{a3364242a05dc5a80a93fa55804031af}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1434-6052}
+      \field{journaltitle}{The European Physical Journal C}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{Electron reconstruction and identification in the ATLAS experiment using the 2015 and 2016 LHC proton–proton collision data at $\sqrt{s} = 13$ $\text {TeV}$}
+      \field{volume}{79}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-019-7140-6
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-019-7140-6
+      \endverb
+    \endentry
     \entry{PERF-2016-04}{article}{}
       \name{author}{1}{}{%
         {{hash=4e05bd17e215b0ad3d2d55d7c05b75f1}{%

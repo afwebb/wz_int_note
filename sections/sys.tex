@@ -44,7 +44,7 @@ Total (Overall)                             & 236	      \\
 The uncertainty in the combined 2015--2018 integrated luminosity is 1.7\% \cite{ATLAS:2019pzw}, obtained using the LUCID-2 detector \cite{LUCID2} for the primary luminosity measurements.
 
 \paragraph{}
-The experimental uncertainties are related to the reconstruction and identification of light leptons and b-tagging of jets, and to the reconstruction of $E^{miss}_T$. The \verb!TOTAL! electron ID correlation model is used, corresponding to 1 electron ID systematic. Electron ID is found to be a subleading systematic that is unconstrained by the fit, making it an appropriate choice for this analysis.
+The experimental uncertainties are related to the reconstruction and identification of light leptons and b-tagging of jets, and to the reconstruction of $E^{miss}_T$. The \verb!TOTAL! electron ID correlation model is used, corresponding to 1 electron ID systematic \cite{ele_eff}. Electron ID is found to be a subleading systematic that is unconstrained by the fit, making it an appropriate choice for this analysis.
 
 \paragraph{}
 The sources which contribute to the uncertainty in the jet energy scale (JES) \cite{PERF-2016-04} are decomposed into uncorrelated components and treated as independent sources in the analysis. The CategoryReduction model is used to account for JES uncertainties, which decomposes the uncertainties into 30 nuiscance parameters included in the fit. The SimpleJER model is used to account for jet energy resolution (JER) uncertainties, and 8 JER uncertainty components included as NPs in the fit. 
@@ -200,7 +200,7 @@ The theory uncertainties applied to the predominate background estimates are sum
 }
 \end{table}
 
-Due to its importance in the analysis, additional modelling uncertainties are considered for tZ. Alternative tZ samples with variations in scale (DSID 412064-5) and shower modelling (DSID 501046).
+Due to its importance as a background, additional modelling uncertainties are considered for tZ. Alternative tZ samples with variations in scale (DSID 412064-5) and shower modelling (DSID 501046) are included as systematics..
 
 \paragraph{}
 The fit involves varying the overall normalization of signal templates over the regions described in Section \ref{subsec:regions}, which are defined by the flavor and number of associated jets at truth-level. The modelling of these template shapes therefore significantly impacts the final result. Additional signal uncertainties, probing the shape of the signal templates as well as the rate of migrations between the number of truth-jets and reconstructed jets, are estimated by comparing estimates from the nominal Sherpa WZ samples with alternative WZ samples generated with \textsc{Powheg}+\textsc{Pythia8} (DSID 361601). Separate systematics are included in the fit for WZ + $b$, WZ + $c$ and WZ + light, where the distribution among each of the fit regions is varied based on the prediction of the Powheg sample.
