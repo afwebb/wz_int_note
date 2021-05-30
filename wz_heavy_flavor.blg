@@ -1,37 +1,37 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [2] Config.pm:357> INFO - Logfile is 'wz_heavy_flavor.blg'
-[53] biber:303> INFO - === Sun May 30, 2021, 11:28:03
-[91] Biber.pm:359> INFO - Reading 'wz_heavy_flavor.bcf'
-[222] Biber.pm:835> INFO - Found 30 citekeys in bib section 0
-[245] Biber.pm:3670> INFO - Processing section 0
-[266] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/wz_heavy_flavor.bib' for section 0
-[272] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[287] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/wz_heavy_flavor.bib'
-[340] Utils.pm:164> WARN - month field 'Mar' in entry 'ttW_140' is not an integer - this will probably not sort properly.
-[352] Utils.pm:164> WARN - month field 'Nov' in entry 'met_2018' is not an integer - this will probably not sort properly.
-[354] Utils.pm:164> WARN - month field 'Apr' in entry 'ttZ_paper' is not an integer - this will probably not sort properly.
-[390] Utils.pm:164> WARN - Name "J. Alwall, M. Herquet, F. Maltoni, O. Mattelaer" has too many commas: skipping name
-[397] Utils.pm:164> WARN - month field 'Jul' in entry 'tZ_paper' is not an integer - this will probably not sort properly.
-[398] Utils.pm:164> WARN - BibTeX subsystem: /tmp/lY5yTKVY8S/wz_heavy_flavor.bib_1478231.utf8, line 8, warning: 14 characters of junk seen at toplevel
-[398] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/ATLAS.bib' for section 0
-[485] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[636] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/ATLAS.bib'
-[754] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/CMS.bib' for section 0
-[834] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[973] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/CMS.bib'
-[1086] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/ConfNotes.bib' for section 0
-[1162] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[1295] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/ConfNotes.bib'
-[1327] Utils.pm:164> WARN - Duplicate entry key: 'ATLAS-CONF-2011-117' in file 'bib/ConfNotes.bib', skipping ...
-[1434] Utils.pm:164> WARN - month field 'Aug' in entry 'ele_eff' is not an integer - this will probably not sort properly.
-[1435] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/PubNotes.bib' for section 0
-[1454] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[1483] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/PubNotes.bib'
-[1515] Utils.pm:164> WARN - I didn't find a database entry for 'Butterworth:2015oua' (section 0)
-[1552] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1552] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1552] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-UK'
-[1552] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-UK'
-[1582] bbl.pm:608> INFO - Writing 'wz_heavy_flavor.bbl' with encoding 'UTF-8'
-[1589] bbl.pm:712> INFO - Output to wz_heavy_flavor.bbl
-[1590] Biber.pm:109> INFO - WARNINGS: 9
+[226] biber:303> INFO - === Sun May 30, 2021, 11:34:41
+[406] Biber.pm:359> INFO - Reading 'wz_heavy_flavor.bcf'
+[1042] Biber.pm:835> INFO - Found 30 citekeys in bib section 0
+[1132] Biber.pm:3670> INFO - Processing section 0
+[1245] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/wz_heavy_flavor.bib' for section 0
+[1311] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[1387] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/wz_heavy_flavor.bib'
+[1605] Utils.pm:164> WARN - month field 'Mar' in entry 'ttW_140' is not an integer - this will probably not sort properly.
+[1700] Utils.pm:164> WARN - month field 'Nov' in entry 'met_2018' is not an integer - this will probably not sort properly.
+[1705] Utils.pm:164> WARN - month field 'Apr' in entry 'ttZ_paper' is not an integer - this will probably not sort properly.
+[1946] Utils.pm:164> WARN - Name "J. Alwall, M. Herquet, F. Maltoni, O. Mattelaer" has too many commas: skipping name
+[1955] Utils.pm:164> WARN - month field 'Jul' in entry 'tZ_paper' is not an integer - this will probably not sort properly.
+[1973] Utils.pm:164> WARN - BibTeX subsystem: /tmp/6UmUaeE4AH/wz_heavy_flavor.bib_1480867.utf8, line 8, warning: 14 characters of junk seen at toplevel
+[1975] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/ATLAS.bib' for section 0
+[2225] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[2724] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/ATLAS.bib'
+[3073] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/CMS.bib' for section 0
+[3314] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[3976] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/CMS.bib'
+[4563] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/ConfNotes.bib' for section 0
+[4965] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[5485] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/ConfNotes.bib'
+[5670] Utils.pm:164> WARN - Duplicate entry key: 'ATLAS-CONF-2011-117' in file 'bib/ConfNotes.bib', skipping ...
+[5977] Utils.pm:164> WARN - month field 'Aug' in entry 'ele_eff' is not an integer - this will probably not sort properly.
+[5978] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/PubNotes.bib' for section 0
+[5999] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[6168] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/PubNotes.bib'
+[6330] Utils.pm:164> WARN - I didn't find a database entry for 'Butterworth:2015oua' (section 0)
+[6524] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[6582] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[6582] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-UK'
+[6585] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-UK'
+[6776] bbl.pm:608> INFO - Writing 'wz_heavy_flavor.bbl' with encoding 'UTF-8'
+[6817] bbl.pm:712> INFO - Output to wz_heavy_flavor.bbl
+[6872] Biber.pm:109> INFO - WARNINGS: 9
