@@ -1,35 +1,34 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
-[1] Config.pm:357> INFO - Logfile is 'wz_heavy_flavor.blg'
-[55] biber:303> INFO - === Wed May 26, 2021, 15:49:14
-[86] Biber.pm:359> INFO - Reading 'wz_heavy_flavor.bcf'
-[164] Biber.pm:835> INFO - Found 33 citekeys in bib section 0
-[174] Biber.pm:3670> INFO - Processing section 0
-[184] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/wz_heavy_flavor.bib' for section 0
-[188] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[206] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/wz_heavy_flavor.bib'
-[248] Utils.pm:164> WARN - month field 'Apr' in entry 'Cacciari_2008' is not an integer - this will probably not sort properly.
-[250] Utils.pm:164> WARN - month field 'Aug' in entry 'btagging' is not an integer - this will probably not sort properly.
-[252] Utils.pm:164> WARN - month field 'Nov' in entry 'met_2018' is not an integer - this will probably not sort properly.
-[283] Utils.pm:164> WARN - month field 'Apr' in entry 'ttZ_paper' is not an integer - this will probably not sort properly.
-[286] Utils.pm:164> WARN - month field 'Jul' in entry 'Frederix_2018' is not an integer - this will probably not sort properly.
-[289] Utils.pm:164> WARN - month field 'Mar' in entry 'jes' is not an integer - this will probably not sort properly.
-[292] Utils.pm:164> WARN - month field 'Jul' in entry 'tZ_paper' is not an integer - this will probably not sort properly.
-[292] Utils.pm:164> WARN - BibTeX subsystem: /tmp/y3JRDHuq9T/wz_heavy_flavor.bib_1056569.utf8, line 8, warning: 14 characters of junk seen at toplevel
-[293] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/ATLAS.bib' for section 0
-[361] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[489] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/ATLAS.bib'
-[547] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/CMS.bib' for section 0
-[604] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[730] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/CMS.bib'
-[780] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/ConfNotes.bib' for section 0
-[831] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[947] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/ConfNotes.bib'
-[961] Utils.pm:164> WARN - Duplicate entry key: 'ATLAS-CONF-2011-117' in file 'bib/ConfNotes.bib', skipping ...
-[1005] Utils.pm:164> WARN - month field 'Aug' in entry 'ele_eff' is not an integer - this will probably not sort properly.
-[1023] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1023] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1023] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-UK'
-[1023] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-UK'
-[1037] bbl.pm:608> INFO - Writing 'wz_heavy_flavor.bbl' with encoding 'UTF-8'
-[1042] bbl.pm:712> INFO - Output to wz_heavy_flavor.bbl
-[1042] Biber.pm:109> INFO - WARNINGS: 10
+[2] Config.pm:357> INFO - Logfile is 'wz_heavy_flavor.blg'
+[35] biber:303> INFO - === Mon May 31, 2021, 12:23:47
+[60] Biber.pm:359> INFO - Reading 'wz_heavy_flavor.bcf'
+[141] Biber.pm:835> INFO - Found 33 citekeys in bib section 0
+[155] Biber.pm:3670> INFO - Processing section 0
+[171] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/wz_heavy_flavor.bib' for section 0
+[241] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[253] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/wz_heavy_flavor.bib'
+[286] Utils.pm:164> WARN - month field 'Apr' in entry 'Cacciari_2008' is not an integer - this will probably not sort properly.
+[288] Utils.pm:164> WARN - month field 'Aug' in entry 'btagging' is not an integer - this will probably not sort properly.
+[289] Utils.pm:164> WARN - month field 'Nov' in entry 'met_2018' is not an integer - this will probably not sort properly.
+[319] Utils.pm:164> WARN - month field 'Apr' in entry 'ttZ_paper' is not an integer - this will probably not sort properly.
+[322] Utils.pm:164> WARN - month field 'Jul' in entry 'Frederix_2018' is not an integer - this will probably not sort properly.
+[327] Utils.pm:164> WARN - month field 'Jul' in entry 'tZ_paper' is not an integer - this will probably not sort properly.
+[327] Utils.pm:164> WARN - BibTeX subsystem: /tmp/NoBJokemfB/wz_heavy_flavor.bib_1647492.utf8, line 8, warning: 14 characters of junk seen at toplevel
+[328] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/ATLAS.bib' for section 0
+[431] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[583] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/ATLAS.bib'
+[690] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/CMS.bib' for section 0
+[805] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[942] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/CMS.bib'
+[1054] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/ConfNotes.bib' for section 0
+[1142] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[1243] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/ConfNotes.bib'
+[1263] Utils.pm:164> WARN - Duplicate entry key: 'ATLAS-CONF-2011-117' in file 'bib/ConfNotes.bib', skipping ...
+[1332] Utils.pm:164> WARN - month field 'Aug' in entry 'ele_eff' is not an integer - this will probably not sort properly.
+[1366] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1366] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1366] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-UK'
+[1366] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-UK'
+[1389] bbl.pm:608> INFO - Writing 'wz_heavy_flavor.bbl' with encoding 'UTF-8'
+[1397] bbl.pm:712> INFO - Output to wz_heavy_flavor.bbl
+[1398] Biber.pm:109> INFO - WARNINGS: 9

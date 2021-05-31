@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  26 MAY 2021 15:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  31 MAY 2021 12:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2915,32 +2915,32 @@ dentifier (name{table.1}) has been already used, duplicate ignored
 l.7 
     ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 62.
+(Font)              scaled to size 7.3pt on input line 61.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 62.
+(Font)              scaled to size 5.5pt on input line 61.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 62.
+(Font)              scaled to size 8.99994pt on input line 61.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 6.56995pt on input line 62.
+(Font)              scaled to size 6.56995pt on input line 61.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 4.94997pt on input line 62.
+(Font)              scaled to size 4.94997pt on input line 61.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 62.
+(Font)              scaled to size 10.0pt on input line 61.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 7.3pt on input line 62.
+(Font)              scaled to size 7.3pt on input line 61.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 5.5pt on input line 62.
+(Font)              scaled to size 5.5pt on input line 61.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 62.
+(Font)              size <5> substituted on input line 61.
 
 [6pdfTeX warning (ext4): destination with the same identifier (name{table.2}) h
 as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.69 
+l.68 
      ]) (./sections/tZ.tex
 <figures/tZ_bdt_ab127/plots_nlo/xgb_score.png, id=232, 462.528pt x 346.896pt>
 File: figures/tZ_bdt_ab127/plots_nlo/xgb_score.png Graphic file (type png)
@@ -2964,15 +2964,14 @@ l.5
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.58 \subsection{Non-Prompt Lepton Estimation}
-                                              ] [11]) (./sections/sys.tex
-[12pdfTeX warning (ext4): destination with the same identifier (name{table.4}) 
-has been already used, duplicate ignored
+l.56 
+     ] [11]) (./sections/sys.tex [12pdfTeX warning (ext4): destination with the
+ same identifier (name{table.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.51 
-     ]
+l.49 
+     ] [13]
 \openout2 = `sections/xsecUnc.aux'.
 
  (./sections/xsecUnc.tex
@@ -2980,15 +2979,7 @@ LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 (Font)              scaled to size 8.09995pt on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 9.0pt on input line 1.
-) [13]) (./sections/truthJetResults.tex
-<figures/sys_truthJets/Plots/Summary_postFit.png, id=304, 899.36pt x 674.52pt>
-File: figures/sys_truthJets/Plots/Summary_postFit.png Graphic file (type png)
-
-<use figures/sys_truthJets/Plots/Summary_postFit.png>
-Package pdftex.def Info: figures/sys_truthJets/Plots/Summary_postFit.png used o
-n input line 13.
-(pdftex.def)             Requested size: 376.4258pt x 282.3187pt.
- [14
+)) (./sections/truthJetResults.tex [14
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
@@ -2996,15 +2987,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.17 
-     ] [15pdfTeX warning (ext4): destination with the same identifier (name{fig
-ure.2}) has been already used, duplicate ignored
+l.10 
+     ]
+<figures/sys_truthJets/Plots/Summary_postFit.png, id=311, 899.36pt x 674.52pt>
+File: figures/sys_truthJets/Plots/Summary_postFit.png Graphic file (type png)
+
+<use figures/sys_truthJets/Plots/Summary_postFit.png>
+Package pdftex.def Info: figures/sys_truthJets/Plots/Summary_postFit.png used o
+n input line 13.
+(pdftex.def)             Requested size: 376.4258pt x 282.3187pt.
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.2}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.45 
+l.26 
       <./figures/sys_truthJets/Plots/Summary_postFit.png>]
-<figures/corrMat.png, id=320, 700.6175pt x 477.785pt>
+<figures/corrMat.png, id=319, 700.6175pt x 477.785pt>
 File: figures/corrMat.png Graphic file (type png)
 
 <use figures/corrMat.png>
@@ -3116,10 +3115,10 @@ Package logreq Info: Writing requests to 'wz_heavy_flavor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39813 strings out of 493013
- 778144 string characters out of 6123688
- 1273455 words of memory out of 5000000
- 42578 multiletter control sequences out of 15000+600000
+ 39814 strings out of 493013
+ 778202 string characters out of 6123688
+ 1273474 words of memory out of 5000000
+ 42579 multiletter control sequences out of 15000+600000
  150759 words of font info for 203 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,24n,74p,10407b,1991s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3148,10 +3147,10 @@ s/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/newtx/txb
 sys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/pu
 blic/newtx/txexs.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/f
 onts/type1/public/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (26 pages, 438909 bytes).
+Output written on wz_heavy_flavor.pdf (26 pages, 439470 bytes).
 PDF statistics:
- 563 PDF objects out of 1000 (max. 8388607)
- 504 compressed objects within 6 object streams
+ 565 PDF objects out of 1000 (max. 8388607)
+ 506 compressed objects within 6 object streams
  100 named destinations out of 1000 (max. 500000)
  211 words of extra memory for PDF output out of 10000 (max. 10000000)
 
