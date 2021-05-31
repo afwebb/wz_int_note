@@ -13,9 +13,9 @@
 \contentsline {subsubsection}{\numberline {1.1.8}Changes relative to v1}{6}{subsubsection.1.1.8}
 \contentsline {subsection}{\numberline {1.2}Outstanding Items}{6}{subsection.1.2}
 \contentsline {section}{\numberline {2}Executive Summary}{7}{section.2}
-\contentsline {section}{\numberline {3}Data and Monte Carlo Samples}{7}{section.3}
+\contentsline {section}{\numberline {3}Data and Monte Carlo Samples}{8}{section.3}
 \contentsline {subsection}{\numberline {3.1}Data Samples}{8}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Monte Carlo Samples}{8}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}Monte Carlo Samples}{9}{subsection.3.2}
 \contentsline {section}{\numberline {4}Object Reconstruction}{10}{section.4}
 \contentsline {subsection}{\numberline {4.1}Trigger}{10}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Light leptons}{11}{subsection.4.2}
