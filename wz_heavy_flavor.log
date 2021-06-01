@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  1 JUN 2021 13:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  1 JUN 2021 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5175,21 +5175,26 @@ File: figures/signalModel/plotsNotZ/bjets1j.pdf Graphic file (type pdf)
 <use figures/signalModel/plotsNotZ/bjets1j.pdf>
 Package pdftex.def Info: figures/signalModel/plotsNotZ/bjets1j.pdf used on inpu
 t line 213.
-(pdftex.def)             Requested size: 188.21289pt x 128.46196pt.
+(pdftex.def)             Requested size: 221.67395pt x 151.29977pt.
 
 <figures/signalModel/plotsNotZ/charm1j.pdf, id=1514, 569.12625pt x 388.45125pt>
 File: figures/signalModel/plotsNotZ/charm1j.pdf Graphic file (type pdf)
 <use figures/signalModel/plotsNotZ/charm1j.pdf>
 Package pdftex.def Info: figures/signalModel/plotsNotZ/charm1j.pdf used on inpu
 t line 214.
-(pdftex.def)             Requested size: 188.21289pt x 128.46196pt.
+(pdftex.def)             Requested size: 221.67395pt x 151.29977pt.
+
+Overfull \hbox (25.09418pt too wide) in paragraph at lines 213--214
+ [][][][] 
+ []
+
 
 <figures/signalModel/plotsNotZ/light1j.pdf, id=1515, 569.12625pt x 388.45125pt>
 File: figures/signalModel/plotsNotZ/light1j.pdf Graphic file (type pdf)
 <use figures/signalModel/plotsNotZ/light1j.pdf>
 Package pdftex.def Info: figures/signalModel/plotsNotZ/light1j.pdf used on inpu
 t line 215.
-(pdftex.def)             Requested size: 188.21289pt x 128.46196pt.
+(pdftex.def)             Requested size: 221.67395pt x 151.29977pt.
  [55
 
 
@@ -5205,21 +5210,26 @@ File: figures/signalModel/plotsNotZ/bjets2j.pdf Graphic file (type pdf)
 <use figures/signalModel/plotsNotZ/bjets2j.pdf>
 Package pdftex.def Info: figures/signalModel/plotsNotZ/bjets2j.pdf used on inpu
 t line 222.
-(pdftex.def)             Requested size: 188.21289pt x 128.46196pt.
+(pdftex.def)             Requested size: 221.67395pt x 151.29977pt.
 
 <figures/signalModel/plotsNotZ/charm2j.pdf, id=1525, 569.12625pt x 388.45125pt>
 File: figures/signalModel/plotsNotZ/charm2j.pdf Graphic file (type pdf)
 <use figures/signalModel/plotsNotZ/charm2j.pdf>
 Package pdftex.def Info: figures/signalModel/plotsNotZ/charm2j.pdf used on inpu
 t line 223.
-(pdftex.def)             Requested size: 188.21289pt x 128.46196pt.
+(pdftex.def)             Requested size: 221.67395pt x 151.29977pt.
+
+Overfull \hbox (25.09418pt too wide) in paragraph at lines 222--223
+ [][][][] 
+ []
+
 
 <figures/signalModel/plotsNotZ/light2j.pdf, id=1526, 569.12625pt x 388.45125pt>
 File: figures/signalModel/plotsNotZ/light2j.pdf Graphic file (type pdf)
 <use figures/signalModel/plotsNotZ/light2j.pdf>
 Package pdftex.def Info: figures/signalModel/plotsNotZ/light2j.pdf used on inpu
 t line 224.
-(pdftex.def)             Requested size: 188.21289pt x 128.46196pt.
+(pdftex.def)             Requested size: 221.67395pt x 151.29977pt.
  [56pdfTeX warning (ext4): destination with the same identifier (name{figure.30
 }) has been already used, duplicate ignored
 
@@ -5236,7 +5246,7 @@ pe pdf)
  <use figures/signalModel/truthJets/plots/migrations_bjets.pdf>
 Package pdftex.def Info: figures/signalModel/truthJets/plots/migrations_bjets.p
 df used on input line 236.
-(pdftex.def)             Requested size: 188.21289pt x 128.46196pt.
+(pdftex.def)             Requested size: 221.67395pt x 151.29977pt.
 
 <figures/signalModel/truthJets/plots/migrations_charm.pdf, id=1665, 569.12625pt
  x 388.45125pt>
@@ -5245,7 +5255,12 @@ pe pdf)
  <use figures/signalModel/truthJets/plots/migrations_charm.pdf>
 Package pdftex.def Info: figures/signalModel/truthJets/plots/migrations_charm.p
 df used on input line 237.
-(pdftex.def)             Requested size: 188.21289pt x 128.46196pt.
+(pdftex.def)             Requested size: 221.67395pt x 151.29977pt.
+
+Overfull \hbox (25.09418pt too wide) in paragraph at lines 236--237
+ [][][][] 
+ []
+
 
 <figures/signalModel/truthJets/plots/migrations_light.pdf, id=1666, 569.12625pt
  x 388.45125pt>
@@ -5254,7 +5269,7 @@ pe pdf)
  <use figures/signalModel/truthJets/plots/migrations_light.pdf>
 Package pdftex.def Info: figures/signalModel/truthJets/plots/migrations_light.p
 df used on input line 238.
-(pdftex.def)             Requested size: 188.21289pt x 128.46196pt.
+(pdftex.def)             Requested size: 221.67395pt x 151.29977pt.
 
 [57pdfTeX warning (ext4): destination with the same identifier (name{figure.31}
 ) has been already used, duplicate ignored
@@ -5977,7 +5992,7 @@ fonts/t1xtt.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/
 type1/public/newtx/txbsys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/tex
 mf-dist/fonts/type1/public/newtx/txexs.pfb></cvmfs/sft.cern.ch/lcg/external/tex
 live/2016/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (96 pages, 6624005 bytes).
+Output written on wz_heavy_flavor.pdf (96 pages, 6623964 bytes).
 PDF statistics:
  2506 PDF objects out of 2984 (max. 8388607)
  1587 compressed objects within 16 object streams
