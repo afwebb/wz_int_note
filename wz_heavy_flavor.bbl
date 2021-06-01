@@ -195,6 +195,39 @@
       \verb 0811.4622
       \endverb
     \endentry
+    \entry{Ball:2014uwa}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=250babb635b404ffb49817a97a0fb9ca}{%
+           family={Ball},
+           familyi={B\bibinitperiod},
+           given={Richard\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{876e8072a47289b137d22df90918f9a5}
+      \strng{fullhash}{876e8072a47289b137d22df90918f9a5}
+      \strng{authornamehash}{876e8072a47289b137d22df90918f9a5}
+      \strng{authorfullhash}{876e8072a47289b137d22df90918f9a5}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP}
+      \field{title}{{Parton distributions for the LHC Run II}}
+      \field{volume}{04}
+      \field{year}{2015}
+      \field{pages}{040}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/JHEP04(2015)040
+      \endverb
+      \verb{eprint}
+      \verb 1410.8849
+      \endverb
+    \endentry
     \entry{ct10}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -259,39 +292,6 @@
       \endverb
       \verb{eprint}
       \verb 1405.0301
-      \endverb
-    \endentry
-    \entry{Ball:2014uwa}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=250babb635b404ffb49817a97a0fb9ca}{%
-           family={Ball},
-           familyi={B\bibinitperiod},
-           given={Richard\bibnamedelima D.},
-           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \strng{namehash}{876e8072a47289b137d22df90918f9a5}
-      \strng{fullhash}{876e8072a47289b137d22df90918f9a5}
-      \strng{authornamehash}{876e8072a47289b137d22df90918f9a5}
-      \strng{authorfullhash}{876e8072a47289b137d22df90918f9a5}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{hep-ph}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{JHEP}
-      \field{title}{{Parton distributions for the LHC Run II}}
-      \field{volume}{04}
-      \field{year}{2015}
-      \field{pages}{040}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1007/JHEP04(2015)040
-      \endverb
-      \verb{eprint}
-      \verb 1410.8849
       \endverb
     \endentry
     \entry{Bahr:2008pv}{article}{}
@@ -1118,7 +1118,6 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{Butterworth:2015oua}
 \endrefsection
 \endinput
 
