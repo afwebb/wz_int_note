@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  31 MAY 2021 12:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  1 JUN 2021 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3014,37 +3014,37 @@ Package pdftex.def Info: figures/corrMat.png used on input line 50.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.80 
+l.81 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.80 
+l.81 
       <./figures/corrMat.png>] [17pdfTeX warning (ext4): destination with the s
 ame identifier (name{table.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.139 
+l.140 
       pdfTeX warning (ext4): destination with the same identifier (name{table.8
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.139 
+l.140 
       ] [18pdfTeX warning (ext4): destination with the same identifier (name{ta
 ble.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.167 \include{sections/incFit}
+l.168 \include{sections/incFit}
                                pdfTeX warning (ext4): destination with the same
  identifier (name{table.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.167 \include{sections/incFit}
+l.168 \include{sections/incFit}
                                ]
 \openout2 = `sections/incFit.aux'.
 
@@ -3070,7 +3070,7 @@ sed, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.167 \include{sections/incFit}
+l.168 \include{sections/incFit}
                                ] (./sections/with_tZ.tex)) [21
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.12}) ha
@@ -3115,10 +3115,10 @@ Package logreq Info: Writing requests to 'wz_heavy_flavor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39814 strings out of 493013
- 778202 string characters out of 6123688
+ 39813 strings out of 493013
+ 778171 string characters out of 6123688
  1273474 words of memory out of 5000000
- 42579 multiletter control sequences out of 15000+600000
+ 42578 multiletter control sequences out of 15000+600000
  150759 words of font info for 203 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,24n,74p,10407b,1991s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3147,7 +3147,7 @@ s/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/public/newtx/txb
 sys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/type1/pu
 blic/newtx/txexs.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/f
 onts/type1/public/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (26 pages, 439470 bytes).
+Output written on wz_heavy_flavor.pdf (26 pages, 439438 bytes).
 PDF statistics:
  565 PDF objects out of 1000 (max. 8388607)
  506 compressed objects within 6 object streams
