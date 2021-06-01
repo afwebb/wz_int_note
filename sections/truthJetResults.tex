@@ -15,7 +15,7 @@ A maximum likelihood fit to data is performed simultaneously in the regions desc
   \label{fig:summary}
 \end{figure}
 
-As described in Section \ref{sec:sys}, there are 230 systematic uncertainties that are considered as NPs in the fit. These NPs are constrained by Gaussian or log-normal probability density functions. The latter are used for normalisation factors to ensure that they are always positive. The expected number of signal and background events are functions of the likelihood. The prior for each NP is added as a penalty term, decreasing the likelihood as it is shifted away from its nominal value. The correlations between these nuisance parameters are summarized in Figure \ref{fig:corr_mat_1j}. 
+As described in Section \ref{sec:sys}, there are 235 systematic uncertainties that are considered as NPs in the fit. These NPs are constrained by Gaussian or log-normal probability density functions. The latter are used for normalisation factors to ensure that they are always positive. The expected number of signal and background events are functions of the likelihood. The prior for each NP is added as a penalty term, decreasing the likelihood as it is shifted away from its nominal value. The correlations between these nuisance parameters are summarized in Figure \ref{fig:corr_mat_1j}. 
 
 Several alternative fit strategies are documented in Appendices \ref{sec:incFit}-\ref{sec:inc_tZ}. These include a measurement of WZ + 1 or 2 jets inclusively, a fit where tZ is allowed to float, and a case where tZ is included as part of the signal.
 
@@ -30,27 +30,35 @@ For 2-jet events, the fit gives an expected $\mu$ value of $1.00^{+0.53}_{-0.51}
 
 The expected $WZ$ + b cross-section in the fiducial region with 2 associated jets is $2.5^{+1.3}_{-1.3}(stat)^{+0.95}_{-0.83}(sys)$ fb with an expected significance of 1.7$\sigma$. The 2-jet expected cross-section of $WZ$ + charm is $12.7 \pm 3.2 (stat) \pm 2.7 (sys)$ fb, and the correlation between WZ + charm and WZ + b is -0.22. 
 
-A summary of the correlation between the various WZ components is summarized in Table \ref{tab:WZ_corr}.
+The results of the fit to an Asimov dataset for the fiducial regions considered, including both the normalization factors as well as the expected cross-sections, along with their uncertainties, are summarized in Table \ref{tab:WZ_results}.
 
 \hspace{-1in}\begin{table}[H]
 \begin{adjustwidth}{-3em}{-3em}
 \begin{center}
-\begin{tabular}{l|cccccc}
+\begin{tabular}{|l|c|c|}
 \hline
- & WZ + b - 1-jet & WZ + c - 1-jet & WZ + l - 1-jet & WZ + b - 2-jet & WZ + c - 2-jet & WZ + l - 2-jet\\
-WZ + b - 1-jet & 1.00 & -0.15 & 0.28 & -0.13 & -0.22 & 0.17 \\
-WZ + c - 1-jet & - & 1.00 & 0.36 & 0.13 & -0.14 & -0.16 \\
-WZ + l - 1-jet & - & - & 1.00 & 0.10 & -0.20 & -0.39 \\
-WZ + b - 2-jet & - & - & - & 1.00 & -0.22 & 0.17 \\
-WZ + c - 2-jet & - & - & - & - & 1.00 & 0.23 \\
-WZ + l - 2-jet & - & - & - & - & - & 1.00 \\
+Process & $\mu$ & $\sigma$ \\
+\hline
+WZ + $b$ - 1-jet & $1.00^{+0.47}_{-0.43}(stat)^{+0.30}_{-0.27}(sys)$ & $1.74^{+0.82}_{-0.75}(stat)^{+0.53}_{-0.48}(sys)$ fb \\
+WZ + $c$ - 1-jet & $1.00 \pm 0.17(stat) \pm 0.17(sys)$ & $14.6 \pm 2.5 (stat) \pm 2.3 (sys)$ fb \\
+WZ + $b$ - 2-jet & $1.00^{+0.53}_{-0.51}(stat)^{+0.39}_{-0.34}(sys)$ & $2.5^{+1.3}_{-1.3}(stat)^{+0.95}_{-0.83}(sys)$ fb \\
+WZ + $c$ - 2-jet & $1.00 \pm 0.25(stat) \pm 0.21(sys)$ & $12.7 \pm 3.2 (stat) \pm 2.7 (sys)$ fb \\
 \hline
 \end{tabular}
-\caption{Correlations between the various components of WZ}
-\label{tab:WZ_corr}
+\caption{Normalization factors and cross-sections extracted from the fit for each of the fiducial regions considered}
+\label{tab:WZ_results}
 \end{center}
 \end{adjustwidth}
 \end{table}
+
+An expected significance of 2.0$\sigma$ is observed for WZ + $b$ with 1-jet, and 1.7$\sigma$ for WZ + $b$ with two jets. A summary of the correlations between these various measurements is shown in Figure \ref{fig:corrMat}.
+
+\begin{figure}[H]
+  \center
+  \includegraphics[width=.8\linewidth]{corrMat.png}
+  \caption{Correlations between the various measured components of WZ.}
+  \label{fig:corrMat}
+\end{figure}
 
 %The correlations between the all of the nuisance parameters considered in the fit are summarized in Figure \ref{fig:corr_mat_1j}.a
 
