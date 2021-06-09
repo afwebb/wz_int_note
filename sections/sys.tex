@@ -1,5 +1,5 @@
 
-The systematic uncertainties that are considered are summarized in Table \ref{tab:SystSummary}. These are implemented in the fit either as a normalization factors or as a shape variation or both in the signal and background estimations. The numerical impact of each of these uncertainties is outlined in Section \ref{sec:results}.
+The systematic uncertainties that are considered are summarized in Table \ref{tab:SystSummary}. These are implemented in the fit either as a normalization factors or as a shape variation or both in the signal and background estimations. These systematic uncertainties are treated as independent nuiscance parameters (NPs) in the fit, and are assumed to be gaussian. Each NP is varied up and down by its uncertainty, and the difference in the result of the fit is taken to be the systematic uncertainty of that NP. The numerical impact of each of these uncertainties is outlined in Section \ref{sec:results}.
 
 \begin{table}[H]
 \centering
@@ -51,7 +51,7 @@ The experimental uncertainties are related to the reconstruction and identificat
 The sources which contribute to the uncertainty in the jet energy scale (JES) \cite{PERF-2016-04} are decomposed into uncorrelated components and treated as independent sources in the analysis. The CategoryReduction model is used to account for JES uncertainties, which decomposes the uncertainties into 30 nuiscance parameters included in the fit. The SimpleJER model is used to account for jet energy resolution (JER) uncertainties, and 8 JER uncertainty components included as NPs in the fit. 
 
 \paragraph{}
-The uncertainties in the b-tagging efficiencies measured in dedicated calibration analyses \cite{btag_cal} are also decomposed into uncorrelated components. The large number of components for b-tagging is due to the calibration of the distribution of the MVA discriminant.  
+The uncertainties in the b-tagging efficiencies measured in dedicated calibration analyses \cite{btag_cal} are also decomposed into uncorrelated components. The large number of components for b-tagging is due to the use of the full continuous b-tagging spectrum: The calibration of the distribution of the MVA discriminant for each of the individual working points considered for $b-$ $c-$ and light jets, and the correlations between them, produces a large number of systematic uncertainties.
 
 %The systematic uncertainties associated with the signal and background processes are accounted for by varying the cross-section of each process within its uncertainty.
 
@@ -188,7 +188,7 @@ The full list of systematic uncertainties considered in the analysis is summariz
 \paragraph{}
 Theoretical uncertainties applied to MC predictions, including cross section, PDF, and scale uncertainties are taken from theory calculations, with the exception of non-prompt and diboson backgrounds. The cross-section uncertainty on tZ is taken from \cite{tZ_paper}. Derivation of the non-prompt background uncertainties, Z+jets and $t\bar{t}$, are explained in detail in Section \ref{sec:fakes}. These normalization uncertainties are chosen so as to account for the complete uncertainty in the non-prompt contribution, and therefore no additional modelling uncertainties are considered for Z+jets and $t\bar{t}$.
 
-The other VV + heavy flavor processes (namely VV+b and VV+charm, which primarily consist of ZZ events) are also poorly understood, because these processes involve the same physics as WZ + heavy flavor, and have also not been measured. Therefore, a conservative 50\% uncertainty is applied to those samples. While this uncertainty is large, it is found to have little impact on the significance of the final result.
+The other VV + heavy flavor processes (namely VV+b and VV+charm, which primarily consist of ZZ events) are also poorly understood, because these processes involve the same physics as WZ + heavy flavor, and have also not been measured. Therefore, a conservative 50\% uncertainty is applied to those samples. While this uncertainty is large, it is found to have little impact on the significance of the final result: Fits are performed with this uncertainty decreased to 25\% and increased to 75\% and no change in the final result was observed.
 
 The theory uncertainties applied to the predominate background estimates are summarized in Table \ref{tab:xsecUnc}. 
 

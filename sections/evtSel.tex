@@ -419,9 +419,10 @@ Similar to $t\bar{t}$, a non-prompt $Z$+jets validation region is produced in or
 While there is general agreement between data and MC within statistical uncertainty, the shape of the $p_T$ spectrum of the lepton from the W candidate is found to differ. As this is the lepton not included in the Z-candidate, in the case of Z+jets, this lepton is most often the non-prompt lepton. A similar effect is seen for both non-prompt muons and electrons in the Z+jets validation region, as shown in Figure \ref{fig:zjets_flav}.
 
 \begin{figure}[H]
+    \centering
     \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/noScale/lep_Pt_W_e.png}}%                      
     \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/noScale/lep_Pt_W_mu.png}}\\
-    \caption{\pt spectrum of the lepton from the W candidate for (a) electrons and (b) muons}
+    \caption{\pt spectrum of the lepton from the W candidate for (a) electrons and (b) muons before the correction has been applied}
     \label{fig:zjets_flav}
 \end{figure}
 
@@ -439,6 +440,16 @@ To account for this discrepency, a variable correction factor is applied to Z+je
     \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/withScale/DRll02.png}}\\
     \caption{Comparisons between the data and MC distributions in the $Z$+jets validation region after the correction factor has been applied for (a) the $p_T$ of the leading jet, (b) $\Delta R$ between leptons 0 and 1, (c) the $p_T$ of lepton 0, (d) $p_T$ of SS lepton from the Z candidate, (e) $p_T$ of the SS lepton from the W candidate, (f) the invariant mass of leptons 0 and 1, (g) the invariant mass of leptons 0 and 2, (h) the number of jets, (i) $\Delta R$ between leptons 0 and 2}%(i) the number of b-tagged jets.}                 
     \label{fig:zjets_withScale}
+\end{figure}
+
+The \pt of the lepton from the W candidate split by lepton flavor after this correction has been applied is shown in figure \ref{fig:zjets_flavScale}.
+
+\begin{figure}[H]
+    \centering
+    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/withScale/lep_Pt_W_e.png}}%                           
+    \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/withScale/lep_Pt_W_mu.png}}\\
+    \caption{\pt spectrum of the lepton from the W candidate for (a) electrons and (b) muons after the correction has been applied}
+    \label{fig:zjets_flavScale}
 \end{figure}
 
 The modeling is further validated by looking at the yield in the Z+jets VR for each DL1r WP, giving a clearer correspondence to the signal regions used in the fit. Each region shown in Figure \ref{fig:zjets_summary} requires one or more jets pass the listed WP, with no jets passing the next highest WP.                                                                    

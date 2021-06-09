@@ -27,23 +27,23 @@
 \contentsline {subsection}{\numberline {5.1}Top Mass Reconstruction}{16}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}tZ BDT}{16}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}tZ Interference Studies}{20}{subsection.5.3}
-\contentsline {section}{\numberline {6}Event Selection and Signal Region Definitions}{22}{section.6}
-\contentsline {subsection}{\numberline {6.1}Event Preselection}{22}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Fit Regions}{26}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Non-Prompt Lepton Estimation}{42}{subsection.6.3}
-\contentsline {subsubsection}{\numberline {6.3.1}$t\bar {t}$ Validation}{42}{subsubsection.6.3.1}
-\contentsline {subsubsection}{\numberline {6.3.2}$Z$+jets Validation}{45}{subsubsection.6.3.2}
-\contentsline {section}{\numberline {7}Systematic Uncertainties}{49}{section.7}
-\contentsline {section}{\numberline {8}Results}{59}{section.8}
-\contentsline {subsection}{\numberline {8.1}Fit Procedure}{59}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Results of the Simultaneous Fit}{60}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Inclusive 1+2 Jet Fit}{71}{subsection.8.3}
-\contentsline {subsection}{\numberline {8.4}Alternate tZ Inclusive Fit}{75}{subsection.8.4}
-\contentsline {subsubsection}{\numberline {8.4.1}tZ Inclusive Fit}{75}{subsubsection.8.4.1}
-\contentsline {subsubsection}{\numberline {8.4.2}Floating tZ}{75}{subsubsection.8.4.2}
-\contentsline {section}{\numberline {9}Conclusion}{76}{section.9}
-\contentsline {section}{\numberline {A}Appendices}{79}{appendix.A}
-\contentsline {part}{Appendices}{79}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Non-prompt lepton MVA}{79}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Non-prompt CR Modelling}{81}{subsection.A.2}
-\contentsline {subsection}{\numberline {A.3}DSID list}{85}{subsection.A.3}
+\contentsline {section}{\numberline {6}Event Selection and Signal Region Definitions}{23}{section.6}
+\contentsline {subsection}{\numberline {6.1}Event Preselection}{23}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Fit Regions}{27}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Non-Prompt Lepton Estimation}{43}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}$t\bar {t}$ Validation}{43}{subsubsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.2}$Z$+jets Validation}{46}{subsubsection.6.3.2}
+\contentsline {section}{\numberline {7}Systematic Uncertainties}{51}{section.7}
+\contentsline {section}{\numberline {8}Results}{61}{section.8}
+\contentsline {subsection}{\numberline {8.1}Fit Procedure}{61}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Results of the Simultaneous Fit}{62}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Inclusive 1+2 Jet Fit}{73}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Alternate tZ Inclusive Fit}{77}{subsection.8.4}
+\contentsline {subsubsection}{\numberline {8.4.1}tZ Inclusive Fit}{77}{subsubsection.8.4.1}
+\contentsline {subsubsection}{\numberline {8.4.2}Floating tZ}{77}{subsubsection.8.4.2}
+\contentsline {section}{\numberline {9}Conclusion}{78}{section.9}
+\contentsline {section}{\numberline {A}Appendices}{81}{appendix.A}
+\contentsline {part}{Appendices}{81}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Non-prompt lepton MVA}{81}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Non-prompt CR Modelling}{83}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}DSID list}{87}{subsection.A.3}
