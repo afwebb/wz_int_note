@@ -3,14 +3,15 @@
 \select@language {UKenglish}
 \contentsline {section}{\numberline {1}Changes and outstanding items}{4}{section.1}
 \contentsline {subsection}{\numberline {1.1}Changelog}{4}{subsection.1.1}
-\contentsline {subsubsection}{\numberline {1.1.1}Changes relative to v9}{4}{subsubsection.1.1.1}
-\contentsline {subsubsection}{\numberline {1.1.2}Changes relative to v8}{4}{subsubsection.1.1.2}
-\contentsline {subsubsection}{\numberline {1.1.3}Changes relative to v7}{5}{subsubsection.1.1.3}
-\contentsline {subsubsection}{\numberline {1.1.4}Changes relative to v5}{5}{subsubsection.1.1.4}
-\contentsline {subsubsection}{\numberline {1.1.5}Changes relative to v4}{5}{subsubsection.1.1.5}
-\contentsline {subsubsection}{\numberline {1.1.6}Changes relative to v3}{6}{subsubsection.1.1.6}
-\contentsline {subsubsection}{\numberline {1.1.7}Changes relative to v2}{6}{subsubsection.1.1.7}
-\contentsline {subsubsection}{\numberline {1.1.8}Changes relative to v1}{7}{subsubsection.1.1.8}
+\contentsline {subsubsection}{\numberline {1.1.1}Changes relative to v10}{4}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Changes relative to v9}{4}{subsubsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.3}Changes relative to v8}{4}{subsubsection.1.1.3}
+\contentsline {subsubsection}{\numberline {1.1.4}Changes relative to v7}{5}{subsubsection.1.1.4}
+\contentsline {subsubsection}{\numberline {1.1.5}Changes relative to v5}{5}{subsubsection.1.1.5}
+\contentsline {subsubsection}{\numberline {1.1.6}Changes relative to v4}{5}{subsubsection.1.1.6}
+\contentsline {subsubsection}{\numberline {1.1.7}Changes relative to v3}{6}{subsubsection.1.1.7}
+\contentsline {subsubsection}{\numberline {1.1.8}Changes relative to v2}{6}{subsubsection.1.1.8}
+\contentsline {subsubsection}{\numberline {1.1.9}Changes relative to v1}{7}{subsubsection.1.1.9}
 \contentsline {subsection}{\numberline {1.2}Outstanding Items}{7}{subsection.1.2}
 \contentsline {section}{\numberline {2}Executive Summary}{8}{section.2}
 \contentsline {section}{\numberline {3}Data and Monte Carlo Samples}{9}{section.3}
@@ -26,24 +27,24 @@
 \contentsline {section}{\numberline {5}tZ Separation Multivariate Analysis}{15}{section.5}
 \contentsline {subsection}{\numberline {5.1}Top Mass Reconstruction}{16}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}tZ BDT}{16}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}tZ Interference Studies}{20}{subsection.5.3}
-\contentsline {section}{\numberline {6}Event Selection and Signal Region Definitions}{23}{section.6}
-\contentsline {subsection}{\numberline {6.1}Event Preselection}{23}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Fit Regions}{27}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Non-Prompt Lepton Estimation}{43}{subsection.6.3}
-\contentsline {subsubsection}{\numberline {6.3.1}$t\bar {t}$ Validation}{43}{subsubsection.6.3.1}
-\contentsline {subsubsection}{\numberline {6.3.2}$Z$+jets Validation}{46}{subsubsection.6.3.2}
-\contentsline {section}{\numberline {7}Systematic Uncertainties}{51}{section.7}
-\contentsline {section}{\numberline {8}Results}{61}{section.8}
-\contentsline {subsection}{\numberline {8.1}Fit Procedure}{61}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Results of the Simultaneous Fit}{62}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Inclusive 1+2 Jet Fit}{73}{subsection.8.3}
-\contentsline {subsection}{\numberline {8.4}Alternate tZ Inclusive Fit}{77}{subsection.8.4}
-\contentsline {subsubsection}{\numberline {8.4.1}tZ Inclusive Fit}{77}{subsubsection.8.4.1}
-\contentsline {subsubsection}{\numberline {8.4.2}Floating tZ}{77}{subsubsection.8.4.2}
-\contentsline {section}{\numberline {9}Conclusion}{78}{section.9}
-\contentsline {section}{\numberline {A}Appendices}{81}{appendix.A}
-\contentsline {part}{Appendices}{81}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Non-prompt lepton MVA}{81}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Non-prompt CR Modelling}{83}{subsection.A.2}
-\contentsline {subsection}{\numberline {A.3}DSID list}{87}{subsection.A.3}
+\contentsline {subsection}{\numberline {5.3}tZ Interference Studies}{21}{subsection.5.3}
+\contentsline {section}{\numberline {6}Event Selection and Signal Region Definitions}{24}{section.6}
+\contentsline {subsection}{\numberline {6.1}Event Preselection}{24}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Fit Regions}{28}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Non-Prompt Lepton Estimation}{44}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}$t\bar {t}$ Validation}{44}{subsubsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.2}$Z$+jets Validation}{47}{subsubsection.6.3.2}
+\contentsline {section}{\numberline {7}Systematic Uncertainties}{52}{section.7}
+\contentsline {section}{\numberline {8}Results}{62}{section.8}
+\contentsline {subsection}{\numberline {8.1}Fit Procedure}{62}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Results of the Simultaneous Fit}{63}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Inclusive 1+2 Jet Fit}{74}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Alternate tZ Inclusive Fit}{78}{subsection.8.4}
+\contentsline {subsubsection}{\numberline {8.4.1}tZ Inclusive Fit}{78}{subsubsection.8.4.1}
+\contentsline {subsubsection}{\numberline {8.4.2}Floating tZ}{78}{subsubsection.8.4.2}
+\contentsline {section}{\numberline {9}Conclusion}{79}{section.9}
+\contentsline {section}{\numberline {A}Appendices}{82}{appendix.A}
+\contentsline {part}{Appendices}{82}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Non-prompt lepton MVA}{82}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Non-prompt CR Modelling}{84}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}DSID list}{88}{subsection.A.3}

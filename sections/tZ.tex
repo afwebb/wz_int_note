@@ -69,7 +69,7 @@ A Boosted Decision Tree (BDT), specifically XGBoost \cite{xgboost_cite}, is used
      \item Distance between each lepton and the jet, $\Delta R (lj)$
  \end{itemize}
  
-The training samples included only events meeting the requirements of the 1-jet, >60\% region, i.e. passing all the selection described in section \ref{sec:evt_selection} and having exactly one jet which passes the tightest (60\%) DL1r working point.
+The training samples included only events meeting the requirements of the 1-jet, 60\% $b$-tag region, i.e. passing all the selection described in section \ref{sec:evt_selection} and having exactly one jet which passes the tightest (60\%) DL1r working point.
  
 The distributions of a few of these features for both signal and background is shown in figure \ref{fig:tZ_kinematics}.
  
@@ -89,6 +89,16 @@ The distributions of a few of these features for both signal and background is s
     \caption{Distribution of input features of the BDT for signal (WZ) and background (tZ). Both are scaled to an equal number of events. (a), (b) and (c) show the $p_T$ of lepton 0, lepton 1, and the jet, (d) show the reconstructed top mass, (e) and (f) show the invariant mass of leptons 0 and 1, leptons 0 and 2. (g) shows the $E_T^miss$ of each event. (h) and (i) show the $\Delta R$ between lepton 0 and lepton 1, and the jet.}
     \label{fig:tZ_kinematics}
 \end{figure}
+
+Correlations between the input features are shown in figure \ref{fig:tZcorr}.
+
+\begin{figure}[H]
+\center
+        \includegraphics[width=0.85\linewidth]{tZ_bdt_ab127/plots_nlo/CorrMat.pdf}
+        \caption{Correlation matrix of the input features of the tZ separation BDT.}
+        \label{fig:tZcorr}
+\end{figure}
+
 
 A sample of 20,000 background (tZ) and signal (WZ+b) Monte Carlo events are used to train the BDT. And additional 5,000 events are reserved for testing the model, in order to prevent over-fitting. A total of 750 decision trees with a maximum depth of 6 branches are used to build the model. These parameters are chosen empirically, by training several models with different parameters and selecting the one that gave the best separation for the test sample. 
 
