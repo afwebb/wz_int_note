@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  11 JUN 2021 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  16 JUN 2021 12:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6040,7 +6040,7 @@ Package logreq Info: Writing requests to 'wz_heavy_flavor.run.xml'.
 Here is how much of TeX's memory you used:
  41566 strings out of 493013
  838215 string characters out of 6123688
- 1308817 words of memory out of 5000000
+ 1308816 words of memory out of 5000000
  43758 multiletter control sequences out of 15000+600000
  220582 words of font info for 314 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -6071,7 +6071,7 @@ fonts/t1xtt.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/
 type1/public/newtx/txbsys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/tex
 mf-dist/fonts/type1/public/newtx/txexs.pfb></cvmfs/sft.cern.ch/lcg/external/tex
 live/2016/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (99 pages, 6649300 bytes).
+Output written on wz_heavy_flavor.pdf (99 pages, 6649451 bytes).
 PDF statistics:
  2592 PDF objects out of 2984 (max. 8388607)
  1625 compressed objects within 17 object streams
