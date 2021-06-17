@@ -1,7 +1,7 @@
 
-A lepton MVA has been developed to better reject non-prompt leptons than standard cut based selections based upon impact parameter, isolation and PID. The name of this MVA is \texttt{PromptLeptonVeto}. The full set of studies and detailed explanation can be found in \cite{ttW_140}.
+A lepton MVA has been developed to better reject non-prompt leptons than standard cut-based selections based upon impact parameter, isolation and PID. The name of this MVA is \texttt{PromptLeptonVeto}. The full set of studies and a detailed explanation can be found in \cite{ttW_140}.
 
-The decays of $W$ and $Z$ bosons are commonly selected by the identification of one or two electrons or muons.  The negligible lifetimes of these bosons mean that the leptons produced in the decay originate from the interaction vertex and are thus labelled ``prompt''.  Analyses using these light leptons impose strict reconstruction quality, isolation and impact parameter requirements to remove ``fake'' leptons. A significant source of the fake light leptons are non-prompt leptons produced in decays of hadrons that contain bottom ($b$) or charm ($c$) quarks. Such hadrons typically have microscopically significant lifetimes that can be detected experimentally.
+The decays of $W$ and $Z$ bosons are commonly selected by the identification of one or two electrons or muons.  The negligible lifetimes of these bosons mean that the leptons produced in the decay originate from the interaction vertex and are thus labelled ``prompt''.  Analyses using these light leptons impose strict reconstruction quality, isolation and impact parameter requirements to remove ``fake'' leptons. A significant source of the fake light leptons is non-prompt leptons produced in decays of hadrons that contain bottom ($b$) or charm ($c$) quarks. Such hadrons typically have microscopically significant lifetimes that can be detected experimentally.
 
 These non-prompt leptons can also pass the tight selection criteria. In analyses that involve top ($t$) quarks, which decay almost exclusively into a $W$ boson and a $b$ quark, non-prompt leptons from the semileptonic decay of bottom and charm hadrons can be a significant source of background events. This is particularly the case in the selection of same-sign dilepton and multilepton final states. 
 
@@ -27,7 +27,7 @@ The main idea is to identify non-prompt light leptons using lifetime information
                         %\hline                                                                                              
          \end{tabular}}
     \end{center}                                                                                                         
-    \caption{\label{table:BODY_lepMVA_btagging_variables} A table of the variables used in the training of \texttt{PromptLeptonVeto}.}
+    \caption{\label{table:BODY_lepMVA_btagging_variables} A table of the variables used in the training of \texttt{PromptLeptonVeto} (PLV).}
 \end{table}
 
 The output distribution of the BDT is shown in Figure \ref{fig:PLV_score}.
@@ -41,7 +41,7 @@ The output distribution of the BDT is shown in Figure \ref{fig:PLV_score}.
 \end{center}
 \end{figure}
 
-The ROC curve for the BDT response, compared to the standard \verb!FixedCutTight! WP, is shown in figure \ref{fig:PLV_roc}, which shows a clear improvement when using this alternative training.
+The ROC curve for the BDT response, compared to the standard \verb!FixedCutTight! WP, is shown in figure \ref{fig:PLV_roc}, which shows a clear improvement when using this alternative identification algorithm.
 
 \begin{figure}[H]
 \begin{center}
@@ -51,6 +51,6 @@ The ROC curve for the BDT response, compared to the standard \verb!FixedCutTight
 \end{center}
 \end{figure}
 
-A cutoff value of -0.7 for electrons and -0.5 for muons are chosen as the WPs for this MVA, based on an optimisation of $S/\sqrt{B}$ performed in the preselection regions of the $t\bar{t}H-ML$ analysis, which have a signiture similar to that of this analysis.
+Cutoff values of -0.7 for electrons and -0.5 for muons are chosen as the WPs for this MVA, based on an optimisation of $S/\sqrt{B}$ performed in the preselection regions of the $t\bar{t}H-ML$ analysis, which have a signiture similar to that of this analysis.
 
-The efficiency of the tight \texttt{PromptLeptonVeto} working point is measured using the tag and probe method with $Z\rightarrow \ell^{+}\ell^{-}$ events. Such calibration are performed by analysers from this analysis in communication with the Egamma and Muon combined performance groups. The scale factor are approximately 0.92 for $10 < \pT < 15$~GeV, and averaging at 0.98 to 0.99 for higher $\pT$ leptons. An extra systematic is applied to muons within $\Delta R < 0.6$ of a calorimeter jet, since there is a strong dependence on the scale factor due to the presence of these jets. For electrons, the dominant systematics  is coming from pile-up dependence. Overall the systematics are a maximum of 3\% at low \pT and decreasing at a function of \pT.
+The efficiency of the tight \texttt{PromptLeptonVeto} working point is measured using the tag and probe method with $Z\rightarrow \ell^{+}\ell^{-}$ events. Such calibrations are performed by analysers from this analysis in communication with the Egamma and Muon combined performance groups. The scale factor is approximately 0.92 for $10 < \pT < 15$~GeV, and averages 0.98 to 0.99 for higher $\pT$ leptons. An extra systematic is applied to muons within $\Delta R < 0.6$ of a calorimeter jet, since there is a strong dependence on the scale factor due to the presence of these jets. For electrons, the dominant systematic  is coming from pile-up dependence. Overall the systematics are a maximum of 3\% at low \pT and decreasing at a function of \pT.

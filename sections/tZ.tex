@@ -1,7 +1,7 @@
 
 %Because it includes an on-shell Z boson as well as a b-jet and W from the top decay, tZ production represents an identical final state  to WZ + b-jet. This implies the possibility of matrix level interference between these two processes not accounted for in the Monte Carlo simulations, which consider the two processes independently. Truth level studies are performed in order to estimate the impact of these interference effects.
 
-Because tZ produces a final state identical to signal, it represents a predominant background in the most signal enriched regions. That is, the region with one jet passing the 60\% DL1r WP. Therefore, a boosted decision tree (BDT) algorithm is trained to separate $WZ$ + heavy flavor from tZ.
+Because tZ produces a final state identical to the signal, it represents a predominant background in the most signal enriched regions. That is, the region with one jet passing the 60\% DL1r WP. Therefore, a boosted decision tree (BDT) algorithm is trained to separate $WZ$ + heavy flavor from tZ.
 
 Separation between tZ and $WZ$ + heavy flavor is achieved in part by reconstructing the invariant mass of the top candidate, which clusters more closely to the top mass for tZ than WZ + heavy flavor. The result of this BDT is used to create a tZ enriched region in the fit, reducing its impact on the measurement of WZ + heavy flavor.
 
@@ -28,7 +28,7 @@ Separation between tZ and $WZ$ + heavy flavor is achieved in part by reconstruct
 \subsection{Top Mass Reconstruction}
 \label{subsec:topMass}
 
- The reconstruction of the top mass follows the procedure described in detail in section 6.1 of \cite{ttZ_paper}. The mass of the top quark candidate is reconstructed from the jet, the lepton not included in the Z-candidate, and a reconstructed neutrino. In the case that there is one jet in the event, there is only possible b-jet candidate. For events with two jets, the jet with the highest DL1r score is used.
+ The reconstruction of the top mass follows the procedure described in detail in section 6.1 of \cite{ttZ_paper}. The mass of the top quark candidate is reconstructed from the jet, the lepton not included in the Z-candidate, and a reconstructed neutrino. In the case that there is one jet in the event, there is only one possible b-jet candidate. For events with two jets, the jet with the highest DL1r score is used.
 
 The neutrino from the W decay is expected to be the only source of $E_T^{miss}$. Therefore, the $E_T$ and $\phi$ of the neutrino are taken from the $E_T^{miss}$ measurement. This leaves the z-component of the neutrino momentum, $p_{\nu z}$ as the only unknown.
 
@@ -71,7 +71,7 @@ A Boosted Decision Tree (BDT), specifically XGBoost \cite{xgboost_cite}, is used
  
 The training samples included only events meeting the requirements of the 1-jet, 60\% $b$-tag region, i.e. passing all the selection described in section \ref{sec:evt_selection} and having exactly one jet which passes the tightest (60\%) DL1r working point.
  
-The distributions of a few of these features for both signal and background is shown in figure \ref{fig:tZ_kinematics}.
+The distributions of a few of these features for both signal and background are shown in figure \ref{fig:tZ_kinematics}.
  
 \begin{figure}[H]
 \center
@@ -86,7 +86,7 @@ The distributions of a few of these features for both signal and background is s
     \subfigure[]{\includegraphics[width=.32\linewidth]{tZ_bdt_ab127/1j/ab127/minDeltaR_LJ_0.pdf}}\\                          
     %\subfigure[]{\includegraphics[width=.32\linewidth]{tZ_bdt_ab127/1j/ab127/DRll12.pdf}}\\
     
-    \caption{Distribution of input features of the BDT for signal (WZ) and background (tZ). Both are scaled to an equal number of events. (a), (b) and (c) show the $p_T$ of lepton 0, lepton 1, and the jet, (d) show the reconstructed top mass, (e) and (f) show the invariant mass of leptons 0 and 1, leptons 0 and 2. (g) shows the $E_T^miss$ of each event. (h) and (i) show the $\Delta R$ between lepton 0 and lepton 1, and the jet.}
+    \caption{Distribution of input features of the BDT for signal (WZ) and background (tZ). Both are scaled to an equal number of events. (a), (b) and (c) show the $p_T$ of lepton 0, lepton 1, and the jet, (d) shows the reconstructed top mass, (e) and (f) show the invariant mass of leptons 0 and 1, leptons 0 and 2. (g) shows the $E_T^miss$ of each event. (h) and (i) show the $\Delta R$ between lepton 0 and lepton 1, and the jet. See section \ref{subsec:presel} for definitions of lepton numbering.}
     \label{fig:tZ_kinematics}
 \end{figure}
 
@@ -100,9 +100,9 @@ Correlations between the input features are shown in figure \ref{fig:tZcorr}.
 \end{figure}
 
 
-A sample of 20,000 background (tZ) and signal (WZ+b) Monte Carlo events are used to train the BDT. And additional 5,000 events are reserved for testing the model, in order to prevent over-fitting. A total of 750 decision trees with a maximum depth of 6 branches are used to build the model. These parameters are chosen empirically, by training several models with different parameters and selecting the one that gave the best separation for the test sample. 
+A sample of 20,000 background (tZ) and signal (WZ+b) Monte Carlo events each are used to train the BDT. And additional 5,000 events are reserved for testing the model, in order to prevent over-fitting. A total of 750 decision trees with a maximum depth of 6 branches are used to build the model. These parameters are chosen empirically, by training several models with different parameters and selecting the one that gave the best separation for the test sample. 
 
-The results of the BDT training are shown in figure \ref{fig:tZ_bdt}. The output scores for both signal and background events is shown on the left. The right shows the receiving operating characteristic (ROC) curve that results from the MVA. The ROC curve represents the background rejection as a function of signal efficiency, where each point on the curve represents a different response score.
+The results of the BDT training are shown in figure \ref{fig:tZ_bdt}. The output scores for both signal and background events is shown on the left. The right shows the receiving operating characteristic (ROC) curve that results from the MVA. The ROC curve represents the background rejection as a function of signal rejection, where each point on the curve represents a different response score.
 
 \begin{figure}[H] 
 \center
@@ -112,7 +112,7 @@ The results of the BDT training are shown in figure \ref{fig:tZ_bdt}. The output
     \label{fig:tZ_bdt}
 \end{figure}
 
-The relative important of each input feature in the model, measured by how often they appeared in the decision trees, is shown in figure \ref{fig:tZ_fImp}.
+The relative importance of each input feature in the model, measured by how often they appeared in the decision trees, is shown in figure \ref{fig:tZ_fImp}.
 
 \begin{figure}[H] 
 \center
@@ -121,7 +121,7 @@ The relative important of each input feature in the model, measured by how often
         \label{fig:tZ_fImp}
 \end{figure}
 
-These results suggest that some amount of separation can be achieved between these two processes, with a high BDT score selecting a set of events that is pure in $WZ$ + b. A BDT score of 0.12 is selected as a cutoff, where events with scores higher than this form a signal enriched region, and events with scores lower than this form a tZ control region. This cutoff is selected by varying the value of this cutoff in stat-only Asimov fits, and selecting the value that minimizes the statistical uncertainty on WZ + b. A working point of 0.12 produces a background rejection rate of 74\%, compared to a signal acceptance of 78\%.
+These results suggest that some amount of separation can be achieved between these two processes, with a high BDT score selecting a set of events that is pure in $WZ$ + b. A BDT score of 0.12 is selected as a cutoff, where events with scores higher than this form a signal enriched region, and events with scores lower than this form a tZ control region. This cutoff is selected by varying its value in stat-only Asimov fits, and selecting the one that minimizes the statistical uncertainty on WZ + b. A working point of 0.12 produces a background rejection rate of 74\%, compared to a signal acceptance of 78\%.
 
 The possibility of using solely the reconstructed top mass shown in Figure \ref{fig:topMass} to separate tZ and WZ + $b$ was considered, and produced the ROC curve shown in Figure \ref{fig:topRoc}. This shows significantly reduced separation compared to the BDT, justifying the use of the more complex BDT in the analysis.
 

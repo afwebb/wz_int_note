@@ -1,12 +1,12 @@
 
-Event are required to pass a preselection described in Section \ref{subsec:presel} and summarized in Table \ref{tbl:selection}. Those that pass this preselection are divided into various fit regions described in Section \ref{subsec:regions}, based on the number of jets in the event, and the b-tag score of those jets.
+Events are required to pass a preselection described in Section \ref{subsec:presel} and summarized in Table \ref{tbl:selection}. Those that pass this preselection are divided into various fit regions described in Section \ref{subsec:regions}, based on the number of jets in the event, and the b-tag score of those jets.
 
 %--------------------------- 
 \subsection{Event Preselection}
 \label{subsec:presel}
 %--------------------------- 
 
-Events are required to include exactly three reconstructed light leptons passing the requirement described in \ref{subsec:leps}, which have a total charge of $\pm$1. %As the opposite sign lepton is found to be prompt the vast majority of the time \cite{ttH_paper}, it is required to be loose and isolated, as defined though the standard \verb|PLVLoose| working point supported by combined performance groups. The same sign leptons are required to be very tightly isolated, as per the recommended \verb|PLVTight|.
+Events are required to include exactly three reconstructed light leptons passing the requirements described in \ref{subsec:leps}, which have a total charge of $\pm$1. %As the opposite sign lepton is found to be prompt the vast majority of the time \cite{ttH_paper}, it is required to be loose and isolated, as defined though the standard \verb|PLVLoose| working point supported by combined performance groups. The same sign leptons are required to be very tightly isolated, as per the recommended \verb|PLVTight|.
 
 The leptons are ordered in the analysis code as 0, 1, and 2. Lepton 0 is the lepton whose charge is opposite the other two. Lepton 1 is the lepton closest to the opposite charge lepton, i.e. the smallest $\Delta R$, leaving lepton 2 as the lepton further from the opposite charge lepton. Lepton 0 is required to have $p_T > 10$ GeV, as it is found to be prompt the vast majority of the time, while the same sign leptons, 1 and 2, are required to have $p_T > 20$ GeV to reduce the contribution of non-prompt leptons, as non-prompt leptons tend to be soft.  
 
@@ -35,7 +35,7 @@ Events are required to have one or two reconstructed jets passing the selection 
     \label{tbl:selection}
 \end{table}
 
-The event yields in the preselection region for both data and Monte Carlo are summarized in Table \ref{tab:evt_yields}, which shows good agreement between data and Monte Carlo, and demonstrates that this region consists primarily of WZ + jets events. The WZ events are split into WZ + b, WZ + c, and WZ + l based on the truth flavor of the associated jet in the event. Specifically, this determination is made based on the \verb!HadronConeExclTruthLabelID! of the jet, as recommended by the b-tagging working group \cite{BtagWG}. In this ordering b-jet supersede charm, which supersides light. That is, WZ + light events contain no charm and no b jets at truth level, WZ + $c$ contain at least one truth charm and no b-jets, and WZ + $b$ contains at least one truth b-jet. 
+The event yields in the preselection region for both data and Monte Carlo are summarized in Table \ref{tab:evt_yields}, which shows good agreement between data and Monte Carlo, and demonstrates that this region consists primarily of WZ + jets events. The WZ events are split into WZ + b, WZ + c, and WZ + l based on the truth flavor of the associated jet in the event. Specifically, this determination is made based on the \verb!HadronConeExclTruthLabelID! of the jet, as recommended by the b-tagging working group \cite{BtagWG}. In this ordering a b-jet identification supersedes charm, which supersedes light. That is, WZ + light events contain no charm and no b jets at truth level, WZ + $c$ contain at least one truth charm and no b-jets, and WZ + $b$ contains at least one truth b-jet. 
 
 \begin{table}[H] 
     \centering
@@ -75,7 +75,7 @@ Once preselection has been applied, the remaining events are categorized into on
 
 \begin{table}[H] 
 \centering
-\caption{A list of the regions used in the fit and the selection used for each.}
+\caption{A list of the regions used in the fit and the selection used for each. In the two jet regions, only one of the jets is required to pass the corresponding b-tagging WP.}
 \begin{tabular}{l|l}
 \hline\hline
 Region & Selection            \\
@@ -109,7 +109,7 @@ An unfolding procedure is performed to account for differences in the number of 
 \label{fig:migrationMat}
 \end{figure}
 
-An additional tZ control region is created based on the BDT described in Section \ref{sec:tZ_bdt}. The region with 1-jet passing the 60\% working point is split in two - a signal enriched region of events with a BDT score greater than 0.12, and a tZ control region including events with a score less than 0.12. This cutoff is arrived at by performing a fit an Asimov dataset with a variety of cutoffs, and selecting the value that produces the highest significance for the measurement of WZ + $b$.
+An additional tZ control region is created based on the BDT described in Section \ref{sec:tZ_bdt}. The region with 1-jet passing the 60\% working point is split in two - a signal enriched region of events with a BDT score greater than 0.12, and a tZ control region including events with a score less than 0.12. This cutoff is arrived at by performing a fit to an Asimov dataset with a variety of cutoffs, and selecting the value that produces the highest significance for the measurement of WZ + $b$.
 
 The modeling in each region is validated by comparing data and MC predictions for various kinematic distributions. Events containing 5\% or more WZ + $b$ are blinded. These plot are shown in Figures \ref{kin:WP_1j_inc}-\ref{kin:tZ_CR_2j}.
 
@@ -343,13 +343,13 @@ The modeling in each region is validated by comparing data and MC predictions fo
 \label{sec:fakes}
 %---------------------------
 
-Two processes act as sources of non-prompt leptons appear in the analysis: $t\bar{t}$ and $Z$+jet production both produce two prompt leptons, and each contribute to the 3l region when an additional non-prompt lepton appears in the event. The contribution of these processes is estimated with Monte Carlo simulations, which are validated using enriched validation regions.
+Two processes that act as sources of non-prompt leptons appear in the analysis: $t\bar{t}$ and $Z$+jet production both produce two prompt leptons, and each contribute to the 3l region when an additional non-prompt lepton appears in the event. The contribution of these processes is estimated with Monte Carlo simulations, which are validated using enriched validation regions.
 
 The modelling in the Z+jets and $t\bar{t}$ CRs is further validated for each of the pseudo-continuous b-tag regions used in the analysis. The relevant lepton \pt spectrum in each b-tag region is shown in Appendix \ref{sec:fakeCR_plots} for these CRs  after the correction factors derived below have been applied.
 
 \subsubsection{$t\bar{t}$ Validation}
 
-$t\bar{t}$ events can produce two prompt leptons from the decay of each of the tops. These top decays produce two b-quarks, the decay of which can produce additional non-prompt leptons, which occasionally pass the event preselection. In order to validate that the Monte Carlo accurately simulates this process accurately, the MC prediction in a non-prompt $t\bar{t}$ enriched validation region is compared to data.
+$t\bar{t}$ events can produce two prompt leptons from the decay of each of the tops. These top decays produce two b-quarks, the decay of which can produce additional non-prompt leptons, which occasionally pass the event preselection. In order to validate that the Monte Carlo simulates this process accurately, the MC prediction in a non-prompt $t\bar{t}$ enriched validation region is compared to data.
 
 The $t\bar{t}$ validation region is similar to the preselection region - three leptons meeting the criteria described in Section \ref{sec:evt_selection} are required, and the requirements on $E_T^{miss}$ remain the same. However, the selection requiring that a lepton pair form a Z-candidate are reversed. Events where the invariant mass of any two opposite sign, same flavor leptons falls within 10 GeV of 91.2 GeV are rejected. This ensures the $t\bar{t}$ validation region is orthogonal to the preselection region. 
 
@@ -400,7 +400,7 @@ As data and MC are found to agree within 20\% for each of these working points, 
 
 \subsubsection{$Z$+jets Validation}
 
-Similar to $t\bar{t}$, a non-prompt $Z$+jets validation region is produced in order to validate the MC predictions. The lepton requirements remain the same as the preselection region. Because no neutrinos are present for this process, the $E_T^{miss}$ cut is reversed, requiring $E_T^{miss}$ < 30 GeV. This also ensures this validation region is orthogonal to the preselection region. Further, the number of jets in each event is required to be greater than or equal to one. Various kinematic plots of this region are shown below. The general agreement between data and MC in each of these suggests that the non-prompt contribution of $Z$+jets is well modeled by Monte Carlo.
+Similar to $t\bar{t}$, a $Z$+jets validation region is produced in order to validate the MC predictions. The lepton requirements remain the same as the preselection region. Because no neutrinos are present for this process, the $E_T^{miss}$ cut is reversed, requiring $E_T^{miss}$ < 30 GeV. This also ensures this validation region is orthogonal to the preselection region. Further, the number of jets in each event is required to be greater than or equal to one. Various kinematic plots of this region are shown below. The general agreement between data and MC in each of these suggests that the contribution of $Z$+jets is well modeled by Monte Carlo.
 
 \begin{figure}[H] 
     \subfigure[]{\includegraphics[width=0.29\textwidth]{zjets/noScale/lead_jetPt.png}}%                          
