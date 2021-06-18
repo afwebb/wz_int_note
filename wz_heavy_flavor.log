@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  17 JUN 2021 10:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.12.14)  17 JUN 2021 23:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**wz_heavy_flavor.tex
+**wz_heavy_flavor
 (./wz_heavy_flavor.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
@@ -2966,16 +2966,16 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 
 ] [5]
 
-LaTeX Warning: Reference `tbl:tightleps' on page 6 undefined on input line 190.
+LaTeX Warning: Reference `tbl:tightleps' on page 6 undefined on input line 191.
 
 
 [6]
 
 LaTeX Warning: Reference `subsec:interference' on page 7 undefined on input lin
-e 206.
+e 207.
 
 
-LaTeX Warning: Reference `tbl:tightleps' on page 7 undefined on input line 218.
+LaTeX Warning: Reference `tbl:tightleps' on page 7 undefined on input line 219.
 
 
 [7] (./sections/intro.tex
@@ -3013,7 +3013,7 @@ e.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.251 
+l.252 
       ] (./sections/reco.tex [12pdfTeX warning (ext4): destination with the sam
 e identifier (name{table.2}) has been already used, duplicate ignored
 
@@ -3392,7 +3392,7 @@ gure.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.263 
+l.264 
        <./figures/tZInterference/lep1pt-eps-converted-to.pdf> <./figures/tZInte
 rference/lep2pt-eps-converted-to.pdf> <./figures/tZInterference/lep3pt-eps-conv
 erted-to.pdf> <./figures/tZInterference/lepPairMass23-eps-converted-to.pdf> <./
@@ -5390,7 +5390,7 @@ on input line 251.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.275 
+l.276 
        <./figures/signalModel/truthJets/plots/migrations_bjets.pdf, page is rot
 ated 90 degrees> <./figures/signalModel/truthJets/plots/migrations_charm.pdf, p
 age is rotated 90 degrees> <./figures/signalModel/truthJets/plots/migrations_li
@@ -5597,12 +5597,12 @@ e same identifier (name{table.24}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.284 \section{Conclusion}
+l.285 \section{Conclusion}
                           ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 296.
+(Font)              scaled to size 10.95pt on input line 297.
  [80]
-Overfull \hbox (3.876pt too wide) in paragraph at lines 301--301
+Overfull \hbox (3.876pt too wide) in paragraph at lines 302--302
 []\T1/ntxtlf/m/n/10.95 E. Re. `  Single-top Wt-channel pro-duc-tion matched wit
 h par-ton showers us-ing the POWHEG
  []
@@ -5610,7 +5610,7 @@ h par-ton showers us-ing the POWHEG
 [81] [82]
 
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 317.
+(hyperref)                than one, level fixed on input line 318.
 
 (./sections/lepMVA.tex
 
@@ -5655,7 +5655,7 @@ l.53
       <./figures/PLV_electrons.JPG> <./figures/PLV_muons.JPG>])
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 321.
+(hyperref)                than one, level fixed on input line 322.
 
 (./sections/fakes_CR.tex
 <figures/valZjets_lepPtW/Plots/not_85.png, id=2326, 598.235pt x 674.52pt>
@@ -5846,7 +5846,7 @@ ut line 47.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.324 
+l.325 
        <./figures/valTtbar_lepPt0/Plots/not_85.png> <./figures/valTtbar_lepPt0/
 Plots/WP_1b_77_85.png> <./figures/valTtbar_lepPt0/Plots/WP_1b_70_77.png> <./fig
 ures/valTtbar_lepPt0/Plots/WP_1b_60_70.png> <./figures/valTtbar_lepPt0/Plots/WP
@@ -6031,13 +6031,13 @@ Overfull \hbox (2595.29416pt too wide) in alignment at lines 682--699
  []
 
 [99]) [100]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 374.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 374.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 375.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 375.
  (./wz_heavy_flavor.aux (./sections/xsecUnc.aux)
 (./sections/tables/yields1j.aux) (./sections/tables/yields1j_postFit.aux)
 (./sections/tables/yields2j.aux) (./sections/tables/yields2j_postFit.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 374.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 374.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 375.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 375.
 Package rerunfilecheck Info: File `wz_heavy_flavor.out' has not changed.
 (rerunfilecheck)             Checksum: 85CBF1022E5B6932A7CDDC143E1B66FF;3299.
 
@@ -6062,7 +6062,7 @@ Here is how much of TeX's memory you used:
  43768 multiletter control sequences out of 15000+600000
  220582 words of font info for 314 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,24n,74p,10411b,2367s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,24n,74p,10407b,2367s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/enc/dvips/newt
 x/ntx-ec-tlf-sc.enc}{/cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fo
 nts/enc/dvips/tex-gyre/q-ts1.enc}{/cvmfs/sft.cern.ch/lcg/external/texlive/2016/
@@ -6089,7 +6089,7 @@ fonts/t1xtt.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/texmf-dist/fonts/
 type1/public/newtx/txbsys.pfb></cvmfs/sft.cern.ch/lcg/external/texlive/2016/tex
 mf-dist/fonts/type1/public/newtx/txexs.pfb></cvmfs/sft.cern.ch/lcg/external/tex
 live/2016/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on wz_heavy_flavor.pdf (100 pages, 6696204 bytes).
+Output written on wz_heavy_flavor.pdf (100 pages, 6433908 bytes).
 PDF statistics:
  2609 PDF objects out of 2984 (max. 8388607)
  1638 compressed objects within 17 object streams
